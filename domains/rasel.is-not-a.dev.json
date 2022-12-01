@@ -5,7 +5,7 @@
   "subdomain": "rasel",
   "owner": {},
   "record": {
-    "CNAME": "resellerways.com"
+    "CNAME": "resellerways.com."
   },
   "proxy": false
 }
