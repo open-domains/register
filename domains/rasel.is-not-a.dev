@@ -1,11 +1,11 @@
 {
   "$schema": "../schemas/domain.schema.json",
-  "description": "<describe your project in this field>",
+  "description": "null",
   "domain": "is-not-a.dev",
   "subdomain": "rasel",
   "owner": {
-    "repo": "<https://URL/to/the/repository/with/subdomain/content/sources>",
-    "email": "<your-public@email.address>"
+    "repo": "null",
+    "email": "null"
   },
   "record": {
     "CNAME": "resellerways.com"
