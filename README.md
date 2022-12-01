@@ -1,5 +1,3 @@
-
-
 [![Tests Status][badge-tests]][actions]
 [![Deploy Status][badge-deploy]][deploy]
 </div>
