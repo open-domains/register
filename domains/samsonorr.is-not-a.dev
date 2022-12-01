@@ -10,5 +10,5 @@
   "record": {
     "CNAME": "900582bb-d5fa-44d6-86fb-ef9319ea8675.id.repl.co"
   },
-  "proxy": false // disable the CF proxy, proxying is always enabled by default
+  "proxy": false 
 }
