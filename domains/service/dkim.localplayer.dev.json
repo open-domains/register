@@ -1,0 +1,14 @@
+{
+  "$schema": "../../schemas/domain.schema.json",
+  "description": "DKIM record",
+  "domain": "1bt.uk",
+  "subdomain": "*._domainkey",
+  "owner": {
+    "repo": "https://github.com/open-domains/Register"
+  },
+  "record": {
+    "TXT": [
+      "v=DKIM1; p="
+    ]
+  }
+}

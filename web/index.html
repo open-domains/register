@@ -1,0 +1,165 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width,initial-scale=1">
+  <title>A free subdomain for developers on the web</title>
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <link rel="preconnect" href="https://fonts.bunny.net">
+  <link href="https://fonts.bunny.net/css?family=source-sans-pro:400,700" rel="stylesheet" />
+
+  <link rel="apple-touch-icon" sizes="152x152" href="favicon/apple-touch-icon.png">
+  <link rel="icon" type="image/png" sizes="32x32" href="favicon/favicon-32x32.png">
+  <link rel="icon" type="image/png" sizes="16x16" href="favicon/favicon-16x16.png">
+  <!-- <link rel="manifest" href="webmanifest.json">-->
+  <link rel="mask-icon" href="favicon/safari-pinned-tab.svg" color="#5bbad5">
+
+  <style>
+    :root {
+      --color-bg-primary: #fff;
+      --color-bg-secondary: #00a6d5;
+      --color-bg-inverted: #151515;
+      --color-text-primary: #151515;
+      --color-text-inverted: #fff;
+    }
+
+    @media (prefers-color-scheme: dark) {
+      :root {
+        --color-bg-primary: #2f2f2f;
+        --color-bg-secondary: #3bc1e1;
+        --color-bg-inverted: #fff;
+        --color-text-primary: #fff;
+        --color-text-inverted: #2f2f2f;
+      }
+    }
+
+    body, html {
+      background-color: var(--color-bg-primary);
+      color: var(--color-text-primary);
+      font-family: 'Source Sans Pro', Arial, Helvetica, sans-serif;
+      font-size: 16px;
+      margin: 0;
+      padding: 0;
+      height: 100vh;
+    }
+
+    body {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+    }
+
+    main {
+      width: 800px;
+    }
+
+    header {
+      margin-bottom: 2em;
+    }
+
+    .url-example {
+      position: relative;
+      background-color: var(--color-bg-secondary);
+      color: var(--color-text-inverted);
+      padding: 10px 20px;
+      font-weight: 700;
+      font-size: 3em;
+      z-index: 1;
+    }
+
+    .url-example:after {
+      position: absolute;
+      content: "";
+      top: 0;
+      width: 1.65em;
+      height: 1.65em;
+      right: -0.825em;
+      transform: scale(0.3, 0.707) rotate(45deg);
+      z-index: -1;
+      background-color: var(--color-bg-secondary);
+    }
+
+    p.large {
+      font-size: 1.7em;
+    }
+
+    p {
+      font-size: 1.4em;
+      font-weight: 400;
+      padding: 1em 0 0 0;
+      margin: 0;
+      line-height: 1.5;
+    }
+
+    p.small {
+      font-size: 1em;
+    }
+
+    a {
+      color: var(--color-bg-secondary);
+    }
+
+    @media (max-width: 800px) {
+      main {
+        padding: 0 30px;
+      }
+
+      .url-example {
+        font-size: 1.6em;
+        padding: 6px 10px;
+      }
+
+      p.large {
+        font-size: 1.3em;
+      }
+
+      p {
+        font-size: 1.1em;
+      }
+
+      p.small {
+        font-size: .8em;
+      }
+    }
+  </style>
+</head>
+<body>
+<main>
+  <header>
+    <span class="url-example">https://<span class="typed"></span>.is-an.app</span>
+  </header>
+  <article>
+    <p class="large">
+      Are you a developer exploring an awesome domain name for your application, personal website, or project?
+      You came to the right place!
+    </p>
+    <p>
+      This service offers a handy subdomain service for you to have a subdomain via <strong>CNAME</strong>,
+      <strong>A</strong>, <strong>AAAA</strong>, or <strong>NS</strong> DNS records.
+      In limited cases, you can use a wildcard subdomain.
+    </p>
+    <p>
+      Fork the <a href="https://github.com/tarampampam/free-domains">repository</a>, add a subdomain, and send a <a
+      href="https://github.com/tarampampam/free-domains/pulls" target="_parent">Pull Request</a>. We will make it
+      work!
+    </p>
+    <p class="small">
+      Crafted with ❤ by <a href="https://github.com/tarampampam">@tarampampam</a>
+    </p>
+  </article>
+</main>
+
+<script src="https://cdnjs.cloudflare.com/ajax/libs/typed.js/2.0.12/typed.min.js"
+        integrity="sha512-3J8teBiHrSyaaRBajZyIEtpDsXdPq1gsznKWIVb5CnorQuFhjWGhWe54z8YNnHHr7MZuExb9m5kvf964HiT1Sw=="
+        crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+<script>
+  new Typed('.typed', { // https://github.com/mattboldt/typed.js
+    strings: ['example', 'foo', '4free', 'your'],
+    typeSpeed: 140,
+    backDelay: 2000,
+    showCursor: false,
+    loop: true,
+  })
+</script>
+</body>
+</html>
