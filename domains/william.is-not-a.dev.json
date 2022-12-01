@@ -1,0 +1,17 @@
+{
+  "$schema": "../schemas/domain.schema.json",
+  "description": "Redirect to william.net.au",
+
+  "domain": "is-not-a.dev",
+  "subdomain": "william",
+
+  "owner": {
+    "email": "william@williamharrison.dev"
+  },
+
+  "record": {
+    "CNAME": "dns.williamharrison.xyz."
+  },
+
+  "proxy": false
+}
