@@ -1,0 +1,14 @@
+{
+  "$schema": "../schemas/domain.schema.json",
+  "description": "<describe your project in this field>",
+  "domain": "is-not-a.dev",
+  "subdomain": "hitler",
+  "owner": {
+    "repo": "<https://URL/to/the/repository/with/subdomain/content/sources>",
+    "email": "<your-public@email.address>"
+  },
+  "record": {
+    "A": ["154.6.137.2"]
+  },
+  "proxy": false
+}
