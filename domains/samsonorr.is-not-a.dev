@@ -4,7 +4,7 @@
   "domain": "is-not-a.dev",
   "subdomain": "null",
   "owner": {
-    "repo": "<https://URL/to/the/repository/with/subdomain/content/sources>",
+    "repo": "null",
     "email": "null"
   },
   "record": {
