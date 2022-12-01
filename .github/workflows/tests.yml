@@ -1,0 +1,48 @@
+name: tests
+
+on:
+  workflow_dispatch: {}
+  push:
+    branches: [master, main]
+    tags-ignore: ['**']
+    paths-ignore: ['**.md', 'web/**']
+  pull_request:
+    paths-ignore: ['**.md', 'web/**']
+
+concurrency:
+  group: ${{ github.ref }}-tests
+  cancel-in-progress: true
+
+jobs:
+  gitleaks:
+    name: GitLeaks
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v3
+        with: {fetch-depth: 0}
+
+      - uses: gacts/gitleaks@v1
+
+  check:
+    name: DNSControl check
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v3
+
+      - uses: gacts/install-dnscontrol@v1
+
+      - run: dnscontrol check
+
+  validate-schemas:
+    name: Validate schemas
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v3
+
+      - uses: walbo/validate-json@v1.1.0
+        with:
+          schema-version: draft-07
+          print-valid-files: true
+          fail-on-missing-schema: true
+          strict: false
+          files: ./domains/**/*.json

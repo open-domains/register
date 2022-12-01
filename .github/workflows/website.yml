@@ -1,0 +1,30 @@
+name: website
+
+on:
+  push:
+    branches: [master, main]
+    paths: [web/**, .github/workflows/website.yml]
+
+concurrency:
+  group: ${{ github.ref }}-website
+  cancel-in-progress: true
+
+jobs:
+  update:
+    name: Publish website
+    permissions:
+      pages: write
+      id-token: write
+    environment:
+      name: github-pages
+      url: ${{ steps.deployment.outputs.page_url }}
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v3
+
+      - uses: actions/configure-pages@v2
+
+      - uses: actions/upload-pages-artifact@v1
+        with: {path: web}
+
+      - {uses: actions/deploy-pages@v1, id: deployment}
