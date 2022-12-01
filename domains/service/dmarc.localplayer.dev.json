@@ -1,7 +1,7 @@
 {
   "$schema": "../../schemas/domain.schema.json",
   "description": "DMARC record",
-  "domain": "1bt.uk",
+  "domain": "localplayer.dev",
   "subdomain": "_dmarc",
   "owner": {
     "repo": "https://github.com/open-domains/Register"
