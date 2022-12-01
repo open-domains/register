@@ -8,7 +8,7 @@
     "email": "null"
   },
   "record": {
-    "CNAME": "unnervingduck.github.io"
+    "CNAME": "unnervingduck.github.io."
   },
   "proxy": false // disable the CF proxy, proxying is always enabled by default
 }
