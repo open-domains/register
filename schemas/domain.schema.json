@@ -14,8 +14,8 @@
     "domain": {
       "type": "string",
       "enum": [
-        "1bt.uk",
-        "is-an.app"
+        "is-not-a.dev",
+        "localplayer.dev"
       ]
     },
     "subdomain": {
