@@ -1,7 +1,7 @@
 {
   "$schema": "../../schemas/domain.schema.json",
   "description": "DMARC record",
-  "domain": "is-an.app",
+  "domain": "is-not-a.dev",
   "subdomain": "_dmarc",
   "owner": {
     "repo": "https://github.com/open-domains/Register"
