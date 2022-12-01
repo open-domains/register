@@ -1,6 +1,6 @@
 {
   "$schema": "../schemas/domain.schema.json",
-  "description": "Root domain",
+  "description": "Root domains",
   "domain": "is-not-a.dev",
   "subdomain": "@",
   "owner": {
