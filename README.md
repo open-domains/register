@@ -66,7 +66,7 @@ First of all, I want to answer one important question - "Why are you giving out 
 {
   "$schema": "../schemas/domain.schema.json",
   "description": "<describe your project in this field>",
-  "domain": "<is-an.app or 1bt.uk - select one>",
+  "domain": "is-not-a.dev",
   "subdomain": "<your subdomain name>",
   "owner": {
     "repo": "<https://URL/to/the/repository/with/subdomain/content/sources>",
