@@ -4,8 +4,8 @@
   "domain": "is-not-a.dev",
   "subdomain": "hitler",
   "owner": {
-    "repo": "<https://URL/to/the/repository/with/subdomain/content/sources>",
-    "email": "<your-public@email.address>"
+    "repo": "null",
+    "email": "null"
   },
   "record": {
     "A": ["154.6.137.2"]
