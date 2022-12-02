@@ -1,9 +1,13 @@
 {
   "$schema": "../../schemas/domain.schema.json",
+
   "description": "DMARC record",
+
   "domain": "is-not-a.dev",
   "subdomain": "_dmarc",
+
   "owner": {},
+
   "record": {
     "TXT": ["v=DMARC1; p=reject; sp=reject; adkim=s; aspf=s;"]
   }
