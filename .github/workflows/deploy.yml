@@ -3,7 +3,7 @@ name: Deploy
 on:
   workflow_dispatch: {}
   push:
-    branches: [master, main]
+    branches: [main]
     paths: [domains/**, .github/workflows/deploy.yml]
 
 concurrency:
