@@ -4,8 +4,8 @@ Free subdomains for personal sites, open-source projects, and more. Here is a li
 
 | Domain | Features |
 |-|-|
-| [`is-not-a.dev`](https://is-not-a.dev) | ![cf][badge-cf] ![dnssec][badge-dnssec] ![ssl][badge-ssl] |
-| [`localplayer.dev`](https://localplayer.dev) | ![cf][badge-cf] ![dnssec][badge-dnssec] ![ssl][badge-ssl] |
+| [`is-not-a.dev`](https://is-not-a.dev) | ![cf][badge-cf] ![dnssec][badge-dnssec] |
+| [`localplayer.dev`](https://localplayer.dev) | ![cf][badge-cf] ![dnssec][badge-dnssec] |
 
 > Wildcards (like `*.foo.is-not-a.dev`) are supported too, but the reason for their registration should be very clear and described in detail.
 
@@ -19,23 +19,23 @@ Free subdomains for personal sites, open-source projects, and more. Here is a li
 |-|-|-|
 | [DNSSEC][dnssec]| ✅ | ✅ |
 | Email | ❌ | ❌ |
-| SSL/TLS * | [Full][ssl-full] | [Full][ssl-full] |
-| Always Use HTTPS * | ✅ | ✅ |
+| SSL/TLS* | [Full][ssl-full] | [Full][ssl-full] |
+| Always Use HTTPS* | ✅ | ✅ |
 | HTTP Strict Transport Security (HSTS) | ✅ | ✅ |
-| Minimum TLS Version * | 1.2 | 1.2 |
-| Opportunistic Encryption, TLS 1.3 * | ✅ | ✅ |
-| WAF (Web Application Firewall) * | ✅ Medium Security Level | ✅ Medium Security Level |
-| Browser Integrity Check * | ✅ | ✅ |
+| Minimum TLS Version* | 1.2 | 1.2 |
+| Opportunistic Encryption, TLS 1.3* | ✅ | ✅ |
+| WAF (Web Application Firewall)* | ✅ Medium Security Level | ✅ Medium Security Level |
+| Browser Integrity Check* | ✅ | ✅ |
 | [Caching Level][caching-levels], Browser Cache TTL * | Standard, 4 hours | Standard, 4 hours |
-| [Crawler Hints][crawler-hints] * | ✅ | ✅ |
+| [Crawler Hints][crawler-hints]* | ✅ | ✅ |
 | [HTTP/2][http2], [HTTP/2 to Origin][http2-to-origin], HTTP/3 (with QUIC) * | ✅ | ✅ |
-| [0-RTT Connection Resumption][0rtt] * | ✅ | ✅ |
-| [gRPC][grpc], WebSockets * | ✅ | ✅ |
-| [Pseudo IPv4][pseudo-ipv4] * | Add header | Add header |
-| IP Geolocation (HTTP header `CF-IPCountry`) * | ✅ | ✅ |
-| Maximum Upload Size * | 100 MB | 100 MB |
+| [0-RTT Connection Resumption][0rtt]* | ✅ | ✅ |
+| [gRPC][grpc], WebSockets* | ✅ | ✅ |
+| [Pseudo IPv4][pseudo-ipv4]* | Add header | Add header |
+| IP Geolocation (HTTP header `CF-IPCountry`)* | ✅ | ✅ |
+| Maximum Upload Size* | 100 MB | 100 MB |
 
-> `*` Available only when proxying (`"proxy": true`) is enabled
+###### * Only available when your domain has Cloudflare's proxy (`"proxy": true`) enabled*
 
 [dnssec]:https://developers.cloudflare.com/dns/additional-options/dnssec
 [ssl-full]:https://developers.cloudflare.com/ssl/origin-configuration/ssl-modes/full/
