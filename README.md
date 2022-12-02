@@ -99,3 +99,7 @@ First of all, I want to answer one important question - "Why are you giving out 
 [deploy]:https://github.com/open-domains/Register/actions/workflows/deploy.yml
 
 [![paypal](https://www.paypalobjects.com/en_US/i/btn/btn_donateCC_LG.gif)](https://www.paypal.com/paypalme/andrewstechyoutube))
+
+# CI
+
+The CI which this repo is forked from is found [here](https://github.com/tarampampam/free-domains)
