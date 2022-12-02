@@ -3,12 +3,8 @@
   "description": "DMARC record",
   "domain": "is-not-a.dev",
   "subdomain": "_dmarc",
-  "owner": {
-    "repo": "https://github.com/open-domains/Register"
-  },
+  "owner": {},
   "record": {
-    "TXT": [
-      "v=DMARC1; p=reject; sp=reject; adkim=s; aspf=s;"
-    ]
+    "TXT": ["v=DMARC1; p=reject; sp=reject; adkim=s; aspf=s;"]
   }
 }
