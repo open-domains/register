@@ -1,6 +1,5 @@
-# @link <https://help.github.com/en/articles/about-code-owners>
-
 * @open-domains/owners
 
-domains/** @open-domains/maintainers
+domains/* @open-domains/maintainers
 
+*.md @WilliamDavidHarrison
