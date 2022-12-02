@@ -1,4 +1,4 @@
-name: deploy
+name: Deploy
 
 on:
   workflow_dispatch: {}
@@ -12,7 +12,7 @@ concurrency:
 
 jobs:
   check:
-    name: Deploy DNS changes
+    name: Deploy Changes
     runs-on: ubuntu-latest
     environment: production
     steps:
