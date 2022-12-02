@@ -76,7 +76,7 @@ Wildcard domains (like `*.example.is-not-a.dev`) are supported too, but the reas
     "A": ["1.1.1.1", "1.0.0.1"],
     "AAAA": ["::1", "::2"],
     "CNAME": "example.com.",
-    "NS": ["ns1.example.com", "ns2.example.com"],
+    "NS": ["ns1.example.com.", "ns2.example.com."],
     "TXT": ["example_verification=1234567890"]
   },
 
