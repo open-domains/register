@@ -1,13 +1,13 @@
 [![Tests Status][badge-tests]][actions]
 [![Deploy Status][badge-deploy]][deploy]
-</div>
 
+# Open Domains
 Free subdomains for personal sites, open-source projects, and more. Here is a list of supported domain names:
 
-|              Domain name              |                         Features                          |
-|:-------------------------------------:|:---------------------------------------------------------:|
-| ⚡ [`*.localplayer.dev`](https://localplayer.dev/) | ![cf][badge-cf] ![dnssec][badge-dnssec] ![ssl][badge-ssl] |
-|             ⚡ [`*.is-not-a.dev`](https://is-not-a.dev/)              |          ![cf][badge-cf] ![dnssec][badge-dnssec] ![ssl][badge-ssl]          |
+| Domain | Features |
+|-|-|
+| [`*.localplayer.dev`](https://localplayer.dev) | ![cf][badge-cf] ![dnssec][badge-dnssec] ![ssl][badge-ssl] |
+| [`*.is-not-a.dev`](https://is-not-a.dev) | ![cf][badge-cf] ![dnssec][badge-dnssec] ![ssl][badge-ssl] |
 
 > Wildcards (like `*.foo.is-not-a.dev`) are supported too, but the reason for their registration should be very clear and described in detail.
 
@@ -56,28 +56,33 @@ First of all, I want to answer one important question - "Why are you giving out 
 
 # How to get one?
 
-1. Star and [fork](https://github.com/open-domains/Register/fork) this repository (follow [this guide](https://github.com/firstcontributions/first-contributions) if you don't  know how to make a contributions)
-2. Add a new file called `<your-subdomain-name>.<root-domain>.json` in the `./domains` folder to register `<your-subdomain-name>` subdomain
-3. Edit it (below is just an **example**, provide a **valid** JSON file with your needs, the format is very strict; format you can [check here](https://jsonlint.com/)):
+1. Star and [fork](https://github.com/open-domains/register/fork) this repository (follow [this guide](https://github.com/firstcontributions/first-contributions) if you don't know how to make a contribution)
+2. Add a new file called `example.domain.json` in the `/domains` folder to register `example` subdomain
+3. Edit it (below is just an **example**, provide a **valid** JSON file with your needs, the format is very strict; format you can [check here](https://jsonlint.com)):
 
 ```json
 {
   "$schema": "../schemas/domain.schema.json",
-  "description": "<describe your project in this field>",
+
+  "description": "Project Description",
+
   "domain": "is-not-a.dev",
-  "subdomain": "<your subdomain name>",
+  "subdomain": "example",
+
   "owner": {
-    "repo": "<https://URL/to/the/repository/with/subdomain/content/sources>",
-    "email": "<your-public@email.address>"
+    "repo": "https://github.com/username/repo",
+    "email": "hello@example.com"
   },
+
   "record": {
-    "CNAME": "<cname-domain-with-a-dot-at-the-end>",
-    "TXT": ["list", "of", "required", "txt", "records"],
-    "A": ["list", "of", "IPv4", "addresses", "like", "a", "127.0.0.1"],
-    "AAAA": ["list", "of", "IPv6", "addresses", "like", "a", "::1"],
-    "NS": ["list", "of", "nameservers"]
+    "A": ["1.1.1.1", "1.0.0.1"],
+    "AAAA": ["::1", "::2"],
+    "CNAME": "example.com.",
+    "NS": ["ns1.example.com", "ns2.example.com"],
+    "TXT": ["example_verification=1234567890"]
   },
-  "proxy": false // disable the CF proxy, proxying is always enabled by default
+
+  "proxy": false
 }
 ```
 
@@ -85,20 +90,15 @@ First of all, I want to answer one important question - "Why are you giving out 
 5. After the pull request is merged, please allow up to 24 hours for the changes to propagate _(usually, it takes 5..15 minutes)_
 6. Enjoy your new domain!
 
-> Domains, used for illegal purposes will be removed and permanently banned. Please, provide a clear description of your resource in the PR.
+> Domains used for illegal purposes will be removed and permanently banned. Please, provide a clear description of your resource in the pull request.
 
-## If you don't know...
+### If you don't know...
 
-- What is GitHub pages and how to set up a custom domain, read the [docs here](https://docs.github.com/en/pages/configuring-a-custom-domain-for-your-github-pages-site)
+- What is GitHub Pages and how to set up a custom domain, read the [docs here](https://docs.github.com/en/pages/configuring-a-custom-domain-for-your-github-pages-site)
 - The difference between `A`, `CNAME`, and other record types, the article on Wikipedia [is here](https://en.wikipedia.org/wiki/List_of_DNS_record_types)
-
-> 🔍 A few similar services can be [found here](https://free-for.dev/#/?id=domain).
 
 [badge-tests]:https://img.shields.io/github/workflow/status/open-domains/Register/tests?label=tests&logo=github&style=for-the-badge
 [badge-deploy]:https://img.shields.io/github/workflow/status/open-domains/Register/deploy?label=deploy&logo=github&style=for-the-badge
 
 [actions]:https://github.com/open-domains/Register/actions
 [deploy]:https://github.com/open-domains/Register/actions/workflows/deploy.yml
-
-# This repo was forked from 
-https://github.com/tarampampam/free-domains
