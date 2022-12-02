@@ -6,8 +6,8 @@ Free subdomains for personal sites, open-source projects, and more. Here is a li
 
 | Domain | Features |
 |-|-|
-| [`*.localplayer.dev`](https://localplayer.dev) | ![cf][badge-cf] ![dnssec][badge-dnssec] ![ssl][badge-ssl] |
-| [`*.is-not-a.dev`](https://is-not-a.dev) | ![cf][badge-cf] ![dnssec][badge-dnssec] ![ssl][badge-ssl] |
+| [`localplayer.dev`](https://localplayer.dev) | ![cf][badge-cf] ![dnssec][badge-dnssec] ![ssl][badge-ssl] |
+| [`is-not-a.dev`](https://is-not-a.dev) | ![cf][badge-cf] ![dnssec][badge-dnssec] ![ssl][badge-ssl] |
 
 > Wildcards (like `*.foo.is-not-a.dev`) are supported too, but the reason for their registration should be very clear and described in detail.
 
@@ -15,13 +15,13 @@ Free subdomains for personal sites, open-source projects, and more. Here is a li
 [badge-dnssec]:https://shields.io/badge/%20-DNSSEC-blue?logo=moleculer&logoColor=white&style=plastic?cacheSeconds=3600
 [badge-ssl]:https://shields.io/badge/SSL-Required-blue?style=plastic?cacheSeconds=3600
 
-## Why?
+### Why?
 
 First of all, I want to answer one important question - "Why are you giving out domains for free?". Because sometimes I need domains for my pet projects, and instead of buying new domains every time, I decided to buy one for everyone, and use subdomains. And why not share them with the community?
 
-## Domains settings
+## Domain Settings
 
-| Option | `*.is-not-a.dev` | `*.localplayer.dev` |
+| Option | `is-not-a.dev` | `localplayer.dev` |
 |-|-|-|
 | [DNSSEC][dnssec]| ✅ | ✅ |
 | Email | ❌ | ❌ |
@@ -54,9 +54,9 @@ First of all, I want to answer one important question - "Why are you giving out 
 [grpc]:https://support.cloudflare.com/hc/en-us/articles/360050483011
 [pseudo-ipv4]:https://support.cloudflare.com/hc/en-us/articles/229666767
 
-# How to get one?
+## Register a Domain
 
-1. Star and [fork](https://github.com/open-domains/register/fork) this repository (follow [this guide](https://github.com/firstcontributions/first-contributions) if you don't know how to make a contribution)
+1. **Star and [Fork](https://github.com/open-domains/register/fork)** this repository (follow [this guide](https://github.com/firstcontributions/first-contributions) if you don't know how to make a contribution)
 2. Add a new file called `example.domain.json` in the `/domains` folder to register `example` subdomain
 3. Edit it (below is just an **example**, provide a **valid** JSON file with your needs, the format is very strict; format you can [check here](https://jsonlint.com)):
 
