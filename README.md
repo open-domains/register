@@ -26,7 +26,7 @@ Wildcard domains (like `*.example.is-not-a.dev`) are supported too, but the reas
 | HTTP Strict Transport Security (HSTS) | ✅ | ✅ |
 | Minimum TLS Version* | 1.2 | 1.2 |
 | Opportunistic Encryption, TLS 1.3* | ✅ | ✅ |
-| WAF (Web Application Firewall)* | ✅ Medium Security Level | ✅ Medium Security Level |
+| WAF (Web Application Firewall)* | Medium Security Level | Medium Security Level |
 | Browser Integrity Check* | ✅ | ✅ |
 | [Caching Level][caching-levels], Browser Cache TTL * | Standard, 4 hours | Standard, 4 hours |
 | [Crawler Hints][crawler-hints]* | ✅ | ✅ |
@@ -52,7 +52,8 @@ Wildcard domains (like `*.example.is-not-a.dev`) are supported too, but the reas
 
 ## Register a Domain
 
-1. **Star and [Fork](https://github.com/open-domains/register/fork)** this repository (follow [this guide](https://github.com/firstcontributions/first-contributions) if you don't know how to make a contribution)
+1. **Star** and **[Fork](https://github.com/open-domains/register/fork)**
+    - *Starring the repository is required and ischecked*
 2. Add a new file called `example.domain.json` in the `/domains` folder to register `example` subdomain
 3. Edit it (below is just an **example**, provide a **valid** JSON file with your needs, the format is very strict; format you can [check here](https://jsonlint.com)):
 
