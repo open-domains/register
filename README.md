@@ -8,8 +8,8 @@
 
 | Domain | Features |
 |-|-|
-| [`is-not-a.dev`](https://is-not-a.dev) | ![cf][badge-cf] ![dnssec][badge-dnssec] |
-| [`localplayer.dev`](https://localplayer.dev) | ![cf][badge-cf] ![dnssec][badge-dnssec] |
+| [`*.is-not-a.dev`](https://is-not-a.dev) | ![cf][badge-cf] ![dnssec][badge-dnssec] |
+| [`*.localplayer.dev`](https://localplayer.dev) | ![cf][badge-cf] ![dnssec][badge-dnssec] |
 
 Wildcard domains (like `*.example.is-not-a.dev`) are supported too, but the reason for their registration should be very clear and described in detail.
 
