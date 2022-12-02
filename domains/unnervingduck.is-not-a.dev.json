@@ -1,11 +1,16 @@
 {
   "$schema": "../schemas/domain.schema.json",
+
   "description": "unnervingduck.is-not-a.dev (migrated from old service)",
+
   "domain": "is-not-a.dev",
   "subdomain": "unnervingduck",
+
   "owner": {},
+
   "record": {
     "CNAME": "unnervingduck.github.io."
   },
+
   "proxy": false
 }
