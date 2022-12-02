@@ -97,3 +97,5 @@ First of all, I want to answer one important question - "Why are you giving out 
 
 [actions]:https://github.com/open-domains/Register/actions
 [deploy]:https://github.com/open-domains/Register/actions/workflows/deploy.yml
+
+[![paypal](https://www.paypalobjects.com/en_US/i/btn/btn_donateCC_LG.gif)]([https://www.paypal.com/cgi-bin/webscr?cmd=_s-xclick&hosted_button_id=RGQ8NSYPA59FL](https://www.paypal.com/paypalme/andrewstechyoutube))
