@@ -1,11 +1,15 @@
 {
   "$schema": "../schemas/domain.schema.json",
+
   "description": "Root domain",
+
   "domain": "is-not-a.dev",
   "subdomain": "@",
+
   "owner": {
     "repo": "https://github.com/open-domains/register"
   },
+
   "record": {
     "A": [
       "185.199.108.153",
@@ -13,14 +17,16 @@
       "185.199.110.153",
       "185.199.111.153"
     ],
+
     "AAAA": [
       "2606:50c0:8000::153",
       "2606:50c0:8001::153",
       "2606:50c0:8002::153",
       "2606:50c0:8003::153"
     ],
+
     "TXT": ["v=spf1 ~all"]
   },
+
   "proxy": false
 }
-
