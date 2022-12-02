@@ -1,14 +1,11 @@
 {
   "$schema": "../schemas/domain.schema.json",
-  "description": "null",
+  "description": "rasel.is-not-a.dev (migrated from old service)",
   "domain": "is-not-a.dev",
   "subdomain": "rasel",
-  "owner": {
-    "repo": "null",
-    "email": "null"
-  },
+  "owner": {},
   "record": {
-    "CNAME": "resellerways.com"
+    "CNAME": "resellerways.com."
   },
   "proxy": false
 }
