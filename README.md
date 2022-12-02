@@ -2,6 +2,8 @@
 
 <p align="center">Free subdomains for personal sites, open-source projects, and more.</p>
 
+Want to find services similar to this? Take a look on [free-for.dev](https://free-for.dev/#/?id=domain).
+
 ## Domains
 
 | Domain | Features |
