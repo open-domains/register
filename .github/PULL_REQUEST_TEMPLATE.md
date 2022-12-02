@@ -8,5 +8,9 @@
 - [x] There is sufficient information at the `owner` field.
    - *You should have your email presented. If you don't want to share email, you can leave email an empty string (`""`) and add any other social media such as Twitter or Discord.*
 
-### Link to Website
+## Description
+<!-- Please provide a description below of what you will be using the domain for. -->
+
+
+## Link to Website
 <!-- Please provide a link to your website below. -->
