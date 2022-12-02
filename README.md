@@ -1,6 +1,6 @@
 <h1 align="center">Open Domains</h1>
 
-<p align="center">Free subdomains for personal sites, open-source projects, and more. Here is a list of supported domain names:</p>
+<p align="center">Free subdomains for personal sites, open-source projects, and more.</p>
 
 ## Domains
 
