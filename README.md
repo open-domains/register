@@ -1,13 +1,11 @@
-[![Tests Status][badge-tests]][actions]
-[![Deploy Status][badge-deploy]][deploy]
-
 # Open Domains
+
 Free subdomains for personal sites, open-source projects, and more. Here is a list of supported domain names:
 
 | Domain | Features |
 |-|-|
-| [`localplayer.dev`](https://localplayer.dev) | ![cf][badge-cf] ![dnssec][badge-dnssec] ![ssl][badge-ssl] |
 | [`is-not-a.dev`](https://is-not-a.dev) | ![cf][badge-cf] ![dnssec][badge-dnssec] ![ssl][badge-ssl] |
+| [`localplayer.dev`](https://localplayer.dev) | ![cf][badge-cf] ![dnssec][badge-dnssec] ![ssl][badge-ssl] |
 
 > Wildcards (like `*.foo.is-not-a.dev`) are supported too, but the reason for their registration should be very clear and described in detail.
 
@@ -15,13 +13,9 @@ Free subdomains for personal sites, open-source projects, and more. Here is a li
 [badge-dnssec]:https://shields.io/badge/%20-DNSSEC-blue?logo=moleculer&logoColor=white&style=plastic?cacheSeconds=3600
 [badge-ssl]:https://shields.io/badge/SSL-Required-blue?style=plastic?cacheSeconds=3600
 
-### Why?
-
-First of all, I want to answer one important question - "Why are you giving out domains for free?". Because sometimes I need domains for my pet projects, and instead of buying new domains every time, I decided to buy one for everyone, and use subdomains. And why not share them with the community?
-
 ## Domain Settings
 
-| Option | `is-not-a.dev` | `localplayer.dev` |
+| Setting | `is-not-a.dev` | `localplayer.dev` |
 |-|-|-|
 | [DNSSEC][dnssec]| ✅ | ✅ |
 | Email | ❌ | ❌ |
@@ -30,7 +24,7 @@ First of all, I want to answer one important question - "Why are you giving out 
 | HTTP Strict Transport Security (HSTS) | ✅ | ✅ |
 | Minimum TLS Version * | 1.2 | 1.2 |
 | Opportunistic Encryption, TLS 1.3 * | ✅ | ✅ |
-| WAF (Web Application Firewall) * | ✅ (Medium Security Level) | ✅ (Medium Security Level) |
+| WAF (Web Application Firewall) * | ✅ Medium Security Level | ✅ Medium Security Level |
 | Browser Integrity Check * | ✅ | ✅ |
 | [Caching Level][caching-levels], Browser Cache TTL * | Standard, 4 hours | Standard, 4 hours |
 | [Crawler Hints][crawler-hints] * | ✅ | ✅ |
@@ -90,15 +84,16 @@ First of all, I want to answer one important question - "Why are you giving out 
 5. After the pull request is merged, please allow up to 24 hours for the changes to propagate _(usually, it takes 5..15 minutes)_
 6. Enjoy your new domain!
 
-> Domains used for illegal purposes will be removed and permanently banned. Please, provide a clear description of your resource in the pull request.
+*Domains used for illegal purposes will be removed and permanently banned. Please, provide a clear description of your resource in the pull request.*
+
+### Why?
+
+First of all, I want to answer one important question - "Why are you giving out domains for free?". Because sometimes I need domains for my pet projects, and instead of buying new domains every time, I decided to buy one for everyone, and use subdomains. And why not share them with the community?
 
 ### If you don't know...
 
 - What is GitHub Pages and how to set up a custom domain, read the [docs here](https://docs.github.com/en/pages/configuring-a-custom-domain-for-your-github-pages-site)
 - The difference between `A`, `CNAME`, and other record types, the article on Wikipedia [is here](https://en.wikipedia.org/wiki/List_of_DNS_record_types)
-
-[badge-tests]:https://img.shields.io/github/workflow/status/open-domains/Register/tests?label=tests&logo=github&style=for-the-badge
-[badge-deploy]:https://img.shields.io/github/workflow/status/open-domains/Register/deploy?label=deploy&logo=github&style=for-the-badge
 
 [actions]:https://github.com/open-domains/Register/actions
 [deploy]:https://github.com/open-domains/Register/actions/workflows/deploy.yml
