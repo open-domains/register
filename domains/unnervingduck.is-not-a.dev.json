@@ -1,14 +1,16 @@
 {
   "$schema": "../schemas/domain.schema.json",
-  "description": "null",
+
+  "description": "unnervingduck.is-not-a.dev (migrated from old service)",
+
   "domain": "is-not-a.dev",
   "subdomain": "unnervingduck",
-  "owner": {
-    "repo": "null",
-    "email": "null"
-  },
+
+  "owner": {},
+
   "record": {
     "CNAME": "unnervingduck.github.io."
   },
-  "proxy": false // disable the CF proxy, proxying is always enabled by default
+
+  "proxy": false
 }
