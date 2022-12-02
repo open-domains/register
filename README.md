@@ -1,19 +1,21 @@
-# Open Domains
+<h1 align="center">Open Domains</h1>
 
-Free subdomains for personal sites, open-source projects, and more. Here is a list of supported domain names:
+<p align="center">Free subdomains for personal sites, open-source projects, and more. Here is a list of supported domain names:</p>
+
+## Domains
 
 | Domain | Features |
 |-|-|
 | [`is-not-a.dev`](https://is-not-a.dev) | ![cf][badge-cf] ![dnssec][badge-dnssec] |
 | [`localplayer.dev`](https://localplayer.dev) | ![cf][badge-cf] ![dnssec][badge-dnssec] |
 
-> Wildcards (like `*.foo.is-not-a.dev`) are supported too, but the reason for their registration should be very clear and described in detail.
+Wildcard domains (like `*.example.is-not-a.dev`) are supported too, but the reason for their registration should be very clear and described in detail.
 
 [badge-cf]:https://shields.io/badge/%20-cloudflare-blue?logo=cloudflare&style=plastic?cacheSeconds=3600
 [badge-dnssec]:https://shields.io/badge/%20-DNSSEC-blue?logo=moleculer&logoColor=white&style=plastic?cacheSeconds=3600
 [badge-ssl]:https://shields.io/badge/SSL-Required-blue?style=plastic?cacheSeconds=3600
 
-## Domain Settings
+### Settings
 
 | Setting | `is-not-a.dev` | `localplayer.dev` |
 |-|-|-|
@@ -35,7 +37,7 @@ Free subdomains for personal sites, open-source projects, and more. Here is a li
 | IP Geolocation (HTTP header `CF-IPCountry`)* | ✅ | ✅ |
 | Maximum Upload Size* | 100 MB | 100 MB |
 
-###### * Only available when your domain has Cloudflare's proxy (`"proxy": true`) enabled*
+\*Only available when your domain has Cloudflare's proxy (`"proxy": true`) enabled
 
 [dnssec]:https://developers.cloudflare.com/dns/additional-options/dnssec
 [ssl-full]:https://developers.cloudflare.com/ssl/origin-configuration/ssl-modes/full/
@@ -89,11 +91,6 @@ Free subdomains for personal sites, open-source projects, and more. Here is a li
 ### Why?
 
 First of all, I want to answer one important question - "Why are you giving out domains for free?". Because sometimes I need domains for my pet projects, and instead of buying new domains every time, I decided to buy one for everyone, and use subdomains. And why not share them with the community?
-
-### If you don't know...
-
-- What is GitHub Pages and how to set up a custom domain, read the [docs here](https://docs.github.com/en/pages/configuring-a-custom-domain-for-your-github-pages-site)
-- The difference between `A`, `CNAME`, and other record types, the article on Wikipedia [is here](https://en.wikipedia.org/wiki/List_of_DNS_record_types)
 
 [actions]:https://github.com/open-domains/Register/actions
 [deploy]:https://github.com/open-domains/Register/actions/workflows/deploy.yml
