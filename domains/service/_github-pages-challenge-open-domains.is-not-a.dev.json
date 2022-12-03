@@ -1,5 +1,5 @@
 {
-  "$schema": "../schemas/domain.schema.json",
+  "$schema": "../../schemas/domain.schema.json",
 
   "description": "GitHub Pages Verification",
 
