@@ -13,9 +13,9 @@ If you like this service and want us to continue running it, please consider don
 
 | Domain |
 |-|
+| [`is-local.org`](https://is-local.org) |
 | [`is-not-a.dev`](https://is-not-a.dev) |
 | [`localplayer.dev`](https://localplayer.dev) |
-| [`is-local.org`](is-local.org) |
 
 Wildcard domains (like `*.example.is-not-a.dev`) are supported too, but the reason for their registration should be very clear and described in detail.
 
@@ -25,18 +25,18 @@ Wildcard domains (like `*.example.is-not-a.dev`) are supported too, but the reas
 
 ### Settings
 
-| Setting | `is-not-a.dev` | `localplayer.dev` | `is-local.org` |
+| Setting | `is-local.org` | `is-not-a.dev` | `localplayer.dev` |
 |-|-|-|-|
 | [DNSSEC][dnssec]| ✅ | ✅ | ✅ |
-| Email | ❌ | ❌ | ✅ |
+| Email | ✅ | ❌ | ❌ |
 | SSL/TLS* | [Full][ssl-full] | [Full][ssl-full] | [Full][ssl-full] |
-| Always Use HTTPS* | ✅ | ✅ | ❌ |
-| HTTP Strict Transport Security (HSTS) | ✅ | ✅ | ❌ |
+| Always Use HTTPS* | ❌ | ✅ | ✅ |
+| HTTP Strict Transport Security (HSTS) | ❌ | ✅ | ✅ |
 | Minimum TLS Version* | 1.2 | 1.2 | 1.2 |
 | Opportunistic Encryption, TLS 1.3* | ✅ | ✅ | ✅ |
 | WAF (Web Application Firewall)* | Medium Security Level | Medium Security Level | Medium Security Level |
 | Browser Integrity Check* | ✅ | ✅ | ✅ |
-| [Caching Level][caching-levels], Browser Cache TTL * | Standard, 4 hours | Standard, 4 hours | standard, 4 hours |
+| [Caching Level][caching-levels], Browser Cache TTL * | Standard, 4 hours | Standard, 4 hours | Standard, 4 hours |
 | [Crawler Hints][crawler-hints]* | ✅ | ✅ | ✅ |
 | [HTTP/2][http2], [HTTP/2 to Origin][http2-to-origin], HTTP/3 (with QUIC) * | ✅ | ✅ | ✅ |
 | [0-RTT Connection Resumption][0rtt]* | ✅ | ✅ | ✅ |
