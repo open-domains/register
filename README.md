@@ -28,7 +28,7 @@ Wildcard domains (like `*.example.is-not-a.dev`) are supported too, but the reas
 | Setting | `is-local.org` | `is-not-a.dev` | `localplayer.dev` |
 |-|-|-|-|
 | [DNSSEC][dnssec]| ✅ | ✅ | ✅ |
-| Email | ✅ | ❌ | ❌ |
+| Email | ✅ | ✅ | ✅ |
 | SSL/TLS* | [Full][ssl-full] | [Full][ssl-full] | [Full][ssl-full] |
 | Always Use HTTPS* | ❌ | ✅ | ✅ |
 | HTTP Strict Transport Security (HSTS) | ❌ | ✅ | ✅ |
@@ -82,6 +82,7 @@ Wildcard domains (like `*.example.is-not-a.dev`) are supported too, but the reas
     "A": ["1.1.1.1", "1.0.0.1"],
     "AAAA": ["::1", "::2"],
     "CNAME": "example.com.",
+    "MX": ["mx1.example.com.", "mx2.example.com."],
     "NS": ["ns1.example.com.", "ns2.example.com."],
     "TXT": ["example_verification=1234567890"]
   },
@@ -90,7 +91,7 @@ Wildcard domains (like `*.example.is-not-a.dev`) are supported too, but the reas
 }
 ```
 
-4. Your pull request will be reviewed and merged. Please, don't ignore the PR checklist. If you ignore this repository rules, your PR will be ignored too. _Make sure to keep an eye on it in case we need you to make any changes!_
+4. Your pull request will be reviewed and merged. Please, don't ignore the pull requestchecklist. If you ignore the checklist, your pull request will be ignored too. _Make sure to keep an eye on it in case we need you to make any changes!_
 5. After the pull request is merged, please allow up to 24 hours for the changes to propagate _(usually, it takes 5..15 minutes)_
 6. Enjoy your new domain!
 
