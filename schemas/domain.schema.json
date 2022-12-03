@@ -15,7 +15,8 @@
       "type": "string",
       "enum": [
         "is-not-a.dev",
-        "localplayer.dev"
+        "localplayer.dev",
+        "is-local.org"
       ]
     },
     "subdomain": {
