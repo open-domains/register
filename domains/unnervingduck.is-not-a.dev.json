@@ -1,14 +1,13 @@
 {
   "$schema": "../schemas/domain.schema.json",
 
-  "description": "unnervingduck.is-not-a.dev (migrated from old service). My personal website.",
+  "description": "My personal website.",
 
   "domain": "is-not-a.dev",
   "subdomain": "unnervingduck",
 
   "owner": {
-  "repo": "https://github.com/unnervingduck/register",
-  "email": "unnervingduck.j7ur4@simplelogin.com"
+    "email": "unnervingduck.j7ur4@simplelogin.com"
   },
 
   "record": {
