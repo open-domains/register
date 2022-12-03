@@ -1,0 +1,16 @@
+{
+  "$schema": "../../schemas/domain.schema.json",
+
+  "description": "GitHub Verification",
+
+  "domain": "is-local.org",
+  "subdomain": "_github-challenge-open-domains-org",
+
+  "owner": {},
+
+  "record": {
+    "TXT": ["a4bfc1b628"]
+  },
+
+  "proxy": false
+}
