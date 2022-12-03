@@ -4,6 +4,11 @@
 
 <p align="center">Want to find services similar to this? Take a look on <a href="https://free-for.dev/#/?id=domain">free-for.dev</a>.</p>
 
+## Donate
+If you like this service and want us to continue running it, please consider donating!
+
+[![PayPal](https://www.paypalobjects.com/en_US/i/btn/btn_donateCC_LG.gif)](https://paypal.me/andrewstechyoutube)
+
 ## Domains
 
 | Domain | Features |
@@ -94,11 +99,5 @@ Wildcard domains (like `*.example.is-not-a.dev`) are supported too, but the reas
 
 First of all, I want to answer one important question - "Why are you giving out domains for free?". Because sometimes I need domains for my pet projects, and instead of buying new domains every time, I decided to buy one for everyone, and use subdomains. And why not share them with the community?
 
-[actions]:https://github.com/open-domains/Register/actions
-[deploy]:https://github.com/open-domains/Register/actions/workflows/deploy.yml
-
-[![paypal](https://www.paypalobjects.com/en_US/i/btn/btn_donateCC_LG.gif)](https://www.paypal.com/paypalme/andrewstechyoutube))
-
-# CI
-
-The CI which this repo is forked from is found [here](https://github.com/tarampampam/free-domains)
+#### Credits
+The CI which this service uses is forked from [here](https://github.com/tarampampam/free-domains).
