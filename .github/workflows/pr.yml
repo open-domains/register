@@ -1,4 +1,4 @@
-name: pr
+name: PR
 
 on:
   pull_request_target:
@@ -7,7 +7,7 @@ on:
 
 jobs:
   check-user-star:
-    name: Check the user's star
+    name: Check Star
     runs-on: ubuntu-latest
     steps:
       - {uses: gacts/is-stargazer@v1, with: {username: '${{ github.event.pull_request.user.login }}'}, id: check-star}
@@ -15,32 +15,32 @@ jobs:
       - if: steps.check-star.outputs.is-stargazer != 'true'
         uses: actions/github-script@v6
         with:
-          script: core.setFailed('⭐ Please, star this repository!')
+          script: core.setFailed('⭐ Please star this repository!')
 
-  checklist:
-    name: Message a checklist to the PR
-    runs-on: ubuntu-latest
-    permissions:
-      contents: read
-      pull-requests: write
-    steps:
-      - uses: thollander/actions-comment-pull-request@v1
-        with:
-          message: |
-            Your PR has been created! Please now wait for a maintainer to approve it.
+#   checklist:
+#     name: Checklist
+#     runs-on: ubuntu-latest
+#     permissions:
+#       contents: read
+#       pull-requests: write
+#     steps:
+#       - uses: thollander/actions-comment-pull-request@v1
+#         with:
+#           message: |
+#             Your PR has been created! Please now wait for a maintainer to approve it.
 
-            > ### Made a mistake in the record?
-            >
-            > Don't worry, you can edit the changes in your repo and they should automatically be added to this PR.
+#             > ### Made a mistake in the record?
+#             >
+#             > Don't worry, you can edit the changes in your repo and they should automatically be added to this PR.
 
-            Please, make sure that your PR passes the following checklist:
+#             Please, make sure that your PR passes the following checklist:
 
-            - ⭐ You have starred this repository
-            - 🗒 The file with your subdomain has a `.json` extension, doesn't contain comments (`// ...`), and is well formatted (indent size - 2 spaces)
-            - 👤 There is sufficient information in the `owner` field
-            - 📋 You have clearly described a reason for the domain registration (and what you plan to use it for) in the PR description
-            - 🔗 The website is reachable and a link to it is in the PR description
-            - ✅ All CI checks are passed
+#             - ⭐ You have starred this repository
+#             - 🗒 The file with your subdomain has a `.json` extension and is formatted (indent size - 2 spaces).
+#             - 👤 There is sufficient information in the `owner` field.
+#             - 📋 You have clearly described a reason for the domain registration (and what you plan to use it for) in the pull request's description
+#             - 🔗 The website is reachable and a link to it is in the pull request description
+#             - ✅ All CI checks have passed
 
-            <!--ID:CHECKLIST-->
-          comment_includes: <!--ID:CHECKLIST-->
+#             <!--ID:CHECKLIST-->
+#           comment_includes: <!--ID:CHECKLIST-->

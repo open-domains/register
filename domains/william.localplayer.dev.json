@@ -11,7 +11,7 @@
   },
 
   "record": {
-    "CNAME": "dns.williamharrison.xyz."
+    "NS": ["ns1.digitalocean.com.", "ns2.digitalocean.com.", "ns3.digitalocean.com."]
   },
 
   "proxy": false

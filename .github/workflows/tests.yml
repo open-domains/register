@@ -1,4 +1,4 @@
-name: tests
+name: Tests
 
 on:
   workflow_dispatch: {}
@@ -24,7 +24,7 @@ jobs:
       - uses: gacts/gitleaks@v1
 
   check:
-    name: DNSControl check
+    name: DNSControl Check
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v3
@@ -34,7 +34,7 @@ jobs:
       - run: dnscontrol check
 
   validate-schemas:
-    name: Validate schemas
+    name: Validate Schemas
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v3

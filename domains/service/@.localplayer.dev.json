@@ -1,5 +1,5 @@
 {
-  "$schema": "../schemas/domain.schema.json",
+  "$schema": "../../schemas/domain.schema.json",
 
   "description": "Root domain",
 
@@ -7,7 +7,7 @@
   "subdomain": "@",
 
   "owner": {
-    "repo": "https://github.com/open-domains/register"
+    "repo": "https://github.com/open-domains/localplayer.dev"
   },
 
   "record": {
