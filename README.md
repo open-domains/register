@@ -95,9 +95,5 @@ Wildcard domains (like `*.example.is-not-a.dev`) are supported too, but the reas
 
 *Domains used for illegal purposes will be removed and permanently banned. Please, provide a clear description of your resource in the pull request.*
 
-### Why?
-
-First of all, I want to answer one important question - "Why are you giving out domains for free?". Because sometimes I need domains for my pet projects, and instead of buying new domains every time, I decided to buy one for everyone, and use subdomains. And why not share them with the community?
-
 #### Credits
 The CI which this service uses is forked from [here](https://github.com/tarampampam/free-domains).
