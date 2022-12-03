@@ -1,12 +1,15 @@
 {
   "$schema": "../schemas/domain.schema.json",
 
-  "description": "unnervingduck.is-not-a.dev (migrated from old service)",
+  "description": "unnervingduck.is-not-a.dev (migrated from old service). My personal website.",
 
   "domain": "is-not-a.dev",
   "subdomain": "unnervingduck",
 
-  "owner": {},
+  "owner": {
+  "repo": "https://github.com/unnervingduck/register",
+  "email": "unnervingduck.j7ur4@simplelogin.com"
+  },
 
   "record": {
     "CNAME": "unnervingduck.github.io."
