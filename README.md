@@ -11,10 +11,10 @@ If you like this service and want us to continue running it, please consider don
 
 ## Domains
 
-| Domain | Features |
-|-|-|
-| [`*.is-not-a.dev`](https://is-not-a.dev) | ![cf][badge-cf] ![dnssec][badge-dnssec] |
-| [`*.localplayer.dev`](https://localplayer.dev) | ![cf][badge-cf] ![dnssec][badge-dnssec] |
+| Domain |
+|-|
+| [`is-not-a.dev`](https://is-not-a.dev) |
+| [`localplayer.dev`](https://localplayer.dev) |
 
 Wildcard domains (like `*.example.is-not-a.dev`) are supported too, but the reason for their registration should be very clear and described in detail.
 
