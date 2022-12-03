@@ -71,7 +71,7 @@ for (var idx in domains) {
   if (domainData.record.MX) {
     for (var mx in domainData.record.MX) {
       commit[domainData.domain].push(
-        MX(domainData.subdomain, 10, domainData.record.MX[mx], proxyState) // https://stackexchange.github.io/dnscontrol/js#CNAME
+        MX(domainData.subdomain, 10, domainData.record.MX[mx]) // https://stackexchange.github.io/dnscontrol/js#CNAME
       )
     }  
   }
