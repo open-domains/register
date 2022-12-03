@@ -1,0 +1,18 @@
+{
+  "$schema": "../../schemas/domain.schema.json",
+
+  "description": "www Redirect",
+
+  "domain": "is-local.org",
+  "subdomain": "www",
+
+  "owner": {
+    "repo": "https://github.com/open-domains/is-local.org"
+  },
+
+  "record": {
+    "A": ["51.161.153.115"]
+  },
+
+  "proxy": false
+}
