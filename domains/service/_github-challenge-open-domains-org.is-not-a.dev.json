@@ -1,0 +1,16 @@
+{
+  "$schema": "../schemas/domain.schema.json",
+
+  "description": "GitHub Verification",
+
+  "domain": "is-not-a.dev",
+  "subdomain": "_github-challenge-open-domains-org",
+
+  "owner": {},
+
+  "record": {
+    "TXT": ["f4214d9ac0"]
+  },
+
+  "proxy": false
+}
