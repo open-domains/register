@@ -1,17 +1,4 @@
-<h1 align="center">Open Domains</h1>
 
-<p align="center">Free subdomains for personal sites, open-source projects, and more.</p>
-
-<p align="center">Want to find services similar to this? Take a look on <a href="https://free-for.dev/#/?id=domain">free-for.dev</a>.</p>
-
-## Donate
-If you like this service and want us to continue running it, please consider donating!
-
-[![PayPal](https://www.paypalobjects.com/en_US/i/btn/btn_donateCC_LG.gif)](https://paypal.me/andrewstechyoutube)
-
-## Domains
-
-| Domains we offer |
 |-|
 | [`is-local.org`](https://is-local.org) |
 | [`is-not-a.dev`](https://is-not-a.dev) |
