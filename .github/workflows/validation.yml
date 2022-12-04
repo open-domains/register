@@ -1,4 +1,4 @@
-name: Tests
+name: Validation
 
 on:
   workflow_dispatch: {}
