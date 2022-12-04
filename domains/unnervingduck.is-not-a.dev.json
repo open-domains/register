@@ -11,7 +11,8 @@
   },
 
   "record": {
-    "CNAME": "unnervingduck.github.io."
+    "CNAME": "unnervingduck.github.io.",
+    "TXT": ["_github-pages-challenge-unnervingduck.unnervingduck=ac1ce6761270684af2e22bc6287cfb"]
   },
 
   "proxy": false
