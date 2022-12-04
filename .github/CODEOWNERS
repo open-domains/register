@@ -1,5 +1,11 @@
+# All Files
 * @open-domains/owners
 
+# Service Domains
+domains/service/* @open-domains/owners
+
+# User Domains
 domains/* @open-domains/maintainers
 
-*.md @WilliamDavidHarrison
+# MD Files
+*.md @open-domains/maintainers
