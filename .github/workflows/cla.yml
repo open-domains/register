@@ -23,7 +23,7 @@ jobs:
           # branch should not be protected
           branch: 'main'
           allowlist: od-bot,bot*
-          signed-commit-message: '$contributorName has signed the CLA'
+          signed-commit-message: '@$contributorName has signed the CLA'
 
          # the followings are the optional inputs - If the optional inputs are not given, then default values will be taken
           #remote-organization-name: enter the remote organization name where the signatures should be stored (Default is storing the signatures in the same repository)
