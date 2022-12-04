@@ -25,7 +25,7 @@ Wildcard domains (like `*.example.is-not-a.dev`) are supported too, but the reas
 
 ### Settings
 
-| Setting | `is-local.org` | `is-not-a.dev` | `localplayer.dev` |
+| Setting | [`is-local.org`](https://is-local.org) | [`is-not-a.dev`](https://is-not-a.dev) | [`localplayer.dev`](https://localplayer.dev) |
 |-|-|-|-|
 | [DNSSEC][dnssec]| ✅ | ✅ | ✅ |
 | Email | ✅ | ✅ | ✅ |
