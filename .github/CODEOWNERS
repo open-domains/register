@@ -9,3 +9,4 @@ domains/* @open-domains/maintainers
 
 # MD Files
 *.md @open-domains/maintainers
+terms.md @open-domains/owners
