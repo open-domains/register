@@ -5,7 +5,6 @@ var proxy = { // https://stackexchange.github.io/dnscontrol/providers/cloudflare
   on: {"cloudflare_proxy": "on"},
   off: {"cloudflare_proxy": "off"}
 }
-
 /**
  * Note: glob() is only an internal undocumented helper function (maybe risky).
  *
