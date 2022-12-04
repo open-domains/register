@@ -11,7 +11,7 @@ If you like this service and want us to continue running it, please consider don
 
 ## Domains
 
-| Domain |
+| Domains we offer |
 |-|
 | [`is-local.org`](https://is-local.org) |
 | [`is-not-a.dev`](https://is-not-a.dev) |
