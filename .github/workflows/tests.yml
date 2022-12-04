@@ -3,11 +3,7 @@ name: Tests
 on:
   workflow_dispatch: {}
   push:
-    branches: [master, main]
-    tags-ignore: ['**']
-    paths-ignore: ['**.md', 'web/**']
-  pull_request:
-    paths-ignore: ['**.md', 'web/**']
+    branches: [main]
 
 concurrency:
   group: ${{ github.ref }}-tests
