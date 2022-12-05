@@ -6,7 +6,9 @@
   "domain": "is-not-a.dev",
   "subdomain": "rasel",
 
-  "owner": {},
+  "owner": {
+    "email": "cixike1775@edxplus.com"
+  },
 
   "record": {
     "CNAME": "resellerways.com."

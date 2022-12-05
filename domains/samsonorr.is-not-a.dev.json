@@ -6,7 +6,9 @@
   "domain": "is-not-a.dev",
   "subdomain": "samsonorr",
 
-  "owner": {},
+  "owner": {
+    "email": "171129@student.vansd.org"
+  },
 
   "record": {
     "CNAME": "900582bb-d5fa-44d6-86fb-ef9319ea8675.id.repl.co."
