@@ -14,9 +14,9 @@
     "domain": {
       "type": "string",
       "enum": [
+        "is-local.org",
         "is-not-a.dev",
-        "localplayer.dev",
-        "is-local.org"
+        "localplayer.dev"
       ]
     },
     "subdomain": {
@@ -307,7 +307,7 @@
       "properties": {
         "repo": {
           "type": "string",
-          "description": "Path to the github repository"
+          "description": "GitHub repository"
         },
         "email": {
           "type": "string",
@@ -319,14 +319,6 @@
       "type": "object",
       "additionalProperties": false,
       "properties": {
-        "TXT": {
-          "type": "array",
-          "items": {
-            "type": "string",
-            "minLength": 1,
-            "maxLength": 255
-          }
-        },
         "A": {
           "type": "array",
           "items": {
@@ -358,14 +350,17 @@
             "type": "string",
             "pattern": "^[a-z0-9._-]{3,}$"
           }
+        },
+        "TXT": {
+          "type": "array",
+          "items": {
+            "type": "string",
+            "minLength": 1,
+            "maxLength": 255
+          }
         }
       },
       "anyOf": [
-        {
-          "required": [
-            "TXT"
-          ]
-        },
         {
           "required": [
             "A"
@@ -384,6 +379,11 @@
         {
           "required": [
             "NS"
+          ]
+        },
+        {
+          "required": [
+            "TXT"
           ]
         }
       ]
