@@ -60,7 +60,7 @@ Wildcard domains (like `*.example.is-not-a.dev`) are supported too, but the reas
 
 ## Register a Domain
 
-1. **Star** and **[Fork](https://github.com/open-domains/register/fork)**
+1. **Star** and **[Fork](https://github.com/open-domains/register/fork)** this repository
 2. Add a new file called `example.domain.json` in the `/domains` folder to register `example` subdomain
 3. Edit it (below is just an **example**, provide a **valid** JSON file with your needs, the format is very strict; format you can [check here](https://jsonlint.com)):
 
