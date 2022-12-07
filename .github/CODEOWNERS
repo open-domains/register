@@ -1,8 +1,8 @@
 # All Files
 * @open-domains/owners
 
-# Service Domains
-domains/service/* @open-domains/owners
+# Reserved Domains
+domains/reserved/* @open-domains/owners
 
 # User Domains
 domains/* @open-domains/maintainers
