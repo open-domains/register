@@ -1,0 +1,16 @@
+{
+  "$schema": "../../schemas/domain.schema.json",
+
+  "description": "Redirect",
+
+  "domain": "is-not-a.dev",
+  "subdomain": "register",
+
+  "owner": {},
+
+  "record": {
+    "A": ["51.161.153.115"]
+  },
+
+  "proxy": false
+}
