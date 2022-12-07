@@ -11,8 +11,8 @@ If you like this service and want us to continue running it, please consider don
 
 ## Domains
 
-| Domains we offer |
-|-|
+| Domains |
+|:-:|
 | [`is-local.org`](https://is-local.org) |
 | [`is-not-a.dev`](https://is-not-a.dev) |
 | [`localplayer.dev`](https://localplayer.dev) |
@@ -26,7 +26,7 @@ Wildcard domains (like `*.example.is-not-a.dev`) are supported too, but the reas
 ### Settings
 
 | Setting | [`is-local.org`](https://is-local.org) | [`is-not-a.dev`](https://is-not-a.dev) | [`localplayer.dev`](https://localplayer.dev) |
-|-|-|-|-|
+|:-:|:-:|:-:|:-:|
 | [DNSSEC][dnssec]| ✅ | ✅ | ✅ |
 | Email | ✅ | ✅ | ✅ |
 | SSL/TLS* | [Full][ssl-full] | [Full][ssl-full] | [Full][ssl-full] |
