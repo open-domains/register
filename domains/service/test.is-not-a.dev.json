@@ -1,7 +1,7 @@
 {
   "$schema": "../../schemas/domain.schema.json",
 
-  "description": "Testing domain",
+  "description": "Testing Domain",
 
   "domain": "is-not-a.dev",
   "subdomain": "test",
