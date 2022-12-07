@@ -14,7 +14,6 @@ jobs:
   check:
     name: Deploy Changes
     runs-on: ubuntu-latest
-    environment: production
     steps:
       - uses: actions/checkout@v3
 
