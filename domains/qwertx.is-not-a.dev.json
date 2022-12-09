@@ -11,7 +11,7 @@
   },
 
   "record": {
-    "CNAME": "qwertx.is-an.app"
+    "CNAME": "qwertx.is-an.app."
   },
 
   "proxy": false
