@@ -1,7 +1,7 @@
 {
   "$schema": "../schemas/domain.schema.json",
 
-  "description": "",
+  "description": "Redirect",
 
   "domain": "localplayer.dev",
   "subdomain": "william",
