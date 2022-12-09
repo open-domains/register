@@ -1,0 +1,20 @@
+{
+  "$schema": "../../schemas/domain.schema.json",
+
+  "description": "Testing Domain",
+
+  "domain": "is-local.org",
+  "subdomain": "test",
+
+  "owner": {},
+
+  "record": {
+    "CNAME": "open-domains.github.io.",
+
+    "MX": ["test.is-local.org."],
+
+    "TXT": ["test"]
+  },
+
+  "proxy": true
+}
