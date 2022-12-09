@@ -1,7 +1,7 @@
 {
   "$schema": "../schemas/domain.schema.json",
 
-  "description": "Redirect to william.net.au",
+  "description": "",
 
   "domain": "is-local.org",
   "subdomain": "william",
