@@ -11,7 +11,7 @@
   },
 
   "record": {
-    "CNAME": "dns.williamharrison.xyz"
+    "CNAME": "dns.williamharrison.xyz."
   },
 
   "proxy": false
