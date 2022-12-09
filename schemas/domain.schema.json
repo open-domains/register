@@ -8,8 +8,7 @@
       "description": "Path to the schema file"
     },
     "description": {
-      "type": "string",
-      "minLength": 4
+      "type": "string"
     },
     "domain": {
       "type": "string",
