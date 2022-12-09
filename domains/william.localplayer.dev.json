@@ -1,7 +1,7 @@
 {
   "$schema": "../schemas/domain.schema.json",
 
-  "description": "Redirect to williamharrison.dev",
+  "description": "",
 
   "domain": "localplayer.dev",
   "subdomain": "william",
@@ -11,7 +11,7 @@
   },
 
   "record": {
-    "CNAME": "dns.williamharrison.xyz"
+    "CNAME": "dns.williamharrison.xyz."
   },
 
   "proxy": false
