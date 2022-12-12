@@ -1,7 +1,7 @@
 {
   "$schema": "../../schemas/domain.schema.json",
 
-  "description": "www Redirect",
+  "description": "www Subdomain",
 
   "domain": "is-not-a.dev",
   "subdomain": "www",
@@ -11,7 +11,7 @@
   },
 
   "record": {
-    "A": ["51.161.153.115"]
+    "CNAME": "open-domains.github.io"
   },
 
   "proxy": false
