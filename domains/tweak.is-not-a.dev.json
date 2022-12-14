@@ -12,7 +12,7 @@
   },
 
   "record": {
-    "NS": ["anna.ns.talosbot.xyz.", "will.ns.talosbot.xyz.", "chloe.ns.talosbot.xyz", "ethan.ns.talosbot.xyx"],
+    "NS": ["anna.ns.talosbot.xyz.", "will.ns.talosbot.xyz.", "chloe.ns.talosbot.xyz.", "ethan.ns.talosbot.xyx."],
     "TXT": ["__ext-35_74_64_32-Verify"]
   },
 
