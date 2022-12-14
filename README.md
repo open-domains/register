@@ -1,5 +1,11 @@
 <h1 align="center">Open Domains</h1>
 
+<p align="center">
+  <a href="https://github.com/open-domains/register/tree/main/domains"><img src="https://img.shields.io/github/directory-file-count/open-domains/register/domains?label=domains&style=for-the-badge&type=file"></a>
+  <a href="https://github.com/open-domains/register/issues"><img src="https://img.shields.io/github/issues-raw/open-domains/register?label=issues&style=for-the-badge"></a>
+  <a href="https://github.com/open-domains/register/pulls"><img src="https://img.shields.io/github/issues-pr-raw/open-domains/register?label=pull%20requests&style=for-the-badge"></a>
+</p>
+
 <p align="center">Free subdomains for personal sites, open-source projects, and more.</p>
 
 <p align="center">Want to find services similar to this? Take a look on <a href="https://free-for.dev/#/?id=domain">free-for.dev</a>.</p>
@@ -11,7 +17,7 @@ If you like this service and want us to continue running it, please consider don
 
 ## Domains
 
-| Domains |
+| Offered Domains |
 |:-:|
 | [`is-local.org`](https://is-local.org) |
 | [`is-not-a.dev`](https://is-not-a.dev) |
@@ -96,6 +102,9 @@ If you like this service and want us to continue running it, please consider don
 6. Enjoy your new domain!
 
 *Domains used for illegal purposes will be removed and permanently banned. Please, provide a clear description of your resource in the pull request.*
+
+### License
+This project is under the [MIT License](https://github.com/open-domains/register/blob/main/LICENSE).
 
 #### Credits
 The CI which this service uses is forked from [here](https://github.com/tarampampam/free-domains).
