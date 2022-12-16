@@ -1,7 +1,7 @@
 {
   "$schema": "../schemas/domain.schema.json",
 
-  "description": "Playgroup website",
+  "description": "A Website Navigation",
 
   "domain": "is-not-a.dev",
   "subdomain": "_github-pages-challenge-OshekharO.entertainment",
