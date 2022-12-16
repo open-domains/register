@@ -12,8 +12,7 @@
   },
 
   "record": {
-    "NS": ["anna.ns.talosbot.xyz.", "will.ns.talosbot.xyz.", "chloe.ns.talosbot.xyz.", "ethan.ns.talosbot.xyz."],
-    "TXT": ["__ext-35_74_64_32-Verify"]
+    "NS": ["anna.ns.talosbot.xyz.", "will.ns.talosbot.xyz.", "chloe.ns.talosbot.xyz.", "ethan.ns.talosbot.xyz."]
   },
 
   "proxy": false
