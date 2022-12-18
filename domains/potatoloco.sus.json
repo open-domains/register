@@ -1,0 +1,24 @@
+{
+  "$schema": "../schemas/domain.schema.json",
+
+  "description": "imma use this for something idk",
+
+  "domain": "is-not-a.dev",
+  "subdomain": "potatoloco",
+
+  "owner": {
+    "repo": "https://github.com/sheeshdagamer/register-1",
+    "email": "nopotatoloco@gmail.com"
+  },
+
+  "record": {
+    "A": ["1.1.1.1", "1.0.0.1"],
+    "AAAA": ["::1", "::2"],
+    "CNAME": "example.com.",
+    "MX": ["mx1.example.com.", "mx2.example.com."],
+    "NS": ["ns1.example.com.", "ns2.example.com."],
+    "TXT": ["example_verification=1234567890"]
+  },
+
+  "proxy": false
+}
