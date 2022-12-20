@@ -1,0 +1,16 @@
+{
+  "$schema": "../schemas/domain.schema.json",
+
+  "description": "My project showcase",
+
+  "domain": "localplayer.dev",
+  "subdomain": "semant",
+
+  "owner": {
+    "email": "contact@semant.is-a.dev"
+  },
+
+  "record": {
+    "CNAME": "_17dd523544ff1a8e92f897a44763a4f8.fmfdpfvvyn.acm-validations.aws."
+  }
+}
