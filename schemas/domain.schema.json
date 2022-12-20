@@ -20,7 +20,7 @@
     },
     "subdomain": {
       "type": "string",
-      "pattern": "^([a-z0-9_*.-]{1,128}|@)$",
+      "pattern": "^([a-z0-9_*.-]{1,200}|@)$",
       "not": {
         "enum": [
           "a11y",
