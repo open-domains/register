@@ -12,5 +12,7 @@
 
   "record": {
     "CNAME": "repulsive-lime-scrubs.cyclic.app"
-  }
+  },
+
+  "proxy": false
 }
