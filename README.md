@@ -15,6 +15,10 @@ If you like this service and want us to continue running it, please consider don
 
 [![PayPal](https://www.paypalobjects.com/en_US/i/btn/btn_donateCC_LG.gif)](https://paypal.me/andrewstechyoutube)
 
+### Discord Server
+Make sure to join our Discord server:
+https://discord.gg/kVjkg6VBwa
+
 ## Domains
 
 | Offered Domains |
