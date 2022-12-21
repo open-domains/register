@@ -1,7 +1,7 @@
 {
   "$schema": "../schemas/domain.schema.json",
 
-  "description": "Showcase/Testing Websites",
+  "description": "My project showcase",
 
   "domain": "localplayer.dev",
   "subdomain": "web.semant",
@@ -11,6 +11,6 @@
   },
 
   "record": {
-    "NS": ["ns1.vercel-dns.com.", "ns2.vercel-dns.com."]
+    "CNAME": "repulsive-lime-scrubs.cyclic.app."
   }
 }
