@@ -4,13 +4,13 @@
   "description": "My project showcase",
 
   "domain": "localplayer.dev",
-  "subdomain": "_44b2d3b3244acda6d3546b84da122c8b.semant",
+  "subdomain": "_98349d24748af04c6f5c06f19cbc20a8.web.semant",
 
   "owner": {
     "email": "contact@semant.is-a.dev"
   },
 
   "record": {
-    "CNAME": "_17dd523544ff1a8e92f897a44763a4f8.fmfdpfvvyn.acm-validations.aws."
+    "CNAME": "_81701f088f10e1f2c5fcae677df2c6d3.fmfdpfvvyn.acm-validations.aws."
   }
 }
