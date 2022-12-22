@@ -1,9 +1,9 @@
-var regNone = NewRegistrar("none")
-var providerCf = DnsProvider(NewDnsProvider("cloudflare"))
+var regNone = NewRegistrar("none");
+var providerCf = DnsProvider(NewDnsProvider("cloudflare"));
 
 var proxy = { // https://stackexchange.github.io/dnscontrol/providers/cloudflare
-  on: {"cloudflare_proxy": "on"},
-  off: {"cloudflare_proxy": "off"}
+  on: { "cloudflare_proxy": "on" },
+  off: { "cloudflare_proxy": "off" }
 }
 
 /**
@@ -20,60 +20,40 @@ var proxy = { // https://stackexchange.github.io/dnscontrol/providers/cloudflare
  *    record: {TXT?: string[], A?: string[], AAAA?: string[], CNAME?: string, NS?: string[]},
  *    proxy?: boolean
  *  }}[]}
- */
+*/
+
 function getDomainsList(filesPath) {
-  var result = []
-  var files = glob.apply(null, [filesPath, true, '.json'])
+  var result = [];
+  var files = glob.apply(null, [filesPath, true, '.json']);
 
   for (var i = 0; i < files.length; i++) {
-    var basename = files[i].split('/').reverse()[0]
-    var name = basename.split('.')[0]
+    var basename = files[i].split('/').reverse()[0];
+    var name = basename.split('.')[0];
 
-    result.push({name: name, data: require(files[i])})
+    result.push({name: name, data: require(files[i])});
   }
 
-  return result
+  return result;
 }
 
-var domains = getDomainsList('./domains')
+var domains = getDomainsList('./domains');
 
 /**
  * @type {{}}
- */
-var commit = {}
+*/
+
+var commit = {};
 
 for (var idx in domains) {
-  var domainData = domains[idx].data
-  var proxyState = proxy.on // enabled by default
+  var domainData = domains[idx].data;
+  var proxyState = proxy.on; // enabled by default
 
   if (!commit[domainData.domain]) {
-    commit[domainData.domain] = []
+    commit[domainData.domain] = [];
   }
 
   if (domainData.proxy === false) {
-    proxyState = proxy.off
-  }
-
-  if (domainData.record.TXT) {
-    for (var txt in domainData.record.TXT) {
-      commit[domainData.domain].push(
-        TXT(domainData.subdomain, domainData.record.TXT[txt]) // https://stackexchange.github.io/dnscontrol/js#TXT
-      )
-    }
-  }
-
-  if (domainData.record.CNAME) {
-    commit[domainData.domain].push(
-      CNAME(domainData.subdomain, domainData.record.CNAME, proxyState) // https://stackexchange.github.io/dnscontrol/js#CNAME
-    )
-  }
-  
-  if (domainData.record.MX) {
-    for (var mx in domainData.record.MX) {
-      commit[domainData.domain].push(
-        MX(domainData.subdomain, 10, domainData.record.MX[mx]) // https://stackexchange.github.io/dnscontrol/js#CNAME
-      )
-    }  
+    proxyState = proxy.off;
   }
 
   if (domainData.record.A) {
@@ -92,6 +72,20 @@ for (var idx in domains) {
     }
   }
 
+  if (domainData.record.CNAME) {
+    commit[domainData.domain].push(
+      CNAME(domainData.subdomain, domainData.record.CNAME, proxyState) // https://stackexchange.github.io/dnscontrol/js#CNAME
+    )
+  }
+  
+  if (domainData.record.MX) {
+    for (var mx in domainData.record.MX) {
+      commit[domainData.domain].push(
+        MX(domainData.subdomain, 10, domainData.record.MX[mx]) // https://stackexchange.github.io/dnscontrol/js#CNAME
+      )
+    }  
+  }
+
   if (domainData.record.NS) {
     for (var ns in domainData.record.NS) {
       commit[domainData.domain].push(
@@ -99,8 +93,16 @@ for (var idx in domains) {
       )
     }
   }
+
+  if (domainData.record.TXT) {
+    for (var txt in domainData.record.TXT) {
+      commit[domainData.domain].push(
+        TXT(domainData.subdomain, domainData.record.TXT[txt]) // https://stackexchange.github.io/dnscontrol/js#TXT
+      )
+    }
+  }
 }
 
 for (var domainName in commit) {
-  D(domainName, regNone, providerCf, commit[domainName])
+  D(domainName, regNone, providerCf, commit[domainName]);
 }
