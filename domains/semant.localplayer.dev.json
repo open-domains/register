@@ -1,0 +1,16 @@
+{
+  "$schema": "../schemas/domain.schema.json",
+
+  "description": "Showcase/Testing Websites",
+
+  "domain": "localplayer.dev",
+  "subdomain": "semant",
+
+  "owner": {
+    "email": "contact@semant.is-a.dev"
+  },
+
+  "record": {
+    "NS": ["ns1.vercel-dns.com.", "ns2.vercel-dns.com."]
+  }
+}
