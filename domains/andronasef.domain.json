@@ -8,7 +8,8 @@
       "email":"andronasef@gmail.com"
    },
    "record":{
-      "CNAME":"andronasef.github.io."
+      "CNAME":"andronasef.github.io.",
+      "TXT": ["zoho-verification=zb74927734.zmverify.zoho.com"]
    },
    "proxy":false
 }
