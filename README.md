@@ -40,8 +40,8 @@ https://discord.gg/kVjkg6VBwa
 | [DNSSEC][dnssec]| ✅ | ✅ | ✅ |
 | Email | ✅ | ✅ | ✅ |
 | SSL/TLS* | [Full][ssl-full] | [Full][ssl-full] | [Full][ssl-full] |
-| Always Use HTTPS* | ❌ | ✅ | ✅ |
-| HTTP Strict Transport Security (HSTS) | ❌ | ✅ | ✅ |
+| Always Use HTTPS* | ✅ | ✅ | ✅ |
+| HTTP Strict Transport Security (HSTS) | ✅ | ✅ | ✅ |
 | Minimum TLS Version* | 1.2 | 1.2 | 1.2 |
 | Opportunistic Encryption, TLS 1.3* | ✅ | ✅ | ✅ |
 | WAF (Web Application Firewall)* | Medium Security Level | Medium Security Level | Medium Security Level |
