@@ -1,0 +1,19 @@
+{
+  "$schema": "../schemas/domain.schema.json",
+
+  "description": "is-dev",
+
+  "domain": "is-local.org",
+  "subdomain": "is-a-dev",
+
+  "owner": {
+    "repo": "https://github.com/",
+    "email": "is-dev@beadman-network.com"
+  },
+
+  "record": {
+    "TXT": ["donk=23"]
+  },
+
+  "proxy": false
+}
