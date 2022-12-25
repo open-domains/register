@@ -1,13 +1,12 @@
 {
   "$schema": "../schemas/domain.schema.json",
 
-  "description": "is-dev",
+  "description": "is-a-dev",
 
   "domain": "is-local.org",
   "subdomain": "is-a-dev",
 
   "owner": {
-    "repo": "https://github.com/",
     "email": "is-dev@beadman-network.com"
   },
 
