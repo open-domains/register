@@ -3,11 +3,11 @@ on:
   pull_request_target:
     types: [opened]
 
-# jobs:
-#  enable-auto-merge:
-#    runs-on: ubuntu-latest
+jobs:
+  enable-auto-merge:
+    runs-on: ubuntu-latest
 
-#    steps:
-#    - uses: alexwilson/enable-github-automerge-action@main
-#      with:
-#        github-token: "${{ secrets.BOT }}"
+    steps:
+    - uses: alexwilson/enable-github-automerge-action@main
+      with:
+        github-token: "${{ secrets.BOT }}"
