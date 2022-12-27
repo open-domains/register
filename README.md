@@ -21,7 +21,7 @@ https://discord.gg/kVjkg6VBwa
 
 ## Domains
 
-| Offered Domains |
+| Available Domains |
 |:-:|
 | [`is-local.org`](https://is-local.org) |
 | [`is-not-a.dev`](https://is-not-a.dev) |
