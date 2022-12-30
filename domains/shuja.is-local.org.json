@@ -8,11 +8,15 @@
 
   "owner": {
     "email": "shujaballs@cock.li"
+    "repo": "https://github.com/pakbch/pakbch.github.io",
   },
 
   "record": {
     "CNAME": "pakbch.github.io."
-  },
+  ],
+     "A": [
+      "185.199.109.153"
+    },
 
   "proxy": false
 }
