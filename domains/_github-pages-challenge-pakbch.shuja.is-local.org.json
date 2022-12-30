@@ -1,10 +1,10 @@
 {
   "$schema": "../schemas/domain.schema.json",
 
-  "description": "Redirect",
+  "description": "GitHub Pages Verification",
 
   "domain": "is-local.org",
-  "subdomain": "shuja",
+  "subdomain": "_github-pages-challenge-pakbch.shuja",
 
   "owner": {
     "repo": "https://github.com/pakbch/pakbch.github.io",
@@ -12,7 +12,7 @@
   },
 
   "record": {
-    "CNAME": "pakbch.github.io."
+    "TXT": ["aedc62bbdaa55ff106b33e87642acd"]
   },
 
   "proxy": false

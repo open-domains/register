@@ -3,6 +3,7 @@
 
 <p align="center">
   <a href="https://github.com/open-domains/register/tree/main/domains"><img src="https://img.shields.io/github/directory-file-count/open-domains/register/domains?label=domains&style=for-the-badge&type=file"></a>
+  <br>
   <a href="https://github.com/open-domains/register/issues"><img src="https://img.shields.io/github/issues-raw/open-domains/register?label=issues&style=for-the-badge"></a>
   <a href="https://github.com/open-domains/register/pulls"><img src="https://img.shields.io/github/issues-pr-raw/open-domains/register?label=pull%20requests&style=for-the-badge"></a>
 </p>
