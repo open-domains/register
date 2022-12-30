@@ -18,15 +18,10 @@ jobs:
           # the below token should have repo scope and must be manually added by you in the repository's secret
           PERSONAL_ACCESS_TOKEN: ${{ secrets.BOT }}
         with:
-          path-to-signatures: 'cla/signatures.json'
+          path-to-signatures: 'signatures.json'
           path-to-document: 'https://github.com/open-domains/register/blob/main/terms.md' # e.g. a CLA or a DCO document
           # branch should not be protected
           branch: 'main'
           allowlist: od-bot
-
-          #create-file-commit-message: 'For example: Creating file for storing CLA Signatures'
-          #custom-notsigned-prcomment: 'pull request comment with Introductory message to ask new contributors to sign'
-          #custom-pr-sign-comment: 'The signature to be committed in order to sign the CLA'
-          #custom-allsigned-prcomment: 'pull request comment when all contributors has signed, defaults to **CLA Assistant Lite bot** All Contributors have signed the CLA.'
-          #lock-pullrequest-aftermerge: false - if you don't want this bot to automatically lock the pull request after merging (default - true)
-          #use-dco-flag: true - If you are using DCO instead of CLA
+          remote-organization-name: 'open-domains'
+          remote-repository-name: 'cla'
