@@ -13,6 +13,13 @@
 
   "record": {
     "CNAME": "pakbch.github.io."
+    ],
+    
+    "A": [
+      "185.199.109.153"
+    ],
+  
+    "TXT": ["aedc62bbdaa55ff106b33e87642acd_github-pages-challenge-pakbch.shuja.is-local.org"]
   },
 
   "proxy": false
