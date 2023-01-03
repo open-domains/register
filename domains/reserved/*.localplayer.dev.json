@@ -9,8 +9,8 @@
   "owner": {},
 
   "record": {
-    "CNAME": "wdhdns.com."
+    "CNAME": "dns.beadman-network.com."
   },
 
-  "proxy": true
+  "proxy": false
 }
