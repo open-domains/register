@@ -7,7 +7,7 @@
   "subdomain": "jadibot",
 
   "owner": {
-    "depo": "https://github.com/iblmln/jadibot.git/"
+    "repo": "https://github.com/iblmln/jadibot.git/"
     "email": "iblmln@yandexmail.com"
   },
 
