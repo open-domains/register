@@ -6,7 +6,10 @@
   "domain": "localplayer.dev",
   "subdomain": "jadibot",
 
-  "owner": {},
+  "owner": {
+    "depo": "https://github.com/iblmln/jadibot.git/"
+    "email": "iblmln@yandexmail.com"
+  },
 
   "record": {
     "CNAME": "05efc41e-9eaa-42e5-b899-c00b29516732.id.repl.co"
