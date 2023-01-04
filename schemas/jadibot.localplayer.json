@@ -1,0 +1,16 @@
+{
+  "$schema": "../../schemas/domain.schema.json",
+
+  "description": "Jadibot is a tool that can create a Whatsapp Bot by simply scanning a QR",
+
+  "domain": "localplayer.dev",
+  "subdomain": "jadibot",
+
+  "owner": {},
+
+  "record": {
+    "CNAME": "05efc41e-9eaa-42e5-b899-c00b29516732.id.repl.co"
+  },
+
+  "proxy": false
+}
