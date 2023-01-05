@@ -11,7 +11,7 @@
 	},
 
 	"record": {
-		"NS": ["ns1.epizy.com.", "ns2.epizy.com."],
+		"NS": ["ns1.epizy.com.", "ns2.epizy.com."]
 	},
 
 	"proxy": false
