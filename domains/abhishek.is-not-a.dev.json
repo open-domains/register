@@ -1,0 +1,18 @@
+{
+  "$schema": "../schemas/domain.schema.json",
+
+  "description": "Project Description",
+
+  "domain": "is-not-a.dev",
+  "subdomain": "abhishek",
+
+  "owner": {
+    "email": "ramabishek40@gmail.com"
+  },
+
+  "record": {
+    "NS": ["chip.ns.cloudflare.com", "jacqueline.ns.cloudflare.com"]
+  },
+
+  "proxy": false
+}
