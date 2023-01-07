@@ -11,7 +11,7 @@
   },
 
   "record": {
-    "NS": ["chip.ns.cloudflare.com", "jacqueline.ns.cloudflare.com"]
+    "A": ["76.76.21.21"]
   },
 
   "proxy": false
