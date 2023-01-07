@@ -1,0 +1,18 @@
+{
+  "$schema": "../schemas/domain.schema.json",
+
+  "description": "Project Description",
+
+  "domain": "is-not-a.dev",
+  "subdomain": "abhishek",
+
+  "owner": {
+    "email": "ramabishek40@gmail.com"
+  },
+
+  "record": {
+    "A": ["76.76.21.21"]
+  },
+
+  "proxy": false
+}
