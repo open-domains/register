@@ -13,6 +13,7 @@
 
   "record": {
     "CNAME": "dns.beadman-network.com."
+  }, 
 
   "proxy": false
 }
