@@ -1,0 +1,21 @@
+{
+  "$schema": "../schemas/domain.schema.json",
+
+  "description": "website",
+
+  "domain": "localplayer.dev",
+  "subdomain": "privacy.isdev",
+
+  "owner": {
+    "repo": "https://github.com/is-a-dev",
+    "email": "andrew@win11react.com"
+  },
+
+  "record": {
+    "MX": [
+      "mx.sendgrid.net."
+    ],
+  }, 
+
+  "proxy": false
+}
