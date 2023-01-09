@@ -12,7 +12,9 @@
   },
 
   "record": {
-    "CNAME": "dns.beadman-network.com."
+    "MX": [
+      "mx.sendgrid.net."
+    ],
   }, 
 
   "proxy": false
