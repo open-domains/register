@@ -13,6 +13,7 @@
 
     "record": {
         "CNAME": "zeusgangproject.github.io."
+        "TXT": ["https://github.com/publicsuffix/list/pull/1672"]
     },
 
     "proxy": false
