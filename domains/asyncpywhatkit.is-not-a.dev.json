@@ -4,10 +4,9 @@
   "description": "This is domain for AsyncpywhatKit",
 
   "domain": "is-not-a.dev",
-  "subdomain": "AsyncpywhatKit",
+  "subdomain": "asyncpywhatkit",
 
   "owner": {
-    "repo": "https://github.com/SigireddyBalasai/register",
     "email": "sigireddybalasai@gmail.com"
   },
 
