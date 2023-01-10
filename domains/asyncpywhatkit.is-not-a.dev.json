@@ -12,8 +12,7 @@
   },
 
   "record": {
-    "CNAME": "f16c98f3-908f-4487-8254-8b5570b13c0b.id.repl.co.",
-    "TXT": ["replit-verify=f16c98f3-908f-4487-8254-8b5570b13c0b"]
+    "CNAME": "f16c98f3-908f-4487-8254-8b5570b13c0b.id.repl.co."
   },
 
   "proxy": false
