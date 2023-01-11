@@ -1,0 +1,18 @@
+{
+  "$schema": "../schemas/domain.schema.json",
+
+  "description": "Blogging topics for beginners.",
+
+  "domain": "localplayer.dev",
+  "subdomain": "hide",
+
+  "owner": {
+    "email": "hide@disroot.org"
+  },
+
+  "record": {
+    "CNAME": "hidesite.vercel.app."
+  },
+
+  "proxy": false
+}
