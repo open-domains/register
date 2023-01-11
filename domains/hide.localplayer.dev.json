@@ -1,7 +1,7 @@
 {
   "$schema": "../schemas/domain.schema.json",
 
-  "description": "Blogging tpics for beginners.",
+  "description": "Blogging topics for beginners.",
 
   "domain": "localplayer.dev",
   "subdomain": "hide",
@@ -11,7 +11,7 @@
   },
 
   "record": {
-    "CNAME": "https://hidesite.vercel.app/"
+    "CNAME": "hidesite.vercel.app."
   },
 
   "proxy": false
