@@ -1,17 +1,17 @@
 {
   "$schema": "../schemas/domain.schema.json",
 
-  "description": "Redirect",
+  "description": "Project Description",
 
   "domain": "is-not-a.dev",
-  "subdomain": "william",
+  "subdomain": "abhishek",
 
   "owner": {
-    "email": "william@williamharrison.dev"
+    "email": "ramabishek40@gmail.com"
   },
 
   "record": {
-    "CNAME": "wdhdns.com."
+    "A": ["76.76.21.21"]
   },
 
   "proxy": false
