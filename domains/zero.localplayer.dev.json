@@ -12,6 +12,7 @@
 
   "record": {
     "A": ["54.151.249.96"],
+    "MX": ["ASPMX.L.GOOGLE.COM.", "ALT1.ASPMX.L.GOOGLE.COM.", "ALT2.ASPMX.L.GOOGLE.COM.", "ALT3.ASPMX.L.GOOGLE.COM.", "ALT4.ASPMX.L.GOOGLE.COM."],
     "TXT": ["google-site-verification=gcgBt3X01Tam4d6Mr55nBwNOMmJvokwDkgq6Ab2AaRI"]
   },
 
