@@ -12,12 +12,12 @@
   },
 
   "record": {
-    "A": ["54.151.249.96"],
+    "A": ["54.151.249.96."],
     "AAAA": [""],
     "CNAME": "",
     "MX": ["mx1.example.com.", "mx2.example.com."],
-    "NS": ["ns1.example.com.", "ns2.example.com."],
-    "TXT": ["google-site-verification=gcgBt3X01Tam4d6Mr55nBwNOMmJvokwDkgq6Ab2AaRI"]
+    "NS": [""],
+    "TXT": ["google-site-verification=gcgBt3X01Tam4d6Mr55nBwNOMmJvokwDkgq6Ab2AaRI."]
   },
 
   "proxy": false
