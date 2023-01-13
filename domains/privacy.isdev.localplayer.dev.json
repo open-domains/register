@@ -7,14 +7,12 @@
   "subdomain": "privacy.isdev",
 
   "owner": {
-    "repo": "https://github.com/is-a-dev",
+    "repo": "https://github.com/is-a-dev/register",
     "email": "andrew@win11react.com"
   },
 
   "record": {
-    "MX": [
-      "mx.sendgrid.net."
-    ],
+    "MX": ["mx.sendgrid.net."],
   }, 
 
   "proxy": false
