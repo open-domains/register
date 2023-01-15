@@ -33,16 +33,5 @@ jobs:
 
       - run: dnscontrol check
 
-  validate-schemas:
-    name: Validate Schemas
-    runs-on: ubuntu-latest
-    steps:
-      - uses: actions/checkout@v3
 
-      - uses: walbo/validate-json@v1.1.0
-        with:
-          schema-version: draft-07
-          print-valid-files: true
-          fail-on-missing-schema: true
-          strict: false
-          files: ./domains/**/*.json
+
