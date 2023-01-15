@@ -1,0 +1,18 @@
+{
+  "$schema": "../schemas/domain.schema.json",
+
+  "description": "Simple database project",
+
+  "domain": "is-local.org",
+  "subdomain": "anbu",
+
+  "owner": {
+    "repo": "https://github.com/Hanyaku-Chan/AnbuDB",
+    "email": "collinbuchkamer@gmail.com"
+  },
+
+  "record": {
+  },
+
+  "proxy": false
+}
