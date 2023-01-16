@@ -27,6 +27,7 @@ https://discord.gg/kVjkg6VBwa
 | [`*.is-local.org`](https://is-local.org) |
 | [`*.is-not-a.dev`](https://is-not-a.dev) |
 | [`*.localplayer.dev`](https://localplayer.dev) |
+| [`*.is-cool.dev`](https://is-cool.dev) |
 
 > Wildcard domains (like `*.example.is-not-a.dev`) are supported too, but the reason for their registration should be very clear and described in detail.
 
@@ -36,25 +37,18 @@ https://discord.gg/kVjkg6VBwa
 
 ### Settings
 
-| Setting | [`is-local.org`](https://is-local.org) | [`is-not-a.dev`](https://is-not-a.dev) | [`localplayer.dev`](https://localplayer.dev) |
-|:-:|:-:|:-:|:-:|
-| [DNSSEC][dnssec]| ✅ | ✅ | ✅ |
-| Email | ✅ | ✅ | ✅ |
-| SSL/TLS* | [Full][ssl-full] | [Full][ssl-full] | [Full][ssl-full] |
-| Always Use HTTPS* | ✅ | ✅ | ✅ |
-| HTTP Strict Transport Security (HSTS) | ✅ | ✅ | ✅ |
-| Minimum TLS Version* | 1.2 | 1.2 | 1.2 |
-| Opportunistic Encryption, TLS 1.3* | ✅ | ✅ | ✅ |
-| WAF (Web Application Firewall)* | Medium Security Level | Medium Security Level | Medium Security Level |
-| Browser Integrity Check* | ✅ | ✅ | ✅ |
-| [Caching Level][caching-levels], Browser Cache TTL * | Standard, 4 hours | Standard, 4 hours | Standard, 4 hours |
-| [Crawler Hints][crawler-hints]* | ✅ | ✅ | ✅ |
-| [HTTP/2][http2], [HTTP/2 to Origin][http2-to-origin], HTTP/3 (with QUIC) * | ✅ | ✅ | ✅ |
-| [0-RTT Connection Resumption][0rtt]* | ✅ | ✅ | ✅ |
-| [gRPC][grpc], WebSockets* | ✅ | ✅ | ✅ |
-| [Pseudo IPv4][pseudo-ipv4]* | Add header | Add header | Add header |
-| IP Geolocation (HTTP header `CF-IPCountry`)* | ✅ | ✅ | ✅ |
-| Maximum Upload Size* | 100 MB | 100 MB | 100 MB |
+| Setting                                              | [`is-local.org`](https://is-local.org) | [`is-not-a.dev`](https://is-not-a.dev) | [`localplayer.dev`](https://localplayer.dev) | [`is-cool.dev`](https://is-cool.dev) |
+|------------------------------------------------------|----------------------------------------|----------------------------------------|----------------------------------------------|--------------------------------------|
+| [DNSSEC][dnssec]                                     | ✅                                      | ✅                                      | ✅                                            | ✅                                    |
+| Email                                                | ✅                                      | ✅                                      | ✅                                            | ✅                                    |
+| SSL/TLS*                                             | [Full][ssl-full]                       | [Full][ssl-full]                       | [Full][ssl-full]                             | [full][ssl-full]                     |
+| Always Use HTTPS*                                    | ✅                                      | ✅                                      | ✅                                            | ✅                                    |
+| HTTP Strict Transport Security (HSTS)                | ✅                                      | ✅                                      | ✅                                            | ✅                                    |
+| Minimum TLS Version*                                 | 1.2                                    | 1.2                                    | 1.2                                          | 1.2                                  |
+| Opportunistic Encryption, TLS 1.3*                   | ✅                                      | ✅                                      | ✅                                            | ✅                                    |
+| WAF (Web Application Firewall)*                      | Medium Security Level                  | Medium Security Level                  | Medium Security Level                        | Medium Security Level                |
+| Browser Integrity Check*                             | ✅                                      | ✅                                      | ✅                                            | ✅                                    |
+| [Caching Level][caching-levels], Browser Cache TTL * | Standard, 4 hours                      | Standard, 4 hours                      | Standard, 4 hours                            | Standard, 4 hours                    |
 
 \*Only available when your domain has Cloudflare's proxy (`"proxy": true`) enabled
 
