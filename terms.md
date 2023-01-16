@@ -28,9 +28,12 @@ These terms and conditions are governed by the laws of the United Kingdom. Any d
 In the event that you have any questions or concerns about the open-domains program or these terms and conditions, you may contact us at the following email addresses:
 
 help@open-domains.net for general inquiries
+
 copyright@open-domains.net for copyright-related issues
+
 legal@open-domains.net for legal matters
-Privacy and Security
+
+# Privacy and Security
 Users email address are public as of writing
 IP addresses may be logged by our partner Cloudflare as part of load balancing and proxy support.
 
