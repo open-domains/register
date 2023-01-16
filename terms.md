@@ -39,5 +39,6 @@ IP addresses may be logged by our partner Cloudflare as part of load balancing a
 
 # Funding:
 The open-domains program is free for users but relies on donations to operate.
-Changes to Terms and Conditions:
+
+# Changes to Terms and Conditions:
 Open-domains reserves the right to change these terms and conditions at any time, with or without notice. Users are responsible for reviewing these terms and conditions on a regular basis to ensure that they are aware of any changes.
