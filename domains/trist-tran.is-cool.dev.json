@@ -1,1 +1,24 @@
+{
+	"$schema": "../schemas/domain.schema.json",
 
+	"description": "Learning deploy code to VPS",
+
+	"domain": "is-cool.dev",
+	"subdomain": "trist-tran",
+
+	"owner": {
+		"repo": "https://github.com/Deanout/aws_video.git",
+		"email": "hello@example.com"
+	},
+
+	"record": {
+		"A": ["157.245.128.111"],
+		"AAAA": ["::1", "::2"],
+		"CNAME": "www.trist-tran.is-cool.dev.",
+		"MX": ["mx1.example.com.", "mx2.example.com."],
+		"NS": ["ns1.digitalocean.com.", "ns2.digitalocean.com.", "ns3.digitalocean.com."],
+		"TXT": ["example_verification=1234567890"]
+	},
+
+	"proxy": false
+}
