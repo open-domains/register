@@ -12,7 +12,7 @@
   },
 
   "record": {
-    "NS": ["ns41.cloudns.net", "ns42.cloudns.net", "ns43.cloudns.net", "ns44.cloudns.net"],
+    "NS": ["ns41.cloudns.net.", "ns42.cloudns.net.", "ns43.cloudns.net.", "ns44.cloudns.net."],
   },
 
   "proxy": false
