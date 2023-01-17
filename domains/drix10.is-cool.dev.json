@@ -14,7 +14,7 @@
   "record": {
     "A": ["1.1.1.1", "1.0.0.1"],
     "AAAA": ["::1", "::2"],
-    "CNAME": "f4d28d47-e408-4acf-a3d2-399ecd55a9bc.id.repl.co",
+    "CNAME": "f4d28d47-e408-4acf-a3d2-399ecd55a9bc.id.repl.co.",
     "MX": ["mx1.example.com.", "mx2.example.com."],
     "NS": ["ns1.example.com.", "ns2.example.com."],
     "TXT": ["replit-verify=f4d28d47-e408-4acf-a3d2-399ecd55a9bc"]
