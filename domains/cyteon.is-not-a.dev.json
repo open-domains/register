@@ -1,0 +1,19 @@
+{
+  "$schema": "../schemas/domain.schema.json",
+
+  "description": "Using for developer emaile",
+
+  "domain": "is-not-a.dev",
+  "subdomain": "cyteon",
+
+  "owner": {
+    "repo": "https://github.com/cyteon",
+    "email": "pkristian1@outlook.com"
+  },
+
+  "record": {
+    "NS": ["ns41.cloudns.net", "ns42.cloudns.net", "ns43.cloudns.net", "ns44.cloudns.net"],
+  },
+
+  "proxy": false
+}
