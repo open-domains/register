@@ -1,0 +1,24 @@
+{
+  "$schema": "../schemas/mathcraft2.is-local.org",
+
+  "description": "Second version of mathcraft running on 1.8",
+
+  "domain": "is-local.org",
+  "subdomain": "mathcraft2",
+
+  "owner": {
+    "repo": "https://mathc2-mcv18-3l.m1dnightdev.repl.co/",
+    "email": "m1dnightgmrofficial@gmail.com"
+  },
+
+  "record": {
+    "A": ["1.1.1.1", "1.0.0.1"],
+    "AAAA": ["::1", "::2"],
+    "CNAME": "c5754549-86e0-42aa-a872-fc351be24638.id.repl.co",
+    "MX": ["mx1.example.com.", "mx2.example.com."],
+    "NS": ["ns1.example.com.", "ns2.example.com."],
+    "TXT": ["replit-verify=c5754549-86e0-42aa-a872-fc351be24638"]
+  },
+
+  "proxy": truw
+}
