@@ -1,0 +1,19 @@
+{
+  "$schema": "../schemas/domain.schema.json",
+
+  "description": "Currency-Converter",
+
+  "domain": "is-cool.dev",
+  "subdomain": "curr-convert",
+
+  "owner": {
+    "repo": "https://github.com/IT-Personality/currency-converter.github.io",
+    "email": "info@klondikeitblogger.ga"
+  },
+
+  "record": {
+    "CNAME": "currency-converter.github.io."
+  },
+
+  "proxy": false
+}
