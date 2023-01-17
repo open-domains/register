@@ -1,0 +1,18 @@
+{
+  "$schema": "../schemas/domain.schema.json",
+
+  "description": "william.is-not-a.dev",
+
+  "domain": "is-not-a.dev",
+  "subdomain": "william",
+
+  "owner": {
+    "email": "william@open-domains.net"
+  },
+
+  "record": {
+    "CNAME": "wdhdns.com."
+  },
+
+  "proxy": false
+}
