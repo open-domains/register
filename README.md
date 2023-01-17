@@ -37,18 +37,18 @@ https://discord.gg/kVjkg6VBwa
 
 ### Settings
 
-| Setting                                              | [`is-cool.dev`](https://is-cool.dev) | [`is-not-a.dev`](https://is-not-a.dev) | [`localplayer.dev`](https://localplayer.dev) | [`is-local.org`](https://is-local.org) |
-|------------------------------------------------------|--------------------------------------|----------------------------------------|----------------------------------------------|----------------------------------------|
-| [DNSSEC][dnssec]                                     | ✅                                   | ✅                                     | ✅                                           | ✅                                     |
-| Email                                                | ✅                                   | ✅                                     | ✅                                           | ✅                                     |
-| SSL/TLS*                                             | [Full][ssl-full]                     | [Full][ssl-full]                       | [Full][ssl-full]                             | [full][ssl-full]                       |
-| Always Use HTTPS*                                    | ✅                                   | ✅                                     | ✅                                           | ✅                                     |
-| HTTP Strict Transport Security (HSTS)                | ✅                                   | ✅                                     | ✅                                           | ✅                                     |
-| Minimum TLS Version*                                 | 1.2                                  | 1.2                                    | 1.2                                          | 1.2                                    |
-| Opportunistic Encryption, TLS 1.3*                   | ✅                                   | ✅                                     | ✅                                           | ✅                                     |
-| WAF (Web Application Firewall)*                      | Medium Security Level                | Medium Security Level                  | Medium Security Level                        | Medium Security Level                  |
-| Browser Integrity Check*                             | ✅                                   | ✅                                     | ✅                                           | ✅                                     |
-| [Caching Level][caching-levels], Browser Cache TTL*  | Standard, 4 hours                    | Standard, 4 hours                      | Standard, 4 hours                            | Standard, 4 hours                      |
+| Setting                                              | [`is-cool.dev`](https://is-cool.dev) | [`is-local.org`](https://is-local.org) | [`is-not-a.dev`](https://is-not-a.dev) | [`localplayer.dev`](https://localplayer.dev) |
+|------------------------------------------------------|--------------------------------------|----------------------------------------|----------------------------------------|----------------------------------------------|
+| [DNSSEC][dnssec]                                     | ✅                                   | ✅                                     | ✅                                     | ✅                                           |
+| Email                                                | ✅                                   | ✅                                     | ✅                                     | ✅                                           |
+| SSL/TLS*                                             | [Full][ssl-full]                     | [Full][ssl-full]                       | [Full][ssl-full]                       | [full][ssl-full]                             |
+| Always Use HTTPS*                                    | ✅                                   | ✅                                     | ✅                                     | ✅                                           |
+| HTTP Strict Transport Security (HSTS)                | ✅                                   | ✅                                     | ✅                                     | ✅                                           |
+| Minimum TLS Version*                                 | 1.2                                  | 1.2                                    | 1.2                                    | 1.2                                          |
+| Opportunistic Encryption, TLS 1.3*                   | ✅                                   | ✅                                     | ✅                                     | ✅                                           |
+| WAF (Web Application Firewall)*                      | Medium Security Level                | Medium Security Level                  | Medium Security Level                  | Medium Security Level                        |
+| Browser Integrity Check*                             | ✅                                   | ✅                                     | ✅                                     | ✅                                           |
+| [Caching Level][caching-levels], Browser Cache TTL*  | Standard, 4 hours                    | Standard, 4 hours                      | Standard, 4 hours                      | Standard, 4 hours                            |
 
 \*Only available when your domain has Cloudflare's proxy (`"proxy": true`) enabled
 
