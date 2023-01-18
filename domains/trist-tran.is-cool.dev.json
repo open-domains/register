@@ -7,12 +7,11 @@
 	"subdomain": "trist-tran",
 
 	"owner": {
-	  "repo": "https://github.com/Deanout/aws_video.git",
-	  "email": "hello@example.com"
+	  "repo": "https://github.com/TMTzMinhTri",
+	  "email": "tmtzminhtri@gmail.com"
 	},
 
 	"record": {
-	  "A": ["157.245.128.111"],
 	  "NS": ["ns1.digitalocean.com.", "ns2.digitalocean.com.", "ns3.digitalocean.com."]
 	},
 
