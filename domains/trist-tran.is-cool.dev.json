@@ -1,0 +1,22 @@
+{
+  "$schema": "../schemas/domain.schema.json",
+
+  "description": "Learning deploy code to VPS",
+
+  "domain": "is-cool.dev",
+  "subdomain": "trist-tran",
+
+  "owner": {
+    "email": "tmtzminhtri@gmail.com"
+  },
+
+  "record": {
+    "NS": [
+      "ns1.digitalocean.com.",
+      "ns2.digitalocean.com.",
+      "ns3.digitalocean.com."
+    ]
+  },
+
+  "proxy": false
+}
