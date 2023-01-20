@@ -8,13 +8,10 @@
 
   "owner": {
     "repo": "https://github.com/Daniel0003/DevOps-Domain",
-  
+    "email": ""
   },
 
-  "record": {
-    
-    "TXT": ["example_verification=1234567890"]
-  },
+  "record": {},
 
   "proxy": false
 }
