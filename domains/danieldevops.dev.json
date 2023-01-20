@@ -1,0 +1,20 @@
+{
+  "$schema": "../schemas/domain.schema.json",
+
+  "description": "For DevOps",
+
+  "domain": "is-not-a.dev",
+  "subdomain": "danieldev",
+
+  "owner": {
+    "repo": "https://github.com/Daniel0003/DevOps-Domain",
+  
+  },
+
+  "record": {
+    
+    "TXT": ["example_verification=1234567890"]
+  },
+
+  "proxy": false
+}
