@@ -34,6 +34,10 @@ https://discord.gg/kVjkg6VBwa
 [badge-cf]:https://shields.io/badge/%20-cloudflare-blue?logo=cloudflare&style=plastic?cacheSeconds=3600
 [badge-dnssec]:https://shields.io/badge/%20-DNSSEC-blue?logo=moleculer&logoColor=white&style=plastic?cacheSeconds=3600
 [badge-ssl]:https://shields.io/badge/SSL-Required-blue?style=plastic?cacheSeconds=3600
+## Note
+
+We don't currently support Netlify, Cloudflare or Vercel
+
 
 ### Settings
 
