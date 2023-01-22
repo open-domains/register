@@ -1,0 +1,18 @@
+{
+  "$schema": "../schemas/domain.schema.json",
+
+  "description": "Content Viewer",
+
+  "domain": "localplayer.dev",
+  "subdomain": "animearsiv",
+
+  "owner": {
+    "email": "turkceanimearsivi@gmail.com"
+  },
+
+  "record": {
+    "A": ["45.139.199.106"]
+  },
+
+  "proxy": false
+}
