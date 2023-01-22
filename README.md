@@ -12,6 +12,7 @@
 <p align="center">Want to find services similar to this? Take a look on <a href="https://free-for.dev/#/?id=domain">free-for.dev</a>.</p>
 
 ## Donate
+
 If you like this service and want us to continue running it, please consider donating!
 
 [![PayPal](https://www.paypalobjects.com/en_US/i/btn/btn_donateCC_LG.gif)](https://paypal.me/andrewstechyoutube)
@@ -34,10 +35,12 @@ https://discord.gg/kVjkg6VBwa
 [badge-cf]:https://shields.io/badge/%20-cloudflare-blue?logo=cloudflare&style=plastic?cacheSeconds=3600
 [badge-dnssec]:https://shields.io/badge/%20-DNSSEC-blue?logo=moleculer&logoColor=white&style=plastic?cacheSeconds=3600
 [badge-ssl]:https://shields.io/badge/SSL-Required-blue?style=plastic?cacheSeconds=3600
-## Note
 
-We don't currently support Netlify, Cloudflare or Vercel
+### Unsupported Services
 
+We currently do not support Cloudflare (for NS), Netlify (for website) or Vercel (for websites).
+
+This will hopefully be fixed soon.
 
 ### Settings
 
@@ -107,7 +110,9 @@ We don't currently support Netlify, Cloudflare or Vercel
 *Domains used for illegal purposes will be removed and permanently banned. Please, provide a clear description of your resource in the pull request.*
 
 ### License
+
 This project is under the [MIT License](https://github.com/open-domains/register/blob/main/LICENSE).
 
 #### Credits
+
 The CI which this service uses is forked from [here](https://github.com/tarampampam/free-domains).
