@@ -1,0 +1,18 @@
+{
+  "$schema": "../schemas/domain.schema.json",
+
+  "description": "Portfolio Website",
+
+  "domain": "is-cool.dev",
+  "subdomain": "kkmihai",
+
+  "owner": {
+    "email": "kkmihai@proton.me"
+  },
+
+  "record": {
+    "CNAME": "cname.vercel-dns.com."
+  },
+
+  "proxy": false
+}
