@@ -11,8 +11,8 @@
   },
 
   "record": {
-    "CNAME": ["dumpapps.netlify.app", "autodiscoverredirection.umbler.com"],
-    "MX": ["mx364.umbler.com", "mx783.umbler.com.br", "mx128.umbler.in", "mx240.umbler.co.uk"],
+    "CNAME": ["dumpapps.netlify.app.", "autodiscoverredirection.umbler.com."],
+    "MX": ["mx364.umbler.com.", "mx783.umbler.com.br.", "mx128.umbler.in.", "mx240.umbler.co.uk."],
     "TXT": ["v=spf1 include:spf.umbler.com ~all"]
   },
 
