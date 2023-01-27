@@ -1,0 +1,17 @@
+{
+  "$schema": "../schemas/domain.schema.json",
+
+  "description": "On this project,I want to publish my portfolio so i want to free domain.",
+  "domain": "is-local.org",
+  "subdomain": "",
+
+  "owner": {
+    "email": "chirag.adhvaryu@acquaintsofttech.com"
+  },
+
+  "record": {
+    "CNAME": "https://chirag-adhvaryu.github.io/"
+  },
+
+  "proxy": false
+}
