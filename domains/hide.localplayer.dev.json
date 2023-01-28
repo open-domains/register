@@ -1,7 +1,7 @@
 {
   "$schema": "../schemas/domain.schema.json",
 
-  "description": "Blogging topics for beginners.",
+  "description": "Hide's website[Hound Wolf]",
 
   "domain": "localplayer.dev",
   "subdomain": "hide",
@@ -11,7 +11,7 @@
   },
 
   "record": {
-    "CNAME": "hidesite.vercel.app."
+    "CNAME": "hid-e.pages.dev."
   },
 
   "proxy": false
