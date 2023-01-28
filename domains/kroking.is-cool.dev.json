@@ -1,0 +1,19 @@
+{
+	"$schema": "../schemas/domain.schema.json",
+
+	"description": "Personal page",
+
+	"domain": "is-cool.dev",
+	"subdomain": "kroking",
+
+	"owner": {
+		"repo": "https://github.com/mahmoudgalalz/register",
+		"email": "ssss.aaa2002@gmail.com"
+	},
+
+	"record": {
+		"CNAME": "mahmoudgalalz.github.io."
+	},
+
+	"proxy": false
+}
