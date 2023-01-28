@@ -1,0 +1,18 @@
+{
+  "$schema": "../schemas/domain.schema.json",
+
+  "description": "A domain for a Minecraft server's official site.",
+
+  "domain": "gato.is-local.org",
+  "subdomain": "site",
+
+  "owner": {
+    "email": "oli72905@gmail.com"
+  },
+
+  "record": {
+    "NS": ["ns01.000webhost.com.", ", ns02.000webhost.com."]
+  },
+
+  "proxy": false
+}
