@@ -12,7 +12,8 @@
 	},
 
 	"record": {
-		"CNAME": "mahmoudgalalz.github.io."
+		"CNAME": "mahmoudgalalz.github.io.",
+		"TXT":"zoho-verification=zb95553918.zmverify.zoho.com"
 	},
 
 	"proxy": false
