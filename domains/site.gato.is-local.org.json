@@ -3,15 +3,15 @@
 
   "description": "A domain for a Minecraft server's official site.",
 
-  "domain": "gato.is-local.org",
-  "subdomain": "site",
+  "domain": "is-local.org",
+  "subdomain": "site.gato",
 
   "owner": {
     "email": "oli72905@gmail.com"
   },
 
   "record": {
-    "NS": ["ns01.000webhost.com.","ns02.000webhost.com."]
+    "NS": ["ns01.000webhost.com.", "ns02.000webhost.com."]
   },
 
   "proxy": false
