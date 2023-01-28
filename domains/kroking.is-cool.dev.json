@@ -1,7 +1,7 @@
 {
 	"$schema": "../schemas/domain.schema.json",
 
-	"description": "Personal page",
+	"description": "Personal email",
 
 	"domain": "is-cool.dev",
 	"subdomain": "kroking",
@@ -12,7 +12,6 @@
 	},
 
 	"record": {
-		"CNAME": "mahmoudgalalz.github.io.",
 		"TXT":"zoho-verification=zb95553918.zmverify.zoho.com"
 	},
 
