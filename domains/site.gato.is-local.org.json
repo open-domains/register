@@ -11,7 +11,7 @@
   },
 
   "record": {
-    "NS": ["ns01.000webhost.com.", ", ns02.000webhost.com."]
+    "NS": ["ns01.000webhost.com.","ns02.000webhost.com."]
   },
 
   "proxy": false
