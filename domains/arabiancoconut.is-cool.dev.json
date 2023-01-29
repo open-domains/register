@@ -6,12 +6,11 @@
     "subdomain": "arabiancoconut",
 
     "owner": {
-        "repo": "https://github.com/ArabianCoconut",
-        "email": "p11h0ifd@duck.com",
+        "email": "p11h0ifd@duck.com"
     },
 
     "record": {
-        "CNAME": "arabiancoconut.github.io.",
+        "CNAME": "arabiancoconut.github.io."
     },
 
     "proxy": false
