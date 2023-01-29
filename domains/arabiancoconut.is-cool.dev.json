@@ -6,11 +6,14 @@
 
     "owner":{
         "repo":"https://github.com/ArabianCoconut",
-        "email":"p11h0ifd@duck.com"},
+        "email":"p11h0ifd@duck.com",
+        "website":"https://arabiancoconut.github.io"
+    },
+
     
     "record":{
         "TXT":["69dddce1d886bf46fce9aa94529895"],
-        "CNAME":["arabiancoconut.github.io"],
+        "CNAME":["arabiancoconut.github.io."],
         "A":["185.199.108.153","185.199.109.153","185.199.110.153 ","185.199.111.153"]
     },
     "proxy": false
