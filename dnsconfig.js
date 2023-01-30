@@ -72,18 +72,30 @@ for (var idx in domains) {
     }
   }
 
+  if (!domainData.record.CNAME.endsWith(".")) {
+    domainData.record.CNAME = domainData.record.CNAME + ".";
+  }
+
   if (domainData.record.CNAME) {
     commit[domainData.domain].push(
       CNAME(domainData.subdomain, domainData.record.CNAME, proxyState) // https://stackexchange.github.io/dnscontrol/js#CNAME
     )
   }
-  
+
+  if (!domainData.record.MX.endsWith(".")) {
+    domainData.record.MX = domainData.record.MX + ".";
+  }
+
   if (domainData.record.MX) {
     for (var mx in domainData.record.MX) {
       commit[domainData.domain].push(
         MX(domainData.subdomain, 10, domainData.record.MX[mx]) // https://stackexchange.github.io/dnscontrol/js#CNAME
       )
     }  
+  }
+
+  if (!domainData.record.NS.endsWith(".")) {
+    domainData.record.NS = domainData.record.NS + ".";
   }
 
   if (domainData.record.NS) {
