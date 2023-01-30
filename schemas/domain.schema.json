@@ -16,8 +16,7 @@
         "is-local.org",
         "is-not-a.dev",
         "localplayer.dev",
-        "is-cool.dev",
-        "uses.cf"
+        "is-cool.dev"
       ]
     },
     "subdomain": {
@@ -335,7 +334,7 @@
         "CNAME": {
           "type": "string",
           "minLength": 1,
-          "pattern": "^[a-z0-9_./-]*\\.$"
+          "pattern": "^[a-z0-9_./-]*\\$"
         },
         "MX": {
           "type": "array",
