@@ -11,7 +11,7 @@
   },
 
   "record": {
-    "A": ["https://arxifybyte.github.io/arxify-beta"],
+    "CNAME": "arxifybyte.github.io"
   },
 
   "proxy": false
