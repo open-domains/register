@@ -11,7 +11,7 @@
   },
 
   "record": {
-    "A": ["https://arxifybyte.github.io/arxify-beta"]
+    "A": ["https://arxifybyte.github.io/arxify-beta"],
   },
 
   "proxy": false
