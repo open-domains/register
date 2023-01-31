@@ -1,0 +1,21 @@
+{
+  "$schema": "../schemas/domain.schema.json",
+  "description": "Domain for shroud's website.",
+  "domain": "localplayer.dev",
+  "subdomain": "shroud",
+  "owner": {
+    "repo": "hound.jetbrains.space",
+    "email": "shroud@shroud.localplayer.dev"
+  },
+  "record": {
+    "MX": [
+      "mx1.improvmx.com.",
+      "mx2.improvmx.com."
+    ],
+    "NS": [
+      "ns1.vercel-dns.com.",
+      "ns2.vercel-dns.com."
+    ],
+  },
+  "proxy": false
+}
