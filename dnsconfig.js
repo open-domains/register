@@ -78,6 +78,7 @@ for (var idx in domains) {
     domainData.record.CNAME = domainData.record.CNAME + ".";
   }
 
+
   if (domainData.record.CNAME) {
     commit[domainData.domain].push(
       CNAME(domainData.subdomain, domainData.record.CNAME, proxyState) // https://stackexchange.github.io/dnscontrol/js#CNAME
