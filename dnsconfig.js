@@ -72,9 +72,9 @@ for (var idx in domains) {
     }
   }
 
-  const cnameRecord = domainData.record.CNAME;
+  const record = domainData.record.CNAME;
 
-  if (!cnameRecord.endsWith(".")) {
+  if (!record.endsWith(".")) {
     domainData.record.CNAME = domainData.record.CNAME + ".";
   }
 
