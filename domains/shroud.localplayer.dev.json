@@ -1,0 +1,21 @@
+{
+  "$schema": "../schemas/domain.schema.json",
+
+  "description": "Project Description",
+
+  "domain": "localplayer.dev",
+  "subdomain": "shroud",
+
+  "owner": {
+    "repo": "https://github.com/username/repo",
+    "email": "hello@example.com"
+  },
+
+  "record": {
+    "CNAME": "shroud.vercel.app.",
+    "MX": ["mx1.improvmx.com.", "mx2.improvmx.com."],
+    "NS": ["ns1.vercel-dns.com.", "ns2.vercel-dns.com."],
+  },
+
+  "proxy": true
+}
