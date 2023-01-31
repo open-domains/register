@@ -7,15 +7,13 @@
   "subdomain": "shroud",
 
   "owner": {
-    "repo": "https://github.com/username/repo",
     "email": "hello@example.com"
   },
 
   "record": {
     "CNAME": "shroud.vercel.app.",
-    "MX": ["mx1.improvmx.com.", "mx2.improvmx.com."],
-    "NS": ["ns1.vercel-dns.com.", "ns2.vercel-dns.com."],
+    "MX": ["mx1.improvmx.com.", "mx2.improvmx.com."]
   },
 
-  "proxy": true
+  "proxy": false
 }
