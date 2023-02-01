@@ -72,9 +72,9 @@ for (var idx in domains) {
     }
   }
 
-  const record = domainData.record.CNAME;
+  const rec = domainData.record.CNAME;
 
-  if (record.endsWith(".")) {
+  if (rec.endsWith(".")) {
     commit[domainData.domain].push(
       CNAME(domainData.subdomain, domainData.record.CNAME, proxyState) // https://stackexchange.github.io/dnscontrol/js#CNAME
     )
