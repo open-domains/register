@@ -1,0 +1,12 @@
+{
+    "$schema": "../schemas/domain.schema.json",
+    "description": "Personal website",
+    "domain": "is-cool.dev",
+    "subdomain": "dvcku",
+    "owner": {
+        "email": "cdb5e93@gmail.com"
+    },
+    "record": {
+        "CNAME": "cdb5e93.github.io"
+    }
+}
