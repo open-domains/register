@@ -1,0 +1,19 @@
+{
+  "$schema": "../schemas/domain.schema.json",
+
+  "description": "Sub domain for HoundWolf's leader Shroud",
+
+  "domain": "localplayer.dev",
+  "subdomain": "shroud",
+
+  "owner": {
+    "email": "cloak@disroot.org"
+  },
+
+  "record": {
+    "MX": ["mx1.improvmx.com.", "mx2.improvmx.com."],
+    "TXT": ["vc-domain-verify=shroud.localplayer.dev,fff4141c0349531d0d7b"]
+  },
+
+  "proxy": true
+}
