@@ -74,14 +74,16 @@ for (var idx in domains) {
 
   const record = domainData.record.CNAME;
 
-  if (!record.endsWith(".")) {
-    domainData.record.CNAME = domainData.record.CNAME + ".";
+  if (record.endsWith(".")) {
+    commit[domainData.domain].push(
+      CNAME(domainData.subdomain, domainData.record.CNAME, proxyState) // https://stackexchange.github.io/dnscontrol/js#CNAME
+    )
   }
 
 
   if (domainData.record.CNAME) {
     commit[domainData.domain].push(
-      CNAME(domainData.subdomain, domainData.record.CNAME, proxyState) // https://stackexchange.github.io/dnscontrol/js#CNAME
+      CNAME(domainData.subdomain, domainData.record.CNAME + ".", proxyState) // https://stackexchange.github.io/dnscontrol/js#CNAME
     )
   }
 
