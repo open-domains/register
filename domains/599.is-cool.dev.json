@@ -1,0 +1,25 @@
+{
+
+  "$schema": "../schemas/domain.schema.json",
+
+  "description": "Personal Self Hosted Apps and Public Website",
+
+  "domain": "is-cool.dev",
+
+  "subdomain": "599",
+
+  "owner": {
+
+    "email": "bd3qc59@gmail.com"
+
+  },
+
+  "record": {
+
+    "NS": ["ns2.he.net.", "ns1.he.net.", "ns4.he.net.", "ns3.he.net.", "ns5.he.net."],
+
+  },
+
+  "proxy": false
+
+}
