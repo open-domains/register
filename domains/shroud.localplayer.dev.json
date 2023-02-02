@@ -12,8 +12,9 @@
   },
 
   "record": {
-    "A": ["104.17.210.9"],
-    "MX": ["mx1.improvmx.com.", "mx2.improvmx.com."],
+    "CNAME": ["shroud.pages.dev."],
+    "MX": ["mx1.forwardemail.net.", "mx2.forwardemail.net."],
+    "TXT": ["forward-email=shivankpandey.programmer@gmail.com"]
   },
 
   "proxy": false
