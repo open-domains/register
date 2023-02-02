@@ -1,17 +1,16 @@
 {
   "$schema": "../schemas/domain.schema.json",
-
-  "description": "william.localplayer.dev",
+  "description": "personal web proxy service",
 
   "domain": "localplayer.dev",
-  "subdomain": "william",
+  "subdomain": "hmon",
 
   "owner": {
-    "email": "william@open-domains.net"
+    "email": "daniel@daniel.is-a.dev"
   },
 
   "record": {
-    "CNAME": "wdhdns.com."
+    "CNAME": "hmon.gives.",
   },
 
   "proxy": false
