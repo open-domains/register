@@ -1,0 +1,19 @@
+{
+    "schema": "../schemas/domain.schema.json",
+
+    "description": "personal blog",
+
+    "domain": "is-cool.dev",
+    "subdomain": "catdrout",
+
+    "owner": {
+        "email": "xcatdrout@proton.me"
+    },
+
+    "record": {
+        "CNAME": ["hashnode.network"],
+        "TXT": ["_vercel=vc-domain-verify=catdrout.is-cool.dev,0b83fabccb664bad380"],
+    },
+
+    "proxy": false
+}
