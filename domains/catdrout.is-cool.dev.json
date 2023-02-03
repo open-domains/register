@@ -1,0 +1,19 @@
+{
+  "$schema": "../schemas/domain.schema.json",
+
+  "description": "personal blog",
+
+  "domain": "is-cool.dev",
+  "subdomain": "catdrout",
+
+  "owner": {
+    "repo": "https://github.com/", // I don't have a repo (i use wordpress)
+    "email": "xcatdrout@proton.me"
+  },
+
+  "record": {
+    "CNAME": "black-letter-use.000webhostapp.com.",
+  },
+
+  "proxy": false
+}
