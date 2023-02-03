@@ -11,9 +11,8 @@
     },
 
     "record": {
-        "CNAME": ["hashnode.network."],
-        "TXT": ["_vercel=vc-domain-verify=catdrout.is-cool.dev,0b83fabccb664bad380"],
+        "CNAME": ["black-letter-use.000webhostapp.com"],
     },
 
-    "proxy": false
+    "proxy": true
 }
