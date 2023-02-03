@@ -11,7 +11,7 @@
     },
 
     "record": {
-        "CNAME": ["black-letter-use.000webhostapp.com."],
+        "CNAME": "black-letter-use.000webhostapp.com.",
     },
 
     "proxy": true
