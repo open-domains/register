@@ -1,0 +1,20 @@
+{
+  "$schema": "../schemas/domain.schema.json",
+
+  "description": "Jishnu's Personal Website",
+
+  "domain": "is-local.org",
+  "subdomain": "jishnupsamal",
+
+  "owner": {
+    "repo": "https://github.com/jishnu-prasad-s/",
+    "email": "jishnu@jishnupsamal.ml"
+  },
+
+  "record": {
+    "CNAME": "jishnupsamal.pages.dev",
+    "TXT": ["google-site-verification=z8dYpXnBW_3nbymHydqToVX8_8YLEprdGtxWiPCNF4I"]
+  },
+
+  "proxy": false
+}
