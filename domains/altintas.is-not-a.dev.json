@@ -1,0 +1,18 @@
+{
+  "$schema": "../schemas/domain.schema.json",
+
+  "description": "Car Rental Project",
+
+  "domain": "is-not-a.dev",
+  "subdomain": "altinas",
+
+  "owner": {
+    "email": "ahmtaltnts35@gmail.com"
+  },
+
+  "record": {
+    "A": ["80.80.80.80"]
+  },
+
+  "proxy": false
+}
