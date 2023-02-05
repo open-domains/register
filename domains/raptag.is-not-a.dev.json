@@ -1,0 +1,20 @@
+
+{
+  "$schema": "../schemas/domain.schema.json",
+
+  "description": "RaptaG's website",
+
+  "domain": "is-not-a.dev",
+  "subdomain": "raptag",
+
+  "owner": {
+
+    "email": "iamnodev@proton.me"
+  },
+
+  "record": {
+    "MX": ["raptag.codeberg.page."],
+  },
+
+  "proxy": false
+}
