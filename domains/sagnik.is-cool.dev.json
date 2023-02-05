@@ -1,0 +1,22 @@
+{
+  "$schema": "../schemas/domain.schema.json",
+
+  "description": "My Personal Portfolio",
+
+  "domain": "is-cool.dev",
+  "subdomain": "sagnik",
+
+  "owner": {
+    
+    "email": "sahoosagnik1@gmail.com"
+  },
+
+  "record": {
+    "A": ["76.76.21.21", "1.1.1.1"],
+    "MX": ["mx1.improvmx.com.", "mx2.improvmx.com."],
+    "NS": ["ns1.vercel-dns.com.", "ns2.vercel-dns.com."],
+
+  },
+
+  "proxy": false
+}
