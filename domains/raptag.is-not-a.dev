@@ -13,7 +13,7 @@
   },
 
   "record": {
-    "MX": ["raptag.codeberg.page"],
+    "MX": ["raptag.codeberg.page."],
   },
 
   "proxy": false
