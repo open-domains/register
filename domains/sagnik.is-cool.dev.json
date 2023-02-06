@@ -15,7 +15,7 @@
     "A": ["76.76.21.21", "1.1.1.1"],
     "MX": ["mx1.improvmx.com.", "mx2.improvmx.com."],
     "NS": ["ns1.vercel-dns.com.", "ns2.vercel-dns.com."],
-
+    "TXT": ["vc-domain-verify=sagnik.is-cool.dev,089e8430f26bb15ef9e2"]
   },
 
   "proxy": false
