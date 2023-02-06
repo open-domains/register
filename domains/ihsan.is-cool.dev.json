@@ -14,5 +14,5 @@
     "CNAME": "ihsanhardiansah.me.",
   },
 
-  "proxy": true
+  "proxy": false
 }
