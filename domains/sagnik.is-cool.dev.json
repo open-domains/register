@@ -12,10 +12,8 @@
   },
 
   "record": {
-    "A": ["76.76.21.21", "1.1.1.1"],
+    "A": ["76.76.21.21"],
     "MX": ["mx1.improvmx.com.", "mx2.improvmx.com."],
-    "NS": ["ns1.vercel-dns.com.", "ns2.vercel-dns.com."],
-
   },
 
   "proxy": false
