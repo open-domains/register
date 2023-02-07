@@ -12,8 +12,7 @@
   },
 
   "record": {
-    "MX": ["mx1.forwardemail.net.","mx2.forwardemail.net."],
-    "TXT": ["forward-email=shad0w@disroot.org"]
+    "MX": ["mx1.improvmx.com.","mx2.improvmx.com."],
   },
 
   "proxy": false
