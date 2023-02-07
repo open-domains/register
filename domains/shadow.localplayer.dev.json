@@ -4,16 +4,16 @@
   "description": "Email forwarding domain for shadow",
 
   "domain": "localplayer.dev",
-  "subdomain": "shadow",
+  "subdomain": "shad0w",
 
   "owner": {
     "repo": "https://github.com/5HR0UD/website",
-    "email": "cloak@disroot.org"
+    "email": "shad0w@disroot.org"
   },
 
   "record": {
-    "MX": ["mx1.forwardemail.net.","mx2.forwardemail.net."],
-    "TXT": ["forward-email=shad0w@disroot.org"]
+    "MX": ["mx1.improvmx.com.","mx2.improvmx.com."],
+    "TXT": ["v=spf1 include:spf.improvmx.com ~all"]
   },
 
   "proxy": false
