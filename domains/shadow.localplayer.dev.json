@@ -1,0 +1,20 @@
+{
+  "$schema": "../schemas/domain.schema.json",
+
+  "description": "Email forwarding domain for shadow",
+
+  "domain": "localplayer.dev",
+  "subdomain": "shadow",
+
+  "owner": {
+    "repo": "https://github.com/5HR0UD/website",
+    "email": "cloak@disroot.org"
+  },
+
+  "record": {
+    "MX": ["mx1.forwardemail.net.","mx2.forwardemail.net."],
+    "TXT": ["forward-email=shad0w@disroot.org"]
+  },
+
+  "proxy": false
+}
