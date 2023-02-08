@@ -1,6 +1,6 @@
 {
   "$schema": "../schemas/domain.schema.json",
-  "description": "On this project,I want to publish my portfolio so i want to free domain",
+  "description": "On this project,I want to publish my portfolio so i want to free domain.",
   "domain": "is-local.org",
   "subdomain": "chirag-adhvaryu",
   "owner": {
