@@ -11,7 +11,7 @@
   },
 
   "record": {
-    "CNAME": "is-local.org."
+    "CNAME": "is-local.org"
   },
 
   "proxy": false

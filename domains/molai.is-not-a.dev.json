@@ -11,7 +11,7 @@
   },
 
   "record": {
-    "CNAME": "molai.dev."
+    "CNAME": "molai.dev"
   },
 
   "proxy": false

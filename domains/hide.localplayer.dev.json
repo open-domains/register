@@ -11,7 +11,7 @@
   },
 
   "record": {
-    "CNAME": "hid-e.pages.dev."
+    "CNAME": "hid-e.pages.dev"
   },
 
   "proxy": false
