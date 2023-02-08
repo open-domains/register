@@ -1,7 +1,7 @@
 {
   "$schema": "../schemas/domain.schema.json",
 
-  "description": "A domain for a Minecraft server hosted using Aternos",
+  "description": "A domain for a Minecraft server hosted using Aternos.",
 
   "domain": "is-local.org",
   "subdomain": "gato",
