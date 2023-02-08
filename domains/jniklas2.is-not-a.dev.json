@@ -11,7 +11,7 @@
   },
 
   "record": {
-    "CNAME": "notadev.ccsrv.eu."
+    "CNAME": "notadev.ccsrv.eu"
   },
 
   "proxy": false

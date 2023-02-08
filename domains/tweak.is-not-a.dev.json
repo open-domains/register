@@ -12,7 +12,7 @@
   },
 
   "record": {
-    "NS": ["anna.ns.talosbot.xyz.", "will.ns.talosbot.xyz.", "chloe.ns.talosbot.xyz.", "ethan.ns.talosbot.xyz."]
+    "NS": ["anna.ns.talosbot.xyz", "will.ns.talosbot.xyz", "chloe.ns.talosbot.xyz", "ethan.ns.talosbot.xyz"]
   },
 
   "proxy": false

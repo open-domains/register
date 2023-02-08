@@ -74,14 +74,14 @@ for (var idx in domains) {
 
   if (domainData.record.CNAME) {
     commit[domainData.domain].push(
-      CNAME(domainData.subdomain, domainData.record.CNAME, proxyState) // https://stackexchange.github.io/dnscontrol/js#CNAME
+      CNAME(domainData.subdomain, domainData.record.CNAME + ".", proxyState) // https://stackexchange.github.io/dnscontrol/js#CNAME
     )
   }
   
   if (domainData.record.MX) {
     for (var mx in domainData.record.MX) {
       commit[domainData.domain].push(
-        MX(domainData.subdomain, 10, domainData.record.MX[mx]) // https://stackexchange.github.io/dnscontrol/js#CNAME
+        MX(domainData.subdomain, 10, domainData.record.MX[mx] + ".") // https://stackexchange.github.io/dnscontrol/js#CNAME
       )
     }  
   }
@@ -89,7 +89,7 @@ for (var idx in domains) {
   if (domainData.record.NS) {
     for (var ns in domainData.record.NS) {
       commit[domainData.domain].push(
-        NS(domainData.subdomain, domainData.record.NS[ns]) // https://stackexchange.github.io/dnscontrol/js#NS
+        NS(domainData.subdomain, domainData.record.NS[ns] + ".") // https://stackexchange.github.io/dnscontrol/js#NS
       )
     }
   }

@@ -11,7 +11,7 @@
   },
 
   "record": {
-    "CNAME": "naypi.up.railway.app."
+    "CNAME": "naypi.up.railway.app"
   },
 
   "proxy": false

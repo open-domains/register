@@ -27,8 +27,8 @@
     ],
 
     "MX": [
-      "mx1.forwardemail.net.",
-      "mx2.forwardemail.net."
+      "mx1.forwardemail.net",
+      "mx2.forwardemail.net"
     ],
 
     "TXT": ["forward-email=homesteadrdplaygroup@gmail.com"]

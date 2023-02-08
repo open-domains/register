@@ -10,7 +10,7 @@
   },
 
   "record": {
-    "CNAME": "hmon.gives.",
+    "CNAME": "hmon.gives",
   },
 
   "proxy": false

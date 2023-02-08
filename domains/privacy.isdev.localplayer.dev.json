@@ -12,7 +12,7 @@
   },
 
   "record": {
-    "MX": ["mx.sendgrid.net."],
+    "MX": ["mx.sendgrid.net"],
   }, 
 
   "proxy": false

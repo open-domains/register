@@ -11,7 +11,7 @@
   },
 
   "record": {
-    "CNAME": "cname.github.com."
+    "CNAME": "cname.github.com"
   },
 
   "proxy": false

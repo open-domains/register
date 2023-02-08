@@ -12,7 +12,7 @@
     },
 
     "record": {
-        "CNAME": "zeusgangproject.github.io."
+        "CNAME": "zeusgangproject.github.io"
     },
 
     "proxy": false
