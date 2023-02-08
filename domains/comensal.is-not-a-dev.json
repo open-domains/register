@@ -1,7 +1,7 @@
 {
   "$schema": "../schemas/domain.schema.json",
 
-  "description": "On this project. I really just want a free domain, no matter subdomain, but trustable. I feel is-not-a.dev is a nice and funny subdomain although I am a devloper.The subdomain my personal website",
+  "description": "On this project. I really just want a free domain, no matter subdomain, but trustable. I feel is-not-a.dev is a nice and funny subdomain although I am a devloper.The subdomain my personal website.",
 
   "domain": "is-not-a.dev",
   "subdomain": "comensal",
