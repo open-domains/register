@@ -92,9 +92,9 @@ This will hopefully be fixed soon.
   "record": {
     "A": ["1.1.1.1", "1.0.0.1"],
     "AAAA": ["::1", "::2"],
-    "CNAME": "example.com.",
-    "MX": ["mx1.example.com.", "mx2.example.com."],
-    "NS": ["ns1.example.com.", "ns2.example.com."],
+    "CNAME": "example.com",
+    "MX": ["mx1.example.com", "mx2.example.com"],
+    "NS": ["ns1.example.com", "ns2.example.com"],
     "TXT": ["example_verification=1234567890"]
   },
 
