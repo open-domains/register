@@ -1,0 +1,19 @@
+{
+  "$schema": "../schemas/domain.schema.json",
+
+  "description": "A custom domain for my minecraft server",
+
+  "domain": "is-cool.dev",
+  "subdomain": "paradize",
+
+  "owner": {
+    "repo": "https://github.com/AXVIII3",
+    "email": "axviii3.yt@gmail.com"
+  },
+
+  "record": {
+    "NS": ["paradize.aternos.me:21453."],
+  },
+
+  "proxy": false
+}
