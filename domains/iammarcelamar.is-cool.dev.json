@@ -1,0 +1,19 @@
+{
+  "$schema": "../schemas/domain.schema.json",
+
+  "description": "Personal Portfolio",
+
+  "domain": "is-cool.dev",
+  "subdomain": "iammarcelamar",
+
+  "owner": {
+    "repo": "https://github.com/iammarcelamar/portfolio",
+    "email": "dmarcetech@gmail.com"
+  },
+
+  "record": {
+    "CNAME": "iammarcelamar.github.io",
+  },
+
+  "proxy": false
+}
