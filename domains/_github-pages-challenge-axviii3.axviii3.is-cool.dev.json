@@ -2,7 +2,7 @@
   "$schema": "../schemas/domain.schema.json",
   "description": "For verifying my domain with github pages",
   "domain": "is-cool.dev",
-  "subdomain": "_github-pages-challenge-AXVIII3.axviii3",
+  "subdomain": "_github-pages-challenge-axviii3.axviii3",
 
   "owner": {
     "repo": "https://github.com/AXVIII3/AXVIII3",
