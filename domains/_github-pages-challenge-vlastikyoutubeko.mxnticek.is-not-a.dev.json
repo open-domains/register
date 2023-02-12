@@ -1,10 +1,10 @@
 {
   "$schema": "../schemas/domain.schema.json",
 
-  "description": "Project Description",
+  "description": "",
 
   "domain": "is-not-a.dev",
-  "subdomain": "_github-pages-challenge-VlastikYoutubeKo.mxnticek",
+  "subdomain": "_github-pages-challenge-vlastikyoutubeko.mxnticek",
 
   "owner": {
     "repo": "https://github.com/vlastikyoutubeko/vlastikyoutubeko.github.io",
