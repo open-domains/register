@@ -1,0 +1,24 @@
+{
+  "$schema": "../schemas/domain.schema.json",
+
+  "description": "Project Description",
+
+  "domain": "is-local.org",
+  "subdomain": "harmo",
+
+  "owner": {
+    "repo": "https://github.com/bbmtab/opendomain",
+    "email": "bbmtab@gmail.com"
+  },
+
+  "record": {
+    "A": ["1.1.1.1", "1.0.0.1"],
+    "AAAA": ["::1", "::2"],
+    "CNAME": "harmo.is-local.org",
+    "MX": ["mx1.example.com", "mx2.example.com"],
+    "NS": ["ns41.cloudns.net", "ns42.cloudns.net", "ns43.cloudns.net", "ns44.cloudns.net"],
+    "TXT": ["example_verification=1234567890"]
+  },
+
+  "proxy": false
+}
