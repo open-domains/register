@@ -1,0 +1,17 @@
+{
+    "schema": "../schemas/domain.schema.json",
+    "description": "folio",
+
+    "domain": "is-cool.dev",
+    "subdomain": "charliebunt",
+
+    "owner": {
+        "email": "buntcharlie@gmail.com"
+    },
+
+    "record": {
+        "CNAME": "charliebunt.github.io"
+    },
+
+    "proxy": false
+}
