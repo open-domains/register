@@ -1,0 +1,18 @@
+{
+  "$schema": "../schemas/domain.schema.json",
+
+  "description": "Portfolio website",
+
+  "domain": "is-cool.dev",
+  "subdomain": "xyzhans",
+
+  "owner": {
+    "email": "xyzhansnew850@gmail.com"
+  },
+
+  "record": {
+    "CNAME": "xyzhans.netlify.app"
+  },
+
+  "proxy": false
+}
