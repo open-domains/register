@@ -1,0 +1,24 @@
+{
+  "$schema": "../schemas/domain.schema.json",
+
+  "description": "Project Description",
+
+  "domain": "Zoomzoom",
+  "subdomain": "dd",
+
+  "owner": {
+    "repo": "https://github.com/username/repo",
+    "email": "hello@example.com"
+  },
+
+  "record": {
+    "A": ["1.1.1.1", "1.0.0.1"],
+    "AAAA": ["::1", "::2"],
+    "CNAME": "dd.com",
+    "MX": ["mx1.dd.com", "mx2.dd.com"],
+    "NS": ["ns1.dd.com", "ns2.dd.com"],
+    "TXT": ["example_verification=1234567890"]
+  },
+
+  "proxy": false
+}
