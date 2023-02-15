@@ -6,13 +6,14 @@
     "subdomain": "_github-pages-challenge-charliebunt.charliebunt",
 
     "owner": {
+        "repo": "https://charliebunt.github.io/charliebunt.github.io"
 
         "email": "buntcharlie@gmail.com"
     },
 
     "record": {
        
-    "TXT": ["fccdb70daf9c857938273011154467"]
+    "TXT": ["d58d70a92e230f0bea830873d70663"]
   
     },
 
