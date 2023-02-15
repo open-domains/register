@@ -1,0 +1,12 @@
+path-to-signatures: signatures-v2.json
+path-to-document: https://github.com/open-domains/register/blob/main/terms.md
+    branch: main
+    allowlist: od-bot
+    remote-organization-name: open-domains
+    remote-repository-name: cla
+    use-dco-flag: false
+    lock-pullrequest-aftermerge: true
+  env:
+    GITHUB_TOKEN: ***
+    PERSONAL_ACCESS_TOKEN: ***
+CLA Assistant GitHub Action bot has started the process
