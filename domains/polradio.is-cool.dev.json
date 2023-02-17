@@ -1,13 +1,12 @@
 {
   "$schema": "../schemas/domain.schema.json",
 
-  "description": "Project Description",
+  "description": "",
 
   "domain": "is-cool.dev",
   "subdomain": "polradio",
 
   "owner": {
-    "repo": "https://github.com/samoyedgaming/register/",
     "email": "fhadzlik9@gmail.com"
   },
 
