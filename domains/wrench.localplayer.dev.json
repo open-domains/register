@@ -1,0 +1,18 @@
+{
+  "$schema": "../schemas/domain.schema.json",
+
+  "description": "Free developer custom email",
+
+  "domain": "localplayer.dev",
+  "subdomain": "wrench",
+
+  "owner": {
+    "email": "dev@wrench.localplayer.dev"
+  },
+
+  "record": {
+    "MX": ["mx1.improvmx.com","mx2.improvmx.com"]
+  },
+
+  "proxy": false
+}
