@@ -13,7 +13,7 @@
   },
 
   "record": {
-    "MX": ["raptag.codeberg.page"]
+    "CNAME": "raptag.codeberg.page"
   },
 
   "proxy": false
