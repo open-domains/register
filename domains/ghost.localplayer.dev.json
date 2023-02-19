@@ -4,7 +4,7 @@
   "description": "Email forwarding domain for shadow",
 
   "domain": "localplayer.dev",
-  "subdomain": "shadow",
+  "subdomain": "ghost",
 
   "owner": {
     "repo": "https://github.com/5HR0UD/website",
