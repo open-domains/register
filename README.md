@@ -8,7 +8,7 @@
 </p>
 
 <p align="center">Free subdomains for personal sites, open-source projects, and more.</p>
-<p align="center">Want to find services similar to this? Take a look on <a href="https://free-for.dev/#/?id=domain">free-for.dev</a>.</p>
+<p align="center">Want to find services similar to this? Take a look on <a href="https://free-for.life/#/?id=domains">free-for.life</a>.</p>
 
 ## Donate
 
