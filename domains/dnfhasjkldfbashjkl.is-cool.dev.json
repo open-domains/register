@@ -1,0 +1,16 @@
+{
+    "$schema": "../schemas/domain.schema.json",
+
+    "domain": "is-cool.dev",
+    "subdomain": "dnfhasjkldfbashjkl",
+
+    "owner": {
+        "email": "william@williamharrison.dev"
+    },
+
+    "records": {
+        "TXT": ["test"]
+    },
+
+    "proxy": false
+}
