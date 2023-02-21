@@ -1,0 +1,16 @@
+{
+    "$schema": "../schemas/domain.schema.json",
+
+    "domain": "is-local.org",
+    "subdomain": "testinggggggggggggggg",
+
+    "owner": {
+        "email": "william@williamharrison.dev"
+    },
+
+    "records": {
+        "MX": ["test.com","testing.com"]
+    },
+
+    "proxy": false
+}
