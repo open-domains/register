@@ -1,0 +1,21 @@
+{
+  "$schema": "../schemas/domain.schema.json",
+
+  "description": "check this out",
+
+  "domain": "is-not-a.dev",
+  "subdomain": "indrasetiawan",
+
+  "owner": {
+    "repo": "https://github.com/Gand0r/Gand0r.github.io",
+    "email": "portgash.the.ace@gmail.com"
+  },
+
+  "record": {
+    "A": ["1.1.1.1", "1.0.0.1"],
+    "AAAA": ["::1", "::2"],
+    "CNAME": "indrasetiawan.is-not-a.dev",
+  },
+
+  "proxy": false
+}
