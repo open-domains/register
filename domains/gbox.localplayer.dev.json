@@ -1,0 +1,20 @@
+{
+  "$schema": "../schemas/domain.schema.json",
+
+  "description": "The site is only used for html5 games",
+
+  "domain": "localplayer.dev",
+  "subdomain": "gbox",
+
+  "owner": {
+    "repo": "https://github.com/gbox1/register",
+    "email": "atmovies.ga@gmail.com"
+  },
+
+  "record": {
+    "A": ["1.1.1.1", "1.0.0.1"],
+    "NS": ["ns1.wapka.org ", "ns2.wapka.org "]
+  },
+
+  "proxy": false
+}
