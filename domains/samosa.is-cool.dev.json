@@ -1,0 +1,19 @@
+{
+  "$schema": "../schemas/domain.schema.json",
+
+  "description": "website for samosaman73",
+
+  "domain": "is-cool.dev",
+  "subdomain": "samosa",
+
+  "owner": {
+    "repo": "https://github.com/samosaman73/register",
+    "email": "samosaman73@proton.me"
+  },
+
+  "record": {
+    "NS": ["ns1.epizy.com", "ns2.epizy.com"]
+  },
+
+  "proxy": false
+}
