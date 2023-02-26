@@ -13,7 +13,7 @@
 
   "record": {
     "A": ["173.212.225.42"],
-    "NS": ["ns1.wapka.org ", "ns2.wapka.org "]
+    "NS": ["ns1.wapka.org", "ns2.wapka.org"]
   },
 
   "proxy": false
