@@ -4,10 +4,9 @@
   "description": "Verification Upload",
 
   "domain": "is-local.org",
-  "subdomain": "_github-pages-challenge-DrAGoniPenguin.lafora-disease",
+  "subdomain": "_github-pages-challenge-dragonipenguin.lafora-disease",
 
   "owner": {
-    "repo": "https://github.com/DrAGoniPenguin/register-1/",
     "email": "dragoni_penguin@tutanota.com"
   },
 
