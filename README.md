@@ -102,7 +102,7 @@ This will hopefully be fixed soon.
 }
 ```
 
-4. Your pull request will be reviewed and merged. Please, don't ignore the pull requestchecklist. If you ignore the checklist, your pull request will be ignored too. _Make sure to keep an eye on it in case we need you to make any changes!_
+4. Your pull request will be reviewed and merged. Please don't ignore the pull request checklist. If you ignore the checklist, your pull request will be ignored too. _Make sure to keep an eye on it in case we need you to make any changes!_
 5. After the pull request is merged, please allow up to 24 hours for the changes to propagate _(usually, it takes 5..15 minutes)_
 6. Enjoy your new domain!
 
@@ -111,7 +111,3 @@ This will hopefully be fixed soon.
 ### License
 
 This project is under the [MIT License](https://github.com/open-domains/register/blob/main/LICENSE).
-
-#### Credits
-
-The CI which this service uses is forked from [here](https://github.com/tarampampam/free-domains).
