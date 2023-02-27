@@ -12,8 +12,7 @@
   },
 
   "record": {
-    "NS": ["ns1.epizy.com", "ns2.epizy.com"],
-    "MX": ["mx1.improvmx.com", "mx2.improvmx.com"]
+    "NS": ["ns1.epizy.com", "ns2.epizy.com"]
   },
 
   "proxy": false
