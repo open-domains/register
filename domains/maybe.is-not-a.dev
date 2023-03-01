@@ -1,0 +1,19 @@
+{
+  "$schema": "../schemas/domain.schema.json",
+
+  "description": "subdomain for cliccato",
+
+  "domain": "is-not-a.dev",
+  "subdomain": "maybe",
+
+  "owner": {
+    "repo": "https://github.com/cliccato/maybe.is-not-a.dev",
+    "email": "cliccato@bigdi.cc"
+  },
+
+  "record": {
+    "NS": ["ns1.afraid.org", "ns2.afraid.org", "ns3.afraid.org", "ns4.afraid.org"],
+  },
+
+  "proxy": false
+}
