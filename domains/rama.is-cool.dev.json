@@ -1,0 +1,20 @@
+{
+  "$schema": "../schemas/domain.schema.json",
+
+  "description": "Website",
+
+  "domain": "is-cool.dev",
+  "subdomain": "rama",
+
+  "owner": {
+    "repo": "https://github.com/OpAayush",
+    "email": "aayushmagrawal@gmail.com"
+  },
+
+  "record": {
+    "CNAME": "example.com",
+    "TXT": ["example_verification=1234567890"]
+  },
+
+  "proxy": false
+}
