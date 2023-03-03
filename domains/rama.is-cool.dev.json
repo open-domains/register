@@ -12,8 +12,8 @@
   },
 
   "record": {
-    "CNAME": "example.com",
-    "TXT": ["example_verification=1234567890"]
+    "CNAME": "ab3392fb-3653-4750-8c68-bb3eb585a6a5.id.repl.co",
+    "TXT": ["replit-verify=ab3392fb-3653-4750-8c68-bb3eb585a6a5"]
   },
 
   "proxy": false
