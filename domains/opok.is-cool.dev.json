@@ -1,7 +1,7 @@
 {
   "$schema": "../schemas/domain.schema.json",
 
-  "description": "Email for the OP-OK Devlopment Network",
+  "description": "Domain for the OP-OK Devlopment Network",
 
   "domain": "is-cool.dev",
   "subdomain": "opok",
@@ -12,8 +12,7 @@
   },
 
   "record": {
-    "MX": ["mx1.improvmx.com.", "mx2.improvmx.com."],
-    "TXT": ["v=spf1 include:spf.improvmx.com ~all"]
+    "CNAME": ["3cb94f80-fb00-4d22-adb4-70dde56d6677.id.repl.co"]
   },
 
   "proxy": false
