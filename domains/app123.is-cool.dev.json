@@ -1,0 +1,19 @@
+{
+    "$schema": "../schemas/domain.schema.json",
+  
+    "description": "Microservice development",
+  
+    "domain": "is-cool.dev",
+    "subdomain": "app123",
+  
+    "owner": {
+      "repo": "https://github.com/mtanvir9666/journal",
+      "email": "mtanvir9666@gmail.com"
+    },
+  
+    "record": {
+      "NS": ["ns1.linode.com", "ns2.linode.com", "ns3.linode.com", "ns4.linode.com", "ns5.linode.com"]
+    },
+  
+    "proxy": false
+  }
