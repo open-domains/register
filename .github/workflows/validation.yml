@@ -4,10 +4,7 @@ on:
   workflow_dispatch: {}
   push:
     branches: [main]
-    tags-ignore: ['**']
-    paths-ignore: ['**.md']
   pull_request:
-    paths-ignore: ['**.md']
 
 concurrency:
   group: ${{ github.ref }}-tests
@@ -32,6 +29,3 @@ jobs:
       - uses: gacts/install-dnscontrol@v1
 
       - run: dnscontrol check
-
-
-
