@@ -7,12 +7,10 @@
   "subdomain": "shadow",
 
   "owner": {
-    "repo": "https://github.com/username/repo",
     "email": "root@shadow.localplayer.dev"
   },
 
   "record": {
-    "NS": ["ns1.vercel-dns.com", "ns2.vercel-dns.com"],
     "A" : ["76.76.21.21"]
   },
 
