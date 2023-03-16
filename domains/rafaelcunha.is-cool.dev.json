@@ -1,0 +1,30 @@
+{
+  "$schema": "../schemas/domain.schema.json",
+  "description": "Personal Porfolio",
+  "domain": "is-not-a.dev",
+  "subdomain": "rafaelcunha",
+  "owner": {
+    "repo": "https://github.com/silici0/register",
+    "email": "silici0@gmail.com"
+  },
+  "record": {
+    "A": [
+      "179.188.11.32"
+    ],
+    "MX": [
+      "mx.core.locaweb.com.br",
+      "mx.a.locaweb.com.br",
+      "mx.b.locaweb.com.br",
+      "mx.jk.locaweb.com.br"
+    ],
+    "NS": [
+      "ns1.locaweb.com.br",
+      "ns2.locaweb.com.br",
+      "ns2.locaweb.com.br"
+    ],
+    "TXT": [
+      "v=spf1 include:_spf.locaweb.com.br -all"
+    ]
+  },
+  "proxy": false
+}
