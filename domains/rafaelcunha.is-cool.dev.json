@@ -17,11 +17,6 @@
       "mx.b.locaweb.com.br",
       "mx.jk.locaweb.com.br"
     ],
-    "NS": [
-      "ns1.locaweb.com.br",
-      "ns2.locaweb.com.br",
-      "ns2.locaweb.com.br"
-    ],
     "TXT": [
       "v=spf1 include:_spf.locaweb.com.br -all"
     ]
