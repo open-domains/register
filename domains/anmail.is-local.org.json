@@ -1,0 +1,19 @@
+{
+  "$schema": "../schemas/domain.schema.json",
+
+  "description": "Personal email service",
+
+  "domain": "is-local.org",
+  "subdomain": "anmail",
+
+  "owner": {
+    "repo": "https://github.com/ririko5834/register",
+    "email": "wolfo89+anmail@protonmail.com"
+  },
+
+  "record": {
+    "NS": ["ns1.zilore.net", "ns2.zilore.net"],
+  },
+
+  "proxy": false
+}
