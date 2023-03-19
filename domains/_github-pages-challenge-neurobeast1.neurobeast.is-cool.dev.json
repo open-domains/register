@@ -1,0 +1,20 @@
+{
+  "$schema": "../schemas/domain.schema.json",
+
+  "description": "NeuroBeast Company",
+
+  "domain": "is-cool.dev",
+  "subdomain": "neurobeast",
+
+  "owner": {
+    "repo": "https://github.com/neurobeast1/neurobeast1.github.io",
+    "email": "info@neurobeast.gq"
+  },
+
+  "record": {
+     "TXT": ["0765e9bd025547cc5cfbf7bd166654"]
+    
+  },
+
+  "proxy": false
+}
