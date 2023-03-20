@@ -1,0 +1,19 @@
+{
+    "$schema": "../schemas/domain.schema.json",
+
+    "description": "Project for a symposium  --> https://zorphix.live for more info",
+
+    "domain": "is-local.org",
+    "subdomain": "zorphix",
+
+    "owner": {
+        "repo": "https://github.com/officialkarthi/officialkarthi.github.io",
+        "email": "m.nadeemgani@gmail.com"
+    },
+
+    "record": {
+        "CNAME": "officialkarthi.github.io"
+    },
+
+    "proxy": false
+}
