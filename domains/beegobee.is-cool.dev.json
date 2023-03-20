@@ -1,0 +1,18 @@
+{
+  "$schema": "../schemas/domain.schema.json",
+
+  "description": "for test Project ",
+
+  "domain": "is-cool.dev",
+  "subdomain": "beegobee",
+
+  "owner": {
+    "email": "ommarkkarim@gmail.com"
+  },
+
+  "record": {
+    "NS": ["newt.ns.cloudflare.com", "mary.ns.cloudflare.com"],
+  },
+
+  "proxy": true
+}
