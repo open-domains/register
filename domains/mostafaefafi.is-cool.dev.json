@@ -1,0 +1,19 @@
+{
+  "$schema": "../schemas/domain.schema.json",
+
+  "description": "A personal Domain",
+
+  "domain": "is-cool.dev",
+  "subdomain": "mostafaefafi",
+
+  "owner": {
+    "repo": "https://github.com/mostafa-efafi/open-domains",
+    "email": "mostafa.ef@gmail.com"
+  },
+
+  "record": {
+    "CNAME": "mostafa-efafi.github.io"
+  },
+
+  "proxy": false
+}
