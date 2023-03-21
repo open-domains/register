@@ -3,8 +3,8 @@
 
     "description": "Project for a symposium  --> https://zorphix.live for more info",
 
-    "domain": "is-local.org",
-    "subdomain": "zorphix",
+    "domain": "is-not-a.dev",
+    "subdomain": "KishoreKarthik",
 
     "owner": {
         "repo": "https://github.com/officialkarthi/officialkarthi.github.io",
@@ -12,7 +12,7 @@
     },
 
     "record": {
-        "CNAME": "officialkarthi.github.io"
+        "CNAME": "Kishorekarthik-04.github.io"
     },
 
     "proxy": false
