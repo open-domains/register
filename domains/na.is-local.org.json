@@ -7,12 +7,11 @@
   "subdomain": "na",
 
   "owner": {
-    "repo": "https://github.com/hani-z/register",
     "email": "hani@proton.me"
   },
 
   "record": {
-    "A": ["20.199.8.157"],
+    "A": ["20.199.8.157"]
   },
 
   "proxy": false
