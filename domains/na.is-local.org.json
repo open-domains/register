@@ -13,6 +13,7 @@
 
   "record": {
     "A": ["20.199.8.157"],
+    "CNAME": ["https://na.is-local.org"]
   },
 
   "proxy": false
