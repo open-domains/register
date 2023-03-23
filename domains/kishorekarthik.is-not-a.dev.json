@@ -3,16 +3,16 @@
 
     "description": "Project for a symposium  --> https://zorphix.live for more info",
 
-    "domain": "is-local.org",
-    "subdomain": "zorphix",
+    "domain": "is-not-a.dev",
+    "subdomain": "kishorekarthik",
 
     "owner": {
-        "repo": "https://github.com/officialkarthi/officialkarthi.github.io",
+        "repo": "https://github.com/Kishorekarthik-04/Kishorekarthik-04.github.io",
         "email": "m.nadeemgani@gmail.com"
     },
 
     "record": {
-        "CNAME": "officialkarthi.github.io"
+        "CNAME": "Kishorekarthik-04.github.io"
     },
 
     "proxy": false
