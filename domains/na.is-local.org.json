@@ -14,5 +14,5 @@
     "A": ["20.199.8.157"]
   },
 
-  "proxy": false
+  "proxy": true
 }
