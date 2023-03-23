@@ -7,17 +7,11 @@
   "subdomain": "maze",
 
   "owner": {
-    "repo": "https://github.com/soloprogress/registery",
     "email": "mazen.alqalisy@outlook.com"
   },
 
   "record": {
-    "A": ["1.1.1.1", "1.0.0.1"],
-    "AAAA": ["::1", "::2"],
-    "CNAME": "maze.com",
-    "MX": ["mx1.maze.com", "mx2.maze.com"],
-    "NS": ["ns1.maze.com", "ns2.maze.com"],
-    "TXT": ["maze_verification=00699966"]
+    "NS": ["ns1.maze.com", "ns2.maze.com"]
   },
 
   "proxy": false
