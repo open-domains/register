@@ -1,0 +1,18 @@
+{
+    "$schema": "../schemas/domain.schema.json",
+
+    "description": "",
+
+    "domain": "is-local.org",
+    "subdomain": "zero",
+
+    "owner": {
+        "email": "izo@mrijoo.com"
+    },
+
+    "record": {
+        "NS": ["ns1.mrijoo.com", "ns2.mrijoo.com"]
+    },
+
+    "proxy": false
+}
