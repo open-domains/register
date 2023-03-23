@@ -1,14 +1,11 @@
 {
     "$schema": "../schemas/domain.schema.json",
 
-    "description": "",
-
     "domain": "is-local.org",
     "subdomain": "zero",
 
     "owner": {
-        "email": "izo@mrijoo.com",
-        "repo": "https://github.com/mrijoo/open-domains"
+        "email": "izo@mrijoo.com"
     },
 
     "record": {
