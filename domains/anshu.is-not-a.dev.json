@@ -1,0 +1,18 @@
+{
+  "$schema": "../schemas/domain.schema.json",
+
+  "description": "[Anshu] Kakarots Website",
+
+  "domain": "is-not-a.dev",
+  "subdomain": "anshu",
+
+  "owner": {
+    "email": "kakarotp@proton.me"
+  },
+
+  "record": {
+    "CNAME": "anshuayan.github.io"
+  },
+
+  "proxy": false
+}
