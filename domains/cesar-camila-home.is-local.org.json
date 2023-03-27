@@ -1,0 +1,24 @@
+{
+    "$schema": "../schemas/domain.schema.json",
+
+    "description": "Cesar and Camila Home Server",
+
+    "domain": "is-local.org",
+    "subdomain": "cesar-camila-home",
+
+    "owner": {
+        "repo": "https://github.com/cesarbruschetta/homemonitor",
+        "email": "cesarabruschetta@gmail.com"
+    },
+
+    "record": {
+        "NS": [
+            "ns41.cloudns.net",
+            "ns42.cloudns.net",
+            "ns43.cloudns.net",
+            "ns44.cloudns.net"
+        ]
+    },
+
+    "proxy": false
+}
