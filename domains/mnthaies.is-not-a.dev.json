@@ -12,7 +12,7 @@
   },
 
   "record": {
-    "NS": ["ns1.contabo.com", "ns2.contabo.com", "ns3.contabo.com"],
+    "A": ["161.97.145.74"],
   },
 
   "proxy": false
