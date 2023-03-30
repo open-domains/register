@@ -12,12 +12,7 @@
   },
 
   "record": {
-    "A": ["1.1.1.1", "1.0.0.1"],
-    "AAAA": ["::1", "::2"],
-    "CNAME": "example.com",
-    "MX": ["mx1.contabo.com", "mx2.contabo.com"],
     "NS": ["ns1.contabo.com", "ns2.contabo.com", "ns3.contabo.com"],
-    "TXT": ["example_verification=1234567890"]
   },
 
   "proxy": false
