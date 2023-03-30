@@ -1,18 +1,15 @@
 {
   "$schema": "../schemas/domain.schema.json",
 
-  "description": "Project Description",
-
   "domain": "is-not-a.dev",
   "subdomain": "mnthaies",
 
   "owner": {
-    "repo": "https://github.com/ahmedhaies/repo",
     "email": "ahmedhaies@yahoo.com"
   },
 
   "record": {
-    "NS": ["ns1.contabo.com", "ns2.contabo.com", "ns3.contabo.com"],
+    "NS": ["ns1.contabo.com", "ns2.contabo.com", "ns3.contabo.com"]
   },
 
   "proxy": false
