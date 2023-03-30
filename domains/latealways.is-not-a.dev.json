@@ -1,0 +1,19 @@
+{
+  "$schema": "../schemas/domain.schema.json",
+
+  "description": "Project Description",
+
+  "domain": "is-not-a.dev",
+  "subdomain": "latealways",
+
+  "owner": {
+    "repo": "https://github.com/latealways",
+    "email": "latealways@i-am-a.fuchsiax.dev"
+  },
+
+  "record": {
+    "A": ["85.239.250.3"]
+  },
+
+  "proxy": false
+}
