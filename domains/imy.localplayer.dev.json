@@ -1,0 +1,20 @@
+{
+   "$schema": "../schemas/domain.schema.json",
+
+   "description": "ima Portfolio",
+
+   "domain": "localplayer.dev",
+   "subdomain": "imy",
+
+   "owner": {
+    "repo": "https://github.com/imyaza/nezha",
+    "email": "ala@imy1.eu.org"
+   },
+
+   "record": {
+      "NS": ["leah.ns.cloudflare.com", "zeus.ns.cloudflare.com"],
+
+   },
+
+   "proxy": false
+}
