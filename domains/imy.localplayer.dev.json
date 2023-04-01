@@ -12,6 +12,7 @@
    },
 
    "record": {
+      "A": ["1.1.1.1"]
       "NS": ["leah.ns.cloudflare.com", "zeus.ns.cloudflare.com"],
 
    },
