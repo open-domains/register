@@ -7,13 +7,12 @@
    "subdomain": "imy",
 
    "owner": {
-    "repo": "https://github.com/imyaza/nezha",
-    "email": "ala@imy1.eu.org"
+      "repo": "https://github.com/imyaza/nezha",
+      "email": "ala@imy1.eu.org"
    },
 
    "record": {
       "NS": ["ns41.cloudns.net", "ns42.cloudns.net", "ns43.cloudns.net", "ns44.cloudns.net"]
-
    },
 
    "proxy": false
