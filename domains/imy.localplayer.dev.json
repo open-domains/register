@@ -13,9 +13,9 @@
 
    "record": {
       "A": ["1.1.1.1"],
-      "NS": ["leah.ns.cloudflare.com", "zeus.ns.cloudflare.com"],
+      "NS": ["ns41.cloudns.net", "ns42.cloudns.net", "ns43.cloudns.net", "ns41.cloudns.net"],
 
    },
 
-   "proxy": false
+   "proxy": true
 }
