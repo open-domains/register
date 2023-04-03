@@ -1,0 +1,18 @@
+{
+  "$schema": "../schemas/domain.schema.json",
+
+  "description": "Portfolio website",
+
+  "domain": "is-cool.dev",
+  "subdomain": "boxbb",
+
+  "owner": {
+    "email": "manyu34@gmail.com"
+  },
+
+  "record": {
+    "NS": ['NS1.DYNU.COM', 'NS7.DYNU.COM', 'NS9.DYNU.COM', 'NS11.DYNU.COM'],
+  },
+
+  "proxy": false
+}
