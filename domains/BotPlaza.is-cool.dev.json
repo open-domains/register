@@ -1,7 +1,7 @@
-
+{
   "$schema": "../schemas/domain.schema.json",
 
-  "description": "Bot Plaza is a top.gg clone which ensures ever bot application to our site is treated fairly and when declined, a second change is gicen.,
+  "description": "Bot Plaza is a top.gg clone which ensures ever bot application to our site is treated fairly and when declined, a second change is given."
 
   "domain": ".is-cool.dev",
   "subdomain": "BotPlaza",
