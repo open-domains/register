@@ -1,0 +1,20 @@
+{
+  "$schema": "../schemas/domain.schema.json",
+
+  "description": "Advantage is a advertising company focusing on discord bots. We ensure to be fair to everyone and always give chances if you are declined. This project is simlar to top.gg ",
+
+  "domain": ".is-cool.dev",
+  "subdomain": "AdVantage",
+
+  "owner": {
+    "repo": "N/A",
+    "email": "Jayeshpoudel@outlook.com"
+  },
+
+  "record": {
+    "CNAME": "739116a3-2f7b-4c25-9f30-eb2546ca6bd5.id.repl.co",
+    "TXT": ["replit-verify=739116a3-2f7b-4c25-9f30-eb2546ca6bd5"]
+  },
+
+  "proxy": false
+}
