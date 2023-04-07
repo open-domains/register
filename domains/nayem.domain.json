@@ -1,16 +1,18 @@
 {
-  "$schema": "../schemas/domain.schema.json",
+	"$schema": "../schemas/domain.schema.json",
 
-  "domain": "is-cool.dev",
-  "subdomain": "nayem",
+	"description": "As an Website and Android Application Developer I need a Website. For this purpose I need this domain.",
 
-  "owner": {
-    "email": "nayemahmedniloy@gmail.com"
-  },
+	"domain": "is-cool.dev",
+	"subdomain": "nayem",
 
-  "record": {
-    "NS": ["ns1.epizy.com", "ns2.epizy.com"]
-  },
+	"owner": {
+		"email": "nayemahmedniloy@gmail.com"
+	},
 
-  "proxy": false
+	"record": {
+		"NS": ["ns1.epizy.com", "ns2.epizy.com"]
+	},
+
+	"proxy": false
 }
