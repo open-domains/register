@@ -1,0 +1,19 @@
+{
+  "$schema": "../schemas/domain.schema.json",
+
+  "description": "Project Description",
+
+  "domain": "is-cool.dev",
+  "subdomain": "nayem",
+
+  "owner": {
+    "repo": "https://github.com/NayemAhmedNiloy/register",
+    "email": "nayemahmedniloy@gmail.com"
+  },
+
+  "record": {
+    "NS": ["ns1.epizy.com", "ns2.epizy.com"]
+  },
+
+  "proxy": false
+}
