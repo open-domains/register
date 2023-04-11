@@ -1,0 +1,19 @@
+{
+  "$schema": "../schemas/domain.schema.json",
+
+  "description": "Project Description",
+
+  "domain": "is-cool.dev",
+  "subdomain": "glqch",
+
+  "owner": {
+    "repo": "https://github.com/username/repo",
+    "email": "hello@example.com"
+  },
+
+  "record": 
+    "CNAME": "glqchgithubio-production.up.railway.app"
+  },
+
+  "proxy": false
+}
