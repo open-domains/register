@@ -1,0 +1,19 @@
+{
+	"$schema": "../schemas/domain.schema.json",
+
+	"description": "mail people about my job",
+
+	"domain": "is-local.org",
+	"subdomain": "mailhub",
+
+	"owner": {
+		"repo": "N/A",
+		"email": "moj971776@gmail.com"
+	},
+
+	"record": {
+		"TXT": ["09927628765949927"]
+	},
+
+	"proxy": false
+}
