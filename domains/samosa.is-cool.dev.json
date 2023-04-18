@@ -1,14 +1,14 @@
 {
   "$schema": "../schemas/domain.schema.json",
 
-  "description": "Domain for the OP-OK Devlopment Network",
+  "description": "website for samosaman73",
 
   "domain": "is-cool.dev",
-  "subdomain": "opok",
+  "subdomain": "samosa",
 
   "owner": {
-    "repo": "https://github.com/opott/register",
-    "email": "opok_net@protonmail.com"
+    "repo": "https://github.com/samosaman73/register",
+    "email": "samosaman73@proton.me"
   },
 
   "record": {

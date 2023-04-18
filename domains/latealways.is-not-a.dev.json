@@ -1,19 +1,15 @@
-
 {
   "$schema": "../schemas/domain.schema.json",
 
-  "description": "RaptaG's website",
-
   "domain": "is-not-a.dev",
-  "subdomain": "raptag",
+  "subdomain": "latealways",
 
   "owner": {
-
-    "email": "iamnodev@proton.me"
+    "email": "latealways@i-am-a.fuchsiax.dev"
   },
 
   "record": {
-    "CNAME": "raptag.codeberg.page"
+    "A": ["85.239.250.3"]
   },
 
   "proxy": false

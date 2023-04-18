@@ -1,0 +1,19 @@
+{
+  "$schema": "../schemas/domain.schema.json",
+
+  "description": "Portfolio website",
+
+  "domain": "is-not-a.dev",
+  "subdomain": "uiopler",
+
+  "owner": {
+    "email": "uiopler.dev@gmail.com",
+    "repo": "https://github.com/uiopler/uiopler.github.io"
+  },
+
+  "record": {
+    "CNAME": "uiopler.github.io"
+  },
+
+  "proxy": false
+}

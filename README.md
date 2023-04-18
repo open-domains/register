@@ -8,7 +8,11 @@
 </p>
 
 <p align="center">Free subdomains for personal sites, open-source projects, and more.</p>
-<p align="center">Want to find services similar to this? Take a look on <a href="https://free-for.dev/#/?id=domain">free-for.dev</a>.</p>
+<p align="center">Want to find services similar to this? Take a look on <a href="https://free-for.life/#/?id=domains">free-for.life</a>.</p>
+
+## Notice
+
+While we do support NS records we now only now accept NS records for valid reasons.
 
 ## Donate
 
@@ -102,7 +106,7 @@ This will hopefully be fixed soon.
 }
 ```
 
-4. Your pull request will be reviewed and merged. Please, don't ignore the pull requestchecklist. If you ignore the checklist, your pull request will be ignored too. _Make sure to keep an eye on it in case we need you to make any changes!_
+4. Your pull request will be reviewed and merged. Please don't ignore the pull request checklist. If you ignore the checklist, your pull request will be ignored too. _Make sure to keep an eye on it in case we need you to make any changes!_
 5. After the pull request is merged, please allow up to 24 hours for the changes to propagate _(usually, it takes 5..15 minutes)_
 6. Enjoy your new domain!
 
@@ -111,7 +115,3 @@ This will hopefully be fixed soon.
 ### License
 
 This project is under the [MIT License](https://github.com/open-domains/register/blob/main/LICENSE).
-
-#### Credits
-
-The CI which this service uses is forked from [here](https://github.com/tarampampam/free-domains).

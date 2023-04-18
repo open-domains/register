@@ -1,9 +1,9 @@
 {
   "$schema": "../schemas/domain.schema.json",
 
-  "description": "Domain for the OP-OK Devlopment Network",
+  "description": "opok mail",
 
-  "domain": "is-cool.dev",
+  "domain": "is-local.org",
   "subdomain": "opok",
 
   "owner": {
@@ -12,7 +12,8 @@
   },
 
   "record": {
-    "NS": ["ns1.epizy.com", "ns2.epizy.com"]
+    "MX": ["mx1.improvmx.com.", "mx2.improvmx.com."],
+    "TXT": ["v=spf1 include:spf.improvmx.com ~all"]
   },
 
   "proxy": false
