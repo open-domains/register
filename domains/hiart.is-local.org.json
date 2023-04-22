@@ -1,0 +1,18 @@
+{
+  "$schema": "../schemas/domain.schema.json",
+
+  "description": "hi. ART Website",
+
+  "domain": "is-local.org",
+  "subdomain": "hiart",
+
+  "owner": {
+    "email": "turquoisetntmultimedia@gmail.com"
+  },
+
+  "record": {
+    "TXT": ["google-site-verification=ISfiIjFshR2k59jo7docBWWci4znK4g8_8fThqkH9_M"]
+  },
+
+  "proxy": false
+}
