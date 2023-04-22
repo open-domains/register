@@ -1,7 +1,7 @@
 {
   "$schema": "../schemas/domain.schema.json",
 
-  "description": "hi. ART Website",
+  "description": "hi. ART website for hiart creative designs, uk",
 
   "domain": "is-local.org",
   "subdomain": "hiart",
