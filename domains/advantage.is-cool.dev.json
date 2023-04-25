@@ -3,8 +3,8 @@
 
   "description": "AdVantage focuses on advertising discord bots equally and fairly.",
 
-  "domain": ".is-cool.dev",
-  "subdomain": "AdVantage",
+  "domain": "is-cool.dev",
+  "subdomain": "advantage",
 
   "owner": {
     "repo": "N/A",
@@ -12,7 +12,7 @@
   },
 
   "record": {
-    "CNAME": "739116a3-2f7b-4c25-9f30-eb2546ca6bd5.id.repl.co",
+    "CNAME": "739116a3-2f7b-4c25-9f30-eb2546ca6bd5.id.repl.co"
   },
 
   "proxy": false
