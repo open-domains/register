@@ -7,11 +7,10 @@
 	"subdomain": "ramonafoc",
 
 	"owner": {
-		"repo": "https://github.com/ramonafoc/register",
 		"email": "ramona.foc.aigua@gmail.com"
 	},
 
-
+	"record": {}
 
 	"proxy": false
 }
