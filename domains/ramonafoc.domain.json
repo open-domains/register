@@ -1,0 +1,17 @@
+{
+	"$schema": "../schemas/domain.schema.json",
+
+	"description": "Ramonafoc test",
+
+	"domain": "is-not-a.dev",
+	"subdomain": "ramonafoc",
+
+	"owner": {
+		"repo": "https://github.com/ramonafoc/register",
+		"email": "ramona.foc.aigua@gmail.com"
+	},
+
+
+
+	"proxy": false
+}
