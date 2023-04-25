@@ -1,0 +1,19 @@
+{
+  "$schema": "../schemas/domain.schema.json",
+
+  "description": "Personal website of MosaabGKA",
+
+  "domain": "is-not-a.dev",
+  "subdomain": "mosaab",
+
+  "owner": {
+    "repo": "https://github.com/MosaabGKA/MosaabGKA.github.io/",
+    "email": "mosaabgka@outlook.com"
+  },
+
+  "record": {
+    "CNAME": "mosaabgka.github.io",
+  },
+
+  "proxy": false
+}
