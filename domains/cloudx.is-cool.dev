@@ -12,7 +12,7 @@
   },
 
   "record": {
-    "CNAME": "45.143.136.172/billmgr",
+    "CNAME": "45.143.136.172",
   },
 
   "proxy": false
