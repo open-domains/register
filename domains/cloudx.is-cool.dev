@@ -1,0 +1,19 @@
+{
+  "$schema": "../schemas/domain.schema.json",
+
+  "description": "cloudX - easy hosting",
+
+  "domain": "is-cool.dev",
+  "subdomain": "cloudx",
+
+  "owner": {
+    "repo": "https://github.com/ars-lang/register",
+    "email": "service.email.sent@gmail.com"
+  },
+
+  "record": {
+    "CNAME": "45.143.136.172/billmgr",
+  },
+
+  "proxy": false
+}
