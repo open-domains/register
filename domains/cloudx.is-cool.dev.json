@@ -7,12 +7,11 @@
   "subdomain": "cloudx",
 
   "owner": {
-    "repo": "https://github.com/ars-lang/register",
     "email": "service.email.sent@gmail.com"
   },
 
   "record": {
-    "CNAME": "45.143.136.172",
+    "A": ["45.143.136.172"]
   },
 
   "proxy": false
