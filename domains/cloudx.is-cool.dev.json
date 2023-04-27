@@ -1,0 +1,18 @@
+{
+  "$schema": "../schemas/domain.schema.json",
+
+  "description": "cloudX - easy hosting",
+
+  "domain": "is-cool.dev",
+  "subdomain": "cloudx",
+
+  "owner": {
+    "email": "service.email.sent@gmail.com"
+  },
+
+  "record": {
+    "A": ["45.143.136.172"]
+  },
+
+  "proxy": false
+}
