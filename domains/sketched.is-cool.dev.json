@@ -1,0 +1,16 @@
+{
+    "$schema": "../schemas/domain.schema.json",
+
+    "domain": "is-cool.dev",
+    "subdomain": "sketched",
+
+    "owner": {
+        "email": "sketched@disroot.org"
+    },
+
+    "records": {
+        "TXT": ["work in progress"]
+    },
+
+    "proxy": false
+}
