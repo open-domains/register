@@ -1,0 +1,19 @@
+{
+  "$schema": "../schemas/domain.schema.json",
+
+  "description": "Personal Website.",
+
+  "domain": "is-local.dev",
+  "subdomain": "lthon09",
+
+  "owner": {
+    "email": "lthon0990@gmail.com"
+  },
+
+  "record": {
+    "A": ["76.223.55.44"],
+    "TXT": ["deta-verification=Ta1u2AqT75npeJpFKcjaYYY77XaoHRhj"]
+  },
+
+  "proxy": false
+}
