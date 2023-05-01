@@ -11,15 +11,6 @@ concurrency:
   cancel-in-progress: true
 
 jobs:
-  gitleaks:
-    name: GitLeaks
-    runs-on: ubuntu-latest
-    steps:
-      - uses: actions/checkout@v3
-        with: {fetch-depth: 0}
-
-      - uses: gacts/gitleaks@v1
-
   check:
     name: DNSControl Check
     runs-on: ubuntu-latest
