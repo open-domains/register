@@ -1,0 +1,16 @@
+{
+    "$schema": "../schemas/domain.schema.json",
+
+    "domain": "localplayer.dev",
+    "subdomain": "cpps",
+
+    "owner": {
+        "email": "xcatdrout@proton.me"
+    },
+
+    "records": {
+        "A": ["16.16.171.26"]
+    },
+
+    "proxy": false
+}
