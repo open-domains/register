@@ -1,0 +1,19 @@
+{
+  "$schema": "../schemas/domain.schema.json",
+
+  "description": "Project Description",
+
+  "domain": "is-cool.dev",
+  "subdomain": "pxlmastrXD",
+
+  "owner": {
+    "repo": "https://github.com/cjwieth1/freedomain",
+    "email": "calebwietholter9@outlook.com"
+  },
+
+  "record": {
+    
+  },
+
+  "proxy": false
+}
