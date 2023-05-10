@@ -1,18 +1,24 @@
 {
   "$schema": "../schemas/domain.schema.json",
-  "description": "Personal Self Hosted Apps and Public Website",
+
+  "description": "Porfolio website,
+
   "domain": "is-not-a.dev",
   "subdomain": "utsav",
+
   "owner": {
+    "repo": "https://github.com/dr-hofstadter/dr-hofstadter.github.io",
     "email": "utsav.raj.338@gmail.com"
   },
+
   "record": {
-    "NS": [
-      "ns41.cloudns.net",
-      "ns42.cloudns.net",
-      "ns43.cloudns.net",
-      "ns44.cloudns.net"
-    ]
+    "A": ["185.199.108.153", "185.199.109.153"],
+    "AAAA": ["2606:50c0:8000::153", "2606:50c0:8001::153"],
+    "CNAME": "dr-hofstadter.github.io",
+    "MX": ["mx1.example.com", "mx2.example.com"],
+    "NS": ["ns1.example.com", "ns2.example.com"],
+    "TXT": ["example_verification=1234567890"]
   },
+
   "proxy": false
 }
