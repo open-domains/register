@@ -11,7 +11,7 @@
   },
 
   "record": {
-    "CNAME": ["exozy.me"]
+    "CNAME": "exozy.me"
   },
 
   "proxy": false
