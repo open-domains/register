@@ -1,0 +1,18 @@
+{
+  "$schema": "../schemas/domain.schema.json",
+
+  "description": "Project Description",
+
+  "domain": "is-cool.dev",
+  "subdomain": "neovoid",
+
+  "owner": {
+    "email": "neovoid@envs.net"
+  },
+
+  "record": {
+    "CNAME": "exozy.me"
+  },
+
+  "proxy": false
+}
