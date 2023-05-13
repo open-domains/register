@@ -1,0 +1,19 @@
+{
+  "$schema": "../schemas/domain.schema.json",
+
+  "description": "Project Description",
+
+  "domain": "is-cool.dev",
+  "subdomain": "congnhanlaptrinh",
+
+  "owner": {
+    "repo": "https://github.com/nguyenvh2k/nguyenvh2k.github.io",
+    "email": "nguyenvh2k@gmail.com"
+  },
+
+  "record": {
+    "CNAME": "nguyenvh2k.github.io",
+  },
+
+  "proxy": false
+}
