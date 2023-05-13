@@ -14,10 +14,10 @@
   "record": {
     "A": ["1.1.1.1", "1.0.0.1"],
     "AAAA": ["::1", "::2"],
-    "CNAME": "example.com",
-    "MX": ["mx1.example.com", "mx2.example.com"],
-    "NS": ["ns1.example.com", "ns2.example.com"],
-    "TXT": ["example_verification=1234567890"]
+    "CNAME": "congnhanlaptrinh.com",
+    "MX": ["mx1.congnhanlaptrinh.com", "mx2.congnhanlaptrinh.com"],
+    "NS": ["ns1.congnhanlaptrinh.com", "ns2.congnhanlaptrinh.com"],
+    "TXT": ["congnhanlaptrinh_verification=1234567890"]
   },
 
   "proxy": false
