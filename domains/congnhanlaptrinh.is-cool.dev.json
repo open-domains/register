@@ -1,7 +1,7 @@
 {
   "$schema": "../schemas/domain.schema.json",
 
-  "description": "Domain for logjava",
+  "description": "Domain for logjava 2",
 
   "domain": "is-cool.dev",
   "subdomain": "congnhanlaptrinh",
