@@ -1,0 +1,15 @@
+{
+  "$schema": "../schemas/domain.schema.json",
+
+  "description": "Domain for logjava 2",
+
+  "domain": "is-cool.dev",
+  "subdomain": "congnhanlaptrinh",
+
+  "owner": {
+    "repo": "https://github.com/nguyenvh2k/congnhanlaptrinh",
+    "email": "nguyenvh2k@gmail.com"
+  },
+
+  "proxy": false
+}
