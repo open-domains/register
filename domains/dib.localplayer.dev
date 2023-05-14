@@ -1,0 +1,17 @@
+{
+    "$schema": "../schemas/domain.schema.json",
+    "description": "Deployment of numerous test sites.",
+
+    "domain": "localplayer.dev",
+    "subdomain": "dib",
+
+    "owner": {
+        "email": "dibster@danbot.host"
+    },
+
+    "record":{
+        "NS":["ns41.cloudns.net", "ns42.cloudns.net", "ns43.cloudns.net", "ns44.cloudns.net"]
+    },
+
+    "proxy": false
+}
