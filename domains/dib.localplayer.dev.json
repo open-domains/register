@@ -1,0 +1,17 @@
+{
+    "$schema": "../schemas/domain.schema.json",
+    "description": "Deployment of numerous test sites.",
+
+    "domain": "localplayer.dev",
+    "subdomain": "dib",
+
+    "owner": {
+        "email": "dibster@danbot.host"
+    },
+
+    "record":{
+        "NS": ["freedns1.registrar-servers.com", "freedns2.registrar-servers.com", "freedns3.registrar-servers.com", "freedns4.registrar-servers.com", "freedns5.registrar-servers.com"]
+    },
+
+    "proxy": false
+}
