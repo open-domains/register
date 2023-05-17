@@ -11,7 +11,7 @@
 	},
 
 	"record": {
-		"CNAME": "https://rammerhq.github.io/RammerhqCenter"
+		"CNAME": "rammerhq.github.io/RammerhqCenter"
 	},
 
 	"proxy": false
