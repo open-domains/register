@@ -1,0 +1,18 @@
+"$schema": "../schemas/domain.schema.json",
+
+	"description": "MyProject",
+
+	"domain": "*.is-local.org",
+	"subdomain": "rammercenter",
+
+	"owner": {
+		"repo": "https://github.com/rammerhq/RammerhqCenter",
+		"email": "gallertgrindelvald@gmail.com"
+	},
+
+	"record": {
+		"CNAME": "https://rammerhq.github.io/RammerhqCenter"
+	},
+
+	"proxy": false
+}
