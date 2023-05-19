@@ -15,5 +15,5 @@
     "TXT": ["deta-verification=W4AeVykVCnnsWgcchBgwHQ3U15Tfy2Vu"]
   },
 
-  "proxy": false
+  "proxy": true
 }
