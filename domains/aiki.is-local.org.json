@@ -12,9 +12,6 @@
     },
 
     "record": {
-    	"A": ["1.1.1.1", "1.0.0.1"],
-    	"AAAA": ["::1", "::2"],
-    	"CNAME": "aiki-ticket.com",
     	"NS": ["mitch.ns.cloudflare.com", "yolanda.ns.cloudflare.com"]
     },
 
