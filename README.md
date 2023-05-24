@@ -81,28 +81,26 @@ This will hopefully be fixed soon.
 
 ```json
 {
-  "$schema": "../schemas/domain.schema.json",
+    "description": "Project Description",
 
-  "description": "Project Description",
+    "domain": "is-not-a.dev",
+    "subdomain": "example",
 
-  "domain": "is-not-a.dev",
-  "subdomain": "example",
+    "owner": {
+        "repo": "https://github.com/username/repo",
+        "email": "hello@example.com"
+    },
 
-  "owner": {
-    "repo": "https://github.com/username/repo",
-    "email": "hello@example.com"
-  },
+    "record": {
+        "A": ["1.1.1.1", "1.0.0.1"],
+        "AAAA": ["::1", "::2"],
+        "CNAME": "example.com",
+        "MX": ["mx1.example.com", "mx2.example.com"],
+        "NS": ["ns1.example.com", "ns2.example.com"],
+        "TXT": ["example_verification=1234567890"]
+    },
 
-  "record": {
-    "A": ["1.1.1.1", "1.0.0.1"],
-    "AAAA": ["::1", "::2"],
-    "CNAME": "example.com",
-    "MX": ["mx1.example.com", "mx2.example.com"],
-    "NS": ["ns1.example.com", "ns2.example.com"],
-    "TXT": ["example_verification=1234567890"]
-  },
-
-  "proxy": false
+    "proxy": false
 }
 ```
 
