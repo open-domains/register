@@ -1,7 +1,7 @@
 {
-  "description": "Bot Plaza is a top.gg clone which ensures ever bot application to our site is treated fairly and when declined, a second change is given."
+  "description": "Bot Plaza is a top.gg clone which ensures ever bot application to our site is treated fairly and when declined, a second change is given.",
 
-  "domain": ".is-cool.dev",
+  "domain": "is-cool.dev",
   "subdomain": "botplaza",
 
   "owner": {
