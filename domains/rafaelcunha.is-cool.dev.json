@@ -1,6 +1,4 @@
 {
-  "$schema": "../schemas/domain.schema.json",
-
   "description": "Personal Porfolio",
 
   "domain": "is-not-a.dev",
@@ -12,5 +10,5 @@
   "record": {
     "NS": ["ns1.locaweb.com.br", "ns2.locaweb.com.br", "ns3.locaweb.com.br"]
   },
-  "proxy": false
+  "proxied": false
 }

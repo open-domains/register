@@ -1,8 +1,4 @@
 {
-  "$schema": "../schemas/domain.schema.json",
-
-  "description": "Project Description",
-
   "domain": "is-not-a.dev",
   "subdomain": "abhishek",
 
@@ -14,5 +10,5 @@
     "A": ["76.76.21.21"]
   },
 
-  "proxy": false
+  "proxied": false
 }

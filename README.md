@@ -60,7 +60,7 @@ This will hopefully be fixed soon.
 | Browser Integrity Check*                             | ✅                                   | ✅                                     | ✅                                     | ✅                                           |
 | [Caching Level][caching-levels], Browser Cache TTL*  | Standard, 4 hours                    | Standard, 4 hours                      | Standard, 4 hours                      | Standard, 4 hours                            |
 
-\*Only available when your domain has Cloudflare's proxy (`"proxy": true`) enabled
+\*Only available when your domain has Cloudflare's proxy (`"proxied": true`) enabled
 
 [dnssec]:https://developers.cloudflare.com/dns/additional-options/dnssec
 [ssl-full]:https://developers.cloudflare.com/ssl/origin-configuration/ssl-modes/full/
@@ -100,7 +100,7 @@ This will hopefully be fixed soon.
         "TXT": ["example_verification=1234567890"]
     },
 
-    "proxy": false
+    "proxied": false
 }
 ```
 

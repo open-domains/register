@@ -1,6 +1,4 @@
 {
-  "$schema": "../schemas/domain.schema.json",
-
   "description": "Personal Project",
 
   "domain": "is-cool.dev",
@@ -14,5 +12,5 @@
     "NS": ["ns1.vultr.com", "ns2.vultr.com"]
   },
 
-  "proxy": false
+  "proxied": false
 }

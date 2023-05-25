@@ -1,6 +1,4 @@
 {
-	"$schema": "../schemas/domain.schema.json",
-
 	"description": "domain for my personal site and server",
 
 	"domain": "is-cool.dev",
@@ -15,5 +13,5 @@
 		"NS": ["ns0.1984.is.", "ns1.1984hosting.com", "ns2.1984.is"]
 	},
 
-	"proxy": false
+	"proxied": false
 }

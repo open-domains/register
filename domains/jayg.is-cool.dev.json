@@ -1,6 +1,4 @@
 {
-  "$schema": "../schemas/domain.schema.json",
-
   "description": "Need a domain for my personal website",
 
   "domain": "is-cool.dev",
@@ -15,5 +13,5 @@
     "CNAME": "jayggit.github.io"
   },
 
-  "proxy": false
+  "proxied": false
 }

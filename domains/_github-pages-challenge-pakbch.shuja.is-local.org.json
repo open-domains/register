@@ -1,6 +1,4 @@
 {
-  "$schema": "../schemas/domain.schema.json",
-
   "description": "GitHub Pages Verification",
 
   "domain": "is-local.org",
@@ -15,5 +13,5 @@
     "TXT": ["aedc62bbdaa55ff106b33e87642acd"]
   },
 
-  "proxy": false
+  "proxied": false
 }

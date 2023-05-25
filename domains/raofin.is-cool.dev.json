@@ -1,6 +1,4 @@
 {
-  "$schema": "../schemas/domain.schema.json",
-
   "domain": "is-cool.dev",
   "subdomain": "raofin",
 
@@ -12,5 +10,5 @@
     "CNAME": "rao-dev.pages.dev"
   },
 
-  "proxy": false
+  "proxied": false
 }

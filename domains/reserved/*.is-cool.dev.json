@@ -1,16 +1,12 @@
 {
-  "$schema": "../../schemas/domain.schema.json",
-
   "description": "Wildcard redirect",
 
   "domain": "is-cool.dev",
   "subdomain": "*",
 
-  "owner": {},
-
   "record": {
     "CNAME": "dns.beadman-network.com"
   },
 
-  "proxy": false
+  "proxied": false
 }

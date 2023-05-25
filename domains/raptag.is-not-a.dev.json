@@ -1,6 +1,4 @@
 {
-  "$schema": "../schemas/domain.schema.json",
-
   "description": "RaptaG's website",
 
   "domain": "is-not-a.dev",
@@ -15,5 +13,5 @@
     "CNAME": "raptag.codeberg.page"
   },
 
-  "proxy": false
+  "proxied": false
 }

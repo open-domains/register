@@ -1,6 +1,4 @@
 {
-  "$schema": "../../schemas/domain.schema.json",
-
   "description": "Root domain",
 
   "domain": "is-local.org",
@@ -28,5 +26,5 @@
     "TXT": ["v=spf1 ~all"]
   },
 
-  "proxy": false
+  "proxied": false
 }

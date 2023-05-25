@@ -13,12 +13,12 @@ var proxy = { // https://stackexchange.github.io/dnscontrol/providers/cloudflare
  * @returns {{
  *  name: string,
  *  data: {
- *    description: string,
+ *    description?: string,
  *    domain: string,
  *    subdomain: string,
  *    owner?: {repo?: string, email?: string},
  *    record: {TXT?: string[], A?: string[], AAAA?: string[], CNAME?: string, NS?: string[]},
- *    proxy?: boolean
+ *    proxied?: boolean
  *  }}[]}
 */
 
@@ -52,7 +52,7 @@ for (var idx in domains) {
     commit[domainData.domain] = [];
   }
 
-  if (domainData.proxy === false) {
+  if (domainData.proxied === false) {
     proxyState = proxy.off;
   }
 

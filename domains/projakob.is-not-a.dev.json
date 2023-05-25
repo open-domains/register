@@ -1,6 +1,4 @@
 {
-  "$schema": "../schemas/domain.schema.json",
-
   "description": "projakob.is-not-a.dev (migrated from old service)",
 
   "domain": "is-not-a.dev",
@@ -14,5 +12,5 @@
     "A": ["88.218.227.76"]
   },
 
-  "proxy": false
+  "proxied": false
 }

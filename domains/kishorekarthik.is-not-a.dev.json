@@ -1,7 +1,5 @@
 {
-    "$schema": "../schemas/domain.schema.json",
-
-    "description": "Project for a symposium  --> https://zorphix.live for more info",
+      "description": "Project for a symposium  --> https://zorphix.live for more info",
 
     "domain": "is-not-a.dev",
     "subdomain": "kishorekarthik",
@@ -15,5 +13,5 @@
         "CNAME": "Kishorekarthik-04.github.io"
     },
 
-    "proxy": false
+    "proxied": false
 }

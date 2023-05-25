@@ -1,8 +1,4 @@
 {
-  "$schema": "../schemas/domain.schema.json",
-
-  "description": "",
-
   "domain": "is-not-a.dev",
   "subdomain": "_github-pages-challenge-vlastikyoutubeko.mxnticek",
 
@@ -15,5 +11,5 @@
     "TXT": ["ffdc39f342cd5714a2c5ea40f04533"]
   },
 
-  "proxy": false
+  "proxied": false
 }
