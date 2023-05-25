@@ -11,11 +11,9 @@
 <p align="center">Want to find services similar to this? Take a look on <a href="https://free-for.life/#/?id=domains">free-for.life</a>.</p>
 
 ## Notice
-
 While we do support NS records we now only now accept NS records for valid reasons.
 
 ## Donate
-
 If you like this service and want us to continue running it, please consider donating!
 
 [![PayPal](https://www.paypalobjects.com/en_US/i/btn/btn_donateCC_LG.gif)](https://paypal.me/andrewstechyoutube)
@@ -40,44 +38,35 @@ https://discord.gg/kVjkg6VBwa
 [badge-ssl]:https://shields.io/badge/SSL-Required-blue?style=plastic?cacheSeconds=3600
 
 ### Unsupported Services
-
 We currently do not support Cloudflare (for NS), Netlify (for website) or Vercel (for websites).
 
 This will hopefully be fixed soon.
 
 ### Settings
 
-| Setting                                              | [`is-cool.dev`](https://is-cool.dev) | [`is-local.org`](https://is-local.org) | [`is-not-a.dev`](https://is-not-a.dev) | [`localplayer.dev`](https://localplayer.dev) |
-|------------------------------------------------------|--------------------------------------|----------------------------------------|----------------------------------------|----------------------------------------------|
-| [DNSSEC][dnssec]                                     | ✅                                   | ✅                                     | ✅                                     | ✅                                           |
-| Email                                                | ✅                                   | ✅                                     | ✅                                     | ✅                                           |
-| SSL/TLS*                                             | [Full][ssl-full]                     | [Full][ssl-full]                       | [Full][ssl-full]                       | [Full][ssl-full]                             |
-| Always Use HTTPS*                                    | ✅                                   | ✅                                     | ✅                                     | ✅                                           |
-| HTTP Strict Transport Security (HSTS)                | ✅                                   | ✅                                     | ✅                                     | ✅                                           |
-| Minimum TLS Version*                                 | 1.2                                  | 1.2                                    | 1.2                                    | 1.2                                          |
-| Opportunistic Encryption, TLS 1.3*                   | ✅                                   | ✅                                     | ✅                                     | ✅                                           |
-| WAF (Web Application Firewall)*                      | Medium Security Level                | Medium Security Level                  | Medium Security Level                  | Medium Security Level                        |
-| Browser Integrity Check*                             | ✅                                   | ✅                                     | ✅                                     | ✅                                           |
-| [Caching Level][caching-levels], Browser Cache TTL*  | Standard, 4 hours                    | Standard, 4 hours                      | Standard, 4 hours                      | Standard, 4 hours                            |
+| Setting | [`is-cool.dev`](https://is-cool.dev) | [`is-local.org`](https://is-local.org) | [`is-not-a.dev`](https://is-not-a.dev) | [`localplayer.dev`](https://localplayer.dev) |
+|-|-|-|-|-|
+| [DNSSEC][dnssec] | ✅ | ✅ | ✅ | ✅ |
+| Email | ✅ | ✅ | ✅ | ✅ |
+| SSL/TLS* | [Full][ssl-full] | [Full][ssl-full] | [Full][ssl-full] | [Full][ssl-full] |
+| Always Use HTTPS* | ✅ | ✅ | ✅ | ✅ |
+| HTTP Strict Transport Security (HSTS) | ✅ | ✅ | ✅ | ✅ |
+| Minimum TLS Version* | 1.2 | 1.2 | 1.2 | 1.2 |
+| Opportunistic Encryption, TLS 1.3* | ✅ | ✅ | ✅ | ✅ |
+| WAF (Web Application Firewall)* | Medium Security Level | Medium Security Level | Medium Security Level | Medium Security Level |
+| Browser Integrity Check* | ✅ | ✅ | ✅ | ✅ |
+| [Caching Level][caching-levels], Browser Cache TTL* | Standard, 4 hours | Standard, 4 hours | Standard, 4 hours | Standard, 4 hours |
 
 \*Only available when your domain has Cloudflare's proxy (`"proxied": true`) enabled
 
 [dnssec]:https://developers.cloudflare.com/dns/additional-options/dnssec
-[ssl-full]:https://developers.cloudflare.com/ssl/origin-configuration/ssl-modes/full/
-[ssl-flex]:https://developers.cloudflare.com/ssl/origin-configuration/ssl-modes/flexible/
+[ssl-full]:https://developers.cloudflare.com/ssl/origin-configuration/ssl-modes/full
 [caching-levels]:https://developers.cloudflare.com/cache/how-to/set-caching-levels
-[crawler-hints]:https://blog.cloudflare.com/crawler-hints-how-cloudflare-is-reducing-the-environmental-impact-of-web-searches/
-[http2]:https://www.cloudflare.com/website-optimization/http2/what-is-http2/
-[http2-to-origin]:https://developers.cloudflare.com/cache/how-to/enable-http2-to-origin
-[0rtt]:https://developers.cloudflare.com/fundamentals/network/0-rtt-connection-resumption/
-[grpc]:https://support.cloudflare.com/hc/en-us/articles/360050483011
-[pseudo-ipv4]:https://support.cloudflare.com/hc/en-us/articles/229666767
 
 ## Register a Domain
-
-1. **Star** and **[Fork](https://github.com/open-domains/register/fork)** this repository
-2. Add a new file called `example.domain.json` in the `/domains` folder to register `example` subdomain
-3. Edit it (below is just an **example**, provide a **valid** JSON file with your needs, the format is very strict; format you can [check here](https://jsonlint.com)):
+1. **Star** and **[Fork](https://github.com/open-domains/register/fork)** this repository.
+2. Add a new file called `example.domain.json` in the `/domains` folder to register `example` subdomain.
+3. Edit the file (below is just an **example**, provide a **valid** JSON file with your needs, the format is very strict.
 
 ```json
 {
@@ -111,5 +100,4 @@ This will hopefully be fixed soon.
 *Domains used for illegal purposes will be removed and permanently banned. Please, provide a clear description of your resource in the pull request.*
 
 ### License
-
-This project is under the [MIT License](https://github.com/open-domains/register/blob/main/LICENSE).
+This project is under a [MIT License](https://github.com/open-domains/register/blob/main/LICENSE).
