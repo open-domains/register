@@ -5,7 +5,8 @@ on:
         branches: [main]
         paths:
             - "domains/**"
-            - ".github/workflows/deploy.yml"
+            - ".github/workflows/publish.yml"
+            - "dnsconfig.js"
 
     workflow_dispatch:
 
