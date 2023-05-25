@@ -4,10 +4,6 @@
   "domain": "is-local.org",
   "subdomain": "www",
 
-  "owner": {
-    "repo": "https://github.com/open-domains/is-local.org"
-  },
-
   "record": {
     "CNAME": "is-local.org"
   },

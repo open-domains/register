@@ -4,10 +4,6 @@
   "domain": "is-not-a.dev",
   "subdomain": "@",
 
-  "owner": {
-    "repo": "https://github.com/open-domains/is-not-a.dev"
-  },
-
   "record": {
     "A": [
       "185.199.108.153",

@@ -4,10 +4,6 @@
   "domain": "localplayer.dev",
   "subdomain": "www",
 
-  "owner": {
-    "repo": "https://github.com/open-domains/localplayer.dev"
-  },
-
   "record": {
     "CNAME": "localplayer.dev"
   },
