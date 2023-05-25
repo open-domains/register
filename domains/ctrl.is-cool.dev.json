@@ -10,6 +10,7 @@
 
   "record": {
     "CNAME": "8a809bb2-32c2-41b3-ae59-6657851cc960.id.repl.co"
+    "TXT": ["replit-verify=8a809bb2-32c2-41b3-ae59-6657851cc960"]
   },
 
   "proxied": false
