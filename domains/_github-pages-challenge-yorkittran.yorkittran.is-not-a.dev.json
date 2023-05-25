@@ -1,6 +1,4 @@
 {
-  "$schema": "../schemas/domain.schema.json",
-
   "description": "Verifying custom domain on Github",
 
   "domain": "is-not-a.dev",
@@ -15,5 +13,5 @@
     "TXT": ["971aadc13d2ed377f0f4194e951c14"]
   },
 
-  "proxy": false
+  "proxied": false
 }

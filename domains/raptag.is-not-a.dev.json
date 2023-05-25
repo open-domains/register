@@ -1,7 +1,4 @@
-
 {
-  "$schema": "../schemas/domain.schema.json",
-
   "description": "RaptaG's website",
 
   "domain": "is-not-a.dev",
@@ -9,12 +6,12 @@
 
   "owner": {
 
-    "email": "iamnodev@proton.me"
+    "email": "sir-raptag@tutamail.com"
   },
 
   "record": {
     "CNAME": "raptag.codeberg.page"
   },
 
-  "proxy": false
+  "proxied": false
 }

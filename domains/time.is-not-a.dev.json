@@ -1,6 +1,4 @@
 {
-  "$schema": "../schemas/domain.schema.json",
-
   "description": "time.is-not-a.dev (migrated from old service)",
 
   "domain": "is-not-a.dev",
@@ -14,5 +12,5 @@
     "TXT": ["replit-verify=a783ddd7-5e1d-4c1c-b087-6a1ff099a052"]
   },
 
-  "proxy": false
+  "proxied": false
 }

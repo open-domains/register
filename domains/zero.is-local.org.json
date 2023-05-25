@@ -1,6 +1,4 @@
 {
-    "$schema": "../schemas/domain.schema.json",
-
     "domain": "is-local.org",
     "subdomain": "zero",
 
@@ -12,5 +10,5 @@
         "NS": ["ns1.mrijoo.com", "ns2.mrijoo.com"]
     },
 
-    "proxy": false
+    "proxied": false
 }

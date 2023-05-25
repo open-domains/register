@@ -1,13 +1,13 @@
 {
   "domain": "is-cool.dev",
-  "subdomain": "neovoid",
+  "subdomain": "raofin",
 
   "owner": {
-    "email": "neovoid@envs.net"
+    "email": "hello@raofin.net"
   },
 
   "record": {
-    "CNAME": "exozy.me"
+    "CNAME": "rao-dev.pages.dev"
   },
 
   "proxied": false
