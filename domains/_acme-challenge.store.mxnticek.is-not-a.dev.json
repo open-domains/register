@@ -1,8 +1,4 @@
 {
-  "$schema": "../schemas/domain.schema.json",
-
-  "description": "",
-
   "domain": "is-not-a.dev",
   "subdomain": "_acme-challenge.store.mxnticek",
 
@@ -15,5 +11,5 @@
     "TXT": ["tOwpNqSiDUFbsgzD1NYrnaetVO1V2TpShcBMcpIhKgo"]
   },
 
-  "proxy": false
+  "proxied": false
 }

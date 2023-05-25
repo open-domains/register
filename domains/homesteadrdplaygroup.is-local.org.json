@@ -1,6 +1,4 @@
 {
-  "$schema": "../schemas/domain.schema.json",
-
   "description": "Playgroup website",
 
   "domain": "is-local.org",
@@ -34,5 +32,5 @@
     "TXT": ["forward-email=homesteadrdplaygroup@gmail.com"]
   },
 
-  "proxy": false
+  "proxied": false
 }

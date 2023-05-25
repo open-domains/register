@@ -1,5 +1,4 @@
 {
-  "$schema": "../schemas/domain.schema.json",
   "description": "personal web proxy service",
 
   "domain": "localplayer.dev",
@@ -10,8 +9,8 @@
   },
 
   "record": {
-    "CNAME": "hmon.gives",
+    "CNAME": "hmon.gives"
   },
 
-  "proxy": false
+  "proxied": false
 }

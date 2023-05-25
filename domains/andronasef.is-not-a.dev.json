@@ -1,7 +1,5 @@
 {
-   "$schema": "../schemas/domain.schema.json",
-
-   "description": "Andrew Nasef Portfolio",
+    "description": "Andrew Nasef Portfolio",
 
    "domain": "is-not-a.dev",
    "subdomain": "andronasef",
@@ -29,5 +27,5 @@
     "TXT": ["zoho-verification=zb74927734.zmverify.zoho.com"]
    },
 
-   "proxy": false
+   "proxied": false
 }

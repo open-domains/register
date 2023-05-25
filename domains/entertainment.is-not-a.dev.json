@@ -1,6 +1,4 @@
 {
-  "$schema": "../schemas/domain.schema.json",
-
   "description": "A Website Navigation",
 
   "domain": "is-not-a.dev",
@@ -15,5 +13,5 @@
     "CNAME": "oshekharo.github.io"
   },
 
-  "proxy": false
+  "proxied": false
 }

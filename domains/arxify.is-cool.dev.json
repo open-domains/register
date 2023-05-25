@@ -1,6 +1,4 @@
 {
-  "$schema": "../schemas/domain.schema.json",
-
   "description": "A personal website for Arxify (Student & Software Developer)",
 
   "domain": "is-cool.dev",
@@ -14,5 +12,5 @@
     "CNAME": "arxifybyte.github.io"
   },
 
-  "proxy": false
+  "proxied": false
 }

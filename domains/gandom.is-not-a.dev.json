@@ -1,6 +1,4 @@
 {
-  "$schema": "../schemas/domain.schema.json",
-
   "description": "Test My Apps and Share Ideas",
 
   "domain": "is-not-a.dev",
@@ -11,8 +9,8 @@
   },
 
   "record": {
-    "NS": ["ns1.gcorelabs.net", "ns2.gcdn.services"],
+    "NS": ["ns1.gcorelabs.net", "ns2.gcdn.services"]
   },
 
-  "proxy": false
+  "proxied": false
 }

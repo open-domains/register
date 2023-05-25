@@ -1,6 +1,4 @@
 {
-  "$schema": "../schemas/domain.schema.json",
-
   "description": "Playgroup website",
 
   "domain": "is-local.org",
@@ -15,5 +13,5 @@
     "TXT": ["61fb25de94ffb44246bcda98b23911"]
   },
 
-  "proxy": false
+  "proxied": false
 }

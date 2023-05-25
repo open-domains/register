@@ -1,6 +1,4 @@
 {
-  "$schema": "../schemas/domain.schema.json",
-
   "description": "Portfolio Website",
 
   "domain": "is-cool.dev",
@@ -14,5 +12,5 @@
     "CNAME": "DoctorStrange49.github.io"
   },
 
-  "proxy": false
+  "proxied": false
 }
