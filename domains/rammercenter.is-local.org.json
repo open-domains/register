@@ -1,8 +1,7 @@
-"$schema": "../schemas/domain.schema.json",
-
+{
 	"description": "MyProject",
 
-	"domain": "*.is-local.org",
+	"domain": "is-local.org",
 	"subdomain": "rammercenter",
 
 	"owner": {
@@ -11,8 +10,8 @@
 	},
 
 	"record": {
-		"CNAME": "rammerhq.github.io/RammerhqCenter"
+		"CNAME": "rammerhq.github.io"
 	},
 
-	"proxy": false
+	"proxied": false
 }
