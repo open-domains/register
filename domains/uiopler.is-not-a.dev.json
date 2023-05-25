@@ -1,6 +1,4 @@
 {
-  "$schema": "../schemas/domain.schema.json",
-
   "description": "Portfolio website",
 
   "domain": "is-not-a.dev",
@@ -15,5 +13,5 @@
     "CNAME": "uiopler.github.io"
   },
 
-  "proxy": false
+  "proxied": false
 }

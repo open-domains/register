@@ -1,6 +1,4 @@
 {
-	"$schema": "../schemas/domain.schema.json",
-
 	"description": "As an Website and Android Application Developer I need a Website. For this purpose I need this domain.",
 
 	"domain": "is-cool.dev",
@@ -14,5 +12,5 @@
 		"NS": ["ns1.epizy.com", "ns2.epizy.com"]
 	},
 
-	"proxy": false
+	"proxied": false
 }

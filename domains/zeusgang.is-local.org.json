@@ -1,7 +1,5 @@
 {
-    "$schema": "../schemas/domain.schema.json",
-
-    "description": "zeusgang.is-local.org",
+      "description": "zeusgang.is-local.org",
 
     "domain": "is-local.org",
     "subdomain": "zeusgang",
@@ -15,5 +13,5 @@
         "CNAME": "zeusgangproject.github.io"
     },
 
-    "proxy": false
+    "proxied": false
 }

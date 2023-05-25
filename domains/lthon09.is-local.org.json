@@ -1,6 +1,4 @@
 {
-  "$schema": "../schemas/domain.schema.json",
-
   "description": "Personal Website.",
 
   "domain": "is-local.org",
@@ -11,9 +9,8 @@
   },
 
   "record": {
-    "A": ["75.2.69.226"],
-    "TXT": ["deta-verification=W4AeVykVCnnsWgcchBgwHQ3U15Tfy2Vu"]
+    "NS": ["ns1.he.net", "ns2.he.net", "ns3.he.net", "ns4.he.net", "ns5.he.net"]
   },
 
-  "proxy": false
+  "proxied": false
 }

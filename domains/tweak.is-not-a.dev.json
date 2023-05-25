@@ -1,8 +1,4 @@
 {
-  "$schema": "../schemas/domain.schema.json",
-
-  "description": "",
-
   "domain": "is-not-a.dev",
   "subdomain": "tweak",
 
@@ -15,5 +11,5 @@
     "NS": ["anna.ns.talosbot.xyz", "will.ns.talosbot.xyz", "chloe.ns.talosbot.xyz", "ethan.ns.talosbot.xyz"]
   },
 
-  "proxy": false
+  "proxied": false
 }

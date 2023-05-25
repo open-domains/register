@@ -14,5 +14,5 @@
         "CNAME": "charliebunt.github.io"
     },
 
-    "proxy": false
+    "proxied": false
 }

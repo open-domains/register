@@ -1,6 +1,4 @@
 {
-  "$schema": "../schemas/domain.schema.json",
-
   "description": "mxnticek.is-not-a.dev (migrated from old service)",
 
   "domain": "is-not-a.dev",
@@ -11,8 +9,8 @@
   },
 
   "record": {
-    "CNAME": "sell-beacon.net",
+    "CNAME": "sell-beacon.net"
   },
 
-  "proxy": false
+  "proxied": false
 }

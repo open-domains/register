@@ -1,14 +1,8 @@
 {
-  "$schema": "../../schemas/domain.schema.json",
-
   "description": "Root domain",
 
   "domain": "localplayer.dev",
   "subdomain": "@",
-
-  "owner": {
-    "repo": "https://github.com/open-domains/localplayer.dev"
-  },
 
   "record": {
     "A": [
@@ -28,5 +22,5 @@
     "TXT": ["v=spf1 -all"]
   },
 
-  "proxy": false
+  "proxied": false
 }

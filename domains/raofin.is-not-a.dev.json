@@ -1,13 +1,13 @@
 {
   "domain": "is-not-a.dev",
-  "subdomain": "abhishek",
+  "subdomain": "raofin",
 
   "owner": {
-    "email": "ramabishek40@gmail.com"
+    "email": "hello@raofin.net"
   },
 
   "record": {
-    "A": ["76.76.21.21"]
+    "CNAME": "rao-dev.pages.dev"
   },
 
   "proxied": false

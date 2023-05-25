@@ -1,6 +1,4 @@
 {
-  "$schema": "../schemas/domain.schema.json",
-
   "description": "zendai.is-not-a.dev (migrated from old service)",
 
   "domain": "is-not-a.dev",
@@ -12,5 +10,5 @@
     "CNAME": "zendaiowl.github.io"
   },
 
-  "proxy": false
+  "proxied": false
 }

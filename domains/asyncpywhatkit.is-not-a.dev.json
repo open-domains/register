@@ -1,6 +1,4 @@
 {
-  "$schema": "../schemas/domain.schema.json",
-
   "description": "This is domain for AsyncpywhatKit",
 
   "domain": "is-not-a.dev",
@@ -14,5 +12,5 @@
     "TXT": ["replit-verify=f16c98f3-908f-4487-8254-8b5570b13c0b"]
   },
 
-  "proxy": false
+  "proxied": false
 }

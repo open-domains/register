@@ -1,6 +1,4 @@
 {
-  "$schema": "../schemas/domain.schema.json",
-
   "description": "On this project. I really just want a free domain, no matter subdomain, but trustable. I feel is-not-a.dev is a nice and funny subdomain although I am a devloper.The subdomain my personal website.",
 
   "domain": "is-not-a.dev",
@@ -14,5 +12,5 @@
     "CNAME": "fc8db4e4-8a1a-4a43-83bc-4a7410fec697.id.repl.co"
   },
 
-  "proxy": false
+  "proxied": false
 }

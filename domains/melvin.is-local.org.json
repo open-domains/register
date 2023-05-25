@@ -1,6 +1,4 @@
 {
-  "$schema": "../schemas/domain.schema.json",
-
   "description": "A website for games to play at school",
 
   "domain": "is-local.org",
@@ -12,8 +10,8 @@
   },
 
   "record": {
-    "CNAME": "melvin4life.com",
+    "CNAME": "melvin4life.com"
   },
 
-  "proxy": false
+  "proxied": false
 }
