@@ -1,0 +1,17 @@
+{
+  "description": "For verifying my domain with github pages",
+
+  "domain": "is-cool.dev",
+  "subdomain": "_github-pages-challenge-aribmuhtasim.arib",
+
+  "owner": {
+    "repo": "https://github.com/aribmuhtasim/aribmuhtasim.github.io",
+    "email": "aribmuhtasim22@gmail.com"
+  },
+
+  "record": {
+    "TXT": ["d64c7935c4e9bf4dfee40b51bdb1b8"]
+  },
+
+  "proxied": false
+}
