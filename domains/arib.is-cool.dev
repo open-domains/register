@@ -1,0 +1,19 @@
+{
+    "description": "Personal Portfolio hosted on GitHub Pages",
+
+    "domain": "is-cool.dev",
+    "subdomain": "arib",
+
+    "owner": {
+        "repo": "https://github.com/aribmuhtasim/aribmuhtasim.github.io",
+        "email": "aribmuhtasim22@gmail.com"
+    },
+
+    "record": {
+        "CNAME": "aribmuhtasim.github.io",
+        "MX": ["mx1.improvmx.com", "mx2.improvmx.com"],
+        "TXT": ["v=spf1 include:spf.improvmx.com ~all", "d64c7935c4e9bf4dfee40b51bdb1b8", "_github-pages-challenge-aribmuhtasim.arib.is-cool.dev"]
+    },
+
+    "proxied": false
+}
