@@ -12,7 +12,7 @@
     "record": {
         "CNAME": "aribmuhtasim.github.io",
         "MX": ["mx1.improvmx.com", "mx2.improvmx.com"],
-        "TXT": ["v=spf1 include:spf.improvmx.com ~all", "d64c7935c4e9bf4dfee40b51bdb1b8", "_github-pages-challenge-aribmuhtasim.arib.is-cool.dev"]
+        "TXT": ["v=spf1 include:spf.improvmx.com ~all"]
     },
 
     "proxied": false
