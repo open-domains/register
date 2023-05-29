@@ -10,9 +10,10 @@
     },
 
     "record": {
-        "A": ["1.1.1.1", "1.0.0.1"],
+        "A": ["216.239.32.21", "216.239.34.21", "216.239.36.21", "216.239.38.21"],
         "AAAA": ["::1", "::2"],
-        "CNAME": "example.com",
+        "CNAME": "ghs.google.com",
+        "CNAME": "gv-72bpoiyxibz642.dv.googlehosted.com",
         "MX": ["mx1.example.com", "mx2.example.com"],
         "NS": ["ns1.example.com", "ns2.example.com"],
         "TXT": ["example_verification=1234567890"]
