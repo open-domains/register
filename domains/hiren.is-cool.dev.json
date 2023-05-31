@@ -1,0 +1,17 @@
+{
+    "description": "Hiren Weather App: A JavaScript-powered weather tool that provides real-time weather information based on user input or geolocation. Built with Bootstrap and WeatherAPI integration.",
+
+    "domain": "is-cool.dev",
+    "subdomain": "hiren",
+
+    "owner": {
+        "repo": "https://github.com/Hiren2001/me",
+        "email": "329065_TT21@Ldceahm.gujgov.edu.in"
+    },
+
+    "record": {
+        "CNAME": "hiren2001.github.io"
+    },
+
+    "proxied": false
+}
