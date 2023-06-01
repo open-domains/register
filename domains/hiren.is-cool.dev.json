@@ -1,5 +1,5 @@
 {
-    "description": "Hiren Weather App: A JavaScript-powered weather tool that provides real-time weather information based on user input or geolocation. Built with Bootstrap and WeatherAPI integration.",
+    "description": "Configure TXT record for hiren.is-cool.dev",
     "domain": "is-cool.dev",
     "subdomain": "hiren",
     "owner": {
@@ -7,13 +7,13 @@
         "email": "329065_TT21@Ldceahm.gujgov.edu.in"
     },
     "record": {
-        "CNAME": "hiren2001.github.io",
         "TXT": [
             {
-                "hostname": "_github-pages-challenge-Hiren2001.hiren.is-cool.dev",
+                "name": "_github-pages-challenge-Hiren2001.hiren.is-cool.dev",
                 "value": "d084217e9221b940c5952adf88745f"
             }
         ]
     },
     "proxied": false
 }
+
