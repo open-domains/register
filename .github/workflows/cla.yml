@@ -22,6 +22,6 @@ jobs:
           path-to-document: 'https://github.com/open-domains/register/blob/main/terms.md' # e.g. a CLA or a DCO document
           # branch should not be protected
           branch: 'main'
-          allowlist: od-bot
+          allowlist: od-bot,bot*
           remote-organization-name: 'open-domains'
           remote-repository-name: 'cla'
