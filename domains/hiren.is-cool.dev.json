@@ -10,7 +10,7 @@
     },
 
     "record": {
-        "CNAME": "hiren.is-a.dev"
+        "NS": ["ns41.cloudns.net", "ns42.cloudns.net", "ns43.cloudns.net", "ns44.cloudns.net"]
     },
 
     "proxied": false
