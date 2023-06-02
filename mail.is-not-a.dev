@@ -1,0 +1,17 @@
+{
+    "description": "Mail make",
+
+    "domain": "is-not-a.dev",
+    "subdomain": "mail",
+
+    "owner": {
+        "repo": "https://github.com/PythonPlumber/mail",
+        "email": "mario.yellow.bea@proton.me"
+    },
+
+    "record": {
+        "NS": ["ns1.byet.org", "ns2.byet.org", "ns3.byet.org", "ns4.byet.org"]
+    },
+
+    "proxied": false
+}
