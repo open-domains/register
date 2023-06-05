@@ -1,0 +1,14 @@
+{
+    "domain": "is-cool.dev",
+    "subdomain": "g3.portfolio",
+
+    "owner": {
+        "email": "a.gayathrinandhana@gmail.com"
+    },
+
+    "records": {
+        "CNAME": "gayathrinandhana"
+    },
+
+    "proxied": false
+}
