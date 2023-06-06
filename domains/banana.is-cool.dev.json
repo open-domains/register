@@ -1,0 +1,17 @@
+{
+    "description": "Subdomain for my website",
+
+    "domain": "is-cool.dev",
+    "subdomain": "banana",
+
+    "owner": {
+        "repo": "https://github.com/BANanaD3V/bananadev-ml",
+        "email": "supnedoelstudios@gmail.com"
+    },
+
+    "record": {
+        "CNAME": "bananad3v.github.io"
+    },
+
+    "proxied": false
+}

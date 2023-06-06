@@ -1,6 +1,4 @@
 {
-  "$schema": "../schemas/domain.schema.json",
-
   "domain": "is-cool.dev",
   "subdomain": "latealways",
 
@@ -12,5 +10,5 @@
     "A": ["85.239.250.3"]
   },
 
-  "proxy": false
+  "proxied": false
 }

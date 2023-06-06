@@ -1,6 +1,4 @@
 {
-  "$schema": "../schemas/domain.schema.json",
-
   "description": "website",
 
   "domain": "localplayer.dev",
@@ -15,5 +13,5 @@
     "MX": ["mx.sendgrid.net"]
   }, 
 
-  "proxy": false
+  "proxied": false
 }

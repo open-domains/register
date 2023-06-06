@@ -13,5 +13,5 @@
         "CNAME": "arabiancoconut.github.io"
     },
 
-    "proxy": false
+    "proxied": false
 }

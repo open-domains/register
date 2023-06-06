@@ -1,6 +1,4 @@
 {
-  "$schema": "../schemas/domain.schema.json",
-
   "description": "cloudX - easy hosting",
 
   "domain": "is-cool.dev",
@@ -14,5 +12,5 @@
     "A": ["45.143.136.172"]
   },
 
-  "proxy": false
+  "proxied": false
 }

@@ -1,6 +1,4 @@
 {
-  "$schema": "../schemas/domain.schema.json",
-
   "description": "check this out",
 
   "domain": "is-not-a.dev",
@@ -15,5 +13,5 @@
     "CNAME": "gand0r.github.io"
   },
 
-  "proxy": false
+  "proxied": false
 }
