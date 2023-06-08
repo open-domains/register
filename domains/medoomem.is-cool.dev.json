@@ -1,0 +1,14 @@
+{
+    "domain": "is-cool.dev",
+    "subdomain": "medoomem",
+
+    "owner": {
+        "email": "medoo273@gmail.com"
+    },
+
+    "records": {
+        "CNAME": "181.ip.ply.gg:15995"
+    },
+
+    "proxied": true
+}
