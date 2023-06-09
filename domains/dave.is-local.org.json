@@ -1,0 +1,14 @@
+{
+    "domain": "is-local.org",
+    "subdomain": "dave",
+
+    "owner": {
+        "email": "david.mellor@telus.net"
+    },
+
+    "records": {
+        "A": ["https://20.151.75.99/"]
+    },
+
+    "proxied": false
+}
