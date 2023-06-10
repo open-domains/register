@@ -1,0 +1,14 @@
+{
+    "domain": "is-cool.dev",
+    "subdomain": "cortex-xsoar",
+
+    "owner": {
+        "email": "david.mellor@telus.net"
+    },
+
+    "records": {
+        "A": ["20.151.75.99"]
+    },
+
+    "proxied": false
+}
