@@ -1,17 +1,15 @@
 {
     "description": "My site",
-
+    
     "domain": "is-cool.dev",
     "subdomain": "liztochekcode",
-
+    
     "owner": {
         "email": "liztochekcode@gmail.com"
     },
-
+    
     "record": {
-
-"CNAME": "liztochekcodedev.vercel.app"
+        "CNAME": "liztochekcodedev.vercel.app"
     },
-
     "proxied": false
 }
