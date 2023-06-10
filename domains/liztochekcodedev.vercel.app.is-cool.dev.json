@@ -1,0 +1,14 @@
+{
+    "domain": "is-cool.dev",
+    "subdomain": "liztochekcodedev.vercel.app",
+
+    "owner": {
+        "email": "liztochekcode@gmail.com"
+    },
+
+    "records": {
+        "TXT": ["vc-domain-verify=liztochekcode.is-cool.dev,b10c7a319e72cec36226"]
+    },
+
+    "proxied": false
+}
