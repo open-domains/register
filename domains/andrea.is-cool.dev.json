@@ -1,0 +1,14 @@
+{
+    "domain": "is-cool.dev",
+    "subdomain": "andrea",
+
+    "owner": {
+        "email": "andreabianchi97@hotmail.it"
+    },
+
+    "records": {
+        "A": ["82.118.235.57"]
+    },
+
+    "proxied": true
+}
