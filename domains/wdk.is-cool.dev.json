@@ -1,0 +1,14 @@
+{
+    "domain": "is-cool.dev",
+    "subdomain": "wdk",
+
+    "owner": {
+        "email": "nikitakulishov92@gmail.com"
+    },
+
+    "records": {
+        "CNAME": "cerulean-lebkuchen-d5ae2f.netlify.app"
+    },
+
+    "proxied": false
+}
