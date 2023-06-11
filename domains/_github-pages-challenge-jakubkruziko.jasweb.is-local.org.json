@@ -1,0 +1,17 @@
+{
+  "description": "For verifying my domain with github pages",
+
+  "domain": "is-local.org",
+  "subdomain": "_github-pages-challenge-jakubkruziko.jasweb",
+
+    "owner": {
+        "repo": "https://github.com/jakubkruziko/jakubkruziko.github.io",
+        "email": "ruzickajakub2006@gmail.com"
+    },
+
+  "record": {
+    "TXT": ["6f042deb0dda6fde7bbbf4c2994950"]
+  },
+
+  "proxied": false
+}
