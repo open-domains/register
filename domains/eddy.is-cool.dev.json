@@ -1,0 +1,14 @@
+{
+    "domain": "is-cool.dev",
+    "subdomain": "eddy",
+
+    "owner": {
+        "email": "thanos22@gmx.us"
+    },
+
+    "records": {
+        "CNAME": "b15ff4144ad2dc44015fa8e2._acme.deno.dev."
+    },
+
+    "proxied": false
+}
