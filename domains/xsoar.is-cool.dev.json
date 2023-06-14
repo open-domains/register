@@ -8,7 +8,7 @@
         "email": "david.mellor@telus.net"
     },
 
-    "records": {
+    "record": {
         "A": ["20.151.75.99"]
     },
 
