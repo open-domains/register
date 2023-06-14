@@ -2,7 +2,7 @@
     "description": "Wildcard website for my projects",
 
     "domain": "is-cool.dev",
-    "subdomain": "*.deva",
+    "subdomain": "deva",
 
     "owner": {
         "repo": "https://github.com/turbomaster95/turbomaster95.github.io",
