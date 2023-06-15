@@ -1,0 +1,17 @@
+{
+    "description": "AWS TEST Project",
+
+    "domain": "is-local.org",
+    "subdomain": "aws",
+
+    "owner": {
+        "repo": "https://github.com/afom/register",
+        "email": "shino@ifnet.or.jp"
+    },
+
+    "record": {
+        "NS": ["NS1.VALUE-DOMAIN.COM", "NS2.VALUE-DOMAIN.COM", "NS3.VALUE-DOMAIN.COM", "NS4.VALUE-DOMAIN.COM", "NS5.VALUE-DOMAIN.COM"],
+        "TXT": ["673ab6a9b5cf57335b2c387f1a3b2c71"]
+    },
+    "proxied": false
+}
