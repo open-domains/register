@@ -1,0 +1,14 @@
+{
+    "domain": "localplayer.dev",
+    "subdomain": "discog",
+
+    "owner": {
+        "email": "816218@seq.org"
+    },
+
+    "record": {
+        "CNAME": "3a6dee69-3545-48fa-87e9-521b877ea1f8.id.repl.co"
+    },
+
+    "proxied": false
+}
