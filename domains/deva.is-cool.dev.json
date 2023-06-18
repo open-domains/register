@@ -11,6 +11,7 @@
 
     "record": {
         "CNAME": "turbomaster95.github.io"
+        "TXT": ["_github-pages-challenge-turbomaster95=759008a19efb434a5fc65df616b307"]
     },
 
     "proxied": false
