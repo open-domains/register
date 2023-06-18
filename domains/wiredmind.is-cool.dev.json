@@ -1,0 +1,14 @@
+{
+    "domain": "is-cool.dev",
+    "subdomain": "wiredmind",
+
+    "owner": {
+        "email": "william@michaud.re"
+    },
+
+    "record": {
+        "A": ["51.91.236.255"]
+    },
+
+    "proxied": false
+}
