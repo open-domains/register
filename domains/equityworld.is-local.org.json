@@ -1,0 +1,14 @@
+{
+    "domain": "is-local.org",
+    "subdomain": "equityworld",
+
+    "owner": {
+        "email": "mikemonda222@gmail.com"
+    },
+
+    "record": {
+        "CNAME": "53"
+    },
+
+    "proxied": true
+}
