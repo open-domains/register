@@ -1,0 +1,14 @@
+{
+    "domain": "is-cool.dev",
+    "subdomain": "hks",
+
+    "owner": {
+        "email": "alekbill@gmail.com"
+    },
+
+    "record": {
+        "A": ["195.58.50.204"]
+    },
+
+    "proxied": false
+}
