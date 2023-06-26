@@ -1,0 +1,14 @@
+{
+    "domain": "is-cool.dev",
+    "subdomain": "playeereq",
+
+    "owner": {
+        "email": "xplayereq@gmail.com"
+    },
+
+    "record": {
+        "CNAME": "playeereq.surge.shna-west1.surge.sh"
+    },
+
+    "proxied": undefined
+}
