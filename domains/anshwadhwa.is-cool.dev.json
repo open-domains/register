@@ -1,0 +1,14 @@
+{
+    "domain": "is-cool.dev",
+    "subdomain": "anshwadhwa",
+
+    "owner": {
+        "email": "new.anshwadhwa@gmail.com"
+    },
+
+    "record": {
+        "CNAME": "https://simplystudio.github.io/anshwadhwa"
+    },
+
+    "proxied": true
+}
