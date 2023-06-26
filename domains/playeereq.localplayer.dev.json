@@ -1,0 +1,14 @@
+{
+    "domain": "localplayer.dev",
+    "subdomain": "playeereq",
+
+    "owner": {
+        "email": "xplayereq@gmail.com"
+    },
+
+    "record": {
+        "CNAME": "playeereq.surge.sh"
+    },
+
+    "proxied": true
+}
