@@ -1,0 +1,14 @@
+{
+    "domain": "is-not-a.dev",
+    "subdomain": "ansh",
+
+    "owner": {
+        "email": "new.anshwadhwa@gmail.com"
+    },
+
+    "record": {
+        "CNAME": "simplystudios.github.io"
+    },
+
+    "proxied": true
+}
