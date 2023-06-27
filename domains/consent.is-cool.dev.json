@@ -1,0 +1,14 @@
+{
+    "domain": "is-cool.dev",
+    "subdomain": "consent",
+
+    "owner": {
+        "email": "ego.war@icloud.com"
+    },
+
+    "record": {
+        "TXT": [""]
+    },
+
+    "proxied": false
+}
