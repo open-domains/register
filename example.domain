@@ -1,0 +1,17 @@
+{
+    "description": "Project Description",
+
+    "domain": "is-not-a.dev",
+    "subdomain": "",
+
+    "owner": {
+        "email": "hello@example.com"
+    },
+
+    "record": {
+        "CNAME": "example.com",
+        "TXT": ["example_verification=1234567890"]
+    },
+
+    "proxied": false
+}
