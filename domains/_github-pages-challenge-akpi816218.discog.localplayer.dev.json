@@ -9,7 +9,7 @@
   },
 
   "record": {
-    "TXT": "b2269716dc3b944f89cc8e6e7690e4"
+    "TXT": ["b2269716dc3b944f89cc8e6e7690e4"]
   },
 
   "proxied": false
