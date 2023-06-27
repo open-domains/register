@@ -1,14 +1,16 @@
 {
-    "domain": "is-cool.dev",
-    "subdomain": "consent",
+  "description": "Collection of small design projects and experiments",
 
-    "owner": {
-        "email": "ego.war@icloud.com"
-    },
+  "domain": "is-cool.dev",
+  "subdomain": "consent",
 
-    "record": {
-        "TXT": [""]
-    },
+  "owner": {
+    "email": "ego.war@icloud.com"
+  },
 
-    "proxied": false
+  "record": {
+    "NS": ["ns1.digitalocean.com.", "ns2.digitalocean.com.", "ns3.digitalocean.com."]
+  },
+
+  "proxied": false
 }
