@@ -9,7 +9,6 @@
     "record": {
         "A": ["213.188.192.2"],
         "AAAA": ["2a09:8280:1:9032:60eb:1797:5542:d0db"],
-        "CNAME": ["cyber.localplayer.dev"]
     },
 
     "proxied": true
