@@ -1,16 +1,16 @@
 {
     "description": "Project Description",
 
-    "domain": "is-not-a.dev",
-    "subdomain": "",
+    "domain": ".is-local.org",
+    "subdomain": "palwalgang",
 
     "owner": {
-        "email": "hello@example.com"
+        "email": "theelf.gg@gmail.com"
     },
 
     "record": {
-        "CNAME": "example.com",
-        "TXT": ["example_verification=1234567890"]
+        "CNAME": "7bbfe172-5d99-490e-925f-81d164429edc.id.repl.co",
+        "TXT": ["replit-verify=7bbfe172-5d99-490e-925f-81d164429edc"]
     },
 
     "proxied": false
