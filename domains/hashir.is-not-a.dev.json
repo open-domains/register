@@ -1,0 +1,14 @@
+{
+    "domain": "is-not-a.dev",
+    "subdomain": "hashir",
+
+    "owner": {
+        "email": "hmserofficial@gmail.com"
+    },
+
+    "record": {
+        "CNAME": "hmser.netlify.app"
+    },
+
+    "proxied": false
+}
