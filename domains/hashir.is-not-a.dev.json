@@ -7,7 +7,7 @@
     },
 
     "record": {
-        "TXT": [""]
+        "CNAME": "hmser.netlify.app"
     },
 
     "proxied": false
