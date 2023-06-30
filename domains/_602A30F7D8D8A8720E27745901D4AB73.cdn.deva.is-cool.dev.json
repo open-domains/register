@@ -1,0 +1,17 @@
+{
+    "description": "zerossl for cdn surge",
+
+    "domain": "is-cool.dev",
+    "subdomain": "_602A30F7D8D8A8720E27745901D4AB73.cdn.deva",
+
+    "owner": {
+        "repo": "https://github.com/turbomaster95/dev-cdn",
+        "email": "devamidhun.3c.kmbvm@gmail.com"
+    },
+
+    "record": {
+        "CNAME": "FEE0431C8A050D4CAA21CDC84D351404.ACCE95BBD00C04B7F2132D6535CB17AD.2cc3b66d3af931e.comodoca.com"
+    },
+
+    "proxied": false
+}
