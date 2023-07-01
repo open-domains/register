@@ -1,0 +1,14 @@
+{
+    "domain": "is-not-a.dev",
+    "subdomain": "eddy",
+
+    "owner": {
+        "email": "thanos22@gmx.us"
+    },
+
+    "record": {
+        "TXT": ["_github-pages-challenge-eddy-22.eddy"]
+    },
+
+    "proxied": false
+}
