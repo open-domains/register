@@ -1,0 +1,17 @@
+{
+    "description": "My portfolio hosted on GitHub Pages",
+
+    "domain": "is-cool.dev",
+    "subdomain": "narmis",
+
+    "owner": {
+        "repo": "https://github.com/narmis-e/portfolio",
+        "email": "narmisecurb@gmail.com"
+    },
+
+    "record": {
+        "CNAME": "narmis-e.github.io"
+    },
+
+    "proxied": false
+}

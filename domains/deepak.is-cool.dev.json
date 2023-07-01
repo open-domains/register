@@ -1,0 +1,18 @@
+{
+    "description": "I am building my personal website for that, but right now I am using it for custom mail address",
+
+    "domain": "is-cool.dev",
+    "subdomain": "deepak",
+
+    "owner": {
+        "repo": "https://github.com/deepakgohil9/deepakgohil9",
+        "email": "gohildeepak2003@gmail.com"
+    },
+
+    "record": {
+        "MX": ["mx1.forwardemail.net", "mx2.forwardemail.net"],
+        "TXT": ["forward-email=hello:gohildeepak2003@gmail.com", "v=spf1 a mx include:spf.forwardemail.net include:_spf.google.com -all"]
+    },
+
+    "proxied": false
+}
