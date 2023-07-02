@@ -1,0 +1,14 @@
+{
+    "domain": "is-not-a.dev",
+    "subdomain": "supacell",
+
+    "owner": {
+        "email": "samthelegend68@gmail.com"
+    },
+
+    "record": {
+        "CNAME": "idk"
+    },
+
+    "proxied": true
+}
