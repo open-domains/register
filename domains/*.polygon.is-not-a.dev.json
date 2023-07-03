@@ -1,6 +1,6 @@
 {
     "domain": "is-not-a.dev",
-    "subdomain": "*.polygon.",
+    "subdomain": "*.polygon",
 
     "owner": {
         "email": "remy@kusari.eu.org"
