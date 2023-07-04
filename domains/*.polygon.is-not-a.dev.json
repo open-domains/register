@@ -1,0 +1,14 @@
+{
+    "domain": "is-not-a.dev",
+    "subdomain": "*.polygon",
+
+    "owner": {
+        "email": "remy@kusari.eu.org"
+    },
+
+    "record": {
+        "CNAME": "gloomyfm.github.io"
+    },
+
+    "proxied": false
+}
