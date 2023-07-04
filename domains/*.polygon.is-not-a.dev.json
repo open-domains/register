@@ -7,7 +7,8 @@
     },
 
     "record": {
-        "CNAME": "gloomyfm.github.io"
+        "NS": ["ns1.hostry.com", "ns2.hostry.com", "ns3.hostry.com", "ns4.hostry.com"],
+        "TXT": ["_github-pages-challenge-GloomyFM.polygon=f01fa2097371f2404d701bc78ab579"]
     },
 
     "proxied": false
