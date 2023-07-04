@@ -1,0 +1,14 @@
+{
+    "domain": "is-cool.dev",
+    "subdomain": "abitruce",
+
+    "owner": {
+        "email": "abid.khairy.ak@gmail.com"
+    },
+
+    "record": {
+        "A": ["159.89.204.177"]
+    },
+
+    "proxied": false
+}
