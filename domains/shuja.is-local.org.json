@@ -1,6 +1,4 @@
 {
-  "$schema": "../schemas/domain.schema.json",
-
   "description": "Redirect",
 
   "domain": "is-local.org",
@@ -15,5 +13,5 @@
     "CNAME": "pakbch.github.io"
   },
 
-  "proxy": false
+  "proxied": false
 }

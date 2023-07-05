@@ -1,0 +1,16 @@
+{
+      "description": "projvali.is-not-a.dev (url for personal server used for projects validation)",
+
+    "domain": "is-not-a.dev",
+    "subdomain": "projvali",
+
+    "owner": {
+        "email": "hmsecondaccount@gmail.com"
+    },
+
+    "record": {
+        "A": ["34.27.213.48"]
+    },
+
+    "proxied": false
+}

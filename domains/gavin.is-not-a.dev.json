@@ -1,6 +1,4 @@
 {
-  "$schema": "../schemas/domain.schema.json",
-
   "description": "GavinW Portfolio",
 
   "domain": "is-not-a.dev",
@@ -20,5 +18,5 @@
     ]
   },
 
-  "proxy": false
+  "proxied": false
 }

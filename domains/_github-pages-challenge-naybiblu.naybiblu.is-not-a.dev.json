@@ -1,6 +1,4 @@
-{
-  "$schema": "../schemas/domain.schema.json",
- 
+{ 
   "description": "Adding TXT record to the DNS configuration; for verification of subdomain (Github Pages)",
  
   "domain": "is-not-a.dev",
@@ -15,5 +13,5 @@
     "TXT": ["ffe450f918f79b9504a86c928e8dcf"]
   },
 
-  "proxy": false
+  "proxied": false
 }
