@@ -5,14 +5,14 @@
     "subdomain": "abdullah",
 
     "owner": {
-        "repo": "https://github.com/TheNightSec/abdullah.github.io",
+        "repo": "https://github.com/TheNightSec/portfolio",
         "email": "admin@m3ta.tech"
     },
 
     "record": {
-        "A": ["1.1.1.1", "1.0.0.1"],
+        "A": ["185.199.108.153", "185.199.109.153"],
         "AAAA": ["::1", "::2"],
-        "CNAME": "example.com",
+        "CNAME": "thenightsec.github.io.",
         "MX": ["mx1.example.com", "mx2.example.com"],
         "NS": ["ns1.example.com", "ns2.example.com"],
         "TXT": ["example_verification=1234567890"]
