@@ -1,5 +1,5 @@
 {
-    "description": "I am building my personal website for that, but right now I am using it for custom mail address",
+    "description": "For my personal website",
 
     "domain": "is-cool.dev",
     "subdomain": "deepak",
@@ -10,8 +10,7 @@
     },
 
     "record": {
-        "MX": ["mx1.forwardemail.net", "mx2.forwardemail.net"],
-        "TXT": ["forward-email=hello:gohildeepak2003@gmail.com", "v=spf1 a mx include:spf.forwardemail.net include:_spf.google.com -all"]
+        "NS": ["ns1.hostry.com", "ns2.hostry.com", "ns3.hostry.com", "ns4.hostry.com"]
     },
 
     "proxied": false
