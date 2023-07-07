@@ -1,0 +1,16 @@
+{
+    "description": "An udemy courses provider",
+
+    "domain": "is-local.org",
+    "subdomain": "udemy",
+
+    "owner": {
+        "email": "dqtfp@hi2.in"
+    },
+
+    "record": {
+        "CNAME": "udemy-rmpn.onrender.com"
+    },
+
+    "proxied": false
+}
