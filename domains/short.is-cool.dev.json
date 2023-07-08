@@ -1,5 +1,5 @@
 {
-    "description": "yourls + hostry",
+    "description": "yourls + afraiddns",
 
     "domain": "is-cool.dev",
     "subdomain": "short",
@@ -10,8 +10,13 @@
     },
 
     "record":{
-        "NS": ["ns1.hostry.com", "ns2.hostry.com", "ns3.hostry.com", "ns4.hostry.com"]
+        "NS": ["ns1.afraid.org", "ns2.afraid.org", "ns3.afraid.org", "ns4.afraid.org"]
     },
 
     "proxied": true
 }
+
+
+
+
+
