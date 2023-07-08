@@ -1,5 +1,5 @@
 {
-    "description": "yourls",
+    "description": "yourls + hostry",
 
     "domain": "is-cool.dev",
     "subdomain": "short",
@@ -10,7 +10,7 @@
     },
 
     "record":{
-        "CNAME": "uourls.000webhostapp.com"
+        "NS": ["ns1.hostry.com", "ns2.hostry.com", "ns3.hostry.com", "ns4.hostry.com"]
     },
 
     "proxied": true
