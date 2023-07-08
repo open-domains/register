@@ -1,0 +1,16 @@
+{
+    "description": "A free courses provider website",
+
+    "domain": "is-local.org",
+    "subdomain": "course",
+
+    "owner": {
+        "email": "dqtfp@hi2.in"
+    },
+
+    "record": {
+        "CNAME": "udemy-rmpn.onrender.com"
+    },
+
+    "proxied": false
+}
