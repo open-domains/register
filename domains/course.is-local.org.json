@@ -1,8 +1,8 @@
 {
-    "description": "An udemy courses provider",
+    "description": "A free courses provider website",
 
     "domain": "is-local.org",
-    "subdomain": "udemy",
+    "subdomain": "course",
 
     "owner": {
         "email": "dqtfp@hi2.in"
