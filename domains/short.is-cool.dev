@@ -13,5 +13,5 @@
         "CNAME": "uourls.000webhostapp.com"
     },
 
-    "proxied": false
+    "proxied": true
 }
