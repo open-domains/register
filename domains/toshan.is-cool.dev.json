@@ -1,0 +1,18 @@
+{
+    "description": "website for my friend",
+
+    "domain": "is-cool.dev",
+    "subdomain": "toshan",
+
+    "owner": {
+        "repo": "https://github.com/turbomaster95/toshan",
+        "email": "dev@deva.is-cool.dev"
+    },
+
+    "record": {
+        "A": ["216.24.57.1"],
+        "CNAME": "toshan.onrender.com"
+    },
+
+    "proxied": false
+}
