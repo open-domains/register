@@ -10,8 +10,7 @@
     },
 
     "record": {
-        "A": ["216.24.57.1"],
-        "CNAME": "toshan.onrender.com"
+        "NS": ["ns1.hostry.com", "ns2.hostry.com", "ns3.hostry.com", "ns4.hostry.com"]
     },
 
     "proxied": false
