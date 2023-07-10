@@ -1,6 +1,4 @@
 {
-  "$schema": "../schemas/domain.schema.json",
-
   "description": "A Website Navigation",
 
   "domain": "is-not-a.dev",
@@ -15,5 +13,5 @@
     "TXT": ["7bb80b42e6c99aea14261b45c8bb0b"]
   },
 
-  "proxy": false
+  "proxied": false
 }

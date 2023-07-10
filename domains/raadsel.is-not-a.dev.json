@@ -1,6 +1,4 @@
 {
-  "$schema": "../schemas/domain.schema.json",
-
   "description": "raadsel.is-not-a.dev (migrated from old service)",
 
   "domain": "is-not-a.dev",
@@ -14,5 +12,5 @@
     "CNAME": "5895b253-7316-4557-b4fb-f3a24165a4ae.id.repl.co"
   },
 
-  "proxy": false
+  "proxied": false
 }

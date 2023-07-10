@@ -1,6 +1,4 @@
 {
-  "$schema": "../schemas/domain.schema.json",
-
   "description": "Domain for my Personal Website",
 
   "domain": "is-local.org",
@@ -12,8 +10,8 @@
   },
 
   "record": {
-    "TXT": ["google-site-verification=z8dYpXnBW_3nbymHydqToVX8_8YLEprdGtxWiPCNF4I"]
+    "TXT": ["google-site-verification=5tBsObp6vjDyUaUYmvpkS2lHic66LOKCxTn1V-ozZyw"]
   },
 
-  "proxy": false
+  "proxied": false
 }

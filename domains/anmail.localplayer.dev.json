@@ -1,6 +1,4 @@
 {
-  "$schema": "../schemas/domain.schema.json",
-
   "description": "Personal email service",
 
   "domain": "localplayer.dev",
@@ -12,8 +10,8 @@
   },
 
   "record": {
-    "NS": ["ns1.zilore.net", "ns2.zilore.net"],
+    "NS": ["ns1.zilore.net", "ns2.zilore.net"]
   },
 
-  "proxy": false
+  "proxied": false
 }

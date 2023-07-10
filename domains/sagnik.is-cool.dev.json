@@ -1,6 +1,4 @@
 {
-  "$schema": "../schemas/domain.schema.json",
-
   "description": "My Personal Portfolio",
 
   "domain": "is-cool.dev",
@@ -16,5 +14,5 @@
     "MX": ["mx1.improvmx.com", "mx2.improvmx.com"]
   },
 
-  "proxy": false
+  "proxied": false
 }

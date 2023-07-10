@@ -1,6 +1,4 @@
 {
-  "$schema": "../schemas/domain.schema.json",
-
   "description": "tnix.is-not-a.dev (migrated from old service)",
 
   "domain": "is-not-a.dev",
@@ -14,5 +12,5 @@
     "TXT": ["7f8fca091e35f82d945ab460f15720"]
   },
 
-  "proxy": false
+  "proxied": false
 }

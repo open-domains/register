@@ -1,6 +1,4 @@
 {
-  "$schema": "../schemas/domain.schema.json",
-
   "description": "Showcase/Testing Websites",
 
   "domain": "localplayer.dev",

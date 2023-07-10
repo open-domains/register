@@ -1,6 +1,4 @@
 {
-  "$schema": "../schemas/domain.schema.json",
-
   "description": "Hide's website[Hound Wolf]",
 
   "domain": "localplayer.dev",
@@ -14,5 +12,5 @@
     "CNAME": "hid-e.pages.dev"
   },
 
-  "proxy": false
+  "proxied": false
 }
