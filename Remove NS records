@@ -11,7 +11,7 @@
 <p align="center">Want to find services similar to this? Take a look on <a href="https://free-for.life/#/?id=domains">free-for.life</a>.</p>
 
 ## Notice
-While we do support NS records we now only now accept NS records for valid reasons.
+NS records are no longer supported. Existing domains are unaffected.
 
 ## Donate
 If you like this service and want us to continue running it, please consider donating!
