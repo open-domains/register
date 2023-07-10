@@ -1,0 +1,14 @@
+{
+    "domain": "localplayer.dev",
+    "subdomain": "python660",
+
+    "owner": {
+        "email": "raspberrypy660@gmail.com"
+    },
+
+    "record": {
+        "CNAME": "986085d8-a82d-4e8c-8201-5301222159fe.id.repl.co"
+    },
+
+    "proxied": true
+}
