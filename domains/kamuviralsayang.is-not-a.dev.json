@@ -1,0 +1,14 @@
+{
+    "domain": "is-not-a.dev",
+    "subdomain": "kamuviralsayang",
+
+    "owner": {
+        "email": "anjsmaraqq@gmail.com"
+    },
+
+    "record": {
+        "AAAA": [""]
+    },
+
+    "proxied": false
+}
