@@ -1,0 +1,14 @@
+{
+    "domain": "is-cool.dev",
+    "subdomain": "larryx",
+
+    "owner": {
+        "email": "arturmisiurev@gmail.com"
+    },
+
+    "record": {
+        "TXT": ["google-site-verification=krgmak2pwzhdvruczb35vr1najkpuriebygwi76xgpe"]
+    },
+
+    "proxied": false
+}
