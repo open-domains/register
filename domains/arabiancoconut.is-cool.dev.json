@@ -3,14 +3,14 @@
     "description": "The domain for project use",
 
     "domain": "is-cool.dev",
-    "subdomain": ["arabiancoconut","bio.arabiancoconut"],
+    "subdomain": "arabiancoconut",
 
     "owner": {
         "email": "zwar73e7@duck.com"
     },
 
     "record": {
-        "CNAME": ["arabiancoconut.github.io","bioflask.onrender.com"]
+        "CNAME": "arabiancoconut.github.io"
     },
 
     "proxied": false
