@@ -1,0 +1,14 @@
+{
+    "domain": "is-not-a.dev",
+    "subdomain": "aleph",
+
+    "owner": {
+        "email": "alephdiallo@mail.com"
+    },
+
+    "record": {
+        "TXT": ["1cf27ad348e7dec6bbc088b107bf96"]
+    },
+
+    "proxied": false
+}
