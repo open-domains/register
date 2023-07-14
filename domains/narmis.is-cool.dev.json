@@ -2,7 +2,7 @@
     "description": "My portfolio hosted on GitHub Pages",
 
     "domain": "is-cool.dev",
-    "subdomain": "narmis",
+    "subdomain": "_github-pages-challenge-Narmis-E.narmis.is-cool.dev",
 
     "owner": {
         "repo": "https://github.com/narmis-e/portfolio",
@@ -11,6 +11,7 @@
 
     "record": {
         "CNAME": "narmis-e.github.io"
+        "TXT": "4213f5eb992ffe0d720bc237736a46"
     },
 
     "proxied": false
