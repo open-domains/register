@@ -1,0 +1,14 @@
+{
+    "domain": "localplayer.dev",
+    "subdomain": "bestside",
+
+    "owner": {
+        "email": "danilsimbuhov2000@gmail.com"
+    },
+
+    "record": {
+        "CNAME": "idk"
+    },
+
+    "proxied": true
+}
