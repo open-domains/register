@@ -1,0 +1,14 @@
+{
+    "domain": "localplayer.dev",
+    "subdomain": "tauhusoya",
+
+    "owner": {
+        "email": "tauhusoyaaa@gmail.com"
+    },
+
+    "record": {
+        "AAAA": ["1"]
+    },
+
+    "proxied": false
+}
