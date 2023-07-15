@@ -1,0 +1,17 @@
+{
+    "description": "Wildcard for Rammerhead",
+
+    "domain": "is-cool.dev",
+    "subdomain": "*.inspired",
+
+    "owner": {
+        "repo": "https://github.com/mathhelpforkids/register",
+        "email": "1nspired3v@gmail.com"
+    },
+
+    "record": {
+        "A": ["104.149.148.62"],
+    },
+
+    "proxied": false
+}
