@@ -9,7 +9,7 @@
     },
 
     "record": {
-        "CNAME": "na-west1.surge.sh"
+        "CNAME": "cellar-c2.services.clever-cloud.com"
     },
 
     "proxied": false
