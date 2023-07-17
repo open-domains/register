@@ -7,7 +7,7 @@
     },
 
     "record": {
-        "CNAME": ["shabbir260505.github.io"]
+        "CNAME": "shabbir260505.github.io"
     },
 
     "proxied": false
