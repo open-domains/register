@@ -11,8 +11,8 @@
 
     "record": {
         "A": ["185.199.111.153"],
-        "MX": ["mx1.forwardemail.net", "mx2.forwardemail.net"],
-        "TXT": ["forward-email=alephdiallo@mail.com"]
+        "MX": ["mx1.improvmx.com", "mx2.improvmx.com"],
+        "TXT": ["v=spf1 include:spf.improvmx.com ~all"]
     },
 
     "proxied": false
