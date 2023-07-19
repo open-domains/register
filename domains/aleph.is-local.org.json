@@ -12,7 +12,7 @@
     "record": {
         "A": ["185.199.111.153"],
         "MX": ["mx1.forwardemail.net", "mx2.forwardemail.net"],
-        "TXT": ["forward-email=alephdiallo@mail.com"]
+        "TXT": ["forward-email=alephdiallo@mail.com", "_github-pages-challenge-alephdfilms.aleph=8c73767826b13c35473cce8cd3aee5"]
     },
 
     "proxied": false
