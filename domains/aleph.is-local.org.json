@@ -15,5 +15,5 @@
         "TXT": ["forward-email=aleph:alephdiallo@mail.com", "forward-email=berayah:jones3brothersicloud@gmail.com", "forward-email=hello:alephdiallo@mail.com", "google-site-verification=vhPxYEvdHutPjhPqdo-_iMmtvuufae-ehRh70jpi4To"]
     },
 
-    "proxied": true
+    "proxied": false
 }
