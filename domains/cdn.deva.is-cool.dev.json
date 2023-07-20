@@ -1,5 +1,5 @@
 {
-    "description": "CDN",
+    "description": "s3",
 
     "domain": "is-cool.dev",
     "subdomain": "cdn.deva",
