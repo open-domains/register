@@ -1,0 +1,16 @@
+{
+    "description": "s3",
+
+    "domain": "is-cool.dev",
+    "subdomain": "cdn.deva",
+
+    "owner": {
+        "repo": "https://github.com/turbomaster95/dev-cdn"
+    },
+
+    "record": {
+        "CNAME": "cellar-c2.services.clever-cloud.com"
+    },
+
+    "proxied": false
+}

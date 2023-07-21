@@ -1,8 +1,8 @@
 {
-    "description": "Wildcard website for my projects",
+    "description": "yourls",
 
     "domain": "is-cool.dev",
-    "subdomain": "deva",
+    "subdomain": "short",
 
     "owner": {
         "repo": "https://github.com/turbomaster95/turbomaster95.github.io",
@@ -10,8 +10,13 @@
     },
 
     "record":{
-        "NS": ["ns1.hostry.com", "ns2.hostry.com", "ns3.hostry.com", "ns4.hostry.com"]
+        "NS": ["ns01.000webhost.com", "ns02.000webhost.com"]
     },
 
-    "proxied": false
+    "proxied": true
 }
+
+
+
+
+
