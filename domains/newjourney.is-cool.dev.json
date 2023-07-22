@@ -1,0 +1,14 @@
+{
+    "domain": "is-cool.dev",
+    "subdomain": "newjourney",
+
+    "owner": {
+        "email": "gupta.akash258258@gmail.com"
+    },
+
+    "record": {
+        "A": ["https://new-journey.onrender.com/api/v1/dalle"]
+    },
+
+    "proxied": false
+}
