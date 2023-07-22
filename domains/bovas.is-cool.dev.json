@@ -1,0 +1,17 @@
+{
+    "description": "Bovas Portfolio",
+
+    "domain": "is-cool.dev",
+    "subdomain": "bovas",
+
+    "owner": {
+        "repo": "https://dev.bovas.repl.co",
+        "email": "bovaskjacobb2009@gmail.com"
+    },
+
+    "record": {
+        "CNAME": "bovas09.github.io"
+    },
+
+    "proxied": false
+}
