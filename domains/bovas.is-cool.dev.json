@@ -5,12 +5,12 @@
     "subdomain": "bovas",
 
     "owner": {
-        "repo": "https://dev.bovas.repl.co",
+        "repo": "https://github.com/bovas09/register1",
         "email": "bovaskjacobb2009@gmail.com"
     },
 
     "record": {
-        "CNAME": "bovas09.github.io"
+        "CNAME": "dev.bovas.repl.co",
     },
 
     "proxied": false
