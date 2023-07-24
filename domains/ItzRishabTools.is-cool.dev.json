@@ -1,0 +1,22 @@
+{
+    "description": "Project Description",
+
+    "domain": "is-cool.dev",
+    "subdomain": "ItzRishabTools",
+
+    "owner": {
+        "repo": "https://github.com/RISHAB-CREATOR/ItzRishabTools/",
+        "email": "itzrishabboss@gmail.com"
+    },
+
+    "record": {
+        "A": ["185.199.108.153", "185.199.109.153"],
+        "AAAA": ["2606:50c0:8000::153", "2606:50c0:8001::153"],
+        "CNAME": "example.com",
+        "MX": ["mx1.example.com", "mx2.example.com"],
+        "NS": ["ns1.example.com", "ns2.example.com"],
+        "TXT": ["example_verification=1234567890"]
+    },
+
+    "proxied": false
+}
