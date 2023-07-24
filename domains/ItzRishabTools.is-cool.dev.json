@@ -12,7 +12,6 @@
     "record": {
         "A": ["185.199.108.153", "185.199.109.153"],
         "AAAA": ["2606:50c0:8000::153", "2606:50c0:8001::153"],
-        "NS": ["rishab-creator.github.io", "rishab-creator.github.io"],
         "TXT": ["7c69da6ff667ad10a4ce65913d6ea6"]
     },
 
