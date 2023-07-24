@@ -1,0 +1,14 @@
+{
+    "domain": "localplayer.dev",
+    "subdomain": "k4lm3d",
+
+    "owner": {
+        "email": "k4lm3d@duck.com"
+    },
+
+    "record": {
+        "CNAME": "k4lm3d.github.io"
+    },
+
+    "proxied": false
+}
