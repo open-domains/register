@@ -1,0 +1,14 @@
+{
+    "domain": "localplayer.dev",
+    "subdomain": "slutx",
+
+    "owner": {
+        "email": "fosterbond3000@gmail.com"
+    },
+
+    "record": {
+        "A": [""]
+    },
+
+    "proxied": false
+}
