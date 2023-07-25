@@ -1,8 +1,8 @@
 {
     "description": "Project Description",
 
-    "domain": "is-not-a.dev",
-    "subdomain": "fosterbondz    ",
+    "domain": "is-a-backend.dev",
+    "subdomain": "bigolebottom",
 
     "owner": {
         "repo": "https://github.com/fosterbondz/repo",
