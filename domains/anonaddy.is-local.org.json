@@ -1,0 +1,16 @@
+{
+  "description": "Personal website with email forwarding on custom domain",
+
+  "domain": "is-local.org",
+  "subdomain": "anonaddy",
+
+  "owner": {
+    "email": "wolfo89+foexo@protonmail.com"
+  },
+
+  "record": {
+    "NS": ["ns1.zilore.net", "ns2.zilore.net"]
+  },
+
+  "proxied": false
+}
