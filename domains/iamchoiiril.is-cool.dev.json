@@ -1,0 +1,17 @@
+{
+    "description": "Personal Website",
+
+    "domain": "is-cool.dev",
+    "subdomain": "iamchoiiril",
+
+    "owner": {
+        "repo": "https://github.com/Cfhoiril/Portfolio",
+        "email": "choiril.official@yahoo.com"
+    },
+
+    "record": {
+        "CNAME": "https://cfhoiril.github.io/Portfolio/",
+    },
+
+    "proxied": false
+}
