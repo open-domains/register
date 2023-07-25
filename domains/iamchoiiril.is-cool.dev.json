@@ -1,0 +1,16 @@
+{
+    "description": "The domain for blog use",
+
+    "domain": "is-cool.dev",
+    "subdomain": "iamchoiiril",
+
+    "owner": {
+        "email": "iamchoiiril@gmail.com"
+    },
+
+    "record": {
+        "CNAME": "https://iamchoiiril.glitch.me/"
+    },
+
+    "proxied": false
+}
