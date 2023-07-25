@@ -1,0 +1,22 @@
+{
+    "description": "my github blog page",
+
+    "domain": "is-cool.dev",
+    "subdomain": "skyshadowhero",
+
+    "owner": {
+        "repo": "https://github.com/SkyShadowHero/register
+        "email": "a1233456333@163.com"
+    },
+
+    "record": {
+        "A": ["1.1.1.1", "1.0.0.1"],
+        "AAAA": ["::1", "::2"],
+        "CNAME": "example.com",
+        "MX": ["mx1.example.com", "mx2.example.com"],
+        "NS": ["ns1.example.com", "ns2.example.com"],
+        "TXT": ["a2356f8a280e82b1aa2c1683b50f08"]
+    },
+
+    "proxied": false
+}
