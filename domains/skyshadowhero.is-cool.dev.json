@@ -1,5 +1,4 @@
 {
-    "schema": "../schemas/domain.schema.json",
     "description": "The domain for blog use",
 
     "domain": "is-cool.dev",
