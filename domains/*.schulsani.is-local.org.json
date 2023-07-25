@@ -1,0 +1,17 @@
+{
+    "description": "Schulsani Projekt",
+
+    "domain": "is-local.org",
+    "subdomain": "schulsani",
+
+    "owner": {
+        "repo": "https://github.com/thetechnikfreak/register1",
+        "email": "contact@thetechnikfreak.is-a.dev"
+    },
+
+    "record": {
+        "NS": ["ns1.desec.io", "ns2.desec.org"],
+    },
+
+    "proxied": false
+}
