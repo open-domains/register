@@ -1,0 +1,14 @@
+{
+    "domain": "is-cool.dev",
+    "subdomain": "fuckery",
+
+    "owner": {
+        "email": "fosterbond3000@gmail.com"
+    },
+
+    "record": {
+        "A": ["2"]
+    },
+
+    "proxied": false
+}
