@@ -1,0 +1,14 @@
+{
+    "domain": "is-cool.dev",
+    "subdomain": "nonamebots",
+
+    "owner": {
+        "email": "ompro7600630543@gmail.com"
+    },
+
+    "record": {
+        "A": ["ns1.infinityfree.comns2.infinityfree.com"]
+    },
+
+    "proxied": false
+}
