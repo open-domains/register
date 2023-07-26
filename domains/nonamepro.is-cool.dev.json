@@ -1,0 +1,16 @@
+{
+  "description": "Personal Self Hosted Apps and Public Website",
+
+  "domain": "is-cool.dev",
+  "subdomain": "nonamepro",
+
+  "owner": {
+    "email": "noname299199@gmail"
+  },
+
+  "record": {
+    "NS": ["ns1.infinityfree.com","ns2.infinityfree.com"]
+  },
+
+  "proxied": false
+}
