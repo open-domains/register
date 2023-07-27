@@ -1,0 +1,14 @@
+{
+    "domain": "localplayer.dev",
+    "subdomain": "gayb",
+
+    "owner": {
+        "email": "iam@semihcebrail.dev"
+    },
+
+    "record": {
+        "CNAME": "gayb.semihcebrail.dev"
+    },
+
+    "proxied": false
+}
