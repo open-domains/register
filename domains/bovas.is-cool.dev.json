@@ -10,7 +10,7 @@
     },
 
     "record": {
-        "CNAME": "dev.bovas.repl.co",
+        "CNAME": "dev.bovas.repl.co"
     },
 
     "proxied": false
