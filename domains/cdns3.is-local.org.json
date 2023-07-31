@@ -1,0 +1,12 @@
+{
+    "description": "s3",
+    "domain": "is-local.org",
+    "subdomain": "cdns3",
+    "owner": {
+        "repo": "https://github.com/turbomaster95/dev-cdn"
+    },
+    "record": {
+        "CNAME": "cellar-c2.services.clever-cloud.com"
+    },
+    "proxied": false
+}
