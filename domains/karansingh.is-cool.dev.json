@@ -1,0 +1,14 @@
+{
+    "domain": "is-cool.dev",
+    "subdomain": "karansingh",
+
+    "owner": {
+        "email": "undefined"
+    },
+
+    "record": {
+        "A": [""]
+    },
+
+    "proxied": true
+}
