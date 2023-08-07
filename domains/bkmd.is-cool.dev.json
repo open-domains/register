@@ -1,0 +1,14 @@
+{
+    "domain": "is-cool.dev",
+    "subdomain": "bkmd",
+
+    "owner": {
+        "email": "soldierplayz.tw@gmail.com"
+    },
+
+    "record": {
+        "A": ["5.161.121.167"]
+    },
+
+    "proxied": true
+}
