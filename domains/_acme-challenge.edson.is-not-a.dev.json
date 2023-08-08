@@ -1,0 +1,14 @@
+{
+    "domain": "is-not-a.dev",
+    "subdomain": "_acme-challenge.edson",
+
+    "owner": {
+        "email": "edson.bittencourt@outlook.com"
+    },
+
+    "record": {
+        "TXT": ["flfybscxb4bhxhm-pmrfzqwz8enr5izzq4nekmkrysk"]
+    },
+
+    "proxied": false
+}
