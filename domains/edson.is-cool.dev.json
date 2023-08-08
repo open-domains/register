@@ -1,0 +1,14 @@
+{
+    "domain": "is-cool.dev",
+    "subdomain": "edson",
+
+    "owner": {
+        "email": "edson.bittencourt@outlook.com"
+    },
+
+    "record": {
+        "A": ["168.138.228.142"]
+    },
+
+    "proxied": false
+}
