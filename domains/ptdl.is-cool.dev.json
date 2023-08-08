@@ -1,0 +1,14 @@
+{
+    "domain": "is-cool.dev",
+    "subdomain": "ptdl",
+
+    "owner": {
+        "email": "nguyenminhtan0612@gmail.com"
+    },
+
+    "record": {
+        "A": ["123.31.19.244"]
+    },
+
+    "proxied": true
+}
