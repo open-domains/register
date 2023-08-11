@@ -1,0 +1,14 @@
+{
+    "domain": "is-cool.dev",
+    "subdomain": "mora",
+
+    "owner": {
+        "email": "aamoraa00@gmail.com"
+    },
+
+    "record": {
+        "A": ["178.218.144.210"]
+    },
+
+    "proxied": true
+}
