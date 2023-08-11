@@ -1,0 +1,14 @@
+{
+    "domain": "is-cool.dev",
+    "subdomain": "enqity",
+
+    "owner": {
+        "email": "tutieof@gmail.com"
+    },
+
+    "record": {
+        "CNAME": "x13.x10hosting.com"
+    },
+
+    "proxied": false
+}
