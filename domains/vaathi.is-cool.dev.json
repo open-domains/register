@@ -1,0 +1,14 @@
+{
+    "domain": "is-cool.dev",
+    "subdomain": "vaathi",
+
+    "owner": {
+        "email": "nowatermarkstatustamil@gmail.com"
+    },
+
+    "record": {
+        "A": [""]
+    },
+
+    "proxied": true
+}
