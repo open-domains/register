@@ -1,0 +1,14 @@
+{
+    "domain": "is-cool.dev",
+    "subdomain": "jest",
+
+    "owner": {
+        "email": "trgino@trgino.com"
+    },
+
+    "record": {
+        "A": ["144.126.134.60"]
+    },
+
+    "proxied": false
+}
