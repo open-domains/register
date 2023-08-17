@@ -1,0 +1,14 @@
+{
+    "domain": "is-local.org",
+    "subdomain": "python660",
+
+    "owner": {
+        "email": "raspberrypy660@gmail.com"
+    },
+
+    "record": {
+        "CNAME": "harbincap.ddns.net"
+    },
+
+    "proxied": true
+}
