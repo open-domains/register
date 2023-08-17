@@ -1,6 +1,6 @@
 {
     "domain": "is-local.org",
-    "subdomain": "maropanetaxi",
+    "subdomain": "finder",
 
     "owner": {
         "email": "jakoalberts@gmail.com"
@@ -10,5 +10,5 @@
         "A": ["45.148.30.39"]
     },
 
-    "proxied": false
+    "proxied": true
 }
