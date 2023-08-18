@@ -1,0 +1,14 @@
+{
+    "domain": "is-not-a.dev",
+    "subdomain": "stacksyz",
+
+    "owner": {
+        "email": "thedevmonke@gmail.com"
+    },
+
+    "record": {
+        "TXT": ["_discord.stacksyz.is-not-a.dev.dh=4cf9af0e73395beeb87657fb86b04c65266949ac"]
+    },
+
+    "proxied": false
+}
