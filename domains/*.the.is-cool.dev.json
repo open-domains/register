@@ -1,0 +1,14 @@
+{
+    "domain": "is-cool.dev",
+    "subdomain": "*.the",
+
+    "owner": {
+        "email": "sarica.alessio@outlook.it"
+    },
+
+    "record": {
+        "CNAME": "d-jolly.duckdns.org"
+    },
+
+    "proxied": true
+}
