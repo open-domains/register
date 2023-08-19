@@ -1,0 +1,14 @@
+{
+    "domain": "is-cool.dev",
+    "subdomain": "arturomauricio",
+
+    "owner": {
+        "email": "atercerosb@univalle.edu"
+    },
+
+    "record": {
+        "CNAME": "arturomauricio"
+    },
+
+    "proxied": false
+}
