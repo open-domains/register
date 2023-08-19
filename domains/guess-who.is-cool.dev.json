@@ -1,0 +1,16 @@
+{
+    "description": "Personal website",
+
+    "domain": "is-cool.dev",
+    "subdomain": "guess-who",
+
+    "owner": {
+        "email": "rayrsn@proton.me"
+    },
+
+    "record": {
+        "NS": ["ns1.epizy.com", "ns2.epizy.com"]
+    },
+
+    "proxied": false
+}
