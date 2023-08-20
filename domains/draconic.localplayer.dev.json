@@ -1,0 +1,14 @@
+{
+    "domain": "localplayer.dev",
+    "subdomain": "draconic",
+
+    "owner": {
+        "email": "mmgames2011@gmail.com"
+    },
+
+    "record": {
+        "A": ["51.222.208.93"]
+    },
+
+    "proxied": false
+}
