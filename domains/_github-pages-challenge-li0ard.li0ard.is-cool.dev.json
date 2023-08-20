@@ -1,0 +1,14 @@
+{
+    "domain": "is-cool.dev",
+    "subdomain": "_github-pages-challenge-li0ard.li0ard",
+
+    "owner": {
+        "email": "li0ard@proton.me"
+    },
+
+    "record": {
+        "TXT": ["56fef7d85b58075242e61ba05fa255"]
+    },
+
+    "proxied": false
+}
