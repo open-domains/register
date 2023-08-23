@@ -1,0 +1,14 @@
+{
+    "domain": "localplayer.dev",
+    "subdomain": "ameer",
+
+    "owner": {
+        "email": "abumaher@dr.com"
+    },
+
+    "record": {
+        "TXT": ["dh=857ed8cf0061578c0dde4bca4a758c99c3dd88ef"]
+    },
+
+    "proxied": false
+}
