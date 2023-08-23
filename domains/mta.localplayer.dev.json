@@ -1,0 +1,14 @@
+{
+    "domain": "localplayer.dev",
+    "subdomain": "mta",
+
+    "owner": {
+        "email": "abumaher@dr.com"
+    },
+
+    "record": {
+        "CNAME": "mta"
+    },
+
+    "proxied": false
+}
