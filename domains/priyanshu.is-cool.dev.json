@@ -1,0 +1,17 @@
+{
+    "description": "Priyanshu Links",
+
+    "domain": "is-cool.dev",
+    "subdomain": "priyanshu",
+
+    "owner": {
+        "repo": "https://github.com/PriyansuMaurya/priyansumaurya.github.io",
+        "email": "priyanshu1999pm@gmail.com"
+    },
+
+    "record": {
+        "CNAME": "priyansumaurya.github.io"
+    },
+
+    "proxied": false
+}
