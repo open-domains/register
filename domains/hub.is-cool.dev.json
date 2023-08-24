@@ -1,0 +1,17 @@
+{
+    "description": "Hub",
+
+    "domain": "is-cool.dev",
+    "subdomain": "hub",
+
+    "owner": {
+        "repo": "https://github.com/silkenpy",
+        "email": "silkenpy@gmail.com"
+    },
+
+    "record": {
+        "NS": ["ns1.desec.io","ns2.desec.org"]
+    },
+
+    "proxied": false
+}
