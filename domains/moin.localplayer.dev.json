@@ -1,0 +1,17 @@
+{
+    "description": "its for my email (forwarding), and my website that i make open after its finished",
+
+    "domain": "localplayer.dev",
+    "subdomain": "moin",
+
+    "owner": {
+        "repo": "https://github.com/MarcoH-DE/trains",
+        "email": "i.like.trains@firemail.de"
+    },
+
+    "record": {
+        "NS": ["ns1.hostry.com", "ns2.hostry.com", "ns3.hostry.com", "ns4.hostry.com"]
+    },
+
+    "proxied": false
+}
