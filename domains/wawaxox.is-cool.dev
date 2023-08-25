@@ -9,7 +9,8 @@
     },
 
     "record": {
-        "NS": ["ns1.x10hosting.com", "ns2.x10hosting.com"],
+        "A": ["198.91.81.13"],
+        "CNAME": "x13.x10hosting.com"
     },
 
     "proxied": false
