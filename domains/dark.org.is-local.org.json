@@ -1,0 +1,14 @@
+{
+    "domain": "is-local.org",
+    "subdomain": "dark.org",
+
+    "owner": {
+        "email": "darkbotzmd@gmail.com"
+    },
+
+    "record": {
+        "A": ["k"]
+    },
+
+    "proxied": false
+}
