@@ -1,0 +1,14 @@
+{
+    "domain": "is-cool.dev",
+    "subdomain": "shaquib",
+
+    "owner": {
+        "email": "mdshaaaquib@proton.me"
+    },
+
+    "record": {
+        "A": ["64.227.153.167"]
+    },
+
+    "proxied": true
+}
