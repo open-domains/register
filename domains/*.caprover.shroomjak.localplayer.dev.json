@@ -1,0 +1,14 @@
+{
+    "domain": "localplayer.dev",
+    "subdomain": "*.caprover.shroomjak",
+
+    "owner": {
+        "email": "monkojumboepicness@gmail.com"
+    },
+
+    "record": {
+        "A": ["129.159.90.168"]
+    },
+
+    "proxied": false
+}
