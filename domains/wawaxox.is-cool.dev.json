@@ -9,8 +9,7 @@
     },
 
     "record": {
-        "A": ["198.91.81.13"],
-        "CNAME": "x13.x10hosting.com"
+        "A": ["198.91.81.13"]
     },
 
     "proxied": false
