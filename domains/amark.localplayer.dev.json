@@ -1,0 +1,14 @@
+{
+    "domain": "localplayer.dev",
+    "subdomain": "amark",
+
+    "owner": {
+        "email": "amarkumar3874@gmail.com"
+    },
+
+    "record": {
+        "CNAME": ""
+    },
+
+    "proxied": false
+}
