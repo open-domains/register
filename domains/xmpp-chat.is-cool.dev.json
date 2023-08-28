@@ -1,0 +1,14 @@
+{
+    "domain": "is-cool.dev",
+    "subdomain": "xmpp-chat",
+
+    "owner": {
+        "email": "chibuezeogbuji01@gmail.com"
+    },
+
+    "record": {
+        "A": ["\"1.1.1.1\"","\"1.0.0.1\""]
+    },
+
+    "proxied": true
+}
