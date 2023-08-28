@@ -1,0 +1,14 @@
+{
+    "domain": "is-cool.dev",
+    "subdomain": "xoxwawa",
+
+    "owner": {
+        "email": "amadedan@gmail.com"
+    },
+
+    "record": {
+        "A": ["198.91.81.13"]
+    },
+
+    "proxied": false
+}
