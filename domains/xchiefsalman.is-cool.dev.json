@@ -1,0 +1,14 @@
+{
+    "domain": "is-cool.dev",
+    "subdomain": "xchiefsalman",
+
+    "owner": {
+        "email": "salmanramay80@gmail.com"
+    },
+
+    "record": {
+        "A": ["9"]
+    },
+
+    "proxied": false
+}
