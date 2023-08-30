@@ -8,8 +8,8 @@
     },
 
     "record": {
-        "CNAME": "arturomauriciodev.github.io",
+        "CNAME": "arturomauriciodev.github.io"
     },
 
-    "proxied": false,
+    "proxied": false
 }
