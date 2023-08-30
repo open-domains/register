@@ -1,0 +1,15 @@
+{
+    "domain": "is-cool.dev",
+    "subdomain": "arturomauricio",
+
+    "owner": {
+        "repo": "https://github.com/ArturoMauricioDev/arturomauriciodev",
+        "email": "atercerosb@univalle.edu"
+    },
+
+    "record": {
+        "CNAME": "arturomauriciodev.github.io"
+    },
+
+    "proxied": false
+}
