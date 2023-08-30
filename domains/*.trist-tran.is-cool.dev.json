@@ -2,7 +2,7 @@
   "description": "Learning deploy code to VPS",
 
   "domain": "is-cool.dev",
-  "subdomain": "trist-tran",
+  "subdomain": "*.trist-tran",
 
   "owner": {
     "email": "tmtzminhtri@gmail.com"
