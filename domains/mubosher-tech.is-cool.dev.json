@@ -1,0 +1,14 @@
+{
+    "domain": "is-cool.dev",
+    "subdomain": "mubosher-tech",
+
+    "owner": {
+        "email": "muydinovmubosher@yandex.ru"
+    },
+
+    "record": {
+        "TXT": ["vc-domain-verify=mubosher-tech.is-cool.dev,c6bb1cf727bd7f651606"]
+    },
+
+    "proxied": false
+}
