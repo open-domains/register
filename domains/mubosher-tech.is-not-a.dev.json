@@ -1,0 +1,14 @@
+{
+    "domain": "is-not-a.dev",
+    "subdomain": "mubosher-tech",
+
+    "owner": {
+        "email": "muydinovmubosher@yandex.ru"
+    },
+
+    "record": {
+        "TXT": ["vc-domain-verify=mubosher-tech.is-not-a.dev,c8c70f585263e3233cf8"]
+    },
+
+    "proxied": false
+}
