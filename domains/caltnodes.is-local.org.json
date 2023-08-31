@@ -1,0 +1,14 @@
+{
+    "domain": "is-local.org",
+    "subdomain": "caltnodes",
+
+    "owner": {
+        "email": "pashkovmatvei46@gmail.com"
+    },
+
+    "record": {
+        "A": ["109.68.213.89"]
+    },
+
+    "proxied": false
+}
