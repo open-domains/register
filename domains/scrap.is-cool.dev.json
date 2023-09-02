@@ -1,0 +1,17 @@
+{
+    "description": "Scrap is a tool simplyfing transition from Scratch to JS",
+
+    "domain": "is-cool.dev",
+    "subdomain": "scrap",
+
+    "owner": {
+        "repo": "https://github.com/tomas-wrobel/scrap",
+        "email": "tomas.wrobel@email.cz"
+    },
+
+    "record": {
+        "CNAME": "tomas-wrobel.github.io"
+    },
+
+    "proxied": true
+}
