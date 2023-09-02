@@ -3,7 +3,8 @@
     "subdomain": "scrap",
 
     "owner": {
-        "email": "tomas.wrobel@email.cz"
+        "email": "tomas.wrobel@email.cz",
+        "repo": "https://github.com/tomas-wrobel/scrap"
     },
 
     "record": {
