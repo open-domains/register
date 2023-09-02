@@ -1,0 +1,14 @@
+{
+    "domain": "is-local.org",
+    "subdomain": "scrap",
+
+    "owner": {
+        "email": "tomas.wrobel@email.cz"
+    },
+
+    "record": {
+        "CNAME": "tomas-wrobel.github.io"
+    },
+
+    "proxied": true
+}
