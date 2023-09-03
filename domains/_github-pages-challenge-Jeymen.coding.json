@@ -1,4 +1,4 @@
-
+{
     "schema": "../schemas/domain.schema.json",
 
     "description": "GitHub Pages Verification",
