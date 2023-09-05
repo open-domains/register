@@ -1,0 +1,14 @@
+{
+    "domain": "is-cool.dev",
+    "subdomain": "devno",
+
+    "owner": {
+        "email": "tai941999@gmail.com"
+    },
+
+    "record": {
+        "AAAA": ["2605:8340:0000:18:1234:1234:01b2:0001"]
+    },
+
+    "proxied": false
+}
