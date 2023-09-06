@@ -1,0 +1,14 @@
+{
+    "domain": "is-cool.dev",
+    "subdomain": "kebersamaan",
+
+    "owner": {
+        "email": "Kainewnzc@gmail.com"
+    },
+
+    "record": {
+        "CNAME": "kebersamaan.great-site.net"
+    },
+
+    "proxied": true
+}
