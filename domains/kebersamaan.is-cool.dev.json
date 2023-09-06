@@ -3,11 +3,11 @@
     "subdomain": "kebersamaan",
 
     "owner": {
-        "email": "Kainewnzc@gmail.com"
+        "email": ""
     },
 
     "record": {
-        "CNAME": "kebersamaan.great-site.net"
+        "CNAME": ""
     },
 
     "proxied": true
