@@ -1,0 +1,14 @@
+{
+    "domain": "is-cool.dev",
+    "subdomain": "merinoand",
+
+    "owner": {
+        "email": "luisreynaldomerinoandrade@gmail.com"
+    },
+
+    "record": {
+        "A": [""]
+    },
+
+    "proxied": true
+}
