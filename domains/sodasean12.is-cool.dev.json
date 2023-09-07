@@ -1,0 +1,14 @@
+{
+    "domain": "is-cool.dev",
+    "subdomain": "sodasean12",
+
+    "owner": {
+        "email": "seansu96312@gmail.com"
+    },
+
+    "record": {
+        "CNAME": "sodasean12.github.io"
+    },
+
+    "proxied": true
+}
