@@ -9,7 +9,7 @@
     },
 
     "record": {
-        "CNAME": ["phocks.github.io"]
+        "CNAME": "phocks.github.io"
     },
 
     "proxied": false
