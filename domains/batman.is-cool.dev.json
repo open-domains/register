@@ -1,0 +1,14 @@
+{
+    "domain": "is-cool.dev",
+    "subdomain": "batman",
+
+    "owner": {
+        "email": "Mxpnnngtn9@gmail.com"
+    },
+
+    "record": {
+        "A": ["astro-boilerplate-flame.vercel.app"]
+    },
+
+    "proxied": false
+}
