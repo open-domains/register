@@ -1,0 +1,16 @@
+{
+  "description": "Personal Cloud Study",
+
+  "domain": "is-cool.dev",
+  "subdomain": "potpry",
+
+  "owner": {
+    "email": "potprytest+open-domains@gmail.com"
+  },
+
+  "record": {
+    "A": ["158.247.216.53"]
+  },
+
+  "proxied": false
+}
