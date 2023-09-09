@@ -1,0 +1,14 @@
+{
+    "domain": "is-not-a.dev",
+    "subdomain": "minecraft",
+
+    "owner": {
+        "email": "fortnitelovers072205@gmail.com"
+    },
+
+    "record": {
+        "CNAME": "185.199.108.153"
+    },
+
+    "proxied": true
+}
