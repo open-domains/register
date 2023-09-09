@@ -1,0 +1,14 @@
+{
+    "domain": "is-local.org",
+    "subdomain": "savefiles",
+
+    "owner": {
+        "email": "fortnitelovers072205@gmail.com"
+    },
+
+    "record": {
+        "AAAA": ["185.199.108.153"]
+    },
+
+    "proxied": true
+}
