@@ -1,0 +1,15 @@
+{
+  "domain": "is-local.org",
+  "subdomain": "_github-pages-challenge-AtlasL1.htc",
+
+  "owner": {
+    "repo": "https://github.com/hacktcat/hacktcat.github.io",
+    "email": "loxingle1@gmail.com"
+  },
+
+  "record": {
+    "TXT": ["fadcdbd853ad3b284798e46579af36"]
+  },
+
+  "proxied": false
+}
