@@ -1,6 +1,4 @@
 {
-  "$schema": "../schemas/domain.schema.json",
-
   "description": "alias",
 
   "domain": "is-cool.dev",
@@ -11,8 +9,8 @@
   },
 
   "record": {
-    "CNAME": "ihsanhardiansah.me",
+    "CNAME": "ihsanhardiansah.me"
   },
 
-  "proxy": false
+  "proxied": false
 }

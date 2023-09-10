@@ -1,6 +1,4 @@
 {
-  "$schema": "../schemas/domain.schema.json",
-
   "description": "website for samosaman73",
 
   "domain": "is-cool.dev",
@@ -12,8 +10,8 @@
   },
 
   "record": {
-    "NS": ["ns1.epizy.com", "ns2.epizy.com"]
+    "CNAME": "c6523a04-38cd-4d88-9b70-8afa618ca223.id.repl.co"
   },
 
-  "proxy": false
+  "proxied": false
 }

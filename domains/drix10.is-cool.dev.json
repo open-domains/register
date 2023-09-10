@@ -1,6 +1,4 @@
 {
-  "$schema": "../schemas/domain.schema.json",
-
   "description": "Portfolio website",
 
   "domain": "is-cool.dev",
@@ -14,5 +12,5 @@
     "CNAME": "f4d28d47-e408-4acf-a3d2-399ecd55a9bc.id.repl.co"
   },
 
-  "proxy": false
+  "proxied": false
 }

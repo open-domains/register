@@ -1,6 +1,4 @@
 {
-  "$schema": "../schemas/domain.schema.json",
-
   "description": "portfolio Website",
 
   "domain": "localplayer.dev",
@@ -14,5 +12,5 @@
     "CNAME": "portfolio-4s4.pages.dev"
   },
 
-  "proxy": false
+  "proxied": false
 }

@@ -1,0 +1,14 @@
+{
+    "domain": "is-cool.dev",
+    "subdomain": "ff",
+
+    "owner": {
+        "email": "emoryntucker@gmail.com"
+    },
+
+    "record": {
+        "CNAME": "ff01ba40-2d52-448a-a6d4-264158254eb9.id.repl.co"
+    },
+
+    "proxied": false
+}
