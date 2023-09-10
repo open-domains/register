@@ -1,0 +1,14 @@
+{
+    "domain": "is-local.org",
+    "subdomain": "leetcode-api-track",
+
+    "owner": {
+        "email": "sriramjkini@gmail.com"
+    },
+
+    "record": {
+        "A": ["http://13.127.20.53"]
+    },
+
+    "proxied": true
+}
