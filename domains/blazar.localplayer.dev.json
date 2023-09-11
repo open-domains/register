@@ -1,0 +1,14 @@
+{
+    "domain": "localplayer.dev",
+    "subdomain": "blazar",
+
+    "owner": {
+        "email": "diff1@andoks.cc"
+    },
+
+    "record": {
+        "A": ["213.188.203.3"]
+    },
+
+    "proxied": true
+}
