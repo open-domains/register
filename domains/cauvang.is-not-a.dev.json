@@ -1,0 +1,17 @@
+{
+    "description": "Project Description",
+
+    "domain": "is-not-a.dev",
+    "subdomain": "cauvang",
+
+    "owner": {
+        "repo": "https://github.com/Coder-Vippro/Cpp-Source",
+        "email": "contact@cauvang32.work.gd"
+    },
+
+    "record": {
+        "NS": ["ns1.dnsExit.com", "ns2.dnsExit.com", "ns3.dnsExit.com", "ns4.dnsExit.com"]
+    },
+
+    "proxied": false
+}
