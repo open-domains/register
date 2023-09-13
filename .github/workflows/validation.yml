@@ -21,7 +21,7 @@ jobs:
         name: DNS
         runs-on: ubuntu-latest
         steps:
-            - uses: actions/checkout@v3
+            - uses: actions/checkout@v4
 
             - name: Check
               uses: koenrh/dnscontrol-action@v3
@@ -33,7 +33,7 @@ jobs:
         name: JSON
         runs-on: ubuntu-latest
         steps:
-            - uses: actions/checkout@v3
+            - uses: actions/checkout@v4
 
             - name: JSON Syntax Check
               uses: limitusus/json-syntax-check@v2
