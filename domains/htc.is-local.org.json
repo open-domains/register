@@ -1,0 +1,17 @@
+{
+    "description": "A website for my project",
+
+    "domain": "is-local.org",
+    "subdomain": "htc",
+
+    "owner": {
+        "repo": "https://github.com/hacktcat/hacktcat.github.io",
+        "email": "loxingle1@gmail.com"
+    },
+
+    "record": {
+        "A": ["185.199.111.153"]
+    },
+
+    "proxied": false
+}
