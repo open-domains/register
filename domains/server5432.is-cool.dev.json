@@ -1,0 +1,14 @@
+{
+    "domain": "is-cool.dev",
+    "subdomain": "server5432",
+
+    "owner": {
+        "email": "nurik_6@mail.ru"
+    },
+
+    "record": {
+        "A": ["0"]
+    },
+
+    "proxied": false
+}
