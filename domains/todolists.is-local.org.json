@@ -9,8 +9,7 @@
     },
 
     "record": {
-        "CNAME": "889dba5d-1f7f-4429-9aba-b30ee01cc0b3.id.repl.co",
-        "TXT": ["replit-verify=889dba5d-1f7f-4429-9aba-b30ee01cc0b3"]
+        "CNAME": "889dba5d-1f7f-4429-9aba-b30ee01cc0b3.id.repl.co"
     },
 
     "proxied": false
