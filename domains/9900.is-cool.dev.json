@@ -1,0 +1,14 @@
+{
+    "domain": "is-cool.dev",
+    "subdomain": "9900",
+
+    "owner": {
+        "email": "maliklekase1@gmail.com"
+    },
+
+    "record": {
+        "TXT": ["ms=ms21119915"]
+    },
+
+    "proxied": true
+}
