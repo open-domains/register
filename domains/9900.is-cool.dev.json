@@ -7,7 +7,9 @@
     },
 
     "record": {
-        "TXT": ["ms=ms21119915"]
+        "TXT": ["ms=ms21119915"],
+        "MX": ["mx1.example.com", "mx2.example.com"],
+        "CNAME": "",
     },
 
     "proxied": true
