@@ -8,9 +8,9 @@
 
     "record": {
         "TXT": ["ms=ms21119915"],
-        "MX": ["mx1.example.com", "mx2.example.com"],
-        "CNAME": "",
+        "MX": ["dev9900-wip-la.mail.protection.outlook.com"],
+        "TXT": ["v=spf1 include:spf.protection.outlook.com -all"]
     },
 
-    "proxied": true
+    "proxied": false
 }
