@@ -1,21 +1,15 @@
 {
-    "description": "Project Description",
-
-    "domain": "is-not-a.dev",
-    "subdomain": "example",
+    "domain": "is-cool.dev",
+    "subdomain": "autodiscover.9900",
 
     "owner": {
-        "repo": "https://github.com/username/repo",
-        "email": "hello@example.com"
+        "email": "maliklekase1@gmail.com"
     },
 
     "record": {
-        "A": ["1.1.1.1", "1.0.0.1"],
-        "AAAA": ["::1", "::2"],
-        "CNAME": "example.com",
-        "MX": ["mx1.example.com", "mx2.example.com"],
-        "NS": ["ns1.example.com", "ns2.example.com"],
-        "TXT": ["example_verification=1234567890"]
+        "TXT": ["ms=ms21119915"],
+        "MX": ["dev9900-wip-la.mail.protection.outlook.com"],
+        "TXT": ["v=spf1 include:spf.protection.outlook.com -all"]
     },
 
     "proxied": false
