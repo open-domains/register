@@ -10,8 +10,9 @@
     },
 
     "record":{
-        "NS": ["ns1.hostry.com", "ns2.hostry.com", "ns3.hostry.com", "ns4.hostry.com"]
+        "NS": ["ns1.hostry.com", "ns2.hostry.com", "ns3.hostry.com", "ns4.hostry.com"],
+        "CNAME": "turbomaster95.github.io"
     },
 
-    "proxied": false
+    "proxied": true
 }
