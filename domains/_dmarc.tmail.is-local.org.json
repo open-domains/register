@@ -1,0 +1,16 @@
+{
+  "description": "Personal website with email forwarding on custom domain",
+
+  "domain": "is-local.org",
+  "subdomain": "_dmarc.tmail",
+
+  "owner": {
+    "email": "wolfo89+foexo@protonmail.com"
+  },
+
+  "record": {
+    "TXT": ["v=DMARC1; p=quarantine; adkim=s"]
+  },
+
+  "proxied": false
+}
