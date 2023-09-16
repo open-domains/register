@@ -1,0 +1,14 @@
+{
+    "domain": "is-cool.dev",
+    "subdomain": "li0ard",
+
+    "owner": {
+        "email": "li0ard@proton.me"
+    },
+
+    "record": {
+        "CNAME": "li0ard.github.io"
+    },
+
+    "proxied": false
+}
