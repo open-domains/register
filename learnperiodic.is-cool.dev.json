@@ -1,0 +1,17 @@
+{
+	"description": "A website to check your Periodic Table knowledge and learn it interactively.",
+
+	"domain": "is-cool.dev",
+	"subdomain": "learnperiodic",
+
+	"owner": {
+		"repo": "https://github.com/Akshit-Senpai/LearnPeriodic",
+		"email": "chhabra.akshit@gmail.com"
+	},
+
+	"record": {
+		"CNAME": "akshit-senpai.github.io"
+	},
+
+	"proxied": false
+}
