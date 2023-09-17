@@ -1,0 +1,14 @@
+{
+    "domain": "is-cool.dev",
+    "subdomain": "dew",
+
+    "owner": {
+        "email": "tsuminoya.2006@gmail.com"
+    },
+
+    "record": {
+        "CNAME": "zerodev.eu.org"
+    },
+
+    "proxied": true
+}
