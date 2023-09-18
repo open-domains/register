@@ -8,6 +8,7 @@
 
     "record": {
         "A": ["162.0.217.78"]
+        "TXT": ["eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJkb21haW4iOiJtb3JvcGFuZXRheGkuaXMtbG9jYWwub3JnIiwiZXhwIjoxNjk1NjAwMDAwfQ.kwEepgM6xhvjbVETNIvDeNJ62G-28ehBVBhJSBwBxZ8"]
     },
 
     "proxied": false
