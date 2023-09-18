@@ -1,0 +1,14 @@
+{
+    "domain": "is-cool.dev",
+    "subdomain": "tradingrsa.dev",
+
+    "owner": {
+        "email": "thabocli@outlook.com"
+    },
+
+    "record": {
+        "A": ["10"]
+    },
+
+    "proxied": true
+}
