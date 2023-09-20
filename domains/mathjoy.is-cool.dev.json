@@ -1,0 +1,14 @@
+{
+    "domain": "is-cool.dev",
+    "subdomain": "mathjoy",
+
+    "owner": {
+        "email": "redstone-cold@163.com"
+    },
+
+    "record": {
+        "CNAME": "mathjoy.eu.org"
+    },
+
+    "proxied": true
+}
