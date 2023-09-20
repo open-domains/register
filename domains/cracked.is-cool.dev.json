@@ -1,0 +1,14 @@
+{
+    "domain": "is-cool.dev",
+    "subdomain": "cracked",
+
+    "owner": {
+        "email": "cracked21@skiff.com"
+    },
+
+    "record": {
+        "MX": ["10"]
+    },
+
+    "proxied": false
+}
