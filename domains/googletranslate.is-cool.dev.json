@@ -1,0 +1,14 @@
+{
+    "domain": "is-cool.dev",
+    "subdomain": "googletranslate",
+
+    "owner": {
+        "email": "redstone-cold@163.com"
+    },
+
+    "record": {
+        "CNAME": "googletranslate.mathjoy.workers.dev"
+    },
+
+    "proxied": true
+}
