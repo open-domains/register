@@ -1,0 +1,14 @@
+{
+    "domain": "is-cool.dev",
+    "subdomain": "amir",
+
+    "owner": {
+        "email": "rakhshaniemail@gmail.com"
+    },
+
+    "record": {
+        "CNAME": "gpt.tomshelbi.repl.co"
+    },
+
+    "proxied": false
+}
