@@ -1,0 +1,16 @@
+{
+    "description": "a domain for my bot",
+
+    "domain": "is-cool.dev",
+    "subdomain": "amir",
+
+    "owner": {
+        "email": "tomshelbi55@gmail.com"
+    },
+
+    "record": {
+        "CNAME": "gpt.tomshelbi.repl.co"
+    },
+
+    "proxied": false
+}
