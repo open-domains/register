@@ -1,0 +1,14 @@
+{
+    "domain": "is-cool.dev",
+    "subdomain": "analrsa.is-cool.dev",
+
+    "owner": {
+        "email": "thabocli@outlook.com"
+    },
+
+    "record": {
+        "CNAME": "15"
+    },
+
+    "proxied": true
+}
