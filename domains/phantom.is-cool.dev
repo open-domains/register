@@ -1,0 +1,16 @@
+{
+    "description": "Project Description",
+
+    "domain": "is-cool.dev",
+    "subdomain": "phantom",
+
+    "owner": {
+        "repo": "https://github.com/goutam000896/register0",
+        "email": "goutam978112@gmail.com"
+    },
+
+    "record": {
+        "TXT": ["vc-domain-verify=phantom.is-cool.dev,c762aa44cef90f09eb9c"]
+    },
+
+    "proxied": false
