@@ -1,0 +1,16 @@
+{
+    "description": "CatsHQ Official Site",
+
+    "domain": "is-local.org",
+    "subdomain": "catshq",
+
+    "owner": {
+        "email": "loxingle1@gmail.com"
+    },
+
+    "record": {
+        "A": ["35.186.245.55"]
+    },
+
+    "proxied": false
+}
