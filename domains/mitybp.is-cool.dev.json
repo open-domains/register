@@ -1,0 +1,14 @@
+{
+    "domain": "is-cool.dev",
+    "subdomain": "mitybp",
+
+    "owner": {
+        "email": "dimitribpusch21@gmail.com"
+    },
+
+    "record": {
+        "CNAME": "mitybp"
+    },
+
+    "proxied": false
+}
