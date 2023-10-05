@@ -1,0 +1,14 @@
+{
+    "domain": "is-cool.dev",
+    "subdomain": "bangudah",
+
+    "owner": {
+        "email": "kusmidahjjajaj@gmail.com"
+    },
+
+    "record": {
+        "TXT": ["1"]
+    },
+
+    "proxied": false
+}
