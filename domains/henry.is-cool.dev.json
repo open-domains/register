@@ -1,0 +1,14 @@
+{
+    "domain": "is-cool.dev",
+    "subdomain": "henry",
+
+    "owner": {
+        "email": "henry.f22@gmail.com"
+    },
+
+    "record": {
+        "A": ["139.196.207.125"]
+    },
+
+    "proxied": false
+}
