@@ -1,0 +1,14 @@
+{
+    "domain": "is-cool.dev",
+    "subdomain": "cloudinc",
+
+    "owner": {
+        "email": "mcgragor@gmail.com"
+    },
+
+    "record": {
+        "A": ["186.244.248.185"]
+    },
+
+    "proxied": false
+}
