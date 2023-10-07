@@ -1,0 +1,14 @@
+{
+    "domain": "is-cool.dev",
+    "subdomain": "keno-brx",
+
+    "owner": {
+        "email": "undefined"
+    },
+
+    "record": {
+        "A": ["i"]
+    },
+
+    "proxied": false
+}
