@@ -1,0 +1,14 @@
+{
+    "domain": "is-cool.dev",
+    "subdomain": "infosec",
+
+    "owner": {
+        "email": "salman.falcon@protonmail.com"
+    },
+
+    "record": {
+        "A": ["172.245.75.27"]
+    },
+
+    "proxied": false
+}
