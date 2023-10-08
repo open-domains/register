@@ -1,0 +1,14 @@
+{
+    "domain": "is-cool.dev",
+    "subdomain": "decinskychuj",
+
+    "owner": {
+        "email": "nickpvp716@gmail.com"
+    },
+
+    "record": {
+        "CNAME": "decinskychuj.github.io"
+    },
+
+    "proxied": true
+}
