@@ -1,0 +1,14 @@
+{
+    "domain": "is-cool.dev",
+    "subdomain": "_github-pages-challenge-decinskychuj.decinskychuj",
+
+    "owner": {
+        "email": "nickpvp716@gmail.com"
+    },
+
+    "record": {
+        "TXT": ["4b766423e8c8249ef369c37cb85d54"]
+    },
+
+    "proxied": true
+}
