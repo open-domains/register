@@ -10,7 +10,6 @@
 
     "record": {
         "A": ["35.186.245.55"],
-        "CNAME": ["219ce6c8-26d5-4ac0-b429-5a9c53975c3a.id.repl.co"], 
         "TXT": ["replit-verify=219ce6c8-26d5-4ac0-b429-5a9c53975c3a"]
     },
 
