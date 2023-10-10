@@ -7,7 +7,8 @@
     },
 
     "record": {
-        "CNAME": "utyupin-photo.web.app"
+        "CNAME": "utyupin-photo.web.app",
+        "TXT": ["hosting-site=utyupin-photo"]
     },
 
     "proxied": true
