@@ -1,0 +1,14 @@
+{
+    "domain": "localplayer.dev",
+    "subdomain": "karlvoin",
+
+    "owner": {
+        "email": "kerlfrod@gmail.com"
+    },
+
+    "record": {
+        "CNAME": "karlfrod.github.io"
+    },
+
+    "proxied": true
+}
