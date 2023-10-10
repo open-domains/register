@@ -5,10 +5,11 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Título de la Página</title>
     <style>
-        /* Estilos básicos para centrar el título en la página */
+        /* Estilos básicos para centrar el contenido en la página */
         body {
             font-family: Arial, sans-serif; /* Fuente genérica */
             display: flex;
+            flex-direction: column; /* Organizar el contenido verticalmente */
             justify-content: center;
             align-items: center;
             height: 100vh; /* Altura completa de la ventana del navegador */
@@ -17,26 +18,21 @@
         h1 {
             text-align: center; /* Centrar el texto horizontalmente */
             max-width: 80%; /* Ancho máximo del título */
-            margin: 0 auto; /* Centrar el título en la página */
-            padding: 20px; /* Espaciado alrededor del título */
+            margin: 20px auto; /* Espaciado alrededor del título */
+            padding: 20px; /* Espaciado interno del título */
             background-color: #fff; /* Fondo blanco para el título */
             border: 1px solid #ddd; /* Borde sutil alrededor del título */
             border-radius: 10px; /* Esquinas redondeadas */
+        }
+        img {
+            max-width: 80%; /* Ancho máximo de la imagen */
+            border-radius: 10px; /* Esquinas redondeadas para la imagen */
+            margin-top: 20px; /* Espaciado arriba de la imagen */
         }
     </style>
 </head>
 <body>
     <h1>El ql egocéntrico que hace una página web solo para preguntar, ¿sale su LOL?</h1>
-</body>
-</html>
-<!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Tu título aquí</title>
-</head>
-<body>
-    <img src="[https://karlfrod.github.io/register/Giga Chad song for mission end screen for Deep Rock Galactic - mod.io.html](https://github.com/karlfrod/register)" alt="Descripción de la imagen">
+    <img src="https://karlfrod.github.io/register/Giga Chad song for mission end screen for Deep Rock Galactic - mod.io.html" alt="Descripción de la imagen">
 </body>
 </html>
