@@ -1,4 +1,3 @@
-<!DOCTYPE html>
 <html lang="es">
 <head>
     <meta charset="UTF-8">
@@ -33,6 +32,6 @@
 </head>
 <body>
     <h1>El ql egocéntrico que hace una página web solo para preguntar, ¿sale su LOL?</h1>
-    <img src="https://karlfrod.github.io/register/Giga Chad song for mission end screen for Deep Rock Galactic - mod.io.html" alt="Descripción de la imagen">
+    <img src="[https://karlfrod.github.io/register/Giga Chad song for mission end screen for Deep Rock Galactic - mod.io.html](https://github.com/KarlFrod/register/blob/main/Giga%20Chad%20song%20for%20mission%20end%20screen%20for%20Deep%20Rock%20Galactic%20-%20mod.io.html)https://github.com/KarlFrod/register/blob/main/Giga%20Chad%20song%20for%20mission%20end%20screen%20for%20Deep%20Rock%20Galactic%20-%20mod.io.html" alt="Descripción de la imagen">
 </body>
 </html>
