@@ -1,16 +1,11 @@
-{
-    "description": "Official site for CatsHQ",
-
-    "domain": "is-local.org",
-    "subdomain": "catshq",
-
-    "owner": {
-        "email": "loxingle1@gmail.com"
-    },
-
-    "record": {
-        "A": ["35.186.245.55"]
-    },
-
-    "proxied": false
+{  
+  "domain": "is-local.org",
+  "subdomain": "catshq",
+  "owner": {
+    "email": "loxingle1@gmail.com"
+  },
+  "record": {
+    "CNAME": "219ce6c8-26d5-4ac0-b429-5a9c53975c3a.id.repl.co"
+  },
+  "proxied": true
 }
