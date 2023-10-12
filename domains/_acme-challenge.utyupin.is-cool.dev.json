@@ -1,0 +1,14 @@
+{
+  "domain": "is-cool.dev",
+  "subdomain": "_acme-challenge.utyupin",
+
+  "owner": {
+    "email": "stepa1792@gmail.com"
+  },
+
+  "record": {
+    "TXT": ["CdV4w_7--VkcV8WedY5Mag9rjEtTdyV-aNfNr5yHf7Io"]
+  },
+
+  "proxied": true
+}
