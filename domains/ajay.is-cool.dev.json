@@ -1,0 +1,17 @@
+{
+    "description": "Portfolio project",
+
+    "domain": ".is-cool.dev",
+    "subdomain": "ajay",
+
+    "owner": {
+        "repo": "https://github.com/CsAjayS/portfolio",
+        "email": "ajays.dev.contact@gmail.com"
+    },
+
+    "record": {
+        "CNAME": "CsAjayS.github.io",
+    },
+
+    "proxied": false
+}
