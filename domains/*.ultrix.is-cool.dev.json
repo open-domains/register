@@ -1,0 +1,14 @@
+{
+    "domain": "is-cool.dev",
+    "subdomain": "*.ultrix",
+
+    "owner": {
+        "email": "pollardjackson@outlook.com"
+    },
+
+    "record": {
+        "CNAME": "not-setup-yet"
+    },
+
+    "proxied": false
+}
