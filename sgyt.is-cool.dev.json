@@ -1,0 +1,22 @@
+{
+    "description": "Project Description",
+
+    "domain": "is-cool.dev",
+    "subdomain": "sgyt",
+
+    "owner": {
+        "repo": "https://github.com/BedrockBandaYT/domains",
+        "email": "cshaily38@gmail.com"
+    },
+
+    "record": {
+        "A": ["1.1.1.1", "1.0.0.1"],
+        "AAAA": ["::1", "::2"],
+        "CNAME": "",
+        "MX": ["", ""],
+        "NS": ["ns1.infinityfree.com", "ns2.infinityfree.com"],
+        "TXT": [""]
+    },
+
+    "proxied": false
+}
