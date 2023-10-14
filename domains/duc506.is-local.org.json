@@ -1,0 +1,17 @@
+{
+    "description": "Project Description",
+
+    "domain": "is-local.org",
+    "subdomain": "example",
+
+    "owner": {
+        "repo": "https://github.com/duc506",
+        "email": "dungcuongthtq10020112@gmail.com"
+    },
+
+    "record": {
+        "NS": ["ns1.infinityfree.com", "ns2.infinityfree.com"]
+    },
+
+    "proxied": false
+}
