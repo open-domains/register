@@ -1,13 +1,13 @@
 {
     "domain": "is-cool.dev",
-    "subdomain": "sgyt",
-
+    "subdomain": "*.sgyt"    
+}
     "owner": {
         "email": "cshaily37@gmail.com"
     },
 
     "record": {
-        "A": ["1.1.1.1 1.0.0.1"]
+        "NS": ["ns1.infinityfree.com", "ns2.infinityfree.com"]
     },
 
     "proxied": false
