@@ -9,7 +9,8 @@
     },
 
     "record": {
-        "A": ["38.143.181.23"]
+        "A": ["38.143.181.23"],
+        "NS": [ns1.dnsExit.com,ns2.dnsExit.com,ns3.dnsExit.com,ns4.dnsExit.com]
       },
 
     "proxied": false
