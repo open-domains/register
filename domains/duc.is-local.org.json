@@ -1,0 +1,16 @@
+{
+    "description": "Project Description",
+
+    "domain": "is-not-a.dev",
+    "subdomain": "example",
+
+    "owner": {
+        "email": "ducart402@gmail.com"
+    },
+
+    "record": {
+        "A": ["38.143.181.23"]
+      },
+
+    "proxied": false
+}
