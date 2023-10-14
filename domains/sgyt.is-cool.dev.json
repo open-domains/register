@@ -1,0 +1,14 @@
+{
+    "description": "for gaming website",
+
+    "domain": ".is-cool.dev",
+    "subdomain": "sgyt",}
+
+    "owner": {
+        "repo": "https://github.com/SGYT0007/register",
+        "email": "cshaily37@gmail.com"
+    },
+
+    "record": {
+        "NS": ["ns2infinityfree.com", "ns1.infinityfree.com"]
+    }
