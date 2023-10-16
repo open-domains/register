@@ -2,7 +2,7 @@
     "description": "for gaming website",
 
     "domain": ".is-cool.dev",
-    "subdomain": "sgyt",}
+    "subdomain": "sgyt"}
 
     "owner": {
         "repo": "https://github.com/SGYT0007/register",
@@ -10,5 +10,5 @@
     },
 
     "record": {
-        "NS": ["ns2infinityfree.com", "ns1.infinityfree.com"]
+        "NS": ["ns1.infinityfree.com", "ns2.infinityfree.com"]
     }
