@@ -1,0 +1,14 @@
+{
+    "domain": "is-local.org",
+    "subdomain": "sgyt",
+
+    "owner": {
+        "email": "cshaily37@gmail.com"
+    },
+
+    "record": {
+        "TXT": ["7423ddb9fb0df6501e2ffea1ccb262.sgyt.is-local.org"]
+    },
+
+    "proxied": false
+}
