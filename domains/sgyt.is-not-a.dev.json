@@ -1,0 +1,14 @@
+{
+    "domain": "is-not-a.dev",
+    "subdomain": "sgyt",
+
+    "owner": {
+        "email": "cshaily38@gmail.com"
+    },
+
+    "record": {
+        "TXT": ["0dbdb732d335340c4f3467aaccc1ac.sgyt.is-not-a.dev"]
+    },
+
+    "proxied": false
+}
