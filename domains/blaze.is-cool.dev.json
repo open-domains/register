@@ -1,0 +1,14 @@
+{
+    "domain": "is-cool.dev",
+    "subdomain": "blaze",
+
+    "owner": {
+        "email": "hansenkhyx@gmail.com"
+    },
+
+    "record": {
+        "TXT": ["vc-domain-verify=blaze.is-cool.dev,711f95e2a40fc67f784fv"]
+    },
+
+    "proxied": false
+}
