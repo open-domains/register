@@ -1,0 +1,17 @@
+{
+    "description": "A website for my organization",
+
+    "domain": "is-local.org",
+    "subdomain": "pgwecn",
+
+    "owner": {
+        "repo": "https://github.com/PGWECN/pgwecn.github.io",
+        "email": "drkeefy@disroot.org"
+    },
+
+    "record": {
+        "A": ["185.199.111.153"]
+    },
+
+    "proxied": false
+}
