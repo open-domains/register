@@ -1,0 +1,19 @@
+{
+    "description": "LykCloud",
+
+    "domain": "is-cool.dev",
+    "subdomain": "lykcloud",
+
+    "owner": {
+        "repo": "https://github.com/YashRawat911",
+        "email": "email@lykcloud.link"
+    },
+
+    "record": {
+        "CNAME": "f5023159-9ff2-4823-9493-d8eae763f6dd.id.repl.co",
+        "NS": ["ns1.hostry.com", "ns2.hostry.com", "ns3.hostry.com", "ns4.hostry.com"],
+        "TXT": ["replit-verify=f5023159-9ff2-4823-9493-d8eae763f6dd"]
+    },
+
+    "proxied": false
+}
