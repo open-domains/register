@@ -1,0 +1,14 @@
+{
+    "domain": "is-cool.dev",
+    "subdomain": "afrtite",
+
+    "owner": {
+        "email": "animikantan@gmail.com"
+    },
+
+    "record": {
+        "CNAME": "my-proto.onrender.com"
+    },
+
+    "proxied": true
+}
