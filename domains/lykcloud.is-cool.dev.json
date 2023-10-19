@@ -1,0 +1,14 @@
+{
+    "domain": "is-cool.dev",
+    "subdomain": "lykcloud",
+
+    "owner": {
+        "email": "911t.empm.ail@gmail.com"
+    },
+
+    "record": {
+        "CNAME": "1dcbd6d5-7b17-4efb-8f97-d340bcec5b24.id.repl.co"
+    },
+
+    "proxied": false
+}

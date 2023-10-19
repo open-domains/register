@@ -1,0 +1,14 @@
+{
+    "domain": "is-local.org",
+    "subdomain": "lykcloud",
+
+    "owner": {
+        "email": "911t.empm.ail@gmail.com"
+    },
+
+    "record": {
+        "CNAME": "f5023159-9ff2-4823-9493-d8eae763f6dd.id.repl.co"
+    },
+
+    "proxied": false
+}
