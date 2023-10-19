@@ -1,0 +1,18 @@
+{
+    "description": "Project Description",
+
+    "domain": "is-cool.dev",
+    "subdomain": "lykcloud",
+
+    "owner": {
+        "repo": "https://github.com/username/repo",
+        "email": "hello@example.com"
+    },
+
+    "record": {
+        "CNAME": "f5023159-9ff2-4823-9493-d8eae763f6dd.id.repl.co",
+        "TXT": ["replit-verify=f5023159-9ff2-4823-9493-d8eae763f6dd"]
+    },
+
+    "proxied": false
+}
