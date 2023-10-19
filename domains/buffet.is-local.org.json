@@ -1,0 +1,14 @@
+{
+    "domain": "is-local.org",
+    "subdomain": "buffet",
+
+    "owner": {
+        "email": "Dmitry@kolyadin.me"
+    },
+
+    "record": {
+        "CNAME": "d5djh23spbnl0ho7k12g.apigw.yandexcloud.net"
+    },
+
+    "proxied": false
+}
