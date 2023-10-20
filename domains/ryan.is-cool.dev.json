@@ -1,0 +1,14 @@
+{
+    "domain": "is-cool.dev",
+    "subdomain": "ryan",
+
+    "owner": {
+        "email": "rg53734292@gmail.com"
+    },
+
+    "record": {
+        "CNAME": "ryanthedev.vercel.app"
+    },
+
+    "proxied": true
+}
