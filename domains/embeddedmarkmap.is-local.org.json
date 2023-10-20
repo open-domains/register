@@ -1,0 +1,14 @@
+{
+    "domain": "is-local.org",
+    "subdomain": "embeddedmarkmap",
+
+    "owner": {
+        "email": "kmaixdev@outlook.com"
+    },
+
+    "record": {
+        "TXT": ["065eda67f109c9d5d2341c0a68caa5"]
+    },
+
+    "proxied": true
+}
