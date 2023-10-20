@@ -1,0 +1,14 @@
+{
+    "domain": "is-cool.dev",
+    "subdomain": "markmapvn",
+
+    "owner": {
+        "email": "kmaixdev@outlook.com"
+    },
+
+    "record": {
+        "CNAME": "https://idon69.github.io/mp12/"
+    },
+
+    "proxied": true
+}
