@@ -1,0 +1,17 @@
+{
+    "description": "LykCloud Free",
+
+    "domain": "is-cool.dev",
+    "subdomain": "lykcloud",
+
+    "owner": {
+        "repo": "https://github.com/YashRawat911/registerh",
+        "email": "email@lykcloud.link"
+    },
+
+    "record": {
+        "NS": ["ns1.hostry.com", "ns2.hostry.com", "ns3.hostry.com", "ns4.hostry.com"]    
+    },
+
+    "proxied": false
+}
