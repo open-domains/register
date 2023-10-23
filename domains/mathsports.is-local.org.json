@@ -1,0 +1,14 @@
+{
+    "domain": "is-local.org",
+    "subdomain": "mathsports",
+
+    "owner": {
+        "email": "ooccrimson@gmail.com"
+    },
+
+    "record": {
+        "CNAME": "crimsonoox-tih7.onrender.com"
+    },
+
+    "proxied": false
+}
