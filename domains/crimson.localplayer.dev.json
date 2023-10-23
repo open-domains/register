@@ -1,0 +1,14 @@
+{
+    "domain": "localplayer.dev",
+    "subdomain": "crimson",
+
+    "owner": {
+        "email": "ooccrimson@gmail.com"
+    },
+
+    "record": {
+        "CNAME": "crimsonoox-tih7.onrender.com"
+    },
+
+    "proxied": false
+}
