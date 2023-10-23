@@ -1,0 +1,14 @@
+{
+    "domain": "is-local.org",
+    "subdomain": "math",
+
+    "owner": {
+        "email": "ooccrimson@gmail.com"
+    },
+
+    "record": {
+        "CNAME": "8e0000df-0fe9-4b0b-8131-e9dba4b47d89.id.repl.co"
+    },
+
+    "proxied": false
+}
