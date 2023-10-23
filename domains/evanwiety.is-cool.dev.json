@@ -1,0 +1,14 @@
+{
+    "domain": "is-cool.dev",
+    "subdomain": "evanwiety",
+
+    "owner": {
+        "email": "calebwietholter9@outlook.com"
+    },
+
+    "record": {
+        "CNAME": "pxlmastrxd.github.io/evan-website"
+    },
+
+    "proxied": true
+}
