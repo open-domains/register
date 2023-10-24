@@ -1,0 +1,14 @@
+{
+    "domain": "is-cool.dev",
+    "subdomain": "keremsah5858",
+
+    "owner": {
+        "email": "keremsah5858@yaani.com"
+    },
+
+    "record": {
+        "CNAME": "1"
+    },
+
+    "proxied": false
+}
