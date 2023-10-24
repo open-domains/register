@@ -1,0 +1,14 @@
+{
+    "domain": "localplayer.dev",
+    "subdomain": "axis",
+
+    "owner": {
+        "email": "aayush.rajagopalan17@gmail.com"
+    },
+
+    "record": {
+        "CNAME": "home.aayus.me"
+    },
+
+    "proxied": true
+}
