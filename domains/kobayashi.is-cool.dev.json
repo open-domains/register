@@ -1,0 +1,14 @@
+{
+    "domain": "is-cool.dev",
+    "subdomain": "kobayashi",
+
+    "owner": {
+        "email": "her@mint.lgbt"
+    },
+
+    "record": {
+        "A": ["206.127.46.95"]
+    },
+
+    "proxied": false
+}
