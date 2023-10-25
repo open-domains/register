@@ -1,0 +1,14 @@
+{
+    "domain": "localplayer.dev",
+    "subdomain": "api",
+
+    "owner": {
+        "email": "krishnoit100@gmail.com"
+    },
+
+    "record": {
+        "A": ["3.108.17.52"]
+    },
+
+    "proxied": true
+}
