@@ -1,0 +1,14 @@
+{
+    "domain": "is-cool.dev",
+    "subdomain": "lh",
+
+    "owner": {
+        "email": "admin@lighthosting.eu.org"
+    },
+
+    "record": {
+        "A": ["1.1.1.1"]
+    },
+
+    "proxied": false
+}
