@@ -1,0 +1,14 @@
+{
+    "domain": "is-cool.dev",
+    "subdomain": "karweima",
+
+    "owner": {
+        "email": "conquerhumus@gmail.com"
+    },
+
+    "record": {
+        "A": [""]
+    },
+
+    "proxied": false
+}
