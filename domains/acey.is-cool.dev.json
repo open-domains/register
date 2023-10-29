@@ -1,0 +1,17 @@
+{
+    "description": "Personal portfolio :p",
+
+    "domain": "is-cool.dev",
+    "subdomain": "acey",
+
+    "owner": {
+        "repo": "https://github.com/AceyDoCodes",
+        "email": "aceygoesboom@gmail.com"
+    },
+
+    "record": {
+        "CNAME": "website-5qo.pages.dev"
+    },
+
+    "proxied": true
+}
