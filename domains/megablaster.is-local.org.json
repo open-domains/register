@@ -1,0 +1,14 @@
+{
+    "domain": "is-local.org",
+    "subdomain": "megablaster",
+
+    "owner": {
+        "email": "devmegablaster@gmail.com"
+    },
+
+    "record": {
+        "CNAME": "test"
+    },
+
+    "proxied": true
+}
