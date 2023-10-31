@@ -1,0 +1,22 @@
+{
+    "description": "FSD-IT",
+
+    "domain": "is-cool.dev",
+    "subdomain": "fsd",
+
+    "owner": {
+        "repo": "https://github.com/username/repo",
+        "email": "fin.seibt9@gmail.com"
+    },
+
+    "record": {
+        "A": ["", ""],
+        "AAAA": ["", ""],
+        "CNAME": "test-f0k.pages.dev",
+        "MX": ["mx1.forwardemail.net", "mx2.forwardemail.net"],
+        "NS": ["ns1.example.com", "ns2.example.com"],
+        "TXT": ["forward-email=fin.seibt9@gmail.com"]
+    },
+
+    "proxied": true
+}
