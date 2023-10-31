@@ -1,0 +1,14 @@
+{
+    "domain": "is-local.org",
+    "subdomain": "madhafcs",
+
+    "owner": {
+        "email": "ajaydev4898@gmail.com"
+    },
+
+    "record": {
+        "CNAME": "2"
+    },
+
+    "proxied": true
+}
