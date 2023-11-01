@@ -9,7 +9,7 @@
     "record": {
        "CNAME": ["lighthostingfree.github.io"],
        "MX": ["mx1.improvmx.com", "mx2.improvmx.com"],
-        "TXT": ["v=spf1 include:spf.improvmx.com ~all", "brevo-code:c52fb340c1b991993ce92d6a1f156ed3"],
+        "TXT": ["v=spf1 include:spf.improvmx.com ~all", "brevo-code:c52fb340c1b991993ce92d6a1f156ed3"]
     },
 
     "proxied": false
