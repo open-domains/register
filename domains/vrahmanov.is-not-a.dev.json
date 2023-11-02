@@ -1,10 +1,7 @@
 {
-    "description": "playground of dantidote project",
-  
+    "description": "playground of vrahmanov project",
     "domain": "is-not-a.dev",
     "subdomain": "dantidote",
-  
-  
     "owner": {
       "email": "xcode2vlad@gmail.com"
   },
