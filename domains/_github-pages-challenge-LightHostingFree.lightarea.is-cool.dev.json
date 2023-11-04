@@ -1,0 +1,17 @@
+{
+    "description": "github verification",
+
+    "domain": "is-cool.dev",
+    "subdomain": "_github-pages-challenge-LightHostingFree.lightarea",
+
+    "owner": {
+        "repo": "https://github.com/LightHostingFree/LightArea",
+        "email": "mayankreal657@gmail.com"
+    },
+
+    "record": {
+        "TXT": ["5c0283f2fd989886d7cfaba684b090"]
+    },
+
+    "proxied": false
+}
