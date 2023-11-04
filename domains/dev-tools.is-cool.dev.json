@@ -1,0 +1,14 @@
+{
+    "domain": "is-cool.dev",
+    "subdomain": "dev-tools",
+
+    "owner": {
+        "email": "vinodsingh1270@gmail.com"
+    },
+
+    "record": {
+        "CNAME": "dev-tools.is-cool.dev"
+    },
+
+    "proxied": true
+}
