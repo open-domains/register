@@ -1,0 +1,14 @@
+{
+    "domain": "is-cool.dev",
+    "subdomain": "ghost",
+
+    "owner": {
+        "email": "pollardjackson@outlook.com"
+    },
+
+    "record": {
+        "CNAME": "mathworkisannoying.onrender.com"
+    },
+
+    "proxied": false
+}
