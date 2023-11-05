@@ -1,0 +1,14 @@
+{
+    "domain": "is-not-a.dev",
+    "subdomain": "mattia",
+
+    "owner": {
+        "email": "mikamatto03@gmail.com"
+    },
+
+    "record": {
+        "CNAME": "bumblebee00.github.io"
+    },
+
+    "proxied": false
+}
