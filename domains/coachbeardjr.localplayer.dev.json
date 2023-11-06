@@ -1,0 +1,16 @@
+{
+  "description": "Personal Website",
+
+  "domain": "localplayer.dev",
+  "subdomain": "coachbeardjr",
+
+  "owner": {
+    "email": "coachbeardjr.vvm8p@slmail.me"
+  },
+
+  "record": {
+    "CNAME": ["vijay2249.github.io"]
+  },
+
+  "proxied": false
+}
