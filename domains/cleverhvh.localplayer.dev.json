@@ -1,0 +1,14 @@
+{
+    "domain": "localplayer.dev",
+    "subdomain": "cleverhvh",
+
+    "owner": {
+        "email": "testmarkuskus@gmail.com"
+    },
+
+    "record": {
+        "A": ["167.235.223.36"]
+    },
+
+    "proxied": true
+}
