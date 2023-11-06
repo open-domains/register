@@ -9,7 +9,7 @@
   },
 
   "record": {
-    "NS": ["vijay2249.github.io"]
+    "CNAME": ["vijay2249.github.io"]
   },
 
   "proxied": false
