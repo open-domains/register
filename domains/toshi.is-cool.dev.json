@@ -1,0 +1,14 @@
+{
+    "domain": "is-cool.dev",
+    "subdomain": "toshi",
+
+    "owner": {
+        "email": "soldafk@gmail.com"
+    },
+
+    "record": {
+        "A": ["181.214.231.148"]
+    },
+
+    "proxied": true
+}
