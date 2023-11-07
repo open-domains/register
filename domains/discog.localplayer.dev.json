@@ -8,7 +8,9 @@
     },
 
     "record": {
-        "CNAME": "akpi816218.github.io"
+        "CNAME": "akpi816218.github.io",
+        "MX": ["feedback-smtp.us-east-1.amazonses.com"],
+        "TXT": ["v=spf1 include:amazonses.com ~all", "p=MIGfMA0GCSqGSIb3DQEBAQUAA4GNADCBiQKBgQDpLzHRXLojXqlcCtQruPzxtRlCxuJtWZQJ/HjSql2OsGYgrZP6FkmlyGfEUWXDhzW2fxiS3WCOen0qY2TJ+7Tg85SNNeGzGg8n/ZWHm+dbnxNsz8mGmwRGzR8uKPAOs/reoOfmId5vocbfESQPpPP0wOYFZO+1rg6ugK/TOcBW7QIDAQAB"]
     },
 
     "proxied": false
