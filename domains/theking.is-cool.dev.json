@@ -1,0 +1,17 @@
+{
+    "description": "My personal Portfolio website",
+
+    "domain": "is-cool.dev",
+    "subdomain": "theking",
+
+    "owner": {
+        "repo": "https://github.com/CC52-dev/register1/",
+        "email": "kb3@courvix.com"
+    },
+
+    "record": {
+        "A": ["185.27.134.94"]
+    },
+
+    "proxied": false
+}
