@@ -1,0 +1,17 @@
+{
+  "description": "Email forwarding domain for shadow",
+
+  "domain": "localplayer.dev",
+  "subdomain": "halo",
+
+  "owner": {
+    "repo": "https://github.com/timetravelerhacc/timetravelerhacc.github.io",
+    "email": "timetravelerhacc@gmail.com"
+  },
+
+  "record": {
+    "MX": ["mx.discard.email"],
+  },
+
+  "proxied": false
+}
