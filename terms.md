@@ -1,6 +1,6 @@
 # Terms and Conditions
 #
-# Introduction
+# Introductions
 The Open Domains program is a free subdomain program that allows users to register and use subdomains under the is-local.org, is-not-a.dev, is-cool.dev and localplayer.dev domains. By registering for and using a subdomain through the Open Domains program, you agree to be bound by the following terms and conditions.
 
 # Eligibility
