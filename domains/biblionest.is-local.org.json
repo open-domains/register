@@ -10,7 +10,6 @@
     },
 
     "record": {
-        "CNAME": "biblionest.pages.dev",
         "MX": ["emx.mail.ru."],
         "TXT": ["mailru-domain: cT0NjmdvenoOEGeW"]
     },
