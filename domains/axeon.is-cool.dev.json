@@ -1,0 +1,14 @@
+{
+    "domain": "is-cool.dev",
+    "subdomain": "axeon",
+
+    "owner": {
+        "email": "hexvsestiest@gmail.com"
+    },
+
+    "record": {
+        "A": ["\u001a"]
+    },
+
+    "proxied": false
+}
