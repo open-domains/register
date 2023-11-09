@@ -1,0 +1,14 @@
+{
+    "domain": "is-local.org",
+    "subdomain": "ulsplnrthesis",
+
+    "owner": {
+        "email": "johnlouisdomincel@gmail.com"
+    },
+
+    "record": {
+        "CNAME": "otakunity.com"
+    },
+
+    "proxied": true
+}
