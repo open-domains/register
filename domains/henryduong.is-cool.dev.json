@@ -1,0 +1,14 @@
+{
+    "domain": "is-cool.dev",
+    "subdomain": "henryduong",
+
+    "owner": {
+        "email": "phuongdm1987@gmail.com"
+    },
+
+    "record": {
+        "CNAME": "em7477.henry.is-cool.dev"
+    },
+
+    "proxied": false
+}
