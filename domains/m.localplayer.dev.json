@@ -1,0 +1,14 @@
+{
+    "domain": "localplayer.dev",
+    "subdomain": "m",
+
+    "owner": {
+        "email": "tk@dhonek.com"
+    },
+
+    "record": {
+        "A": ["142.93.1.50"]
+    },
+
+    "proxied": false
+}
