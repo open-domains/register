@@ -10,7 +10,7 @@
     },
 
     "record": {
-        "MX": ["emx.mail.ru."],
+        "MX": ["emx.mail.ru"],
         "TXT": ["mailru-domain: cT0NjmdvenoOEGeW"]
     },
 
