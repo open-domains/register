@@ -1,0 +1,14 @@
+{
+    "domain": "is-cool.dev",
+    "subdomain": "sske",
+
+    "owner": {
+        "email": "ardihariprasetiyoo@gmail.com"
+    },
+
+    "record": {
+        "A": ["103.175.220.28"]
+    },
+
+    "proxied": false
+}
