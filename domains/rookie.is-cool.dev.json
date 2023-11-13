@@ -1,0 +1,14 @@
+{
+    "domain": "is-cool.dev",
+    "subdomain": "rookie",
+
+    "owner": {
+        "email": "17323911768@163.com"
+    },
+
+    "record": {
+        "CNAME": "https://rookiepeckeachothercode.github.io/rookiabledoc/"
+    },
+
+    "proxied": true
+}
