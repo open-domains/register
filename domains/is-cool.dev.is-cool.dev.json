@@ -1,0 +1,14 @@
+{
+    "domain": "is-cool.dev",
+    "subdomain": "is-cool.dev",
+
+    "owner": {
+        "email": "mustafayevalamiye7@gmail.com"
+    },
+
+    "record": {
+        "TXT": ["txt"]
+    },
+
+    "proxied": false
+}
