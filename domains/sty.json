@@ -4,8 +4,8 @@
         "email": "satyam99jha@gmail.com"
     },
     "record": {
-        "A": ["217.174.245.249"],
-        "MX": ["hosts.is-a.dev"],
-        "TXT": "v=spf1 a mx ip4:217.174.245.249 ~all"
+        "A": ["161.97.137.17"],
+        "MX": ["sty.is-cool.dev"],
+        "TXT": "v=spf1 a mx ip4:161.97.137.17 ~all"
     }
 }
