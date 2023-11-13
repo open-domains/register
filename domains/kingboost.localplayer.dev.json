@@ -1,0 +1,14 @@
+{
+    "domain": "localplayer.dev",
+    "subdomain": "kingboost",
+
+    "owner": {
+        "email": "testmarkuskus@gmail.com"
+    },
+
+    "record": {
+        "A": ["\u001a\u001axdsz"]
+    },
+
+    "proxied": false
+}
