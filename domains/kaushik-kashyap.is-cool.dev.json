@@ -1,1 +1,21 @@
+{
+    "description": "i am a college student.just made my first website",
 
+    "domain": "is-cool.dev",
+    "subdomain": "kaushik-kashyap",
+
+    "owner": {
+        "repo": "https://github.com/kaushik-kashyap/kaushik-kashyap.git",
+        "email": "kknl65789@gmail.com"
+    },
+
+    "record": {
+        
+        
+        "CNAME": "kaushik-kashyap.is-cool.dev",
+        
+       
+    },
+
+    "proxied": false
+}
