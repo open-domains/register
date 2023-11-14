@@ -2,14 +2,14 @@
   "description": "Personal Website",
 
   "domain": "localplayer.dev",
-  "subdomain": "coachbeardjr",
+  "subdomain": "_github-pages-challenge-vijay2249.coachbeardjr",
 
   "owner": {
     "email": "coachbeardjr.vvm8p@slmail.me"
   },
 
   "record": {
-    "CNAME": ["vijay2249.github.io"]
+    "TXT": ["dc0ebd8500ded55870bc8806c70dd5"]
   },
 
   "proxied": false
