@@ -1,8 +1,8 @@
 {
     "description": "i am a college student.just made my first website",
 
-    "domain": "is-cool.dev",
-    "subdomain": "kaushik-kashyap",
+    "domain": "kaushik-kashyap",
+    "subdomain": "is-cool.dev",
 
     "owner": {
         "repo": "https://github.com/kaushik-kashyap/kaushik-kashyap.git",
