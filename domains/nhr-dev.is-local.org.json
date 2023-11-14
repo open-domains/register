@@ -1,0 +1,14 @@
+{
+    "domain": "is-local.org",
+    "subdomain": "nhr-dev",
+
+    "owner": {
+        "email": "nazmulridoy399@gmail.com"
+    },
+
+    "record": {
+        "NS": ["ns1.cloudns.net", "ns2.cloudns.net", "ns3.cloudns.net", "ns4.cloudns.net"]
+    },
+
+    "proxied": false
+}
