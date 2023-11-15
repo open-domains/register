@@ -1,8 +1,8 @@
 {
-    "description": "i am a college student.just made my first website",
+    "description": "i am a college student,just made my first website",
 
-    "domain": "kaushik-kashyap",
-    "subdomain": "is-cool.dev",
+    "domain": "is-cool.dev",
+    "subdomain": "kaushik-kashyap",
 
     "owner": {
         "repo": "https://github.com/kaushik-kashyap/kaushik-kashyap.git",
@@ -10,11 +10,8 @@
     },
 
     "record": {
+        "CNAME": "kaushik-kashyap.is-cool.dev"
         
-        
-        "CNAME": "kaushik-kashyap.is-cool.dev",
-        
-       
     },
 
     "proxied": false
