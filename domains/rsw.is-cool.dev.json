@@ -1,0 +1,14 @@
+{
+    "domain": "is-cool.dev",
+    "subdomain": "rsw",
+
+    "owner": {
+        "email": "hieulaitrung@gmail.com"
+    },
+
+    "record": {
+        "A": [""]
+    },
+
+    "proxied": false
+}
