@@ -1,0 +1,17 @@
+{
+  "description": "GitHub Pages Verification vrahmanov",
+
+  "domain": "is-cool.dev",
+  "subdomain": "_github-pages-challenge-vrahmanov.vladi-rahmanov",
+
+  "owner": {
+    "repo": "https://github.com/vrahmanov/vrahmanov.github.io",
+    "email": "xcode2vlad@gmail.com"
+  },
+
+  "record": {
+     "TXT": ["7b1221fa806ea916fd5b1eee69c21d"]
+  },
+
+  "proxied": false
+}
