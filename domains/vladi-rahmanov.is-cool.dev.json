@@ -1,0 +1,12 @@
+{
+    "description": "playground of vrahmanov project github page - name cn",
+    "domain": "is-cool.dev",
+    "subdomain": "vladi-rahmanov",
+    "owner": {
+      "email": "xcode2vlad@gmail.com"
+  },
+  "record": {
+      "CNAME": "vrahmanov.github.io"
+  },
+    "proxied": false
+  }
