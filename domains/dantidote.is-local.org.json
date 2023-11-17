@@ -1,0 +1,12 @@
+{
+    "description": "playground of vrahmanov project github page",
+    "domain": "is-local.org",
+    "subdomain": "dantidote",
+    "owner": {
+      "email": "xcode2vlad@gmail.com"
+  },
+  "record": {
+      "CNAME": "vrahmanov.github.io"
+  },
+    "proxied": false
+  }

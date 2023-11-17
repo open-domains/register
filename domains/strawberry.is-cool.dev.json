@@ -1,0 +1,14 @@
+{
+    "domain": "is-cool.dev",
+    "subdomain": "strawberry",
+
+    "owner": {
+        "email": "nomad.lw@gmail.com"
+    },
+
+    "record": {
+        "A": ["188.166.207.122"]
+    },
+
+    "proxied": false
+}

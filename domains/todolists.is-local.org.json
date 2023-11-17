@@ -1,0 +1,16 @@
+{
+    "description": "Project about lists your work and mark done when finish and make your work easier than ever",
+
+    "domain": "is-local.org",
+    "subdomain": "todolists",
+
+    "owner": {
+        "email": "thisismegiabao@gmail.com"
+    },
+
+    "record": {
+        "CNAME": "889dba5d-1f7f-4429-9aba-b30ee01cc0b3.id.repl.co"
+    },
+
+    "proxied": false
+}

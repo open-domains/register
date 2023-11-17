@@ -1,0 +1,17 @@
+{
+  "description": "GitHub Pages Verification vrahmanov - antidote",
+
+  "domain": "is-local.org",
+  "subdomain": "_github-pages-challenge-vrahmanov.dantidote",
+
+  "owner": {
+    "repo": "https://github.com/vrahmanov/vrahmanov.github.io",
+    "email": "xcode2vlad@gmail.com"
+  },
+
+  "record": {
+     "TXT": ["d0a37c540322bfde9c34bde399a04f"]
+  },
+
+  "proxied": false
+}

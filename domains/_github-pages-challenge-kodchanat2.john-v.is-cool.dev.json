@@ -1,0 +1,15 @@
+{
+    "domain": "is-cool.dev",
+    "subdomain": "_github-pages-challenge-kodchanat2.john-v",
+
+    "owner": {
+        "repo": "https://github.com/kodchanat2/kodchanat2.github.io",
+        "email": "kodchanat2@gmail.com"
+    },
+
+    "record": {
+        "TXT": ["41b094a8615958d6fc3fb8e011b31a"]
+    },
+
+    "proxied": false
+}

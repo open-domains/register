@@ -1,0 +1,14 @@
+{
+    "domain": "is-cool.dev",
+    "subdomain": "yves",
+
+    "owner": {
+        "email": "yvkalume@gmail.com"
+    },
+
+    "record": {
+        "CNAME": "yveskalume.github.io"
+    },
+
+    "proxied": false
+}
