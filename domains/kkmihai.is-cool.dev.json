@@ -10,7 +10,7 @@
 
   "record": {
     "CNAME": ["cname.vercel-dns.com"],
-    "TXT": ["_vercel=vc-domain-verify=kkmihai.is-cool.dev,7f36ff117f91a45eb9ef"]
+    "TXT": ["_vercel=vc-domain-verify=kkmihai.is-cool.dev", "7f36ff117f91a45eb9ef"]
   },
 
   "proxied": false
