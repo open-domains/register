@@ -1,0 +1,14 @@
+{
+    "domain": "is-cool.dev",
+    "subdomain": "shuja",
+
+    "owner": {
+        "email": "shujaahmed134@gmail.com"
+    },
+
+    "record": {
+        "CNAME": "pakbch.github.io"
+    },
+
+    "proxied": false
+}
