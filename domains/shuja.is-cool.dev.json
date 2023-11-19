@@ -1,0 +1,18 @@
+{
+    "description": "shuja's Portfolio",
+
+    "domain": "is-cool.dev",
+    "subdomain": "shuja",
+
+    "owner": {
+        "repo": "https://github.com/pakbch/pakbch.github.io",
+        "email": "shujaballs@cock.li"
+    },
+
+    "record": {
+       "CNAME": "pakbch.github.io"
+       "TXT": ["07759204982d1a9bc1c1eb90f4d940"]
+    },
+
+    "proxied": false
+}
