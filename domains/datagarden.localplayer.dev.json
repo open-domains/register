@@ -1,0 +1,14 @@
+{
+    "domain": "localplayer.dev",
+    "subdomain": "datagarden",
+
+    "owner": {
+        "email": "av.yigitdincsoy@gmail.com"
+    },
+
+    "record": {
+        "TXT": [""]
+    },
+
+    "proxied": false
+}
