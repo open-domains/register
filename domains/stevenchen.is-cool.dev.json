@@ -1,0 +1,14 @@
+{
+    "domain": "is-cool.dev",
+    "subdomain": "stevenchen",
+
+    "owner": {
+        "email": "zhangc2@illinois.edu"
+    },
+
+    "record": {
+        "A": ["10110"]
+    },
+
+    "proxied": false
+}
