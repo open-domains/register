@@ -1,0 +1,14 @@
+{
+    "domain": "is-cool.dev",
+    "subdomain": "",
+
+    "owner": {
+        "email": "carpenterwilliam1939@gmail.com"
+    },
+
+    "record": {
+        "A": [""]
+    },
+
+    "proxied": false
+}
