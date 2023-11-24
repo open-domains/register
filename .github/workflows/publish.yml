@@ -21,7 +21,7 @@ jobs:
         steps:
             - uses: actions/checkout@v4
 
-            - run: echo '{"cloudflare":{"TYPE":"CLOUDFLAREAPI","apitoken":"ndEzr-64V8_1ObL7fFkP6f00rwKFJ7c91DMKvmGG"}}' > ./creds.json
+            - run: echo '{"cloudflare":{"TYPE":"CLOUDFLAREAPI","apitoken":"$CLOUDFLARE_API_TOKEN"}}' > ./creds.json
 
             - name: Publish
               uses: koenrh/dnscontrol-action@v3
