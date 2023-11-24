@@ -1,0 +1,14 @@
+{
+    "domain": "is-local.org",
+    "subdomain": "crimsonoox",
+
+    "owner": {
+        "email": "ooccrimson@gmail.com"
+    },
+
+    "record": {
+        "CNAME": "schoolread-5jee.onrender.com"
+    },
+
+    "proxied": true
+}
