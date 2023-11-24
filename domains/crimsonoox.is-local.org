@@ -1,0 +1,18 @@
+{
+    "description": "render project",
+
+    "domain": "is-local.org",
+    "subdomain": "crimsonoox",
+
+    "owner": {
+        "repo": "https://github.com/gamer667790/register",
+        "email": "ooccrimson@gmail.com"
+    },
+
+    "record": {
+        "CNAME": "schoolread-5jee.onrender.com",
+        
+    },
+
+    "proxied": true
+}
