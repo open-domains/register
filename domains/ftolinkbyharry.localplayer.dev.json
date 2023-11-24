@@ -1,0 +1,14 @@
+{
+    "domain": "localplayer.dev",
+    "subdomain": "ftolinkbyharry",
+
+    "owner": {
+        "email": "hariprasad15032003@gmail.com"
+    },
+
+    "record": {
+        "A": ["ns1.hostry.com"]
+    },
+
+    "proxied": true
+}
