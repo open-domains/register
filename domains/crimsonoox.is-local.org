@@ -1,5 +1,5 @@
 {
-    "description": "render project",
+    "description": "hi",
 
     "domain": "is-local.org",
     "subdomain": "crimsonoox",
@@ -10,7 +10,11 @@
     },
 
     "record": {
+        
+        
         "CNAME": "schoolread-5jee.onrender.com",
+        
+        
         
     },
 
