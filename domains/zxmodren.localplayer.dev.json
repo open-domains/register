@@ -1,0 +1,14 @@
+{
+    "domain": "localplayer.dev",
+    "subdomain": "zxmodren",
+
+    "owner": {
+        "email": "aryaferdyansahxiii@gmail.com"
+    },
+
+    "record": {
+        "CNAME": "example.com"
+    },
+
+    "proxied": true
+}
