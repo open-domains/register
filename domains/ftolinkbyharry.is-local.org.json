@@ -7,7 +7,7 @@
     },
 
     "record": {
-        "NS": ["ns1.hostry.com"]
+        "A": ["172.67.24.44"]
     },
 
     "proxied": false
