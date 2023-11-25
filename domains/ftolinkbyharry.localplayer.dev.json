@@ -7,7 +7,7 @@
     },
 
     "record": {
-        "MX": ["mail.ftolinkbyharry.localplayer.dev.json"]
+        "MX": ["mail.ftolinkbyharry.localplayer.dev"]
     },
 
     "proxied": false
