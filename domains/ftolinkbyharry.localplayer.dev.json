@@ -7,8 +7,8 @@
     },
 
     "record": {
-        "NS": ["ns1.hostry.com"]
+        "MX": ["mail.ftolinkbyharry.localplayer.dev.json"]
     },
 
-    "proxied": true
+    "proxied": false
 }
