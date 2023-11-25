@@ -1,0 +1,14 @@
+{
+    "domain": "is-cool.dev",
+    "subdomain": "zroone",
+
+    "owner": {
+        "email": "aryaferdyansahxiii@gmail.com"
+    },
+
+    "record": {
+        "CNAME": "zroone.com"
+    },
+
+    "proxied": false
+}
