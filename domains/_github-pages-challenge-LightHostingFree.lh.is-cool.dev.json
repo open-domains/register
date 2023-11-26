@@ -1,0 +1,17 @@
+{
+    "description": "github verification",
+
+    "domain": "is-cool.dev",
+    "subdomain": "_github-pages-challenge-LightHostingFree.lh",
+
+    "owner": {
+        "repo": "https://github.com/LightHostingFree/",
+        "email": "mayankreal657@gmail.com"
+    },
+
+    "record": {
+        "TXT": ["622c86d39b4e560a085ed803f2ee51"]
+    },
+
+    "proxied": false
+}
