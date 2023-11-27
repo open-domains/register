@@ -9,6 +9,6 @@
   },
 
   "record": {
-    "NS": ["ns1.vercel-dns.com", "ns2.vercel-dns.com"]
+    "A": ["164.132.74.251", "192.95.42.75"]
   }
 }
