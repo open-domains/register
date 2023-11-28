@@ -1,0 +1,14 @@
+{
+    "domain": "is-not-a.dev",
+    "subdomain": "beyond10dd",
+
+    "owner": {
+        "email": "nebuchadnezzar0110@gmail.com"
+    },
+
+    "record": {
+        "TXT": ["b7114b01a6ce6425077ff79d27b1ae"]
+    },
+
+    "proxied": false
+}
