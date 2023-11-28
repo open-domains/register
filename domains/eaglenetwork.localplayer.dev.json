@@ -1,0 +1,14 @@
+{
+    "domain": "localplayer.dev",
+    "subdomain": "eaglenetwork",
+
+    "owner": {
+        "email": "aaravlonkar@gmail.com"
+    },
+
+    "record": {
+        "A": ["104.21.30.56"]
+    },
+
+    "proxied": true
+}
