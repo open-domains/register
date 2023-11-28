@@ -1,0 +1,14 @@
+{
+  "description": "A website that lists information about different shops/businesses",
+
+  "domain": "is-local.org",
+  "subdomain": "this",
+
+  "owner": {
+    "email": "contact@semant.is-a.dev"
+  },
+
+  "record": {
+    "A": ["164.132.74.251", "192.95.42.75"]
+  }
+}
