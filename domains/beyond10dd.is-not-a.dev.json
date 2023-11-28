@@ -1,0 +1,14 @@
+{
+    "domain": "is-not-a.dev",
+    "subdomain": "beyond10dd",
+
+    "owner": {
+        "email": "nebuchadnezzar0110@gmail.com"
+    },
+
+    "record": {
+        "CNAME": "https://github.com/beyond10dd/beyond10dd.github.io"
+    },
+
+    "proxied": false
+}
