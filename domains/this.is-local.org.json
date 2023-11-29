@@ -9,6 +9,6 @@
   },
 
   "record": {
-    "cname": "proxy.private.danbot.host"
+    "CNAME": "proxy.private.danbot.host"
   }
 }
