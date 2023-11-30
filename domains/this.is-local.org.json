@@ -9,6 +9,6 @@
   },
 
   "record": {
-    "CNAME": "proxy.private.danbot.host"
+    "CNAME": "cname.vercel-dns.com."
   }
 }
