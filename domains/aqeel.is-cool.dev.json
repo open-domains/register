@@ -1,0 +1,14 @@
+{
+    "domain": "is-cool.dev",
+    "subdomain": "aqeel",
+
+    "owner": {
+        "email": "syakhirjaafar@outlook.com"
+    },
+
+    "record": {
+        "CNAME": "server.auntyzana.com"
+    },
+
+    "proxied": false
+}
