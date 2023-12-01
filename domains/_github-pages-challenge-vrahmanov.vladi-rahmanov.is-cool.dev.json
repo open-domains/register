@@ -1,8 +1,8 @@
 {
   "description": "GitHub Pages Verification vrahmanov",
 
-  "domain": "is-not-a.dev",
-  "subdomain": "_github-pages-challenge-vrahmanov.vrahmanov",
+  "domain": "is-cool.dev",
+  "subdomain": "_github-pages-challenge-vrahmanov.vladi-rahmanov",
 
   "owner": {
     "repo": "https://github.com/vrahmanov/vrahmanov.github.io",
@@ -10,7 +10,7 @@
   },
 
   "record": {
-     "TXT": ["baace366519fe9024dc6705b28aa2a"]
+     "TXT": ["7b1221fa806ea916fd5b1eee69c21d"]
   },
 
   "proxied": false

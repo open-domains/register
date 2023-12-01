@@ -1,0 +1,14 @@
+{
+    "domain": "is-cool.dev",
+    "subdomain": "eaglenetwork",
+
+    "owner": {
+        "email": "aaravlonkar@gmail.com"
+    },
+
+    "record": {
+        "A": ["213.251.171.75"]
+    },
+
+    "proxied": false
+}

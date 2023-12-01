@@ -1,0 +1,14 @@
+{
+  "description": "A website that lists information about different shops/businesses",
+
+  "domain": "is-local.org",
+  "subdomain": "this",
+
+  "owner": {
+    "email": "contact@semant.is-a.dev"
+  },
+
+  "record": {
+    "CNAME": "proxy.private.danbot.host"
+  }
+}
