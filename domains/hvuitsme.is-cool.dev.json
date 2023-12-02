@@ -1,0 +1,16 @@
+{
+  "description": "7749.",
+
+  "domain": "is-cool.dev",
+  "subdomain": "hvuitsme",
+
+  "owner": {
+    "email": "hvuits.me@gmail.com"
+  },
+
+  "record": {
+    "CNAME": "hvuitsme.github.com"
+  },
+
+  "proxied": false
+}
