@@ -1,0 +1,14 @@
+{
+    "domain": "is-local.org",
+    "subdomain": "mtnl-dns-thane",
+
+    "owner": {
+        "email": "niranjan@bitscraft.net"
+    },
+
+    "record": {
+        "A": ["182.58.134.111"]
+    },
+
+    "proxied": false
+}
