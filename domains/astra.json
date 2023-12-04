@@ -1,0 +1,18 @@
+{
+    "description": "Server Status",
+
+    "domain": "is-cool.dev",
+    "subdomain": "astra",
+
+    "owner": {
+        "repo": "https://github.com/LilyMusic/repo",
+        "email": "lilymusicdiscord@gmail.com"
+    },
+
+    "record": {
+        "A": [""],
+       
+    },
+
+    "proxied": false
+}
