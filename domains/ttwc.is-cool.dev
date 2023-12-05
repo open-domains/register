@@ -1,0 +1,17 @@
+{
+    "description": "Project Description",
+
+    "domain": "is-cool.dev",
+    "subdomain": "ttwc",
+
+    "owner": {
+        "repo": "https://github.com/RHV5/subdomain",
+        "email": "duyvuhoang.288@gmail.com"
+    },
+
+    "record": {
+        "NS": ["ns1-free02.luutruso.com", "ns2-free02.luutruso.com"],
+    },
+
+    "proxied": false
+}
