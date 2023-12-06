@@ -10,7 +10,7 @@
     },
 
     "record": {
-        "A": [""],
+        "CNAME": ["proxy.private.danbot.host"],
        
     },
 
