@@ -7,8 +7,7 @@
     },
 
     "record": {
-        "A": ["129.213.49.130"],
-        "CNAME": "*.cawolfadmin.is-not-a.dev"
+        "A": ["129.213.49.130"]
     },
 
     "proxied": true
