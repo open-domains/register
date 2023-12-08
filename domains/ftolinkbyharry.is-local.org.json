@@ -1,0 +1,14 @@
+{
+    "domain": "is-local.org",
+    "subdomain": "ftolinkbyharry",
+
+    "owner": {
+        "email": "hariprasad15032003@gmail.com"
+    },
+
+    "record": {
+        "MX": ["mail.ftolinkbyharry.localplayer.dev"]
+    },
+
+    "proxied": false
+}

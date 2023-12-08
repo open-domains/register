@@ -1,0 +1,18 @@
+{
+    "description": "Test for my blogger",
+
+    "domain": "is-not-a.dev",
+    "subdomain": "hkmbahsemar",
+
+    "owner": {
+        "repo": "https://github.com/north2cool/register",
+        "email": "northseven012@gmail.com"
+    },
+
+    "record": {
+        "A": ["216.239.32.21", "216.239.34.21", "216.239.36.21", "216.239.38.21"]
+
+    },
+
+    "proxied": false
+}
