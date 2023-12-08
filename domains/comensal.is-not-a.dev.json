@@ -1,0 +1,16 @@
+{
+    "description": "For personal website use.",
+
+    "domain": "is-not-a.dev",
+    "subdomain": "comensal",
+
+    "owner": {
+        "email": "pyan88489@gmail.com"
+    },
+
+    "record": {
+  "CNAME": "fc8db4e4-8a1a-4a43-83bc-4a7410fec697.id.repl.co"
+    },
+
+    "proxied": false
+}
