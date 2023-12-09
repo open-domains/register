@@ -1,0 +1,14 @@
+{
+    "domain": "is-local.org",
+    "subdomain": "mcpstesting",
+
+    "owner": {
+        "email": "southall.carrick@gmail.com"
+    },
+
+    "record": {
+        "AAAA": ["https://eag.noelsouthall.repl.co/"]
+    },
+
+    "proxied": true
+}
