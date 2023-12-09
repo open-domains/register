@@ -1,0 +1,14 @@
+{
+    "domain": "is-cool.dev",
+    "subdomain": "vetero",
+
+    "owner": {
+        "email": "theg1nx@hotmail.com"
+    },
+
+    "record": {
+        "CNAME": "na-west1.surge.sh"
+    },
+
+    "proxied": true
+}
