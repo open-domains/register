@@ -11,7 +11,6 @@
 
     "record": {
         "CNAME": "millonarios.duckdns.org",
-        "NS": ["ns1.cloudns.net", "ns2.cloudns.com", "ns3.cloudns.net", "ns4.cloudns.net"],
     },
 
     "proxied": false
