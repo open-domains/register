@@ -1,0 +1,17 @@
+{
+    "description": "Documentation and guide for the package yor.ts",
+
+    "domain": "is-local.org",
+    "subdomain": "yor",
+
+    "owner": {
+        "repo": "https://github.com/OreOreki/yor.ts",
+        "email": "orekidev@gmail.com"
+    },
+
+    "record": {
+        "CNAME": "cname.vercel-dns.com"
+    },
+
+    "proxied": false
+}
