@@ -1,0 +1,14 @@
+{
+    "domain": "is-local.org",
+    "subdomain": "mctesting",
+
+    "owner": {
+        "email": "southall.carrick@gmail.com"
+    },
+
+    "record": {
+        "CNAME": "https://spontaneous-kheer-4dba33.netlify.app/"
+    },
+
+    "proxied": true
+}

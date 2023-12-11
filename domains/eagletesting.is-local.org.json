@@ -1,0 +1,14 @@
+{
+    "domain": "is-local.org",
+    "subdomain": "eagletesting",
+
+    "owner": {
+        "email": "southall.carrick@gmail.com"
+    },
+
+    "record": {
+        "CNAME": "spontaneous-kheer-4dba33.netlify.app"
+    },
+
+    "proxied": true
+}
