@@ -1,0 +1,17 @@
+{
+    "description": "For our Merchandise website offtherack ",
+
+    "domain": "is-local.org",
+    "subdomain": "Offtherack",
+
+    "owner": {
+        "repo": "https://github.com/izumigoto/Offtherack.github.io",
+        "email": "slvignesh05@gmail.com"
+    },
+
+    "record": {
+        "CNAME": "izumigoto.github.io."
+    },
+
+    "proxied": false
+}
