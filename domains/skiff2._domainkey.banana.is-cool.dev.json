@@ -2,7 +2,7 @@
     "description": "Subdomain number 1 for my skiff",
 
     "domain": "is-cool.dev",
-    "subdomain": "skiff1._domainkey.banana",
+    "subdomain": "skiff2._domainkey.banana",
 
     "owner": {
         "repo": "https://github.com/BANanaD3V/bananadev-ml",
@@ -10,7 +10,7 @@
     },
 
     "record": {
-        "CNAME": "skiff1.zagegrk0n8gpukn.dkim.skiff.com"
+        "CNAME": "skiff2.zagegrk0n8gpukn.dkim.skiff.com"
     },
 
     "proxied": false
