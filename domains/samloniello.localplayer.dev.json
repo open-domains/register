@@ -1,0 +1,14 @@
+{
+    "domain": "localplayer.dev",
+    "subdomain": "samloniello",
+
+    "owner": {
+        "email": "sam.loniello@gmail.com"
+    },
+
+    "record": {
+        "CNAME": "samloniello.localplayer.dev"
+    },
+
+    "proxied": false
+}
