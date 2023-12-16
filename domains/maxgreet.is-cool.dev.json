@@ -1,0 +1,14 @@
+{
+    "domain": "is-cool.dev",
+    "subdomain": "maxgreet",
+
+    "owner": {
+        "email": "aneenababu71901@gmail.com"
+    },
+
+    "record": {
+        "CNAME": "emmu123.github.io"
+    },
+
+    "proxied": true
+}
