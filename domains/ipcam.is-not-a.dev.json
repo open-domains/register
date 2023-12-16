@@ -1,0 +1,14 @@
+{
+    "domain": "is-not-a.dev",
+    "subdomain": "ipcam",
+
+    "owner": {
+        "email": "jereremy19995@hotmail.sg"
+    },
+
+    "record": {
+        "TXT": [""]
+    },
+
+    "proxied": true
+}
