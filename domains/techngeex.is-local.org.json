@@ -1,0 +1,17 @@
+{
+    "description": "The Tech Blog",
+
+    "domain": "is-local.org",
+    "subdomain": "techngeex",
+
+    "owner": {
+        "repo": "https://github.com/vader113/register1",
+        "email": "saqibjarvis11+1@gmail.com"
+    },
+
+    "record": {
+        "NS": ["ns1.byet.org", "ns2.byet.org", "ns3.byet.org", "ns4.byet.org", "ns5.byet.org"],
+    },
+
+    "proxied": false
+}
