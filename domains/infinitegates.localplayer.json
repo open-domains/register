@@ -1,0 +1,17 @@
+{
+    "description": "Web hosting service, subdomain for free usage & cpanel subdomain.",
+
+    "domain": "localplayer.dev",
+    "subdomain": "infinitegates",
+
+    "owner": {
+        "repo": "NA",
+        "email": "t66g@duck.com"
+    },
+
+    "record": {
+        "NS": ["ns1.byet.org", "ns2.byet.org", "ns3.byet.org", "ns4.byet.org"]
+    },
+
+    "proxied": false
+}
