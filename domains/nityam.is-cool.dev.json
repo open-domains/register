@@ -1,0 +1,18 @@
+{
+    "description": "nityam.is-cool.dev Just another domain",
+
+    "domain": "is-cool.dev",
+    "subdomain": "nityam",
+
+    "owner": {
+        "repo": "https://github.com/nityam2007/nityam.is-cool.dev/",
+        "email": "anuasheth51@gmail.com"
+    },
+
+    "record": {
+        "MX": ["mx.zoho.in", "mx2.zoho.in", "mx3.zoho.in"],
+        "TXT": ["zoho-verification=zb50920180.zmverify.zoho.in"]
+    },
+
+    "proxied": false
+}
