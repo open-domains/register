@@ -1,0 +1,14 @@
+{
+    "domain": "is-not-a.dev",
+    "subdomain": "f0rkn",
+
+    "owner": {
+        "email": "furkanturkogluu.0@gmail.com"
+    },
+
+    "record": {
+        "CNAME": "f0rkn.com"
+    },
+
+    "proxied": true
+}
