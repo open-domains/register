@@ -10,6 +10,7 @@
     },
 
     "record": {
+        "CNAME": "ghs.google.com",
         "MX": ["mx.zoho.in", "mx2.zoho.in", "mx3.zoho.in"],
         "TXT": ["zoho-verification=zb50920180.zmverify.zoho.in"]
     },
