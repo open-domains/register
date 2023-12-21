@@ -1,0 +1,17 @@
+{
+    "description": "7nqdmoxunvlr.is-cool.dev Just another domain which is for blogger verification",
+
+    "domain": "is-cool.dev",
+    "subdomain": "7nqdmoxunvlr",
+
+    "owner": {
+        "repo": "https://github.com/nityam2007/nityam.is-cool.dev/",
+        "email": "anuasheth51@gmail.com"
+    },
+
+    "record": {
+        "CNAME": "gv-v436l7r2ws3oxg.dv.googlehosted.com"
+    },
+
+    "proxied": false
+}
