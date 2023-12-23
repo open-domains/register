@@ -15,6 +15,5 @@
         "NS": ["dns1.serv00.com", "dns2.serv00.com"],
         "TXT": ["v=spf1 mx a include:mail0.serv00.com -all"]
     },
-
     "proxied": false
 }
