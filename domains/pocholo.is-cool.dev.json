@@ -1,0 +1,17 @@
+{
+    "description": "Domain for Home-Server Dashboard",
+
+    "domain": "is-cool.dev",
+    "subdomain": "pocholo",
+
+    "owner": {
+        "repo": "https://github.com/pocholo30",
+        "email": "poxhi30@gmail.com"
+    },
+
+    "record": {
+        "CNAME": "pocholo.wip.la"
+    },
+
+    "proxied": false
+}

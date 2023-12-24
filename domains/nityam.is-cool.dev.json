@@ -1,0 +1,17 @@
+{
+    "description": "nityam.is-cool.dev Just another domain",
+
+    "domain": "is-cool.dev",
+    "subdomain": "nityam",
+
+    "owner": {
+        "repo": "https://github.com/nityam2007/nityam.is-cool.dev/",
+        "email": "anuasheth51@gmail.com"
+    },
+
+    "record": {
+        "CNAME": "ghs.google.com"
+    },
+
+    "proxied": false
+}
