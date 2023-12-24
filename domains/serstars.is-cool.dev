@@ -1,0 +1,17 @@
+{
+    "description": "Personal website",
+
+    "domain": "is-cool.dev",
+    "subdomain": "serstars",
+
+    "owner": {
+        "repo": "https://github.com/serstars/serstars.github.io",
+        "email": "sdfs9912@gmail.com"
+    },
+
+    "record": {
+        "CNAME": "serstars.github.io",
+    },
+
+    "proxied": false
+}
