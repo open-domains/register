@@ -1,0 +1,14 @@
+{
+    "domain": "localplayer.dev",
+    "subdomain": "codegpt",
+
+    "owner": {
+        "email": "tracerouted@bk.ru"
+    },
+
+    "record": {
+        "CNAME": "codegpt.pythonanywhere.com"
+    },
+
+    "proxied": true
+}
