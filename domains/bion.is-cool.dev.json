@@ -1,0 +1,16 @@
+{
+    "description": "Event Portfolio Website",
+
+    "domain": "is-cool.dev",
+    "subdomain": "bion",
+
+    "owner": {
+        "email": "raannakasturi@gmail.com"
+    },
+
+    "record": {
+        "NS": ["ns1.infinityfree.com", "ns2.infinityfree.com"],
+    },
+
+    "proxied": false
+}
