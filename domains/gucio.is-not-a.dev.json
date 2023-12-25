@@ -1,0 +1,14 @@
+{
+    "domain": "is-not-a.dev",
+    "subdomain": "gucio",
+
+    "owner": {
+        "email": "szymgut2008@wp.pl"
+    },
+
+    "record": {
+        "TXT": ["did=did:plc:g3uephukose6yxogznv52xck"]
+    },
+
+    "proxied": false
+}
