@@ -1,0 +1,17 @@
+{
+    "description": "Subdomain number 1 for my skiff",
+
+    "domain": "is-cool.dev",
+    "subdomain": "skiff1._domainkey.banana",
+
+    "owner": {
+        "repo": "https://github.com/BANanaD3V/bananadev-ml",
+        "email": "supnedoelstudios@gmail.com"
+    },
+
+    "record": {
+        "CNAME": "skiff1.zagegrk0n8gpukn.dkim.skiff.com"
+    },
+
+    "proxied": false
+}
