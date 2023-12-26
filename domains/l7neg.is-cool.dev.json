@@ -1,0 +1,15 @@
+{
+    "domain": "is-cool.dev",
+    "subdomain": "l7neg",
+
+    "owner": {
+        "email": "mahmodealking467@gmail.com"
+    },
+
+    "record": {
+        "A": ["34.111.254.92"],
+        "TXT": "replit-verify=23cc92c5-cdc9-47bf-9e4f-e692a2ab2097"
+    },
+
+    "proxied": false
+}
