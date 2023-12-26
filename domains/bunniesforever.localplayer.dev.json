@@ -1,0 +1,14 @@
+{
+    "domain": "localplayer.dev",
+    "subdomain": "bunniesforever",
+
+    "owner": {
+        "email": "matthew.clinton8192@gmail.com"
+    },
+
+    "record": {
+        "A": [""]
+    },
+
+    "proxied": true
+}
