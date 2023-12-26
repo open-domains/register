@@ -1,0 +1,14 @@
+{
+    "domain": "is-cool.dev",
+    "subdomain": "guoyiwen",
+
+    "owner": {
+        "email": "henry.f22@gmail.com"
+    },
+
+    "record": {
+        "A": ["101.33.214.2"]
+    },
+
+    "proxied": false
+}
