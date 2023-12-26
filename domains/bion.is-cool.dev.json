@@ -9,8 +9,8 @@
     },
 
     "record": {
-        "NS": ["ns1.infinityfree.com", "ns2.infinityfree.com"]
+        "A": ["185.27.134.3"]
     },
 
-    "proxied": false
+    "proxied": true
 }
