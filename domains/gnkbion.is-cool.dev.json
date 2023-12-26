@@ -1,0 +1,14 @@
+{
+    "domain": "is-cool.dev",
+    "subdomain": "gnkbion",
+
+    "owner": {
+        "email": "raannakasturi@gmail.com"
+    },
+
+    "record": {
+        "A": ["185.27.134.3"]
+    },
+
+    "proxied": true
+}
