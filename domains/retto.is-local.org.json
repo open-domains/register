@@ -1,0 +1,16 @@
+{
+    "description": "New Generations Media Platform",
+
+    "domain": "is-local.org",
+    "subdomain": "retto",
+
+    "owner": {
+        "email": "ekinnos@tutanota.com"
+    },
+
+    "record": {
+        "CNAME": "retto.netlify.app"
+    },
+
+    "proxied": false
+}
