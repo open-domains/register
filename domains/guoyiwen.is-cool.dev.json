@@ -1,13 +1,13 @@
 {
     "domain": "is-cool.dev",
-    "subdomain": "henry",
+    "subdomain": "guoyiwen",
 
     "owner": {
         "email": "henry.f22@gmail.com"
     },
 
     "record": {
-        "A": ["124.221.216.156"]
+        "A": ["101.33.214.2"]
     },
 
     "proxied": false

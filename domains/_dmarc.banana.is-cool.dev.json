@@ -1,0 +1,17 @@
+{
+    "description": "Subdomain number 3 for my skiff",
+
+    "domain": "is-cool.dev",
+    "subdomain": "_dmarc.banana",
+
+    "owner": {
+        "repo": "https://github.com/BANanaD3V/bananadev-ml",
+        "email": "supnedoelstudios@gmail.com"
+    },
+
+    "record": {
+        "TXT": ["v=DMARC1; p=reject; pct=100; adkim=s; aspf=s"]
+    },
+
+    "proxied": false
+}
