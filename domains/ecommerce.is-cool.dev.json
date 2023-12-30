@@ -1,0 +1,14 @@
+{
+    "domain": "is-cool.dev",
+    "subdomain": "ecommerce",
+
+    "owner": {
+        "email": "thanhbcph28992@fpt.edu.vn"
+    },
+
+    "record": {
+        "A": [""]
+    },
+
+    "proxied": true
+}
