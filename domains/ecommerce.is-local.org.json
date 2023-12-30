@@ -1,0 +1,14 @@
+{
+    "domain": "is-local.org",
+    "subdomain": "ecommerce",
+
+    "owner": {
+        "email": "thanhbcph28992@fpt.edu.vn"
+    },
+
+    "record": {
+        "A": ["1.1.1.1"]
+    },
+
+    "proxied": true
+}
