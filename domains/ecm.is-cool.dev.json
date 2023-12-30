@@ -1,0 +1,14 @@
+{
+    "domain": "is-cool.dev",
+    "subdomain": "ecm",
+
+    "owner": {
+        "email": "thanhbcph28992@fpt.edu.vn"
+    },
+
+    "record": {
+        "CNAME": "vhoang140299.github.io"
+    },
+
+    "proxied": true
+}
