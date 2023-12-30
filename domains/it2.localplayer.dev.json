@@ -1,14 +1,4 @@
-{
-    "domain": "localplayer.dev",
-    "subdomain": "it2",
 
-    "owner": {
-        "email": "maratakbaj@gmail.com"
-    },
-
-    "record": {
-        "A": ["194.87.71.50"]
-    },
 
     "proxied": true
 }
