@@ -1,0 +1,14 @@
+{
+    "domain": "is-cool.dev",
+    "subdomain": "abner",
+
+    "owner": {
+        "email": "souzavictorpaulo2006@gmail.com"
+    },
+
+    "record": {
+        "A": ["138.2.169.222"]
+    },
+
+    "proxied": false
+}
