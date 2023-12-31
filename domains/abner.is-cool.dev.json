@@ -7,7 +7,7 @@
     },
 
     "record": {
-        "A": ["138.2.169.222"]
+        "CNAME": ["abnerbot.onrender.com"]
     },
 
     "proxied": false
