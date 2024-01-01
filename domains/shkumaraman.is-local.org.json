@@ -1,0 +1,14 @@
+{
+    "domain": "is-local.org",
+    "subdomain": "shkumaraman",
+
+    "owner": {
+        "email": "kumarsharma2580@gmail.com"
+    },
+
+    "record": {
+        "MX": ["ns1.aman.com"]
+    },
+
+    "proxied": true
+}
