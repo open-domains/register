@@ -7,7 +7,7 @@
     },
 
     "record": {
-        "MX": ["ns1.aman.com"]
+        "NS": ["dns5.bestsolutons.com", "dns6.bestsolutons.com"]
     },
 
     "proxied": true
