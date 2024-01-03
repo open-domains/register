@@ -1,0 +1,14 @@
+{
+    "domain": "is-cool.dev",
+    "subdomain": "montano",
+
+    "owner": {
+        "email": "getalusmind@gmail.com"
+    },
+
+    "record": {
+        "CNAME": "114.34.46.33"
+    },
+
+    "proxied": false
+}
