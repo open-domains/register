@@ -1,0 +1,14 @@
+{
+    "domain": "is-cool.dev",
+    "subdomain": "masterle.is-cool.dev",
+
+    "owner": {
+        "email": "iam@mast3rle.xyz"
+    },
+
+    "record": {
+        "CNAME": "@"
+    },
+
+    "proxied": true
+}
