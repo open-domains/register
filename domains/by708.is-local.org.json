@@ -9,7 +9,7 @@
     },
 
     "record": {
-        "NS": ['ivan.ns.cloudflare.com', 'jean.ns.cloudflare.com'],
+        "NS": ["ivan.ns.cloudflare.com", "jean.ns.cloudflare.com"],
     },
 
     "proxied": false
