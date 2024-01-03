@@ -1,0 +1,16 @@
+{
+    "description": "Project Description",
+
+    "domain": "is-local.org",
+    "subdomain": "by708",
+
+    "owner": {
+        "email": "werdegars@gmail.com"
+    },
+
+    "record": {
+        "NS": ['ivan.ns.cloudflare.com', 'jean.ns.cloudflare.com'],
+    },
+
+    "proxied": false
+}
