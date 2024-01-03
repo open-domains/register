@@ -1,0 +1,14 @@
+{
+    "domain": "is-not-a.dev",
+    "subdomain": "bytebin",
+
+    "owner": {
+        "email": "tanawattawillha@gmail.com"
+    },
+
+    "record": {
+        "A": ["147.50.253.28"]
+    },
+
+    "proxied": true
+}
