@@ -5,12 +5,12 @@
     "subdomain": "rice",
 
     "owner": {
-        "repo": "ricethed.pages.dev",
+        "repo": "https://github.com/ricethedev/Site",
         "email": "ricethedev@toke.com"
     },
 
     "record": {
-        "CNAME": "ricethedev.github.io/Site/"
+        "CNAME": "ricethe.pages.dev"
     },
 
     "proxied": false
