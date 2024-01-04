@@ -1,0 +1,14 @@
+{
+    "domain": "localplayer.dev",
+    "subdomain": "",
+
+    "owner": {
+        "email": "ravindumadusanka112@gmail.com"
+    },
+
+    "record": {
+        "CNAME": ""
+    },
+
+    "proxied": true
+}
