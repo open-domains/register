@@ -1,0 +1,14 @@
+{
+    "domain": "is-cool.dev",
+    "subdomain": "prathamesh",
+
+    "owner": {
+        "email": "prathameshj0407@gmail.com"
+    },
+
+    "record": {
+        "CNAME": "prathamesh"
+    },
+
+    "proxied": true
+}
