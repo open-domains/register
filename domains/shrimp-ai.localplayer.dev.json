@@ -8,7 +8,6 @@
 
     "record": {
         "A": ["34.36.146.212"]
-        "NS": ["ns-cloud-c1.googledomains.com","ns-cloud-c2.googledomains.com","ns-cloud-c3.googledomains.com","ns-cloud-c4.googledomains.com"]
     },
 
     "proxied": false
