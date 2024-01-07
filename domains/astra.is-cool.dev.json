@@ -1,0 +1,11 @@
+{
+    "domain": "is-cool.dev",
+    "subdomain": "astra",
+    "owner": {
+        "email": "lilymusicdiscord@gmail.com"
+    },
+    "record": {
+        "A": ["69.30.249.53"]
+    },
+    "proxied": false
+}
