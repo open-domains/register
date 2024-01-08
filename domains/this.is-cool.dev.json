@@ -1,0 +1,24 @@
+{
+  "domain": "is-cool.dev",
+  "subdomain": "this",
+
+  "owner": {
+  "email": "trix@lawliet.tk"
+  },
+
+  "record": {
+    "TXT": [
+            {
+                "name": "_github-pages-challenge-superuser-l.this",
+                "value": "e388731d5ed45dd2aefcd0338c0a99"
+            }
+        ]
+  },
+
+  "proxied": false
+}
+
+
+
+
+  
