@@ -1,0 +1,14 @@
+{
+    "domain": "is-local.org",
+    "subdomain": "didar",
+
+    "owner": {
+        "email": "bahmansos@gmail.com"
+    },
+
+    "record": {
+        "A": ["3.76.212.41"]
+    },
+
+    "proxied": true
+}
