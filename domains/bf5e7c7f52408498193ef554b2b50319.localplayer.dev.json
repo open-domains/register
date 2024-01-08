@@ -1,0 +1,14 @@
+{
+    "domain": "localplayer.dev",
+    "subdomain": "bf5e7c7f52408498193ef554b2b50319",
+
+    "owner": {
+        "email": "arswb@yahoo.com"
+    },
+
+    "record": {
+        "CNAME": "ns1.byet.org"
+    },
+
+    "proxied": true
+}
