@@ -8,9 +8,10 @@
 
   "record": {
     "CNAME": "superuser-l.github.io",
+
     "TXT": [
       {
-        "name": "_github-pages-challenge-superuser-l.this",
+        "name": "_github-pages-challenge-superuser-l",
         "value": "e388731d5ed45dd2aefcd0338c0a99"
       }
     ]
