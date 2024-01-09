@@ -1,0 +1,17 @@
+{
+    "description": "Project Description",
+
+    "domain": "localplayer.dev",
+    "subdomain": "applications.clidewoodrealm",
+
+    "owner": {
+        "repo": "https://github.com/username/repo",
+        "email": "hello@example.com"
+    },
+
+    "record": {
+        "A": ["69.30.249.53"],
+    },
+
+    "proxied": false
+}
