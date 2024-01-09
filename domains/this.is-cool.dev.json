@@ -1,0 +1,14 @@
+{
+  "domain": "is-cool.dev",
+  "subdomain": "this",
+
+  "owner": {
+    "email": "trix@lawliet.tk"
+  },
+
+  "record": {
+    "CNAME": "superuser-l.github.io"
+  },
+
+  "proxied": false
+}
