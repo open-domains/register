@@ -1,0 +1,17 @@
+{
+    "description": "A simple countdown website",
+
+    "domain": "is-cool.dev",
+    "subdomain": "justincodingprojects",
+
+    "owner": {
+        "repo": "https://github.com/justincodingprojects/automated-countdown-generator-reborn",
+        "email": ""
+    },
+
+    "record": {
+        "CNAME": "justincodingprojects.github.io"
+    },
+
+    "proxied": false
+}
