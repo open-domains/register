@@ -1,0 +1,14 @@
+{
+    "domain": "is-cool.dev",
+    "subdomain": "ternvart",
+
+    "owner": {
+        "email": "prayogakeyza@gmail.com"
+    },
+
+    "record": {
+        "A": ["172.105.120.201"]
+    },
+
+    "proxied": true
+}
