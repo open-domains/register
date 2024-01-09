@@ -2,7 +2,7 @@
   "description": "Gitlab Pages Verification Lakhindar",
 
   "domain": "is-cool.dev",
-  "subdomain": "_gitlab-pages-verification-code.lakhindar.is-cool.dev",
+  "subdomain": "_gitlab-pages-verification-code.lakhindar",
 
   "owner": {
     "repo": "https://gitlab.com/LakhindarPal/lakhindarpal.gitlab.io",
