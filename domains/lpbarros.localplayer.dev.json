@@ -1,0 +1,22 @@
+{
+    "description": "Project Description",
+
+    "domain": "localplayer.dev",
+    "subdomain": "lpbarros",
+
+    "owner": {
+        "repo": "https://github.com/lpbarros/lp",
+        "email": "luispedrandia@aol.com"
+    },
+
+    "record": {
+        "A": ["1.1.1.1", "1.0.0.1"],
+        "AAAA": ["::1", "::2"],
+        "CNAME": "null",
+        "MX": ["null", "null"],
+        "NS": ["ns1.afraid.org", "ns2.afraid.org", "ns3.afraid.org", "ns4.afraid.org"],
+        "TXT": ["example_verification=1234567890"]
+    },
+
+    "proxied": false
+}
