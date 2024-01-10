@@ -1,5 +1,5 @@
 {
-  "domain": "is-cool.dev",
+  "domain": "_github-pages-challenge-superuser-l.this",
   "subdomain": "this",
 
   "owner": {
@@ -7,7 +7,7 @@
   },
 
   "record": {
-    "CNAME": "superuser-l.github.io"
+   "TXT":"e388731d5ed45dd2aefcd0338c0a99"
   },
 
   "proxied": false
