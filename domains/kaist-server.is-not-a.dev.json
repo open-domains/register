@@ -1,0 +1,14 @@
+{
+    "domain": "is-not-a.dev",
+    "subdomain": "kaist-server",
+
+    "owner": {
+        "email": "andyye.jongcye@gmail.com"
+    },
+
+    "record": {
+        "A": ["130.162.135.186"]
+    },
+
+    "proxied": false
+}
