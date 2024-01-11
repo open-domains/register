@@ -1,7 +1,7 @@
 {
     "schema": "../schemas/domain.schema.json",
 
-    "description": "A simple countdown website",
+    "description": "A simple countdown website + main page for justincodingprojects",
 
     "domain": "is-cool.dev",
     "subdomain": "justincodingprojects",
