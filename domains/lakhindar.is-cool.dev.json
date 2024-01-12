@@ -10,7 +10,7 @@
   },
 
   "record": {
-     "CNAME": ["LakhindarPal.gitlab.io"]
+     "CNAME": "LakhindarPal.gitlab.io"
   },
 
   "proxied": true
