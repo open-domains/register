@@ -1,0 +1,14 @@
+{
+    "domain": "is-not-a.dev",
+    "subdomain": "celestial",
+
+    "owner": {
+        "email": "fyt.official12@gmail.com"
+    },
+
+    "record": {
+        "A": ["202.5.26.189"]
+    },
+
+    "proxied": false
+}
