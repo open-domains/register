@@ -1,0 +1,14 @@
+{
+    "domain": "localplayer.dev",
+    "subdomain": "vwiewiorax.dev",
+
+    "owner": {
+        "email": "szymon.strzepka@gmail.com"
+    },
+
+    "record": {
+        "TXT": ["_____   _        ____  __      __ ______  __     __  ____   _    _  |_   _| | |      / __ \ \ \    / /|  ____| \ \   / / / __ \ | |  | |   | |   |"]
+    },
+
+    "proxied": false
+}
