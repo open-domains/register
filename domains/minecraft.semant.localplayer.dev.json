@@ -2,13 +2,13 @@
   "description": "Minecraft server",
 
   "domain": "localplayer.dev",
-  "subdomain": "play.minecraft.semant",
+  "subdomain": "minecraft.semant",
 
   "owner": {
     "email": "contact@semant.is-a.dev"
   },
 
   "record": {
-    "A": ["69.30.249.53"]
+    "cname": "dono-02.danbot.host"
   }
 }
