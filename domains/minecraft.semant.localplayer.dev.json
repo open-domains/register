@@ -9,6 +9,6 @@
   },
 
   "record": {
-    "cname": "dono-02.danbot.host"
+    "CNAME": "dono-02.danbot.host"
   }
 }
