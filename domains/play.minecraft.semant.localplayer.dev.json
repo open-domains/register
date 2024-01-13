@@ -9,6 +9,6 @@
   },
 
   "record": {
-    "NS": ["galileo.aternos.org", "columbus.aternos.org"]
+    "A": ["69.30.249.53"]
   }
 }
