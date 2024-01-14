@@ -2,13 +2,13 @@
   "description": "Minecraft server",
 
   "domain": "localplayer.dev",
-  "subdomain": "play.minecraft.semant",
+  "subdomain": "minecraft.semant",
 
   "owner": {
     "email": "contact@semant.is-a.dev"
   },
 
   "record": {
-    "NS": ["galileo.aternos.org", "columbus.aternos.org"]
+    "CNAME": "dono-02.danbot.host"
   }
 }
