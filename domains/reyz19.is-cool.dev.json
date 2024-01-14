@@ -10,5 +10,5 @@
         "A": ["13.48.44.28"]
     },
 
-    "proxied": false
+    "proxied": true
 }
