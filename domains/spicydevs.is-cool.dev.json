@@ -10,7 +10,7 @@
     },
 
     "record": {
-        "CNAME": "spicydevs.pages.dev",
+        "CNAME": "spicydevs.pages.dev"
     },
 
     "proxied": true
