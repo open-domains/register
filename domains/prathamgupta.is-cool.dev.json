@@ -1,0 +1,14 @@
+{
+    "domain": "is-cool.dev",
+    "subdomain": "prathamgupta",
+
+    "owner": {
+        "email": "gpratham522@gmail.com"
+    },
+
+    "record": {
+        "A": ["69.30.249.53"]
+    },
+
+    "proxied": true
+}
