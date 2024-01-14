@@ -12,9 +12,7 @@
     },
 
    "record": {
-    "CNAME": [
-      "justincodingprojects.github.io"
-    ]
+    "CNAME": "justincodingprojects.github.io"
   },
 
     "proxied": false
