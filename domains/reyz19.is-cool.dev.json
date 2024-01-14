@@ -1,0 +1,14 @@
+{
+    "domain": "is-cool.dev",
+    "subdomain": "reyz19",
+
+    "owner": {
+        "email": "reyztr@protonmail.ch"
+    },
+
+    "record": {
+        "A": ["13.48.44.28"]
+    },
+
+    "proxied": false
+}
