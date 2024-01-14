@@ -1,13 +1,23 @@
-{
-  "domain": "_github-pages-challenge-superuser-l.this",
-  "subdomain": "this",
+{]
+
+  "description": "wanna make bio and project sites throught github for me and my friends",
+  "domain": "is-cool.dev",
+  "subdomain": "_github-pages-challenge-superuser-l.this",
 
   "owner": {
+    "repo": "https://github.com/tr1xem",
+
     "email": "trix@lawliet.tk"
   },
 
   "record": {
-   "TXT":"e388731d5ed45dd2aefcd0338c0a99"
+    "CNAME":"superuser-l.github.io",
+    "TXT": ["e388731d5ed45dd2aefcd0338c0a99"],
+    "A"["185.199.108.153",
+        "185.199.109.153",
+        "185.199.110.153",
+        "185.199.111.153"]
+
   },
 
   "proxied": false
