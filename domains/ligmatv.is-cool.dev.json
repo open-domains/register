@@ -1,0 +1,17 @@
+{
+    "description": "This is for my default website, hope this subdomain accepted.",
+
+    "domain": "is-cool.dev",
+    "subdomain": "ligmatv",
+
+    "owner": {
+        "repo": "https://github.com/LIGMATV/Home",
+        "email": "ligmatv.id@gmail.com"
+    },
+
+    "record": {
+        "CNAME": "ligmatv.github.io"
+    },
+
+    "proxied": false
+}
