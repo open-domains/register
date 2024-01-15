@@ -1,0 +1,17 @@
+{
+  "description": "Gitlab Pages Verification Lakhindar",
+
+  "domain": "is-cool.dev",
+  "subdomain": "_gitlab-pages-verification-code.lakhindar",
+
+  "owner": {
+    "repo": "https://gitlab.com/LakhindarPal/lakhindarpal.gitlab.io",
+    "email": "dev.lakhindarpal@gmail.com"
+  },
+
+  "record": {
+     "TXT": ["gitlab-pages-verification-code=2cb879d5bf6dc60df8a00b4fd8542025"]
+  },
+
+  "proxied": false
+}

@@ -1,0 +1,14 @@
+{
+    "domain": "is-cool.dev",
+    "subdomain": "bba",
+
+    "owner": {
+        "email": "gourabmahalikadarsh@gmail.com"
+    },
+
+    "record": {
+        "CNAME": "ghs.google.com"
+    },
+
+    "proxied": false
+}
