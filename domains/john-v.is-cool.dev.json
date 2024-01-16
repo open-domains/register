@@ -1,0 +1,17 @@
+{
+    "description": "My personal portfolio website",
+
+    "domain": "is-cool.dev",
+    "subdomain": "john-v",
+
+    "owner": {
+        "repo": "https://github.com/kodchanat2/kodchanat2.github.io",
+        "email": "kodchanat2@gmail.com"
+    },
+
+    "record": {
+        "A": ["185.199.108.153","185.199.109.153","185.199.110.153","185.199.111.153"]
+    },
+
+    "proxied": false
+}

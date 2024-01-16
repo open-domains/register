@@ -1,0 +1,14 @@
+{
+    "domain": "is-cool.dev",
+    "subdomain": "_discord.li0ard",
+
+    "owner": {
+        "email": "li0ard@proton.me"
+    },
+
+    "record": {
+        "TXT": ["dh=cbd9543235921388846d0ec84fc069a4e54a68e6"]
+    },
+
+    "proxied": false
+}

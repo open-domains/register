@@ -1,0 +1,14 @@
+{
+    "domain": "is-cool.dev",
+    "subdomain": "whitehatdev",
+
+    "owner": {
+        "email": "subramaniarun.sj59@gmail.com"
+    },
+
+    "record": {
+        "CNAME": "zmverify.zoho.in"
+    },
+
+    "proxied": true
+}

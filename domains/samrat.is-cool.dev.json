@@ -1,0 +1,14 @@
+{
+    "domain": "is-cool.dev",
+    "subdomain": "samrat",
+
+    "owner": {
+        "email": "kamblesamrat60@gmail.com"
+    },
+
+    "record": {
+        "CNAME": "portfoliowebsite-eo9.pages.dev"
+    },
+
+    "proxied": false
+}

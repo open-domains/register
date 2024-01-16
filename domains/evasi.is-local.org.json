@@ -1,0 +1,14 @@
+{
+    "domain": "is-local.org",
+    "subdomain": "evasi",
+
+    "owner": {
+        "email": "pollardjackson@outlook.com"
+    },
+
+    "record": {
+        "CNAME": "evasi.onrender.com"
+    },
+
+    "proxied": false
+}

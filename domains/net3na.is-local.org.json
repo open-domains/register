@@ -1,0 +1,14 @@
+{
+    "domain": "is-local.org",
+    "subdomain": "net3na",
+
+    "owner": {
+        "email": "marsi591707@gmail.com"
+    },
+
+    "record": {
+        "A": ["185.206.180.80"]
+    },
+
+    "proxied": false
+}

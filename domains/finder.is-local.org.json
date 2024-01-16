@@ -1,0 +1,14 @@
+{
+    "domain": "is-local.org",
+    "subdomain": "finder",
+
+    "owner": {
+        "email": "jakoalberts@gmail.com"
+    },
+
+    "record": {
+        "A": ["45.148.30.39"]
+    },
+
+    "proxied": true
+}

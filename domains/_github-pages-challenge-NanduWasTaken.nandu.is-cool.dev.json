@@ -1,0 +1,15 @@
+{
+  "domain": "is-cool.dev",
+  "subdomain": "_github-pages-challenge-NanduWasTaken.nandu",
+
+  "owner": {
+    "repo": "https://github.com/nanduwastaken/nanduwastaken.github.io",
+    "email": "nandubussines@gmail.com"
+  },
+
+  "record": {
+    "TXT": ["4b93155913963e09ad45ac9c7d1543"]
+  },
+
+  "proxied": false
+}

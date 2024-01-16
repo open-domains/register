@@ -1,0 +1,14 @@
+{
+    "domain": "is-cool.dev",
+    "subdomain": "qwerty",
+
+    "owner": {
+        "email": "personqwertyperson88@gmail.com"
+    },
+
+    "record": {
+        "A": ["34.111.254.92"]
+    },
+
+    "proxied": false
+}
