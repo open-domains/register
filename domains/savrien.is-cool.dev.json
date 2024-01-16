@@ -1,0 +1,14 @@
+{
+    "domain": "is-cool.dev",
+    "subdomain": "savrien",
+
+    "owner": {
+        "email": "elijahwarner54@gmail.com"
+    },
+
+    "record": {
+        "CNAME": "fe02-181-214-153-232.ngrok-free.app"
+    },
+
+    "proxied": true
+}
