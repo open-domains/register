@@ -1,0 +1,14 @@
+{
+    "domain": "is-not-a.dev",
+    "subdomain": "uuus",
+
+    "owner": {
+        "email": "Ttrmaniacminecraft@gmail.com"
+    },
+
+    "record": {
+        "A": ["22"]
+    },
+
+    "proxied": false
+}
