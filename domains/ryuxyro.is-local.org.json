@@ -1,0 +1,11 @@
+{
+    "description": "Portfolio website",
+    "domain": "is-local.org",
+    "subdomain": "ryuxyro",
+    "owner": {
+        "repo:" "https://github.com/RyuXyro/ryuxyro.is-local.org",
+        "email": "guest@kazuo.rf.gd"
+    },
+    "record": {},
+    "proxied": false
+}
