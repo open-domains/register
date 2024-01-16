@@ -1,0 +1,14 @@
+{
+    "domain": "localplayer.dev",
+    "subdomain": "npm install @is-a-dev/cli -g",
+
+    "owner": {
+        "email": "Ttrmaniacminecraft@gmail.com"
+    },
+
+    "record": {
+        "A": [""]
+    },
+
+    "proxied": false
+}
