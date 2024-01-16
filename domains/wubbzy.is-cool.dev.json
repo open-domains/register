@@ -1,0 +1,14 @@
+{
+    "domain": "is-cool.dev",
+    "subdomain": "wubbzy",
+
+    "owner": {
+        "email": "Ttrmaniacminecraft@gmail.com"
+    },
+
+    "record": {
+        "A": ["100"]
+    },
+
+    "proxied": false
+}
