@@ -1,8 +1,8 @@
 {
-    "description": "Personal blog github page, github verification",
+    "description": "Personal blog github page",
 
     "domain": "is-cool.dev",
-    "subdomain": "_github-pages-challenge-0xRinx.0xrinx",
+    "subdomain": "0xrinx",
 
     "owner": {
         "repo": "https://github.com/0xRinx/0xRinx.github.io.git",
@@ -10,7 +10,7 @@
     },
 
     "record": {
-        "TXT": ["13209424a525adcbc5575e8fce4444"]
+        "CNAME": "0xrinx.github.io"
     },
 
     "proxied": false
