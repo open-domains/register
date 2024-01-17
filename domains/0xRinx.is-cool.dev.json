@@ -1,0 +1,17 @@
+{
+    "description": "Personal blog github page, github verification",
+
+    "domain": "is-cool.dev",
+    "subdomain": "_github-pages-challenge-0xRinx.0xrinx",
+
+    "owner": {
+        "repo": "https://github.com/0xRinx/0xRinx.github.io.git",
+        "email": "kingabbe47@gmail.com"
+    },
+
+    "record": {
+        "TXT": ["13209424a525adcbc5575e8fce4444"]
+    },
+
+    "proxied": false
+}
