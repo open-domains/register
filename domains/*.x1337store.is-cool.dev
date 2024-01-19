@@ -1,0 +1,19 @@
+{
+  "description": "Software store website",
+
+  "domain": "is-cool.dev",
+  "subdomain": "*.x1337store",
+
+  "owner": {
+    "email": "xowmik@gmail.com"
+  },
+
+  "record": {
+    "CNAME": [
+      "x1337store":"ghs.google.com",
+      "xxd72fnfsbcl":"gv-iw3epktlqx5gvx.dv.googlehosted.com"
+    ]
+  },
+
+  "proxied": false
+}
