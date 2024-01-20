@@ -1,0 +1,16 @@
+{
+    "description": "Discord RPG Bot",
+
+    "domain": "is-local.org",
+    "subdomain": "yuki",
+
+    "owner": {
+        "email": "orekidev@gmail.com"
+    },
+
+    "record": {
+        "CNAME": "bot-1lc.pages.dev"
+    },
+
+    "proxied": false
+}
