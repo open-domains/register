@@ -1,0 +1,14 @@
+{
+    "domain": "is-cool.dev",
+    "subdomain": "adityakhalkar",
+
+    "owner": {
+        "email": "khalkaraditya8@gmail.com"
+    },
+
+    "record": {
+        "TXT": ["meekomni"]
+    },
+
+    "proxied": true
+}
