@@ -7,8 +7,8 @@
     },
 
     "record": {
-        "A": ["13.48.44.28"]
+        "A": ["3.71.52.107"]
     },
 
-    "proxied": true
+    "proxied": false
 }
