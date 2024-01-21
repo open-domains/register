@@ -1,0 +1,14 @@
+{
+    "domain": "is-not-a.dev",
+    "subdomain": "nguyenthanhlong",
+
+    "owner": {
+        "email": "levinhkhang631@gmail.com"
+    },
+
+    "record": {
+        "TXT": ["vc-domain-verify=nguyenthanhlong.is-not-a.dev,b7df56895bac8e9e9138"]
+    },
+
+    "proxied": true
+}
