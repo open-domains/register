@@ -7,8 +7,8 @@
     },
 
     "record": {
-        "CNAME": "something"
+        "A": "185.27.134.177"
     },
 
-    "proxied": true
+    "proxied": false
 }
