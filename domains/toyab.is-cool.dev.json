@@ -1,0 +1,14 @@
+{
+    "domain": "is-cool.dev",
+    "subdomain": "toyab",
+
+    "owner": {
+        "email": "toyab.shaha@gmail.com"
+    },
+
+    "record": {
+        "CNAME": "something"
+    },
+
+    "proxied": true
+}
