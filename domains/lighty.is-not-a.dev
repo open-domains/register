@@ -1,11 +1,16 @@
 {
-        "owner": {
-           "username": "ssynical",
-           "email": "trapizoids543@gmail.com",
-           "discord": "1108616541739700284"
-        },
+  "description": "my service",
 
-        "record": {
-            "CNAME": "ssynical.github.io"
-        }
-    }
+  "domain": "is-not-a.dev",
+  "subdomain": "lighty",
+
+  "owner": {
+    "email": "trapizoids543@gmail.com"
+  },
+
+  "record": {
+    "CNAME": ["ssynical.github.io"] 
+  },
+
+  "proxied": true
+}
