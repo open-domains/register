@@ -1,0 +1,14 @@
+{
+    "domain": "localplayer.dev",
+    "subdomain": "thebettersam",
+
+    "owner": {
+        "email": "SamDuck@skiff.com"
+    },
+
+    "record": {
+        "CNAME": "hehehaw"
+    },
+
+    "proxied": false
+}
