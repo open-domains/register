@@ -1,0 +1,14 @@
+{
+    "domain": "is-cool.dev",
+    "subdomain": "snoopdesigns",
+
+    "owner": {
+        "email": "snoopdesigns@gmail.com"
+    },
+
+    "record": {
+        "CNAME": "ns1.ruvds.com"
+    },
+
+    "proxied": false
+}
