@@ -1,0 +1,14 @@
+{
+    "domain": "is-not-a.dev",
+    "subdomain": "krebs",
+
+    "owner": {
+        "email": "nullmc2205@gmail.com"
+    },
+
+    "record": {
+        "AAAA": ["2a0e:97c0:3e3:33a::18"]
+    },
+
+    "proxied": true
+}
