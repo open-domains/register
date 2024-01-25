@@ -9,7 +9,8 @@
     },
 
     "record": {
-        "CNAME": "bot-1lc.pages.dev"
+        "CNAME": "cname.vercel-dns.com",
+        "TXT": "vc-domain-verify=yuki.is-local.org,2e1a5aab03d921371903"
     },
 
     "proxied": false
