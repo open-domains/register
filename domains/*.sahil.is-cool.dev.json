@@ -1,0 +1,22 @@
+{
+    "description": "Developer Portfolio",
+
+    "domain": "is-cool.dev",
+    "subdomain": "sahil",
+
+    "owner": {
+        "repo": "https://github.com/SpicyDevSahil/Portfolio",
+        "email": "hypergango@gmail.com"
+    },
+
+    "record": {
+        "A": [""],
+        "AAAA": [""],
+        "CNAME": "portfolio-ev5.pages.dev",
+        "MX": [""],
+        "NS": [""],
+        "TXT": ["sahil"]
+    },
+
+    "proxied": false
+}
