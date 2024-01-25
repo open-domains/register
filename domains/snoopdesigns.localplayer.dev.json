@@ -1,0 +1,14 @@
+{
+    "domain": "localplayer.dev",
+    "subdomain": "snoopdesigns",
+
+    "owner": {
+        "email": "snoopdesigns@gmail.com"
+    },
+
+    "record": {
+        "AAAA": ["ns1.ruvds.com"]
+    },
+
+    "proxied": false
+}
