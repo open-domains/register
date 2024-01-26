@@ -1,0 +1,14 @@
+{
+    "domain": "is-cool.dev",
+    "subdomain": "indrico",
+
+    "owner": {
+        "email": "Indrico.jowensen@gmail.com"
+    },
+
+    "record": {
+        "A": ["1.1.1.1"]
+    },
+
+    "proxied": false
+}
