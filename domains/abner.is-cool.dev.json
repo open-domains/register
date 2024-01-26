@@ -1,0 +1,17 @@
+{
+  "description": "A amazing bot.",
+
+  "domain": "is-cool.dev",
+  "subdomain": "abner",
+
+  "owner": {
+    "email": "souzavictorpaulo2006@gmail.com"
+  },
+
+  "record": {
+    "A": "216.24.57.1",
+    "NS": ["chan.ns.cloudflare.com", "yevgen.ns.cloudflare.com"]
+  },
+
+  "proxied": true
+}
