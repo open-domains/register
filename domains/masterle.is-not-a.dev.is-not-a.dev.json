@@ -1,0 +1,14 @@
+{
+    "domain": "is-not-a.dev",
+    "subdomain": "masterle.is-not-a.dev",
+
+    "owner": {
+        "email": "iam@masterle.lol"
+    },
+
+    "record": {
+        "CNAME": "sites.cloudcannon.com"
+    },
+
+    "proxied": false
+}
