@@ -10,7 +10,7 @@
 
     "record": {
         "CNAME": "phocks.github.io",
-        "TXT": "google-site-verification=JjP_0AePB5a4Vse_Gmj7p9oVr3IYmHoBq03SEl2mL2I"
+        "TXT": ["google-site-verification=JjP_0AePB5a4Vse_Gmj7p9oVr3IYmHoBq03SEl2mL2I"]
     },
 
     "proxied": false
