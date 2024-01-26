@@ -1,0 +1,17 @@
+{
+    "description": "Personal website",
+
+    "domain": "is-not-a.dev",
+    "subdomain": "mtt",
+
+    "owner": {
+        "repo": "https://github.com/itzmtt/repo",
+        "discord": "itzmtt"
+    },
+
+    "record": {
+        "CNAME": "serve.obinode.com"
+    },
+
+    "proxied": false
+}
