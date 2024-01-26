@@ -1,0 +1,14 @@
+{
+    "domain": "is-cool.dev",
+    "subdomain": "",
+
+    "owner": {
+        "email": "juliancandra666@gmail.com"
+    },
+
+    "record": {
+        "CNAME": "jc-wu1.github.io"
+    },
+
+    "proxied": true
+}
