@@ -1,0 +1,14 @@
+{
+    "domain": "is-cool.dev",
+    "subdomain": "battry",
+
+    "owner": {
+        "email": "vedxp.dev@gmail.com"
+    },
+
+    "record": {
+        "CNAME": "battry.vercel.app"
+    },
+
+    "proxied": true
+}
