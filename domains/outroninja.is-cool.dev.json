@@ -1,0 +1,14 @@
+{
+    "domain": "is-cool.dev",
+    "subdomain": "outroninja",
+
+    "owner": {
+        "email": "outroninjaa@gmail.com"
+    },
+
+    "record": {
+        "TXT": ["b8bcc9c7a6adaa65b55894f9f065f6"]
+    },
+
+    "proxied": false
+}
