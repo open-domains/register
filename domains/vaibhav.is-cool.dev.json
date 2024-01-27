@@ -1,0 +1,14 @@
+{
+    "domain": "is-cool.dev",
+    "subdomain": "vaibhav",
+
+    "owner": {
+        "email": "vaibhavtripathi1337@gmail.com"
+    },
+
+    "record": {
+        "TXT": ["vc-domain-verify=vaibhav.is-cool.dev,5ff2e2af82dd1cc59522"]
+    },
+
+    "proxied": false
+}
