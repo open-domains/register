@@ -1,0 +1,14 @@
+{
+    "domain": "is-cool.dev",
+    "subdomain": "syntaxia",
+
+    "owner": {
+        "email": "melwilsj@gmail.com"
+    },
+
+    "record": {
+        "A": ["31.186.83.254"]
+    },
+
+    "proxied": false
+}
