@@ -9,7 +9,7 @@
     },
 
     "record": {
-        "CNAME": "bot-1lc.pages.dev"
+        "CNAME": "cname.vercel-dns.com"
     },
 
     "proxied": false
