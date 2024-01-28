@@ -1,0 +1,10 @@
+{
+  "domain": "is-not-a.dev",
+  "subdomain": "is-a-dev",
+
+  "record": {
+    "CNAME": "wdhdev.github.io"
+  },
+
+  "proxied": false
+}
