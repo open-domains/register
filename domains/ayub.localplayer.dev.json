@@ -1,0 +1,14 @@
+{
+    "domain": "localplayer.dev",
+    "subdomain": "ayub",
+
+    "owner": {
+        "email": "ayubanime@gmail.com"
+    },
+
+    "record": {
+        "CNAME": "cxl"
+    },
+
+    "proxied": true
+}
