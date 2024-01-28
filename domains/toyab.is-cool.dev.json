@@ -1,0 +1,14 @@
+{
+    "domain": "is-cool.dev",
+    "subdomain": "toyab",
+
+    "owner": {
+        "email": "toyab.shaha@gmail.com"
+    },
+
+    "record": {
+        "A": ["185.27.134.177"]
+    },
+
+    "proxied": false
+}
