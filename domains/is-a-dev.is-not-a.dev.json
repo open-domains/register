@@ -3,7 +3,7 @@
   "subdomain": "is-a-dev",
 
   "record": {
-    "CNAME": "wdhdns.com"
+    "CNAME": "wdhdev.github.io"
   },
 
   "proxied": false
