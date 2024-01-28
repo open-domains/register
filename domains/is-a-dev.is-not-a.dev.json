@@ -3,14 +3,7 @@
   "subdomain": "is-a-dev",
 
   "record": {
-    "CNAME": "wdhdev.github.io",
-
-    "TXT": [
-      {
-        "name": "_github-pages-challenge-wdhdev",
-        "value": "04201e6c373109a9383d57df98cb4e"
-      }
-    ]
+    "CNAME": "wdhdev.github.io"
   },
 
   "proxied": false
