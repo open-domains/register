@@ -1,0 +1,14 @@
+{
+    "domain": "is-cool.dev",
+    "subdomain": "vhoxo38753",
+
+    "owner": {
+        "email": "ramosfrancisenrico63@gmail.com"
+    },
+
+    "record": {
+        "A": ["1"]
+    },
+
+    "proxied": false
+}
