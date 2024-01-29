@@ -1,0 +1,14 @@
+{
+    "domain": "is-not-a.dev",
+    "subdomain": "missowl",
+
+    "owner": {
+        "email": "cosmicusesmail@proton.me"
+    },
+
+    "record": {
+        "MX": ["@"]
+    },
+
+    "proxied": false
+}
