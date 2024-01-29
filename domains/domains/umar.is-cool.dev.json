@@ -1,0 +1,14 @@
+{
+    "domain": "is-cool.dev",
+    "subdomain": "umar",
+
+    "owner": {
+        "email": "umar.ak318@gmail.com"
+    },
+
+    "record": {
+       "CNAME": "sprightly-lokum-edfec2.netlify.app"
+    },
+
+    "proxied": false
+}
