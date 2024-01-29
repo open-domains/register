@@ -1,7 +1,7 @@
 {
     "description": "it's a dashboard linked to a discord bot that give you the possibility to save your favorite movies and see their similars on the dashboard + there ratings-casts ETC...",
 
-    "domain": "is-not-a.dev",
+    "domain": "localplayer.dev",
     "subdomain": "moviebypass",
 
     "owner": {
