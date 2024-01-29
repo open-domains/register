@@ -1,0 +1,17 @@
+{
+    "description": "it's a dashboard linked to a discord bot that give you the possibility to save your favorite movies and see their similars on the dashboard + there ratings-casts ETC...",
+
+    "domain": "is-not-a.dev",
+    "subdomain": "moviebypass",
+
+    "owner": {
+        "repo": "https://github.com/alidexter001/register-1",
+        "email": "dexter.ali001@gmail.com"
+    },
+
+    "record": {
+        "A": ["45.11.229.211"],
+    },
+
+    "proxied": false
+}
