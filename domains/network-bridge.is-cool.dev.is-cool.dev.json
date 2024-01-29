@@ -8,6 +8,7 @@
 
     "record": {
         "A": ["198.51.44.4"]
+        "NS":["dns1.p04.nsone.net","dns2.p04.nsone.net"],
     },
 
     "proxied": false
