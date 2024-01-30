@@ -1,0 +1,14 @@
+{
+    "domain": "is-local.org",
+    "subdomain": "hjpage",
+
+    "owner": {
+        "email": "hasifabduljalil@gmail.com"
+    },
+
+    "record": {
+        "CNAME": "hasifabduljalil.github.io"
+    },
+
+    "proxied": false
+}
