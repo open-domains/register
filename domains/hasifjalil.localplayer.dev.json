@@ -6,9 +6,11 @@
         "email": "hasifabduljalil@gmail.com"
     },
 
-    "record": {
-        "A": ["1.1.1.1","1.0.0.1"]
+   "record": {
+        "CNAME": "hasifabduljalil.github.io",
+        "TXT": ["_github-pages-challenge-hasifabduljalil.hasifjalil.localplayer.dev=ef98c266c0911e8e6c80d1226a7b28"]
     },
 
-    "proxied": true
+
+    "proxied": false
 }
