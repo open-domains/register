@@ -1,11 +1,10 @@
 {
-    "description": "Documentation and guide for the package yor.ts",
+    "description": "Discord RPG Bot",
 
     "domain": "is-local.org",
-    "subdomain": "yor",
+    "subdomain": "yuki",
 
     "owner": {
-        "repo": "https://github.com/OreOreki/yor.ts",
         "email": "orekidev@gmail.com"
     },
 

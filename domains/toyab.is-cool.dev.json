@@ -1,13 +1,13 @@
 {
     "domain": "is-cool.dev",
-    "subdomain": "reyz19",
+    "subdomain": "toyab",
 
     "owner": {
-        "email": "reyztr@protonmail.ch"
+        "email": "toyab.shaha@gmail.com"
     },
 
     "record": {
-        "A": ["3.71.52.107"]
+        "A": ["185.27.134.177"]
     },
 
     "proxied": false

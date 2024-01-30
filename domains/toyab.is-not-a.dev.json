@@ -1,0 +1,14 @@
+{
+    "domain": "is-not-a.dev",
+    "subdomain": "toyab",
+
+    "owner": {
+        "email": "toyab.shaha@gmail.com"
+    },
+
+    "record": {
+        "A": ["185.27.134.177"]
+    },
+
+    "proxied": true
+}
