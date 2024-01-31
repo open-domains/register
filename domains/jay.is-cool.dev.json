@@ -1,0 +1,14 @@
+{
+    "domain": "is-cool.dev",
+    "subdomain": "jay",
+
+    "owner": {
+        "email": "jbhv12@gmail.com"
+    },
+
+    "record": {
+        "MX": ["10:mx01.mail.icloud.com"]
+    },
+
+    "proxied": false
+}
