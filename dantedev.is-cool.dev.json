@@ -1,0 +1,14 @@
+{
+    "domain": "is-cool.dev",
+    "subdomain": "dantedev",
+
+    "owner": {
+        "email": "dantetrensetta@gmail.com"
+    },
+
+    "record": {
+        "A": ["185.199.108.153"]
+    },
+
+    "proxied": false
+}
