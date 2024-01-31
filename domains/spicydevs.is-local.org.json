@@ -1,0 +1,17 @@
+{
+    "description": "website for SpicyDevs",
+
+    "domain": "is-local.org",
+    "subdomain": "spicydevs",
+
+    "owner": {
+        "repo": "https://github.com/SpicyDevs/spicydevs.github.io/",
+        "email": "aayushmagrawal@gmail.com"
+    },
+
+    "record": {
+        "CNAME": "spicydevs.pages.dev"
+    },
+
+    "proxied": true
+}

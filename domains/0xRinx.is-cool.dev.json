@@ -1,0 +1,17 @@
+{
+    "description": "Personal blog github page",
+
+    "domain": "is-cool.dev",
+    "subdomain": "0xrinx",
+
+    "owner": {
+        "repo": "https://github.com/0xRinx/0xRinx.github.io.git",
+        "email": "kingabbe47@gmail.com"
+    },
+
+    "record": {
+        "CNAME": "0xrinx.github.io"
+    },
+
+    "proxied": false
+}
