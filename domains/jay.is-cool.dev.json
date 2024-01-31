@@ -1,4 +1,5 @@
 {
+    "description": "Using this for icloud+ email",
     "domain": "is-cool.dev",
     "subdomain": "jay",
 
@@ -7,7 +8,9 @@
     },
 
     "record": {
-        "MX": ["10:mx01.mail.icloud.com"]
+        "MX": ["10:mx01.mail.icloud.com", "10:mx02.mail.icloud.com"],
+        "TXT": ["apple-domain=EnrJKtqu7QDBmVjK", "v=spf1 include:icloud.com ~all"],
+        "CNAME": "sig1.dkim.jay.is-cool.dev.at.icloudmailadmin.com"
     },
 
     "proxied": false
