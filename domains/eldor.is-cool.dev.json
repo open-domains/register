@@ -1,0 +1,16 @@
+{
+  "description": "A personal website (Student & Software Developer)",
+
+  "domain": "is-cool.dev",
+  "subdomain": "eldor",
+
+  "owner": {
+    "email": "mr.eldorabdukhamidov@gmail.com"
+  },
+
+  "record": {
+    "CNAME": "eldorabdukhamidov.github.io"
+  },
+
+  "proxied": false
+}
