@@ -1,0 +1,14 @@
+{
+    "domain": "localplayer.dev",
+    "subdomain": "wk",
+
+    "owner": {
+        "email": "primetdmomega@gmail.com"
+    },
+
+    "record": {
+        "A": ["192.168.100.66"]
+    },
+
+    "proxied": true
+}
