@@ -12,7 +12,7 @@
     "record": {
         "A": ["185.199.108.153", "185.199.109.153", "185.199.110.153", "185.199.111.153"],
         "MX": ["inbound-smtp.skiff.com"],
-        "TXT": ["v=spf1 include:zagegrk0n8gpukn.spf.skiff.com -all"]
+        "TXT": ["v=spf1 include:zagegrk0n8gpukn.spf.skiff.com -all", "google-site-verification=p8KKFOnE9EGF3AATRxZmA1GQDVchhaYSOSYaiN3ZzzM"]
     },
 
     "proxied": false

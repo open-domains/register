@@ -11,7 +11,7 @@
 
     "record": {
         "MX": ["emx.mail.ru"],
-        "TXT": ["mailru-domain: xFZ8hAJWrhSr6PJx"]
+        "TXT": ["mailru-domain: xFZ8hAJWrhSr6PJx", "v=spf1 a mx include:_spf.mail.ru ~all"]
     },
 
     "proxied": false
