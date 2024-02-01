@@ -8,9 +8,7 @@
     },
 
     "record": {
-        "MX": ["mx01.mail.icloud.com", "mx02.mail.icloud.com"],
-        "TXT": ["apple-domain=EnrJKtqu7QDBmVjK", "v=spf1 include:icloud.com ~all"],
-        "CNAME": "sig1.dkim.jay.is-cool.dev.at.icloudmailadmin.com"
+        "TXT": ["zoho-verification=zb28841610.zmverify.zoho.in"]
     },
 
     "proxied": false
