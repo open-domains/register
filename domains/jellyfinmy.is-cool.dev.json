@@ -1,0 +1,14 @@
+{
+    "domain": "is-cool.dev",
+    "subdomain": "jellyfinmy",
+
+    "owner": {
+        "email": "amalpsis@gmail.com"
+    },
+
+    "record": {
+        "A": ["1.1.1.1."]
+    },
+
+    "proxied": true
+}
