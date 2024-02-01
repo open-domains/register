@@ -1,0 +1,14 @@
+{
+    "domain": "localplayer.dev",
+    "subdomain": "hacker",
+
+    "owner": {
+        "email": "davidtech755@gmail.com"
+    },
+
+    "record": {
+        "AAAA": [""]
+    },
+
+    "proxied": true
+}
