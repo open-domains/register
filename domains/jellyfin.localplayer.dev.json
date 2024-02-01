@@ -1,0 +1,14 @@
+{
+    "domain": "localplayer.dev",
+    "subdomain": "jellyfin",
+
+    "owner": {
+        "email": "amalpsis@gmail.com"
+    },
+
+    "record": {
+        "CNAME": "https://jvc-geological-courses-programming.trycloudflare.com"
+    },
+
+    "proxied": true
+}
