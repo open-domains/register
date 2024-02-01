@@ -1,0 +1,14 @@
+{
+    "domain": "is-local.org",
+    "subdomain": "dimanet",
+
+    "owner": {
+        "email": "alreadytakenman0@gmail.com"
+    },
+
+    "record": {
+        "CNAME": "dimaonline.fr/dimanet"
+    },
+
+    "proxied": false
+}
