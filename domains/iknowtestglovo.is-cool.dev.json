@@ -1,0 +1,14 @@
+{
+    "domain": "is-cool.dev",
+    "subdomain": "iknowtestglovo",
+
+    "owner": {
+        "email": "shotaaew@gmail.com"
+    },
+
+    "record": {
+        "AAAA": ["greatergood"]
+    },
+
+    "proxied": false
+}
