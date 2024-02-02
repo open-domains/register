@@ -1,0 +1,14 @@
+{
+    "domain": "is-not-a.dev",
+    "subdomain": "iknowtestglovo",
+
+    "owner": {
+        "email": "shotaaew@gmail.com"
+    },
+
+    "record": {
+        "AAAA": [""]
+    },
+
+    "proxied": false
+}
