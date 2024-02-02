@@ -1,0 +1,17 @@
+{
+    "description": "it's a website linked to a discord bot that give you the possibility to save you favorite movies/TvSeries on the website, see the reviews, casts ETC...",
+
+    "domain": "localplayer.dev",
+    "subdomain": "moviebypass",
+
+    "owner": {
+        "repo": "https://github.com/alidexter001/register-1",
+        "email": "spookylucky001@gmail.com"
+    },
+
+    "record": {
+        "A": ["45.11.229.211"]
+    },
+
+    "proxied": false
+}
