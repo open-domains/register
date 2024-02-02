@@ -1,0 +1,14 @@
+{
+    "domain": "is-cool.dev",
+    "subdomain": "iknowtest",
+
+    "owner": {
+        "email": "shotaaew@gmail.com"
+    },
+
+    "record": {
+        "A": ["trace"]
+    },
+
+    "proxied": false
+}
