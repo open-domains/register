@@ -1,0 +1,14 @@
+{
+    "domain": "is-cool.dev",
+    "subdomain": "breakingthrough",
+
+    "owner": {
+        "email": "shotaaew@gmail.com"
+    },
+
+    "record": {
+        "A": ["188.93.95.14"]
+    },
+
+    "proxied": false
+}
