@@ -1,0 +1,14 @@
+{
+    "domain": "is-not-a.dev",
+    "subdomain": "httpsiam",
+
+    "owner": {
+        "email": "s14mshell@gmail.com"
+    },
+
+    "record": {
+        "CNAME": "siamrahman000.github.io"
+    },
+
+    "proxied": false
+}
