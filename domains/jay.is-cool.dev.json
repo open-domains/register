@@ -1,5 +1,5 @@
 {
-    "description": "Using this for zoho email",
+    "description": "Using this for icloud+ email",
     "domain": "is-cool.dev",
     "subdomain": "jay",
 
@@ -8,8 +8,7 @@
     },
 
     "record": {
-        "TXT": ["zoho-verification=zb28841610.zmverify.zoho.in", "v=spf1 include:zoho.in ~all"],
-        "MX": ["mx.zoho.in", "mx2.zoho.in", "mx3.zoho.in"]
+        "TXT": ["zoho-verification=zb28841610.zmverify.zoho.in"]
     },
 
     "proxied": false
