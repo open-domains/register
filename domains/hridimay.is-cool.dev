@@ -1,0 +1,17 @@
+{
+    "description": "My portfolio Website",
+
+    "domain": "is-cool.dev",
+    "subdomain": "hridimay",
+
+    "owner": {
+        "repo": "https://github.com/hridimay/hridimay.github.io",
+        "email": "hridimay@gmail.com"
+    },
+
+    "record": {
+        "CNAME": "hridimay.github.io"
+        },
+
+    "proxied": false
+}
