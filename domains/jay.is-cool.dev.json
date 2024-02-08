@@ -1,0 +1,15 @@
+{
+    "description": "Using this for icloud+ email",
+    "domain": "is-cool.dev",
+    "subdomain": "jay",
+
+    "owner": {
+        "email": "jbhv12@gmail.com"
+    },
+
+    "record": {
+        "TXT": ["zoho-verification=zb28841610.zmverify.zoho.in"]
+    },
+
+    "proxied": false
+}
