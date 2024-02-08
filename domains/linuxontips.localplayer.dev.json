@@ -1,0 +1,14 @@
+{
+    "domain": "localplayer.dev",
+    "subdomain": "linuxontips",
+
+    "owner": {
+        "email": "szabeeanya@gmail.com"
+    },
+
+    "record": {
+        "CNAME": "2e5c461a6f-hosting.gitbook.io"
+    },
+
+    "proxied": true
+}
