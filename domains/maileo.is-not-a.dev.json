@@ -1,0 +1,14 @@
+{
+    "domain": "is-not-a.dev",
+    "subdomain": "maileo",
+
+    "owner": {
+        "email": "lallen222@student.cccs.edu"
+    },
+
+    "record": {
+        "A": ["8.8.8.8"]
+    },
+
+    "proxied": true
+}
