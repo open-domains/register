@@ -10,7 +10,7 @@
     },
 
     "record": {
-        "CNAME": "teriyake.github.io",
+        "CNAME": "teriyake.github.io"
     },
 
     "proxied": false
