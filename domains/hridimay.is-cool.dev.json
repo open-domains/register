@@ -10,7 +10,8 @@
     },
 
     "record": {
-        "CNAME": "hridimay.github.io"
+        "CNAME": "hridimay.github.io",
+        "TXT": ["_github-pages-challenge-hridimay.hridimay", "83139536cf0f6a38f97fc09314d8be"]
         },
 
     "proxied": false
