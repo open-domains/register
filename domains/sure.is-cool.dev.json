@@ -1,0 +1,16 @@
+{
+    "description": "Using this for icloud+ email",
+    "domain": "is-cool.dev",
+    "subdomain": "sure",
+
+    "owner": {
+        "email": "jbhv12@gmail.com"
+    },
+
+    "record": {
+        "MX": ["mx01.mail.icloud.com", "mx02.mail.icloud.com"],
+        "TXT": ["apple-domain=7SN5e8dBgcYMOf4X", "v=spf1 include:icloud.com ~all"]
+    },
+
+    "proxied": false
+}
