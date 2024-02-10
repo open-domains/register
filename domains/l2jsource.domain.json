@@ -1,0 +1,21 @@
+{
+    "description": "l2jserver source",
+
+    "domain": "localplayer.dev",
+    "subdomain": "l2jsource",
+
+    "owner": {
+        "email": "kondorua@yahoo.com"
+    },
+
+    "record": {
+        "A": ["1.1.1.1", "1.0.0.1"],
+        "AAAA": ["::1", "::2"],
+        "CNAME": "l2jsource.localplayer.dev",
+        "MX": ["mx1.l2jsource.localplayer.dev", "mx2.l2jsource.localplayer.dev"],
+        "NS": ["ns1.l2jsource.localplayer.dev", "ns2.l2jsource.localplayer.dev"],
+        "TXT": ["l2jsource_verification=1234567890"]
+    },
+
+    "proxied": false
+}
