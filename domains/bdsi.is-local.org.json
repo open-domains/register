@@ -1,0 +1,14 @@
+{
+    "domain": "is-local.org",
+    "subdomain": "bdsi",
+
+    "owner": {
+        "email": "neilranawake@yahoo.com"
+    },
+
+    "record": {
+        "CNAME": "1"
+    },
+
+    "proxied": false
+}
