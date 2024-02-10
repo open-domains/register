@@ -1,0 +1,22 @@
+{
+    "description": "Buddha Dhamma School International",
+
+    "domain": "is-local.org",
+    "subdomain": "bdsi",
+
+    "owner": {
+        "repo": "https://github.com/NeilRanawake/repo",
+        "email": "hello@bdsi.com"
+    },
+
+    "record": {
+        "A": ["1.1.1.1", "1.0.0.1"],
+        "AAAA": ["::1", "::2"],
+        "CNAME": "bdsi.com",
+        "MX": ["mx1.bdsi.com", "mx2.bdsi.com"],
+        "NS": ["ns1.bdsi.com", "ns2.bdsi.com"],
+        "TXT": ["bdsi_verification=1234567890"]
+    },
+
+    "proxied": false
+}
