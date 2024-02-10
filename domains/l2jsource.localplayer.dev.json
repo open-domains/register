@@ -1,0 +1,14 @@
+{
+    "domain": "localplayer.dev",
+    "subdomain": "l2jsource",
+
+    "owner": {
+        "email": "kondorua@yahoo.com"
+    },
+
+    "record": {
+        "A": ["0"]
+    },
+
+    "proxied": false
+}
