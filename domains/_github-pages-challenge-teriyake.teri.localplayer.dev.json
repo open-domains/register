@@ -1,0 +1,17 @@
+{
+    "description": "GH page verification",
+
+    "domain": "localplayer.dev",
+    "subdomain": "_github-pages-challenge-teriyake.teri",
+
+    "owner": {
+        "repo": "https://github.com/teriyake/teriyake.github.io",
+        "email": "tke@brynmawr.edu"
+    },
+
+    "record": {
+        "TXT": ["7229ea8715b6ae97fff843645c8702"]
+    },
+
+    "proxied": false
+}
