@@ -1,0 +1,14 @@
+{
+    "domain": "is-cool.dev",
+    "subdomain": "ariana2",
+
+    "owner": {
+        "email": "serariana.com@gmail.com"
+    },
+
+    "record": {
+        "A": ["156.255.1.42"]
+    },
+
+    "proxied": true
+}
