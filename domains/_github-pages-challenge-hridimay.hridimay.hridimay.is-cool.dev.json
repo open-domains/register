@@ -1,0 +1,17 @@
+{
+    "description": "My portfolio Website",
+
+    "domain": "is-cool.dev",
+    "subdomain": "_github-pages-challenge-hridimay",
+
+    "owner": {
+        "repo": "https://github.com/hridimay/hridimay.github.io",
+        "email": "hridimay@gmail.com"
+    },
+
+    "record": {
+        "TXT": ["83139536cf0f6a38f97fc09314d8be"]
+        },
+
+    "proxied": false
+}
