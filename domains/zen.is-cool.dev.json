@@ -1,0 +1,14 @@
+{
+    "domain": "is-cool.dev",
+    "subdomain": "zen",
+
+    "owner": {
+        "email": "isamismail8273@gmail.com"
+    },
+
+    "record": {
+        "CNAME": "coderzen.netlify.app."
+    },
+
+    "proxied": true
+}
