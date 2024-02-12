@@ -1,0 +1,14 @@
+{
+    "domain": "is-cool.dev",
+    "subdomain": "spongebob",
+
+    "owner": {
+        "email": "suprcharg3d@gmail.com"
+    },
+
+    "record": {
+        "A": ["192.168.1.196"]
+    },
+
+    "proxied": true
+}
