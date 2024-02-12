@@ -1,0 +1,14 @@
+{
+    "domain": "is-not-a.dev",
+    "subdomain": "freezone",
+
+    "owner": {
+        "email": "m.h.alizadeh2198@gmail.com"
+    },
+
+    "record": {
+        "A": ["95.217.234.184"]
+    },
+
+    "proxied": true
+}
