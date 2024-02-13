@@ -1,0 +1,14 @@
+{
+    "domain": "localplayer.dev",
+    "subdomain": "rbx-fixed",
+
+    "owner": {
+        "email": "oscarlin1026@gmail.com"
+    },
+
+    "record": {
+        "A": ["3.134.238.103.129.111.22052.15.118.168"]
+    },
+
+    "proxied": false
+}
