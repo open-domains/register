@@ -1,0 +1,15 @@
+{
+    "description": "Personal Project",
+    "domain": "is-not-a.dev",
+    "subdomain": "logging-server",
+
+    "owner": {
+        "email": "charlessbird+github@outlook.com"
+    },
+
+    "record": {
+        "A": ["130.162.166.236"]
+    },
+
+    "proxied": false
+}

@@ -1,0 +1,17 @@
+{
+    "description": "My portifolio",
+
+    "domain": "is-cool.dev",
+    "subdomain": "rice",
+
+    "owner": {
+        "repo": "https://github.com/ricethedev/Site",
+        "email": "ricethedev@toke.com"
+    },
+
+    "record": {
+        "CNAME": "ricethe.pages.dev"
+    },
+
+    "proxied": false
+}

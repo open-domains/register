@@ -1,0 +1,14 @@
+{
+    "domain": "is-cool.dev",
+    "subdomain": "miti",
+
+    "owner": {
+        "email": "minhtienit99@gmail.com"
+    },
+
+    "record": {
+        "CNAME": "miti.eu.org"
+    },
+
+    "proxied": false
+}

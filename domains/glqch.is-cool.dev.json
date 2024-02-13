@@ -13,5 +13,5 @@
         "CNAME": "glqchgithubio-production.up.railway.app"
     },
 
-    "proxy": false
+    "proxied": false
 }

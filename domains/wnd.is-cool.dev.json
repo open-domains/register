@@ -1,0 +1,14 @@
+{
+    "domain": "is-cool.dev",
+    "subdomain": "wnd",
+
+    "owner": {
+        "email": "wnd_is-cool_dev.20240125.jewo@spamgourmet.com"
+    },
+
+    "record": {
+        "A": ["213.95.155.206"]
+    },
+
+    "proxied": false
+}

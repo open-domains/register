@@ -1,6 +1,4 @@
 {
-  "$schema": "../schemas/domain.schema.json",
-
   "description": "Verification Upload",
 
   "domain": "is-local.org",
@@ -14,5 +12,5 @@
     "TXT": ["2c2ad329438bbc64fd5e371bbdee54"]
   },
 
-  "proxy": false
+  "proxied": false
 }

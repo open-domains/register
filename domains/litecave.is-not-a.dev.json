@@ -1,6 +1,4 @@
 {
-  "$schema": "../schemas/domain.schema.json",
-
   "description": "litecave.is-not-a.dev (migrated from old service)",
 
   "domain": "is-not-a.dev",
@@ -14,5 +12,5 @@
     "A": ["212.13.11.155"]
   },
 
-  "proxy": false
+  "proxied": false
 }

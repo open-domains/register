@@ -1,0 +1,14 @@
+{
+    "domain": "is-cool.dev",
+    "subdomain": "alexandria-yourls",
+
+    "owner": {
+        "email": "dweinsteint@gmail.com"
+    },
+
+    "record": {
+        "A": ["3.210.7.204"]
+    },
+
+    "proxied": false
+}

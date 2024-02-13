@@ -1,31 +1,43 @@
 name: Validation
 
 on:
-  workflow_dispatch: {}
-  push:
-    branches: [main]
-  pull_request:
+    pull_request:
+
+    push:
+        branches: [main]
+        paths:
+            - "domains/**"
+            - ".github/workflows/validation.yml"
+            - "dnsconfig.js"
+
+    workflow_dispatch:
 
 concurrency:
-  group: ${{ github.ref }}-tests
-  cancel-in-progress: true
+    group: ${{ github.ref }}-validation
+    cancel-in-progress: true
 
 jobs:
-  gitleaks:
-    name: GitLeaks
-    runs-on: ubuntu-latest
-    steps:
-      - uses: actions/checkout@v3
-        with: {fetch-depth: 0}
+    dns:
+        name: DNS
+        runs-on: ubuntu-latest
+        steps:
+            - uses: actions/checkout@v4
 
-      - uses: gacts/gitleaks@v1
+            - name: Check
+              uses: koenrh/dnscontrol-action@v3
+              with:
+                  args: check
+                  config_file: "dnsconfig.js"
 
-  check:
-    name: DNSControl Check
-    runs-on: ubuntu-latest
-    steps:
-      - uses: actions/checkout@v3
+    json:
+        name: JSON
+        runs-on: ubuntu-latest
+        steps:
+            - uses: actions/checkout@v4
 
-      - uses: gacts/install-dnscontrol@v1
-
-      - run: dnscontrol check
+            - name: JSON Syntax Check
+              uses: limitusus/json-syntax-check@v2
+              with:
+                  pattern: "\\.json$"
+              env:
+                  BASE: "domains/"

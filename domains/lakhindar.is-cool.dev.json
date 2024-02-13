@@ -1,0 +1,17 @@
+{
+  "description": "Cool portfolio website to show-off",
+
+  "domain": "is-cool.dev",
+  "subdomain": "lakhindar",
+
+  "owner": {
+    "repo": "https://gitlab.com/LakhindarPal/lakhindarpal.gitlab.io",
+    "email": "dev.lakhindarpal@gmail.com"
+  },
+
+  "record": {
+     "CNAME": "LakhindarPal.gitlab.io"
+  },
+
+  "proxied": true
+}

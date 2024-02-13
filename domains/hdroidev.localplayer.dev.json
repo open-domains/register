@@ -1,0 +1,14 @@
+{
+    "domain": "localplayer.dev",
+    "subdomain": "hdroidev",
+
+    "owner": {
+        "email": "boussiharon@gmail.com"
+    },
+
+    "record": {
+        "CNAME": "hdroidev.serv00.net"
+    },
+
+    "proxied": false
+}

@@ -1,6 +1,4 @@
 {
-  "$schema": "../schemas/domain.schema.json",
-
   "description": "Domain for the OP-OK Devlopment Network",
 
   "domain": "is-cool.dev",
@@ -15,5 +13,5 @@
     "NS": ["ns1.epizy.com", "ns2.epizy.com"]
   },
 
-  "proxy": false
+  "proxied": false
 }

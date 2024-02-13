@@ -1,6 +1,4 @@
 {
-  "$schema": "../schemas/domain.schema.json",
-
   "description": "My personal website.",
 
   "domain": "is-not-a.dev",
@@ -14,5 +12,5 @@
     "CNAME": "unnervingduck.github.io"
   },
 
-  "proxy": false
+  "proxied": false
 }

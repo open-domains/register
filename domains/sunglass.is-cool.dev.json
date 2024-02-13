@@ -1,0 +1,14 @@
+{
+    "domain": "is-cool.dev",
+    "subdomain": "sunglass",
+
+    "owner": {
+        "email": "g1asstech@outlook.com"
+    },
+
+    "record": {
+        "CNAME": "sunglassdev.github.io"
+    },
+
+    "proxied": false
+}

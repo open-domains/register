@@ -1,6 +1,4 @@
 {
-  "$schema": "../schemas/domain.schema.json",
-
   "description": "Domain for shroud",
 
   "domain": "localplayer.dev",
@@ -13,8 +11,8 @@
 
   "record": {
     "A": ["104.17.210.9"],
-    "MX": ["mx1.improvmx.com", "mx2.improvmx.com"],
+    "MX": ["mx1.improvmx.com", "mx2.improvmx.com"]
   },
 
-  "proxy": false
+  "proxied": false
 }

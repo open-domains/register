@@ -1,0 +1,20 @@
+{
+    "domain": "localplayer.dev",
+    "subdomain": "discog",
+
+    "owner": {
+        "repo": "https://github.co/akpi816218/discog-web",
+        "email": "816218@seq.org"
+    },
+
+    "record": {
+        "A": [
+            "185.199.109.153",
+            "185.199.110.153",
+            "185.199.111.153",
+            "185.199.108.153"
+        ]
+    },
+
+    "proxied": false
+}

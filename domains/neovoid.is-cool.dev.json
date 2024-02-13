@@ -1,0 +1,14 @@
+{
+  "domain": "is-cool.dev",
+  "subdomain": "neovoid",
+
+  "owner": {
+    "email": "neovoid@envs.net"
+  },
+
+  "record": {
+    "CNAME": "exozy.me"
+  },
+
+  "proxied": false
+}

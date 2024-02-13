@@ -1,6 +1,4 @@
 {
-  "$schema": "../schemas/domain.schema.json",
-
   "description": "NeuroBeast Company",
 
   "domain": "is-cool.dev",
@@ -15,5 +13,5 @@
     "CNAME": "neurobeast1.github.io"
   },
 
-  "proxy": false
+  "proxied": false
 }

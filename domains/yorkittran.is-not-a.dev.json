@@ -1,6 +1,4 @@
 {
-  "$schema": "../schemas/domain.schema.json",
-
   "description": "Personal Website",
 
   "domain": "is-not-a.dev",
@@ -15,5 +13,5 @@
     "CNAME": "yorkittran.github.io"
   },
 
-  "proxy": false
+  "proxied": false
 }

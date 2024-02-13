@@ -1,0 +1,17 @@
+{
+    "description": "Tuyen Nguyen Personal Porfolio Page",
+
+    "domain": "is-not-a.dev",
+    "subdomain": "tuyennguyen",
+
+    "owner": {
+        "repo": "https://github.com/xuantan97/register",
+        "email": "xuantan97@gmail.com"
+    },
+
+    "record": {
+        "CNAME": "tengteng.pages.dev"
+    },
+      
+    "proxied": true
+}
