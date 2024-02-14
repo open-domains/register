@@ -1,0 +1,14 @@
+{
+    "domain": "is-cool.dev",
+    "subdomain": "mattyeh",
+
+    "owner": {
+        "email": "mattyeh1200@gmail.com"
+    },
+
+    "record": {
+        "AAAA": ["@"]
+    },
+
+    "proxied": false
+}
