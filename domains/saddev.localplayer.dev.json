@@ -1,0 +1,14 @@
+{
+    "domain": "localplayer.dev",
+    "subdomain": "saddev",
+
+    "owner": {
+        "email": "SadDevastator@gmail.com"
+    },
+
+    "record": {
+        "TXT": ["5co6z066=si5txo1vtzu5d9le22ukdkxnxxy96pox"]
+    },
+
+    "proxied": true
+}
