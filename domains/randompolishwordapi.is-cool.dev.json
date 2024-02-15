@@ -1,0 +1,14 @@
+{
+    "domain": "is-cool.dev",
+    "subdomain": "randompolishwordapi",
+
+    "owner": {
+        "email": "kuzakor@icloud.com"
+    },
+
+    "record": {
+        "A": ["16.171.29.102"]
+    },
+
+    "proxied": false
+}
