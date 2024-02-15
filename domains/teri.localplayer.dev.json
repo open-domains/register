@@ -1,0 +1,17 @@
+{
+    "description": "my portfolio site",
+
+    "domain": "localplayer.dev",
+    "subdomain": "teri",
+
+    "owner": {
+        "repo": "https://github.com/teriyake/teriyake.github.io",
+        "email": "tke@brynmawr.edu"
+    },
+
+    "record": {
+        "CNAME": "teriyake.github.io"
+    },
+
+    "proxied": false
+}
