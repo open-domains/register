@@ -1,0 +1,14 @@
+{
+    "domain": "is-cool.dev",
+    "subdomain": "koushik",
+
+    "owner": {
+        "email": "koushikromel@gmail.com"
+    },
+
+    "record": {
+        "A": ["koushik"]
+    },
+
+    "proxied": false
+}
