@@ -1,0 +1,16 @@
+{
+    "description": "Link to github pages for my Website.",
+
+    "domain": "localplayer.dev",
+    "subdomain": "bpn",
+
+    "owner": {
+        "email": "bipinlamsal2004@gmail.com"
+    },
+
+    "record": {
+        "CNAME": "bipin333.github.io"
+    },
+
+    "proxied": false
+}
