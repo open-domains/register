@@ -1,0 +1,16 @@
+{
+    "description": "Github Verification",
+
+    "domain": "is-local.org",
+    "subdomain": "_github-pages-challenge-PKR-Polygon.pkr",
+
+    "owner": {
+        "repo": "https://github.com/PKR-Polygon/PKR"
+    },
+
+    "record": {
+        "TXT": ["bedf6dd1a1a8fa8f44a650fcb0f834"]
+    },
+
+    "proxied": false
+}
