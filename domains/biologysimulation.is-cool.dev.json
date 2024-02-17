@@ -1,0 +1,16 @@
+{
+  "description": "Biology Simulation Website",
+
+  "domain": "is-cool.dev",
+  "subdomain": "biologysimulation",
+
+  "owner": {
+    "email": "patrickchang44543@gmail.com"
+  },
+
+  "record": {
+    "CNAME": "patrickzhou1234.github.io"
+  },
+
+  "proxied": false
+}

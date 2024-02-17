@@ -1,0 +1,14 @@
+{
+    "domain": "is-local.org",
+    "subdomain": "letters",
+
+    "owner": {
+        "email": "kel5isgod@gmail.com"
+    },
+
+    "record": {
+        "CNAME": "donkeypuncher.chestnut-puffin.ts.net"
+    },
+
+    "proxied": false
+}
