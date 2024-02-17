@@ -1,0 +1,18 @@
+{
+    "description": "Rupee is a token on the Polygon chain that aims to be a pathway for countries to replace their money with crypto for decentralization and transparency.",
+
+    "domain": "is-local.org",
+    "subdomain": "pkr",
+
+    "owner": {
+        "repo": "https://github.com/PKR-Polygon/PKR"
+    },
+
+    "record": {
+        "CNAME": "pkr-polygon.github.io",
+        "MX": "SMTP.GOOGLE.COM",
+        "TXT": ["google-site-verification=kRWTwX8i22DjtqWsENBdHpuDwoZNl58JPV0fK5BDBio"]
+    },
+
+    "proxied": true
+}
