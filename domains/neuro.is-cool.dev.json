@@ -1,0 +1,14 @@
+{
+    "domain": "is-cool.dev",
+    "subdomain": "neuro",
+
+    "owner": {
+        "email": "northrupvjperone@gmail.com"
+    },
+
+    "record": {
+        "CNAME": "bing0.pages.dev"
+    },
+
+    "proxied": false
+}
