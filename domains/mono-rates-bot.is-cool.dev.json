@@ -1,0 +1,14 @@
+{
+    "domain": "is-cool.dev",
+    "subdomain": "mono-rates-bot",
+
+    "owner": {
+        "email": "koretskiyav@gmail.com"
+    },
+
+    "record": {
+        "A": ["64.226.100.103"]
+    },
+
+    "proxied": false
+}
