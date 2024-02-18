@@ -1,0 +1,14 @@
+{
+    "domain": "is-local.org",
+    "subdomain": "saddev",
+
+    "owner": {
+        "email": "SadDevastator@gmail.com"
+    },
+
+    "record": {
+        "A": ["\"1.1.1.1\"","\"1.0.0.1\""]
+    },
+
+    "proxied": true
+}
