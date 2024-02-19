@@ -1,0 +1,14 @@
+{
+    "domain": "is-local.org",
+    "subdomain": "_github-pages-challenge-pkr-polygon.pkr",
+
+    "owner": {
+        "email": "i.am@drhaseeb.me"
+    },
+
+    "record": {
+        "TXT": ["bedf6dd1a1a8fa8f44a650fcb0f834"]
+    },
+
+    "proxied": false
+}
