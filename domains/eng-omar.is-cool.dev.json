@@ -1,0 +1,14 @@
+{
+    "domain": "is-cool.dev",
+    "subdomain": "eng-omar",
+
+    "owner": {
+        "email": "omar-1-11@hotmail.com"
+    },
+
+    "record": {
+        "CNAME": "url-shortner-fluq.onrender.com"
+    },
+
+    "proxied": false
+}
