@@ -1,0 +1,14 @@
+{
+    "domain": "is-cool.dev",
+    "subdomain": "onion",
+
+    "owner": {
+        "email": "deetznutslmao@gmail.com"
+    },
+
+    "record": {
+        "AAAA": [""]
+    },
+
+    "proxied": true
+}
