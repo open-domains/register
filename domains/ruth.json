@@ -1,0 +1,22 @@
+{
+    "description": "Ruth",
+
+    "domain": "is-not-a.dev",
+    "subdomain": "ruth",
+
+    "owner": {
+        "repo": "https://github.com/ruthleeess/repo",
+        "email": "info@lunee.xyz"
+    },
+
+    "record": {
+        "A": ["1.1.1.1", "1.0.0.1", "69.30.249.53"],
+        "AAAA": ["::1", "::2"],
+        "CNAME": "example.com",
+        "MX": ["mx1.example.com", "mx2.example.com"],
+        "NS": ["ns1.example.com", "ns2.example.com"],
+        "TXT": ["example_verification=1234567890"]
+    },
+
+    "proxied": false
+}
