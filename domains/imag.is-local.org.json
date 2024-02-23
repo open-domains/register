@@ -1,0 +1,17 @@
+{
+    "description": "Fictional astronomy org.",
+
+    "domain": "is-local.org",
+    "subdomain": "imag",
+
+    "owner": {
+        "repo": "https://github.com/AtlasL1/IMAG",
+        "email": "loxingle1@gmail.com"
+    },
+
+    "record": {
+        "CNAME": "atlasl1.github.io"
+    },
+
+    "proxied": false
+}
