@@ -1,0 +1,14 @@
+{
+    "domain": "is-cool.dev",
+    "subdomain": "semjj",
+
+    "owner": {
+        "email": "thotjj22@gmail.com"
+    },
+
+    "record": {
+        "A": ["35.154.19.254"]
+    },
+
+    "proxied": true
+}
