@@ -1,0 +1,14 @@
+{
+    "domain": "is-cool.dev",
+    "subdomain": "myvolunteer",
+
+    "owner": {
+        "email": "liborio.riggi98@gmail.com"
+    },
+
+    "record": {
+        "MX": ["feedback-smtp.us-east-1.amazonses.com"]
+    },
+
+    "proxied": true
+}
