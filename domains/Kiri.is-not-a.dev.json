@@ -1,0 +1,17 @@
+{
+    "description": "Project Description",
+
+    "domain": "is-not-a.dev",
+    "subdomain": "Kiri",
+
+    "owner": {
+        "repo": "https://github.com/kirk-nez/kirk-nez.github.io",
+        "email": "gwenpool@protonmail.com"
+    },
+
+    "record": {
+        "CNAME": "github.com/kirk-nez/kirk-nez.github.io"
+    },
+
+    "proxied": false
+}
