@@ -1,0 +1,17 @@
+{
+    "description": "This is a domain for making personal website.",
+
+    "domain": "localplayer.dev",
+    "subdomain": "dfg",
+
+    "owner": {
+        "repo": "https://github.com/jackie56678/register",
+        "email": "jack666ie@gmail.com"
+    },
+
+    "record": {
+        "A": ["8.140.17.105"],
+    },
+
+    "proxied": false
+}
