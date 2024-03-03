@@ -65,25 +65,6 @@ This will hopefully be fixed soon.
 
 ## Register
 
-### CLI (*recommended*)
-1. Install the CLI using this command:
-
-```
-npm install @open-domains/cli -g
-```
-
-2. Login to the CLI:
-
-```
-open-domains login
-```
-
-3. Register a domain and follow the steps:
-
-```
-open-domains register
-```
-
 ### Manual
 1. **Star** and **[Fork](https://github.com/open-domains/register/fork)** this repository.
 2. Add a new file called `example.domain.json` in the `/domains` folder to register `example` subdomain.
