@@ -1,0 +1,14 @@
+{
+    "domain": "is-local.org",
+    "subdomain": "skyriesky2",
+
+    "owner": {
+        "email": "dantetrensetta@gmail.com"
+    },
+
+    "record": {
+        "CNAME": "dns1.p01.nsone.net"
+    },
+
+    "proxied": false
+}
