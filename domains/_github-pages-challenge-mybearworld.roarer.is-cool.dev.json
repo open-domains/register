@@ -1,0 +1,14 @@
+{
+    "description": "GitHub Pages verification for Roarer",
+
+    "domain": "is-cool.dev",
+    "subdomain": "_github-pages-challenge-mybearworld.roarer",
+
+    "owner": {
+        "repo": "https://github.com/mybearworld/roarer"
+    },
+
+    "record": {
+        "TXT": "260e18ea4c57a9c1d2ea6aa2ebca78"
+    }
+}
