@@ -10,7 +10,7 @@
   },
 
   "record": {
-    "CNAME": ["pineapples5972.github.io/quartz"]
+    "A": ["185.199.110.153"]
   },
 
   "proxied": false
