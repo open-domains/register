@@ -1,0 +1,14 @@
+{
+    "description": "A client for the social media app Meower (meower.org)",
+
+    "domain": "is-cool.dev",
+    "subdomain": "roarer",
+
+    "owner": {
+        "repo": "https://github.com/mybearworld/roarer"
+    },
+
+    "record": {
+        "CNAME": "mybearworld.github.io"
+    }
+}
