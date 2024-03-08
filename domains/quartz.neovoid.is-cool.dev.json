@@ -1,8 +1,8 @@
 {
-  "description": "GH Pages verification for my account",
+  "description": "GH pages to custom domain",
 
   "domain": "is-cool.dev",
-  "subdomain": "_github-pages-challenge-pineapples5972.quartz.neovoid",
+  "subdomain": "quartz.neovoid",
 
   "owner": {
     "repo": "https://github.com/pineapples5972/quartz",
