@@ -1,0 +1,17 @@
+{
+    "description": "My personal web-site",
+
+    "domain": "is-cool.dev",
+    "subdomain": "fajox",
+
+    "owner": {
+        "repo": "https://github.com/fajox1/fajox1.github.io",
+        "email": "dev.fajox@gmail.com"
+    },
+
+    "record": {
+        "CNAME": "fajox1.github.io"
+    },
+
+    "proxied": false
+}

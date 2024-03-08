@@ -1,0 +1,14 @@
+{
+  "domain": "is-not-a.dev",
+  "subdomain": "rawfin",
+
+  "owner": {
+    "email": "hello@rawfin.net"
+  },
+
+  "record": {
+    "CNAME": "rawfin.pages.dev"
+  },
+
+  "proxied": false
+}

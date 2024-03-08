@@ -1,0 +1,17 @@
+{
+    "schema": "../schemas/domain.schema.json",
+    "description": "The domain for project use",
+    
+    "domain": "is-cool.dev",
+    "subdomain": "soisyearbook",
+    
+    "owner": {
+        "email": "boboo.charming@gmail.com"
+    },
+    
+    "record": {
+        "CNAME": "soisyearbook.github.io"
+    },
+    
+    "proxied": false
+}
