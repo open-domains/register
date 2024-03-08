@@ -1,0 +1,14 @@
+{
+    "domain": "is-cool.dev",
+    "subdomain": "gen1x",
+
+    "owner": {
+        "email": "theg1nx@hotmail.com"
+    },
+
+    "record": {
+        "CNAME": "gen1x.onrender.com"
+    },
+
+    "proxied": true
+}
