@@ -1,0 +1,14 @@
+{
+    "domain": "is-cool.dev",
+    "subdomain": "vorgris",
+
+    "owner": {
+        "email": "berkehazar20@hotmail.com"
+    },
+
+    "record": {
+        "TXT": ["google-site-verification=-jvskrqnjqawsi8a_t3hdqrvojqhrpaajxl7obpk2lo"]
+    },
+
+    "proxied": false
+}
