@@ -1,0 +1,15 @@
+{
+   "description": "Domain for learning node js with nginx and for future projects",
+    "domain": "is-cool.dev",
+    "subdomain": "ehab",
+
+    "owner": {
+        "email": "hi1234hi9009@gmail.com"
+    },
+
+    "record": {
+        "A": ["159.223.203.143"]
+    },
+
+    "proxied": true
+}
