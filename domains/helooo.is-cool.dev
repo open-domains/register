@@ -1,0 +1,15 @@
+{
+   "description": "Domain for learning node js with nginx and for future projects. I changed the ip becuase i entered the wrong one.",
+    "domain": "is-cool.dev",
+    "subdomain": "helooo",
+
+    "owner": {
+        "email": "hi1234hi9009@gmail.com"
+    },
+
+    "record": {
+        "A": ["146.190.131.60"]
+    },
+
+    "proxied": true
+}
