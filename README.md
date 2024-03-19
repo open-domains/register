@@ -31,6 +31,7 @@ https://discord.gg/kVjkg6VBwa
 | [`*.is-not-a.dev`](https://is-not-a.dev) |
 | [`*.localplayer.dev`](https://localplayer.dev) |
 
+> [!NOTE]
 > Wildcard domains (like `*.example.is-not-a.dev`) are supported too, but the reason for their registration should be very clear and described in detail.
 
 [badge-cf]:https://shields.io/badge/%20-cloudflare-blue?logo=cloudflare&style=plastic?cacheSeconds=3600

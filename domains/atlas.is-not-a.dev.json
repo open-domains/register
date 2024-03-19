@@ -5,13 +5,15 @@
     "subdomain": "atlas",
 
     "owner": {
-        "repo": "https://github.com/AtlasL1/atlasl1.github.io",
-        "email": "loxingle1@example.com"
+        "repo": "https://github.com/AtlasL1/Sites",
+        "email": "loxingle1@gmail.com"
     },
 
     "record": {
         "A": ["185.199.111.153"],
-        "TXT": ["zoho-verification=zb45482745.zmverify.zoho.eu"]
+        "TXT": ["zoho-verification=zb45482745.zmverify.zoho.eu"],
+        "TXT": ["v=spf1 include:eu.zcsend.net ~all"],
+        "MX": ["mx.zoho.eu", "mx2.zoho.eu", "mx3.zoho.eu"]
     },
 
     "proxied": false
