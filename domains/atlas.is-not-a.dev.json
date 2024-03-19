@@ -11,9 +11,13 @@
 
     "record": {
         "A": ["185.199.111.153"],
-        "TXT": ["zoho-verification=zb45482745.zmverify.zoho.eu"],
-        "TXT": ["v=spf1 include:eu.zcsend.net ~all"],
-        "MX": ["mx.zoho.eu", "mx2.zoho.eu", "mx3.zoho.eu"]
+        "TXT": [
+            "zoho-verification=zb45482745.zmverify.zoho.eu",
+            "v=spf1 include:eu.zcsend.net ~all",
+            "k=rsa; p=MIGfMA0GCSqGSIb3DQEBAQUAA4GNADCBiQKBgQDA2PMn/c2aSK8KrWaqefWv86b7GxdY3UMYprwbSxY5E3UnB6F07Ex1v+Ws9emo6yyZZKI5cjkelfP7aam37BWNIKXks7pYFtsQV9536tyuIB5DuOd2fOyX2xtBmHznMH7EU5fZ5OeSsATJYh6Z11Mv+PCSJblzRXCeGEF/2Mr9twIDAQAB"
+        ],
+        "MX": ["mx.zoho.eu", "mx2.zoho.eu", "mx3.zoho.eu"],
+        "81047._domainkey.atlas": ["v=DKIM1; k=rsa; p=MIGfMA0GCSqGSIb3DQEBAQUAA4GNADCBiQKBgQDA2PMn/c2aSK8KrWaqefWv86b7GxdY3UMYprwbSxY5E3UnB6F07Ex1v+Ws9emo6yyZZKI5cjkelfP7aam37BWNIKXks7pYFtsQV9536tyuIB5DuOd2fOyX2xtBmHznMH7EU5fZ5OeSsATJYh6Z11Mv+PCSJblzRXCeGEF/2Mr9twIDAQAB"]
     },
 
     "proxied": false
