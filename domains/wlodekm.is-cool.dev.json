@@ -1,0 +1,16 @@
+{
+    "description": "Project Description",
+
+    "domain": "is-cool.dev",
+    "subdomain": "wlodekm",
+
+    "owner": {
+        "email": "wlodekm.work@gmail.com"
+    },
+
+    "record": {
+        "A": ["159.224.173.169"]
+    },
+
+    "proxied": false
+}
