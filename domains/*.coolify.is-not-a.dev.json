@@ -5,6 +5,7 @@
     "subdomain": "*.coolify",
 
     "owner": {
+        "repo": "https://github.com/UntoldGam",
         "email": "charlesobird+github@outlook.com"
     },
 
