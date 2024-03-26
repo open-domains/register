@@ -1,0 +1,17 @@
+{
+    "description": "Personal Website",
+
+    "domain": "is-not-a.dev",
+    "subdomain": "micozv",
+
+    "owner": {
+        "repo": "https://github.com/mekuvsh/mekuvsh",
+        "email": "yurihsq1@gmail.com"
+    },
+
+    "record": {
+        "CNAME": "micozv.netlify.app."
+    },
+
+    "proxied": false
+}
