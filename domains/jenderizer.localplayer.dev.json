@@ -1,0 +1,17 @@
+{
+    "description": "Random gender dice",
+
+    "domain": "localplayer.dev",
+    "subdomain": "jenderizer",
+
+    "owner": {
+        "repo": "https://github.com/akpi816218/jenderizer",
+        "email": "akpi@opensourceforce.net"
+    },
+
+    "record": {
+        "CNAME": "akpi816218.github.io"
+    },
+
+    "proxied": true
+}
