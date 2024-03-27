@@ -1,0 +1,19 @@
+{
+    "schema": "../schemas/domain.schema.json",
+
+    "description": "github verification",
+
+    "domain": "is-not-a.dev",
+    "subdomain": "_github-pages-challenge-justincodingprojects.justincodingprojects",
+
+    "owner": {
+        "repo": "https://github.com/justincodingprojects/",
+        "email": "admin@justincodingprojects.com"
+    },
+
+    "record": {
+        "TXT": ["e6ac988b58498d42bd660aebedd08a"]
+    },
+
+    "proxied": false
+}
