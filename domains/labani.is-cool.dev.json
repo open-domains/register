@@ -1,0 +1,17 @@
+{
+    "description": "Personal Development Uses",
+
+    "domain": "is-cool.dev",
+    "subdomain": "noob",
+
+    "owner": {
+        "repo": "https://github.com/mrnoobx/register",
+        "email": "abcdefgh96684@gmail.com"
+    },
+
+    "record": {
+        "A": ["185.27.134.125"],
+    },
+
+    "proxied": false
+}

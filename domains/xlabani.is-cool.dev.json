@@ -1,0 +1,14 @@
+{
+    "domain": "is-cool.dev",
+    "subdomain": "noob",
+
+    "owner": {
+        "email": "dolabani46@gmail.com"
+    },
+
+    "record": {
+        "CNAME": "xlabani.is-cool.dev"
+    },
+
+    "proxied": false
+}
