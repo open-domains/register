@@ -1,0 +1,16 @@
+{
+    "description": "Conocer y Triunfar Game (University project)",
+    "domain": "is-cool.dev",
+    "subdomain": "cyt",
+
+    "owner": {
+        "repo": "https://github.com/Arquisoft/wiq_es05b",
+        "email": "uo289295@uniovi.es"
+    },
+
+    "record": {
+        "A": ["158.179.216.208"]
+    },
+
+    "proxied": false
+}
