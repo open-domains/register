@@ -1,0 +1,15 @@
+{
+    "domain": "is-cool.dev",
+    "subdomain": "sitetransform",
+
+    "owner": {
+        "email": "sitetransform.css@gmail.com"
+    },
+
+    "record": {
+        "MX": ["mx1.forwardemail.net", "mx2.forwardemail.net"],
+        "TXT": ["forward-email=sitetransform.css@gmail.com"]
+    },
+
+    "proxied": false
+}
