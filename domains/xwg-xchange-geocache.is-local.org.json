@@ -1,0 +1,16 @@
+{
+  "description": "Personal website for my geocache",
+
+  "domain": "is-local.org",
+  "subdomain": "xwg-xchange-geocache",
+
+  "owner": {
+    "email": "wolfo89+foexo@protonmail.com"
+  },
+
+  "record": {
+    "A": ["167.235.217.200"]
+  },
+
+  "proxied": false
+}
