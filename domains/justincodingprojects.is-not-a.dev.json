@@ -1,0 +1,19 @@
+{
+    "schema": "../schemas/domain.schema.json",
+
+    "description": "A simple countdown website + main page for justincodingprojects",
+
+    "domain": "is-not-a.dev",
+    "subdomain": "justincodingprojects",
+
+    "owner": {
+        "repo": "https://github.com/justincodingprojects/automated-countdown-generator-reborn",
+        "email": "admin@justincodingprojects.com"
+    },
+
+   "record": {
+    "CNAME": "justincodingprojects.github.io"
+  },
+
+    "proxied": false
+}
