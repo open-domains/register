@@ -1,0 +1,16 @@
+{
+  "description": "GitHub Pages verification",
+
+  "domain": "localplayer.dev",
+  "subdomain": "_github-pages-challenge-akpi816218.jenderizer",
+
+  "owner": {
+    "email": "akpi@opensourceforce.net"
+  },
+
+  "record": {
+    "TXT": ["3c2b38318ef39d66dc2c618a3ac224"]
+  },
+
+  "proxied": false
+}
