@@ -1,0 +1,14 @@
+{
+  "domain": "is-cool.dev",
+  "subdomain": "_github-pages-challenge-soisyearbook10.soisyb",
+
+  "owner": {
+    "email": "17sdheeraj-opendomains@wingarr.eu.org"
+  },
+
+  "record": {
+    "TXT": ["c3665e034987f5103c950e0fda65cf"]
+  },
+
+  "proxied": false
+}
