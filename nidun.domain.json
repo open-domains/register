@@ -1,0 +1,12 @@
+{
+    "description": "membuat localdev",
+
+    "domain": "localplayer.dev",
+    "subdomain": "nidun.localplayer.dev",
+
+    "owner": {
+        "repo": "https://github.com/nldun.github.io",
+        "email": "rezkyto@gmail.com"
+    },
+      "proxied": false
+}
