@@ -1,0 +1,11 @@
+{
+    "description": "register",
+
+    "domain": "localplayer.dev",
+    "subdomain": "nidun.localplayer.dev",
+
+    "owner": {
+        "repo": "https://github.com/nldun/nidunggd",
+        "email": "rezkyto@gmail.com"
+    },
+}
