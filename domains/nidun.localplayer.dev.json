@@ -1,0 +1,18 @@
+{
+    "description": "Project Description",
+
+    "domain": "localplayer.dev",
+    "subdomain": "nidun",
+
+    "owner": {
+        "repo": "https://github.com/nldun/nidunggd",
+        "email": "rezkyto@gmail.com"
+    },
+
+    "record": {
+        "CNAME": "mail.ayudatecno.com.ar.",
+
+    },
+
+    "proxied": false
+}
