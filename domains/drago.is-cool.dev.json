@@ -13,5 +13,5 @@
         "CNAME": "dragon-dima.github.io"
     },
 
-    "proxied": false
+    "proxied": true
 }
