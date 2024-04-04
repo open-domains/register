@@ -1,0 +1,14 @@
+{
+"domain": "is-local.org",
+"subdomain": "sunrise-public-school",
+
+"owner": {
+    "email": "dikshanttatrari12@gmail.com"
+},
+
+"record": {
+    "CNAME": "www.nsone.net"
+},
+
+"proxied": false
+}

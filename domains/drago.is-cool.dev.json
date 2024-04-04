@@ -1,0 +1,17 @@
+{
+    "description": "Just a site for college projects, and also a link shortener for my google drive.",
+
+    "domain": "is-cool.dev",
+    "subdomain": "drago",
+
+    "owner": {
+        "repo": "https://github.com/Dragon-Dima/site",
+        "email": "dima_77659@mail.ru"
+    },
+
+    "record": {
+        "CNAME": "dragon-dima.github.io"
+    },
+
+    "proxied": true
+}
