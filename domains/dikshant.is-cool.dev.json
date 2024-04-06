@@ -1,0 +1,17 @@
+{
+    "description": "Dikshant Tatrari",
+
+    "domain": "is-cool.dev",
+    "subdomain": "dikshant",
+
+    "owner": {
+        "repo": "https://github.com/dikshanttatrari/portfolio",
+        "email": "tatraridikshu9876@gmail.com"
+    },
+
+    "record": {
+        "A": ["185.199.108.153", "185.199.109.153"],
+    },
+
+    "proxied": false
+}
