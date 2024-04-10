@@ -10,7 +10,7 @@
     },
     
     "record": {
-        "TXT": "v=DKIM1; k=rsa; p=MIGfMA0GCSqGSIb3DQEBAQUAA4GNADCBiQKBgQC6ULBG7v0QRiFw6Au2VX4RYqoJCQfNh/hOjyiz2cRg4pmgnApvw8zo1zmsQ5fwLKIG5wSkoQjIkqpEZeCIXF1HPAt6aKEwhce6s93m1WbCVzogoeqxGy78QfN0Xc1pW7WBatxjETfeXIj945/DWI484GX+0EdTfQBv0ORa3tk0dwIDAQAB"
+        "TXT": ["v=DKIM1; k=rsa; p=MIGfMA0GCSqGSIb3DQEBAQUAA4GNADCBiQKBgQC6ULBG7v0QRiFw6Au2VX4RYqoJCQfNh/hOjyiz2cRg4pmgnApvw8zo1zmsQ5fwLKIG5wSkoQjIkqpEZeCIXF1HPAt6aKEwhce6s93m1WbCVzogoeqxGy78QfN0Xc1pW7WBatxjETfeXIj945/DWI484GX+0EdTfQBv0ORa3tk0dwIDAQAB"]
     },
     
     "proxied": false
