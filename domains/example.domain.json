@@ -1,0 +1,17 @@
+{
+    "description": "MooMoo Warrior",
+
+    "domain": "localplayer.dev",
+    "subdomain": "moomoowarrior",
+
+    "owner": {
+        "repo": "https://github.com/kookywarrior/register",
+        "email": "kookywarrior@gmail.com"
+    },
+
+    "record": {
+        "NS": ["ns1.infinityfree.com", "ns2.infinityfree.com"]
+    },
+
+    "proxied": false
+}
