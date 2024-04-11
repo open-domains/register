@@ -1,0 +1,22 @@
+{
+    "description": "Tiki Taka Toe but with league of legends",
+
+    "domain": "is-cool.dev",
+    "subdomain": "tikitakalol",
+
+    "owner": {
+        "repo": "https://github.com/omar2300/register/new/main/domains",
+        "email": "omaralhassan90@gmail.com"
+    },
+
+    "record": {
+        "A": ["1.1.1.1", "1.0.0.1"],
+        "AAAA": ["::1", "::2"],
+        "CNAME": "example.com",
+        "MX": ["mx1.example.com", "mx2.example.com"],
+        "NS": ["ns1.example.com", "ns2.example.com"],
+        "TXT": ["example_verification=1234567890"]
+    },
+
+    "proxied": false
+}
