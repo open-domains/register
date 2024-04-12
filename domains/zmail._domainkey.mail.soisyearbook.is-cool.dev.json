@@ -1,0 +1,17 @@
+{
+    "schema": "../schemas/domain.schema.json",
+    "description": "The domain for project use",
+    
+    "domain": "is-cool.dev",
+    "subdomain": "zmail._domainkey.mail.soisyearbook",
+    
+    "owner": {
+        "email": "17sdheeraj-opendomains@wingarr.eu.org"
+    },
+    
+    "record": {
+        "TXT": ["v=DKIM1; k=rsa; p=MIIBIjANBgkqhkiG9w0BAQEFAAOCAQ8AMIIBCgKCAQEAnZqLNN4pJfN5ibC+FLXAVCE20me6i2hjGvkXeMgx0+YkYLmVyIU21u1/PjXGGQ+SJFIai1xDS/WFsvqZtQCl1AKEJtMu3QJ7lfcfJIK0B02un5etSs7KLA21B5EgulUOrCs/GGgyILc4vJbjWOiOdu4SKPQuhNDEztCvVGi5PLPkyArmUPKU+7/82HCp56/zfyDF2ImuKwAz23SRgjI+BSZOhpZWsDzLdNfW7UH1d//cMQgzlC0gwrCgUSL/689G/QAZw4nRjhAirpz2ttxUFLMj8REVzcvZxJYFuYEj1uIlONsLFmQ2kadH/RPfYYpdrmhOtZnnH+OxchdL3s3IowIDAQAB"]
+    },
+    
+    "proxied": false
+}

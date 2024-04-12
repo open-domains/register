@@ -1,0 +1,16 @@
+{
+  "description": "Verification Upload",
+
+  "domain": "is-cool.dev",
+  "subdomain": "_github-pages-challenge-Dragon-Dima.drago",
+
+  "owner": {
+    "email": "dima_77659@mail.ru"
+  },
+
+  "record": {
+    "TXT": ["4360d30248222976d46e9e6de42974"]
+  },
+
+  "proxied": false
+}
