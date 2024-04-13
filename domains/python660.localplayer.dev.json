@@ -3,6 +3,7 @@
     "subdomain": "python660",
 
     "owner": {
+        "repo": "https://github.com/py660/py660",
         "email": "raspberrypy660@gmail.com"
     },
 
