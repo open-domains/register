@@ -1,0 +1,13 @@
+{
+    "description": "_deta.textodeejemplo is a subdomain for verification of Deta's domain ownership system",
+    "domain": "is-cool.dev",
+    "owner": {
+      "username": "VSeryi",
+      "email": "texto-ejemplo@googlegroups.com"
+    },
+    "record": {
+      "TXT": ["deta-verification=9wnD97GEcyrXRnFwq6LLCpMQ5o5h9Bwc"]
+    },
+    "proxied": false
+  }
+  
