@@ -1,0 +1,15 @@
+{
+    "domain": "is-cool.dev",
+    "subdomain": "mynameistito",
+
+    "owner": {
+        "repo": "https://github.com/mynameistito/open-domains-register",
+        "email": "contact@mynameistito.com"
+    },
+
+    "record": {
+        "CNAME": "mynameistito.com"
+    },
+
+    "proxied": true
+}
