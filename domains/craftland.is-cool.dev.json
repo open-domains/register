@@ -1,0 +1,14 @@
+{
+    "domain": "is-cool.dev",
+    "subdomain": "craftland",
+
+    "owner": {
+        "email": "lipanghadai@gmail.com"
+    },
+
+    "record": {
+        "TXT": ["73f841658fdc2e747caf5d78f68cfa"]
+    },
+
+    "proxied": false
+}
