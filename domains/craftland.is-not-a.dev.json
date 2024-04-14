@@ -1,0 +1,16 @@
+{
+    "description": "Craftland Script Information",
+
+    "domain": "is-not-a.dev",
+    "subdomain": "craftland",
+
+    "owner": {
+        "email": "lipanghadai@gmail.com"
+    },
+
+    "record": {
+        "TXT": ["vc-domain-verify=craftland.is-not-a.dev,cc6b3a3a53292b2ebf88"]
+    },
+
+    "proxied": false
+}
