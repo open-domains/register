@@ -1,0 +1,17 @@
+{
+    "description": "Wildcard for my Proxy Manager",
+
+    "domain": "is-local.org",
+    "subdomain": "*.pinpins",
+
+    "owner": {
+        "repo": "https://github.com/polarpinpin/open-domains",
+        "email": "tunu405c@anonaddy.me"
+    },
+
+    "record": {
+        "TXT": ["qpdhtizbblxgawukwrfvueefervuiybe"]
+    },
+
+    "proxied": false
+}
