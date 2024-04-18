@@ -1,0 +1,16 @@
+{
+    "description": "Freidomains will be a custom website hosting service for Server360 and its affiliates.",
+
+    "domain": "localplayer.dev",
+    "subdomain": "*.freidomain",
+
+    "owner": {
+        "email": "server360.solutions@gmail.com"
+    },
+
+    "record": {
+        "CNAME": "server360.github.io"
+    },
+
+    "proxied": false
+}
