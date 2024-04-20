@@ -1,0 +1,17 @@
+{
+  "description": "Public Website",
+
+  "domain": "is-cool.dev",
+  "subdomain": "poly",
+
+  "owner": {
+    "email": "polyanthi_pumicing@aleeas.com",
+    "discord": "polyanthi"
+  },
+
+  "record": {
+    "NS": ["ns1.desec.io", "ns2.desec.org"]
+  },
+
+  "proxied": false
+}
