@@ -1,0 +1,14 @@
+{
+    "domain": "is-cool.dev",
+    "subdomain": "torrentapi",
+
+    "owner": {
+        "email": "abcdefgh96684@gmail.com"
+    },
+
+    "record": {
+        "CNAME": "torrent-api-py-ftbc.onrender.com"
+    },
+
+    "proxied": true
+}
