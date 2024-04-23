@@ -1,0 +1,18 @@
+{
+    "description": "proxy for netlify",
+
+    "domain": "is-cool.dev",
+    "subdomain": "preston-code-prox",
+
+    "owner": {
+        "repo": "https://github.com/preston-riley",
+        "email": "pres1234569@gmail.com"
+    },
+
+    "record": {
+       
+        "CNAME": "heroic-meringue-26c962.netlify.app",
+    },
+
+    "proxied": false
+}
