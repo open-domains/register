@@ -1,0 +1,16 @@
+{
+    "description": "Portfolio",
+
+    "domain": "is-a.dev",
+    "subdomain": "ZxLbni",
+
+    "owner": {
+        "email": "dolabani46@gmail.com"
+    },
+
+    "record": {
+        "URL": "https://ZxLbni.is-a.dev"
+    },
+
+    "proxied": false
+}
