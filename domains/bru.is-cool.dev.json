@@ -1,0 +1,17 @@
+{
+    "description": "Bruno's personal Developer page",
+
+    "domain": "is-cool.dev",
+    "subdomain": "bru",
+
+    "owner": {
+        "repo": "https://github.com/BrunoWithoutH/brunowithouth",
+        "email": "pinheirobrunoevaristo@gmail.com"
+    },
+
+    "record": {
+        "CNAME": "brunowithouth.pages.dev",
+    },
+
+    "proxied": false
+}
