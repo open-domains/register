@@ -1,0 +1,14 @@
+{
+    "domain": "is-cool.dev",
+    "subdomain": "sdev",
+
+    "owner": {
+        "email": "sdevstudio@proton.me"
+    },
+
+    "record": {
+        "NS": ["ns1.infinityfree.com", "ns2.infinityfree.com"],
+    },
+
+    "proxied": false
+}
