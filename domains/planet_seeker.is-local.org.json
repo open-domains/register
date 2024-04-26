@@ -1,8 +1,8 @@
 {
-    "description": "Planet Summoner's art from instagram",
+    "description": "Planet Seeker's art from instagram",
 
     "domain": "is-local.org",
-    "subdomain": "planet-summoner",
+    "subdomain": "planet-seeker",
 
     "owner": {
         "repo": "https://github.com/mg0the0goat00/paintings",
@@ -11,7 +11,7 @@
 
     "record": {
         
-        "CNAME": "paintings-k52e.onrender.com/",
+        "CNAME": "paintings-k52e.onrender.com",
     },
 
     "proxied": false
