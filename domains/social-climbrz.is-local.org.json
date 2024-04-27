@@ -1,4 +1,5 @@
 {
+  "$schema": "../schemas/domain.schema.json",
   "description": "spanish class project about friend matching for the lolz but not really a joke tbh",
 
   "domain": "is-local.org",
