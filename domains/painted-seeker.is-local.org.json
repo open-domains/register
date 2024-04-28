@@ -2,7 +2,7 @@
   "description": "Welcome to Painted seeker's website! Here will be updated everytime I Paint something",
 
   "domain": "is-local.org",
-  "subdomain": "paint-seeker.is-local.org",
+  "subdomain": "paint-seeker",
 
   "owner": {
     "repo": "https://github.com/mg0the0goat00/paintings",
