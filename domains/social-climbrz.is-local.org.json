@@ -1,5 +1,6 @@
 {
-  "description": "spanish class project about friend matching for the lolz but not really a joke tbh",
+  "$schema": "../schemas/domain.schema.json",
+  "description": "project hosted on github pages",
 
   "domain": "is-local.org",
   "subdomain": "social-climbrz",
