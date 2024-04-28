@@ -1,0 +1,16 @@
+{
+  "description": "Verification Upload",
+
+  "domain": "is-local.org",
+  "subdomain": "_github-pages-challenge-dragonipenguin.social-climbrz",
+
+  "owner": {
+    "email": "dragoni_penguin@tutanota.com"
+  },
+
+  "record": {
+    "TXT": ["a82cd9ade8cfc3e82aafa18b91345d"]
+  },
+
+  "proxy": false
+}
