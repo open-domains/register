@@ -3,6 +3,7 @@
     "subdomain": "*.packjack",
 
     "owner": {
+        "repo": "https://github.com/packjackisback",
         "email": "packjackisback@gmail.com"
     },
 
