@@ -1,0 +1,14 @@
+{
+    "domain": "is-cool.dev",
+    "subdomain": "*.packjack",
+
+    "owner": {
+        "email": "packjackisback@gmail.com"
+    },
+
+    "record": {
+        "TXT": ["packjackisback.github.io"]
+    },
+
+    "proxied": false
+}
