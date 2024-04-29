@@ -1,1 +1,22 @@
+{
+    "description": "i want to have sub for run vpn for my client",
 
+    "domain": "is-local.org",
+    "subdomain": "s1",
+
+    "owner": {
+        "repo": "https://github.com/username/repo",
+        "email": "hello@is-local.org"
+    },
+
+    "record": {
+        "A": ["147.45.69.5"],
+        "AAAA": ["2a12:5940:2224::2"],
+        "CNAME": "example.com",
+        "MX": ["mx1.example.com", "mx2.example.com"],
+        "NS": ["ns1.example.com", "ns2.example.com"],
+        "TXT": ["example_verification=1234567890"]
+    },
+
+    "proxied": false
+}
