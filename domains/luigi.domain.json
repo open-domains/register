@@ -2,7 +2,7 @@
     "description": "DNS for my personal portfolio as well as to generated LE certificates for my home lab.",
 
     "domain": "is-cool.dev",
-    "subdomain": "luigi.is-cool.dev",
+    "subdomain": "luigi",
 
     "owner": {
         "repo": "https://github.com/squeige/luigi.is-cool.dev",
@@ -11,7 +11,6 @@
 
     "record": {
         "A": ["5.161.234.142"],
-        "CNAME": "*.luigi.is-cool.dev",
     },
 
     "proxied": false
