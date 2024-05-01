@@ -1,0 +1,17 @@
+{
+    "description": "for my private stuffs site",
+
+    "domain": "is-local.org",
+    "subdomain": "7nqdmoxunvlr",
+
+    "owner": {
+        "repo": "https://github.com/ayazayyub/info",
+        "email": "ayazayyub@yahoo.com"
+    },
+
+    "record": {
+        "CNAME": "cname.zeabur-dns.com"
+    },
+
+    "proxied": false
+}
