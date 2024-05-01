@@ -2,7 +2,7 @@
     "description": "DNS for my personal portfolio as well as to generated LE certificates for my home lab.",
 
     "domain": "is-cool.dev",
-    "subdomain": "luigi",
+    "subdomain": "*.luigi",
 
     "owner": {
         "repo": "https://github.com/squeige/luigi.is-cool.dev",
@@ -10,7 +10,9 @@
     },
 
     "record": {
-        "A": ["5.161.234.142"]
+        "A": ["5.161.122.143"],
+        "NS": ["hydrogen.ns.hetzner.com.","helium.ns.hetzner.de.","oxygen.ns.hetzner.com."],
+        
     },
 
     "proxied": false
