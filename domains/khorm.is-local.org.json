@@ -1,7 +1,7 @@
 {
     "description": "Wildcard for my NGINX Proxy Manager",
 
-    "domain": "is-cool.dev",
+    "domain": "is-local.org",
     "subdomain": "*.khorm",
 
     "owner": {
