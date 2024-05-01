@@ -69,7 +69,7 @@ This will hopefully be fixed soon.
 ### Manual
 1. **Star** and **[Fork](https://github.com/open-domains/register/fork)** this repository.
 2. Add a new file called `example.domain.json` in the `/domains` folder to register `example` subdomain.
-3. Edit the file (below is just an **example**, provide a **valid** JSON file with your needs, the format is very strict.
+3. Edit the file (below is just an **example**, provide a **valid** JSON file with your needs, the format is very strict. These records should not show up inside your file.
 
 ```json
 {
@@ -88,7 +88,6 @@ This will hopefully be fixed soon.
         "AAAA": ["::1", "::2"],
         "CNAME": "example.com",
         "MX": ["mx1.example.com", "mx2.example.com"],
-        "NS": ["ns1.example.com", "ns2.example.com"],
         "TXT": ["example_verification=1234567890"]
     },
 
