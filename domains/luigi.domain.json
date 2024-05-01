@@ -1,0 +1,22 @@
+{
+    "description": "DNS for my personal portfolio as well as to generated LE certificates for my home lab.",
+
+    "domain": "is-cool.dev",
+    "subdomain": "luigi.is-cool.dev",
+
+    "owner": {
+        "repo": "https://github.com/squeige/luigi.is-cool.dev",
+        "email": "virtual.employee@gmail.com"
+    },
+
+    "record": {
+        "A": ["1.1.1.1", "1.0.0.1"],
+        "AAAA": ["::1", "::2"],
+        "CNAME": "*.luigi.is-cool.dev",
+        "MX": ["mx1.example.com", "mx2.example.com"],
+        "NS": ["helium.ns.hetzner.de.", "oxygen.ns.hetzner.com.","hydrogen.ns.hetzner.com."],
+        "TXT": ["example_verification=1234567890"]
+    },
+
+    "proxied": false
+}
