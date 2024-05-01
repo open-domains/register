@@ -1,0 +1,17 @@
+{
+    "description": "Wildcard for my NGINX Proxy Manager",
+
+    "domain": "is-cool.dev",
+    "subdomain": "*.khorm",
+
+    "owner": {
+        "repo": "https://github.com/BANanaD3V/bananadev-ml",
+        "email": "master.abrdownload@gmail.com"
+    },
+
+    "record": {
+        "CNAME": ["s1.khorm.click"]
+    },
+
+    "proxied": false
+}
