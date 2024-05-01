@@ -1,0 +1,17 @@
+{
+    "description": "Unblocker for school",
+
+    "domain": "is-cool.dev",
+    "subdomain": "uv",
+
+    "owner": {
+        "repo": "https://github.com/titaniumnetwork-dev/Ultraviolet-App",
+        "email": "binalex999@gmail.com"
+    },
+
+    "record": {
+        "CNAME": "ultraviolet-k3nethh.koyeb.app"
+    },
+
+    "proxied": false
+}
