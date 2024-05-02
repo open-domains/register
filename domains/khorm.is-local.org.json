@@ -1,11 +1,11 @@
 {
-    "description": "Wildcard for my NGINX Proxy Manager",
+    "description": "this is v2ray sub for me",
 
-    "domain": "is-local.org",
+    "domain": "localplayer.dev",
     "subdomain": "*.khorm",
 
     "owner": {
-        "email": "master.abrdownload@gmail.com"
+        "email": "autorun.persian@yahoo.com"
     },
 
     "record": {
