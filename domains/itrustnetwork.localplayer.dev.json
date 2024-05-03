@@ -1,0 +1,19 @@
+{
+    "description": "itrust Network",
+
+    "domain": "localplayer.dev",
+    "subdomain": "itrustnetwork",
+
+    "owner": {
+        "repo": "https://github.com/Mahdisoolei1/register",
+        "email": "itrustnet@gmail.com"
+    },
+
+    "record": {
+        "A": ["135.181.80.156"],
+        "AAAA": ["2a01:4f9:c012:da46::1", "2a01:4f9:c012:da46::2"],
+        
+    },
+
+    "proxied": false
+}
