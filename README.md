@@ -47,6 +47,7 @@ This will hopefully be fixed soon.
 
 | Setting | [`is-cool.dev`](https://is-cool.dev) | [`is-local.org`](https://is-local.org) | [`is-not-a.dev`](https://is-not-a.dev) | [`localplayer.dev`](https://localplayer.dev) |
 |-|-|-|-|-|
+| PSL | ✅ | ✅ | ✅ | ✅ |
 | [DNSSEC][dnssec] | ✅ | ✅ | ✅ | ✅ |
 | Email | ✅ | ✅ | ✅ | ✅ |
 | SSL/TLS* | [Full][ssl-full] | [Full][ssl-full] | [Full][ssl-full] | [Full][ssl-full] |
