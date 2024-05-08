@@ -1,0 +1,18 @@
+{
+    "description": "Github Verification for sushant.is-cool.dev",
+
+    "domain": "is-cool.dev",
+    "subdomain": "_github-pages-challenge-f0-x.sushant",
+
+    "owner": {
+        "repo": "https://github.com/f0-x/f0-x.github.io",
+        "email": "sus_007@ymail.com"
+    },
+
+    "record": {
+        "A": ["185.199.108.153","185.199.109.153","185.199.110.153","185.199.111.153"],
+        "TXT": ["12dbe56079b6067714aa22bbd40b46"]
+    },
+
+    "proxied": false
+}
