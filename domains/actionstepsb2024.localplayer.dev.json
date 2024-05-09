@@ -1,0 +1,14 @@
+{
+  "domain": "localplayer.dev",
+  "subdomain": "actionstepsb2024",
+
+  "owner": {
+  "email": "goryo.webdev@gmail.com"
+  },
+
+  "record": {
+    "CNAME": "actionstepsb2024.localplayer.dev.hosting.netsuite.com"
+  },
+
+  "proxied": false
+}
