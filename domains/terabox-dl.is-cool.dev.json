@@ -1,0 +1,14 @@
+{
+    "domain": "is-cool.dev",
+    "subdomain": "terabox-dl",
+
+    "owner": {
+        "email": "lipanghadai@gmail.com"
+    },
+
+    "record": {
+        "CNAME": "jinix6.github.io/terabox-downloader"
+    },
+
+    "proxied": false
+}
