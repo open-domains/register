@@ -1,0 +1,10 @@
+{
+    "description": "CCDS",
+    "domain": "is-cool.dev",
+    "subdomain": ".ccds",
+    "owner": {
+        "repo": "https://github.com/rafathasan/register",
+        "email": "rafathasankhan@gmail.com"
+    },
+    "proxied": false
+}
