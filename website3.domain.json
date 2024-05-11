@@ -1,0 +1,23 @@
+{
+    "description": "Project Description",
+
+    "domain": "is-not-a.dev",
+    "subdomain": "website3",
+
+    "owner": {
+        "repo": "https://github.com/MariamAsall/website3",
+        "email": "mariam.asal@ejust.edu.eg"
+    },
+  
+  "record": {
+      "NS": [
+          "ns-1035.awsdns-01.org.",
+          "ns-772.awsdns-32.net.",
+          "ns-490.awsdns-61.com.",
+          "ns-1742.awsdns-25.co.uk."
+      ]
+},
+
+
+    "proxied": false
+}
