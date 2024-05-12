@@ -1,0 +1,14 @@
+{
+    "domain": "is-cool.dev",
+    "subdomain": "ws.maragi",
+
+    "owner": {
+        "email": "maragidevelopments@gmail.com"
+    },
+
+    "record": {
+        "A": ["185.31.40.24"]
+    },
+
+    "proxied": false
+}
