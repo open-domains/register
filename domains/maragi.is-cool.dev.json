@@ -8,7 +8,7 @@
 
     "record": {
         "A": ["185.31.40.24"],
-        "MX": ["mx1.alwaysdata.com", "mx2.alwaysdata.com"],
+        "MX": ["mx1.alwaysdata.com", "mx2.alwaysdata.com", "smtp.google.com"],
         "TXT": ["v=spf1 mx a:ad.alwaysdata.net ~all", "google-site-verification=N_ivJb43HMOrbdZ9WjcoLQrFbSajTGzsx9B5ZqsTJ9o"]
     },
 
