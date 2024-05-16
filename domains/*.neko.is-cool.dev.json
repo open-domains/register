@@ -9,7 +9,5 @@
     
     "record": {
         "NS": ["greg.ns.cloudflare.com", "susan.ns.cloudflare.com"]
-    },
-
-    "proxied": "false"
+    }
 }
