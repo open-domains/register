@@ -1,14 +1,15 @@
 {
-  "description": "For funny, study and test project basically, I will never abuse it.",
+    "description": "for my funny(study and test basically) project, I will never abuse it",
 
-  "domain": "is-local.org",
-  "subdomain": "neko",
+    "domain": "is-cool.dev",
+    "subdomain": "neko",
+    "owner": {
+        "email": "red@pissmail.com"
+    },
 
-  "owner": {
-    "email": "mail@zwei.de.eu.org"
-  },
+    "record": {
+        "NS": ["greg.ns.cloudflare.com", "susan.ns.cloudflare.com"]
+    },
 
-  "record": {
-    "NS": ["greg.ns.cloudflare.com", "susan.ns.cloudflare.com"]
- 
+    "proxied": false
 }
