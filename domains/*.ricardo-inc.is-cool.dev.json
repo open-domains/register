@@ -10,13 +10,9 @@
     },
 
     "record": {
-        "A": ["194.24.161.232"],
-        "AAAA": ["::1", "::2"],
-        "CNAME": "example.com",
-        "MX": ["mx1.example.com", "mx2.example.com"],
-        "TXT": ["example_verification=1234567890"]
+        "A": ["194.24.161.232"]
     }, 
 
     "proxied": false
 }
-dns is finally set up with cloudflare when the domain is ready
+
