@@ -1,7 +1,7 @@
 {
-    "description": "Project Description",
+    "description": "Bussnis website",
 
-    "domain": "*.is-local.org",
+    "domain": "is-local.org",
     "subdomain": "ricardo-inc",
 
     "owner": {
