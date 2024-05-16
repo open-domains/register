@@ -4,7 +4,6 @@
     "domain": "is-cool.dev",
     "subdomain": "neko",
     "owner": {
-        "repo": "https://github.com/Vibred/null",
         "email": "red@pissmail.com"
     },
 
