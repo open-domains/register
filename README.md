@@ -39,7 +39,7 @@ https://discord.gg/kVjkg6VBwa
 [badge-ssl]:https://shields.io/badge/SSL-Required-blue?style=plastic?cacheSeconds=3600
 
 ### Unsupported Services
-We currently do not support Cloudflare (for NS), Netlify (for website) or Vercel (for websites).
+We currently do not support Netlify (for websites) or Vercel (for websites).
 
 This will hopefully be fixed soon.
 
