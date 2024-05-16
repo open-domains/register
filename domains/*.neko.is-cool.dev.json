@@ -2,12 +2,11 @@
     "description": "for my funny(study and test basically) project, I will never abuse it",
 
     "domain": "is-cool.dev",
-    "subdomain": ".neko",
+    "subdomain": "neko",
     "owner": {
-        "repo": "https://github.com/Vibred/registerafreedomain",
-        "email": "red@pissmail.com"
+        "email": "mail@zwei.de.eu.org"
     },
-
+    
     "record": {
         "NS": ["greg.ns.cloudflare.com", "susan.ns.cloudflare.com"]
     },
