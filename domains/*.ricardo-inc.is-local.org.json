@@ -1,7 +1,7 @@
 {
     "description": "Project Description",
 
-    "domain": "is-local.org",
+    "domain": "*.is-local.org",
     "subdomain": "ricardo-inc",
 
     "owner": {
