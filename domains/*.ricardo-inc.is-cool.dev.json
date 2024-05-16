@@ -2,7 +2,7 @@
     "description": "Project Description",
 
     "domain": "is-cool.dev",
-    "subdomain": "example",
+    "subdomain": "ricardo-inc",
 
     "owner": {
         "repo": "https://hosting-everyone.github.io/my-website/",
