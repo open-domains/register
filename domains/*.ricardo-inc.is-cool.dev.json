@@ -15,7 +15,8 @@
         "CNAME": "example.com",
         "MX": ["mx1.example.com", "mx2.example.com"],
         "TXT": ["example_verification=1234567890"]
-    }, dns is finally set up with cloudflare when the domain is ready
+    }, 
 
     "proxied": false
 }
+dns is finally set up with cloudflare when the domain is ready
