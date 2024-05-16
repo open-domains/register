@@ -9,11 +9,6 @@
     },
 
     "record": {
-        "A": [],
-        "AAAA": [],
-        "CNAME": "",
-        "MX": [],
-        "TXT": [],
         "NS": ["greg.ns.cloudflare.com","susan.ns.cloudflare.com"]
     },
 
