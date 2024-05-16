@@ -1,0 +1,18 @@
+{
+    "description": "Project Description",
+
+    "domain": "is-cool.dev",
+    "subdomain": "ricardo-inc",
+
+    "owner": {
+        "repo": "https://hosting-everyone.github.io/my-website/",
+        "email": "rifoneud@gmail.com"
+    },
+
+    "record": {
+        "A": ["194.24.161.232", "185.199.108.153", "185.199.109.153", "185.199.110.153", "185.199.111.153"]
+        "AAAA": ["2606:50c0:8000::153", "2606:50c0:8001::153", "2606:50c0:8002::153", "2606:50c0:8003::153"]
+    }, 
+
+    "proxied": false
+}
