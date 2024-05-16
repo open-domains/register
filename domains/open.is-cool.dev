@@ -1,0 +1,18 @@
+{
+    "domain": "is-cool.dev",
+    "subdomain": "open",
+    "owner": {
+        "email": "epoxid@riseup.net"
+    },
+
+    "record": {
+        "A": [],
+        "AAAA": [],
+        "CNAME": "",
+        "MX": [],
+        "TXT": [],
+        "NS": ["aron.ns.cloudflare.com","kirk.ns.cloudflare.com"]
+    },
+
+    "proxied": false
+}
