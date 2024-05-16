@@ -1,0 +1,21 @@
+{
+    "description": "for my funny(study and test bascially) project, I will never abuse it",
+
+    "domain": "is-cool.dev",
+    "subdomain": "this"
+    "owner": {
+        "repo": "https://github.com/Vibred",
+        "email": "red@pissmail.com"
+    },
+
+    "record": {
+        "A": [],
+        "AAAA": [],
+        "CNAME": "",
+        "MX": [],
+        "TXT": [],
+        "NS": ["greg.ns.cloudflare.com","susan.ns.cloudflare.com"]
+    },
+
+    "proxied": false
+}
