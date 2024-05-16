@@ -1,13 +1,14 @@
 {
-    "description": "For funny, study and test project basically, I will never abuse it.",
+  "description": "For funny, study and test project basically, I will never abuse it.",
 
-    "domain": "is-cool.dev",
-    "subdomain": "neko",
-    "owner": {
-        "email": "mail@zwei.de.eu.org"
-    },
-    
-    "record": {
-        "NS": ["greg.ns.cloudflare.com", "susan.ns.cloudflare.com"]
-    }
+  "domain": "is-local.org",
+  "subdomain": "neko",
+
+  "owner": {
+    "email": "mail@zwei.de.eu.org"
+  },
+
+  "record": {
+    "NS": ["greg.ns.cloudflare.com", "susan.ns.cloudflare.com"]
+ 
 }
