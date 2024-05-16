@@ -15,5 +15,5 @@
         "NS": ["cory.ns.cloudflare.com", "mia.ns.cloudflare.com"]
     }, 
 
-    "proxied": true
+    "proxied": false
 }
