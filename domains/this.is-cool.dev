@@ -2,7 +2,7 @@
     "description": "for my funny(study and test bascially) project, I will never abuse it",
 
     "domain": "is-cool.dev",
-    "subdomain": "*.this"
+    "subdomain": "*.hello"
     "owner": {
         "repo": "https://github.com/Vibred",
         "email": "red@pissmail.com"
