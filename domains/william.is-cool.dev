@@ -1,0 +1,14 @@
+{
+    "domain": "is-cool.dev",
+    "subdomain": "william",
+
+    "owner": {
+        "email": "william@williamharrison.dev"
+    },
+
+    "record": {
+        "NS": ["dom.ns.cloudflare.com", "kate.ns.cloudflare.com"]
+    },
+
+    "proxied": false
+}
