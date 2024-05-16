@@ -1,10 +1,9 @@
 {
-    "description": "for my funny(study and test basically) project, I will never abuse it",
-
     "domain": "is-cool.dev",
     "subdomain": "neko",
+    
     "owner": {
-        "email": "red@pissmail.com"
+        "email": "post@zwei.de.eu.org"
     },
 
     "record": {
