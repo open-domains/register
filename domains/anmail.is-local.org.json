@@ -1,0 +1,17 @@
+{
+  "description": "Personal website and email forwarding ",
+
+  "domain": "is-local.org",
+  "subdomain": "anmail",
+
+  "owner": {
+    "repo": "https://github.com/ririko5834/register",
+    "email": "wolfo89+anmail@protonmail.com"
+  },
+
+  "record": {
+    "NS": ["ns1.he.net", "ns2.he.net", "ns3.he.net", "ns4.he.net", "ns5.he.net"]
+  },
+
+  "proxied": false
+}
