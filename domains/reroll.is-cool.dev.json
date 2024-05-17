@@ -1,0 +1,17 @@
+{
+  "description": "Site to provide files for the kodi Crunchyreroll plugin",
+
+  "domain": "is-cool.dev",
+  "subdomain": "reroll",
+
+  "owner": {
+    "repo": "https://github.com/xtero/register",
+    "email": "christophe.tappret@gmail.com"
+  },
+
+  "record": {
+    "A": [ "141.145.207.220" ]
+  },
+
+  "proxied": false
+}
