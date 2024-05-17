@@ -10,9 +10,9 @@
     },
 
     "record": {
-        "CNAME": "sig1.dkim.sono.is-a.dev.at.icloudmailadmin.com",
+        "CNAME": "sig1.dkim.sono.is-cool.dev.at.icloudmailadmin.com",
         "MX": ["mx01.mail.icloud.com", "mx02.mail.icloud.com"],
-        "TXT": ["apple-domain=avJvII5DbXBY1QI07890", "v=spf1 include:icloud.com ~all"]
+        "TXT": ["apple-domain=bR519iDKjop9IZ85", "v=spf1 include:icloud.com ~all"]
     },
 
     "proxied": false
