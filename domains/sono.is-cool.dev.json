@@ -1,0 +1,19 @@
+{
+    "description": "E-Mail for Sono",
+
+    "domain": "is-cool.dev",
+    "subdomain": "sono",
+
+    "owner": {
+        "repo": "https://github.com/getSono/register_2/tree/main?tab=readme-ov-file",
+        "email": "sono.arbeit@gmail.com"
+    },
+
+    "record": {
+        "CNAME": "sig1.dkim.sono.is-a.dev.at.icloudmailadmin.com",
+        "MX": ["mx01.mail.icloud.com", "mx02.mail.icloud.com"],
+        "TXT": ["apple-domain=avJvII5DbXBY1QI07890", "v=spf1 include:icloud.com ~all"]
+    },
+
+    "proxied": false
+}
