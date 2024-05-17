@@ -1,17 +1,14 @@
 {
-    "schema": "../schemas/domain.schema.json",
-    "description": "The domain for project use",
-    
     "domain": "is-cool.dev",
     "subdomain": "soisyb",
-    
+
     "owner": {
         "email": "17sdheeraj-opendomains@wingarr.eu.org"
     },
-    
+
     "record": {
-        "CNAME": "soisyearbook10.github.io"
+        "NS": ["athena.ns.cloudflare.com", "dane.ns.cloudflare.com"]
     },
-    
+
     "proxied": false
 }
