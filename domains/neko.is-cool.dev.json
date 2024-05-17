@@ -1,5 +1,5 @@
 {
-    "description": "for my funny(study and test basically) project, I will never abuse it",
+    "description": "for my funny(study and test basically) project, I will never abuse it.",
     
     "domain": "is-cool.dev",
     "subdomain": "neko",
@@ -10,6 +10,7 @@
 
     "record": {
         "DS": "neko.is-cool.dev. 3600 IN DS 2371 13 2 DF50E46EDADB5298A3859C9F77CD05B1CD6C2876CE80298FC613CEFD3D08E6C2",
+        
         "NS": ["greg.ns.cloudflare.com", "susan.ns.cloudflare.com"]
     },
 
