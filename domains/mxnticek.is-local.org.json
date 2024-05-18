@@ -1,0 +1,14 @@
+{
+    "domain": "is-local.org",
+    "subdomain": "mxnticek",
+
+    "owner": {
+        "email": "mapy.od.fanousku@post.cz"
+    },
+
+    "record": {
+        "A": ["89.103.169.62"]
+    },
+
+    "proxied": false
+}

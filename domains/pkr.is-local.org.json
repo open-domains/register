@@ -1,0 +1,14 @@
+{
+    "domain": "is-local.org",
+    "subdomain": "pkr",
+
+    "owner": {
+        "email": "i.am@drhaseeb.me"
+    },
+
+    "record": {
+        "CNAME": "pkr-polygon.github.io"
+    },
+
+    "proxied": false
+}

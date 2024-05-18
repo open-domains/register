@@ -1,0 +1,14 @@
+{
+    "domain": "is-cool.dev",
+    "subdomain": "*.akhil",
+
+    "owner": {
+        "email": "codingicpc@gmail.com"
+    },
+
+    "record": {
+        "A": ["73.118.11.31"]
+    },
+
+    "proxied": false
+}

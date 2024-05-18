@@ -1,0 +1,14 @@
+{
+    "domain": "is-local.org",
+    "subdomain": "mars",
+
+    "owner": {
+        "email": "golden_mooooooon@outlook.com"
+    },
+
+    "record": {
+        "CNAME": "paintings-k52e.onrender.com"
+    },
+
+    "proxied": false
+}

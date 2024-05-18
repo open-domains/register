@@ -1,0 +1,14 @@
+{
+    "domain": "is-local.org",
+    "subdomain": "taheri",
+
+    "owner": {
+        "email": "hosein.laletaheri@gmail.com"
+    },
+
+    "record": {
+        "A": ["185.45.193.111"]
+    },
+
+    "proxied": true
+}

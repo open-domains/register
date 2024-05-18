@@ -1,0 +1,18 @@
+{
+  "$schema": "../schemas/domain.schema.json",
+  "description": "project hosted on github pages",
+
+  "domain": "is-local.org",
+  "subdomain": "social-climbrz",
+
+  "owner": {
+    "repo": "https://dragonipenguin.github.io/social-climbrz/",
+    "email": "dragoni_penguin@tutanota.com"
+  },
+
+  "record": {
+    "A": ["185.199.108.153", "185.199.109.153", "185.199.110.153", "185.199.111.153"]
+  },
+
+  "proxied": false
+}

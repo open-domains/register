@@ -1,0 +1,17 @@
+{
+  "description": "Verifying custom domain on Github",
+
+  "domain": "is-cool.dev",
+  "subdomain": "_github-pages-challenge-phocks.josh",
+
+  "owner": {
+    "repo": "https://github.com/phocks/blog",
+    "email": "phocks@gmail.com"
+  },
+
+  "record": {
+    "TXT": ["1afd448c5d0256c4fab769ce5df3f4"]
+  },
+
+  "proxied": false
+}

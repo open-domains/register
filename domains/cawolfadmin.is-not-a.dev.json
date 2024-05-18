@@ -1,0 +1,14 @@
+{
+    "domain": "is-not-a.dev",
+    "subdomain": "cawolfadmin",
+
+    "owner": {
+        "email": "camilozambranovotto@hotmail.com"
+    },
+
+    "record": {
+        "A": ["129.213.49.130"]
+    },
+
+    "proxied": true
+}

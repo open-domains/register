@@ -1,0 +1,17 @@
+{
+    "description": "DKIM key for Mail Server",
+
+    "domain": "is-local.org",
+    "subdomain": "mailru._domainkey.biblionest",
+
+    "owner": {
+        "repo": "https://github.com/biblionest/register-org",
+        "email": "biblionest@gmail.com"
+    },
+
+    "record": {
+        "TXT": ["v=DKIM1; k=rsa; p=MIGfMA0GCSqGSIb3DQEBAQUAA4GNADCBiQKBgQC4f4o4ZcgH/DF9x13qjeM8QiOsz93mLgDUcIjW3aO+lBAlhylrnfbxDNeaPR/BiWwRBW/UhBcqwmzF4T+jUGjHnyKmTg2wDLnEI6AZP0WK +QCrix7hByQpYZG2iirQkWY9o9b3vMIwdTU3YMIlNPvuexQwA4YjcdmBraAVnwFa9wIDAQAB"]
+    },
+
+    "proxied": false
+}

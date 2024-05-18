@@ -1,0 +1,16 @@
+{
+    "domain": "is-cool.dev",
+    "subdomain": "maragi",
+
+    "owner": {
+        "email": "maragidevelopments@gmail.com"
+    },
+
+    "record": {
+        "A": ["185.31.40.24"],
+        "MX": ["mx1.alwaysdata.com", "mx2.alwaysdata.com"],
+        "TXT": ["v=spf1 mx a:ad.alwaysdata.net ~all"]
+    },
+
+    "proxied": false
+}

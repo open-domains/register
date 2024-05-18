@@ -1,0 +1,15 @@
+{
+  "domain": "is-local.org",
+  "subdomain": "_github-pages-challenge-AtlasL1.imag",
+
+  "owner": {
+    "repo": "https://github.com/AtlasL1/IMAG",
+    "email": "loxingle1@gmail.com"
+  },
+
+  "record": {
+    "TXT": ["b5564dca3be16bd7e18f201f4b444a"]
+  },
+
+  "proxied": false
+}

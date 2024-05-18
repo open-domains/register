@@ -10,7 +10,7 @@
   },
 
   "record": {
-    "NS": ["ns1.zilore.net", "ns2.zilore.net"]
+    "NS": ["ns1.he.net", "ns2.he.net", "ns3.he.net", "ns4.he.net", "ns5.he.net"]
   },
 
   "proxied": false

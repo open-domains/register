@@ -1,0 +1,16 @@
+{
+    "description": "for my personal website",
+
+    "domain": "is-cool.dev",
+    "subdomain": "yaman-malla",
+
+    "owner": {
+        "email": "yaman.1423@gmail.com"
+    },
+
+    "record": {
+        "A": ["45.55.110.124"]
+    },
+
+    "proxied": false
+}

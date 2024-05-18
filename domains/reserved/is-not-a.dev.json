@@ -3,6 +3,9 @@
 
   "domain": "is-not-a.dev",
   "subdomain": "@",
+  "owner": {
+    "email": "sys@open-domains.net"
+  },
 
   "record": {
     "A": [

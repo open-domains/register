@@ -1,0 +1,17 @@
+{
+    "description": "A local library open source fullstack website. ",
+
+    "domain": "is-local.org",
+    "subdomain": "stpeterlib",
+
+    "owner": {
+        "repo": "https://github.com/Abdelmasieh01/library",
+        "email": "abdelmasieh84@gmail.com"
+    },
+
+    "record": {
+        "A": ["52.45.145.20"]
+    },
+
+    "proxied": false
+}

@@ -1,0 +1,14 @@
+{
+    "domain": "is-cool.dev",
+    "subdomain": "umar",
+
+    "owner": {
+        "email": "ikramumar13@gmail.com"
+    },
+
+    "record": {
+        "A": ["54.219.191.191"]
+    },
+
+    "proxied": true
+}

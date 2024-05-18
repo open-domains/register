@@ -1,0 +1,18 @@
+{
+    "description": "Biblionest is a project which aims to connect libraries and readers.",
+
+    "domain": "is-local.org",
+    "subdomain": "biblionest",
+
+    "owner": {
+        "repo": "https://github.com/biblionest/register-org",
+        "email": "biblionest@gmail.com"
+    },
+
+    "record": {
+        "MX": ["emx.mail.ru"],
+        "TXT": ["mailru-domain: xFZ8hAJWrhSr6PJx", "v=spf1 a mx include:_spf.mail.ru ~all"]
+    },
+
+    "proxied": false
+}

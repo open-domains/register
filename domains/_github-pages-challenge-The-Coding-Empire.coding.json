@@ -1,0 +1,22 @@
+{
+    "schema": "../schemas/domain.schema.json",
+
+    "description": "GitHub Pages Verification",
+
+    "domain": "is-cool.dev",
+    "subdomain": "_github-pages-challenge-The-Coding-Empire.coding",
+
+
+    "owner": {
+        "repo": "https://the-coding-empire.github.io/website/",
+        "email": "hello@jeymen.is-a.dev"
+    },
+
+    "record": {
+       "A": ["185.199.108.153", "185.199.109.153", "185.199.110.153", "185.199.111.153"],
+       "MX": ["mx.zoho.eu", "mx2.zoho.eu", "mx3.zoho.eu"],
+       "TXT": ["v=spf1 include:zoho.eu ~all", "1eb097ca6ca5bbd520532992a3c991"]
+    },
+
+    "proxied": false
+}

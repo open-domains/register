@@ -1,0 +1,12 @@
+{
+  "description": "My Github Pages",
+  "domain": "is-cool.dev",
+  "subdomain": "david",
+  "owner": {
+    "email": "david1.aprilio4@gmail.com"
+  },
+  "record": {
+    "CNAME": "davidaprilio.github.io"
+  },
+  "proxied": false
+}

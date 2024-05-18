@@ -1,0 +1,17 @@
+{
+    "description": "A WebOS based off of the windows 12 concept",
+
+    "domain": "localplayer.dev",
+    "subdomain": "eagos",
+
+    "owner": {
+        "repo": "https://github.com/stpv221/EagOS",
+        "email": "oswaldfink12@gmail.com"
+    },
+
+    "record": {
+        "CNAME": "na-west1.surge.sh"
+    },
+
+    "proxied": false
+}

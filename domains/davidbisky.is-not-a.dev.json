@@ -1,0 +1,14 @@
+{
+    "domain": "is-not-a.dev",
+    "subdomain": "davidbisky",
+
+    "owner": {
+        "email": "richardvu12391@gmail.com"
+    },
+
+    "record": {
+        "A": ["103.97.126.22"]
+    },
+
+    "proxied": true
+}

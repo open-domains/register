@@ -1,0 +1,14 @@
+{
+    "domain": "is-cool.dev",
+    "subdomain": "simple-progs",
+
+    "owner": {
+        "email": "danilastr1@mail.ru"
+    },
+
+    "record": {
+        "A": ["194.61.1.147"]
+    },
+
+    "proxied": true
+}

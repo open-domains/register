@@ -9,8 +9,8 @@
         "email": "devamidhun.3c.kmbvm@gmail.com"
     },
 
-    "record": {
-        "CNAME": "turbomaster95.github.io"
+    "record":{
+        "NS": ["ns1.hostry.com", "ns2.hostry.com", "ns3.hostry.com", "ns4.hostry.com"]
     },
 
     "proxied": false

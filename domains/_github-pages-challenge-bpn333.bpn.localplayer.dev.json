@@ -1,0 +1,16 @@
+{
+    "description": "GitHub Pages verification",
+    
+    "domain": "localplayer.dev",
+    "subdomain": "_github-pages-challenge-bpn333.bpn",
+
+    "owner": {
+        "email": "bipinlamsal2004@gmail.com"
+    },
+
+    "record": {
+        "TXT": ["91f4a72a9667845c8df321b0f4743f"]
+    },
+
+    "proxied": false
+}

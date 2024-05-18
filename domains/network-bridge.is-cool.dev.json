@@ -1,0 +1,14 @@
+{
+    "domain": "is-cool.dev",
+    "subdomain": "network-bridge",
+
+    "owner": {
+        "email": "dantetrensetta@gmail.com"
+    },
+
+    "record": {
+        "A": ["198.51.44.4"]
+    },
+
+    "proxied": false
+}

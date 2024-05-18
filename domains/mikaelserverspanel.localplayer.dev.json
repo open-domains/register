@@ -1,0 +1,14 @@
+{
+    "domain": "localplayer.dev",
+    "subdomain": "mikaelserverspanel",
+
+    "owner": {
+        "email": "mikaellpc4@GMail.com"
+    },
+
+    "record": {
+        "A": ["144.22.140.217"]
+    },
+
+    "proxied": false
+}

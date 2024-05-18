@@ -1,0 +1,15 @@
+{
+    "domain": "is-local.org",
+    "subdomain": "python660",
+
+    "owner": {
+        "repo": "https://github.com/py660/py660",
+        "email": "py660@irc.cluster.ws"
+    },
+
+    "record": {
+        "CNAME": "py660.github.io"
+    },
+
+    "proxied": true
+}

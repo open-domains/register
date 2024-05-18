@@ -1,0 +1,15 @@
+{
+    "domain": "is-cool.dev",
+    "subdomain": "isg32",
+
+    "owner": {
+        "repo": "https://github.com/isg32/isg32.github.io",
+        "email": "sapangajjar101105@gmail.com"
+    },
+
+    "record": {
+        "CNAME": "isg32.github.io"
+    },
+
+    "proxied": false
+}

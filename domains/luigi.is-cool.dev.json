@@ -1,0 +1,14 @@
+{
+    "description": "DNS for my personal portfolio as well as to generated LE certificates for my home lab. Decided to migrate my site and to a new server. Instead of messing around with my main host will migrate to a new server and ip and once completed will discard the old one.",
+
+    "domain": "is-cool.dev",
+    "subdomain": "*.luigi",
+    "owner": {
+        "repo": "https://github.com/squeige/luigi.is-cool.dev",
+        "email": "virtual.employee@gmail.com"
+    },
+    "record": {
+        "A": ["5.161.122.143"]
+    },
+    "proxied": false
+}

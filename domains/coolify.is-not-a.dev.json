@@ -1,0 +1,17 @@
+{
+    "description": "Will be used to allow me to access my self-hosted Coolify instance when out and about, without needing to access it through the IP address. The IP address is blocked on certain networks, the URL gets around this.",
+
+    "domain": "is-not-a.dev",
+    "subdomain": "coolify",
+
+    "owner": {
+        "repo": "https://github.com/UntoldGam",
+        "email": "charlesobird+github@outlook.com"
+    },
+
+    "record": {
+        "A": ["132.145.13.19"]
+    },
+
+    "proxied": false
+}

@@ -1,0 +1,15 @@
+{
+  "description": "Minecraft server",
+
+  "domain": "localplayer.dev",
+  "subdomain": "minecraft.semant",
+
+  "owner": {
+    "email": "contact@semant.is-a.dev"
+  },
+
+  "record": {
+    "A": ["69.30.249.53"]
+  },
+  "proxied": false
+}

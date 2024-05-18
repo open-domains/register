@@ -1,0 +1,14 @@
+{
+    "domain": "is-cool.dev",
+    "subdomain": "chenshixi",
+
+    "owner": {
+        "email": "schenax@connect.ust.hk"
+    },
+
+    "record": {
+        "AAAA": ["2a02:0180:0006:0001:0000:0000:0000:0412"]
+    },
+
+    "proxied": false
+}

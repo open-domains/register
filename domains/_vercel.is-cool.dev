@@ -1,0 +1,17 @@
+{
+  "description": "My own personal portfolio",
+
+  "domain": "is-cool.dev",
+  "subdomain": "outroninja",
+
+  "owner": {
+    "repo": "https://github.com/OutroNinja/Portfolio",
+    "email": "outroninjaa@gmail.com"
+  },
+
+  "record": {
+    "TXT": ["vc-domain-verify=outroninja.is-cool.dev,b2648c9635159c43a94e"]
+  },
+
+  "proxied": false
+}

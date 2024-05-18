@@ -1,0 +1,17 @@
+{
+    "description": "Just for Fun",
+
+    "domain": "is-not-a.dev",
+    "subdomain": "klent",
+
+    "owner": {
+        "repo": "https://github.com/kleeiny/klentdaniel",
+        "email": "kleeinlmao@gmail.com"
+    },
+
+    "record": {
+        "CNAME": "ghs.google.com"
+    },
+
+    "proxied": false
+}

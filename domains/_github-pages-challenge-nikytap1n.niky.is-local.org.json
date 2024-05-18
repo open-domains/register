@@ -1,0 +1,14 @@
+{
+    "domain": "is-local.org",
+    "subdomain": "_github-pages-challenge-nikytap1n.niky",
+
+    "owner": {
+        "email": "anhky726@gmail.com"
+    },
+
+    "record": {
+        "TXT": ["2fc915fecb0593c1e6327eb19df98a"]
+    },
+
+    "proxied": false
+}

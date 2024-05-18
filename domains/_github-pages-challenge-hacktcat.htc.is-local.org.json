@@ -1,0 +1,15 @@
+{
+  "domain": "is-local.org",
+  "subdomain": "_github-pages-challenge-hacktcat.htc",
+
+  "owner": {
+    "repo": "https://github.com/hacktcat/hacktcat.github.io",
+    "email": "loxingle1@gmail.com"
+  },
+
+  "record": {
+    "TXT": ["6f597edc21359798ba5ee088da43dd"]
+  },
+
+  "proxied": false
+}

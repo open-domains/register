@@ -1,0 +1,14 @@
+{
+    "domain": "is-cool.dev",
+    "subdomain": "outroninja",
+
+    "owner": {
+        "email": "outroninjaa@gmail.com"
+    },
+
+    "record": {
+        "CNAME": "portfolio-sjgj.onrender.com"
+    },
+
+    "proxied": false
+}

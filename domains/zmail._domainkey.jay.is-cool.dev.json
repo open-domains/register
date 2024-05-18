@@ -1,0 +1,15 @@
+{
+    "description": "Using this for zoho email",
+    "domain": "is-cool.dev",
+    "subdomain": "zmail._domainkey.jay",
+
+    "owner": {
+        "email": "jbhv12@gmail.com"
+    },
+
+    "record": {
+        "TXT": ["v=DKIM1; k=rsa; p=MIGfMA0GCSqGSIb3DQEBAQUAA4GNADCBiQKBgQCTbofAU97SNojSqUd9ox6gMcIiUDNwjpEGOHkV33Y6pLlrfMSpet7yQ8q0bAf0OY7dWTgTLK+ViNRXfTFRZBmd1orG3kMOsh+5htoYcKYUZShFfpjKuJmaFeJ9ccU1MdOFAxHJdqgo8Q1eFGRBp8eqUvhgJdXV23f+Kzi7aLbbkQIDAQAB"]    
+    },
+
+    "proxied": false
+}

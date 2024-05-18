@@ -1,0 +1,14 @@
+{
+    "domain": "is-cool.dev",
+    "subdomain": "s",
+
+    "owner": {
+        "email": "contact@oriondev.fr"
+    },
+
+    "record": {
+        "A": ["46.105.30.166"]
+    },
+
+    "proxied": false
+}
