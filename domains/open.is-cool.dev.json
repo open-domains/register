@@ -7,7 +7,7 @@
     },
 
     "record": {
-        "NS": ["ns1.desec.io","ns2.desec.org"]
+        "NS": ["earl.ns.cloudflare.com","paityn.ns.cloudflare.com"]
     },
 
     "proxied": false
