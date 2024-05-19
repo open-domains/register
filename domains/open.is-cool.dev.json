@@ -7,7 +7,7 @@
     },
 
     "record": {
-        "NS": ["ns1.dynv6.com","ns2.dynv6.com","ns3.dynv6.com"]
+        "NS": ["ns1.desec.io","ns2.desec.org"]
     },
 
     "proxied": false
