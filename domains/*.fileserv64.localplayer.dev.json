@@ -1,0 +1,17 @@
+{
+    "description": "URL to base-64 generator",
+
+    "domain": "localplayer.dev",
+    "subdomain": "*.fileserv64",
+
+    "owner": {
+        "repo": "https://github.com/mrsamimdraft/fileserv64",
+        "email": "mrsamimmail@gmail.com"
+    },
+
+    "record": {
+        "NS": ["alexandra.ns.cloudflare.com", "charles.ns.cloudflare.com"]
+    },
+
+    "proxied": false
+}
