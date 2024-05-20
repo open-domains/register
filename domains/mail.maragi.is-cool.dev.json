@@ -10,5 +10,5 @@
         "CNAME": ["webmail.alwaysdata.com"]
     },
 
-    "proxied": false
+    "proxied": true
 }
