@@ -1,0 +1,14 @@
+{
+  "description": "Anime streaming websites",
+
+  "domain": "localplayer.dev",
+  "subdomain": "anime.semant",
+
+  "owner": {
+    "email": "contact@semant.is-a.dev"
+  },
+
+  "record": {
+    "NS": ["ns1.vercel-dns.com", "ns2.vercel-dns.com"]
+  }
+}
