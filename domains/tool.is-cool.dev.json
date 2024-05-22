@@ -1,0 +1,14 @@
+{
+    "domain": "is-cool.dev",
+    "subdomain": "tool",
+
+    "owner": {
+        "email": "red@pissmail.com"
+    },
+
+    "record": {
+        "NS": ["greg.ns.cloudflare.com","susan.ns.cloudflare.com"]
+    },
+
+    "proxied": false
+}
