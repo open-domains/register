@@ -1,0 +1,17 @@
+{
+    "description": "Subdomain with Nameserver to test selfhosting with BIND9",
+
+    "domain": "is-local.org",
+    "subdomain": "manindark",
+
+    "owner": {
+        "repo": "https://github.com/ManInDark/OpenDomainsRegister",
+        "email": "manindark.proton.me@proton.me"
+    },
+
+    "record": {
+        "NS": ["ns.manindark.is-local.org"]
+    },
+
+    "proxied": false
+}
