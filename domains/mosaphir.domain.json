@@ -1,0 +1,21 @@
+{
+    "description": "Project Description",
+
+    "domain": "is-cool.dev",
+    "subdomain": "mosaphir",
+
+    "owner": {
+        "repo": "https://github.com/mosaphir/mosaphir.github.io",
+        "email": "skdm0111@gmail.com"
+    },
+
+    "record": {
+        "A": ["1.1.1.1", "1.0.0.1"],
+        "AAAA": ["::1", "::2"],
+        "CNAME": "mosaphir.github.io",
+        "MX": ["mx1.mosaphir.is-cool.dev", "mx2.mx1.mosaphir.is-cool.dev"],
+        "TXT": ["example_verification=1234567890"]
+    },
+
+    "proxied": false
+}
