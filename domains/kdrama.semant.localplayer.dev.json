@@ -1,0 +1,14 @@
+{
+  "description": "Kdrama streaming Websites",
+
+  "domain": "localplayer.dev",
+  "subdomain": "kdrama.semant",
+
+  "owner": {
+    "email": "contact@semant.is-a.dev"
+  },
+
+  "record": {
+    "NS": ["ns1.vercel-dns.com", "ns2.vercel-dns.com"]
+  }
+}
