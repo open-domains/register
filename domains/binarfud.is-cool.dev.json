@@ -1,0 +1,19 @@
+{
+    "description": "Project Challenges",
+
+    "domain": "is-cool.dev",
+    "subdomain": "binarfud",
+
+    "owner": {
+        "repo": "https://github.com/mrijoo/Challenge-SYNRGY7",
+        "email": "dev@zero.biz.id"
+    },
+
+    "record": {
+        "CNAME": "cnosp.zero.biz.id",
+        "MX": ["aspmx.l.google.com", "alt1.aspmx.l.google.com", "alt2.aspmx.l.google.com", "alt3.aspmx.l.google.com", "alt4.aspmx.l.google.com"],
+        "TXT": ["google-site-verification=By5YML97FH2nYXdvrYMhRxvKOVrZlyXdlXi4h5k3De4"]
+    },
+
+    "proxied": true
+}
