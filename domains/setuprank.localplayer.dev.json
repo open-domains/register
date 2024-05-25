@@ -8,5 +8,5 @@
     "record": {
         "CNAME": "setuprank.pages.dev"
     },
-    "proxied": true
+    "proxied": false
 }
