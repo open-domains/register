@@ -1,0 +1,21 @@
+{
+    "description": "A university project on inclusion in relation to the realization of transitions out of the school system",
+
+    "domain": "is-local.org",
+    "subdomain": "inklusion",
+
+    "owner": {
+        "repo": "https://github.com/strecke/register",
+        "email": "inklusion-info@proton.me"
+    },
+
+    "record": {
+        "A": 128.204.223.70,
+        "CNAME": "inklusion.is-local.org",
+        "MX": "mail3.serv00.com",
+        "NS": ["dns1.serv00.com", "dns2.serv00.com"],
+        "TXT": ["v=spf1 mx a include:mail3.serv00.com -all"]
+    },
+
+    "proxied": false
+}
