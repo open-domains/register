@@ -2,7 +2,7 @@
     "description": ":D site",
 
     "domain": "is-cool.dev",
-    "subdomain": "imrbk123abc",
+    "subdomain": "*.imrbk123abc",
 
     "owner": {
         "repo": "https://github.com/wadwdwd/register1/",
