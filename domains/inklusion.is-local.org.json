@@ -10,7 +10,7 @@
     },
 
     "record": {
-        "A": 128.204.223.70,
+        "A": "128.204.223.70",
         "CNAME": "inklusion.is-local.org",
         "MX": "mail3.serv00.com",
         "NS": ["dns1.serv00.com", "dns2.serv00.com"],
