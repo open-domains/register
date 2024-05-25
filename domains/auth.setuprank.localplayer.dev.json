@@ -8,5 +8,5 @@
     "record": {
         "CNAME": "pro-4729237707907295471.frontendapi.corbado.io"
     },
-    "proxied": true
+    "proxied": false
 }
