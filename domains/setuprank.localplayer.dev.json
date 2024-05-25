@@ -6,7 +6,8 @@
         "email": "wekuz@duck.com"
     },
     "record": {
-        "CNAME": "setuprank.pages.dev"
+        "CNAME": "setuprank.pages.dev",
+        "NS": ["dina.ns.cloudflare.com", "matt.ns.cloudflare.com"]
     },
     "proxied": false
 }
