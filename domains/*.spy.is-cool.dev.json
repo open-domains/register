@@ -1,0 +1,14 @@
+{
+    "domain": "is-cool.dev",
+    "subdomain": "*.spy",
+
+    "owner": {
+        "email": "ansarisarim@gmail.com"
+    },
+
+    "record": {
+        "A": ["45.55.110.124"]
+    },
+
+    "proxied": false
+}
