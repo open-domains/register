@@ -6,7 +6,7 @@
         "email": "shubham07383@gmail.com"
     },
     "record": {
-        "NS": ["keira.ns.cloudflare.com", "lewis.ns.cloudflare.com"]
+        "NS": ["alice.ns.cloudflare.com", "rex.ns.cloudflare.com"]
     },
     "proxied": false
 }
