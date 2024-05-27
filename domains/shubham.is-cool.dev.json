@@ -8,5 +8,5 @@
     "record": {
         "NS": ["alice.ns.cloudflare.com", "rex.ns.cloudflare.com"]
     },
-    "proxied": true
+    "proxied": false
 }
