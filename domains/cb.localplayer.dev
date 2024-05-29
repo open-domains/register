@@ -1,8 +1,8 @@
 {
-    "description": "Used for the domain of my self-hosted zipline instance, link for that is: https://zipline.diced.sh/ ",
+    "description": "Used for the domain of my self-hosted zipline instance, link for that is: https://zipline.diced.sh/, this will be for the dashboard",
 
     "domain": "localplayer.dev",
-    "subdomain": "cbzip",
+    "subdomain": "cb",
 
     "owner": {
         "repo": "https://github.com/charlesobird",
