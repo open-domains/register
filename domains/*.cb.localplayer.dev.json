@@ -1,0 +1,17 @@
+{
+    "description": "Used for the domain of my self-hosted zipline instance, link for that is: https://zipline.diced.sh/, this subdomain wildcard would be for separate image locations or whatever, e.g. i.cb.localplayer.dev for images, code.cb.localplayer.dev etc",
+
+    "domain": "localplayer.dev",
+    "subdomain": "*.cb",
+
+    "owner": {
+        "repo": "https://github.com/charlesobird",
+        "email": "charlesobird+github@outlook.com"
+    },
+
+    "record": {
+        "A": ["132.145.13.19"]
+    },
+
+    "proxied": false
+}
