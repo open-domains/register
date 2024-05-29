@@ -1,0 +1,12 @@
+{
+    "description": "SetupRank - a site where you can share your setup, rank on the leaderboard and rate others",
+    "domain": "localplayer.dev",
+    "subdomain": "setuprank",
+    "owner": {
+        "email": "wekuz@duck.com"
+    },
+    "record": {
+        "NS": ["dina.ns.cloudflare.com", "matt.ns.cloudflare.com"]
+    },
+    "proxied": false
+}
