@@ -2,6 +2,10 @@
     "domain": "is-local.org",
     "subdomain": "rc",
 
+    "owner": {
+        "email": "pgtishkov@gmail.com"
+  },
+
     "record": {
         "A": ["77.106.91.86"]
         "CNAME": ["www.rc.is-local.org", "ftp.rc.is-local.org"]
