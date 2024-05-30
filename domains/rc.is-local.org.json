@@ -1,0 +1,11 @@
+{
+    "domain": "is-local.org",
+    "subdomain": "rc",
+
+    "record": {
+        "A": ["77.106.91.86"]
+        "CNAME": ["www.rc.is-local.org", "ftp.rc.is-local.org"]
+    },
+
+    "proxied": false
+}
