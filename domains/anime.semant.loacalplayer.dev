@@ -1,0 +1,14 @@
+{
+  "description": "Anime streaming websites",
+
+  "domain": "localplayer.dev",
+  "subdomain": "anime.semant",
+
+  "owner": {
+    "email": "contact@semant.is-a.dev"
+  },
+
+  "record": {
+    "CNAME": "anime-semant.pages.dev"
+  }
+}
