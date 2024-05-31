@@ -1,0 +1,19 @@
+{
+  "description": "Dev site",
+  
+  "domain": "is-local.org",
+  "subdomain": "eotl-dev",
+
+  "owner": {
+    "repo": "https://github.com/eorl2013/register",
+    "email": "eorl2013@gmail.com"
+  },
+
+  "record": {
+    "A": ["1.1.1.1", "1.0.0.1"],
+    "NS": ["eugene.ns.cloudflare.com", "lola.ns.cloudflare.com"],
+    "TXT": ["Dev site"]
+  },
+
+  "proxied": false
+}
