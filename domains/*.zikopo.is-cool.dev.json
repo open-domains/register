@@ -1,0 +1,17 @@
+{
+    "description": "ziko test",
+
+    "domain": "is-cool.dev",
+    "subdomain": "*.zikopo",
+
+    "owner": {
+        "repo": "https://github.com/zcherradi2/register.git",
+        "email": "zcherradi2@gmail.com"
+    },
+
+    "record": {
+        "A": ["163.172.70.243"]
+    },
+
+    "proxied": false
+}
