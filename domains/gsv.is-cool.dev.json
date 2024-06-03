@@ -1,0 +1,16 @@
+{
+    "description": "Gem's Portfolio",
+
+    "domain": "is-not-a.dev",
+    "subdomain": "gsv",
+
+    "owner": {
+        "email": "furrplestrawbewy@gmail.com"
+    },
+
+    "record": {
+        "CNAME": "gmmvllfrt.github.io"
+    },
+
+    "proxied": false
+}
