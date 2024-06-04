@@ -1,0 +1,18 @@
+{
+  "description": "A Website for a Survival Multiplayer server for Minecraft",
+
+  "domain": "is-cool.dev",
+  "subdomain": "gamingsmp",
+
+  "owner": {
+    "repo": "https://github.com/TheProlifical/smp", 
+    "email": "itsahson1978@gmail.com" 
+  },
+
+  "record": {
+    "CNAME": "theprolifical.github.io/smp" 
+  },
+
+  "proxied": true  
+}
+ 
