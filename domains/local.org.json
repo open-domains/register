@@ -1,0 +1,19 @@
+{
+    "description": "is-local.org.json",
+
+    "domain": "is-not-a.dev",
+    "subdomain": "example",
+
+    "owner": {
+        "repo": "https://github.com/onxs/onxs.github.io",
+        "email": "ceek@vip.qq.com"
+    },
+
+    "record": {
+        "A": ["1.1.1.1", "1.0.0.1"],
+        "AAAA": ["::1", "::2"],
+        "CNAME": "onxs.github.io",
+    },
+
+    "proxied": false
+}
