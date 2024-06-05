@@ -1,0 +1,14 @@
+{
+    "domain": "is-a-fullstack.dev",
+    "subdomain": "luxxy",
+
+    "owner": {
+        "email": "deniedaddicted@gmail.com"
+    },
+
+    "record": {
+        "CNAME": "home.dns.luxxy.xyz"
+    },
+
+    "proxied": false
+}

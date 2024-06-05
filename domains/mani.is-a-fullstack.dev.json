@@ -1,0 +1,21 @@
+{
+    "domain": "is-a-fullstack.dev",
+    "subdomain": "mani",
+
+    "owner": {
+        "email": "dhingramsp@gmail.com"
+    },
+
+    "record": {
+        "CNAME": "mani-cwaf.github.io",
+
+        "TXT": [
+            {
+                "name": "_github-pages-challenge-Mani-cwaf",
+                "value": "a4e57248eb118fdac471078fff6df9"
+            }
+        ]
+    },
+
+    "proxied": false
+}

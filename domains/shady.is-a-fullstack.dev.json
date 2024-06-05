@@ -1,0 +1,14 @@
+{
+    "domain": "is-a-fullstack.dev",
+    "subdomain": "shady",
+
+    "owner": {
+        "email": "shadyabbasahmed@gmail.com"
+    },
+
+    "record": {
+        "A": ["80.241.217.2"]
+    },
+
+    "proxied": true
+}

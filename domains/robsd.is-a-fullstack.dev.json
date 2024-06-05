@@ -1,0 +1,14 @@
+{
+    "domain": "is-a-fullstack.dev",
+    "subdomain": "robsd",
+
+    "owner": {
+        "email": "rob@robertd.co.uk"
+    },
+
+    "record": {
+        "CNAME": "robsd.pages.dev"
+    },
+
+    "proxied": false
+}

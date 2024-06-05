@@ -1,0 +1,21 @@
+{
+    "domain": "is-a-fullstack.dev",
+    "subdomain": "sayanta",
+
+    "owner": {
+        "email": "sayantasingh01@gmail.com"
+    },
+
+    "record": {
+        "CNAME": "sayanta01.github.io",
+
+        "TXT": [
+            {
+                "name": "_github-pages-challenge-sayanta01.sayanta",
+                "value": "c974df92b9224148ebb38b910ec2ad"
+            }
+        ]
+    },
+
+    "proxied": true
+}

@@ -1,0 +1,14 @@
+{
+    "domain": "is-a-fullstack.dev",
+    "subdomain": "kizilando",
+
+    "owner": {
+        "email": "benayedismail2008@yahoo.com"
+    },
+
+    "record": {
+        "A": ["1.2.3.4"]
+    },
+
+    "proxied": false
+}

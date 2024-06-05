@@ -1,0 +1,14 @@
+{
+    "domain": "is-a-fullstack.dev",
+    "subdomain": "kvp",
+
+    "owner": {
+        "email": "xdk83558@gmail.com"
+    },
+
+    "record": {
+        "A": ["162.210.102.233"]
+    },
+
+    "proxied": true
+}

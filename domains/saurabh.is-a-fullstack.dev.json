@@ -1,0 +1,43 @@
+{
+    "domain": "is-a-fullstack.dev",
+    "subdomain": "saurabh",
+
+    "owner": {
+        "email": "saurabhkirve@gmail.com"
+    },
+
+    "record": {
+        "A": [
+            "185.199.108.153",
+            "185.199.109.153",
+            "185.199.110.153",
+            "185.199.111.153"
+        ],
+
+        "MX": [
+            {
+                "priority": 10,
+                "value": "mx1.forwardemail.net"
+            },
+
+            {
+                "priority": 10,
+                "value": "mx2.forwardemail.net"
+            }
+        ],
+
+        "TXT": [
+            {
+                "name": "_github-pages-challenge-sxurabh",
+                "value": "afe06cebd0ad37d51f8dc246bf40d8"
+            },
+
+            {
+                "name": "@",
+                "value": "forward-email=saurabhkirve@gmail.com"
+            }
+        ]
+    },
+
+    "proxied": false
+}

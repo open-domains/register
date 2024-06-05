@@ -1,0 +1,14 @@
+{
+    "domain": "is-a-fullstack.dev",
+    "subdomain": "rachit",
+
+    "owner": {
+        "email": "notnotrachit@gmail.com"
+    },
+
+    "record": {
+        "CNAME": "na-west1.surge.sh"
+    },
+
+    "proxied": true
+}

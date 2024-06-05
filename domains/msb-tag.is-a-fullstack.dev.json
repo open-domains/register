@@ -1,0 +1,14 @@
+{
+    "domain": "is-a-fullstack.dev",
+    "subdomain": "msb-tag",
+
+    "owner": {
+        "email": "t.duchow10@Gmail.com"
+    },
+
+    "record": {
+        "A": ["134.255.218.204"]
+    },
+
+    "proxied": false
+}

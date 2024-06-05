@@ -1,0 +1,14 @@
+{
+    "domain": "is-a-fullstack.dev",
+    "subdomain": "data4all",
+
+    "owner": {
+        "email": "pablo@neptuno.ec"
+    },
+
+    "record": {
+        "A": ["37.72.117.103"]
+    },
+
+    "proxied": false
+}

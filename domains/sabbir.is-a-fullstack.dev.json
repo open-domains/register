@@ -1,0 +1,14 @@
+{
+    "domain": "is-a-fullstack.dev",
+    "subdomain": "sabbir",
+
+    "owner": {
+        "email": "sabbir@44hz.co"
+    },
+
+    "record": {
+        "CNAME": "game-b1y.pages.dev"
+    },
+
+    "proxied": false
+}

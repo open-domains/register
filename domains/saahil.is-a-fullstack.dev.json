@@ -1,0 +1,14 @@
+{
+    "domain": "is-a-fullstack.dev",
+    "subdomain": "saahil",
+
+    "owner": {
+        "email": "neon+domain@saahild.com"
+    },
+
+    "record": {
+        "A": ["185.250.37.86"]
+    },
+
+    "proxied": false
+}

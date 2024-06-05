@@ -1,0 +1,14 @@
+{
+    "domain": "is-a-fullstack.dev",
+    "subdomain": "amp",
+
+    "owner": {
+        "email": "christi9nl9rsen@gmail.com"
+    },
+
+    "record": {
+        "CNAME": "amped-media.com"
+    },
+
+    "proxied": false
+}

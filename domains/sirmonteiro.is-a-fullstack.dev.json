@@ -1,0 +1,14 @@
+{
+    "domain": "is-a-fullstack.dev",
+    "subdomain": "sirmonteiro",
+
+    "owner": {
+        "email": "gabrielmonteirodesouza@tutanota.com"
+    },
+
+    "record": {
+        "A": ["138.2.242.216"]
+    },
+
+    "proxied": false
+}

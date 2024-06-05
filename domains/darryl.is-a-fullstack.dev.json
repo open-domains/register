@@ -1,0 +1,14 @@
+{
+    "domain": "is-a-fullstack.dev",
+    "subdomain": "darryl",
+
+    "owner": {
+        "email": "221474B@student.hci.edu.sg"
+    },
+
+    "record": {
+        "A": ["209.97.162.122"]
+    },
+
+    "proxied": true
+}

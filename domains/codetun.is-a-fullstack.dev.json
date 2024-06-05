@@ -1,0 +1,29 @@
+{
+    "domain": "is-a-fullstack.dev",
+    "subdomain": "codetun",
+
+    "owner": {
+        "email": "m.blaiech22422@pi.tn"
+    },
+
+    "record": {
+        "A": ["116.203.239.117"],
+        "MX": [
+            {
+                "priority": 10,
+                "value": "mx.zoho.com"
+            },
+
+            {
+                "priority": 20,
+                "value": "mx2.zoho.com"
+            },
+            {
+                "priority": 50,
+                "value": "mx3.zoho.com"
+            }
+        ]
+    },
+
+    "proxied": true
+}

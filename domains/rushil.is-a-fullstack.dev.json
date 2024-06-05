@@ -1,0 +1,14 @@
+{
+    "domain": "is-a-fullstack.dev",
+    "subdomain": "rushil",
+
+    "owner": {
+        "email": "rushillpatell@gmail.com"
+    },
+
+    "record": {
+        "CNAME": "rushilp1.github.io"
+    },
+
+    "proxied": true
+}

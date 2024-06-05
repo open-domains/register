@@ -1,0 +1,14 @@
+{
+    "domain": "is-a-fullstack.dev",
+    "subdomain": "axorax",
+
+    "owner": {
+        "email": "axoraxmail@gmail.com"
+    },
+
+    "record": {
+        "CNAME": "axorax.github.io"
+    },
+
+    "proxied": false
+}

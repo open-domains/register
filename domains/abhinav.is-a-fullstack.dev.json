@@ -1,0 +1,14 @@
+{
+    "domain": "is-a-fullstack.dev",
+    "subdomain": "abhinav",
+
+    "owner": {
+        "email": "abhinavpubg995@gmail.com"
+    },
+
+    "record": {
+        "CNAME": "portfolio101.ghostcrafter101.repl.co"
+    },
+
+    "proxied": true
+}

@@ -1,0 +1,25 @@
+{
+    "domain": "is-a-fullstack.dev",
+    "subdomain": "awaiswp",
+    "owner": {
+        "email": "awais300@gmail.com"
+    },
+    "record": {
+        "A": [
+            "128.204.218.48"
+        ],
+        "MX": [
+            {
+                "priority": 10,
+                "value": "mail0.serv00.com"
+            }
+        ],
+        "TXT": [
+            {
+                "name": "@",
+                "value": "v=spf1 mx a include:mail0.serv00.com -all"
+            }
+        ]
+    },
+    "proxied": true
+}

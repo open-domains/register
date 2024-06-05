@@ -1,0 +1,11 @@
+{
+    "domain": "is-a-fullstack.dev",
+    "subdomain": "nqdev",
+    "owner": {
+        "email": "quy.nh@engineer.com"
+    },
+    "record": {
+        "CNAME": "gist.quyit.id.vn"
+    },
+    "proxied": false
+}

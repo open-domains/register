@@ -1,0 +1,14 @@
+{
+    "domain": "is-a-fullstack.dev",
+    "subdomain": "hydro",
+
+    "owner": {
+        "email": "nullmc2205@gmail.com"
+    },
+
+    "record": {
+        "A": ["104.234.220.50"]
+    },
+
+    "proxied": false
+}

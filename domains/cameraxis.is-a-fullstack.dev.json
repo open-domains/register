@@ -1,0 +1,14 @@
+{
+    "domain": "is-a-fullstack.dev",
+    "subdomain": "cameraxis",
+
+    "owner": {
+        "email": "claveaualexis@aol.com"
+    },
+
+    "record": {
+        "A": ["31.36.76.32"]
+    },
+
+    "proxied": false
+}

@@ -1,0 +1,14 @@
+{
+    "domain": "is-a-fullstack.dev",
+    "subdomain": "cfw",
+
+    "owner": {
+        "email": "sigitdwilaksono@yahoo.com"
+    },
+
+    "record": {
+        "A": ["157.254.158.49"]
+    },
+
+    "proxied": true
+}

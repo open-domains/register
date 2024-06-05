@@ -1,0 +1,14 @@
+{
+    "domain": "is-a-fullstack.dev",
+    "subdomain": "tweak",
+
+    "owner": {
+        "email": "tweak@talosbot.xyz"
+    },
+
+    "record": {
+        "CNAME": "dns.talosbot.xyz"
+    },
+
+    "proxied": false
+}

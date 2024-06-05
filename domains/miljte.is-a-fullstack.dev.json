@@ -1,0 +1,14 @@
+{
+    "domain": "is-a-fullstack.dev",
+    "subdomain": "miljte",
+
+    "owner": {
+        "email": "hak4rgof120876@gmail.com"
+    },
+
+    "record": {
+        "CNAME": "miljte.github.io"
+    },
+
+    "proxied": false
+}

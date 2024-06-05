@@ -1,0 +1,14 @@
+{
+    "domain": "is-a-fullstack.dev",
+    "subdomain": "enqity",
+
+    "owner": {
+        "email": "tuiteof@gmail.com"
+    },
+
+    "record": {
+        "A": ["198.91.81.13"]
+    },
+
+    "proxied": false
+}

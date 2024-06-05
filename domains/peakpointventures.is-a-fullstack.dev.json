@@ -1,0 +1,14 @@
+{
+    "domain": "is-a-fullstack.dev",
+    "subdomain": "peakpointventures",
+
+    "owner": {
+        "email": "jonathanpkatumba@gmail.com"
+    },
+
+    "record": {
+        "A": ["68.183.246.92"]
+    },
+
+    "proxied": false
+}

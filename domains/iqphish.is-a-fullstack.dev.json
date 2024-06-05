@@ -1,0 +1,14 @@
+{
+    "domain": "is-a-fullstack.dev",
+    "subdomain": "iqphish",
+
+    "owner": {
+        "email": "rgcoloman@gmail.com"
+    },
+
+    "record": {
+        "AAAA": ["2606:4700:4700::1111"]
+    },
+
+    "proxied": false
+}

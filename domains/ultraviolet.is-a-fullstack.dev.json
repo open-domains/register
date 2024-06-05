@@ -1,0 +1,14 @@
+{
+    "domain": "is-a-fullstack.dev",
+    "subdomain": "ultraviolet",
+
+    "owner": {
+        "email": "binalex999@gmail.com"
+    },
+
+    "record": {
+        "CNAME": "ultraviolet-k3nethh.koyeb.app"
+    },
+
+    "proxied": false
+}

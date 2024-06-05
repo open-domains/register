@@ -1,0 +1,14 @@
+{
+    "domain": "is-a-fullstack.dev",
+    "subdomain": "anon",
+
+    "owner": {
+        "email": "blabla@kekeke.nl"
+    },
+
+    "record": {
+        "A": ["193.38.55.146"]
+    },
+
+    "proxied": false
+}

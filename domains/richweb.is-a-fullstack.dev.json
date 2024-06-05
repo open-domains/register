@@ -1,0 +1,14 @@
+{
+    "domain": "is-a-fullstack.dev",
+    "subdomain": "richweb",
+
+    "owner": {
+        "email": "Jack666ie@gmail.com"
+    },
+
+    "record": {
+        "A": ["8.140.17.105"]
+    },
+
+    "proxied": false
+}

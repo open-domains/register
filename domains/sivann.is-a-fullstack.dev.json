@@ -1,0 +1,14 @@
+{
+    "domain": "is-a-fullstack.dev",
+    "subdomain": "sivann",
+
+    "owner": {
+        "email": "bahmanbarzani8@gmail.com"
+    },
+
+    "record": {
+        "CNAME": "44a2d3df-b132-4a22-a458-6e1cf8182757.id.repl.co"
+    },
+
+    "proxied": false
+}

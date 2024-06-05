@@ -1,0 +1,14 @@
+{
+    "domain": "is-a-fullstack.dev",
+    "subdomain": "priyansh",
+
+    "owner": {
+        "email": "oyepriyansh@hotmail.com"
+    },
+
+    "record": {
+        "CNAME": "edge.redirect.pizza"
+    },
+
+    "proxied": false
+}

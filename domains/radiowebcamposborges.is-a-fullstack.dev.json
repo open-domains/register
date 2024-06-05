@@ -1,0 +1,14 @@
+{
+    "domain": "is-a-fullstack.dev",
+    "subdomain": "radiowebcamposborges",
+
+    "owner": {
+        "email": "cristianbairros2003@gmail.com"
+    },
+
+    "record": {
+        "AAAA": ["2804:1b74:11d:c300:d524:6e53:bca1:85dd"]
+    },
+
+    "proxied": false
+}
