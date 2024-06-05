@@ -1,0 +1,14 @@
+{
+    "domain": "is-a-fullstack.dev",
+    "subdomain": "wwa",
+
+    "owner": {
+        "email": "netflexs@proton.me"
+    },
+
+    "record": {
+        "CNAME": "cb349fb5-5d29-46f1-bb02-96e2cc35faeb.id.repl.co"
+    },
+
+    "proxied": false
+}
