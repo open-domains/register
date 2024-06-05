@@ -1,0 +1,14 @@
+{
+    "domain": "is-a-fullstack.dev",
+    "subdomain": "brian",
+
+    "owner": {
+        "email": "brian@brianwalczak.com"
+    },
+
+    "record": {
+        "CNAME": "brianwalczak.github.io"
+    },
+
+    "proxied": false
+}

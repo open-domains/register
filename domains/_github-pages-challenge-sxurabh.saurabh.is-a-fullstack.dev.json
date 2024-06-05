@@ -1,0 +1,14 @@
+{
+    "domain": "is-a-fullstack.dev",
+    "subdomain": "_github-pages-challenge-sxurabh.saurabh",
+
+    "owner": {
+        "email": "saurabhkirve@gmail.com"
+    },
+
+    "record": {
+        "TXT": ["afe06cebd0ad37d51f8dc246bf40d8"]
+    },
+
+    "proxied": false
+}

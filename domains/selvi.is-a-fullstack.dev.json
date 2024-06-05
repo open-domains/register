@@ -1,0 +1,14 @@
+{
+    "domain": "is-a-fullstack.dev",
+    "subdomain": "selvi",
+
+    "owner": {
+        "email": "egeselvix@gmail.com"
+    },
+
+    "record": {
+        "A": ["64.226.108.51"]
+    },
+
+    "proxied": false
+}

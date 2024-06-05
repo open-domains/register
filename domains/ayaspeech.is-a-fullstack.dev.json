@@ -1,0 +1,14 @@
+{
+    "domain": "is-a-fullstack.dev",
+    "subdomain": "ayaspeech",
+
+    "owner": {
+        "email": "ksarfo69@gmail.com"
+    },
+
+    "record": {
+        "A": ["13.41.22.71"]
+    },
+
+    "proxied": false
+}

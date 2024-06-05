@@ -1,0 +1,14 @@
+{
+    "domain": "is-a-fullstack.dev",
+    "subdomain": "mohammadios",
+
+    "owner": {
+        "email": "mohammad.hashemi@outlook.com"
+    },
+
+    "record": {
+        "A": ["204.216.213.235"]
+    },
+
+    "proxied": false
+}

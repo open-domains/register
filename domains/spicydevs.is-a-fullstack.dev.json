@@ -1,0 +1,14 @@
+{
+    "domain": "is-a-fullstack.dev",
+    "subdomain": "spicydevs",
+
+    "owner": {
+        "email": "aayushmagrawal@gmail.com"
+    },
+
+    "record": {
+        "CNAME": "spicydevs.pages.dev"
+    },
+
+    "proxied": true
+}

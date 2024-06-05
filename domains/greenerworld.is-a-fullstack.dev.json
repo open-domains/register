@@ -1,0 +1,14 @@
+{
+    "domain": "is-a-fullstack.dev",
+    "subdomain": "greenerworld",
+
+    "owner": {
+        "email": "bzhe0015@student.monash.edu"
+    },
+
+    "record": {
+        "CNAME": "greener.com"
+    },
+
+    "proxied": false
+}

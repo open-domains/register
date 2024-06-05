@@ -1,0 +1,14 @@
+{
+    "domain": "is-a-fullstack.dev",
+    "subdomain": "pritam",
+
+    "owner": {
+        "email": "21amtics272@gmail.com"
+    },
+
+    "record": {
+        "CNAME": "pritam-ravani.github.io"
+    },
+
+    "proxied": false
+}

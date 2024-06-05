@@ -1,0 +1,14 @@
+{
+    "domain": "is-a-fullstack.dev",
+    "subdomain": "awex",
+
+    "owner": {
+        "email": "sinzie@proton.me"
+    },
+
+    "record": {
+        "A": ["38.87.162.97"]
+    },
+
+    "proxied": false
+}

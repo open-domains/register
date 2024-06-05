@@ -1,0 +1,14 @@
+{
+    "domain": "is-a-fullstack.dev",
+    "subdomain": "justfornow",
+
+    "owner": {
+        "email": "hammadbaba96@gmail.com"
+    },
+
+    "record": {
+        "MX": ["mx1.forwardemail.net"]
+    },
+
+    "proxied": false
+}

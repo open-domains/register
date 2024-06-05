@@ -1,0 +1,14 @@
+{
+    "domain": "is-a-fullstack.dev",
+    "subdomain": "mnm",
+
+    "owner": {
+        "email": "mnmmnm070707@gmail.com"
+    },
+
+    "record": {
+        "CNAME": "mnm.is-a.dev"
+    },
+
+    "proxied": false
+}

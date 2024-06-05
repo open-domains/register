@@ -1,0 +1,14 @@
+{
+    "domain": "is-a-fullstack.dev",
+    "subdomain": "sag",
+
+    "owner": {
+        "email": "sagxd@protonmail.com"
+    },
+
+    "record": {
+        "CNAME": "sag.codeberg.page"
+    },
+
+    "proxied": false
+}
