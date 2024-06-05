@@ -1,13 +1,13 @@
 {
     "domain": "is-a-fullstack.dev",
-    "subdomain": "www",
+    "subdomain": "robsd",
 
     "owner": {
-        "email": "sys@open-domains.net"
+        "email": "rob@robertd.co.uk"
     },
 
     "record": {
-        "CNAME": "is-a-fullstack.dev"
+        "CNAME": "robsd.pages.dev"
     },
 
     "proxied": false

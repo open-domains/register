@@ -1,13 +1,13 @@
 {
     "domain": "is-a-fullstack.dev",
-    "subdomain": "www",
+    "subdomain": "amp",
 
     "owner": {
-        "email": "sys@open-domains.net"
+        "email": "christi9nl9rsen@gmail.com"
     },
 
     "record": {
-        "CNAME": "is-a-fullstack.dev"
+        "CNAME": "amped-media.com"
     },
 
     "proxied": false

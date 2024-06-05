@@ -1,0 +1,14 @@
+{
+    "domain": "is-a-fullstack.dev",
+    "subdomain": "rasofex",
+
+    "owner": {
+        "email": "rasofex@yandex.ru"
+    },
+
+    "record": {
+        "A": ["217.18.61.157"]
+    },
+
+    "proxied": true
+}

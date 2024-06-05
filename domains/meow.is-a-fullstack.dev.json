@@ -1,13 +1,13 @@
 {
     "domain": "is-a-fullstack.dev",
-    "subdomain": "www",
+    "subdomain": "meow",
 
     "owner": {
-        "email": "sys@open-domains.net"
+        "email": "samid.bartfan@gmail.com"
     },
 
     "record": {
-        "CNAME": "is-a-fullstack.dev"
+        "A": ["5.188.88.18"]
     },
 
     "proxied": false

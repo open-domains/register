@@ -1,13 +1,13 @@
 {
     "domain": "is-a-fullstack.dev",
-    "subdomain": "www",
+    "subdomain": "ero",
 
     "owner": {
-        "email": "sys@open-domains.net"
+        "email": "sigitdwilaksono@yahoo.com"
     },
 
     "record": {
-        "CNAME": "is-a-fullstack.dev"
+        "A": ["157.254.158.121"]
     },
 
     "proxied": false

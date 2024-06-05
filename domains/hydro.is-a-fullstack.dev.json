@@ -1,13 +1,13 @@
 {
     "domain": "is-a-fullstack.dev",
-    "subdomain": "www",
+    "subdomain": "hydro",
 
     "owner": {
-        "email": "sys@open-domains.net"
+        "email": "nullmc2205@gmail.com"
     },
 
     "record": {
-        "CNAME": "is-a-fullstack.dev"
+        "A": ["104.234.220.50"]
     },
 
     "proxied": false

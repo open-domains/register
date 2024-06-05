@@ -1,0 +1,14 @@
+{
+    "domain": "is-a-fullstack.dev",
+    "subdomain": "umesh",
+
+    "owner": {
+        "email": "competentcoder007@gmail.com"
+    },
+
+    "record": {
+        "CNAME": "compcoder007.github.io"
+    },
+
+    "proxied": false
+}

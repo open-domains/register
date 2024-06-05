@@ -1,13 +1,12 @@
 {
     "domain": "is-a-fullstack.dev",
-    "subdomain": "www",
-
+    "subdomain": "jeff",
     "owner": {
-        "email": "sys@open-domains.net"
+        "email": "jeff.tian@outlook.com"
     },
 
     "record": {
-        "CNAME": "is-a-fullstack.dev"
+        "CNAME": "jeff-tian.github.io"
     },
 
     "proxied": false

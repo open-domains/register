@@ -1,13 +1,13 @@
 {
     "domain": "is-a-fullstack.dev",
-    "subdomain": "www",
+    "subdomain": "enqity",
 
     "owner": {
-        "email": "sys@open-domains.net"
+        "email": "tuiteof@gmail.com"
     },
 
     "record": {
-        "CNAME": "is-a-fullstack.dev"
+        "A": ["198.91.81.13"]
     },
 
     "proxied": false

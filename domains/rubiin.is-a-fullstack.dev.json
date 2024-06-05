@@ -1,13 +1,13 @@
 {
     "domain": "is-a-fullstack.dev",
-    "subdomain": "www",
+    "subdomain": "rubiin",
 
     "owner": {
-        "email": "sys@open-domains.net"
+        "email": "roobin.bhandari@gmail.com"
     },
 
     "record": {
-        "CNAME": "is-a-fullstack.dev"
+        "CNAME": "rubiin.pages.dev"
     },
 
     "proxied": false

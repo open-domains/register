@@ -1,13 +1,13 @@
 {
     "domain": "is-a-fullstack.dev",
-    "subdomain": "www",
+    "subdomain": "futbol",
 
     "owner": {
-        "email": "sys@open-domains.net"
+        "email": "pableft@gmail.com"
     },
 
     "record": {
-        "CNAME": "is-a-fullstack.dev"
+        "A": ["45.55.110.124"]
     },
 
     "proxied": false

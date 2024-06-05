@@ -1,13 +1,13 @@
 {
     "domain": "is-a-fullstack.dev",
-    "subdomain": "www",
+    "subdomain": "uncommondll",
 
     "owner": {
-        "email": "sys@open-domains.net"
+        "email": "uncommondll@gmail.com"
     },
 
     "record": {
-        "CNAME": "is-a-fullstack.dev"
+        "A": ["35.212.102.200"]
     },
 
     "proxied": false

@@ -1,13 +1,13 @@
 {
     "domain": "is-a-fullstack.dev",
-    "subdomain": "www",
+    "subdomain": "mnm",
 
     "owner": {
-        "email": "sys@open-domains.net"
+        "email": "mnmmnm070707@gmail.com"
     },
 
     "record": {
-        "CNAME": "is-a-fullstack.dev"
+        "CNAME": "mnm.is-a.dev"
     },
 
     "proxied": false

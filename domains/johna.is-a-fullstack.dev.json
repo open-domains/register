@@ -1,13 +1,13 @@
 {
     "domain": "is-a-fullstack.dev",
-    "subdomain": "www",
+    "subdomain": "johna",
 
     "owner": {
-        "email": "sys@open-domains.net"
+        "email": "j-verstraaten@hotmail.com"
     },
 
     "record": {
-        "CNAME": "is-a-fullstack.dev"
+        "CNAME": "johna.pages.dev"
     },
 
     "proxied": false

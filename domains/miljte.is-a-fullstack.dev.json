@@ -1,13 +1,13 @@
 {
     "domain": "is-a-fullstack.dev",
-    "subdomain": "www",
+    "subdomain": "miljte",
 
     "owner": {
-        "email": "sys@open-domains.net"
+        "email": "hak4rgof120876@gmail.com"
     },
 
     "record": {
-        "CNAME": "is-a-fullstack.dev"
+        "CNAME": "miljte.github.io"
     },
 
     "proxied": false

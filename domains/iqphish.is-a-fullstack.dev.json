@@ -1,13 +1,13 @@
 {
     "domain": "is-a-fullstack.dev",
-    "subdomain": "www",
+    "subdomain": "iqphish",
 
     "owner": {
-        "email": "sys@open-domains.net"
+        "email": "rgcoloman@gmail.com"
     },
 
     "record": {
-        "CNAME": "is-a-fullstack.dev"
+        "AAAA": ["2606:4700:4700::1111"]
     },
 
     "proxied": false

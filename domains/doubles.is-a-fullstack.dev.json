@@ -1,13 +1,13 @@
 {
     "domain": "is-a-fullstack.dev",
-    "subdomain": "www",
+    "subdomain": "doubles",
 
     "owner": {
-        "email": "sys@open-domains.net"
+        "email": "www.doubles.io@gmail.com"
     },
 
     "record": {
-        "CNAME": "is-a-fullstack.dev"
+        "A": ["5.9.216.212"]
     },
 
     "proxied": false

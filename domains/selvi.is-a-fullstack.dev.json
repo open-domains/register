@@ -1,13 +1,13 @@
 {
     "domain": "is-a-fullstack.dev",
-    "subdomain": "www",
+    "subdomain": "selvi",
 
     "owner": {
-        "email": "sys@open-domains.net"
+        "email": "egeselvix@gmail.com"
     },
 
     "record": {
-        "CNAME": "is-a-fullstack.dev"
+        "A": ["64.226.108.51"]
     },
 
     "proxied": false

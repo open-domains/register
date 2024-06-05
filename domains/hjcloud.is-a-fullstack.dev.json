@@ -1,0 +1,14 @@
+{
+    "domain": "is-a-fullstack.dev",
+    "subdomain": "hjcloud",
+
+    "owner": {
+        "email": "hasifjalil@gmail.com"
+    },
+
+    "record": {
+        "CNAME": "hasifjalil.github.io"
+    },
+
+    "proxied": true
+}

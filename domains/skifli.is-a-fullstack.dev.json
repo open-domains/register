@@ -1,13 +1,13 @@
 {
     "domain": "is-a-fullstack.dev",
-    "subdomain": "www",
+    "subdomain": "skifli",
 
     "owner": {
-        "email": "sys@open-domains.net"
+        "email": "skifli@proton.me"
     },
 
     "record": {
-        "CNAME": "is-a-fullstack.dev"
+        "CNAME": "skifli.pages.dev"
     },
 
     "proxied": false

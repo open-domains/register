@@ -1,13 +1,13 @@
 {
     "domain": "is-a-fullstack.dev",
-    "subdomain": "www",
+    "subdomain": "tweak",
 
     "owner": {
-        "email": "sys@open-domains.net"
+        "email": "tweak@talosbot.xyz"
     },
 
     "record": {
-        "CNAME": "is-a-fullstack.dev"
+        "CNAME": "dns.talosbot.xyz"
     },
 
     "proxied": false

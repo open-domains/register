@@ -1,0 +1,14 @@
+{
+    "domain": "is-a-fullstack.dev",
+    "subdomain": "matiix310",
+
+    "owner": {
+        "email": "lucas.stephan.12@outlook.fr"
+    },
+
+    "record": {
+        "CNAME": "b65c431742c2982a7b0c1450bd45fb58.ipv4.tcpshield.com"
+    },
+
+    "proxied": false
+}

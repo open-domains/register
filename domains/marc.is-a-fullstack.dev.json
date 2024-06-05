@@ -1,13 +1,13 @@
 {
     "domain": "is-a-fullstack.dev",
-    "subdomain": "www",
+    "subdomain": "marc",
 
     "owner": {
-        "email": "sys@open-domains.net"
+        "email": "redwerkz@gmail.com"
     },
 
     "record": {
-        "CNAME": "is-a-fullstack.dev"
+        "CNAME": "rdwz.github.io"
     },
 
     "proxied": false

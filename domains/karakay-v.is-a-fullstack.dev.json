@@ -1,13 +1,13 @@
 {
     "domain": "is-a-fullstack.dev",
-    "subdomain": "www",
+    "subdomain": "karakay-v",
 
     "owner": {
-        "email": "sys@open-domains.net"
+        "email": "hitechnic00074220@gmail.com"
     },
 
     "record": {
-        "CNAME": "is-a-fullstack.dev"
+        "A": ["91.231.160.109"]
     },
 
     "proxied": false

@@ -1,0 +1,14 @@
+{
+    "domain": "is-a-fullstack.dev",
+    "subdomain": "congnhanlaptrinh",
+
+    "owner": {
+        "email": "nguyenvh2k@gmail.com"
+    },
+
+    "record": {
+        "CNAME": "nguyenvh2k.github.io"
+    },
+
+    "proxied": false
+}

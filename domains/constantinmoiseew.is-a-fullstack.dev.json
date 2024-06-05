@@ -1,0 +1,14 @@
+{
+    "domain": "is-a-fullstack.dev",
+    "subdomain": "constantinmoiseew",
+
+    "owner": {
+        "email": "moiseev.konstantin.23@bk.ru"
+    },
+
+    "record": {
+        "A": ["89.23.39.35"]
+    },
+
+    "proxied": false
+}

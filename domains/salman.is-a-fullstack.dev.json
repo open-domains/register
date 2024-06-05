@@ -1,13 +1,13 @@
 {
     "domain": "is-a-fullstack.dev",
-    "subdomain": "www",
+    "subdomain": "salman",
 
     "owner": {
-        "email": "sys@open-domains.net"
+        "email": "contact@isalman.dev"
     },
 
     "record": {
-        "CNAME": "is-a-fullstack.dev"
+        "CNAME": "hotheadhacker.github.io"
     },
 
     "proxied": false

@@ -1,13 +1,13 @@
 {
     "domain": "is-a-fullstack.dev",
-    "subdomain": "www",
+    "subdomain": "msb-tag",
 
     "owner": {
-        "email": "sys@open-domains.net"
+        "email": "t.duchow10@Gmail.com"
     },
 
     "record": {
-        "CNAME": "is-a-fullstack.dev"
+        "A": ["134.255.218.204"]
     },
 
     "proxied": false

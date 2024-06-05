@@ -1,13 +1,13 @@
 {
     "domain": "is-a-fullstack.dev",
-    "subdomain": "www",
+    "subdomain": "cameraxis",
 
     "owner": {
-        "email": "sys@open-domains.net"
+        "email": "claveaualexis@aol.com"
     },
 
     "record": {
-        "CNAME": "is-a-fullstack.dev"
+        "A": ["31.36.76.32"]
     },
 
     "proxied": false

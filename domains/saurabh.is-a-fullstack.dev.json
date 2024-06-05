@@ -1,9 +1,9 @@
 {
     "domain": "is-a-fullstack.dev",
-    "subdomain": "@",
+    "subdomain": "saurabh",
 
     "owner": {
-        "email": "sys@open-domains.net"
+        "email": "saurabhkirve@gmail.com"
     },
 
     "record": {
@@ -14,12 +14,9 @@
             "185.199.111.153"
         ],
 
-        "AAAA": [
-            "2606:50c0:8000::153",
-            "2606:50c0:8001::153",
-            "2606:50c0:8002::153",
-            "2606:50c0:8003::153"
-        ]
+        "MX": ["mx1.forwardemail.net", "mx2.forwardemail.net"],
+
+        "TXT": ["forward-email=saurabhkirve@gmail.com"]
     },
 
     "proxied": false

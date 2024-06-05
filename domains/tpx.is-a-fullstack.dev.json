@@ -1,0 +1,14 @@
+{
+    "domain": "is-a-fullstack.dev",
+    "subdomain": "tpx",
+
+    "owner": {
+        "email": "tpxaranda06@gmail.com"
+    },
+
+    "record": {
+        "A": ["90.165.198.109"]
+    },
+
+    "proxied": true
+}

@@ -1,13 +1,13 @@
 {
     "domain": "is-a-fullstack.dev",
-    "subdomain": "www",
+    "subdomain": "gabit",
 
     "owner": {
-        "email": "sys@open-domains.net"
+        "email": "gonjubazz@gmail.com"
     },
 
     "record": {
-        "CNAME": "is-a-fullstack.dev"
+        "A": ["141.8.195.113"]
     },
 
     "proxied": false

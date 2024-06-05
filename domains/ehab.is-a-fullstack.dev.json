@@ -1,13 +1,13 @@
 {
     "domain": "is-a-fullstack.dev",
-    "subdomain": "www",
+    "subdomain": "ehab",
 
     "owner": {
-        "email": "sys@open-domains.net"
+        "email": "hi1234hi9009@gmail.com"
     },
 
     "record": {
-        "CNAME": "is-a-fullstack.dev"
+        "A": ["146.190.131.60"]
     },
 
     "proxied": false

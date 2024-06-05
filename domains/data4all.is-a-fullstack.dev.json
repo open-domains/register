@@ -1,13 +1,13 @@
 {
     "domain": "is-a-fullstack.dev",
-    "subdomain": "www",
+    "subdomain": "data4all",
 
     "owner": {
-        "email": "sys@open-domains.net"
+        "email": "pablo@neptuno.ec"
     },
 
     "record": {
-        "CNAME": "is-a-fullstack.dev"
+        "A": ["37.72.117.103"]
     },
 
     "proxied": false

@@ -1,13 +1,13 @@
 {
     "domain": "is-a-fullstack.dev",
-    "subdomain": "www",
+    "subdomain": "saahil",
 
     "owner": {
-        "email": "sys@open-domains.net"
+        "email": "neon+domain@saahild.com"
     },
 
     "record": {
-        "CNAME": "is-a-fullstack.dev"
+        "A": ["185.250.37.86"]
     },
 
     "proxied": false
