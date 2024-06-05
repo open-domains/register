@@ -1,13 +1,13 @@
 {
     "domain": "is-a-fullstack.dev",
-    "subdomain": "www",
+    "subdomain": "vulcanwm",
 
     "owner": {
-        "email": "sys@open-domains.net"
+        "email": "vulcanwmemail@gmail.com"
     },
 
     "record": {
-        "CNAME": "is-a-fullstack.dev"
+        "CNAME": "vulcanwm.is-a.dev"
     },
 
     "proxied": false

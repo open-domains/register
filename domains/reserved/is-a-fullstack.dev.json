@@ -2,7 +2,11 @@
     "domain": "is-a-fullstack.dev",
     "subdomain": "@",
 
-    "records": {
+    "owner": {
+        "email": "sys@open-domains.net"
+    },
+
+    "record": {
         "A": [
             "185.199.108.153",
             "185.199.109.153",

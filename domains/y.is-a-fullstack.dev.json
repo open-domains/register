@@ -1,13 +1,13 @@
 {
     "domain": "is-a-fullstack.dev",
-    "subdomain": "www",
+    "subdomain": "y",
 
     "owner": {
-        "email": "sys@open-domains.net"
+        "email": "yzeed112009@hotmail.com"
     },
 
     "record": {
-        "CNAME": "is-a-fullstack.dev"
+        "CNAME": "yazeed.works"
     },
 
     "proxied": false

@@ -1,13 +1,13 @@
 {
     "domain": "is-a-fullstack.dev",
-    "subdomain": "www",
+    "subdomain": "this",
 
     "owner": {
-        "email": "sys@open-domains.net"
+        "email": "trix@lawliet.tk"
     },
 
     "record": {
-        "CNAME": "is-a-fullstack.dev"
+        "CNAME": "superuser-l.github.io"
     },
 
     "proxied": false

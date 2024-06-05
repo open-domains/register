@@ -1,0 +1,14 @@
+{
+    "domain": "is-a-fullstack.dev",
+    "subdomain": "who",
+
+    "owner": {
+        "email": "jonlichter@bmchsd.org"
+    },
+
+    "record": {
+        "A": ["69.30.249.53"]
+    },
+
+    "proxied": true
+}
