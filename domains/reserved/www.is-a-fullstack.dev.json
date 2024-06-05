@@ -1,0 +1,10 @@
+{
+    "domain": "is-a-fullstack.dev",
+    "subdomain": "www",
+
+    "records": {
+        "CNAME": "is-a-fullstack.dev"
+    },
+
+    "proxied": false
+}
