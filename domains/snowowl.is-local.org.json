@@ -1,0 +1,17 @@
+{
+    "description": "Website for our magazin",
+
+    "domain": "is-local.org",
+    "subdomain": "snowowl",
+
+    "owner": {
+        "repo": "https://github.com/getsono/register_2",
+        "email": "sono.arbeit@gmail.com"
+    },
+
+    "record": {
+        "CNAME": "sono-utils.000webhostapp.com"
+    },
+
+    "proxied": false
+}
