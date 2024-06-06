@@ -1,0 +1,14 @@
+{
+    "domain": "is-a-fullstack.dev",
+    "subdomain": "vulcanwm",
+
+    "owner": {
+        "email": "vulcanwmemail@gmail.com"
+    },
+
+    "record": {
+        "CNAME": "vulcanwm.is-a.dev"
+    },
+
+    "proxied": false
+}

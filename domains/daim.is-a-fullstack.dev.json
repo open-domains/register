@@ -1,0 +1,14 @@
+{
+    "domain": "is-a-fullstack.dev",
+    "subdomain": "daim",
+
+    "owner": {
+        "email": "daimdev6@gmail.com"
+    },
+
+    "record": {
+        "A": ["49.36.200.75"]
+    },
+
+    "proxied": true
+}

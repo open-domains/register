@@ -1,0 +1,18 @@
+{
+    "domain": "is-a-fullstack.dev",
+    "subdomain": "srm",
+
+    "owner": {
+        "email": "8zaqibue@duck.com"
+    },
+
+    "record": {
+        "A": ["16.171.175.148"],
+
+        "MX": ["mx1.forwardemail.net", "mx2.forwardemail.net"],
+
+        "TXT": ["forward-email=lyen8rxu@duck.com,8zaqibue@duck.com"]
+    },
+
+    "proxied": false
+}

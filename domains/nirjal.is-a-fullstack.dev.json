@@ -1,0 +1,12 @@
+{
+    "domain": "is-a-fullstack.dev",
+    "subdomain": "nirjal",
+
+    "owner": {
+        "email": "nirjalpaudel54312@gmail.com"
+    },
+    "record": {
+        "CNAME": "nirjalpaudel.com.np"
+    },
+    "proxied": false
+}

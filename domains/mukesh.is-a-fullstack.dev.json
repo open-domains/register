@@ -1,0 +1,14 @@
+{
+    "domain": "is-a-fullstack.dev",
+    "subdomain": "mukesh",
+
+    "owner": {
+        "email": "mukeshkumarcharak@gmail.com"
+    },
+
+    "record": {
+        "CNAME": "hakxcore.github.io"
+    },
+
+    "proxied": true
+}

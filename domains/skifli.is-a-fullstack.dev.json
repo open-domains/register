@@ -1,0 +1,14 @@
+{
+    "domain": "is-a-fullstack.dev",
+    "subdomain": "skifli",
+
+    "owner": {
+        "email": "skifli@proton.me"
+    },
+
+    "record": {
+        "CNAME": "skifli.pages.dev"
+    },
+
+    "proxied": false
+}

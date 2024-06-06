@@ -1,0 +1,14 @@
+{
+    "domain": "is-a-fullstack.dev",
+    "subdomain": "nishan-hamza",
+
+    "owner": {
+        "email": "nishanhamza2@gmail.com"
+    },
+
+    "record": {
+        "CNAME": "nishan-hamza.pages.dev"
+    },
+
+    "proxied": false
+}
