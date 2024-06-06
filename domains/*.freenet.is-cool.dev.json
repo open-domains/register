@@ -1,0 +1,15 @@
+{
+    "description": "Build social forums for my self and friends, or anyone else",
+
+    "domain": "is-cool.dev",
+    "subdomain": "*.freenet",
+
+    "owner": {
+        "repo": "https://github.com/directentis1/register",
+        "email": "directenti@outlook.com"
+    },
+
+    "record": {},
+
+    "proxied": false
+}
