@@ -1,0 +1,17 @@
+{
+    "description": "Survey LLM Test",
+
+    "domain": "is-not-a.dev",
+    "subdomain": "survey-llm",
+
+    "owner": {
+        "email": "jota.quesada@lekta.ai"
+    },
+
+    "record": {
+        "A": ["95.60.72.15"],
+
+    },
+
+    "proxied": false
+}
