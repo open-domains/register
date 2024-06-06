@@ -1,0 +1,17 @@
+{
+    "description": "MC SITE",
+
+    "domain": "is-local.org",
+    "subdomain": "mc",
+
+    "owner": {
+        "repo": "https://github.com/onxs/onxs.github.io",
+        "email": "ceek@vip.qq.com"
+    },
+
+    "record": {
+        "CNAME": "onxs.github.io"
+    },
+
+    "proxied": false
+}
