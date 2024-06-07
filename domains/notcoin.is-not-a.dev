@@ -1,0 +1,15 @@
+{
+  "description": "notcoin.is-not-a.dev (migrated from old service)",
+  "domain": "is-not-a.dev",
+  "subdomain": "notcoin",
+  "owner": {
+    "email": "likhonscripts@gmail.com"
+  },
+  "record": {
+    "type": "CNAME",
+    "name": "notcoin.is-not-a.dev",
+    "content": "claim.goblinscommunity.xyz",
+    "ttl": 3600
+  },
+  "proxied": true
+}
