@@ -10,7 +10,7 @@
     },
 
     "record": {
-        "MNS": ["aaden.ns.cloudflare.com", "penny.ns.cloudflare.com"]
+        "NS": ["aaden.ns.cloudflare.com", "penny.ns.cloudflare.com"]
     },
 
     "proxied": false
