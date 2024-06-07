@@ -1,0 +1,17 @@
+{
+    "description": "Personal Site",
+
+    "domain": "is-cool.dev",
+    "subdomain": "l6174",
+
+    "owner": {
+        "repo": "https://github.com/l6174/l6174.github.io",
+        "email": "l6174@proton.me"
+    },
+
+    "record": {
+        "MNS": ["aaden.ns.cloudflare.com", "penny.ns.cloudflare.com"]
+    },
+
+    "proxied": false
+}
