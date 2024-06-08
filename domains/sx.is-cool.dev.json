@@ -2,7 +2,7 @@
     "description": "Sxinar is my proviate blog",
 
     "domain": "is-cool.dev",
-    "subdomain": "sx.is-cool.dev",
+    "subdomain": "sx",
 
     "owner": {
         "repo": "https://github.com/sxinar/registerdomain",
@@ -10,7 +10,7 @@
     },
 
     "record": {
-        "CNAME": "sxinar.github.io",
+        "CNAME": "sxinar.github.io"
     },
 
     "proxied": false
