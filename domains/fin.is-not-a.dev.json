@@ -5,12 +5,12 @@
     "subdomain": "fin",
 
     "owner": {
-        "repo": "https://github.com/Mr-Always/repo",
+        "repo": "https://github.com/Mr-Always/Dopefolio",
         "email": "radiodjmra@gmail.com"
     },
 
     "record": {
-        "CNAME": "example.com",
+        "CNAME": "https://mr-always.github.io/Dopefolio/",
     },
 
     "proxied": false
