@@ -1,0 +1,21 @@
+{
+    "description": "Thus is a test",
+
+    "domain": "is-not-a.dev",
+    "subdomain": "fin-is-not-a.dev",
+
+    "owner": {
+        "repo": "https://github.com/Mr-Always/repo",
+        "email": "radiodjmra@gmail.com"
+    },
+
+    "record": {
+        "A": ["1.1.1.1", "1.0.0.1"],
+        "AAAA": ["::1", "::2"],
+        "CNAME": "example.com",
+        "MX": ["mx1.example.com", "mx2.example.com"],
+        "TXT": ["example_verification=1234567890"]
+    },
+
+    "proxied": false
+}
