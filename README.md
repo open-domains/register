@@ -26,6 +26,7 @@ https://discord.gg/kVjkg6VBwa
 
 | Available Domains |
 |:-:|
+| [`*.is-a-fullstack.dev`](https://is-a-fullstack.dev) |
 | [`*.is-cool.dev`](https://is-cool.dev) |
 | [`*.is-local.org`](https://is-local.org) |
 | [`*.is-not-a.dev`](https://is-not-a.dev) |
@@ -45,9 +46,9 @@ This will hopefully be fixed soon.
 
 ### Settings
 
-| Setting | [`is-cool.dev`](https://is-cool.dev) | [`is-local.org`](https://is-local.org) | [`is-not-a.dev`](https://is-not-a.dev) | [`localplayer.dev`](https://localplayer.dev) |
+| Setting | [`is-a-fullstack.dev`](https://is-a-fullstack.dev)  | [`is-cool.dev`](https://is-cool.dev) | [`is-local.org`](https://is-local.org) | [`is-not-a.dev`](https://is-not-a.dev) | [`localplayer.dev`](https://localplayer.dev) |
 |-|-|-|-|-|
-| PSL | ✅ | ✅ | ✅ | ✅ |
+| PSL | ❌ | ✅ | ✅ | ✅ | ✅ |
 | [DNSSEC][dnssec] | ✅ | ✅ | ✅ | ✅ |
 | Email | ✅ | ✅ | ✅ | ✅ |
 | SSL/TLS* | [Full][ssl-full] | [Full][ssl-full] | [Full][ssl-full] | [Full][ssl-full] |
