@@ -1,0 +1,15 @@
+{
+    "domain": "is-not-a.dev",
+    "subdomain": "apex",
+
+    "owner": {
+        "email": "josh@halomail.us.to"
+    },
+
+    "record": {
+        "NS": ["chad.ns.cloudflare.com"]
+        "NS": ["heather.ns.cloudflare.com"]
+    },
+
+    "proxied": false
+}
