@@ -2,7 +2,7 @@
     "description": "A self-bio",
 
     "domain": "is-cool.dev",
-    "subdomain": "example",
+    "subdomain": "onix",
 
     "owner": {
         "repo": "https://github.com/xzonix/Register.",
@@ -10,7 +10,7 @@
     },
 
     "record": {
-        "CNAME": "xzonix.github.io",
+        "CNAME": "xzonix.github.io"
 
     "proxied": false
 }
