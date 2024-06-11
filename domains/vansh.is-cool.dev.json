@@ -1,0 +1,18 @@
+{
+    "description": "A giveaway site for my bday (soon)",
+
+    "domain": "is-cool.dev",
+    "subdomain": "vansh",
+
+    "owner": {
+        "repo": "https://github.com/C00LVansh/repo",
+        "email": "vansh1705@outlook.com"
+    },
+
+    "record": {
+        "CNAME": "cname.vercel-dns.com",
+        "TXT": ["vc-domain-verify=vansh.is-cool.dev,8627c4dbb18348d7f27f"]
+    },
+
+    "proxied": false
+}
