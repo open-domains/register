@@ -1,0 +1,17 @@
+{
+    "description": "Portfolio Website",
+
+    "domain": "is-cool.dev",
+    "subdomain": "sadiq",
+
+    "owner": {
+        "repo": "https://github.com/sadiq-bd/sadiq-bd.github.io",
+        "email": "admin@sadiq.us.to"
+    },
+
+    "record": {
+        "NS": ["scott.ns.cloudflare.com", "serenity.ns.cloudflare.com"]
+    },
+
+    "proxied": false
+}
