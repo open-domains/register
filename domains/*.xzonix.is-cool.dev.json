@@ -2,7 +2,7 @@
     "description": "A self-bio ",
 
     "domain": "is-cool.dev",
-    "subdomain": "xzonix",
+    "subdomain": "*.xzonix",
 
     "owner": {
         "repo": "https://github.com/xzonix/Register.",
