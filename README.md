@@ -26,6 +26,7 @@ https://discord.gg/kVjkg6VBwa
 
 | Available Domains |
 |:-:|
+| [`*.is-a-fullstack.dev`](https://is-a-fullstack.dev) |
 | [`*.is-cool.dev`](https://is-cool.dev) |
 | [`*.is-local.org`](https://is-local.org) |
 | [`*.is-not-a.dev`](https://is-not-a.dev) |
@@ -45,19 +46,19 @@ This will hopefully be fixed soon.
 
 ### Settings
 
-| Setting | [`is-cool.dev`](https://is-cool.dev) | [`is-local.org`](https://is-local.org) | [`is-not-a.dev`](https://is-not-a.dev) | [`localplayer.dev`](https://localplayer.dev) |
-|-|-|-|-|-|
-| PSL | ✅ | ✅ | ✅ | ✅ |
-| [DNSSEC][dnssec] | ✅ | ✅ | ✅ | ✅ |
-| Email | ✅ | ✅ | ✅ | ✅ |
-| SSL/TLS* | [Full][ssl-full] | [Full][ssl-full] | [Full][ssl-full] | [Full][ssl-full] |
-| Always Use HTTPS* | ✅ | ✅ | ✅ | ✅ |
-| HTTP Strict Transport Security (HSTS) | ✅ | ✅ | ✅ | ✅ |
-| Minimum TLS Version* | 1.2 | 1.2 | 1.2 | 1.2 |
-| Opportunistic Encryption, TLS 1.3* | ✅ | ✅ | ✅ | ✅ |
-| WAF (Web Application Firewall)* | Medium Security Level | Medium Security Level | Medium Security Level | Medium Security Level |
-| Browser Integrity Check* | ✅ | ✅ | ✅ | ✅ |
-| [Caching Level][caching-levels], Browser Cache TTL* | Standard, 4 hours | Standard, 4 hours | Standard, 4 hours | Standard, 4 hours |
+| Setting | [`is-a-fullstack.dev`](https://is-a-fullstack.dev)  | [`is-cool.dev`](https://is-cool.dev) | [`is-local.org`](https://is-local.org) | [`is-not-a.dev`](https://is-not-a.dev) | [`localplayer.dev`](https://localplayer.dev) |
+|-|-|-|-|-|-|
+| PSL | ❌ | ✅ | ✅ | ✅ | ✅ |
+| [DNSSEC][dnssec] | ✅ | ✅ | ✅ | ✅ | ✅ |
+| Email | ✅ | ✅ | ✅ | ✅ | ✅ |
+| SSL/TLS* | [Full][ssl-full] | [Full][ssl-full] | [Full][ssl-full] | [Full][ssl-full] | [Full][ssl-full] |
+| Always Use HTTPS* | ✅ | ✅ | ✅ | ✅ | ✅ |
+| HTTP Strict Transport Security (HSTS) | ✅ | ✅ | ✅ | ✅ | ✅ |
+| Minimum TLS Version* | 1.2 | 1.2 | 1.2 | 1.2 | 1.2 |
+| Opportunistic Encryption, TLS 1.3* | ✅ | ✅ | ✅ | ✅ | ✅ |
+| WAF (Web Application Firewall)* | Medium Security Level | Medium Security Level | Medium Security Level | Medium Security Level | Medium Security Level |
+| Browser Integrity Check* | ✅ | ✅ | ✅ | ✅ | ✅ |
+| [Caching Level][caching-levels], Browser Cache TTL* | Standard, 4 hours | Standard, 4 hours | Standard, 4 hours | Standard, 4 hours | Standard, 4 hours |
 
 \*Only available when your domain has Cloudflare's proxy (`"proxied": true`) enabled
 
