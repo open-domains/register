@@ -1,0 +1,17 @@
+{
+  "description": "Verificação de páginas GH para minha conta",
+
+  "domain": "localplayer.dev",
+  "subdomain": "_github-pages-challenge-Samuraiflamesf.samuraiflamesf",
+
+  "owner": {
+    "repo": "https://github.com/Samuraiflamesf/obsidian_quartz",
+    "email": "samuraiflamesf@gmail.com"
+  },
+
+  "record": {
+    "TXT": ["0042c4cbc7b1c594df23da02a2ffca"]
+  },
+
+  "proxied": false
+}
