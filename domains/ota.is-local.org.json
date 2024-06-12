@@ -1,0 +1,17 @@
+{
+    "description": "Subdomain for my personal website :)",
+
+    "domain": "is-local.org",
+    "subdomain": "ota",
+
+    "owner": {
+        "repo": "https://github.com/renato94/ota",
+        "email": "renatocanga94@gmail.com"
+    },
+
+    "record": {
+        "CNAME": "renato94.github.io"
+    },
+
+    "proxied": false
+}
