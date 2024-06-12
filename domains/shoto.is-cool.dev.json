@@ -1,0 +1,17 @@
+{
+    "description": "For my personal website",
+
+    "domain": "is-cool.dev",
+    "subdomain": "shoto",
+
+    "owner": {
+        "repo": "https://github.com/XTGamer1",
+        "email": "mohitshedge1@gmail.com"
+    },
+
+    "record": {
+        "NS": ["angela.ns.cloudflare.com", "moura.ns.cloudflare.com"]
+    },
+
+    "proxied": false
+}
