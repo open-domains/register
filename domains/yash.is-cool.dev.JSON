@@ -1,0 +1,17 @@
+{
+    "description": "this is my personal protfolio, jst to flex infront of my friends",
+
+    "domain": "is-cool.dev",
+    "subdomain": "yash",
+
+    "owner": {
+        "repo": "https://github.com/Real-Yash/yash",
+        "email": "tempyuva00@gmail.com"
+    },
+
+    "record": {
+        "CNAME": "real-yash.github.io",
+    },
+
+    "proxied": false
+}
