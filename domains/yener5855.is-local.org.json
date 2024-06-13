@@ -1,0 +1,17 @@
+{
+  "description": "developer portfolio and email forwarding ",
+
+  "domain": "is-local.org",
+  "subdomain": "yener5855",
+
+  "owner": {
+    "repo": "https://github.com/yener5855/register",
+    "email": "yasinyener79@gmail.com"
+  },
+
+  "record": {
+    "NS": ["arushi.ns.cloudflare.com", "duke.ns.cloudflare.com"]
+  },
+
+  "proxied": true
+}
