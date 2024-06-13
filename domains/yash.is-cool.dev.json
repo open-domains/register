@@ -1,0 +1,21 @@
+{
+    "description": "the subdomain for my personal protfolio website",
+
+    "domain": "is-cool.dev",
+    "subdomain": "yash",
+
+    "owner": {
+        "repo": "https://github.com/Real-Yash/yash",
+        "email": "tempyuva00@gmail.com"
+    },
+
+    "record": {
+        "CNAME": "real-yash.github.io",
+    },
+
+  "website":{
+      "link":"https://real-yash.github.io/yash/",
+  }  
+    
+    "proxied": false
+}
