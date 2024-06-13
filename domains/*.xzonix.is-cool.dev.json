@@ -1,0 +1,16 @@
+{
+    "description": "A self-bio ",
+
+    "domain": "is-cool.dev",
+    "subdomain": "*.xzonix",
+
+    "owner": {
+        "repo": "https://github.com/xzonix/Register.",
+        "email": "xz1@dr.com"
+    },
+
+    "record": {
+        "CNAME": "xzonix.github.io"
+    },
+    "proxied": false
+}
