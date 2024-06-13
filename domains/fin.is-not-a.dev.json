@@ -10,7 +10,7 @@
     },
 
     "record": {
-        "CNAME": "mr-always.github.io",
+        "CNAME": "mr-always.github.io"
     },
 
     "proxied": false
