@@ -7,11 +7,11 @@
     },
 
     "record": {
-        "A": [
-            "185.199.108.153",
-            "185.199.109.153",
-            "185.199.110.153",
-            "185.199.111.153"
+        "TXT": [
+            {
+                "name": "_github-pages-challenge-vialonitasuhardiman.erp112.is-a-fullstack.dev",
+                "value": "6632f1464252a6ee79dbc46a86f3e5"
+            }
         ]
     },
 
