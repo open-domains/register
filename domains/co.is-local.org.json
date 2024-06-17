@@ -1,0 +1,16 @@
+{
+  "description": "website.",
+
+  "domain": "is-local.org",
+  "subdomain": "co",
+
+  "owner": {
+    "email": "ceek@vip.qq.com"
+  },
+
+   "record": {
+    "TXT": ["6710e65ea446d26c607983f0bc7abe"]
+  },
+
+  "proxied": false
+}
