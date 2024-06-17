@@ -1,0 +1,15 @@
+{
+  "domain": "is-local.org",
+  "subdomain": "_github-pages-challenge-onxs.co",
+
+  "owner": {
+    "repo": "https://github.com/onxs/index",
+    "email": "ceek@vip.qq.com"
+  },
+
+  "record": {
+    "TXT": ["6710e65ea446d26c607983f0bc7abe"]
+  },
+
+  "proxied": false
+}
