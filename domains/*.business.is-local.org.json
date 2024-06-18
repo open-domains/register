@@ -10,7 +10,8 @@
     },
 
     "record": {
-        "A": ["13.51.77.148"]
+        "A": ["13.51.77.148"],
+        "NS": ["burt.ns.cloudflare.com", "desi.ns.cloudflare.com"]
     },
 
     "proxied": false
