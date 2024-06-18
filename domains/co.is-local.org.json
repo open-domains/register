@@ -5,12 +5,12 @@
     "subdomain": "co",
 
     "owner": {
-        "repo": "https://github.com/onxs/onxs.github.io",
+        "repo": "https://github.com/hexo-theme/hexo-theme.github.io",
         "email": "ceek@vip.qq.com"
     },
 
   "record": {
-      "CNAME": "onxs.github.io/index"
+      "CNAME": "hexo-theme.github.io"
   },
     "proxied": false
   }
