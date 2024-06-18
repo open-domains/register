@@ -1,8 +1,8 @@
 {
     "description": "A simple website for simple Plant Identification!",
 
-    "domain": "is-not-a.dev",
-    "subdomain": "example",
+    "domain": "is-local.org",
+    "subdomain": "botanybase",
 
     "owner": {
         "repo": "https://github.com/BotanyBase/botanybase.github.io",
