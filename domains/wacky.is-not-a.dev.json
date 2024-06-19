@@ -1,15 +1,16 @@
 {
-    "description": "Domain for dev profile",
+    "description": "A website for a developer's profile",
 
     "domain": "is-not-a.dev",
     "subdomain": "wacky",
 
     "owner": {
+        "repo": "https://github.com/Arzejames/WackyDevWebsite",
         "email": "turtles127855@gmail.com"
     },
 
     "record": {
-        "CNAME": "wackydev.netlify.app"
+        "TXT": ["5d4c72dcb4816fc1ff642af38784a2"]
     },
 
     "proxied": false
