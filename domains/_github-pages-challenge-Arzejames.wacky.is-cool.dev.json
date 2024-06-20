@@ -1,0 +1,17 @@
+{
+    "description": "A website for a developer's profile",
+
+    "domain": "is-cool.dev",
+    "subdomain": "_github-pages-challenge-Arzejames.wacky",
+
+    "owner": {
+        "repo": "https://github.com/Arzejames/WackyDevWebsite",
+        "email": "turtles127855@gmail.com"
+    },
+
+    "record": {
+        "TXT": ["88742f6de36e88d4ddb7d84866b411"]
+    },
+
+    "proxied": false
+}
