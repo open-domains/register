@@ -1,0 +1,14 @@
+{
+    "domain": "is-local.org",
+    "subdomain": "mjr-network",
+
+    "owner": {
+        "email": "maragidevelopments@gmail.com"
+    },
+
+    "record": {
+        "A": ["185.31.40.24"]
+    },
+
+    "proxied": false
+}
