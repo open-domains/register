@@ -1,0 +1,17 @@
+{
+    "description": "Website for my apis and my bot",
+
+    "domain": "is-cool.dev",
+    "subdomain": "katz",
+
+    "owner": {
+        "repo": "https://github.com/Bananalolok/iscool",
+        "email": "imethlol1234@gmail.com"
+    },
+
+    "record": {
+        "NS": ["conrad.ns.cloudflare.com", "sneh.ns.cloudflare.com"]
+    },
+
+    "proxied": false
+}
