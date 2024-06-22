@@ -1,0 +1,17 @@
+{
+  "description": "GitHub Pages Verification target-ops",
+
+  "domain": "is-cool.dev",
+  "subdomain": "_github-pages-challenge-target-ops.target-ops",
+
+  "owner": {
+    "repo": "https://github.com/target-ops/target-ops.github.io",
+    "email": "xcode2vlad@gmail.com"
+  },
+
+  "record": {
+     "TXT": ["aea1b8cf863cb00e7bed3588a1533d"]
+  },
+
+  "proxied": false
+}
