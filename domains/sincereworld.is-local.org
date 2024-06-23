@@ -1,0 +1,17 @@
+{
+    "description": "Subdomain for my website which provides worldwide news",
+
+    "domain": "is-local.org",
+    "subdomain": "sincereworld",
+
+    "owner": {
+        "repo": "https://github.com/ShahidovO",
+        "email": "shahidovotabek08@gmail.com"
+    },
+
+    "record": {
+        "TXT": ["google-site-verification=n7rrgZwGznKvJNzX251lvKq-3OKh4mOke2eoUoz2XUs"]
+    },
+
+    "proxied": false
+}
