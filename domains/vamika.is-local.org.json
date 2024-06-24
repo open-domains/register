@@ -1,0 +1,15 @@
+{
+    "domain": "is-local.org",
+    "subdomain": "vamika",
+
+    "owner": {
+        "repo": "https://github.com/realyash/vamika",
+        "email": "tempyuva00@gmail.com"
+    },
+
+    "record": {
+    "CNAME": "realyash.github.io"
+    },
+
+    "proxied": false
+}
