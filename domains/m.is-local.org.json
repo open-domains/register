@@ -1,0 +1,16 @@
+{
+    "description": "website",
+
+    "domain": "is-local.org",
+    "subdomain": "m",
+
+    "owner": {
+        "repo": "https://github.com/oexs/oexs.github.io",
+        "email": "ceek@vip.qq.com"
+    },
+
+  "record": {
+      "CNAME": "oexs.github.io"
+  },
+    "proxied": false
+  }
