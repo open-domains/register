@@ -1,7 +1,7 @@
 {
     "description": "GitHub pages verification challenge",
     "domain": "is-local.org",
-    "subdomain": "taskmail",
+    "subdomain": "_github-pages-challenge-badarsebard.taskmail",
     "owner": {
         "email": "taskmail.foss@gmail.com"
     },
