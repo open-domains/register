@@ -1,0 +1,16 @@
+{
+    "description": "I will be adding many records also check #1293 issue",
+
+    "domain": "is-cool.dev",
+    "subdomain": "mycodelab",
+
+    "owner": {
+        "email": "domain@mycodelab.dedyn.io"
+    },
+
+    "record": {
+        "NS": ["darwin.ns.cloudflare.com", "mallory.ns.cloudflare.com"],
+    },
+
+    "proxied": false
+} 
