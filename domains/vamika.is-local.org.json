@@ -3,12 +3,12 @@
     "subdomain": "vamika",
 
     "owner": {
-        "repo": "https://github.com/realyash/vamika",
+        "repo": "https://github.com/real-yash/vamika",
         "email": "tempyuva00@gmail.com"
     },
 
     "record": {
-    "CNAME": "realyash.github.io"
+    "CNAME": "real-yash.github.io"
     },
 
     "proxied": false
