@@ -1,0 +1,17 @@
+{
+  "description": "GitHub Pages Verification target-ops",
+
+  "domain": "is-cool.dev",
+  "subdomain": "_github-pages-challenge-wch93.wch",
+
+  "owner": {
+    "repo": "https://github.com/wch93/wch93.github.io",
+    "email": "wchhm8050@gmail.com"
+  },
+
+  "record": {
+     "TXT": ["15436d35b02c4aaf2733dd0ecc40a3"]
+  },
+
+  "proxied": false
+}
