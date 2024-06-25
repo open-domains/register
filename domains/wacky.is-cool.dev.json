@@ -5,12 +5,12 @@
     "subdomain": "wacky",
 
     "owner": {
-        "repo": "https://github.com/Arzejames/WackyDevWebsite",
+        "repo": "https://github.com/Arzejames/arzejames.github.io",
         "email": "turtles127855@gmail.com"
     },
 
     "record": {
-        "CNAME": ["http://arzejames.github.io/"]
+        "CNAME": ["wacky.pages.dev"]
     },
 
     "proxied": false
