@@ -1,0 +1,13 @@
+{
+    "domain": "localplayer.dev",
+    "subdomain": "ron",
+    "owner": {
+        "repo": "https://github.com/itsrn/website",
+        "email": "ronnuss@proton.me"
+    },
+    "record": {
+        "MX": ["mx1.forwardemail.net", "mx2.forwardemail.net"],
+        "TXT": ["forward-email=ronnuss@proton.me"]
+    },
+    "proxied": false
+}
