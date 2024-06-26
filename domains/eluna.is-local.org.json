@@ -1,0 +1,11 @@
+{
+    "domain": "is-local.org",
+    "subdomain": "eluna",
+    "owner": {
+        "email": "orekidev@gmail.com"
+    },
+    "record": {
+        "CNAME": "emoji.is-a.dev"
+    },
+    "proxied": true
+}
