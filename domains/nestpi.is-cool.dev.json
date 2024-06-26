@@ -1,0 +1,18 @@
+{
+    "description": "Project Description",
+
+    "domain": "is-cool.dev",
+    "subdomain": "example",
+
+    "owner": {
+        "repo": "https://github.com/username/repo",
+        "email": "hello@example.com"
+    },
+
+    "record": {
+        "CNAME": "example.com",
+        "TXT": ["example_verification=1234567890"]
+    },
+
+    "proxied": false
+}
