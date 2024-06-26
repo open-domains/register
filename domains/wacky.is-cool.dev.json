@@ -10,7 +10,7 @@
     },
 
     "record": {
-        "CNAME": ["wacky.pages.dev"]
+        "CNAME": "wacky.pages.dev"
     },
 
     "proxied": false
