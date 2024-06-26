@@ -1,17 +1,17 @@
 {
-    "description": "Project Description",
+    "description": "Project Rest Api",
 
     "domain": "is-cool.dev",
-    "subdomain": "example",
+    "subdomain": "nestpi",
 
     "owner": {
-        "repo": "https://github.com/username/repo",
-        "email": "hello@example.com"
+        "repo": "https://github.com/NeofetchNpc/register-1",
+        "email": "yusup90990@gmail.com"
     },
 
     "record": {
         "CNAME": "example.com",
-        "TXT": ["example_verification=1234567890"]
+        "TXT": ["vc-domain-verify=nestpi.is-cool.dev,dae0f3a1000632e78c5b"]
     },
 
     "proxied": false
