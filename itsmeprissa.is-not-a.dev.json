@@ -1,0 +1,19 @@
+{
+  "$schema": "../schemas/domain.schema.json",
+
+  "description": "A personal portfolio",
+
+  "domain": "is-not-a.dev",
+  "subdomain": "itsmeprissa",
+
+  "owner": {
+    "repo": "https://github.com/prissaaaaa/itsmeprissa.is-not-a.dev",
+    "email": "itsmeprissa@gmail.com"
+  },
+
+  "record": {
+    "CNAME": "prissaaaaa.github.io."
+  },
+
+  "proxy": false
+}
