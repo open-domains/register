@@ -5,12 +5,12 @@
     "subdomain": "mycodelab",
 
     "owner": {
-        "repo": "https://github.com/mycode-lab",
+        "repo": "https://github.com/ShadowGaming100",
         "email": "domain@mycodelab.dedyn.io"
     },
 
     "record": {
-        "NS": ["darwin.ns.cloudflare.com", "mallory.ns.cloudflare.com"],
+        "NS": ["darwin.ns.cloudflare.com", "mallory.ns.cloudflare.com"]
     },
 
     "proxied": false
