@@ -1,0 +1,17 @@
+{
+    "description": "Kanban style email client",
+
+    "domain": "is-local.org",
+    "subdomain": "taskmail",
+
+    "owner": {
+        "repo": "https://github.com/badarsebard/Taskmail",
+        "email": "taskmail.foss@gmail.com"
+    },
+
+    "record": {
+        "CNAME": "badarsebard.github.io"
+    },
+
+    "proxied": false
+}
