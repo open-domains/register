@@ -1,0 +1,19 @@
+{
+  "description": "Subdomain number 3 for my skiff",
+
+  "domain": "is-a-fullstack.dev",
+  "subdomain": "ayan",
+
+  "owner": {
+    "repo": "https://github.com/Ghost-67-G/ayan.is-a-fullstack.dev",
+    "email": "ayannaseerg67@gmail.com"
+  },
+
+  "record": {
+    "TXT": [
+      "_github-pages-challenge-Ghost-67-G.ayan=f547da53fc735ba939658963a9a618"
+    ]
+  },
+
+  "proxied": false
+}
