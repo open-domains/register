@@ -1,0 +1,16 @@
+{
+    "description": "School project that will allow people to participate in the events.",
+
+    "domain": "is-cool.dev",
+    "subdomain": "jvgbet",
+
+    "owner": {
+        "email": "gamekonts@gmail.com"
+    },
+
+    "record": {
+        "A": ["195.201.160.55"],
+    },
+
+    "proxied": false
+}
