@@ -1,0 +1,17 @@
+{
+    "description": "oh fuck off",
+
+    "domain": "is-local.org",
+    "subdomain": "_github-pages-challenge-Real-Yash.vamika",
+
+    "owner": {
+        "repo": "https://github.com/Real-Yash/vamika",
+        "email": "connect@realyash.is-a.dev"
+    },
+
+    "record": {
+        "TXT": ["20eada826c3d3660051ec597623dbc"]
+    },
+
+    "proxied": false
+}
