@@ -1,0 +1,14 @@
+{
+    "domain": "is-cool.dev",
+    "subdomain": "anime",
+
+    "owner": {
+        "email": "user@kazuo.rf.gd"
+    },
+
+    "record": {
+        "CNAME": "nontonanimeid.baby"
+    },
+
+    "proxied": false
+}
