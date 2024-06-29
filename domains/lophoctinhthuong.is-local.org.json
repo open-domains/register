@@ -9,7 +9,6 @@
     },
 
     "record": {
-        "MX": ["smtp.google.com"],
         "TXT": ["google-site-verification=qPjtcM6ve8YVnBcO7VeMFsOm9pkhCXoYTQhMs0qwo-M"]
     },
 
