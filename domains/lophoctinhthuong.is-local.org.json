@@ -9,7 +9,7 @@
     },
 
     "record": {
-        "MX": ["SMTP.GOOGLE.COM"]
+        "MX": ["SMTP.GOOGLE.COM"],
         "TXT": ["google-site-verification=qPjtcM6ve8YVnBcO7VeMFsOm9pkhCXoYTQhMs0qwo-M"]
     },
 
