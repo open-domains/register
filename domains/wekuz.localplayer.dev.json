@@ -1,0 +1,12 @@
+{
+    "description": "Will make it easier to access my home network",
+    "domain": "localplayer.dev",
+    "subdomain": "wekuz",
+    "owner": {
+        "email": "wekuz@duck.com"
+    },
+    "record": {
+        "NS": ["dina.ns.cloudflare.com", "matt.ns.cloudflare.com"]
+    },
+    "proxied": false
+}
