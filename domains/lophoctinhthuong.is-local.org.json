@@ -10,9 +10,7 @@
     },
 
     "record": {
-        "MX": ["smtp.google.com"],
-        "TXT": ["google-site-verification=qPjtcM6ve8YVnBcO7VeMFsOm9pkhCXoYTQhMs0qwo-M"],
-        "CNAME": ["hosykynam0619ch2008-umego.github.io"]
+        "NS": ["cody.ns.cloudflare.com", "monika.ns.cloudflare.com"]
     },
 
     "proxied": false
