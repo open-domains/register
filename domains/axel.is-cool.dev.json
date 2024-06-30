@@ -1,16 +1,18 @@
 {
-    "description": "Dev a member website",
+    "description": "Dev a member website for educational purposes",
 
     "domain": "is-cool.dev",
     "subdomain": "axel",
 
     "owner": {
-        "repo": "https://github.com/lechat87/register",
-        "email": "mc.lechat87@gmail.com"
+        "repo": "https://github.com/lechat87/chatenligne",
+        "email": "123clechat@gmail.com"
     },
 
     "record": {
+        "A": ["198.51.100.1", "198.51.100.2"],
     },
 
     "proxied": true
 }
+
