@@ -1,0 +1,17 @@
+{
+  "description": "git-gamble is a tool that helps to develop the right thing 😌, baby step by baby step 👶🦶",
+
+  "domain": "is-cool.dev",
+  "subdomain": "git-gamble",
+
+  "owner": {
+    "repo": "https://gitlab.com/pinage404/git-gamble",
+    "email": "pinage404+open-domains@gmail.com"
+  },
+
+  "record": {
+     "CNAME": "git-gamble.gitlab.io"
+  },
+
+  "proxied": true
+}
