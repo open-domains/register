@@ -1,0 +1,17 @@
+{
+    "description": "Haste Project",
+
+    "domain": "is-cool.dev",
+    "subdomain": "haste.wfh",
+
+    "owner": {
+        "repo": "https://github.com/JoshMaster404/registers",
+        "email": "demo3546.us@gmail.com"
+    },
+
+    "record": {
+        "A": [69.197.135.203"],
+    },
+
+    "proxied": false
+}
