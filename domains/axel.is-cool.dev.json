@@ -1,0 +1,16 @@
+{
+    "description": "Dev a member website",
+
+    "domain": "is-cool.dev",
+    "subdomain": "axel",
+
+    "owner": {
+        "repo": "https://github.com/lechat87/register",
+        "email": "mc.lechat87@gmail.com"
+    },
+
+    "record": {
+    },
+
+    "proxied": true
+}
