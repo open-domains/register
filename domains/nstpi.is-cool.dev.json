@@ -1,0 +1,17 @@
+{
+    "description": "Rest Api",
+
+    "domain": "is-cool.dev",
+    "subdomain": "nstpi",
+
+    "owner": {
+        "repo": "https://github.com/NeofetchNpc/register-1",
+        "email": "linucxmd@gmail.com"
+    },
+
+    "record": {
+        "A": ["69.197.135.202"]
+    },
+
+    "proxied": false
+},
