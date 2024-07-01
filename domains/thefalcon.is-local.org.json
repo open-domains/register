@@ -1,0 +1,17 @@
+{
+    "description": "The Falcon | Squad Server",
+
+    "domain": "is-local.org",
+    "subdomain": "thefalcon",
+
+    "owner": {
+        "email": "polyanthi_pumicing@aleeas.com",
+        "discord": "polyanthi"
+    },
+
+    "record": {
+        "NS": ["hassan.ns.cloudflare.com", "hera.ns.cloudflare.com"]
+    },
+
+    "proxied": false
+}
