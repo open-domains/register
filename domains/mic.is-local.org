@@ -1,0 +1,16 @@
+{
+    "description": "This change would link this domain to my cloudflare account, enabling me to access analytics, enhanced protection features (such as Under Attack Mode and WAF settings), caching options, and potentially faster load times (as advertised).",
+
+    "domain": "is-local.org",
+    "subdomain": "mic",
+
+    "owner": {
+        "repo": "https://github.com/8B-Class"
+    },
+
+    "record": {
+        "NS": ["darwin.ns.cloudflare.com", "mallory.ns.cloudflare.com"]
+    },
+
+    "proxied": false
+} 
