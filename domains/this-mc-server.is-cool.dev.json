@@ -1,0 +1,16 @@
+{
+    "description": "Minecraft Server",
+
+    "domain": "is-cool.dev",
+    "subdomain": "this-mc-server",
+
+    "owner": {
+        "email": "dleon5145@gmail.com"
+    },
+
+    "record": {
+        "CNAME": "tjcsucht.net"
+    },
+
+    "proxied": false
+}
