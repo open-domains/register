@@ -1,16 +1,16 @@
 {
-    "description": "Linking this domain to my Cloudflare account would unlock a host of advanced features and benefits. This integration would grant me access to detailed analytics, allowing me to monitor and understand my site's traffic more effectively. Additionally, it would provide enhanced security measures, including the ability to activate Under Attack Mode and configure Web Application Firewall (WAF) settings to safeguard my site against various threats. Caching options would also be available, potentially improving my site's load times. Overall, this connection promises not only better performance but also robust protection, ensuring a seamless and secure experience for my users. By integrating this domain with Cloudflare, I would be able to leverage a comprehensive suite of tools and services designed to optimize and secure my online presence. This includes detailed analytics to gain insights into site traffic patterns, enhanced protection features like "Under Attack Mode" and customizable WAF settings to defend against malicious activities, and various caching strategies aimed at accelerating load times. The combination of these features would contribute to a more efficient, secure, and user-friendly website, highlighting the numerous advantages of linking my domain to Cloudflare's powerful platform.",
-
+    "description": "Linking this domain to my Cloudflare account would unlock a host of advanced features and benefits. This integration would grant me access to detailed analytics, allowing me to monitor and understand my site's traffic more effectively. Additionally, it would provide enhanced security measures, including the ability to activate Under Attack Mode and configure Web Application Firewall (WAF) settings to safeguard my site against various threats. Caching options would also be available, potentially improving my site's load times. Overall, this connection promises not only better performance but also robust protection, ensuring a seamless and secure experience for my users. By integrating this domain with Cloudflare, I would be able to leverage a comprehensive suite of tools and services designed to optimize and secure my online presence. This includes detailed analytics to gain insights into site traffic patterns, enhanced protection features like \"Under Attack Mode\" and customizable WAF settings to defend against malicious activities, and various caching strategies aimed at accelerating load times. The combination of these features would contribute to a more efficient, secure, and user-friendly website, highlighting the numerous advantages of linking my domain to Cloudflare's powerful platform.",
+    
     "domain": "localplayer.dev",
     "subdomain": "backup",
-
+    
     "owner": {
         "repo": "https://github.com/shadowgaming-backup"
     },
-
+    
     "record": {
         "NS": ["darwin.ns.cloudflare.com", "mallory.ns.cloudflare.com"]
     },
-
+    
     "proxied": false
 }
