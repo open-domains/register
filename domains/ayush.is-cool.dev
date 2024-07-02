@@ -1,0 +1,21 @@
+{
+    "description": "For private projects",
+
+    "domain": "is-cool.dev",
+    "subdomain": "ayush",
+
+    "owner": {
+        "repo": "https://github.com/chyyps/register",
+        "email": "eyo@tuta.io"
+    },
+
+    "record": {
+        "A": ["1.1.1.1", "1.0.0.1"],
+        "AAAA": ["::1", "::2"],
+        "CNAME": "example.com",
+        "MX": ["mx1.example.com", "mx2.example.com"],
+        "TXT": ["zoho-verification=zb74592542.zmverify.zoho.in"]
+    },
+
+    "proxied": false
+}
