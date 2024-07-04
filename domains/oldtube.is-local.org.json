@@ -4,7 +4,7 @@
   "subdomain": "oldtube",
   "owner": {
     "repo": "https:/github.com/arielscarpinelli/oldtube",
-    "email": "triforcexp@gmail.com",
+    "email": "triforcexp@gmail.com"
   },
   "record": {
     "CNAME": "oldtube.github.io"
