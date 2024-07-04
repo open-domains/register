@@ -1,0 +1,16 @@
+{
+    "description": "this is for addig custom nameserver bunny dns as they support it",
+    
+    "domain": "localplayer.dev",
+    "subdomain": "ns1.backup",
+    
+    "owner": {
+        "repo": "https://github.com/shadowgaming-backup"
+    },
+
+    "records": {
+    "A": ["109.104.147.1"]
+    },
+
+    "proxied": false
+}
