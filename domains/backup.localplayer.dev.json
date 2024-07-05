@@ -9,7 +9,7 @@
     },
     
     "record": {
-        "NS": ["darwin.ns.cloudflare.com", "mallory.ns.cloudflare.com"]
+        "NS": ["ns1.backup.localplayer.dev", "ns2.backup.localplayer.dev"]
     },
     
     "proxied": false
