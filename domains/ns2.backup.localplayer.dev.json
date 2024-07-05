@@ -1,5 +1,5 @@
 {
-    "description": "this is for addig custom nameserver bunny dns as they support it",
+    "description": "This is for adding custom nameserver Bunny DNS as they support it.",
     
     "domain": "localplayer.dev",
     "subdomain": "ns2.backup",
@@ -8,8 +8,8 @@
         "repo": "https://github.com/shadowgaming-backup"
     },
 
-    "records": {
-    "A": ["109.104.147.1"]
+    "record": {
+        "A": ["109.104.147.1"]
     },
 
     "proxied": false
