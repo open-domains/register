@@ -1,0 +1,18 @@
+{
+    "description": "Rice Mill System",
+
+    "domain": "localplayer.dev",
+    "subdomain": "srimaruthiricemill",
+
+    "owner": {
+        "repo": "https://github.com/ssnupl/localplayer",
+        "email": "support@srimaruthiricemill.com"
+    },
+
+    "record": {
+        "A": ["100.81.221.118"],
+        "CNAME": "srimaruthiricemill.com",
+    },
+
+    "proxied": false
+}
