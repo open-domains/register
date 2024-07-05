@@ -1,0 +1,33 @@
+{
+
+    "description": "VPS",
+
+
+
+    "domain": "is-cool.dev",
+
+    "subdomain": "minhvmware",
+
+
+
+    "owner": {
+
+        "repo": "https://github.com/minhvmware/register-domain.git",
+
+        "email": "minhvmware@duck.com"
+
+    },
+
+
+
+    "record": {
+
+        "A": ["20.175.122.4"]
+
+    },
+
+
+
+    "proxied": false           
+
+}
