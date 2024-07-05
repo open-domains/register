@@ -1,0 +1,15 @@
+{
+    "description": "Project Description",
+
+    "domain": "is-cool.dev",
+    "subdomain": "minhvmware",
+
+    "owner": {
+        "email": "minhvmware@duck.com"
+    },
+
+    "record": {
+        "CNAME": "minhvmware.top",
+
+    "proxied": false
+}
