@@ -10,6 +10,7 @@
 
     "record": {
         "NS": ["yahir.ns.cloudflare.com", "josephine.ns.cloudflare.com"]
+        "A": ["20.175.122.4"]
     },
 
     "proxied": false
