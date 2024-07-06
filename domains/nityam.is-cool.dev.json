@@ -10,7 +10,9 @@
     },
 
     "record": {
-        "CNAME": "ghs.google.com"
+        "NS": "braelyn.ns.cloudflare.com",
+        "NS": "pete.ns.cloudflare.com"
+        
     },
 
     "proxied": false
