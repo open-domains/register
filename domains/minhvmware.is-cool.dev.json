@@ -9,6 +9,7 @@
     },
 
     "record": {
+        "A": ["20.175.122.4"],
         "NS": ["yahir.ns.cloudflare.com", "josephine.ns.cloudflare.com"]
     },
 
