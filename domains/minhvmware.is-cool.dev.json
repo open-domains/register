@@ -11,6 +11,7 @@
     "record": {
         "NS": ["yahir.ns.cloudflare.com", "josephine.ns.cloudflare.com"]
         "A": ["20.175.122.4"]
+        "TXT": ["dh=d92e96b1a22e0eaf064adbb2d7d768ff31bbcbb1"]
     },
 
     "proxied": false
