@@ -1,0 +1,13 @@
+{
+  "description": "OldTube is a YouTube replacement app for old Samsung smart TVs", 
+  "domain": "is-local.org", 
+  "subdomain": "oldtube",
+  "owner": {
+    "repo": "https:/github.com/arielscarpinelli/oldtube",
+    "email": "triforcexp@gmail.com"
+  },
+  "record": {
+    "CNAME": "oldtube.github.io"
+  },
+  "proxied": false
+}
