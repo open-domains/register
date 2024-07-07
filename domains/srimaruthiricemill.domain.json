@@ -1,5 +1,5 @@
 {
-    "description": "Rice Mill System",
+    "description": "Rice Mill System for developing the day to day activities for monitoring and managing the resources",
 
     "domain": "localplayer.dev",
     "subdomain": "srimaruthiricemill",
@@ -11,7 +11,6 @@
 
     "record": {
         "A": ["100.81.221.118"],
-        "CNAME": "srimaruthiricemill.com",
     },
 
     "proxied": false
