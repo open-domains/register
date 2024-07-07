@@ -10,7 +10,7 @@
     },
 
     "record": {
-        "CNAME": "fra1.cname.zeabur-dns.com",
+        "CNAME": "fra1.cname.zeabur-dns.com"
     },
 
     "proxied": false
