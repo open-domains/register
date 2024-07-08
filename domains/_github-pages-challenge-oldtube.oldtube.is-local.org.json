@@ -1,0 +1,12 @@
+{
+    "description": "GitHub pages verification challenge",
+    "domain": "is-local.org",
+    "subdomain": "_github-pages-challenge-oldtube.oldtube",
+    "owner": {
+        "email": "triforcexp@gmail.com"
+    },
+    "record": {
+        "TXT": ["64a24160508ca0bbe84d519f0a75ce"]
+    },
+    "proxied": false
+}
