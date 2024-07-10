@@ -10,11 +10,7 @@
     },
 
     "record": {
-        "A": ["", ""],
-        "AAAA": ["", ""],
         "CNAME": "ae87990d4b63095afbcbdd3a092cb9bf.qincai.is-cool.dev", "ns1.byet.org"
-        "MX": ["mx1.example.com", "mx2.example.com"],
-        "TXT": [""]
     },
 
     "proxied": false
