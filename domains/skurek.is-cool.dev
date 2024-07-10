@@ -1,12 +1,9 @@
 {
-  "description": "Servers Games",
-
   "domain": "is-cool.dev",
   "subdomain": "skurek",
 
   "owner": {
     "email": "skuurek@gmail.com"
-    "repo": "https://github.com/Skuurek/Servers",
   },
 
   "record": {
