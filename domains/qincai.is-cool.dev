@@ -1,0 +1,21 @@
+{
+    "description": "QinCai's Blog",
+
+    "domain": "is-cool.dev",
+    "subdomain": "qincai",
+
+    "owner": {
+        "repo": "https://github.com/QinCai-1002/register",
+        "email": "raymontqin_rui@outlook.com"
+    },
+
+    "record": {
+        "A": ["", ""],
+        "AAAA": ["", ""],
+        "CNAME": "ae87990d4b63095afbcbdd3a092cb9bf.qincai.is-cool.dev", "ns1.byet.org"
+        "MX": ["mx1.example.com", "mx2.example.com"],
+        "TXT": [""]
+    },
+
+    "proxied": false
+}
