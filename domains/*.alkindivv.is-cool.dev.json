@@ -1,0 +1,16 @@
+{
+    "description": "bio",
+
+    "domain": "is-cool.dev",
+    "subdomain": "*.alkindivv",
+
+    "owner": {
+        "repo": "https://github.com/alkindivv/alkindivv.com",
+        "email": "alkindivv@gmail.com.com"
+    },
+
+    "record": {
+        "CNAME": "alkindivv.github.io"
+    },
+    "proxied": false
+}
