@@ -1,0 +1,17 @@
+{
+    "description": "OnCord is a simple and intuitive framework built on top of discord.js, designed to simplify your Discord bot development.",
+
+    "domain": "is-local.org",
+    "subdomain": "*.oncord",
+
+    "owner": {
+        "repo": "https://github.com/oncord-me/oncord",
+        "email": "figueiredoigor325@gmail.com"
+    },
+
+    "record": {
+        "NS": ["nina.ns.cloudflare.com", "wesley.ns.cloudflare.com"]
+    },
+
+    "proxied": true
+}
