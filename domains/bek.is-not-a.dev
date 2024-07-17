@@ -9,7 +9,7 @@
     },
 
     "record": {
-        "CNAME": "bek.is-not-a.dev",
+        "CNAME": "https://github.com/bekdan1988",
     },
 
     "proxied": true
