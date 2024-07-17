@@ -1,0 +1,16 @@
+{
+    "description": "Personal Site",
+
+    "domain": "is-not-a.dev",
+    "subdomain": "bek",
+
+    "owner": {
+        "email": "bekdan1988@gmail.com"
+    },
+
+    "record": {
+        "CNAME": "bek.is-not-a.dev",
+    },
+
+    "proxied": false
+}
