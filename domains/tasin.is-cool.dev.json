@@ -10,7 +10,10 @@
     },
     
     "record": {
-        "CNAME": "tasinone.github.io"
+        "NS": [
+            "oswald.ns.cloudflare.com",
+            "stevie.ns.cloudflare.com"
+        ]
     },
     
     "proxied": false
