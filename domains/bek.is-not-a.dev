@@ -12,5 +12,5 @@
         "CNAME": "bek.is-not-a.dev",
     },
 
-    "proxied": false
+    "proxied": true
 }
