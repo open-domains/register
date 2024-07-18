@@ -1,0 +1,17 @@
+{
+    "description": "Widebot Task Project",
+
+    "domain": "is-not-a.dev",
+    "subdomain": "widebottask",
+
+    "owner": {
+        "repo": "https://github.com/open-domains/register.git",
+        "email": "shrifzain85@gmail.com"
+    },
+
+    "record": {
+        "A": ["52.27.1.117"]
+    },
+
+    "proxied": false
+}
