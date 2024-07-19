@@ -1,0 +1,21 @@
+{
+    "description": "Project Description",
+
+    "domain": "men.is-cool.dev",
+    "subdomain": "example",
+
+    "owner": {
+        "repo": "https://github.com/kumargauravtiwary/men.github.io",
+        "email": "kumargauravtiwary@gmail.com"
+    },
+
+    "record": {
+        "A": ["1.1.1.1", "1.0.0.1"],
+        "AAAA": ["::1", "::2"],
+        "CNAME": "men.is-cool.dev",
+        "MX": ["mx1.example.com", "mx2.example.com"],
+        "TXT": ["example_verification=1234567890"]
+    },
+
+    "proxied": false
+}
