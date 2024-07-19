@@ -1,0 +1,21 @@
+{
+    "description": "demo domain for learning AWS",
+
+    "domain": "is-not-a.dev",
+    "subdomain": "fragiledomain",
+
+    "owner": {
+        "repo": "https://github.com/Bharath-Harikrishnan/devopsdemo",
+        "email": "hbharath34@gmail.com"
+    },
+
+    "record": {
+        "A": ["1.1.1.1", "1.0.0.1"],
+        "AAAA": ["::1", "::2"],
+        "CNAME": "fragiledomain.is-not-a.dev",
+        "MX": ["mx1.fragiledomain.is-not-a.dev", "mx2.fragiledomain.is-not-a.dev"],
+        "TXT": ["example_verification=1234567890"]
+    },
+
+    "proxied": false
+}
