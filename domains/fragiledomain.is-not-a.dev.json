@@ -10,11 +10,7 @@
     },
 
     "record": {
-        "A": ["1.1.1.1", "1.0.0.1"],
-        "AAAA": ["::1", "::2"],
-        "CNAME": "fragiledomain.is-not-a.dev",
-        "MX": ["mx1.fragiledomain.is-not-a.dev", "mx2.fragiledomain.is-not-a.dev"],
-        "TXT": ["example_verification=1234567890"]
+        "A": ["1.1.1.1", "1.0.0.1"]
     },
 
     "proxied": false
