@@ -1,0 +1,17 @@
+{
+    "description": "My blog, recording some free services",
+
+    "domain": "is-cool.dev",
+    "subdomain": "free",
+
+    "owner": {
+        "repo": "https://github.com/tw1720/blog",
+        "email": "tw1720@gmail.com"
+    },
+
+    "record": {
+        "CNAME": "tw-free.pages.dev"
+    },
+
+    "proxied": false
+}
