@@ -1,0 +1,17 @@
+{
+    "description": "A Fun Website (Currently Directed TO Google",
+
+    "domain": "is-a-fullstack.dev",
+    "subdomain": "Gunman",
+
+    "owner": {
+        "repo": "https://github.com/MukuJhansi/register-1",
+        "email": "mukundagrawal800@gmail.com"
+    },
+
+    "record": {
+        "A": ["142.250.77.238"],
+    },
+
+    "proxied": false
+}
