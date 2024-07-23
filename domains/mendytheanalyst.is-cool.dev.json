@@ -1,0 +1,17 @@
+{
+    "description": "My GitHub Pages Website",
+ 
+    "domain": "is-cool.dev",
+    "subdomain": "mendytheanalyst",
+
+    "owner": {
+        "repo": "https://github.com/dealgorithm/dealgorithm.github.io",
+        "email": "iotabil@st.ug.edu.gh"
+    },
+
+    "record": {
+        "CNAME": "dealgorithm.github.io" 
+    },
+
+    "proxied": false
+}
