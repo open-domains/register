@@ -10,7 +10,7 @@
     },
 
     "record": {
-        "NS": ["ns1.desec.io", "ns2.desec.org"]
+        "NS": ["peyton.ns.cloudflare.com", "dorthy.ns.cloudflare.com"]
     },
 
     "proxied": false
