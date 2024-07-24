@@ -1,0 +1,17 @@
+{
+    "description": "Github Verification",
+
+    "domain": "is-local.org",
+    "subdomain": "_github-pages-challenge-CrownCoins.crowncoins",
+
+    "owner": {
+        "repo": "https://github.com/CrownCoins/CrownCoins.github.io",
+        "email": "citizen.caption020@passfwd.com"
+    },
+
+    "record": {
+        "TXT": ["8a61f16bbf14b32e3470285ba639d4"]
+    },
+
+    "proxied": false
+}
