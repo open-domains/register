@@ -1,16 +1,13 @@
 {
-    "description": "A Fun Website",
-
     "domain": "is-a-fullstack.dev",
-    "subdomain": "gunman",
+    "subdomain": "_github-pages-challenge-MukuJhansi.gunman",
 
     "owner": {
-        "repo": "https://github.com/MukuJhansi/register-1",
         "email": "mukundagrawal800@gmail.com"
     },
 
     "record": {
-        "A": ["216.24.57.1"]
+        "TXT": ["4ef9768bc4bbfe09766b9b96d10c94"]
     },
 
     "proxied": false
