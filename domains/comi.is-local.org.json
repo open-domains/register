@@ -7,7 +7,7 @@
     },
 
     "record": {
-        "CNAME": ["comi-xf.github.io/blog"]
+        "CNAME": ["comi-xf.github.io"]
     },
 
     "proxied": false
