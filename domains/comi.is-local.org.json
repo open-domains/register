@@ -1,0 +1,14 @@
+{
+    "description": "for my personal site ",
+    "domain": "is-local.org",
+    "subdomain": "comi",
+    "owner": {
+        "email": "comi@disroot.org"
+    },
+
+    "record": {
+        "CNAME": ["comi-xf.github.io"]
+    },
+
+    "proxied": false
+}
