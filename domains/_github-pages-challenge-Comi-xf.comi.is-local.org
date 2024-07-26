@@ -1,0 +1,15 @@
+{
+    "description": "Verifying a domain",
+
+    "domain": "is-local.org",
+    "subdomain": "_github-pages-challenge-Comi-xf.comi",
+
+    "owner": {
+        "email": "comi@disroot.org"
+    },
+
+  "record": {
+      "TXT": "1bf2ac6c8398bcca586e5b38d4faf7"
+  },
+    "proxied": false
+  }
