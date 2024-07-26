@@ -1,0 +1,17 @@
+{
+    "description": "ZXU's RSSHub",
+
+    "domain": "is-local.org",
+    "subdomain": "rsshubzxu",
+
+    "owner": {
+        "repo": "https://github.com/ZachXu/register",
+        "email": "zach.xu1987@gmail.com"
+    },
+
+    "record": {
+        "TXT": ["vc-domain-verify=rsshubzxu.is-local.org,5093005c85d1cdf1998b"]
+    },
+
+    "proxied": false            
+}
