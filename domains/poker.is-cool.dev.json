@@ -1,0 +1,17 @@
+{
+    "description": "Website for poker results",
+
+    "domain": "is-cool.dev",
+    "subdomain": "poker",
+
+    "owner": {
+        "repo": "https://github.com/redisks/register",
+        "email": "dragon.starwings@gmail.com"
+    },
+
+    "record": {
+        "A": ["91.204.253.199"],
+    },
+
+    "proxied": false
+}
