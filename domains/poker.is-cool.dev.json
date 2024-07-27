@@ -13,5 +13,5 @@
         "A": ["91.204.253.199"],
     },
 
-    "proxied": false
+    "proxied": true
 }
