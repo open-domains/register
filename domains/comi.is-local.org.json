@@ -7,7 +7,7 @@
     },
 
     "record": {
-        "CNAME": ["comi-xf.github.io"]
+        "NS": ["galilea.ns.cloudflare.com","otto.ns.cloudflare.com"]
     },
 
     "proxied": false
