@@ -9,8 +9,8 @@
     },
 
     "record": {
-        "NS": ["peyton.ns.cloudflare.com", "dorthy.ns.cloudflare.com"]
+        "CNAME": "yash-df-studio-website.pages.dev"
     },
 
-    "proxied": false
+    "proxied": true
 } 
