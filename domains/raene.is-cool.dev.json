@@ -1,0 +1,17 @@
+{
+    "description": "Simply a domain name to use in testing live apis that require domain names for ssl, e.g telegram mini bot",
+
+    "domain": "is-cool.dev",
+    "subdomain": "raene",
+
+    "owner": {
+        "email": "bob.salau@gmail.com"
+    },
+
+    "record": {
+        "A": ["167.172.13.246"]
+    },
+
+    "proxied": false
+}
+
