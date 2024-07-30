@@ -1,0 +1,16 @@
+{
+    "description": "",
+    "domain": "localplayer.dev",
+    "subdomain": "mc.aquatica",
+
+    "owner": {
+        "repo": "https://github.com/charlesobird/register",
+        "email": "charlesobird+github@outlook.com"
+    },
+
+    "record": {
+        "A": ["141.94.1.0"]
+    },
+
+    "proxied": false
+}
