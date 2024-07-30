@@ -1,5 +1,5 @@
 {
-    "description": "",
+    "description": "Used to allow the Minecraft Server for the Aquatica server to be accessed via domain rather than IP",
     "domain": "localplayer.dev",
     "subdomain": "mc.aquatica",
 
