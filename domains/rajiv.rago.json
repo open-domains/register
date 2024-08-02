@@ -1,0 +1,17 @@
+{
+    "description": "Rajiv's Personal Website",
+    "domain": "is-not-a.dev",
+    "subdomain": "rajivrago",
+    "owner": {
+        "repo": "N/A",
+        "email": "ragorajiv2@gmail.com"
+    },
+    "record": {
+        "A": ["1.1.1.1", "1.0.0.1"],
+        "AAAA": ["::1", "::2"],
+        "CNAME": "rajivrago.com",
+        "MX": ["mx1.rajivrago.com", "mx2.rajivrago.com"],
+        "TXT": ["example_verification=1234567890"]
+    },
+    "proxied": false
+}
