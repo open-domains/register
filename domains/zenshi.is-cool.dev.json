@@ -9,7 +9,9 @@
         "email": "flingo_07@proton.me"
     },
 
+    
     "record": {
+        "TXT": ["01698f8e8114282b9a6dc11d40eec2"],
         "CNAME": "flingo777.github.io"
     },
 
