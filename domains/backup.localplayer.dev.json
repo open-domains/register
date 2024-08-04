@@ -1,0 +1,16 @@
+{
+    "description": "Linking this domain to my Cloudflare account would unlock a host of advanced features and benefits.",
+
+    "domain": "localplayer.dev",
+    "subdomain": "backup",
+
+    "owner": {
+        "repo": "https://github.com/shadowgaming-backup"
+    },
+
+    "record": {
+        "NS": ["mallory.ns.cloudflare.com", "darwin.ns.cloudflare.com"]
+    },
+
+    "proxied": false
+} 
