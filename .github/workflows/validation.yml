@@ -1,103 +1,104 @@
 name: Validation
 
 on:
-    pull_request_target:
-
+  pull_request_target:
 
 concurrency:
-    group: ${{ github.ref }}-validation
-    cancel-in-progress: true
+  group: ${{ github.ref }}-validation
+  cancel-in-progress: true
 
 jobs:
-    dns:
-        name: DNS
-        runs-on: ubuntu-latest
-        steps:
-            - uses: actions/checkout@v4
+  dns:
+    name: DNS
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          ref: ${{ github.event.pull_request.head.sha }}
 
-            - id: create_token
-              uses: tibdex/github-app-token@v2
-              with:
-                app_id: ${{ secrets.APP_ID }}
-                private_key: ${{ secrets.PRIVATE_KEY }}
+      - id: create_token
+        uses: tibdex/github-app-token@v2
+        with:
+          app_id: ${{ secrets.APP_ID }}
+          private_key: ${{ secrets.PRIVATE_KEY }}
 
-            - name: Check
-              uses: koenrh/dnscontrol-action@v3
-              with:
-                  args: check
-                  config_file: "dnsconfig.js"
+      - name: Check DNS
+        id: dns_check
+        uses: koenrh/dnscontrol-action@v3
+        with:
+          args: check
+          config_file: "dnsconfig.js"
 
+      - name: Add Validated DNS Label
+        if: ${{ steps.dns_check.outcome == 'success' }}
+        uses: actions-ecosystem/action-add-labels@v1
+        with:
+          labels: "Validated DNS"
+          github_token: ${{ steps.create_token.outputs.token }}
+      - name: Remove Invalid DNS Label
+        if: ${{ steps.dns_check.outcome == 'success' }}
+        uses: actions-ecosystem/action-remove-labels@v1
+        with:
+          labels: "Invalid DNS"
+          github_token: ${{ steps.create_token.outputs.token }}
 
-            - name: add Validated DNS
-              uses: actions-ecosystem/action-add-labels@v1
-              with:
-                labels: "Validated DNS"
-                github_token: ${{ steps.create_token.outputs.token }}
-        
-            - name: remove Invalid DNS
-              uses: actions-ecosystem/action-remove-labels@v1
-              with:
-                labels: "Invalid DNS"
-                github_token: ${{ steps.create_token.outputs.token }}
+      - name: Add Invalid DNS Label
+        if: ${{ failure() }}
+        uses: actions-ecosystem/action-add-labels@v1
+        with:
+          labels: "Invalid DNS"
+          github_token: ${{ steps.create_token.outputs.token }}
+      - name: Remove Validated DNS Label
+        if: ${{ failure() }}
+        uses: actions-ecosystem/action-remove-labels@v1
+        with:
+          labels: "Validated DNS"
+          github_token: ${{ steps.create_token.outputs.token }}
 
+  json:
+    name: JSON
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          ref: ${{ github.event.pull_request.head.sha }}
 
-            - if: ${{ failure() }}
-              name: fa
-              uses: actions-ecosystem/action-add-labels@v1
-              with:
-                labels: "Invalid DNS"
-                github_token: ${{ steps.create_token.outputs.token }}
-        
-            - name: remove Validated DNS
-              if: ${{ failure() }}
-              uses: actions-ecosystem/action-remove-labels@v1
-              with:
-                labels: "Validated DNS"
-                github_token: ${{ steps.create_token.outputs.token }}
-        
+      - id: create_token
+        uses: tibdex/github-app-token@v2
+        with:
+          app_id: ${{ secrets.APP_ID }}
+          private_key: ${{ secrets.PRIVATE_KEY }}
 
-    json:
-        name: JSON
-        runs-on: ubuntu-latest
-        steps:
-            - uses: actions/checkout@v4
+      - name: JSON Syntax Check
+        id: json_check
+        uses: limitusus/json-syntax-check@v2
+        with:
+          pattern: "\\.json$"
+        env:
+          BASE: "domains/"
 
-            - id: create_token
-              uses: tibdex/github-app-token@v2
-              with:
-                app_id: ${{ secrets.APP_ID }}
-                private_key: ${{ secrets.PRIVATE_KEY }}
+      - name: Add Validated JSON Label
+        if: ${{ steps.json_check.outcome == 'success' }}
+        uses: actions-ecosystem/action-add-labels@v1
+        with:
+          labels: "Validated JSON"
+          github_token: ${{ steps.create_token.outputs.token }}
+      - name: Remove Invalid JSON Label
+        if: ${{ steps.json_check.outcome == 'success' }}
+        uses: actions-ecosystem/action-remove-labels@v1
+        with:
+          labels: "Invalid JSON"
+          github_token: ${{ steps.create_token.outputs.token }}
 
-            - name: JSON Syntax Check
-              uses: limitusus/json-syntax-check@v2
-              with:
-                  pattern: "\\.json$"
-              env:
-                  BASE: "domains/"
-
-            - name: add Validated JSON
-              uses: actions-ecosystem/action-add-labels@v1
-              with:
-                labels: "Validated JSON"
-                github_token: ${{ steps.create_token.outputs.token }}
-        
-            - name: remove invalid JSON
-              uses: actions-ecosystem/action-remove-labels@v1
-              with:
-                labels: "Invalid JSON"
-                github_token: ${{ steps.create_token.outputs.token }}
-
-
-            - if: ${{ failure() }}
-              name: fa
-              uses: actions-ecosystem/action-add-labels@v1
-              with:
-                labels: "Invalid JSON"
-                github_token: ${{ steps.create_token.outputs.token }}
-        
-            - name: remove Validated JSON
-              if: ${{ failure() }}
-              uses: actions-ecosystem/action-remove-labels@v1
-              with:
-                labels: "Validated JSON"
-                github_token: ${{ steps.create_token.outputs.token }}
+      - name: Add Invalid JSON Label
+        if: ${{ failure() }}
+        uses: actions-ecosystem/action-add-labels@v1
+        with:
+          labels: "Invalid JSON"
+          github_token: ${{ steps.create_token.outputs.token }}
+      - name: Remove Validated JSON Label
+        if: ${{ failure() }}
+        uses: actions-ecosystem/action-remove-labels@v1
+        with:
+          labels: "Validated JSON"
+          github_token: ${{ steps.create_token.outputs.token }}
