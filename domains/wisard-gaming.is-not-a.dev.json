@@ -1,0 +1,16 @@
+{
+    "description": "",
+
+    "domain": "is-not-a.dev",
+    "subdomain": "wisard-gaming",
+
+    "owner": {
+        "repo": "https://github.com/ShadowGaming100"
+    },
+
+    "record": {
+        "NS": ["darwin.ns.cloudflare.com", "mallory.ns.cloudflare.com"]
+    },
+
+    "proxied": false
+} 
