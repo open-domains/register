@@ -9,8 +9,8 @@
     },
 
     "record": {
-        "CNAME": "yash-df-studio-website.pages.dev"
+         "NS": ["darwin.ns.cloudflare.com", "mallory.ns.cloudflare.com"]
     },
 
-    "proxied": true
+    "proxied": false
 } 

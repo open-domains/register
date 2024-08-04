@@ -22,7 +22,7 @@ jobs:
         env:
           GITHUB_TOKEN: ${{ steps.create_token.outputs.token }}
           # the below token should have repo scope and must be manually added by you in the repository's secret
-          PERSONAL_ACCESS_TOKEN: ${{ secrets.BOT }}
+          PERSONAL_ACCESS_TOKEN: ${{ steps.create_token.outputs.token }}
         with:
           path-to-signatures: 'signatures-v2.json'
           path-to-document: 'https://github.com/open-domains/register/blob/main/terms.md' # e.g. a CLA or a DCO document
@@ -32,14 +32,22 @@ jobs:
           remote-organization-name: 'open-domains'
           remote-repository-name: 'cla'
 
-      - name: add label
+      - name: add CLA signed
         uses: actions-ecosystem/action-add-labels@v1
         if: (github.event.comment.body == 'recheck' || github.event.comment.body == 'I have read the CLA Document and I hereby sign the CLA') || github.event_name == 'pull_request_target'
         with:
-          labels: "CLA signed"
+          labels: "CLA Signed"
           github_token: ${{ steps.create_token.outputs.token }}
 
+      - name: remove CLA required
+        uses: actions-ecosystem/action-remove-labels@v1
+        if: (github.event.comment.body == 'recheck' || github.event.comment.body == 'I have read the CLA Document and I hereby sign the CLA') || github.event_name == 'pull_request_target'
+        with:
+          labels: "CLA Required"
+          github_token: ${{ steps.create_token.outputs.token }}    
+
       - if: ${{ failure() }}
+        name: Add CLA required
         uses: actions-ecosystem/action-add-labels@v1
         with:
           labels: "CLA Required"
