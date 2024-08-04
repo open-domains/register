@@ -10,7 +10,8 @@
     },
 
     "record": {
-        "CNAME": "flingo777.github.io"
+        "CNAME": "flingo777.github.io",
+        "TXT": ["01698f8e8114282b9a6dc11d40eec2"]
     },
 
     "proxied": false
