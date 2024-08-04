@@ -3,14 +3,6 @@ name: Validation
 on:
     pull_request:
 
-    push:
-        branches: [main]
-        paths:
-            - "domains/**"
-            - ".github/workflows/validation.yml"
-            - "dnsconfig.js"
-
-    workflow_dispatch:
 
 concurrency:
     group: ${{ github.ref }}-validation
