@@ -3,14 +3,6 @@ name: Validation
 on:
     pull_request:
 
-    push:
-        branches: [main]
-        paths:
-            - "domains/**"
-            - ".github/workflows/validation.yml"
-            - "dnsconfig.js"
-
-    workflow_dispatch:
 
 concurrency:
     group: ${{ github.ref }}-validation
@@ -23,11 +15,46 @@ jobs:
         steps:
             - uses: actions/checkout@v4
 
+            - id: create_token
+              uses: tibdex/github-app-token@v2
+              with:
+                app_id: ${{ secrets.APP_ID }}
+                private_key: ${{ secrets.PRIVATE_KEY }}
+
             - name: Check
               uses: koenrh/dnscontrol-action@v3
               with:
                   args: check
                   config_file: "dnsconfig.js"
+
+
+            - name: add Validated DNS
+              uses: actions-ecosystem/action-add-labels@v1
+              with:
+                labels: "Validated DNS"
+                github_token: ${{ steps.create_token.outputs.token }}
+        
+            - name: remove Invalid DNS
+              uses: actions-ecosystem/action-remove-labels@v1
+              with:
+                labels: "Invalid DNS"
+                github_token: ${{ steps.create_token.outputs.token }}
+
+
+            - if: ${{ failure() }}
+              name: fa
+              uses: actions-ecosystem/action-add-labels@v1
+              with:
+                labels: "Invalid DNS"
+                github_token: ${{ steps.create_token.outputs.token }}
+        
+            - name: remove Validated DNS
+              if: ${{ failure() }}
+              uses: actions-ecosystem/action-remove-labels@v1
+              with:
+                labels: "Validated DNS"
+                github_token: ${{ steps.create_token.outputs.token }}
+        
 
     json:
         name: JSON
@@ -35,9 +62,42 @@ jobs:
         steps:
             - uses: actions/checkout@v4
 
+            - id: create_token
+              uses: tibdex/github-app-token@v2
+              with:
+                app_id: ${{ secrets.APP_ID }}
+                private_key: ${{ secrets.PRIVATE_KEY }}
+
             - name: JSON Syntax Check
               uses: limitusus/json-syntax-check@v2
               with:
                   pattern: "\\.json$"
               env:
                   BASE: "domains/"
+
+            - name: add Validated JSON
+              uses: actions-ecosystem/action-add-labels@v1
+              with:
+                labels: "Validated JSON"
+                github_token: ${{ steps.create_token.outputs.token }}
+        
+            - name: remove invalid JSON
+              uses: actions-ecosystem/action-remove-labels@v1
+              with:
+                labels: "Invalid JSON"
+                github_token: ${{ steps.create_token.outputs.token }}
+
+
+            - if: ${{ failure() }}
+              name: fa
+              uses: actions-ecosystem/action-add-labels@v1
+              with:
+                labels: "Invalid JSON"
+                github_token: ${{ steps.create_token.outputs.token }}
+        
+            - name: remove Validated JSON
+              if: ${{ failure() }}
+              uses: actions-ecosystem/action-remove-labels@v1
+              with:
+                labels: "Validated JSON"
+                github_token: ${{ steps.create_token.outputs.token }}

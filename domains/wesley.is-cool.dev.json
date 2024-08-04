@@ -1,0 +1,17 @@
+{
+    "description": "Personal website",
+
+    "domain": "is-cool.dev",
+    "subdomain": "wesley",
+
+    "owner": {
+        "repo": "https://github.com/westhecool",
+        "email": "wesley@westhedev.xyz"
+    },
+
+    "record": {
+        "CNAME": "wesley-is-cool-dev.pages.dev"
+    },
+
+    "proxied": false
+}
