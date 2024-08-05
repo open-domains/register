@@ -1,10 +1,11 @@
 {
-    "description": "I'll be using the domain for some upcoming projects of mine which includes some ai stuff, and the wildcard for some of the hosting stuff",
+    "description": "I will be using the domain to host my professional portfolio website. This website showcases my projects, skills, and experiences as a developer. It includes detailed descriptions of my work, particularly my contributions to various projects involving web development, data analysis, and system design. The portfolio serves as a central hub for potential employers and collaborators to learn more about my capabilities and past work.",
     
     "domain": "is-cool.dev",
     "subdomain": "*.tulsipada",
 
     "owner": {
+        "repo": "https://github.com/tulsipadadas/tulsipadadas.github.io",
         "email": "tulsipada55@gmail.com"
     },
 
