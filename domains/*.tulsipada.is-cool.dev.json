@@ -1,0 +1,17 @@
+{
+    "description": "I'll be using the domain for some upcoming projects of mine which includes some ai stuff, and the wildcard for some of the hosting stuff",
+    
+    "domain": "is-cool.dev",
+    "subdomain": "*.tulsipada",
+
+    "owner": {
+        "email": "tulsipada55@gmail.com"
+    },
+
+    "record": {
+        "CNAME": "charles.ns.cloudflare.com",
+        "CNAME": "tani.ns.cloudflare.com",
+    },
+
+    "proxied": false
+}
