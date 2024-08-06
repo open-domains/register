@@ -10,7 +10,7 @@
     },
 
     "record": {
-        "CNAME": ["charles.ns.cloudflare.com","tani.ns.cloudflare.com"]
+        "NS": ["charles.ns.cloudflare.com","tani.ns.cloudflare.com"]
     },
 
     "proxied": false
