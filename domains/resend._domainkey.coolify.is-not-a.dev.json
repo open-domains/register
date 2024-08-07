@@ -10,7 +10,7 @@
     },
 
     "record": {
-        "TXT": "resend._domainkey.coolify"
+        "TXT": ["resend._domainkey.coolify"]
     },
 
     "proxied": false
