@@ -1,0 +1,17 @@
+{
+    "description": "MC SITE",
+
+    "domain": "is-local.org",
+    "subdomain": "_github-pages-challenge-oexs.m",
+
+    "owner": {
+        "repo": "https://github.com/oexs/oexs.github.io",
+        "email": "ceek@vip.qq.com"
+    },
+    
+    "record": {
+        "TXT": ["52645e8da0e44eea8e44d71fc32d3c"]
+  },
+    
+    "proxied": false
+}

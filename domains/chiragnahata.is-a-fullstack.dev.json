@@ -1,0 +1,14 @@
+{
+    "domain": "is-a-fullstack.dev",
+    "subdomain": "chiragnahata",
+
+    "owner": {
+        "email": "chiragnahata05@gmail.com"
+    },
+
+    "record": {
+        "A": ["129.213.151.29"]
+    },
+
+    "proxied": true
+}

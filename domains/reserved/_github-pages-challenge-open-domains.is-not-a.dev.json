@@ -3,6 +3,9 @@
 
   "domain": "is-not-a.dev",
   "subdomain": "_github-pages-challenge-open-domains",
+  "owner": {
+    "email": "sys@open-domains.net"
+  },
 
   "record": {
     "TXT": ["e436ee5dc78c9c28d3534775201f25"]

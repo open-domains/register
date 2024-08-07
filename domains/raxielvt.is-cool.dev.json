@@ -1,0 +1,16 @@
+{
+    "description": "Página web personal para un portfolio",
+
+    "domain": "is-cool.dev",
+    "subdomain": "raxielvt",
+
+    "owner": {
+        "email": "alex@alexdevuwu.com"
+    },
+
+    "record": {
+        "CNAME": "raxielvt.pages.dev"
+      },
+
+    "proxied": false
+}

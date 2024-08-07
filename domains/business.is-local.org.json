@@ -1,0 +1,17 @@
+{
+    "description": "Will be used for hosting personal projects, experimentation with new web technologies, and temporary showcase URLs for clients",
+
+    "domain": "is-local.org",
+    "subdomain": "business",
+
+    "owner": {
+        "repo": "https://github.com/Leon-Kunstek",
+        "email": "kun.stek.leon@gmail.com"
+    },
+
+    "record": {
+        "NS": ["burt.ns.cloudflare.com", "desi.ns.cloudflare.com"]
+    },
+
+    "proxied": false
+}

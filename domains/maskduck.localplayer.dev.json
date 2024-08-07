@@ -1,0 +1,17 @@
+{
+    "description": "Project Description",
+
+    "domain": "localplayer.dev",
+    "subdomain": "maskduck",
+
+    "owner": {
+        "repo": "https://github.com/maskduck/maskduck.github.io",
+        "email": "maskduckuwu@gmail.com"
+    },
+
+    "record": {
+        "CNAME": "maskduck.pages.dev"
+    },
+
+    "proxied": false
+}

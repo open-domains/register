@@ -1,0 +1,17 @@
+{
+    "description": "Document of libraries i write for Vue.JS ommunity",
+
+    "domain": "is-local.org",
+    "subdomain": "vuelib",
+
+    "owner": {
+        "repo": "https://github.com/serariana/register-2",
+        "email": "serariana.com@gmail.com"
+    },
+
+   "record": {
+        "A": ["156.255.1.42"]
+    },
+
+    "proxied": true
+}

@@ -26,6 +26,7 @@ https://discord.gg/kVjkg6VBwa
 
 | Available Domains |
 |:-:|
+| [`*.is-a-fullstack.dev`](https://is-a-fullstack.dev) |
 | [`*.is-cool.dev`](https://is-cool.dev) |
 | [`*.is-local.org`](https://is-local.org) |
 | [`*.is-not-a.dev`](https://is-not-a.dev) |
@@ -39,24 +40,25 @@ https://discord.gg/kVjkg6VBwa
 [badge-ssl]:https://shields.io/badge/SSL-Required-blue?style=plastic?cacheSeconds=3600
 
 ### Unsupported Services
-We currently do not support Cloudflare (for NS), Netlify (for website) or Vercel (for websites).
+We currently do not support Netlify (for websites) or Vercel (for websites).
 
 This will hopefully be fixed soon.
 
 ### Settings
 
-| Setting | [`is-cool.dev`](https://is-cool.dev) | [`is-local.org`](https://is-local.org) | [`is-not-a.dev`](https://is-not-a.dev) | [`localplayer.dev`](https://localplayer.dev) |
-|-|-|-|-|-|
-| [DNSSEC][dnssec] | ✅ | ✅ | ✅ | ✅ |
-| Email | ✅ | ✅ | ✅ | ✅ |
-| SSL/TLS* | [Full][ssl-full] | [Full][ssl-full] | [Full][ssl-full] | [Full][ssl-full] |
-| Always Use HTTPS* | ✅ | ✅ | ✅ | ✅ |
-| HTTP Strict Transport Security (HSTS) | ✅ | ✅ | ✅ | ✅ |
-| Minimum TLS Version* | 1.2 | 1.2 | 1.2 | 1.2 |
-| Opportunistic Encryption, TLS 1.3* | ✅ | ✅ | ✅ | ✅ |
-| WAF (Web Application Firewall)* | Medium Security Level | Medium Security Level | Medium Security Level | Medium Security Level |
-| Browser Integrity Check* | ✅ | ✅ | ✅ | ✅ |
-| [Caching Level][caching-levels], Browser Cache TTL* | Standard, 4 hours | Standard, 4 hours | Standard, 4 hours | Standard, 4 hours |
+| Setting | [`is-a-fullstack.dev`](https://is-a-fullstack.dev)  | [`is-cool.dev`](https://is-cool.dev) | [`is-local.org`](https://is-local.org) | [`is-not-a.dev`](https://is-not-a.dev) | [`localplayer.dev`](https://localplayer.dev) |
+|-|-|-|-|-|-|
+| PSL | ⏳ [Pending...](https://github.com/publicsuffix/list/pull/2018) | ✅ | ✅ | ✅ | ✅ |
+| [DNSSEC][dnssec] | ✅ | ✅ | ✅ | ✅ | ✅ |
+| Email | ✅ | ✅ | ✅ | ✅ | ✅ |
+| SSL/TLS* | [Full][ssl-full] | [Full][ssl-full] | [Full][ssl-full] | [Full][ssl-full] | [Full][ssl-full] |
+| Always Use HTTPS* | ✅ | ✅ | ✅ | ✅ | ✅ |
+| HTTP Strict Transport Security (HSTS) | ✅ | ✅ | ✅ | ✅ | ✅ |
+| Minimum TLS Version* | 1.2 | 1.2 | 1.2 | 1.2 | 1.2 |
+| Opportunistic Encryption, TLS 1.3* | ✅ | ✅ | ✅ | ✅ | ✅ |
+| WAF (Web Application Firewall)* | Medium Security Level | Medium Security Level | Medium Security Level | Medium Security Level | Medium Security Level |
+| Browser Integrity Check* | ✅ | ✅ | ✅ | ✅ | ✅ |
+| [Caching Level][caching-levels], Browser Cache TTL* | Standard, 4 hours | Standard, 4 hours | Standard, 4 hours | Standard, 4 hours | Standard, 4 hours |
 
 \*Only available when your domain has Cloudflare's proxy (`"proxied": true`) enabled
 
@@ -69,7 +71,7 @@ This will hopefully be fixed soon.
 ### Manual
 1. **Star** and **[Fork](https://github.com/open-domains/register/fork)** this repository.
 2. Add a new file called `example.domain.json` in the `/domains` folder to register `example` subdomain.
-3. Edit the file (below is just an **example**, provide a **valid** JSON file with your needs, the format is very strict.
+3. Edit the file (below is just an **example**, provide a **valid** JSON file with your needs, the format is very strict. These records should not show up inside your file.
 
 ```json
 {
@@ -88,7 +90,6 @@ This will hopefully be fixed soon.
         "AAAA": ["::1", "::2"],
         "CNAME": "example.com",
         "MX": ["mx1.example.com", "mx2.example.com"],
-        "NS": ["ns1.example.com", "ns2.example.com"],
         "TXT": ["example_verification=1234567890"]
     },
 

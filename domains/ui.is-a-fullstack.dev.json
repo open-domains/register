@@ -1,0 +1,14 @@
+{
+    "domain": "is-a-fullstack.dev",
+    "subdomain": "ui",
+
+    "owner": {
+        "email": "discord18412@gmail.com"
+    },
+
+    "record": {
+        "CNAME": "sex-m3k9.onrender.com"
+    },
+
+    "proxied": false
+}

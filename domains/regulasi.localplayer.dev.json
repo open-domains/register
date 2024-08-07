@@ -1,0 +1,16 @@
+{
+    "description": "Personal project for testing website i made",
+
+    "domain": "localplayer.dev",
+    "subdomain": "regulasi",
+
+    "owner": {
+        "email": "regulasibapenda.subang@gmail.com"
+    },
+
+    "record": {
+        "TXT": ["google-site-verification=byxcQze14SKxmf4mVqkZi8rIuzOMJhctcZSOWxj4gqw"]
+    },
+
+    "proxied": false
+}

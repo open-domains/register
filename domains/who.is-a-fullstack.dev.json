@@ -1,0 +1,14 @@
+{
+    "domain": "is-a-fullstack.dev",
+    "subdomain": "who",
+
+    "owner": {
+        "email": "jon@danbot.host"
+    },
+
+    "record": {
+        "A": ["69.197.135.204"]
+    },
+
+    "proxied": false
+}

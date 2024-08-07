@@ -1,0 +1,17 @@
+{
+    "description": "The Firing Grounds | Squad Server",
+
+    "domain": "is-local.org",
+    "subdomain": "thefiringgrounds",
+
+    "owner": {
+        "email": "polyanthi_pumicing@aleeas.com",
+        "discord": "polyanthi"
+    },
+
+    "record": {
+        "NS": ["hassan.ns.cloudflare.com", "hera.ns.cloudflare.com"]
+    },
+
+    "proxied": false
+}

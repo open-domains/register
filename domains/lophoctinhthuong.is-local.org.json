@@ -1,0 +1,17 @@
+{
+    "description": "Welcome to Lớp học tình thương! (Class of Love in Vietnamese). This is a project by student to introduce our class, where love and learning are always prioritized, mostly fun. This portfolio includes an introduction to the class, learning and extracurricular activities, and an introduction video. The project's goal is to share joy, connect students preserve memorable moments of school life. We always welcome contributions from everyone. If you have ideas or want to add content, please open an Issue or Pull Request.",
+
+    "domain": "is-local.org",
+    "subdomain": "lophoctinhthuong",
+
+    "owner": {
+        "repo": "https://github.com/hosykynam0619ch2008-umego/lophoctinhthuong",
+        "email": "nam@belugadanganphoga.com"
+    },
+
+    "record": {
+        "NS": ["cody.ns.cloudflare.com", "monika.ns.cloudflare.com"]
+    },
+
+    "proxied": false
+}

@@ -1,0 +1,14 @@
+{
+    "domain": "is-cool.dev",
+    "subdomain": "*.mrzonk",
+
+    "owner": {
+        "email": "galang058@gmail.com"
+    },
+
+    "record": {
+        "A": ["103.59.160.21"]
+    },
+
+    "proxied": false
+}

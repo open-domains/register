@@ -1,0 +1,17 @@
+{
+    "description": "ShareX website",
+
+    "domain": "is-not-a.dev",
+    "subdomain": "who",
+
+    "owner": {
+        "repo": "https://github.com/Kyro3400",
+        "email": "jon@danbot.host"
+    },
+
+    "record": {
+        "A": ["69.30.249.53"]
+    },
+
+    "proxied": false
+}

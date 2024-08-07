@@ -1,0 +1,16 @@
+{
+    "description": "Portfolio project",
+
+    "domain": "is-cool.dev",
+    "subdomain": "soumik",
+
+    "owner": {
+        "repo": "https://github.com/Soumikcoder/Soumikcoder.github.io",
+        "email": "soumik20020906@gmail.com"
+    },
+
+    "record": {
+        "A": ["185.199.108.153","185.199.109.153","185.199.110.153","185.199.111.153"]
+    },
+    "proxied": false
+}

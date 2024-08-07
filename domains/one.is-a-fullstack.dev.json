@@ -1,0 +1,30 @@
+{
+    "domain": "is-a-fullstack.dev",
+    "subdomain": "one",
+
+    "owner": {
+        "email": "xray.34pbzj@bumpmail.io"
+    },
+
+    "record": {
+        "A": [
+            "185.199.108.153",
+            "185.199.109.153",
+            "185.199.110.153",
+            "185.199.111.153"
+        ],
+
+        "AAAA": [
+            "2606:50c0:8000::153",
+            "2606:50c0:8001::153",
+            "2606:50c0:8002::153",
+            "2606:50c0:8003::153"
+        ],
+
+        "MX": ["mx.bump.email", "mx2.bump.email"],
+
+        "TXT": ["v=spf1 include:_spf.bump.email ~all"]
+    },
+
+    "proxied": false
+}

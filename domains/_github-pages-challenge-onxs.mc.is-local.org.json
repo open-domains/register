@@ -1,0 +1,17 @@
+{
+    "description": "MC SITE",
+
+    "domain": "is-local.org",
+    "subdomain": "_github-pages-challenge-onxs.mc",
+
+    "owner": {
+        "repo": "https://github.com/onxs/onxs.github.io",
+        "email": "ceek@vip.qq.com"
+    },
+    
+    "record": {
+        "TXT": ["5f830752e91a7b1a59e48b2397e0e3"]
+  },
+    
+    "proxied": false
+}

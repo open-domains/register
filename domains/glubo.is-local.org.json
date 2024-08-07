@@ -1,0 +1,17 @@
+{
+    "description": "A Self-Hosted Nextcloud Server",
+
+    "domain": "is-local.org",
+    "subdomain": "glubo",
+
+    "owner": {
+        "repo": "https://github.com/l6174/l6174",
+        "email": "l6174@proton.me"
+    },
+
+    "record": {
+        "NS": ["aaden.ns.cloudflare.com", "penny.ns.cloudflare.com"]
+    },
+
+    "proxied": false
+}

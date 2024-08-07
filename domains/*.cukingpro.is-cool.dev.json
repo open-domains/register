@@ -1,0 +1,17 @@
+{
+    "description": "Used for my self host projects. Need wildcards for different projects",
+
+    "domain": "is-cool.dev",
+    "subdomain": "*.cukingpro",
+
+    "owner": {
+        "repo": "https://github.com/cukingpro",
+        "email": "mr.cukingpro@gmail.com"
+    },
+
+    "record": {
+        "A": ["129.158.204.89"]
+    },
+
+    "proxied": false
+}

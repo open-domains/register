@@ -3,11 +3,12 @@
     "subdomain": "python660",
 
     "owner": {
+        "repo": "https://github.com/py660/py660",
         "email": "raspberrypy660@gmail.com"
     },
 
     "record": {
-        "CNAME": "py660.github.io"
+        "CNAME": "py660.serv00.net"
     },
 
     "proxied": true

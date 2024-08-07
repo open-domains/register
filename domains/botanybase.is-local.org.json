@@ -1,0 +1,17 @@
+{
+    "description": "A simple website for simple Plant Identification!",
+
+    "domain": "is-local.org",
+    "subdomain": "botanybase",
+
+    "owner": {
+        "repo": "https://github.com/BotanyBase/botanybase.github.io",
+        "email": "1d10t1cstud10s.contact@gmail.com"
+    },
+
+    "record": {
+        "CNAME": "botanybase.github.io"
+    },
+
+    "proxied": false
+}

@@ -1,0 +1,16 @@
+{
+    "description": "Subdomain for my personal website",
+  
+    "domain": "is-local.org",
+    "subdomain": "niky",
+
+    "owner": {
+        "email": "anhky726@gmail.com"
+    },
+
+    "record": {
+        "CNAME": "niky.github.io"
+    },
+
+    "proxied": false
+}

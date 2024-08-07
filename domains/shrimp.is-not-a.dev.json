@@ -1,0 +1,17 @@
+{
+    "description": "Just a personal site featuring my projects and services",
+
+    "domain": "is-not-a.dev",
+    "subdomain": "shrimp",
+
+    "owner": {
+        "repo": "https://github.com/AtlasL1",
+        "email": "vtlvs.0@gmail.com"
+    },
+
+    "record": {
+        "A": ["185.199.111.153"]
+    },
+
+    "proxied": false
+}

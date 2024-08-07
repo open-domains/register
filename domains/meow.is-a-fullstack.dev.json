@@ -1,0 +1,14 @@
+{
+    "domain": "is-a-fullstack.dev",
+    "subdomain": "meow",
+
+    "owner": {
+        "email": "samid.bartfan@gmail.com"
+    },
+
+    "record": {
+        "A": ["5.188.88.18"]
+    },
+
+    "proxied": false
+}

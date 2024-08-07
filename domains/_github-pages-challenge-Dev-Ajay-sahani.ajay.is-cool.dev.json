@@ -1,0 +1,17 @@
+{
+    "description": "github verification",
+
+    "domain": "is-cool.dev",
+    "subdomain": "_github-pages-challenge-Dev-Ajay-sahani.ajay",
+
+    "owner": {
+        "repo": "https://github.com/Dev-Ajay-sahani/Portfolio",
+        "email": "ajays.dev.contact@gmail.com"
+    },
+
+    "record": {
+        "TXT": ["2415e728659668b15c2f52dc0321de"]
+    },
+
+    "proxied": false
+}

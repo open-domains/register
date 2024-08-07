@@ -1,0 +1,16 @@
+{
+    "description": "Website",
+
+    "domain": "is-local.org",
+    "subdomain": "crowncoins",
+
+    "owner": {
+        "repo": "https://github.com/CrownCoins/CrownCoins.github.io",
+        "email": "citizen.caption020@passfwd.com"
+    },
+
+  "record": {
+      "CNAME": "CrownCoins.github.io"
+  },
+    "proxied": false
+  }

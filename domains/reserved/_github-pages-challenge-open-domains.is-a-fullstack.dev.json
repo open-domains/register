@@ -1,0 +1,15 @@
+{
+  "description": "GitHub Pages Verification",
+
+  "domain": "is-a-fullstack.dev",
+  "subdomain": "_github-pages-challenge-open-domains",
+  "owner": {
+    "email": "sys@open-domains.net"
+  },
+
+  "record": {
+    "TXT": ["93b00c04eafa7ece9e47a121c6d40f"]
+  },
+
+  "proxied": false
+}

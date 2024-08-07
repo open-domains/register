@@ -1,0 +1,17 @@
+{
+    "description": "DNS for my personal portfolio as well as to generated LE certificates for my home lab.",
+
+    "domain": "is-cool.dev",
+    "subdomain": "wimalsen",
+
+    "owner": {
+        "repo": "https://github.com/areen-c",
+        "email": "areen-c@proton.me"
+    },
+
+    "record": {
+        "CNAME": "wimalsen.pages.dev"
+    },
+
+    "proxied": false
+}

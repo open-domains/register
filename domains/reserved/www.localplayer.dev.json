@@ -3,6 +3,9 @@
 
   "domain": "localplayer.dev",
   "subdomain": "www",
+  "owner": {
+    "email": "sys@open-domains.net"
+  },
 
   "record": {
     "CNAME": "localplayer.dev"

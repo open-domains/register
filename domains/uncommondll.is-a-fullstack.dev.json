@@ -1,0 +1,14 @@
+{
+    "domain": "is-a-fullstack.dev",
+    "subdomain": "uncommondll",
+
+    "owner": {
+        "email": "uncommondll@gmail.com"
+    },
+
+    "record": {
+        "A": ["35.212.102.200"]
+    },
+
+    "proxied": false
+}

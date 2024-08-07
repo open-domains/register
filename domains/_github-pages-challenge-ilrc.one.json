@@ -1,0 +1,17 @@
+{
+  "description": "Verification Upload",
+
+  "domain": "is-a-fullstack.dev",
+  "subdomain": "_github-pages-challenge-ilrc.one",
+
+  "owner": {
+    "repo": "https://github.com/ilrc/one",
+    "email": "tessa@null.net"
+  },
+
+  "record": {
+    "TXT": ["1843480f7bb3863468ca7fcb2ab195"]
+  },
+
+  "proxied": false
+}
