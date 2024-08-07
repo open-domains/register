@@ -1,5 +1,5 @@
 {
-    "description": "Project Description",
+    "description": "my link in bio",
 
     "domain": "is-cool.dev",
     "subdomain": "oziko",
@@ -11,7 +11,7 @@
 
     "record": {
       
-        "CNAME": "https://serious-caramel-notebook.glitch.me/"
+        "CNAME": serious-caramel-notebook.glitch.me"
        
     },
 
