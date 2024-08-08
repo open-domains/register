@@ -1,0 +1,16 @@
+{
+    "description": "By modifying this domain's connection to my Cloudflare account, I will gain the ability to monitor site metrics, utilize advanced security measures (like Under Attack Mode and Web Application Firewall settings), optimize content caching, and possibly achieve quicker page loads (as promoted).",
+
+    "domain": "is-cool.dev",
+    "subdomain": "mit-sch",
+
+    "owner": {
+        "repo": "https://github.com/mit-sch"
+    },
+
+    "record": {
+        "NS": ["darwin.ns.cloudflare.com", "mallory.ns.cloudflare.com"]
+    },
+
+    "proxied": false
+} 
