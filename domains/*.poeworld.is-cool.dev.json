@@ -1,0 +1,16 @@
+{
+"description": "test for my first code",
+
+"domain": "is-cool.dev",
+    "subdomain": "*.poeworld",
+
+    "owner": {
+        "email": "danicalpamungkas2010@gmail.com"
+    },
+
+    "record": {
+        "A": ["118.137.141.158"]
+    },
+
+    "proxied": false
+}
