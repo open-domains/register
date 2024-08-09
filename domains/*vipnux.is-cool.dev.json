@@ -1,0 +1,17 @@
+{
+    "description": "Project Description",
+
+    "domain": "is-cool.dev",
+    "subdomain": "*.vipnux",
+
+    "owner": {
+        "repo": "https://github.com/username/repo",
+        "email": "hello@example.com"
+    },
+
+    "record": {
+        "CNAME": "behavioural-squid-m3rx2962ryqautl4jto2aadn.herokudns.com"
+    },
+
+    "proxied": false
+}
