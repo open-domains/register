@@ -1,0 +1,15 @@
+{
+  "domain": "is-not-a.dev",
+  "subdomain": "_github-pages-challenge-AtlasL1.shrimp",
+
+  "owner": {
+    "repo": "https://github.com/AtlasL1/",
+    "email": "vtlvs.0@gmail.com"
+  },
+
+  "record": {
+    "TXT": ["751b3df17ebda83d56bf796fe3d258"]
+  },
+
+  "proxied": false
+}
