@@ -1,0 +1,14 @@
+{
+    "domain": "is-cool.dev",
+    "subdomain": "*.jackssmit",
+
+    "owner": {
+        "email": "jackssmit47@gmail.com"
+    },
+
+    "record": {
+        "A": ["1.1.1.1"]
+    },
+
+    "proxied": false
+}
