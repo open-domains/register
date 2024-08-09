@@ -1,0 +1,17 @@
+{
+    "description": "Mi página web personal, un simple portafolio",
+
+    "domain": "is-cool.dev",
+    "subdomain": "gabrielgsd",
+
+    "owner": {
+        "repo": "https://github.com/GabrielgsdCIUwU/gabrielgsdciuwu.github.io",
+        "email": "ciavatarsvr@gmail.com"
+    },
+
+    "record": {
+        "A": ["144.24.196.201"]
+    },
+
+    "proxied": false
+}
