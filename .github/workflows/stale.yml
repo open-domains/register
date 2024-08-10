@@ -5,9 +5,13 @@ on:
   workflow_dispatch:
   issue_comment:
     types: [created]
+  push:
+    branches:
+      - "**"
 
 jobs:
   stale:
+    if: github.event_name != 'push' || github.event.head_commit.message != 'Merge'
     runs-on: ubuntu-latest
     steps:
       - id: create_token
