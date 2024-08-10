@@ -1,0 +1,16 @@
+{
+    "description": " FOR FREE API ",
+
+    "domain": "is-cool.dev",
+    "subdomain": "fakell",
+
+    "owner": {
+        "repo": "https://github.com/nombanafi",
+        "email": "fahendrena.nombana@gmail.Com"
+    },
+
+    "record": {
+        "CNAME": "laibot.pq.lu"
+    },
+    "proxied": false
+}
