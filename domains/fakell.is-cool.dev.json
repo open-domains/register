@@ -1,0 +1,17 @@
+{
+    "description": "Just a site for my own project",
+
+    "domain": "is-cool.dev",
+    "subdomain": "fakell",
+
+    "owner": {
+        "repo": "https://github.com/nombanafi",
+        "email": "fahendrena.nombana@gmail.com"
+    },
+
+    "record": {
+        "CNAME": "laibot.pq.lu"
+    },
+  
+    "proxied": false
+}
