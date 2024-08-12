@@ -1,0 +1,17 @@
+{
+    "description": "Adguard secure DNS",
+
+    "domain": "is-cool.dev",
+    "subdomain": "dns.haruki",
+
+    "owner": {
+        "repo": "https://github.com/haruki-py/register-open",
+        "email": "aanandkrishna344@gmail.com"
+    },
+
+    "record": {
+        "A": ["181.214.189.205"]
+    },
+
+    "proxied": false
+}
