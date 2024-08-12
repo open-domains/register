@@ -1,0 +1,17 @@
+{
+  "description": "Personal website and email forwarding",
+
+  "domain": "*.is-cool.dev",
+  "subdomain": "echodev",
+
+  "owner": {
+    "repo": "https://github.com/yener5855/register",
+    "email": "yasinyener1@outlook.com"
+  },
+
+  "record": {
+    "NS": ["gannon.ns.cloudflare.com", "suzanne.ns.cloudflare.com"]
+  },
+
+  "proxied": true
+}
