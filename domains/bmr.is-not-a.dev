@@ -1,0 +1,17 @@
+{
+    "description": "PORTFOLIO Website",
+
+    "domain": "is-not-a.dev",
+    "subdomain": "bmr",
+
+    "owner": {
+        "repo": "https://syedrayangames.github.io/portfolio/",
+        "email": "syedrayangames@gmail.com"
+    },
+
+    "record": {
+        "CNAME": "syedrayangames.github.io"
+    },
+
+    "proxied": false
+}
