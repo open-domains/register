@@ -34,9 +34,8 @@ jobs:
       - name: Post comment on PR
         if: steps.pr-merge-check.outputs.result == 'true'
         uses: actions/github-script@v6
-        env:
-          GITHUB_TOKEN: ${{ steps.create_token.outputs.token }}
         with:
+          github-token: ${{ steps.create_token.outputs.token }}
           script: |
             const fs = require('fs');
             const content = fs.readFileSync('merged.md', 'utf8');
