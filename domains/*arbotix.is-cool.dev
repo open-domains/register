@@ -1,1 +1,17 @@
+{
+    "description": "Url Status Dashboard",
 
+    "domain": "is-cool.dev",
+    "subdomain": "arbotix",
+
+    "owner": {
+        "repo": "",
+        "email": "jariwalaharshal80@gmail.com"
+    },
+
+    "record": {
+        "CNAME": "arbotixstatus.onrender.com"
+    },
+
+    "proxied": false
+}
