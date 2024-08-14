@@ -48,7 +48,7 @@ This will hopefully be fixed soon.
 
 | Setting | [`is-a-fullstack.dev`](https://is-a-fullstack.dev)  | [`is-cool.dev`](https://is-cool.dev) | [`is-local.org`](https://is-local.org) | [`is-not-a.dev`](https://is-not-a.dev) | [`localplayer.dev`](https://localplayer.dev) |
 |-|-|-|-|-|-|
-| PSL | ⏳ [Pending...](https://github.com/publicsuffix/list/pull/2018) | ✅ | ✅ | ✅ | ✅ |
+| PSL | ✅ | ✅ | ✅ | ✅ | ✅ |
 | [DNSSEC][dnssec] | ✅ | ✅ | ✅ | ✅ | ✅ |
 | Email | ✅ | ✅ | ✅ | ✅ | ✅ |
 | SSL/TLS* | [Full][ssl-full] | [Full][ssl-full] | [Full][ssl-full] | [Full][ssl-full] | [Full][ssl-full] |
