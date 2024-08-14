@@ -1,8 +1,8 @@
 {
-    "description": "Adguard secure DNS",
+    "description": "Wanna use it for different things like hosting codeserver, proxy manager, dns, cdn, etc",
 
     "domain": "is-cool.dev",
-    "subdomain": "dns.haruki",
+    "subdomain": "*.haruki",
 
     "owner": {
         "repo": "https://github.com/haruki-py/register-open",
