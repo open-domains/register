@@ -14,7 +14,7 @@
     "AAAA": ["::1", "::2"],
     "CNAME": "google.com",
     "MX": ["mx1.google.com", "mx2.google.com"],
-    "TXT": ["soldat_verification=1258901212
+    "TXT": ["soldat_verification=1258901212"]
   },
 
   "proxied": false
