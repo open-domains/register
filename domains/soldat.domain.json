@@ -1,0 +1,21 @@
+{
+  "description": "Soldat Domain",
+
+  "domain": "is-not-a.dev",
+  "subdomain": "personal",
+
+  "owner": {
+    "repo": "https://github.com/KarmaAI-soldat/site",
+    "email": "soldathayden@gmail.com",
+  },
+
+  "record": {
+    "A": ["1.1.1.1", "1.0.0.1"],
+    "AAAA": ["::1", "::2"],
+    "CNAME": "google.com",
+    "MX": ["mx1.google.com", "mx2.google.com"],
+    "TXT": ["soldat_verification=1258901212
+  },
+
+  "proxied": false
+}
