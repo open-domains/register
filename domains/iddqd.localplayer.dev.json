@@ -1,0 +1,17 @@
+{
+  "description": "Developer and CF Tunnel",
+
+  "domain": "localplayer.dev",
+  "subdomain": "iddqd",
+
+  "owner": {
+    "repo": "https://github.com/twocolors/open-domains-register",
+    "email": "e8s9uriu@duck.com"
+  },
+
+  "record": {
+    "NS": ["aragorn.ns.cloudflare.com", "pam.ns.cloudflare.com"]
+  },
+
+  "proxied": true
+}
