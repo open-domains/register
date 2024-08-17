@@ -1,0 +1,15 @@
+{
+  "domain": "is-local.org",
+  "subdomain": "_github-pages-challenge-OshekharO.alternate",
+
+  "owner": {
+    "repo": "https://github.com/OshekharO",
+    "email": "omeepd009@gmail.com"
+  },
+
+  "record": {
+    "TXT": ["2eea00d7a66b46e69fec45d6520cce"]
+  },
+
+  "proxied": false
+}
