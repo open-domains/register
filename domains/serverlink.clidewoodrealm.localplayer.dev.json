@@ -8,14 +8,12 @@
 
     "record": {
         "SRV": [
-            "SRV": [
-                {
-                  "priority": 10,
-                  "weight": 10,
-                  "port": 32222,
-                  "target": "server.clidewoodrealm.localplayer.dev"
-                }
-            ]
+            {
+              "priority": 10,
+              "weight": 10,
+              "port": 32222,
+              "target": "server.clidewoodrealm.localplayer.dev"
+            }
         ]
     },
 
