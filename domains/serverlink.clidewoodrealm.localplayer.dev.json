@@ -1,0 +1,21 @@
+{
+    "domain": "localplayer.dev",
+    "subdomain": "serverlink.clidewoodrealm",
+
+    "owner": {
+        "email": "maragi@clidewoodrealm.localplayer.dev"
+    },
+
+    "record": {
+        "SRV": [
+            {
+              "priority": 10,
+              "weight": 10,
+              "port": 32222,
+              "target": "server.clidewoodrealm.localplayer.dev"
+            }
+        ]
+    },
+
+    "proxied": false
+}
