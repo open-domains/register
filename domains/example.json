@@ -1,0 +1,16 @@
+{
+    "description": "Subdomain for a minecraft server.",
+    "domain": "localplayer.dev",
+    "subdomain": "grove-anarchy",
+
+    "owner": {
+        "repo": "https://github.com/MarcosBarceloPerez/register",
+        "email": "marcosbarceloperez@gmail.com"
+    },
+
+    "record": {
+        "A": ["34.118.92.74"]
+    },
+
+    "proxied": false
+}
