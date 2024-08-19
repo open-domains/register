@@ -1,5 +1,5 @@
 {
-    "description": "CCDS domain",
+    "description": "CCDS domain, subdomain are used for accessing multiple service. eg., npm.ccds.is-local.org for node proxy manager",
     "domain": "is-local.org",
     "subdomain": "*.ccds",
     "owner": {
