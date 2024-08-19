@@ -1,0 +1,14 @@
+{
+    "domain": "is-a-fullstack.dev",
+    "subdomain": "_github-pages-challenge-pritam-ravani.pritam",
+
+    "owner": {
+        "email": "21amtics272@gmail.com"
+    },
+
+    "record": {
+        "TXT": ["2e63d8e87b97d7021bb914a5313f1e"]
+    },
+
+    "proxied": false
+}

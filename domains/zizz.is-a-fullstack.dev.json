@@ -1,0 +1,14 @@
+{
+    "domain": "is-a-fullstack.dev",
+    "subdomain": "zizz",
+
+    "owner": {
+        "email": "wangzy2003@outlook.com"
+    },
+
+    "record": {
+        "CNAME": "us2.freehost.itdata.icu"
+    },
+
+    "proxied": false
+}

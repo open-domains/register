@@ -1,0 +1,17 @@
+{
+    "description": "Github Verification",
+
+    "domain": "is-local.org",
+    "subdomain": "_github-pages-challenge-getSono.alex-gitarre",
+
+    "owner": {
+        "repo": "https://github.com/getSono/register_2",
+        "email": "sono@sono.is-a.dev"
+    },
+
+    "record": {
+        "TXT": ["edf8d14025a16346b0e2e743c3d36c"]
+    },
+
+    "proxied": false
+}

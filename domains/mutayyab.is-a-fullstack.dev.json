@@ -1,0 +1,14 @@
+{
+    "domain": "is-a-fullstack.dev",
+    "subdomain": "mutayyab",
+
+    "owner": {
+        "email": "mutayyabtariq9@gmail.com"
+    },
+
+    "record": {
+        "A": ["185.199.108.153"]
+    },
+
+    "proxied": false
+}

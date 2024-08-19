@@ -1,0 +1,14 @@
+{
+    "domain": "is-a-fullstack.dev",
+    "subdomain": "sacko",
+
+    "owner": {
+        "email": "wocuangle@gmail.com"
+    },
+
+    "record": {
+        "AAAA": ["2001:19f0:1000:6b40:5400:4ff:feb4:839d"]
+    },
+
+    "proxied": false
+}

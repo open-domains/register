@@ -1,0 +1,16 @@
+{
+    "description": "Link to github pages for my Website.",
+
+    "domain": "is-a-fullstack.dev",
+    "subdomain": "mrepol742",
+
+    "owner": {
+        "email": "mrepol742@gmail.com"
+    },
+
+    "record": {
+        "CNAME": "mrepol742.github.io"
+    },
+
+    "proxied": false
+}

@@ -1,0 +1,14 @@
+{
+    "domain": "is-a-fullstack.dev",
+    "subdomain": "karakay-v",
+
+    "owner": {
+        "email": "hitechnic00074220@gmail.com"
+    },
+
+    "record": {
+        "A": ["91.231.160.109"]
+    },
+
+    "proxied": false
+}

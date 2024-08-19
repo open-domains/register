@@ -1,0 +1,15 @@
+{
+  "description": "PSL Verification",
+
+  "domain": "is-a-fullstack.dev",
+  "subdomain": "_psl",
+  "owner": {
+    "email": "sys@open-domains.net"
+  },
+
+  "record": {
+    "TXT": ["https://github.com/publicsuffix/list/pull/2096"]
+  },
+
+  "proxied": false
+}

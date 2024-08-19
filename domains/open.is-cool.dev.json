@@ -1,0 +1,14 @@
+{
+    "description": "I need to use a service similar to Cloudflare Workers to build my graph bed, and I'm testing it with different hosting providers, so I need NS modification permission.",
+    "domain": "is-cool.dev",
+    "subdomain": "open",
+    "owner": {
+        "email": "epoxid@riseup.net"
+    },
+
+    "record": {
+        "NS": ["earl.ns.cloudflare.com","paityn.ns.cloudflare.com"]
+    },
+
+    "proxied": false
+}

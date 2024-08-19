@@ -1,0 +1,14 @@
+{
+    "domain": "is-a-fullstack.dev",
+    "subdomain": "ghalib-craft",
+
+    "owner": {
+        "email": "ghalibmezeghiche2012@gmail.com"
+    },
+
+    "record": {
+        "CNAME": "ghalib-craft.onrender.com"
+    },
+
+    "proxied": false
+}

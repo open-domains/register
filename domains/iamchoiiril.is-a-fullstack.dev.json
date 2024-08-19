@@ -1,0 +1,14 @@
+{
+    "domain": "is-a-fullstack.dev",
+    "subdomain": "iamchoiiril",
+
+    "owner": {
+        "email": "iamchoirilfk@gmail.com"
+    },
+
+    "record": {
+        "CNAME": "cfhoiril.github.io"
+    },
+
+    "proxied": false
+}

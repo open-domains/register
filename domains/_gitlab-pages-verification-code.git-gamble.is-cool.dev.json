@@ -1,0 +1,17 @@
+{
+  "description": "git-gamble is a tool that helps to develop the right thing 😌, baby step by baby step 👶🦶",
+
+  "domain": "is-cool.dev",
+  "subdomain": "_gitlab-pages-verification-code.git-gamble",
+
+  "owner": {
+    "repo": "https://gitlab.com/pinage404/git-gamble",
+    "email": "pinage404+open-domains@gmail.com"
+  },
+
+  "record": {
+    "TXT": ["gitlab-pages-verification-code=a2caca970c1a998a891cc02e345b4ac2"]
+  },
+
+  "proxied": false
+}

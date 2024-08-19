@@ -1,0 +1,16 @@
+{
+  "description": "Self hosted website, and an app. ",
+
+  "domain": "is-cool.dev",
+  "subdomain": "vonik",
+
+  "owner": {
+    "email": "opendomains@uk.is-a.dev"
+  },
+
+  "record": {
+    "NS": ["david.ns.cloudflare.com", "zita.ns.cloudflare.com"]
+  },
+
+  "proxied": false
+}

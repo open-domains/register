@@ -1,0 +1,16 @@
+{
+    "description": "website",
+
+    "domain": "is-local.org",
+    "subdomain": "co",
+
+    "owner": {
+        "repo": "https://github.com/hexo-theme/hexo-theme.github.io",
+        "email": "ceek@vip.qq.com"
+    },
+
+  "record": {
+      "CNAME": "hexo-theme.github.io"
+  },
+    "proxied": false
+  }

@@ -1,0 +1,14 @@
+{
+    "domain": "is-a-fullstack.dev",
+    "subdomain": "_github-pages-challenge-superuser-l.this",
+
+    "owner": {
+        "email": "trix@lawliet.tk"
+    },
+
+    "record": {
+        "TXT": ["532f86a23d39b5368cc45718b48b5d"]
+    },
+
+    "proxied": false
+}

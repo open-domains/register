@@ -1,0 +1,12 @@
+{
+    "description": "A website for portfolio and personal project",
+    "domain": "is-cool.dev",
+    "subdomain": "shubham",
+    "owner": {
+        "email": "shubham07383@gmail.com"
+    },
+    "record": {
+        "NS": ["alice.ns.cloudflare.com", "rex.ns.cloudflare.com"]
+    },
+    "proxied": false
+}

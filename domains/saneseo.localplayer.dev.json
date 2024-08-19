@@ -1,0 +1,16 @@
+{
+    "description": "website that shares walking courses in the Seoul area using public data",
+
+    "domain": "localplayer.dev",
+    "subdomain": "saneseo",
+
+    "owner": {
+        "email": "blushcluster@gmail.com"
+    },
+
+    "record": {
+        "A": ["18.219.22.141"]
+    },
+
+    "proxied": false
+}

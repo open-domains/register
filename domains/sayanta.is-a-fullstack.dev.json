@@ -1,0 +1,14 @@
+{
+    "domain": "is-a-fullstack.dev",
+    "subdomain": "sayanta",
+
+    "owner": {
+        "email": "sayantasingh01@gmail.com"
+    },
+
+    "record": {
+        "CNAME": "sayanta01.github.io"
+    },
+
+    "proxied": true
+}

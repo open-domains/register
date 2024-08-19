@@ -1,0 +1,14 @@
+{
+    "domain": "is-a-fullstack.dev",
+    "subdomain": "dugong",
+
+    "owner": {
+        "email": "sigitdwilaksono@yahoo.com"
+    },
+
+    "record": {
+        "A": ["103.150.197.56"]
+    },
+
+    "proxied": false
+}

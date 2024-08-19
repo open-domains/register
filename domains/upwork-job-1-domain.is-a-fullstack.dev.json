@@ -1,0 +1,14 @@
+{
+    "domain": "is-a-fullstack.dev",
+    "subdomain": "upwork-job-1-domain",
+
+    "owner": {
+        "email": "fajarhikmal214@gmail.com"
+    },
+
+    "record": {
+        "CNAME": "fajarhikmal214.github.io"
+    },
+
+    "proxied": false
+}

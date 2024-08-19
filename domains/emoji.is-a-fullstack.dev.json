@@ -1,0 +1,14 @@
+{
+    "domain": "is-a-fullstack.dev",
+    "subdomain": "emoji",
+
+    "owner": {
+        "email": "cyril.dettling10@gmail.com"
+    },
+
+    "record": {
+        "CNAME": "emoji.is-a.dev"
+    },
+
+    "proxied": false
+}

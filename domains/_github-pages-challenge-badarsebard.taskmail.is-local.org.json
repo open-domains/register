@@ -1,0 +1,12 @@
+{
+    "description": "GitHub pages verification challenge",
+    "domain": "is-local.org",
+    "subdomain": "_github-pages-challenge-badarsebard.taskmail",
+    "owner": {
+        "email": "taskmail.foss@gmail.com"
+    },
+    "record": {
+        "TXT": ["efaf44d943c49060807f7ce44f322c"]
+    },
+    "proxied": false
+}

@@ -1,0 +1,17 @@
+{
+    "description": "Used for sending emails with Resend",
+
+    "domain": "is-not-a.dev",
+    "subdomain": "resend._domainkey.coolify",
+
+    "owner": {
+        "repo": "https://github.com/UntoldGam",
+        "email": "charlesobird+github@outlook.com"
+    },
+
+    "record": {
+        "TXT": ["p=MIGfMA0GCSqGSIb3DQEBAQUAA4GNADCBiQKBgQDlwOX8WeAMtZrfQKlaPdM1hZIvT999RlNwzcehGPaJ+eo7FRXTCJXwmUvQSXETD6QSKi9sZTmHJkHzkEanuL4B16Xs9Usb66QoWsy8+Ul+cIR7iHJk6pUV0NbooMfLnEPTvv3VFcS0yxWEL/ADGDX4b8oMiT3mj9mtDHUy5Zh/RwIDAQAB"]
+    },
+
+    "proxied": false
+}
