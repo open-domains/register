@@ -1,13 +1,13 @@
 {
-    "description": "CCDS",
-    "domain": "is-cool.dev",
-    "subdomain": "ccds",
+    "description": "CCDS domain",
+    "domain": "is-local.org",
+    "subdomain": "*.ccds",
     "owner": {
         "repo": "https://github.com/rafathasan/register",
         "email": "rafathasankhan@gmail.com"
     },
     "record": {
-        "A": ["103.81.70.71"]
+        "A": ["103.81.70.74"]
     },
     "proxied": false
 }
