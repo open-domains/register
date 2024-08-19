@@ -1,5 +1,5 @@
 {
-    "description": "My personal domain. Subdomain wildcards are used for accessing diffrent service. eg., file.ccds.is-local.org for file browser"",
+    "description": "My personal domain. Subdomain wildcards are used for accessing diffrent service. eg., file.ccds.is-local.org for file browser",
     "domain": "is-cool.dev",
     "subdomain": "*.rafathome",
     "owner": {
