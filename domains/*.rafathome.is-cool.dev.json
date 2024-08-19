@@ -1,7 +1,7 @@
 {
-    "description": "Rafat",
+    "description": "My personal domain",
     "domain": "is-cool.dev",
-    "subdomain": "rafat",
+    "subdomain": "*.rafathome",
     "owner": {
         "email": "rafathasankhan@gmail.com"
     },
