@@ -19,7 +19,7 @@ jobs:
           
       - name: Check if PR was merged
         id: pr-merge-check
-        uses: actions/github-script@v6
+        uses: actions/github-script@v7
         with:
           script: |
             return context.payload.pull_request.merged
@@ -33,7 +33,7 @@ jobs:
       # Post the content of merged.md as a comment using the custom token
       - name: Post comment on PR
         if: steps.pr-merge-check.outputs.result == 'true'
-        uses: actions/github-script@v6
+        uses: actions/github-script@v7
         with:
           github-token: ${{ steps.create_token.outputs.token }}
           script: |
