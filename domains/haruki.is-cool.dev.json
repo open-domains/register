@@ -13,5 +13,5 @@
         "NS": ["earl.ns.cloudflare.com", "zainab.ns.cloudflare.com"]
     },
 
-    "proxied": true
+    "proxied": false
 }
