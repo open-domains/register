@@ -1,0 +1,16 @@
+{
+    "description": "Noctra's Fullstack Domain",
+    "domain": "is-a-fullstack.dev",
+    "subdomain": "noctra",
+
+    "owner": {
+        "repo": "https://github.com/not-amplify/free-domain/",
+        "email": "not.amplify@night-x.com"
+    },
+
+    "record": {
+        "NS" : ["summer.ns.cloudflare.com", "terry.ns.cloudflare.com" ]
+    },
+
+    "proxied": false
+}
