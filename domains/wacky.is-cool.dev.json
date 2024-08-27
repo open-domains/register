@@ -1,0 +1,17 @@
+{
+    "description": "A website for a developer's profile.",
+
+    "domain": "is-cool.dev",
+    "subdomain": "wacky",
+
+    "owner": {
+        "repo": "https://github.com/Arzejames/arzejames.github.io",
+        "email": "turtles127855@gmail.com"
+    },
+
+    "record": {
+        "CNAME": "wacky.pages.dev"
+    },
+
+    "proxied": false
+}

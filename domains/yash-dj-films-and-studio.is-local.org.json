@@ -1,0 +1,16 @@
+{
+    "description": "By linking this domain to my CF account, I will gain access to analytics, advanced security features (such as Under Attack Mode and WAF settings), caching options, and the potential for improved load times (as advertised).",
+
+    "domain": "is-local.org",
+    "subdomain": "yash-dj-films-and-studio",
+
+    "owner": {
+        "repo": "https://github.com/Yash-Dj-Studio"
+    },
+
+    "record": {
+         "NS": ["darwin.ns.cloudflare.com", "mallory.ns.cloudflare.com"]
+    },
+
+    "proxied": false
+} 

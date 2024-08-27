@@ -1,0 +1,15 @@
+{
+  "domain": "is-local.org",
+  "subdomain": "_github-pages-challenge-hexo-theme.co",
+
+  "owner": {
+    "repo": "https://github.com/hexo-theme/hexo-theme.github.io",
+    "email": "ceek@vip.qq.com"
+  },
+
+  "record": {
+    "TXT": ["e665348e9e2ef984dfa34e7a267b42"]
+  },
+
+  "proxied": false
+}

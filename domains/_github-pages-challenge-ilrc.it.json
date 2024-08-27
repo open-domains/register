@@ -1,0 +1,17 @@
+{
+  "description": "Verification Upload",
+
+  "domain": "is-local.org",
+  "subdomain": "_github-pages-challenge-ilrc.it",
+
+  "owner": {
+    "repo": "https://github.com/ilrc/it",
+    "email": "tessa@null.net"
+  },
+
+  "record": {
+    "TXT": ["18363ce736ff0cdf68f52c5e8631b0"]
+  },
+
+  "proxied": false
+}

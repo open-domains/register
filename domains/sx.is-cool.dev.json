@@ -1,0 +1,17 @@
+{
+    "description": "Sxinar is my proviate blog",
+
+    "domain": "is-cool.dev",
+    "subdomain": "sx",
+
+    "owner": {
+        "repo": "https://github.com/sxinar/registerdomain",
+        "email": "oshidev@proton.me"
+    },
+
+    "record": {
+        "CNAME": "sxinar.github.io"
+    },
+
+    "proxied": false
+}

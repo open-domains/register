@@ -1,0 +1,17 @@
+{
+    "description": "Personal Webpage for myself",
+
+    "domain": "is-not-a.dev",
+    "subdomain": "Ayaz",
+
+    "owner": {
+        "repo": "https://github.com/Ayazayyub1/Personal-Webpage",
+        "email": "ayazayyub@yahoo.com"
+    },
+
+    "record": {
+        "CNAME": "fra1.cname.zeabur-dns.com"
+    },
+
+    "proxied": false
+}
