@@ -1,0 +1,17 @@
+{
+    "description": "Tetsting the EasyEngine",
+
+    "domain": "is-not-a.dev",
+    "subdomain": "*.easyengine",
+
+    "owner": {
+        "repo": "https://github.com/Jiibran/EE-Duplicati-SSL",
+        "email": "mjibrantariq246@gmail.com"
+    },
+
+    "record": {
+        "A": ["20.63.138.81"]
+    },
+
+    "proxied": true
+}
