@@ -1,7 +1,7 @@
 {
     "description": "Tetsting the EasyEngine",
 
-    "domain": "is-not-a.dev",
+    "domain": "is-cool.dev",
     "subdomain": "*.easyengine",
 
     "owner": {
