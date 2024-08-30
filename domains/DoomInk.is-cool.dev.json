@@ -1,0 +1,17 @@
+{
+    "description": "DoomInk is a duo composed by 2 nerds that make funny stuff.",
+    "domain": "is-cool.dev",
+    "subdomain": "DoomInk",
+
+    "owner": {
+        "repo": "https://github.com/ItsDoomOne",
+        "email": "leodroid796@gmail.com"
+    },
+
+    "record": {
+        "TXT": ["_github-pages-challenge-ItsDoomOne.doomink=7fc4f58c152acfe64ad7977e3abd2c"],
+        ]
+    },
+
+    "proxied": true
+}
