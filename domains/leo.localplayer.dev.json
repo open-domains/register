@@ -1,6 +1,6 @@
 {
-  "description": "subdomain leo.is-cool.dev for personal website",
-  "domain": "is-cool.dev",
+  "description": "subdomain leo.localplayer.dev for personal website",
+  "domain": "localplayer.dev",
   "subdomain": "leo",
 
   "owner": {
@@ -12,7 +12,7 @@
     "CNAME": "lenadlm.github.io",
     "TXT": [
       "leo_verification=abc123xyz",
-      "sl-verification=esucjpqygquswkkzjvhaphmhwrzeez"
+      "sl-verification=pbyotuzdgvdkthypnopopksefntrtj"
     ],
   },
 
