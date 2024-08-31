@@ -1,32 +1,21 @@
 {
-    "description": "Project Description",
+    "description": "Personal website for Leo",
     "domain": "is-cool.dev",
     "subdomain": "leo",
 
     "owner": {
-        "repo": "https://github.com/username/repo",
-        "email": "hello@example.com"
+        "repo": "https://github.com/lenadlm/register",
+        "email": "leo@leo101.aleeas.com"
     },
 
     "record": {
-        "A": ["1.1.1.1", "1.0.0.1"],
-        "AAAA": ["::1", "::2"],
-        "CNAME": "example.com",
-        "MX": ["mx1.example.com", "mx2.example.com"],
-        "TXT": ["example_verification=1234567890"],
+        "CNAME": "lenadlm.github.io",  // Points leo.is-cool.dev to lenadlm.github.io
+        "TXT": ["leo_verification=abc123xyz"],  // Example TXT record, often used for verification purposes
         "CAA": [
             { "flags": 0, "tag": "issue", "value": "letsencrypt.org" },
             { "flags": 0, "tag": "issuewild", "value": "sectigo.com" }
-        ],
-        "SRV": [
-            { "priority": 10, "weight": 60, "port": 5060, "target": "sipserver.example.com" },
-            { "priority": 20, "weight": 10, "port": 5061, "target": "sipbackup.example.com" }
-        ],
-        "PTR": [
-            "ptr.example.com"
         ]
     },
 
     "proxied": false
 }
-
