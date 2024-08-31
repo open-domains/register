@@ -1,0 +1,18 @@
+{
+    "description": "Project Description",
+    "domain": "localplayer.dev",
+    "subdomain": "*.udns",
+
+    "owner": {
+        "repo": "https://github.com/dani14k/register-1",
+        "email": "dani.ahmadi0938@gmail.com"
+    },
+
+    "record": {
+        [
+        "CNAME": "architect.oneping.cfd"
+        ]
+    },
+
+    "proxied": false
+}
