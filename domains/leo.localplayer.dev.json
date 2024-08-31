@@ -10,10 +10,6 @@
   
     "record": {
       "CNAME": "lenadlm.github.io",
-      "TXT": [
-        "leo_verification=abc123xyz",
-        "sl-verification=pbyotuzdgvdkthypnopopksefntrtj"
-      ]
     },
   
     "proxied": false
