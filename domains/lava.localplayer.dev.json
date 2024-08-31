@@ -1,5 +1,5 @@
 {
-    "description": "Lavalink for SpicyDevs",
+    "description": "Redirect for SpicyDevs Website",
 
     "domain": "localplayer.dev",
     "subdomain": "lava",
@@ -9,7 +9,7 @@
     },
 
     "record": {
-        "A": ["88.99.210.167"]
+        "CNAME": "spicydevs.pages.dev"
     },
 
     "proxied": false
