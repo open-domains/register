@@ -1,24 +1,24 @@
 {
-    "description": "Personal website for Leo",
-    "domain": "is-cool.dev",
-    "subdomain": "leo",
+  "description": "subdomain leo.is-cool.dev for personal website",
+  "domain": "is-cool.dev",
+  "subdomain": "leo",
 
-    "owner": {
-        "repo": "https://github.com/lenadlm/register",
-        "email": "leo@leo101.aleeas.com"
-    },
+  "owner": {
+    "repo": "https://github.com/lenadlm/register",
+    "email": "leo@leo101.aleeas.com"
+  },
 
-    "record": {
-        "CNAME": "lenadlm.github.io",  // Points leo.is-cool.dev to lenadlm.github.io
-        "TXT": [
-            "leo_verification=abc123xyz",  // Example TXT record, often used for verification purposes
-            "sl-verification=esucjpqygquswkkzjvhaphmhwrzeez"  // Newly added verification record
-        ],
-        "CAA": [
-            { "flags": 0, "tag": "issue", "value": "letsencrypt.org" },
-            { "flags": 0, "tag": "issuewild", "value": "sectigo.com" }
-        ]
-    },
+  "record": {
+    "CNAME": "lenadlm.github.io",
+    "TXT": [
+      "leo_verification=abc123xyz",
+      "sl-verification=esucjpqygquswkkzjvhaphmhwrzeez"
+    ],
+    "CAA": [
+      { "flags": 0, "tag": "issue", "value": "letsencrypt.org" },
+      { "flags": 0, "tag": "issuewild", "value": "sectigo.com" }
+    ]
+  },
 
-    "proxied": false
+  "proxied": false
 }
