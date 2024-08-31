@@ -1,0 +1,16 @@
+{
+    "description": "subdomain leo.localplayer.dev for personal website",
+    "domain": "localplayer.dev",
+    "subdomain": "leo",
+  
+    "owner": {
+      "repo": "https://github.com/lenadlm/register",
+      "email": "leo@leo101.aleeas.com"
+    },
+  
+    "record": {
+      "CNAME": "lenadlm.github.io"
+    },
+  
+    "proxied": false
+  } 
