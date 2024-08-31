@@ -10,7 +10,10 @@
 
     "record": {
         "CNAME": "lenadlm.github.io",  // Points leo.is-cool.dev to lenadlm.github.io
-        "TXT": ["leo_verification=abc123xyz"],  // Example TXT record, often used for verification purposes
+        "TXT": [
+            "leo_verification=abc123xyz",  // Example TXT record, often used for verification purposes
+            "sl-verification=esucjpqygquswkkzjvhaphmhwrzeez"  // Newly added verification record
+        ],
         "CAA": [
             { "flags": 0, "tag": "issue", "value": "letsencrypt.org" },
             { "flags": 0, "tag": "issuewild", "value": "sectigo.com" }
