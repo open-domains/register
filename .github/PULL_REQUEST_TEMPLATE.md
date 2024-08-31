@@ -8,6 +8,9 @@
 
 ## Description
 <!-- Please provide a description below of what you will be using the domain for. -->
+- to point to my github page
+- to create a peronal email subdomain in simplelogin
 
 ## Link to Website
 <!-- Please provide a link to your website below. -->
+lenadlm.github.io
