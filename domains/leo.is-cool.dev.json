@@ -14,10 +14,6 @@
       "leo_verification=abc123xyz",
       "sl-verification=esucjpqygquswkkzjvhaphmhwrzeez"
     ],
-    "CAA": [
-      { "flags": 0, "tag": "issue", "value": "letsencrypt.org" },
-      { "flags": 0, "tag": "issuewild", "value": "sectigo.com" }
-    ]
   },
 
   "proxied": false
