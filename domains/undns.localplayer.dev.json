@@ -1,0 +1,17 @@
+{
+    "description": "using this domain for CDN in website",
+
+    "domain": "localplayer.dev",
+    "subdomain": "undns",
+
+    "owner": {
+        "repo": "https://github.com/dani14k",
+        "email": "dani.ahmadi98@gmail.com"
+    },
+
+    "record": {
+        "A": ["87.106.232.208"]
+    },
+
+    "proxied": true
+}
