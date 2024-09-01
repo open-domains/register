@@ -9,8 +9,8 @@
     },
   
     "record": {
-      "CNAME": "lenadlm.github.io"
+      "TXT": ["sl-verification=pbyotuzdgvdkthypnopopksefntrtj"]
     },
   
     "proxied": false
-  } 
+}
