@@ -9,7 +9,7 @@
     },
   
     "record": {
-      "TXT": "sl-verification=pbyotuzdgvdkthypnopopksefntrtj"
+      "TXT": ["sl-verification=pbyotuzdgvdkthypnopopksefntrtj"]
     },
   
     "proxied": false
