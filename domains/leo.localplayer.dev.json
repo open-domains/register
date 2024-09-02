@@ -1,16 +1,43 @@
 {
-    "description": "subdomain leo.localplayer.dev for personal website",
-    "domain": "localplayer.dev",
-    "subdomain": "leo",
-  
-    "owner": {
-      "repo": "https://github.com/lenadlm/register",
-      "email": "leo@leo101.aleeas.com"
+  "description": "subdomain leo.localplayer.dev for personal website",
+  "domain": "localplayer.dev",
+  "subdomain": "leo",
+
+  "owner": {
+    "repo": "https://github.com/lenadlm/register",
+    "email": "leo@leo101.aleeas.com"
+  },
+
+  "record": {
+    "CNAME": "lenadlm.github.io",
+    "MX": [
+      {
+        "priority": 10,
+        "target": "mx1.simplelogin.co."
+      },
+      {
+        "priority": 20,
+        "target": "mx2.simplelogin.co."
+      }
+    ],
+    "SPF": {
+      "TXT": "v=spf1 include:simplelogin.co ~all"
     },
-  
-    "record": {
-      "TXT": ["sl-verification=pbyotuzdgvdkthypnopopksefntrtj"]
-    },
-  
-    "proxied": false
+    "DKIM": [
+      {
+        "CNAME": "dkim03._domainkey",
+        "value": "dkim03._domainkey.simplelogin.co."
+      },
+      {
+        "CNAME": "dkim._domainkey",
+        "value": "dkim._domainkey.simplelogin.co."
+      },
+      {
+        "CNAME": "dkim02._domainkey",
+        "value": "dkim02._domainkey.simplelogin.co."
+      }
+    ]
+  },
+
+  "proxied": false
 }
