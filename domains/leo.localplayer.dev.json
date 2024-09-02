@@ -9,7 +9,6 @@
   },
 
   "record": {
-    "CNAME": "lenadlm.github.io",
     "MX": [
       {
         "priority": 10,
