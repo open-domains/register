@@ -1,0 +1,15 @@
+{
+    "description": "A blog made by me",
+    "domain": "is-cool.dev",
+    "subdomain": "minhphan",
+
+    "owner": {
+        "email": "phan48788@gmail.com"
+    },
+
+    "record": {
+      "A": ["75.2.60.5"],
+    },
+
+    "proxied": false
+}
