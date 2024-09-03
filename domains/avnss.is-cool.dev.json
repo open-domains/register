@@ -1,0 +1,16 @@
+{
+	"description": "Personal website",
+	"domain": "is-cool.dev",
+	"subdomain": "avnss",
+	"owner": {
+		"repo": "https://github.com/avengermsoft/register-domain",
+		"email": "avenger_msoft@mail.ru"
+	},
+	"record": {
+		"NS": [
+			"mckenzie.ns.cloudflare.com",
+			"simon.ns.cloudflare.com"
+		]
+	},
+	"proxied": false
+}
