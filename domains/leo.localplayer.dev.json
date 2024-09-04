@@ -9,10 +9,22 @@
   },
 
   "record": {
-    "MX": ["mx1.simplelogin.co.","mx2.simplelogin.co." ]
-    "SPF": {
-      "TXT": "v=spf1 include:simplelogin.co ~all"
-    },
+    "MX": [
+      {
+        "priority": 10,
+        "target": "mx1.simplelogin.co."
+      },
+      {
+        "priority": 20,
+        "target": "mx2.simplelogin.co."
+      }
+    ],
+    "TXT": [
+      {
+        "name": "@",
+        "value": "v=spf1 include:simplelogin.co ~all"
+      }
+    ]
   },
 
   "proxied": false
