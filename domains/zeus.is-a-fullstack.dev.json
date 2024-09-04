@@ -1,5 +1,5 @@
 {
-    "description": "Portfolio",
+    "description": "Portfolio website",
     "domain": "is-a-fullstack.dev",
     "subdomain": "zeus",
 
@@ -10,9 +10,6 @@
     },
 
     "record": {
-        "A": [
-            "75.2.60.5"
-        ],
         "CNAME": "stirring-paprenjak-c9f3dc.netlify.app."
     },
 
