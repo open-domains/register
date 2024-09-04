@@ -10,12 +10,7 @@
 
   "record": {
     "MX": ["mx1.simplelogin.co.","mx2.simplelogin.co." ],
-    "TXT": [
-      {
-        "name": "leo.localplayer.dev",
-        "value": "v=spf1 include:simplelogin.co ~all"
-      }
-    ]
+    "TXT": ["v=spf1 include:simplelogin.co ~all"]
   },
   "proxied": false
 }
