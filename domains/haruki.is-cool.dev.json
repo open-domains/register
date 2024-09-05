@@ -1,8 +1,8 @@
 {
-    "description": "Wanna use it for different things like hosting codeserver, proxy manager, dns, cdn, etc, now with cloudflare",
+    "description": "Personal website",
 
     "domain": "is-cool.dev",
-    "subdomain": "*.haruki",
+    "subdomain": "haruki",
 
     "owner": {
         "repo": "https://github.com/haruki-py/register",
