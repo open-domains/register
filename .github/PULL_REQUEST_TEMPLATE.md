@@ -5,6 +5,7 @@
 - [x] The website is reachable.
 - [x] The CNAME record doesn't contain `https://` or `/`.  <!-- This is not required if you are not using a CNAME record. -->
 - [x] There is sufficient information at the `owner` field.
+- [x] There is no NS Records (Enforced as of Sepetember 4th, 2024)
 
 ## Description
 <!-- Please provide a description below of what you will be using the domain for. -->
