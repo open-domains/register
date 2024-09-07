@@ -1,0 +1,16 @@
+{
+    "description": "Will be used for my personal portfolio website to showcase my skills online",
+    "domain": "is-cool.dev",
+    "subdomain": "ssava.emma",
+
+    "owner": {
+        "repo": "https://github.com/Ssaava/Ssaava",
+        "email": "ssavaemma4@gmail.com"
+    },
+
+    "record": {
+        "A": ["1.1.1.1", "1.0.0.1"],
+    },
+
+    "proxied": false
+}
