@@ -1,5 +1,5 @@
 {
-    "description": "ROXY domain, subdomain are used for personal blog",
+    "description": "ROXY domain, subdomain is used for a personal blog that share some knowledges",
     "domain": "is-local.org",
     "subdomain": "roxy",
     "owner": {
