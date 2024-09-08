@@ -7,6 +7,10 @@
         "repo": "https://github.com/SkyfallWasTaken/vortex.email",
         "email": "opendomains@skyfall.33mail.com"
     },
+    
+    "record": {
+        "MX": ["mail.vortex.skyfall.dev"]
+    },
 
     "proxied": false
 }
