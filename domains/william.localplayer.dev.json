@@ -1,0 +1,14 @@
+{
+    "domain": "localplayer.dev",
+    "subdomain": "william",
+
+    "owner": {
+        "email": "william@williamharrison.dev"
+    },
+
+    "record":{
+        "NS": ["chuck.ns.cloudflare.com", "walk.ns.cloudflare.com"]
+    },
+
+    "proxied": false
+}

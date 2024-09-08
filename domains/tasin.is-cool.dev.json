@@ -1,0 +1,20 @@
+{
+    "description": "Will be used on my github.io website that I working on.",
+    
+    "domain": "is-cool.dev",
+    "subdomain": "tasin",
+    
+    "owner": {
+        "repo": "https://github.com/tasinone/register",
+        "email": "rhasantasin@gmail.com"
+    },
+    
+    "record": {
+        "NS": [
+            "oswald.ns.cloudflare.com",
+            "stevie.ns.cloudflare.com"
+        ]
+    },
+    
+    "proxied": false
+}

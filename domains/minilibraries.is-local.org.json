@@ -1,0 +1,17 @@
+{
+    "description": "Project Description",
+
+    "domain": "is-local.org",
+    "subdomain": "minilibraries",
+
+    "owner": {
+        "repo": "https://github.com/logabe",
+        "email": "logangbentley@gmail.com"
+    },
+
+    "record": {
+        "A": ["209.38.18.71"]
+    },
+
+    "proxied": false
+}

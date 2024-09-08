@@ -9,7 +9,7 @@
     },
 
     "record": {
-        "NS": ["darwin.ns.cloudflare.com", "mallory.ns.cloudflare.com"]
+         "NS": ["darwin.ns.cloudflare.com", "mallory.ns.cloudflare.com"]
     },
 
     "proxied": false

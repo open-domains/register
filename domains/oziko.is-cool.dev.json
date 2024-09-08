@@ -1,0 +1,19 @@
+{
+    "description": "my link in bio",
+
+    "domain": "is-cool.dev",
+    "subdomain": "oziko",
+
+    "owner": {
+        "repo": "github.com/smartlizardpy/domaino",
+        "email": "ozan.kaygusuz11@gmail.com"
+    },
+
+    "record": {
+      
+        "CNAME": "serious-caramel-notebook.glitch.me"
+       
+    },
+
+    "proxied": false
+}

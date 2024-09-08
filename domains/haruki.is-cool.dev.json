@@ -1,0 +1,17 @@
+{
+    "description": "Personal website",
+
+    "domain": "is-cool.dev",
+    "subdomain": "haruki",
+
+    "owner": {
+        "repo": "https://github.com/haruki-py/register",
+        "email": "aanandkrishna344@gmail.com"
+    },
+
+    "record": {
+        "NS": ["earl.ns.cloudflare.com", "zainab.ns.cloudflare.com"]
+    },
+
+    "proxied": false
+}

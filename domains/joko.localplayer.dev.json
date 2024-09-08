@@ -1,0 +1,17 @@
+ {
+  "description": "Twibbon Website For School",
+
+  "domain": "localplayer.dev",
+  "subdomain": "joko",
+
+  "owner": {
+    "repo": "https://github.com/AhNode/registerDomain",
+    "email": "jakijapanese@gmail.com"
+  },
+
+  "record": {
+    "A": ["69.197.135.202"]
+  },
+
+  "proxied": false
+}

@@ -39,16 +39,11 @@ https://discord.gg/kVjkg6VBwa
 [badge-dnssec]:https://shields.io/badge/%20-DNSSEC-blue?logo=moleculer&logoColor=white&style=plastic?cacheSeconds=3600
 [badge-ssl]:https://shields.io/badge/SSL-Required-blue?style=plastic?cacheSeconds=3600
 
-### Unsupported Services
-We currently do not support Netlify (for websites) or Vercel (for websites).
-
-This will hopefully be fixed soon.
-
 ### Settings
 
 | Setting | [`is-a-fullstack.dev`](https://is-a-fullstack.dev)  | [`is-cool.dev`](https://is-cool.dev) | [`is-local.org`](https://is-local.org) | [`is-not-a.dev`](https://is-not-a.dev) | [`localplayer.dev`](https://localplayer.dev) |
 |-|-|-|-|-|-|
-| PSL | ⏳ [Pending...](https://github.com/publicsuffix/list/pull/2018) | ✅ | ✅ | ✅ | ✅ |
+| PSL | ✅ | ✅ | ✅ | ✅ | ✅ |
 | [DNSSEC][dnssec] | ✅ | ✅ | ✅ | ✅ | ✅ |
 | Email | ✅ | ✅ | ✅ | ✅ | ✅ |
 | SSL/TLS* | [Full][ssl-full] | [Full][ssl-full] | [Full][ssl-full] | [Full][ssl-full] | [Full][ssl-full] |
@@ -76,7 +71,6 @@ This will hopefully be fixed soon.
 ```json
 {
     "description": "Project Description",
-
     "domain": "is-not-a.dev",
     "subdomain": "example",
 
@@ -90,11 +84,23 @@ This will hopefully be fixed soon.
         "AAAA": ["::1", "::2"],
         "CNAME": "example.com",
         "MX": ["mx1.example.com", "mx2.example.com"],
-        "TXT": ["example_verification=1234567890"]
+        "TXT": ["example_verification=1234567890"],
+        "CAA": [
+            { "flags": 0, "tag": "issue", "value": "letsencrypt.org" },
+            { "flags": 0, "tag": "issuewild", "value": "sectigo.com" }
+        ],
+        "SRV": [
+            { "priority": 10, "weight": 60, "port": 5060, "target": "sipserver.example.com" },
+            { "priority": 20, "weight": 10, "port": 5061, "target": "sipbackup.example.com" }
+        ],
+        "PTR": [
+            "ptr.example.com"
+        ]
     },
 
     "proxied": false
 }
+
 ```
 
 4. Your pull request will be reviewed and merged. Please don't ignore the pull request checklist. If you ignore the checklist, your pull request will be ignored too. _Make sure to keep an eye on it in case we need you to make any changes!_
