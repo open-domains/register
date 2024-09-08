@@ -1,0 +1,14 @@
+{
+    "domain": "is-cool.dev",
+    "subdomain": "*.mithilesh",
+
+    "owner": {
+        "email": "mitumithilesh1@gmail.com"
+    },
+
+    "record": {
+        "A": ["76.76.21.61"]
+    },
+
+    "proxied": true
+}
