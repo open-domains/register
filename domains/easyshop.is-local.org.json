@@ -1,0 +1,15 @@
+{
+    "description": "We provide discord and other premium goodies at affordable prices.And also prevent scams",
+    "domain": ".is-local.org",
+    "subdomain": "easyshop",
+
+    "owner": {
+        "repo": "https://github.com/Ravan745/register",
+        "email": "carelessgmaing8@gmail.com"
+    },
+
+    "record": {
+        "A": ["45.90.12.30"]
+
+    "proxied": false
+}
