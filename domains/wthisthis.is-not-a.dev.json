@@ -4,6 +4,7 @@
     "subdomain": "wthisthis",
 
     "owner": {
+        "repo": "",
         "email": "admin@jdx3.org"
     },
 
