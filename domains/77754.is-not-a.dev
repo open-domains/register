@@ -1,0 +1,16 @@
+{
+    "description": "Personal Project",
+    "domain": "is-not-a.dev",
+    "subdomain": "77754",
+
+    "owner": {
+        "email": "admin@jdx3.org"
+    },
+
+    "record": {
+        "CNAME": "wowzers2.netlify.app"
+
+    },
+
+    "proxied": false
+}
