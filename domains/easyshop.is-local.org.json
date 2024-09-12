@@ -1,7 +1,7 @@
 {
     "description": "IP finder Website for VPS ",
     "domain": "is-local.org",
-    "subdomain": "*.easyshop",
+    "subdomain": "easyshop",
     "owner": {
         "repo": "https://github.com/Ravan745/Easyshop",
         "email": "carelessgaming8@gmail.com"
