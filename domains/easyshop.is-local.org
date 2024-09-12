@@ -1,0 +1,15 @@
+{
+    "description": "easyshop Domain",
+    "domain": "is-local.org",
+    "subdomain": "easyshop",
+
+    "owner": {
+        "email": "carelessgaming8@gmail.com"
+    },
+
+    "record": {
+        "A": "45.90.12.30"
+    },
+
+    "proxied": false
+}
