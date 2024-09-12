@@ -1,0 +1,15 @@
+{
+    "description": "Amythyst's Domain",
+    "domain": "is-local.org",
+    "subdomain": "amythyst",
+
+    "owner": {
+        "email": "orekidev@gmail.com"
+    },
+
+    "record": {
+        "CNAME": "amythyst.pages.dev"
+    },
+
+    "proxied": true
+}
