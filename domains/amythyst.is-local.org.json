@@ -8,8 +8,8 @@
     },
 
     "record": {
-        "CNAME": "ewr1.cname.zeabur-dns.com"
+        "CNAME": "amythyst.pages.dev"
     },
 
-    "proxied": false
+    "proxied": true
 }

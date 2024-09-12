@@ -1,0 +1,16 @@
+{
+    "description": "Amythyst's Email Records",
+    "domain": "is-local.org",
+    "subdomain": "*.amythyst",
+
+    "owner": {
+        "email": "orekidev@gmail.com"
+    },
+
+    "record": {
+        "MX": ["feedback-smtp.us-east-1.amazonses.com"],
+        "TXT": ["v=spf1 include:amazonses.com ~all", "p=MIGfMA0GCSqGSIb3DQEBAQUAA4GNADCBiQKBgQCiAd7/0CQbJjZMWw96mhsSBASpxKrO/UJ1g7vphrVlIlYnI5fZiVcKYPxQnjFswONBamMnXdtBpOF22lIoqFt+uMCBJivkEe85ifahR55/9wFth8JEitpMqlIDO1IEawLdnt+jCMjYtCrv7BWQwGz4fkAGJXyNlB6qVroy6v1khQIDAQAB", "v=DMARC1; p=none;"]
+    },
+
+    "proxied": false
+}
