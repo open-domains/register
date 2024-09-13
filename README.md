@@ -8,7 +8,7 @@
 </p>
 
 <p align="center">Free subdomains for personal sites, open-source projects, and more.</p>
-<p align="center">Want to find services similar to this? Take a look on <a href="https://free.wdh.gg/#/?id=domains">Free For Life</a>.</p>
+<p align="center">Want to find services similar to this? Take a look on <a href="https://free.hrsn.dev/#/?id=domains">Free For Life</a>.</p>
 
 ## Notice
 NS records are no longer supported. Existing domains are unaffected.
