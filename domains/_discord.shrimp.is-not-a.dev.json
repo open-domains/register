@@ -1,0 +1,14 @@
+{
+    "domain": "is-not-a.dev",
+    "subdomain": "_discord.shrimp",
+
+    "owner": {
+        "email": "vtlvs.0@gmail.com"
+    },
+
+    "record": {
+        "TXT": ["dh=0c263185a1404543e8157540f96bf276cffea35b"]
+    },
+
+    "proxied": false
+}
