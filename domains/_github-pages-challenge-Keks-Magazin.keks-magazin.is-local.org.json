@@ -1,7 +1,7 @@
 {
-    "description": "A friend domain",
+    "description": "GitHub Verify",
     "domain": "is-local.org",
-    "subdomain": "keks-magazin",
+    "subdomain": "_github-pages-challenge-Keks-Magazin.keks-magazin",
 
     "owner": {
         "repo": "https://github.com/getSono/register_2",
@@ -9,7 +9,7 @@
     },
 
     "record": {
-        "CNAME": "keks-magazin.github.io"
+        "TXT": ["45ad992c5b108072bd1c90c58e872c"]
     },
 
     "proxied": false
