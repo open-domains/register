@@ -4,12 +4,12 @@
     "subdomain": "suraj",
 
     "owner": {
-        "repo": "https://github.com/Clay990/Portfolio"
+        "repo": "https://github.com/Clay990/Portfolio",
         "email": "asuraj991m@gmail.com"
     },
 
     "record": {
-        "CNAME": "Clay990.github.io"
+        "CNAME": "Clay990.github.io",
         "TXT": ["53a1f061ccd38386443e96e1948962"]
     },
 
