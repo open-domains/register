@@ -10,7 +10,7 @@
 
     "record": {
         "CNAME": "Clay990.github.io",
-        "TXT": ["_github-pages-challenge-Clay990.suraj.is-cool.dev=53a1f061ccd38386443e96e1948962"]
+        "TXT": ["53a1f061ccd38386443e96e1948962"]
     },
 
     "proxied": false
