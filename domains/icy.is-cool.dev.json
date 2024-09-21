@@ -1,0 +1,16 @@
+{
+    "description": "My profile with the list of my animes",
+    "domain": "is-cool.dev",
+    "subdomain": "icy",
+
+    "owner": {
+        "repo": "https://github.com/NoCalmW/register",
+        "email": "cme.cc@outlook.com"
+    },
+
+    "record": {
+       "CNAME": "anilist.co/user/hhayate"
+    },
+
+    "proxied": false
+}
