@@ -1,5 +1,5 @@
 {
-    "description": "Redirection to my AniList profile",
+    "description": "My profile with the list of my animes",
     "domain": "is-cool.dev",
     "subdomain": "icy",
 
@@ -9,7 +9,7 @@
     },
 
     "record": {
-       "CNAME": "https://anilist.co/user/hhayate"
+       "CNAME": "anilist.co/user/hhayate"
     },
 
     "proxied": false
