@@ -9,7 +9,7 @@
     },
 
     "record": {
-        "TXT": "53a1f061ccd38386443e96e1948962"
+        "TXT": ["53a1f061ccd38386443e96e1948962"]
     },
 
     "proxied": false
