@@ -1,15 +1,15 @@
 {
     "description": "Portfolio project",
     "domain": "is-cool.dev",
-    "subdomain": "_github-pages-challenge-Clay990.suraj",
+    "subdomain": "suraj",
 
     "owner": {
-        "repo": "https://github.com/Clay990/Portfolio",
+        "repo": "https://github.com/Clay990/suraj",
         "email": "asuraj991m@gmail.com"
     },
 
     "record": {
-        "TXT": ["53a1f061ccd38386443e96e1948962"]
+        "TXT": "53a1f061ccd38386443e96e1948962"
     },
 
     "proxied": false
