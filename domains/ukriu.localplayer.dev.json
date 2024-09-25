@@ -1,0 +1,17 @@
+{
+    "description": "Used for my personal website",
+
+    "domain": "localplayer.dev",
+    "subdomain": "ukriu",
+
+    "owner": {
+        "repo": "https://github.com/ukriu/ukriu.github.io",
+        "email": "opendomains@ukriu.com"
+    },
+
+    "record": {
+        "CNAME": "ukriu.pages.dev"
+    },
+
+    "proxied": true
+}
