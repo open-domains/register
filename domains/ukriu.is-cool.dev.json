@@ -2,10 +2,10 @@
   "description": "Self hosted website, and an app.",
 
   "domain": "is-cool.dev",
-  "subdomain": "ukrio",
+  "subdomain": "ukriu",
 
   "owner": {
-    "email": "opendomains@uk.is-a.dev"
+    "email": "opendomains@ukriu.com"
   },
 
   "record": {
