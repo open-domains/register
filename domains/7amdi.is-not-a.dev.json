@@ -1,0 +1,16 @@
+{
+    "description": "personal website",
+    "domain": "is-not-a.dev",
+    "subdomain": "7amdi",
+
+    "owner": {
+        "repo": "https://github.com/ana7amdi/7AMDI",
+        "email": "apah7amdi@gmail.com"
+    },
+
+    "record": {
+        "A": ["@", "76.76.21.21"]
+    },
+
+    "proxied": false
+}
