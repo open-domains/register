@@ -1,0 +1,14 @@
+{
+    "domain": "is-a-fullstack.dev",
+    "subdomain": "_github-pages-challenge-xotnet.core",
+
+    "owner": {
+        "email": "yzeed@hotmail.com"
+    },
+
+    "record": {
+        "TXT": ["be05167582cd4a8f8e25ac16c17c0d"]
+    },
+
+    "proxied": true
+}
