@@ -7,14 +7,7 @@
         "email": "admin@cmx.im"
     },
     "record": {
-        "CNAME": "m1.cmx.edu.kg",
-        "CAA": [
-            {
-                "flags": 0,
-                "tag": "issue",
-                "value": "letsencrypt.org"
-            }
-        ]
+        "CNAME": "m1.cmx.edu.kg"
     },
     "proxied": false
 }
