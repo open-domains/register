@@ -10,5 +10,5 @@
         "TXT": ["be05167582cd4a8f8e25ac16c17c0d"]
     },
 
-    "proxied": true
+    "proxied": false
 }
