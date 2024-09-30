@@ -2,10 +2,10 @@
   "description": "Personal Self Hosted Apps and Public Website",
 
   "domain": "is-cool.dev",
-  "subdomain": "599",
+  "subdomain": "http://42.189.117.53:11111",
 
   "owner": {
-    "email": "bd3qc59@gmail.com"
+    "email": "asmrbnanana@gmail.com"
   },
 
   "record": {
