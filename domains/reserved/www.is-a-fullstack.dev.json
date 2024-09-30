@@ -2,8 +2,8 @@
     "domain": "is-a-fullstack.dev",
     "subdomain": "www",
 
-    "owner": {
-        "email": "https://42.189.117.53:11111.net"
+    "website": {
+        "Https": "https://42.189.117.53:11111/"
     },
 
     "record": {
