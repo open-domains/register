@@ -1,0 +1,13 @@
+{
+    "description": "following in the footsteps of coolmathgames, we made a games website with math in the name. that's literally it.",
+    "domain": "is-cool.dev",
+    "subdomain": "math",
+    "owner": {
+        "repo": "https://github.com/demonickatsu/ultimateunblocked",
+        "email": "reactorindustries@proton.me"
+    },
+    "record": {
+        "CNAME": "demonickatsu.github.io/ultimateunblocked"
+    },
+    "proxied": false
+}
