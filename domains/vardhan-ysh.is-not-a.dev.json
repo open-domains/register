@@ -1,0 +1,16 @@
+{
+    "description": "Portfolio website hosted on GitHub Pages",
+    "domain": "is-not-a.dev",
+    "subdomain": "vardhan-ysh",
+
+    "owner": {
+        "repo": "https://github.com/vardhan-ysh/yvsc",
+        "email": "yashvardhansingh112233@gmail.com"
+    },
+
+    "record": {
+        "CNAME": "vardhan-ysh.github.io"
+    },
+
+    "proxied": false
+}
