@@ -4,14 +4,12 @@
     "subdomain": "vardhan-ysh",
 
     "owner": {
-        "repo": "https://github.com/vardhan-ysh/yvsc",
+        "repo": "https://github.com/Vardhan-ysh/vardhan-ysh.github.io",
         "email": "yashvardhansingh112233@gmail.com"
     },
 
     "record": {
-        "TXT": [
-            "_github-pages-challenge-Vardhan-ysh.vardhan-ysh=66e6d3fc66e048230dc5f2c5b2891c"
-        ]
+        "CNAME" : "vardhan-ysh.github.io"
     },
 
     "proxied": false
