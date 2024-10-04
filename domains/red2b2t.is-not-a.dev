@@ -1,0 +1,19 @@
+{
+    "description": "a minecraft server's domain",
+    "domain": "is-not-a.dev",
+    "subdomain": "red2b2t",
+
+    "owner": {
+        "repo": "https://github.com/c4R0D/register",
+        "email": "zmx_2021@icloud.com"
+    },
+
+    "record": {
+        
+        "SRV": [
+            { "priority": 20, "weight": 10, "port": 28380, "target": "101.200.44.209" }
+        ]
+    },
+
+    "proxied": false
+}
