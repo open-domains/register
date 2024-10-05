@@ -1,0 +1,16 @@
+{
+    "description": "911748",
+    "domain": "is-cool.dev",
+    "subdomain": "911748",
+
+    "owner": {
+        "repo": "https://github.com/911748/do",
+        "email": "44329998+911748@users.noreply.github.com"
+    },
+
+    "record": {
+        "CNAME": "hans-4cm.pages.dev"
+    },
+
+    "proxied": false
+}
