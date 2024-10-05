@@ -1,0 +1,15 @@
+{
+    "domain": "is-cool.dev",
+    "subdomain": "limemc",
+
+    "owner": {
+        "email": "lime@alwaysdata.net"
+    },
+
+    "record": {
+        "A": ["185.31.40.25"],
+        "AAAA": ["2a00:b6e0:0001:0020:0016:0000:0000:0001"]
+    },
+
+    "proxied": false
+}
