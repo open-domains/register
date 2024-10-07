@@ -1,8 +1,9 @@
 {
-    "description": "My personal domain. Subdomain wildcards are used for accessing diffrent service. eg., file.ccds.is-local.org for file browser",
+    "description": "My personal domain, will be used for hosting personal web services",
     "domain": "is-cool.dev",
     "subdomain": "rafathome",
     "owner": {
+        "repo": "https://github.com/rafathasan/register",
         "email": "rafathasankhan@gmail.com"
     },
     "record": {
