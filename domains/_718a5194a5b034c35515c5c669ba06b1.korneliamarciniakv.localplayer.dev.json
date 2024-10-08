@@ -1,0 +1,13 @@
+{
+    "description": "Testing AWS for my first project",
+    "domain": "localplayer.dev",
+    "subdomain": "_718a5194a5b034c35515c5c669ba06b1.korneliamarciniakv",
+
+    "owner": {
+        "email": "saman.couch081@passinbox.com"
+    },
+
+    "record": {
+        "CNAME": "_596ba1b6e5738b92631b0403d3202600.djqtsrsxkq.acm-validations.aws"
+    }
+}
