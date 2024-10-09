@@ -9,8 +9,7 @@
     },
     
     "record": {
-        "CNAME": "notrabug.vercel.app",
-        "A": "76.76.21.21"
+        "A": ["76.76.21.21"]
     },
     
     "proxied": false
