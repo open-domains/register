@@ -1,3 +1,4 @@
+{
     "description": "My portfolio",
     "domain": "localplayer.dev",
     "subdomain": "rabug",
@@ -12,3 +13,4 @@
     },
 
     "proxied": false
+}
