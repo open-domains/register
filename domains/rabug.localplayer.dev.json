@@ -1,0 +1,16 @@
+{
+    "description": "My portfolio",
+    "domain": "localplayer.dev",
+    "subdomain": "rabug",
+    
+    "owner": {
+        "repo": "https://github.com/NotRabug50/register-localplayer",
+        "email": "rabug50@gmail.com"
+    },
+    
+    "record": {
+        "A": ["76.76.21.21"]
+    },
+    
+    "proxied": false
+}
