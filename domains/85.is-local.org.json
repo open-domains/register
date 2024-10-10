@@ -1,0 +1,17 @@
+{
+    "description": "Portfolio template",
+
+    "domain": "is-local.org",
+    "subdomain": "85",
+
+    "owner": {
+        "repo": "https://github.com/Roru-cmd/85",
+        "email": "qzmds06y4@mozmail.com"
+    },
+
+    "record": {
+        "CNAME": "react-pagination-ivory.vercel.app"
+    },
+
+    "proxied": false
+}
