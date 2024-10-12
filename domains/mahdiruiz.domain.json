@@ -1,0 +1,16 @@
+{
+    "description": "Project Description",
+    "domain": "is-not-a.dev",
+    "subdomain": "example",
+
+    "owner": {
+        "repo": "https://github.com/username/repo",
+        "email": "mahdiruiz@duck.com"
+    },
+
+    "record": {
+        "TXT": ["0f7c7ef844983a6375d82db2f578ac"],
+    },
+
+    "proxied": false
+}
