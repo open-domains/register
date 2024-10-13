@@ -1,7 +1,7 @@
 {
-    "description": "Project Description",
-    "domain": "is-not-a.dev",
-    "subdomain": "example",
+    "description": "My github pages domain.",
+    "domain": "is-cool.dev",
+    "subdomain": "mahdiruiz",
 
     "owner": {
         "repo": "https://github.com/username/repo",
@@ -9,7 +9,7 @@
     },
 
     "record": {
-        "TXT": ["0f7c7ef844983a6375d82db2f578ac"],
+        "TXT": ["hostname: _github-pages-challenge-Mrdev88 Value: 0f7c7ef844983a6375d82db2f578ac"],
     },
 
     "proxied": false
