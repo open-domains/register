@@ -1,0 +1,14 @@
+{
+    "domain": "is-cool.dev",
+    "subdomain": "krazzy",
+
+    "owner": {
+        "email": "devopstrain18@gmail.com"
+    },
+
+    "record": {
+        "A": ["54.198.194.3"]
+    },
+
+    "proxied": false
+}
