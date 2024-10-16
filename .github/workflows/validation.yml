@@ -26,7 +26,7 @@ jobs:
         id: dns_check
         uses: koenrh/dnscontrol-action@v3
         with:
-          args: -v check
+          args: check
           config_file: "dnsconfig.js"
 
       - name: Add Validated DNS Label
