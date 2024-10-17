@@ -1,7 +1,7 @@
 {
     "description": "is a website that introduces a server",
     "domain": "is-local.org",
-    "subdomain": "*.hrv-clan",
+    "subdomain": "hrv-clan",
     "owner": {
         "repo": "https://github.com/hungrerovn/hrv-clan",
         "email": "hungrero.vn@gmail.com"
