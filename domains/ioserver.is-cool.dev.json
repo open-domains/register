@@ -1,0 +1,11 @@
+{
+    "domain": "is-cool.dev",
+    "subdomain": "ioserver",
+    "owner": {
+        "email": "awais300@gmail.com"
+    },
+    "record": {
+        "A": ["86.38.216.212"]
+    },
+    "proxied": true
+}
