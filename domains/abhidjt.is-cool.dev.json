@@ -1,0 +1,15 @@
+{
+    "description": "Just another normal site.",
+    "domain": "is-cool.dev",
+    "subdomain": "abhidjt",
+    "owner": {
+        "repo": "https://gitea.abhidjt.com/Abhidjt/mainsite",
+        "email": "abhidjt@gmail.com"
+    },
+    "record": {
+        "AAAA": [
+            "2405:201:c014:5909:bfb:4297:7565:d493"
+        ]
+    },
+    "proxied": true
+}
