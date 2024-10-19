@@ -1,0 +1,14 @@
+{
+    "domain": "is-not-a.dev",
+    "subdomain": "slxca",
+
+    "owner": {
+        "email": "contact@slxca.com"
+    },
+
+    "record": {
+        "CNAME": "slxca.com"
+    },
+
+    "proxied": false
+}
