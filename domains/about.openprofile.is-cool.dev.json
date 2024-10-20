@@ -1,0 +1,16 @@
+{
+    "description": "About OpenProfile",
+    "domain": "is-cool.dev",
+    "subdomain": "about.openprofile",
+
+    "owner": {
+        "repo": "https://github.com/openprofileproject/openprofileproject.github.io",
+        "email": "gamerselimiko@gmail.com"
+    },
+
+    "record": {
+        "A": ["185.199.108.153", "185.199.109.153", "185.199.110.153", "185.199.111.153"]
+    },
+
+    "proxied": false
+}
