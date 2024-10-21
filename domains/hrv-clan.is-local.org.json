@@ -7,7 +7,7 @@
         "email": "hungrero.vn@gmail.com"
     },
     "record": {
-        "CNAME": "hrv-clan.github.io"
+        "A": "hrv-clan.github.io."
     },
     "proxied": false
 }
