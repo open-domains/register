@@ -1,0 +1,17 @@
+{
+  "description": "mycodelab mail, this is for temporary so i can transfer my mails to another account",
+
+  "domain": "is-cool.dev",
+  "subdomain": "mycodelab",
+
+  "owner": {
+    "repo": "https://github.com/ShadowGaming100/register"
+  },
+
+  "record": {
+    "MX": ["mail9.serv00.com"],
+    "TXT": ["v=spf1 mx a include:mail9.serv00.com -all"]
+  },
+
+  "proxied": false
+}

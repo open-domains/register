@@ -1,0 +1,17 @@
+{
+  "description": "GitHub Pages Verification",
+
+  "domain": "is-local.org",
+  "subdomain": "_github-pages-challenge-xotnet.core",
+
+  "owner": {
+    "repo": "https://github.com/xotnet/unstopableDomain",
+    "email": "xcode2vlad@gmail.com"
+  },
+
+  "record": {
+     "TXT": ["be05167582cd4a8f8e25ac16c17c0d"]
+  },
+
+  "proxied": false
+}

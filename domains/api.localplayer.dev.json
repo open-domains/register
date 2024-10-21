@@ -1,15 +1,15 @@
 {
-    "description": "Redirect for SpicyDevs Website",
+    "description": "api for SpicyDevs",
 
     "domain": "localplayer.dev",
-    "subdomain": "lava",
+    "subdomain": "api",
 
     "owner": {
         "email": "aayushmagrawal@gmail.com"
     },
 
     "record": {
-        "CNAME": "spicydevs.pages.dev"
+        "A": ["69.30.249.53"]
     },
 
     "proxied": false

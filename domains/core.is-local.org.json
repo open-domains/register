@@ -1,0 +1,18 @@
+{
+    "description": "Main page",
+
+    "domain": "is-local.org",
+    "subdomain": "core",
+
+    "owner": {
+        "repo": "https://github.com/xotnet/unstopableDomain",
+        "email": "sus_007@ymail.com"
+    },
+
+    "record": {
+        "A": ["185.199.108.153","185.199.109.153","185.199.110.153","185.199.111.153"],
+        "TXT": ["12dbe56079b6067714aa22bbd40b46"]
+    },
+
+    "proxied": false
+}

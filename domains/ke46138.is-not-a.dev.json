@@ -10,9 +10,7 @@
     },
 
     "record": {
-        "A": ["176.215.57.81"],
-        "MX": ["app.ke46138.is-not-a.dev", "mail.ke46138.is-not-a.dev"],
-        "TXT": ["dkim._domainkey.ke46138.is-not-a.dev = v=DKIM1; k=rsa; p=MIGfMA0GCSqGSIb3DQEBAQUAA4GNADCBiQKBgQD3/KaOfeyLlPY+I8IgTrsop9jT,GL5EtfVKWi7pPI6wmJAJIVH14fvIcMaHpFBY53gD0noZsBSPCNYwqM0VMNH8cnUg,+W2LpNjrYhZxIHWICU5N2jJKfJ7hADxOMVCgm8bs46yUVS3mZqqcorCPqN5djCgq,wLFgGa8y7+AkYVFoTQIDAQAB", "ke46138.is-not-a.dev = v=spf1 mx ~all", "_dmarc.ke46138.is-not-a.dev = v=DMARC1; p=quarantine; adkim=r; aspf=r"]
+        "A": ["176.214.226.62"]
     },
 
     "proxied": false

@@ -1,0 +1,17 @@
+{
+    "description": "Portfolio website",
+    "domain": "is-a-fullstack.dev",
+    "subdomain": "zeus",
+
+    "owner": {
+        "repo": "https://github.com/t1devzeus/register",
+        "email": "dev.caspian.hayashi@gmail.com",
+        "discord": "944959943310737408"
+    },
+
+    "record": {
+        "CNAME": "stirring-paprenjak-c9f3dc.netlify.app"
+    },
+
+    "proxied": false
+}

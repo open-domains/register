@@ -1,0 +1,13 @@
+{
+    "description": "ROXY domain, subdomain is used for a github open source AI project ChatGPT-Next-Web",
+    "domain": "is-cool.dev",
+    "subdomain": "roxy",
+    "owner": {
+        "repo": "https://github.com/shirayki/register",
+        "email": "wayhq1314@gmail.com"
+    },
+    "record": {
+        "A": ["76.76.21.21"]
+    },
+    "proxied": false
+}

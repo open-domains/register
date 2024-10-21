@@ -1,0 +1,16 @@
+{
+    "description": "Personal homepage",
+    "domain": "localplayer.dev",
+    "subdomain": "redoc",
+
+    "owner": {
+        "repo": "https://github.com/neptotech/neptotech",
+        "email": "neptotechnologies@gmail.com"
+    },
+
+    "record": {
+        "A": ["76.76.21.21"]
+    },
+
+    "proxied": false
+}

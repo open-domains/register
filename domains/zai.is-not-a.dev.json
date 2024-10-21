@@ -1,0 +1,13 @@
+{
+    "description": "Personal Porfolio",
+    "domain": "is-not-a.dev",
+    "subdomain": "zai",
+    "owner": {
+        "repo": "https://github.com/Zai-Kun/zai-kun.github.io",
+        "email": "122824602+Zai-Kun@users.noreply.github.com"
+    },
+    "record": {
+        "CNAME": "zai-kun.vercel.app"
+    },
+    "proxied": false
+}

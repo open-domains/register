@@ -2,14 +2,14 @@
     "description": "Lavalink for SpicyDevs",
 
     "domain": "localplayer.dev",
-    "subdomain": "spicy",
+    "subdomain": "v4.lava",
 
     "owner": {
         "email": "aayushmagrawal@gmail.com"
     },
 
     "record": {
-        "A": ["107.150.34.106"]
+        "A": ["69.30.249.53"]
     },
 
     "proxied": false

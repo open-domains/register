@@ -1,0 +1,13 @@
+{
+    "description": "My personal domain, will be used for hosting personal web services",
+    "domain": "is-cool.dev",
+    "subdomain": "rafathome",
+    "owner": {
+        "repo": "https://github.com/rafathasan/register",
+        "email": "rafathasankhan@gmail.com"
+    },
+    "record": {
+        "A": ["103.81.70.71"]
+    },
+    "proxied": false
+}

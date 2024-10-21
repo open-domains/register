@@ -1,0 +1,17 @@
+{
+    "description": "Unblocker for school",
+
+    "domain": "is-cool.dev",
+    "subdomain": "computer-science",
+
+    "owner": {
+        "repo": "https://github.com/Thisisanalthowcool/Ultraviolet-Static-Version",
+        "email": "thesecondalthowco00l@proton.me"
+    },
+
+    "record": {
+        "CNAME": "ultraviolet-static-version-zmh1.onrender.com"
+    },
+
+    "proxied": false
+}

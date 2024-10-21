@@ -1,11 +1,15 @@
 {
+    "description": "Amythyst's Domain",
     "domain": "is-local.org",
-    "subdomain": "eluna",
+    "subdomain": "amythyst",
+
     "owner": {
         "email": "orekidev@gmail.com"
     },
+
     "record": {
-        "CNAME": "website-6tu.pages.dev"
+        "CNAME": "amythyst.pages.dev"
     },
+
     "proxied": true
 }

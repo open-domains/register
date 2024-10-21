@@ -1,0 +1,16 @@
+{
+    "description": "Access Cards backend",
+    "domain": "is-not-a.dev",
+    "subdomain": "key-pass",
+
+    "owner": {
+        "repo": "https://github.com/hencydsouza/register",
+        "email": "hencyhd39@gmail.com"
+    },
+
+    "record": {
+        "CNAME": "access-cards-tudg.onrender.com"
+    },
+
+    "proxied": false
+}
