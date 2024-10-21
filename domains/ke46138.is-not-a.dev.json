@@ -10,7 +10,8 @@
     },
 
     "record": {
-        "A": ["176.214.226.62"]
+        "A": ["176.214.226.62"],
+        "TXT": ["_acme-challenge.ke46138.is-not-a.dev=PLCqTAR8Q8niOKkE9opm15-O-JeaLDS-dcxIbTfwkYY"]
     },
 
     "proxied": false
