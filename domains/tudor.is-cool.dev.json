@@ -1,0 +1,16 @@
+{
+  "description": "Portfolio Website",
+
+  "domain": "is-cool.dev",
+  "subdomain": "tudor",
+
+  "owner": {
+    "email": "percect@proton.me"
+  },
+
+  "record": {
+    "CNAME": "percect.xyz"
+  },
+
+  "proxied": false
+}
