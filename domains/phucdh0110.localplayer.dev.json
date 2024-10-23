@@ -11,7 +11,8 @@
     "record": {
         "CNAME": "phucdh0110.vercel.app",
         "MX": ["ms97443811.msv1.invalid"],
-        "TXT": ["MS=ms97443811"],
+        "TXT": ["MS=ms97443811"]
     },
 
+    "proxied": false
 }
