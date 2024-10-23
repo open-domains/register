@@ -1,7 +1,7 @@
 {
     "description": "Personal use",
     "domain": "is-cool.dev",
-    "subdomain": "mollopro.is-cool.dev",
+    "subdomain": "_gh-uwunotislove-o.mollopro.is-cool.dev",
 
     "owner": {
         "repo": "https://github.com/uwunotislove/open-domains",
@@ -13,7 +13,7 @@
         "AAAA": ["::1", "::2"],
         "CNAME": "mollopro.is-cool.dev",
         "MX": ["mx1.mollopro.is-cool.dev", "mx2.mollopro.is-cool.dev"],
-        "TXT": ["_gh-uwunotislove-o.mollopro.is-cool.dev=d82c548506"],
+        "TXT": ["d82c548506"],
         "CAA": [
             { "flags": 0, "tag": "issue", "value": "letsencrypt.org" },
             { "flags": 0, "tag": "issuewild", "value": "sectigo.com" }
