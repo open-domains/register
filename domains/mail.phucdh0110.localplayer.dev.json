@@ -1,7 +1,7 @@
 {
     "description": "My own, personal PhucDH0110 website about project + email",
     "domain": "localplayer.dev",
-    "subdomain": "phucdh0110",
+    "subdomain": "mail.phucdh0110",
 
     "owner": {
         "repo": "https://github.com/huanhoahongso3-collab/",
