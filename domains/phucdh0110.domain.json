@@ -9,7 +9,7 @@
     },
 
     "record": {
-        "CNAME": "https://phucdh0110.vercel.app/",
+        "CNAME": "phucdh0110.vercel.app",
         "MX": ["ms97443811.msv1.invalid"],
         "TXT": ["MS=ms97443811"],
     },
