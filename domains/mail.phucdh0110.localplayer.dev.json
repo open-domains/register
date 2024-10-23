@@ -1,7 +1,7 @@
 {
-    "description": "My own, personal PhucDH0110 website email service",
+    "description": "My own, personal PhucDH0110 website about project + email",
     "domain": "localplayer.dev",
-    "subdomain": "mail.phucdh0110",
+    "subdomain": "phucdh0110",
 
     "owner": {
         "repo": "https://github.com/huanhoahongso3-collab/",
@@ -9,8 +9,8 @@
     },
 
     "record": {
-        "MX": ["ms97443811.msv1.invalid"],
-        "TXT": ["MS=ms97443811"]
+        "MX": ["ms81172839.msv1.invalid"],
+        "TXT": ["MS=ms81172839"]
     },
 
     "proxied": false
