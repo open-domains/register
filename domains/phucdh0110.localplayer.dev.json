@@ -9,7 +9,9 @@
     },
 
     "record": {
-        "CNAME": "apex-loadbalancer.netlify.com"
+        "A": ["75.2.60.5"],
+        "MX": ["ms97443811.msv1.invalid"],
+        "TXT": ["v=spf1 include:spf.protection.outlook.com -all"]
     },
 
     "proxied": false
