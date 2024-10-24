@@ -9,9 +9,7 @@
     },
 
     "record": {
-        "CNAME": "ccubed.is-local.dev",
         "MX": ["mail.ccubed.is-local.dev"],
-        "TXT": ["driver_3"]
     },
 
     "proxied": false
