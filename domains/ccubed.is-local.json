@@ -7,10 +7,4 @@
         "repo": "https://github.com/cartersexton/c_squared",
         "email": "carter.sexton@hvja.org"
     },
-
-    "record": {
-        "MX": ["mail.ccubed.is-local.dev"],
-    },
-
-    "proxied": false
 }
