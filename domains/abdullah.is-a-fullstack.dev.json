@@ -1,0 +1,14 @@
+{
+    "domain": "is-a-fullstack.dev",
+    "subdomain": "abdullah",
+
+    "owner": {
+        "email": "aabdullahharif@gmail.com"
+    },
+
+    "record": {
+        "CNAME": "abdullaharif-eta.vercel.app"
+    },
+
+    "proxied": false
+}
