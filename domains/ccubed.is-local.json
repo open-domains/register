@@ -9,9 +9,8 @@
     },
 
     "record": {
-        "A": ["69.54.140.15"],
-        "CNAME": "csquared.is-local.dev",
-        "MX": ["mail.csquared.is-local.dev"],
+        "CNAME": "ccubed.is-local.dev",
+        "MX": ["mail.ccubed.is-local.dev"],
         "TXT": ["driver_3"]
     },
 
