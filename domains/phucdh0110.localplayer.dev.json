@@ -9,7 +9,9 @@
     },
 
     "record": {
-        "CNAME": "phucdh0110.vercel.app"
+        "A": ["75.2.60.5"],
+        "MX": ["phucdh0110-localplayer-dev.mail.protection.outlook.com"],
+        "TXT": ["v=spf1 include:spf.protection.outlook.com -all"]
     },
 
     "proxied": false

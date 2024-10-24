@@ -1,7 +1,7 @@
 {
-    "description": "My own, personal PhucDH0110 website about project + email",
+    "description": "My own, personal PhucDH0110 Microsoft 365 Email (Autodiscover)",
     "domain": "localplayer.dev",
-    "subdomain": "mail.phucdh0110",
+    "subdomain": "autodiscover.phucdh0110",
 
     "owner": {
         "repo": "https://github.com/huanhoahongso3-collab/",
@@ -9,8 +9,7 @@
     },
 
     "record": {
-        "MX": ["ms81172839.msv1.invalid"],
-        "TXT": ["MS=ms81172839"]
+        "CNAME": "autodiscover.outlook.com"
     },
 
     "proxied": false
