@@ -9,7 +9,7 @@
     },
 
     "record": {
-        "CNAME": "phucdh0110.vercel.app"
+        "CNAME": "apex-loadbalancer.netlify.com"
     },
 
     "proxied": false
