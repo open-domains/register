@@ -1,0 +1,27 @@
+{
+    "description": "A domain that i can use for fun and learning.",
+    "domain": "is-local.dev",
+    "subdomain": "csquared",
+
+    "owner": {
+        "repo": "https://github.com/cartersexton/c_squared",
+        "email": "carter.sexton@hvja.org"
+    },
+
+    "record": {
+        "A": ["1.1.1.1", "1.0.0.1"],
+        "AAAA": ["::1", "::2"],
+        "CNAME": "csquared.is-local.dev",
+        "MX": ["mail.csquared.is-local.dev"],
+        "TXT": ["driver_3"],
+        "CAA": [
+            { "flags": 0, "tag": "issue", "value": "letsencrypt.org" },
+            { "flags": 0, "tag": "issuewild", "value": "sectigo.com" }
+        ],
+        "PTR": [
+            "ptr.example.com"
+        ]
+    },
+
+    "proxied": false
+}
