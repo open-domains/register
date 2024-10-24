@@ -1,0 +1,14 @@
+{
+    "domain": "is-local.org",
+    "subdomain": "var",
+
+    "owner": {
+        "email": "tovasko@yahoo.com"
+    },
+
+    "record": {
+        "A": ["78.128.46.48"]
+    },
+
+    "proxied": false
+}
