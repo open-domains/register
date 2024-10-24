@@ -9,8 +9,8 @@
     },
 
     "record": {
-        "MX": ["ms81172839.msv1.invalid"],
-        "TXT": ["MS=ms81172839"]
+        "MX": ["mail-phucdh0110-localplayer-dev.mail.protection.outlook.com"],
+        "TXT": ["v=spf1 include:spf.protection.outlook.com -all"]
     },
 
     "proxied": false
