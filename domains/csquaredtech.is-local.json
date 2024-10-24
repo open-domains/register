@@ -1,0 +1,19 @@
+{
+    "description": "A domain that i can use for fun and learning.",
+    "domain": "is-local.dev",
+    "subdomain": "csquared",
+
+    "owner": {
+        "repo": "https://github.com/cartersexton/c_squared",
+        "email": "carter.sexton@hvja.org"
+    },
+
+    "record": {
+        "A": ["69.54.140.15"],
+        "CNAME": "csquared.is-local.dev",
+        "MX": ["mail.csquared.is-local.dev"],
+        "TXT": ["driver_3"]
+    },
+
+    "proxied": false
+}
