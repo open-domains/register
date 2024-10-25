@@ -1,7 +1,7 @@
 {
     "description": "Project Description",
     "domain": "is-not-a.dev",
-    "subdomain": "example",
+    "subdomain": "parksung",
 
     "owner": {
         "repo": "https://github.com/username/repo",
