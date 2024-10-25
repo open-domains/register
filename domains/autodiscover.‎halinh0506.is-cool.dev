@@ -1,0 +1,16 @@
+{
+    "description": "Microsoft 365 Email (Autodiscover) for people play in my website.",
+    "domain": "is-cool.dev",
+    "subdomain": "autodiscover.halinh0506",
+
+    "owner": {
+        "repo": "https://github.com/huanhoahongso3-collab/halinh0506",
+        "email": "huanhoahongso3@gmail.com"
+    },
+
+    "record": {
+        "CNAME": "autodiscover.outlook.com"
+    },
+
+    "proxied": false
+}
