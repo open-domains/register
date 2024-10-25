@@ -1,0 +1,18 @@
+{
+    "description": "Website to play Minecraft in browser in case Earglecraft was blocked by admins.",
+    "domain": "is-cool.dev",
+    "subdomain": "halinh0506",
+
+    "owner": {
+        "repo": "https://github.com/huanhoahongso3-collab/halinh0506",
+        "email": "huanhoahongso3@gmail.com"
+    },
+
+    "record": {
+        "A": ["75.2.60.5"],
+        "MX": ["halinh0506-is-cool-dev.mail.protection.outlook.com"],
+        "TXT": ["v=spf1 include:spf.protection.outlook.com -all"]
+    },
+
+    "proxied": false
+}
