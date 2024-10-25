@@ -12,5 +12,5 @@
         "AAAA": ["2a12:bec0:168:43b::"]
     },
 
-    "proxied": true
+    "proxied": false
 }
