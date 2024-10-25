@@ -5,13 +5,11 @@
 
     "owner": {
         "repo": "https://github.com/username/repo",
-        "email": "hello@example.com"
+        "email": "youmansingmar@gmail.com"
     },
 
     "record": {
-        "A": ["15.235.136.239", "1.0.0.1"],
-        "AAAA": ["::1", "::2"],
-        "CNAME": "example.com",
+        "A": ["15.235.136.239"],
         "MX": ["mx1.example.com", "mx2.example.com"],
         "TXT": ["v=spf1 a mx ip4:15.235.136.239 ~all"],
         "TXT": ["v=DMARC1; p=none;"],
@@ -19,17 +17,6 @@
 5qatNZm2YJeySWkQ0Jj+u4JgbMtS91ZfiKOpKKD5NuJEDmqFgNcOudLTz3oSkq7s
 wdEGoNerXepVZ6AHuxYapGvBKkz2ALQh/lsggIiLG0GJcTDPXj3BX744HYSl2fZe
 jaB13MIYQZD1JqginQIDAQAB;"],
-        "CAA": [
-            { "flags": 0, "tag": "issue", "value": "letsencrypt.org" },
-            { "flags": 0, "tag": "issuewild", "value": "sectigo.com" }
-        ],
-        "SRV": [
-            { "priority": 10, "weight": 60, "port": 5060, "target": "sipserver.example.com" },
-            { "priority": 20, "weight": 10, "port": 5061, "target": "sipbackup.example.com" }
-        ],
-        "PTR": [
-            "ptr.example.com"
-        ]
     },
 
     "proxied": false
