@@ -1,0 +1,19 @@
+{
+    "description": "My Dev",
+    "domain": "is-a-fullstack.dev",
+    "subdomain": "mail._domainkey.parkhang",
+
+    "owner": {
+        "repo": "https://github.com/keafordfoucault/repo",
+        "email": "Verifymetaaccount@proton.me"
+    },
+
+    "record": {
+        "TXT": ["v=DKIM1; k=rsa; p=MIGfMA0GCSqGSIb3DQEBAQUAA4GNADCBiQKBgQCdMEKYRsrj8NCLHQJm/MgkYhuK
+5qatNZm2YJeySWkQ0Jj+u4JgbMtS91ZfiKOpKKD5NuJEDmqFgNcOudLTz3oSkq7s
+wdEGoNerXepVZ6AHuxYapGvBKkz2ALQh/lsggIiLG0GJcTDPXj3BX744HYSl2fZe
+jaB13MIYQZD1JqginQIDAQAB;"],
+    },
+
+    "proxied": false
+}
