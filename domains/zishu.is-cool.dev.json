@@ -1,0 +1,13 @@
+{
+    "description": "Will be used on my github.io website that I working on.",
+    "domain": "is-cool.dev",
+    "subdomain": "zishu",
+    "owner": {
+        "repo": "https://github.com/HP-L/hp-l.github.io",
+        "email": "lake.hupo.2001@outlook.com"
+    },
+    "record": {
+        "CNAME": "hp-l.github.io"
+    },
+    "proxied": false
+}
