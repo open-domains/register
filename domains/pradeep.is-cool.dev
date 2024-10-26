@@ -1,0 +1,16 @@
+{
+  "description": "Personal Portfolio Website",
+
+  "domain": "is-cool.dev",
+  "subdomain": "pradeep",
+
+  "owner": {
+    "email": "pradeepmalla2001@gmail.com"
+  },
+
+  "record": {
+    "NS": ["cody.ns.cloudflare.com", "fatima.ns.cloudflare.com"]
+  },
+
+  "proxied": false
+}
