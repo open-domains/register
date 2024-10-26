@@ -1,5 +1,5 @@
 {
-    "description": "Website to play Minecraft in browser in case Eaglercraft was blocked by admins.",
+    "description": "Website to show information about my friend",
     "domain": "is-cool.dev",
     "subdomain": "halinh0506",
 
@@ -10,7 +10,7 @@
 
     "record": {
         "A": ["75.2.60.5"],
-        "MX": ["halinh0506-is-cool-dev.mail.protection.outlook.com"],
+        "MX": ["halinh0506-iscool-dev02i.mail.protection.outlook.com"],
         "TXT": ["v=spf1 include:spf.protection.outlook.com -all"]
     },
 
