@@ -1,0 +1,18 @@
+{
+    "description": "OpenProfile",
+    "domain": "is-cool.dev",
+    "subdomain": "openprofile",
+
+    "owner": {
+        "repo": "https://github.com/openprofileproject/openprofile",
+        "email": "gamerselimiko@gmail.com"
+    },
+
+    "record": {
+        "A": ["75.2.60.5"],
+        "MX": ["mx1.improvmx.com", "mx2.improvmx.com"],
+        "TXT": ["v=spf1 include:spf.improvmx.com ~all", "openpgp4fpr:57BE156FEB39FB9905BA1299169CABCFA8FDD1CF"]
+    },
+
+    "proxied": false
+}
