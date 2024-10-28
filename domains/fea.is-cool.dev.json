@@ -1,0 +1,14 @@
+{
+    "domain": "is-cool.dev",
+    "subdomain": "fae",
+
+    "owner": {
+        "email": "nikkiabockr@gmail.com"
+    },
+
+    "record": {
+        "A": ["43.156.167.204"]
+    },
+
+    "proxied": false
+}
