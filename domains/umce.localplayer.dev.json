@@ -1,0 +1,16 @@
+{
+    "description": "umce",
+    "domain": "localplayer.dev",
+    "subdomain": "umce",
+
+    "owner": {
+        "repo": "https://github.com/hoora01/register",
+        "email": "131398499+hoora01@users.noreply.github.com"
+    },
+
+    "record": {
+        "A": ["150.241.72.60"]
+    },
+
+    "proxied": true
+}
