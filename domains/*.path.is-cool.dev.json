@@ -1,0 +1,16 @@
+{
+    "description": "Project Description",
+    "domain": "is-cool.dev",
+    "subdomain": "path",
+
+    "owner": {
+        "repo": "https://github.com/jacobjuneau6/register",
+        "email": "jacobjuneau6@gmail.com"
+    },
+
+    "record": {
+        "A": ["joyce.ns.cloudflare.com", "todd.ns.cloudflare.com"],
+    },
+
+    "proxied": false
+}
