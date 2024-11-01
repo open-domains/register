@@ -9,7 +9,6 @@
     },
 
     "record": {
-        "A": ["37.114.46.140"],
         "CNAME": "connie.ns.cloudflare.com",
 	"CNAME": "gordon.ns.cloudflare.com"
     },
