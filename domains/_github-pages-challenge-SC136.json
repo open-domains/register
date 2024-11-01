@@ -9,8 +9,8 @@
     },
 
     "record": {
-        "CNAME": "sc136.github.io/WeTall"
+        "TXT": ["12a82cafbbfeb8c927edd8c38a00b6"]
     },
 
-    "proxied": true
+    "proxied": false
 }
