@@ -1,0 +1,16 @@
+{
+    "description": "WeTall (Project Iron Flake) is all about developing innovative VTOL tech.",
+    "domain": "is-local.org",
+    "subdomain": "ironflake",
+
+    "owner": {
+        "repo": "https://github.com/SC136/WeTall",
+        "email": "hello@sc.is-a.dev"
+    },
+
+    "record": {
+        "CNAME": "https://sc136.github.io/WeTall"
+    },
+
+    "proxied": true
+}
