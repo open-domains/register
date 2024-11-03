@@ -1,0 +1,17 @@
+{
+    "description": "Personal Portfolio Website",
+    "domain": "is-not-a.dev",
+    "subdomain": "kotofey",
+
+    "owner": {
+        "repo": "https://github.com/Kotofey008/register",
+        "email": "aleks00808a@gmail.com"
+    },
+
+    "record": {
+        "A": ["77.221.138.189"],
+        "TXT": ["mailru-domain: mL5YdJ3UXveE0KJv"]
+    },
+
+    "proxied": false
+}
