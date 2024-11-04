@@ -1,0 +1,15 @@
+{
+    "description": "Github Verification for kalmed.localplayer.dev",
+    "domain": "localplayer.dev",
+    "subdomain": "_github-pages-challenge-k4lm3d.kalmed",
+    "owner": {
+        "repo": "https://github.com/k4lm3d/k4lm3d.github.io",
+        "email": "k4lm3d@duck.com"
+    },
+    "record": {
+        "TXT": [
+            "1d0d830c9f81cf5e48284253a1332f"
+        ]
+    },
+    "proxied": false
+}
