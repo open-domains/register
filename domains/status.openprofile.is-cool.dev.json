@@ -10,7 +10,7 @@
     },
 
     "record": {
-        "CNAME": ["openprofile.up.railway.app"]
+        "CNAME": "openprofile.up.railway.app"
     },
 
     "proxied": false
