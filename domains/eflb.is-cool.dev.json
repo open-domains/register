@@ -1,0 +1,16 @@
+{
+    "description": "School unblocker.",
+
+    "domain": "is-cool.dev",
+    "subdomain": "eflb",
+
+    "owner": {
+        "email": "thesecondalthowco00l@proton.me"
+    },
+
+    "record": {
+        "A": ["109.122.46.55"]
+    },
+
+    "proxied": false
+}
