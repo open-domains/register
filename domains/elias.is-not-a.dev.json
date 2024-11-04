@@ -1,0 +1,16 @@
+{
+    "description": "Project Description",
+    "domain": "is-not-a.dev",
+    "subdomain": "elias",
+
+    "owner": {
+        "repo": "https://github.com/username/repo",
+        "email": "hello@example.com"
+    },
+
+    "record": {
+        "A": ["195.201.197.87"]
+    },
+
+    "proxied": false
+}
