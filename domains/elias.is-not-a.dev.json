@@ -1,15 +1,15 @@
 {
-    "description": "Project Description",
+    "description": "My Personal Portfolio",
     "domain": "is-not-a.dev",
     "subdomain": "elias",
 
     "owner": {
-        "repo": "https://github.com/username/repo",
-        "email": "hello@example.com"
+        "repo": "https://github.com/eliasnau/register",
+        "email": "elias@codity.net"
     },
 
     "record": {
-        "A": ["195.201.197.87"]
+        "A": ["76.76.21.21"]
     },
 
     "proxied": false
