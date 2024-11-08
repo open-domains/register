@@ -1,0 +1,16 @@
+{
+    "domain": "is-cool.dev",
+    "subdomain": "safone",
+
+    "description": "My personal portfolio website",
+
+    "owner": {
+        "email": "asmsafone@gmail.com"
+    },
+
+    "record": {
+        "CNAME": "safone.pages.dev"
+    },
+
+    "proxied": false
+}
