@@ -1,0 +1,17 @@
+{
+    "description": "openprofile uptime monitor",
+
+    "domain": "is-cool.dev",
+    "subdomain": "status.openprofile",
+
+    "owner": {
+        "repo": "https://github.com/openprofileproject",
+        "email": "opendomains@openprofile.is-cool.dev"
+    },
+
+    "record": {
+        "CNAME": "openprofile.up.railway.app"
+    },
+
+    "proxied": false
+}

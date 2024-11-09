@@ -1,0 +1,16 @@
+{
+    "description": "My Personal Portfolio",
+    "domain": "is-not-a.dev",
+    "subdomain": "elias",
+
+    "owner": {
+        "repo": "https://github.com/eliasnau/register",
+        "email": "elias@codity.net"
+    },
+
+    "record": {
+        "A": ["76.76.21.21"]
+    },
+
+    "proxied": false
+}

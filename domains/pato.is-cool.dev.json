@@ -1,0 +1,16 @@
+{
+    "description": "PatoFlamejanteTV",
+    "domain": "is-cool.dev",
+    "subdomain": "pato",
+
+    "owner": {
+        "repo": "https://github.com/PatoFlamejanteTV",
+        "email": "patoflamejantetv@gmail.com"
+    },
+
+    "record": {
+        "CNAME": "patoflamejantetv.github.io"
+    },
+
+    "proxied": false
+}
