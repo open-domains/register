@@ -1,0 +1,19 @@
+{
+    "description": "Project Description",
+    "domain": "is-a-cool.dev",
+    "subdomain": "masseo",
+
+    "owner": {
+        "repo": "https://github.com/matte-oss/register",
+        "email": "7sz8jlw6h@mozmail.com"
+    },
+
+    "record": {
+        "CNAME": {
+            "name": "zb96493825.masseo",
+            "value": "zmverify.zoho.eu"
+        }
+    },
+
+    "proxied": false
+}
