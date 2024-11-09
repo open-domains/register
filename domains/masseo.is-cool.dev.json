@@ -9,12 +9,11 @@
     },
 
     "record": {
-        "CNAME": {
-            "name": "zb96493825.masseo",
-            "value": "zmverify.zoho.eu"
+        "TXT": {
+            "name": "masseo",
+            "value": "zoho-verification=zb96493825.zmverify.zoho.eu"
         }
     },
 
     "proxied": false
 }
-
