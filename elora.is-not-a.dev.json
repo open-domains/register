@@ -1,0 +1,22 @@
+{
+    "description": "Elora's Meowmeow",
+    "domain": "is-not-a.dev",
+    "subdomain": "elora",
+
+    "owner": {
+        "repo": "https://github.com/elorahub/weather-Forecast-time-map-weather-API",
+        "email": "elorahubph@gmail.com"
+    },
+
+    "record": {
+        "A": ["elora.is-not-a.dev", "162.159.205.11"],
+        "MX": ["elora.is-not-a.dev"],
+        "TXT": ["spf.elora.is-not-a.dev", "_spf.mx.cloudflare.net"],
+        "CAA": [
+            { "flags": 0, "tag": "issue", "value": "letsencrypt.org" },
+            { "flags": 0, "tag": "issuewild", "value": "sectigo.com" }
+        ]
+    },
+
+    "proxied": false
+}
