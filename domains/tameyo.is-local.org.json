@@ -1,0 +1,14 @@
+{
+    "domain": "is-local.org",
+    "subdomain": "tameyo",
+
+    "owner": {
+        "email": "orekidev@gmail.com"
+    },
+
+    "record": {
+        "CNAME": "website-720.pages.dev"
+    },
+
+    "proxied": true
+}
