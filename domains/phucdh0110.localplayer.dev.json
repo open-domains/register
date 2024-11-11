@@ -14,5 +14,5 @@
         "TXT": ["v=spf1 include:spf.protection.outlook.com -all"]
     },
 
-    "proxied": false
+    "proxied": true
 }
