@@ -7,7 +7,8 @@
         "email": "lake.hupo.2001@outlook.com"
     },
     "record": {
-        "CNAME": "hp-l.github.io"
+        "CNAME": "hp-l.github.io",
+        "NS":"hp-l-github-io.vercel.app"
     },
     "proxied": false
 }
