@@ -5,12 +5,7 @@
 
     "owner": {
         "repo": "https://github.com/upstart-crow/poetry",
-        "email": "stephen.athel@gmail.com"
-    },
-    
-    "record": {
-        "A": ["1.1.1.1", "1.0.0.1"],
-        "AAAA": ["::1", "::2"]
+        "email": "gawxmax@gmail.com"
     },
     
     "proxied": false
