@@ -4,14 +4,14 @@
     "subdomain": "kagari",
 
     "owner": {
-        "repo": "https://kagarifuyukawa.github.io",
+        "repo": "https://github.com/Kagarifuyukawa/Kagarifuyukawa.github.io",
         "email": "fuyukawabot@gmail.com"
     },
 
     "record": {
         "A": ["1.1.1.1", "1.0.0.1"],
         "AAAA": ["::1", "::2"],
-        "CNAME": "example.com",
+        "CNAME": "kagarifuyukawa.github.io",
         "MX": ["mx1.forwardemail.net", "mx2.forwardemail.net"],
         "TXT": ["forward-email=fuyukawabot@gmail.com"],
         "CAA": [
