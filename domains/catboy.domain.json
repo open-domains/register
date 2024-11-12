@@ -1,0 +1,16 @@
+{
+    "description": "Something that is related to themeddler",
+    "domain": "localplayer.dev",
+    "subdomain": "catboy",
+
+    "owner": {
+        "repo": "https://github.com/SlycIsACatboy/registerdomains",
+        "email": "noahhz942@gmail.com"
+    },
+
+    "record": {
+        "A": ["45.92.9.144"]
+    },
+
+    "proxied": false
+}
