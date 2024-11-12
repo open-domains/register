@@ -1,0 +1,12 @@
+{
+    "description": "My personal domain for poetic sonnets",
+    "domain": "localplayer.dev",
+    "subdomain": "hyperways",
+
+    "owner": {
+        "repo": "https://github.com/upstart-crow/poet",
+        "email": "gawxmax@gmail.com"
+    },
+
+    "proxied": false
+}
