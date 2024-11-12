@@ -55,7 +55,7 @@ t("All files should have valid file names", (t) => {
     files.forEach((file) => {
         t.true(file.endsWith(".json"), `${file}: File does not have .json extension`);
         t.false(file.includes(".is-a-fullstack.dev"), `${file}: File name should not contain .is-a-fullstack.dev`);
-        t.false(file.includes(".is-a-cool.dev"), `${file}: File name should not contain .is-a-cool.dev`);
+        t.false(file.includes(".is-cool.dev"), `${file}: File name should not contain .is-cool.dev`);
         t.false(file.includes(".is-local.org"), `${file}: File name should not contain .is-local.org`);
         t.false(file.includes(".is-not-a.dev"), `${file}: File name should not contain .is-not-a.dev`);
         t.false(file.includes(".localplayer.dev"), `${file}: File name should not contain .localplayer.dev`);
@@ -64,7 +64,7 @@ t("All files should have valid file names", (t) => {
         // Ignore root domain
         if (file !== "@.json") {
             t.regex(
-                file.replace(/\.json$/, "") + ".is-a-fullstack.dev|.is-a-cool.dev|.is-local.org|.is-not-a.dev|.localplayer.dev",
+                file.replace(/\.json$/, "") + ".is-a-fullstack.dev|.is-cool.dev|.is-local.org|.is-not-a.dev|.localplayer.dev",
                 hostnameRegex,
                 `${file}: FQDN must be 1-253 characters, use letters, numbers, dots, or hyphens, and not start or end with a hyphen.`
             );
