@@ -12,10 +12,6 @@ const optionalFields = {
     reserved: "boolean"
 };
 
-const requiredOwnerFields = {
-    username: "string"
-};
-
 const optionalOwnerFields = {
     email: "string"
 };
