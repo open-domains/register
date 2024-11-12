@@ -10,7 +10,7 @@
 
     "record": {
         "A": ["162.159.205.11"],
-        "MX": ["mx1.elora.is-not-a.dev"],  
+        "MX": ["elora.is-not-a.dev"],  
         "TXT": ["_spf.mx.cloudflare.net"]
     },
 
