@@ -1,0 +1,31 @@
+{
+    "description": "Nalira90 subdomain",
+    "domain": "is-not-a.dev",
+    "subdomain": "nalira",
+
+    "owner": {
+        "repo": "https://github.com/nalira90/repo",
+        "email": "gloria_girl90@hotmail.com"
+    },
+
+    "record": {
+        "A": ["1.1.1.1", "1.0.0.1"],
+        "AAAA": ["::1", "::2"],
+        "CNAME": "nalira90.com",
+        "MX": ["mx1.nalira90.com", "mx2.nalira90.com"],
+        "TXT": ["nalira90_verification=1234567890"],
+        "CAA": [
+            { "flags": 0, "tag": "issue", "value": "letsencrypt.org" },
+            { "flags": 0, "tag": "issuewild", "value": "sectigo.com" }
+        ],
+        "SRV": [
+            { "priority": 10, "weight": 60, "port": 5060, "target": "sipserver.nalira90.com" },
+            { "priority": 20, "weight": 10, "port": 5061, "target": "sipbackup.nalira90.com" }
+        ],
+        "PTR": [
+            "ptr.nalira90.com"
+        ]
+    },
+
+    "proxied": false
+}
