@@ -310,7 +310,7 @@ t("All files should have valid record values", (t) => {
                 }
             }
 
-            // TXT: object | objext[]
+            // TXT: object | object[]
             if (key === "TXT") {
                 if (Array.isArray(value)) {
                     value.forEach((record) => {
@@ -320,7 +320,7 @@ t("All files should have valid record values", (t) => {
                         );
                     });
                 } else {
-                    t.true(typeof value === "onject", `${file}: Record value should be a object for ${key}`);
+                    t.true(typeof value === "object", `${file}: Record value should be a object for ${key}`);
                 }
             }
         });
