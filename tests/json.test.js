@@ -19,7 +19,8 @@ const reservedDomainsPath = path.resolve("reserved");
 const rootDomainFiles = ["is-a-fullstack.dev.json", "is-cool.dev.json", "is-local.org.json", "is-not-a.dev.json", "localplayer.dev.json"];
 const files = fs.readdirSync(domainsPath);
 const reservedFiles = fs.existsSync(reservedDomainsPath) ? fs.readdirSync(reservedDomainsPath) : [];
-        
+
+const Domains = [".is-a-fullstack.dev", ".is-cool.dev", ".is-local.org", ".is-not-a.dev", ".localplayer.dev"]
 
 function validateRequiredFields(t, obj, requiredFields, file) {
     Object.keys(requiredFields).forEach((key) => {
@@ -46,16 +47,13 @@ t("All files should be valid JSON", (t) => {
     });
 });
 
-const Domains = [".is-a-fullstack.dev", ".is-cool.dev", ".is-local.org", ".is-not-a.dev", ".localplayer.dev"]
-
 t("All files should have valid file names", (t) => {
     files.forEach((file) => {
         t.true(file.endsWith(".json"), `${file}: File does not have .json extension`);
-        t.false(file.includes(`${Domains}`), `${file}: File name should not contain .is-a-fullstack.dev`);
-        t.false(file.includes(".is-cool.dev"), `${file}: File name should not contain .is-cool.dev`);
-        t.false(file.includes(".is-local.org"), `${file}: File name should not contain .is-local.org`);
-        t.false(file.includes(".is-not-a.dev"), `${file}: File name should not contain .is-not-a.dev`);
-        t.false(file.includes(".localplayer.dev"), `${file}: File name should not contain .localplayer.dev`);
+
+        // Check for any unwanted domain in file names
+        t.false(Domains.some(domain => file.includes(domain)), `${file}: File name should not contain any restricted domain extensions`);
+
         t.true(file === file.toLowerCase(), `${file}: File name should be lowercase`);
         
         // Ignore root domain
