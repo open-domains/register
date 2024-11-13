@@ -3,7 +3,6 @@ const fs = require("fs-extra");
 const path = require("path");
 
 const requiredRecordsToProxy = ["A", "AAAA", "CNAME"];
-// URL records are not listed here because they are proxied by default, so they don't need the proxied flag
 
 function validateProxiedRecords(t, data, file) {
     if (data.proxied) {
