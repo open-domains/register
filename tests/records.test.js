@@ -195,17 +195,10 @@ t("All files should have valid record values", (t) => {
                 }
             }
 
-            // *: string
-            if (["CNAME", "URL"].includes(key)) {
+            // CNAME: string
+            if (key === "CNAME") {
                 t.true(typeof value === "string", `${file}: Record value should be a string for ${key}`);
-
-                if (key === "CNAME") {
-                    t.regex(value, hostnameRegex, `${file}: Record value should be a valid hostname for ${key}`);
-                }
-
-                if (key === "URL") {
-                    t.notThrows(() => new URL(value), `${file}: Record value should be a valid URL for ${key}`);
-                }
+                t.regex(value, hostnameRegex, `${file}: Record value should be a valid hostname for ${key}`);
             }
 
             // *: {}[]
