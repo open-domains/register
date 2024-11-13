@@ -7,11 +7,6 @@ const requiredFields = {
     records: "object"
 };
 
-const optionalFields = {
-    proxied: "boolean",
-    reserved: "boolean"
-};
-
 const optionalOwnerFields = {
     email: "string"
 };
@@ -20,7 +15,11 @@ const emailRegex = /^[a-zA-Z0-9._%+-]+@[a-zA-Z0-9.-]+\.[a-zA-Z]{2,}$/;
 const hostnameRegex = /^(?=.{1,253}$)(?:(?:[_a-zA-Z0-9](?:[a-zA-Z0-9-]{0,61}[a-zA-Z0-9])?)\.)+[a-zA-Z]{2,63}$/;
 
 const domainsPath = path.resolve("domains");
+const reservedDomainsPath = path.resolve("reserved");
+const rootDomainFiles = ["is-a-fullstack.dev.json", "is-cool.dev.json", "is-local.org.json", "is-not-a.dev.json", "localplayer.dev.json"];
 const files = fs.readdirSync(domainsPath);
+const reservedFiles = fs.existsSync(reservedDomainsPath) ? fs.readdirSync(reservedDomainsPath) : [];
+        
 
 function validateRequiredFields(t, obj, requiredFields, file) {
     Object.keys(requiredFields).forEach((key) => {
@@ -47,20 +46,22 @@ t("All files should be valid JSON", (t) => {
     });
 });
 
+const Domains = [".is-a-fullstack.dev", ".is-cool.dev", ".is-local.org", ".is-not-a.dev", ".localplayer.dev"]
+
 t("All files should have valid file names", (t) => {
     files.forEach((file) => {
         t.true(file.endsWith(".json"), `${file}: File does not have .json extension`);
-        t.false(file.includes(".is-a-fullstack.dev"), `${file}: File name should not contain .is-a-fullstack.dev`);
+        t.false(file.includes(`${Domains}`), `${file}: File name should not contain .is-a-fullstack.dev`);
         t.false(file.includes(".is-cool.dev"), `${file}: File name should not contain .is-cool.dev`);
         t.false(file.includes(".is-local.org"), `${file}: File name should not contain .is-local.org`);
         t.false(file.includes(".is-not-a.dev"), `${file}: File name should not contain .is-not-a.dev`);
         t.false(file.includes(".localplayer.dev"), `${file}: File name should not contain .localplayer.dev`);
         t.true(file === file.toLowerCase(), `${file}: File name should be lowercase`);
-
+        
         // Ignore root domain
-        if (file !== "@.json") {
+        if (!rootDomainFiles.includes(file)) {
             t.regex(
-                file.replace(/\.json$/, "") + ".is-a-fullstack.dev|.is-cool.dev|.is-local.org|.is-not-a.dev|.localplayer.dev",
+                file.replace(/\.json$/, ""),
                 hostnameRegex,
                 `${file}: FQDN must be 1-253 characters, use letters, numbers, dots, or hyphens, and not start or end with a hyphen.`
             );
