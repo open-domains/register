@@ -11,8 +11,8 @@
     "record": {
         "A": ["1.1.1.1", "1.0.0.1"],
         "AAAA": ["::1", "::2"],
-        "CNAME": "example.com",
-        "MX": ["mx1.example.com", "mx2.example.com"],
+        "CNAME": "rbfl.com",
+        "MX": ["wasihossain692@gmail.com", "wasihossain23089@gmail.com"],
         "TXT": ["example_verification=1234567890"],
         "CAA": [
             { "flags": 0, "tag": "issue", "value": "letsencrypt.org" },
