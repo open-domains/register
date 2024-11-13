@@ -11,7 +11,7 @@
     "record": {
         "A": ["59.152.96.161"],
         "TXT": ["google-site-verification=gWggOMxPBF8R9hohDmlgbvq5yH8Yh_jGD5mtxAM28oY"],
-        "MX": ["mx1.example.com", "mx2.example.com"]
+        "MX": ["josephine.ns.cloudflare.com", "toby.ns.cloudflare.com"]
     },
 
     "proxied": true
