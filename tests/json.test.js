@@ -4,7 +4,7 @@ const path = require("path");
 
 const requiredFields = {
     owner: "object",
-    record: "object"
+    records: "object"
 };
 
 const optionalFields = {
