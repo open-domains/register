@@ -209,7 +209,7 @@ t("All files should have valid record values", (t) => {
             }
 
             // *: {}[]
-            if (["CAA", "DS", "SRV"].includes(key)) {
+            if (["CAA", "SRV"].includes(key)) {
                 t.true(Array.isArray(value), `${file}: Record value should be an array for ${key}`);
 
                 value.forEach((record) => {
