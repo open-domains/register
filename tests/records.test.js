@@ -89,7 +89,7 @@ function isPublicIPv6(ip) {
 t("All files should have valid record types", (t) => {
     files.forEach((file) => {
         const data = fs.readJsonSync(path.join(domainsPath, file));
-        const recordKeys = Object.keys(data.record);
+        const recordKeys = Object.keys(data.records);
 
         recordKeys.forEach((key) => {
             t.true(validRecordTypes.includes(key), `${file}: Invalid record type: ${key}`);
