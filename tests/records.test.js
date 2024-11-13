@@ -126,7 +126,7 @@ t("All files should have valid record values", (t) => {
         const data = fs.readJsonSync(path.join(domainsPath, file));
 
         Object.keys(data.records).forEach((key) => {
-            const value = data.record[key];
+            const value = data.records[key];
 
             // *: string[]
             if (["A", "AAAA", "MX", "NS"].includes(key)) {
