@@ -1,0 +1,16 @@
+{
+    "description": "Personal website of Aleksyeus",
+    "domain": "is-cool.dev",
+    "subdomain": "Aleksyeus",
+
+    "owner": {
+        "repo": "https://github.com/Aleksyeus/aleksyeus.github.io",
+        "email": "alexanderkharshiladze15@gmail.com"
+    },
+
+    "record": {
+        "CNAME": "aleksyeus.github.io"
+    },
+
+    "proxied": false
+}
