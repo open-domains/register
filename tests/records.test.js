@@ -310,17 +310,17 @@ t("All files should have valid record values", (t) => {
                 }
             }
 
-            // TXT: object | object[]
+            // TXT: string | string[]
             if (key === "TXT") {
                 if (Array.isArray(value)) {
                     value.forEach((record) => {
                         t.true(
-                            typeof record === "object",
-                            `${file}: Record value should be a object for ${key} at index ${value.indexOf(record)}`
+                            typeof record === "string",
+                            `${file}: Record value should be a string for ${key} at index ${value.indexOf(record)}`
                         );
                     });
                 } else {
-                    t.true(typeof value === "object", `${file}: Record value should be a object for ${key}`);
+                    t.true(typeof value === "string", `${file}: Record value should be a string for ${key}`);
                 }
             }
         });
