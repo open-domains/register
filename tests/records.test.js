@@ -114,7 +114,7 @@ t("All files should not have duplicate record keys", (t) => {
     files.forEach((file) => {
         const data = fs.readJsonSync(path.join(domainsPath, file));
 
-        const recordKeys = Object.keys(data.record);
+        const recordKeys = Object.keys(data.records);
         const uniqueRecordKeys = new Set(recordKeys);
 
         t.is(recordKeys.length, uniqueRecordKeys.size, `${file}: Duplicate record keys found`);
