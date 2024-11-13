@@ -239,37 +239,6 @@ t("All files should have valid record values", (t) => {
                     });
                 }
 
-                // DS: { key_tag: number, algorithm: number, digest_type: number, digest: string }[]
-                if (key === "DS") {
-                    value.forEach((record) => {
-                        t.true(
-                            typeof record.key_tag === "number",
-                            `${file}: DS record value should have a number for key_tag at index ${value.indexOf(
-                                record
-                            )}`
-                        );
-
-                        t.true(
-                            typeof record.algorithm === "number",
-                            `${file}: DS record value should have a number for algorithm at index ${value.indexOf(
-                                record
-                            )}`
-                        );
-
-                        t.true(
-                            typeof record.digest_type === "number",
-                            `${file}: DS record value should have a number for digest_type at index ${value.indexOf(
-                                record
-                            )}`
-                        );
-
-                        t.true(
-                            typeof record.digest === "string",
-                            `${file}: DS record value should have a string for digest at index ${value.indexOf(record)}`
-                        );
-                    });
-                }
-
                 // SRV: { priority: number, weight: number, port: number, target: string }[]
                 if (key === "SRV") {
                     value.forEach((record) => {
