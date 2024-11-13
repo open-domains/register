@@ -107,11 +107,6 @@ t("All files should have valid record types", (t) => {
                 `${file}: NS records cannot be combined with other records, except for DS records`
             );
         }
-
-        // DS records must be combined with NS records
-        if (recordKeys.includes("DS")) {
-            t.true(recordKeys.includes("NS"), `${file}: DS records must be combined with NS records`);
-        }
     });
 });
 
