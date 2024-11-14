@@ -1,0 +1,14 @@
+{
+    "domain": "is-cool.dev",
+    "subdomain": "orion",
+
+    "owner": {
+        "email": "arnavcdn@gmail.com"
+    },
+
+    "record": {
+        "CNAME": "orion-site-bno.pages.dev"
+    },
+
+    "proxied": false
+}
