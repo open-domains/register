@@ -1,0 +1,17 @@
+{
+    "description": "Project Description",
+    "domain": "proteustherapeutics.com",
+    "subdomain": "proteus",
+
+    "owner": {
+        "repo": "https://github.com/bfuentes333/proteus",
+        "email": "info@proteustherapeutics.com"
+    },
+
+    "record": {
+        "MX": ["mx1.improvmx.com.", "mx2.improvmx.com."],
+        "TXT": ["v=spf1 include:spf.improvmx.com ~all"]
+    },
+
+    "proxied": true
+}
