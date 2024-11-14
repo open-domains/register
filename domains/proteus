@@ -1,0 +1,19 @@
+{
+    "description": "Project Description",
+    "domain": "proteustherapeutics.work",
+    "subdomain": "proteus",
+
+    "owner": {
+        "repo": "https://github.com/bfuentes333/proteus",
+        "email": "info@proteustherapeutics.work"
+    },
+
+    "record": {
+        "A": ["1.1.1.1", "1.0.0.1"],
+        "AAAA": ["::1", "::2"],
+       
+  
+    },
+
+    "proxied": true
+}
