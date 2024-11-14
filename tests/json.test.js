@@ -20,7 +20,7 @@ const rootDomainFiles = ["is-a-fullstack.dev.json", "is-cool.dev.json", "is-loca
 const files = fs.readdirSync(domainsPath);
 const reservedFiles = fs.existsSync(reservedDomainsPath) ? fs.readdirSync(reservedDomainsPath) : [];
 
-const Domains = [".is-a-fullstack.dev", ".is-cool.dev", ".is-local.org", ".is-not-a.dev", ".localplayer.dev"]
+const Domains = [".is-a-fullstack.dev", ".is-cool.dev", ".is-local.org", ".is-not-a.dev", ".localplayer.dev"];
 
 function validateRequiredFields(t, obj, requiredFields, file) {
     Object.keys(requiredFields).forEach((key) => {
