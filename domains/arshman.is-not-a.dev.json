@@ -1,0 +1,16 @@
+{
+    "description": "Personal Portfolio",
+    "domain": "is-not-a.dev",
+    "subdomain": "arshman",
+
+    "owner": {
+        "username": "https://github.com/syedtahseen",
+        "email": "itxtahseen@gmail.com"
+    },
+
+    "record": {
+        "A": ["76.76.21.21"]
+    },
+
+    "proxied": false
+}
