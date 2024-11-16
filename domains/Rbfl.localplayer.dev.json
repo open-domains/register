@@ -1,6 +1,6 @@
 {
     "description": "The official website of the team RBFL",
-    "domain": ".localplayer.dev",
+    "domain": "localplayer.dev",
     "subdomain": "RBFL",
 
     "owner": {
@@ -13,5 +13,5 @@
         "TXT": ["google-site-verification=gWggOMxPBF8R9hohDmlgbvq5yH8Yh_jGD5mtxAM28oY"]
     },
 
-    "proxied": true
+    "proxied": false
 }
