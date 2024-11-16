@@ -1,0 +1,17 @@
+{
+    "description": "unblocked game site",
+    "domain": "is-cool.dev",
+    "subdomain": "frogiee1",
+
+    "owner": {
+        "repo": "https://github.com/frogiee1certified/register",
+        "email": "admin@frogiee.one"
+    },
+
+    "record": {
+        "CNAME": "frogiesarcade.win",
+    },
+
+    "proxied": false
+}
+
