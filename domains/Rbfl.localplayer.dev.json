@@ -1,17 +1,14 @@
 {
     "description": "The official website of the team RBFL",
     "domain": "localplayer.dev",
-    "subdomain": "RBFL",
-
+    "subdomain": "rbfl",
     "owner": {
         "repo": "https://github.com/WasiTC/Rbfl",
         "email": "wasihossain692@gmail.com"
     },
-
     "record": {
-        "CNAME": ["ghs.googlehosted.com"],
-        "TXT": ["google-site-verification=gWggOMxPBF8R9hohDmlgbvq5yH8Yh_jGD5mtxAM28oY"]
+        "CNAME": "ghs.googlehosted.com",
+        "TXT": "google-site-verification=gWggOMxPBF8R9hohDmlgbvq5yH8Yh_jGD5mtxAM28oY"
     },
-
     "proxied": false
 }
