@@ -1,6 +1,6 @@
 {
     "description": "The official website of the team RBFL",
-    "domain": ".localplayer.dev",
+    "domain": "localplayer.dev",
     "subdomain": "RBFL",
 
     "owner": {
@@ -9,9 +9,9 @@
     },
 
     "record": {
-        "A": ["59.152.96.161"],
+        "CNAME": "localplayer.dev",
         "TXT": ["google-site-verification=gWggOMxPBF8R9hohDmlgbvq5yH8Yh_jGD5mtxAM28oY"]
     },
 
-    "proxied": true
+    "proxied": false
 }
