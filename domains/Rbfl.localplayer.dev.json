@@ -9,9 +9,7 @@
     },
 
     "record": {
-        "CNAME": {
-            "Name": "RBFL",
-            "Value": "WasiTC.github.io"
+        "CNAME": "WasiTC.github.ip"
         },
         "TXT": ["google-site-verification=gWggOMxPBF8R9hohDmlgbvq5yH8Yh_jGD5mtxAM28oY"]
     },
