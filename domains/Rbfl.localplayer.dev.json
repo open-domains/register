@@ -9,7 +9,7 @@
     },
 
     "record": {
-        "CNAME": "ghs.googlehosted.com."
+        "CNAME": "ghs.googlehosted.com"
     },
 
     "proxied": false
