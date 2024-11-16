@@ -1,10 +1,10 @@
 {
-    "description": "Personal Website",
-    "domain": "localplayer.dev",
-    "subdomain": "ulric",
+    "description": "Project Website",
+    "domain": "is-local.org",
+    "subdomain": "ironflake",
     "owner": {
-        "repo": "https://github.com/ulric-collaco/ulric.github.io",
-        "email": "collacou@gmail.com"
+        "repo": "https://github.com/SC136/WeTall",
+        "email": "swachuri06@gmail.com"
     },
     "record": {
         "A": [
