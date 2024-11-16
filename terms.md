@@ -1,6 +1,3 @@
-Here’s the updated **Terms and Conditions** with a new section about legal requests added:  
-
----
 
 # Terms and Conditions  
 
