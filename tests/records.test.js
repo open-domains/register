@@ -86,9 +86,22 @@ function isPublicIPv6(ip) {
     );
 }
 
+const files = fs.readdirSync(domainsPath);
+
+function isDirectory(filePath) {
+    return fs.lstatSync(filePath).isDirectory();
+}
+
 t("All files should have valid record types", (t) => {
     files.forEach((file) => {
-        const data = fs.readJsonSync(path.join(domainsPath, file));
+        const filePath = path.join(domainsPath, file);
+
+        // Skip directories
+        if (isDirectory(filePath)) {
+            return;
+        }
+
+        const data = fs.readJsonSync(filePath);
         const recordKeys = Object.keys(data.record);
 
         recordKeys.forEach((key) => {
@@ -97,7 +110,7 @@ t("All files should have valid record types", (t) => {
 
         // CNAME records cannot be combined with any other record type
         if (recordKeys.includes("CNAME")) {
-            t.is(recordKeys.length, Number(1), `${file}: CNAME records cannot be combined with other records`);
+            t.is(recordKeys.length, 1, `${file}: CNAME records cannot be combined with other records`);
         }
 
         // NS records cannot be combined with any other record type, except for DS records
