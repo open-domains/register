@@ -4,7 +4,7 @@ const path = require("path");
 
 const requiredFields = {
     owner: "object",
-    records: "object"
+    record: "object"
 };
 
 const optionalOwnerFields = {
@@ -75,7 +75,7 @@ t("All files should have the required fields", (t) => {
         validateRequiredFields(t, data.owner, requiredFields, file);
 
         if (!data.reserved) {
-            t.true(Object.keys(data.records).length > 0, `${file}: No record types found`);
+            t.true(Object.keys(data.record).length > 0, `${file}: No record types found`);
         }
     });
 });
