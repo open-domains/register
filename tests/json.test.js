@@ -45,9 +45,16 @@ t("All files should be valid JSON", (t) => {
     const reservedFiles = fs.existsSync(reservedDomainsPath)
     ? fs.readdirSync(reservedDomainsPath).filter(file => {
         const filePath = path.join(reservedDomainsPath, file);
-        return fs.lstatSync(filePath).isFile(); // Only include files
+        try {
+            // Ensure the file is not a directory or symbolic link
+            return fs.statSync(filePath).isFile();
+        } catch (err) {
+            console.error(`Error reading reserved file: ${filePath}`, err);
+            return false; // Skip any errors
+        }
     })
     : [];
+
     files.forEach((file) => {
         t.notThrows(() => fs.readJsonSync(path.join(domainsPath, file)), `${file}: Invalid JSON file`);
     });
