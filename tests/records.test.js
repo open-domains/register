@@ -121,9 +121,20 @@ t("All files should have valid record types", (t) => {
     });
 });
 
+function isDirectory(filePath) {
+    return fs.lstatSync(filePath).isDirectory();
+}
+
 t("All files should not have duplicate record keys", (t) => {
     files.forEach((file) => {
-        const data = fs.readJsonSync(path.join(domainsPath, file));
+        const filePath = path.join(domainsPath, file);
+
+        // Skip directories
+        if (isDirectory(filePath)) {
+            return;
+        }
+
+        const data = fs.readJsonSync(filePath);
 
         const recordKeys = Object.keys(data.record);
         const uniqueRecordKeys = new Set(recordKeys);
