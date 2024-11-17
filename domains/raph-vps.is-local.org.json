@@ -11,7 +11,7 @@
     "record": {
         "A": ["213.165.82.45"],
         "MX": ["raph-vps.is-local.org"],
-        "TXT": "v=spf1 ip4:213.165.82.45 -all"
+        "SPF": "v=spf1 ip4:213.165.82.45 -all"
     },
   
     "proxied": false
