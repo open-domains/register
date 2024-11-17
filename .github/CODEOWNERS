@@ -1,6 +1,8 @@
 # All Files
 * @open-domains/owners
 
+terms.md @andrewstech
+
 # Reserved Domains
 domains/reserved/* @open-domains/owners
 
