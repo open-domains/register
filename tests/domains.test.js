@@ -16,10 +16,13 @@ t("Nested subdomains should not exist without a parent subdomain", (t) => {
         const subdomain = file.replace(".json", "");
 
         if (subdomain.split(".").length > 1) {
-            const parentSubdomain = subdomain.split(".").pop();
+            // Get parent domain by removing the last part (subdomain) from the full subdomain
+            const parentSubdomain = subdomain.split(".").slice(1).join(".");
+
+            // Ensure the parent subdomain exists
             t.true(
                 files.includes(`${parentSubdomain}.json`),
-                `${file}: Parent subdomain does not exist`
+                `${file}: Parent subdomain ${parentSubdomain}.json does not exist`
             );
         }
     });
@@ -38,7 +41,9 @@ t("Nested subdomains should not exist if the parent subdomain has NS records", (
         const subdomain = file.replace(".json", "");
 
         if (subdomain.split(".").length > 1) {
-            const parentSubdomain = subdomain.split(".").pop();
+            // Get parent domain by removing the last part (subdomain) from the full subdomain
+            const parentSubdomain = subdomain.split(".").slice(1).join(".");
+
             const parentFilePath = path.join(domainsPath, `${parentSubdomain}.json`);
 
             // Check if the parent file exists before attempting to read it
