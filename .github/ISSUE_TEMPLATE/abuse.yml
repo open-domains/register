@@ -10,18 +10,15 @@ body:
       label: "Domain"
       description: "Enter the domain name you want to report (e.g., example.com)."
       placeholder: "Enter domain here"
-      required: true
   - type: textarea
     id: reason
     attributes:
       label: "Reason"
       description: "Explain why you believe this domain is being abused. Examples include phishing, malware, or spam."
       placeholder: "Provide a detailed explanation"
-      required: true
   - type: textarea
     id: proof
     attributes:
       label: "Proof"
       description: "Provide evidence of abuse, such as screenshots, URLs, or logs showing malicious activity."
       placeholder: "Provide evidence or links"
-      required: false
