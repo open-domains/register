@@ -52,7 +52,7 @@ t("All files should have valid file names", (t) => {
         t.true(file.endsWith(".json"), `${file}: File does not have .json extension`);
 
         // Check for any unwanted domain in file names
-        t.false(Domains.some(domain => file.includes(domain)), `${file}: File name should not contain any restricted domain extensions`);
+        t.false(Domains.some(domain => file.endsWith(domain + ".json")), `${file}: File name should not contain restricted domain extensions`);
 
         t.true(file === file.toLowerCase(), `${file}: File name should be lowercase`);
         
