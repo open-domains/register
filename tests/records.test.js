@@ -2,7 +2,7 @@ const t = require("ava");
 const fs = require("fs-extra");
 const path = require("path");
 
-const validRecordTypes = ["A", "AAAA", "CAA", "CNAME", "MX", "NS", "PTR", "SRV", "TXT"];
+const validRecordTypes = ["A", "AAAA", "CAA", "CNAME", "MX", "NS", "SPF", "SRV", "TXT"];
 
 const hostnameRegex = /^(?=.{1,253}$)(?:(?:[_a-zA-Z0-9](?:[a-zA-Z0-9-]{0,61}[a-zA-Z0-9])?)\.)+[a-zA-Z]{2,63}$/;
 const ipv4Regex = /^(25[0-5]|2[0-4][0-9]|1[0-9]{2}|[1-9]?[0-9])(\.(25[0-5]|2[0-4][0-9]|1[0-9]{2}|[1-9]?[0-9])){3}$/;
@@ -267,8 +267,8 @@ t("All files should have valid record values", (t) => {
                 }
             }
 
-            // TXT: string | string[]
-            if (key === "TXT") {
+            // TXT|SPF: string | string[]
+            if (["SPF", "TXT"].includes(key)) {
                 if (Array.isArray(value)) {
                     value.forEach((record) => {
                         t.true(
