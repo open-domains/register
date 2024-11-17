@@ -16,7 +16,7 @@ NS records are available for donators only. You can donate at: https://donate.st
 ## Donate
 If you like this service and want us to continue running it, please consider donating!
 
-[![PayPal](https://www.paypalobjects.com/en_US/i/btn/btn_donateCC_LG.gif)](https://paypal.me/andrewstechyoutube)
+[![PayPal](https://www.paypalobjects.com/en_US/i/btn/btn_donateCC_LG.gif)](https://donate.stripe.com/cN2eYpaDl4NR21qaEE)
 
 ### Discord Server
 Make sure to join our Discord server:
@@ -92,9 +92,6 @@ https://discord.gg/kVjkg6VBwa
         "SRV": [
             { "priority": 10, "weight": 60, "port": 5060, "target": "sipserver.example.com" },
             { "priority": 20, "weight": 10, "port": 5061, "target": "sipbackup.example.com" }
-        ],
-        "PTR": [
-            "ptr.example.com"
         ]
     },
 
