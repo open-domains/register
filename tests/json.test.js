@@ -70,7 +70,7 @@ t("All files should have valid file names", (t) => {
 t("All files should have the required fields", (t) => {
     const files = fs.readdirSync(domainsPath).filter(file => {
     const filePath = path.join(domainsPath, file);
-    return fs.lstatSync(filePath).isFile(); // Only include files
+    return fs.lstatSync(filePath).isFile(); // Ensure only files are included
     });
     files.forEach((file) => {
         const data = fs.readJsonSync(path.join(domainsPath, file));
