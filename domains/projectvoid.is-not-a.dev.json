@@ -4,7 +4,7 @@
     "subdomain": "projectvoid",
 
     "owner": {
-        "repo": "https://github.com/dasjdw0d/projectvoid",
+        "repo": "https://github.com/dasjdw0d",
         "email": "joeylentz0525@gmail.com"
     },
 
@@ -12,5 +12,5 @@
         "A": ["38.175.196.231"]
     },
 
-    "proxied": false
+    "proxied": true
 }
