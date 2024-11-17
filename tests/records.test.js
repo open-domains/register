@@ -89,7 +89,7 @@ function isPublicIPv6(ip) {
 t("All files should have valid record types", (t) => {
     files.forEach((file) => {
         const data = fs.readJsonSync(path.join(domainsPath, file));
-        const recordKeys = Object.keys(data.records);
+        const recordKeys = Object.keys(data.record);
 
         recordKeys.forEach((key) => {
             t.true(validRecordTypes.includes(key), `${file}: Invalid record type: ${key}`);
@@ -114,7 +114,7 @@ t("All files should not have duplicate record keys", (t) => {
     files.forEach((file) => {
         const data = fs.readJsonSync(path.join(domainsPath, file));
 
-        const recordKeys = Object.keys(data.records);
+        const recordKeys = Object.keys(data.record);
         const uniqueRecordKeys = new Set(recordKeys);
 
         t.is(recordKeys.length, uniqueRecordKeys.size, `${file}: Duplicate record keys found`);
@@ -125,8 +125,8 @@ t("All files should have valid record values", (t) => {
     files.forEach((file) => {
         const data = fs.readJsonSync(path.join(domainsPath, file));
 
-        Object.keys(data.records).forEach((key) => {
-            const value = data.records[key];
+        Object.keys(data.record).forEach((key) => {
+            const value = data.record[key];
 
             // *: string[]
             if (["A", "AAAA", "MX", "NS"].includes(key)) {
