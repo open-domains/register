@@ -1,0 +1,16 @@
+{
+    "description": "A website that provides games and a web proxy.",
+    "domain": "is-not-a.dev",
+    "subdomain": "projectvoid",
+
+    "owner": {
+        "repo": "https://github.com/dasjdw0d/projectvoid",
+        "email": "joeylentz0525@gmail.com"
+    },
+
+    "record": {
+        "A": ["38.175.196.231"]
+    },
+
+    "proxied": false
+}
