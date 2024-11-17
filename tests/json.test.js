@@ -42,6 +42,12 @@ function validateOptionalFields(t, obj, optionalFields, file) {
 }
 
 t("All files should be valid JSON", (t) => {
+    const reservedFiles = fs.existsSync(reservedDomainsPath)
+    ? fs.readdirSync(reservedDomainsPath).filter(file => {
+        const filePath = path.join(reservedDomainsPath, file);
+        return fs.lstatSync(filePath).isFile(); // Only include files
+    })
+    : [];
     files.forEach((file) => {
         t.notThrows(() => fs.readJsonSync(path.join(domainsPath, file)), `${file}: Invalid JSON file`);
     });
