@@ -145,7 +145,14 @@ t("All files should not have duplicate record keys", (t) => {
 
 t("All files should have valid record values", (t) => {
     files.forEach((file) => {
-        const data = fs.readJsonSync(path.join(domainsPath, file));
+        const filePath = path.join(domainsPath, file);
+
+        // Skip directories
+        if (isDirectory(filePath)) {
+            return;
+        }
+
+        const data = fs.readJsonSync(filePath);
 
         Object.keys(data.record).forEach((key) => {
             const value = data.record[key];
@@ -164,16 +171,12 @@ t("All files should have valid record values", (t) => {
                         t.regex(
                             record,
                             ipv4Regex,
-                            `${file}: Record value should be a valid IPv4 address for ${key} at index ${value.indexOf(
-                                record
-                            )}`
+                            `${file}: Record value should be a valid IPv4 address for ${key} at index ${value.indexOf(record)}`
                         );
 
                         t.true(
                             isPublicIPv4(record, data.proxied),
-                            `${file}: Record value should be a public IPv4 address for ${key} at index ${value.indexOf(
-                                record
-                            )}`
+                            `${file}: Record value should be a public IPv4 address for ${key} at index ${value.indexOf(record)}`
                         );
                     });
                 }
@@ -184,16 +187,12 @@ t("All files should have valid record values", (t) => {
                         t.regex(
                             expandIPv6(record),
                             ipv6Regex,
-                            `${file}: Record value should be a valid IPv6 address for ${key} at index ${value.indexOf(
-                                record
-                            )}`
+                            `${file}: Record value should be a valid IPv6 address for ${key} at index ${value.indexOf(record)}`
                         );
 
                         t.true(
                             isPublicIPv6(record),
-                            `${file}: Record value should be a public IPv6 address for ${key} at index ${value.indexOf(
-                                record
-                            )}`
+                            `${file}: Record value should be a public IPv6 address for ${key} at index ${value.indexOf(record)}`
                         );
                     });
                 }
@@ -204,9 +203,7 @@ t("All files should have valid record values", (t) => {
                         t.regex(
                             record,
                             hostnameRegex,
-                            `${file}: Record value should be a valid hostname for ${key} at index ${value.indexOf(
-                                record
-                            )}`
+                            `${file}: Record value should be a valid hostname for ${key} at index ${value.indexOf(record)}`
                         );
                     });
                 }
@@ -254,16 +251,12 @@ t("All files should have valid record values", (t) => {
                     value.forEach((record) => {
                         t.true(
                             typeof record.priority === "number",
-                            `${file}: SRV record value should have a number for priority at index ${value.indexOf(
-                                record
-                            )}`
+                            `${file}: SRV record value should have a number for priority at index ${value.indexOf(record)}`
                         );
 
                         t.true(
                             typeof record.weight === "number",
-                            `${file}: SRV record value should have a number for weight at index ${value.indexOf(
-                                record
-                            )}`
+                            `${file}: SRV record value should have a number for weight at index ${value.indexOf(record)}`
                         );
 
                         t.true(
@@ -273,17 +266,13 @@ t("All files should have valid record values", (t) => {
 
                         t.true(
                             typeof record.target === "string",
-                            `${file}: SRV record value should have a string for target at index ${value.indexOf(
-                                record
-                            )}`
+                            `${file}: SRV record value should have a string for target at index ${value.indexOf(record)}`
                         );
 
                         t.regex(
                             value.target,
                             hostnameRegex,
-                            `${file}: SRV record value should be a valid hostname for target at index ${value.indexOf(
-                                record
-                            )}`
+                            `${file}: SRV record value should be a valid hostname for target at index ${value.indexOf(record)}`
                         );
                     });
                 }
