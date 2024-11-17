@@ -80,11 +80,11 @@ t("All files should have the required fields", (t) => {
     });
 });
 
-t("All files should have valid optional fields", (t) => {
+t("All files should have valid optional owner fields", (t) => {
     files.forEach((file) => {
         const data = fs.readJsonSync(path.join(domainsPath, file));
 
-        validateOptionalFields(t, data, optionalFields, file);
+        validateOptionalFields(t, data, optionalOwnerFields, file);
 
         if (data.owner.email) {
             t.regex(data.owner.email, emailRegex, `${file}: Owner email should be a valid email address`);
