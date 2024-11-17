@@ -1,0 +1,12 @@
+name: "Question"
+description: "Use this template to ask any questions about the service"
+title: "What's your question?"
+labels: 
+  - question
+body:
+  - type: textarea
+    id: question
+    attributes:
+      label: "Your question"
+      description: "Enter your question about the service here."
+      placeholder: "Type your question..."
