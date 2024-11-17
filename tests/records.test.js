@@ -86,8 +86,6 @@ function isPublicIPv6(ip) {
     );
 }
 
-const files = fs.readdirSync(domainsPath);
-
 function isDirectory(filePath) {
     return fs.lstatSync(filePath).isDirectory();
 }
