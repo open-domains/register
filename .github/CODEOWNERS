@@ -1,7 +1,6 @@
 # All Files
 * @open-domains/owners
 
-terms.md @andrewstech
 
 # Reserved Domains
 domains/reserved/* @open-domains/owners
@@ -10,5 +9,5 @@ domains/reserved/* @open-domains/owners
 domains/* @open-domains/maintainers
 
 # MD Files
-*.md @open-domains/maintainers
+README.md @open-domains/maintainers
 terms.md @open-domains/owners
