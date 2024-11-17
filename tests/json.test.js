@@ -3,7 +3,7 @@ const fs = require("fs-extra");
 const path = require("path");
 
 const requiredFields = {
-    owner: "object",
+    //owner: "object",
     record: "object"
 };
 
