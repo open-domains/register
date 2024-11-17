@@ -34,7 +34,7 @@ jobs:
 
             - name: Check DNS
               id: dns_check
-              uses: koenrh/dnscontrol-action@v3
+              uses: is-a-dev/dnscontrol-action@main
               with:
                args: check
                config_file: "dnsconfig.js"
@@ -65,10 +65,6 @@ jobs:
                labels: "Validated DNS"
                github_token: ${{ steps.create_token.outputs.token }}
 
-            - name: Check
-              uses: is-a-dev/dnscontrol-action@main
-              with:
-                  args: check
 
     tests:
         name: Tests
