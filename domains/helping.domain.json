@@ -7,7 +7,6 @@
     "email": "thewonderedhelp@gmail.com"
   },
   "record": {
-    "A": ["1.1.1.1", "1.0.0.1"],
     "CNAME": "litlhelper.github.io",
     "proxied": false
   }
