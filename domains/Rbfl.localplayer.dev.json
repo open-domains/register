@@ -12,6 +12,7 @@
         "CNAME": {
             "Name": "www"
             "Value": "ghs.googlehosted.com."
+        }
     },
 
     "proxied": false
