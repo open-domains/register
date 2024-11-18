@@ -10,5 +10,5 @@
         "CNAME": "website-720.pages.dev"
     },
 
-    "proxied": true
+    "proxied": false
 }
