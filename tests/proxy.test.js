@@ -6,18 +6,24 @@ const requiredRecordsToProxy = ["A", "AAAA", "CNAME"];
 
 function validateProxiedRecords(t, data, file) {
     if (data.proxied) {
-        const hasProxiedRecord = Object.keys(data.record).some((key) => requiredRecordsToProxy.includes(key));
+        const hasProxiedRecord = Object.keys(data.record || {}).some((key) => requiredRecordsToProxy.includes(key));
 
         t.true(hasProxiedRecord, `${file}: Proxied is true but there are no records that can be proxied`);
     }
 }
 
 const domainsPath = path.resolve("domains");
-const files = fs.readdirSync(domainsPath);
 
-t("Domains with proxy enabled should have have at least one record that can be proxied", (t) => {
+// Filter to only include files (exclude directories)
+const files = fs.readdirSync(domainsPath).filter((file) => {
+    const filePath = path.join(domainsPath, file);
+    return fs.lstatSync(filePath).isFile();
+});
+
+t("Domains with proxy enabled should have at least one record that can be proxied", (t) => {
     files.forEach((file) => {
-        const domain = fs.readJsonSync(path.join(domainsPath, file));
+        const filePath = path.join(domainsPath, file);
+        const domain = fs.readJsonSync(filePath);
 
         validateProxiedRecords(t, domain, file);
     });
