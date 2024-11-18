@@ -11,5 +11,5 @@
         "CNAME": "amythyst.pages.dev"
     },
 
-    "proxied": false
+    "proxied": true
 }
