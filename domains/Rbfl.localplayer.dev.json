@@ -9,10 +9,7 @@
     },
 
     "record": {
-        "CNAME": {
-            "Name": "www"
-            "Value": "ghs.googlehosted.com."
-        }
+        "CNAME": "ghs.googlehosted.com."
     },
 
     "proxied": false
