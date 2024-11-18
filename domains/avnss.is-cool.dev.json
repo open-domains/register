@@ -9,5 +9,5 @@
 	"record": {
 		"CNAME": "ss.avnmsoft.xyz"
 	},
-	"proxied": false
+	"proxied": true
 }
