@@ -119,12 +119,12 @@ jobs:
           github_token: ${{ steps.create_token.outputs.token }}
           
   tests:
-  name: Tests
-  if: "!contains(github.event.head_commit.message, '[skip-ci]')"
-  runs-on: ubuntu-latest
-  steps:
-      - uses: actions/checkout@v4
+    name: Tests
+    if: "!contains(github.event.head_commit.message, '[skip-ci]')"
+    runs-on: ubuntu-latest
+    steps:
+       - uses: actions/checkout@v4
 
-      - run: npm install
+       - run: npm install
 
-      - run: npm test
+       - run: npm test
