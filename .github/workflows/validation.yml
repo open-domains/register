@@ -4,9 +4,7 @@ on:
     pull_request:
 
     push:
-        branches: 
-        - 'main'
-        - 'Kyro3400-patch-1'
+        branches: [main]
         paths:
             - "domains/*"
             - "tests/*"
