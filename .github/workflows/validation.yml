@@ -15,60 +15,63 @@ on:
     workflow_dispatch:
 
 concurrency:
-    group: ${{ github.ref }}-validation
-    cancel-in-progress: true
-
+  group: ${{ github.ref }}-validation
+  cancel-in-progress: true
+  
 jobs:
-    dns:
-        name: DNS
-        if: "!contains(github.event.head_commit.message, '[skip-ci]')"
-        runs-on: ubuntu-latest
-        steps:
-            - uses: actions/checkout@v4
+  dns:
+   name: DNS
+   if: "!contains(github.event.head_commit.message, '[skip-ci]')"
+   runs-on: ubuntu-latest
+   steps:
+      - uses: actions/checkout@v4
+        with:
+          ref: ${{ github.event.pull_request.head.sha }}
 
-            - id: create_token
-              uses: tibdex/github-app-token@v2
-              with:
-               app_id: ${{ secrets.APP_ID }}
-               private_key: ${{ secrets.PRIVATE_KEY }}
+      - id: create_token
+        uses: tibdex/github-app-token@v2
+        with:
+          app_id: ${{ secrets.APP_ID }}
+          private_key: ${{ secrets.PRIVATE_KEY }}
 
-            - name: Check DNS
-              id: dns_check
-              uses: is-a-dev/dnscontrol-action@main
-              with:
-               args: check
-               config_file: "dnsconfig.js"
+      - name: Check DNS
+        id: dns_check
+        uses: is-a-dev/dnscontrol-action@main
+        with:
+           args: check
+           config_file: "dnsconfig.js"
 
-            - name: Add Validated DNS Label
-              if: ${{ steps.dns_check.outcome == 'success' }}
-              uses: actions-ecosystem/action-add-labels@v1
-              with:
-               labels: "Validated DNS"
-               github_token: ${{ steps.create_token.outputs.token }}
-            - name: Remove Invalid DNS Label
-              if: ${{ steps.dns_check.outcome == 'success' }}
-              uses: actions-ecosystem/action-remove-labels@v1
-              with:
-               labels: "Invalid DNS"
-               github_token: ${{ steps.create_token.outputs.token }}
+      - name: Add Validated DNS Label
+        if: ${{ steps.dns_check.outcome == 'success' }}
+        uses: actions-ecosystem/action-add-labels@v1
+        with:
+           labels: "Validated DNS"
+           github_token: ${{ steps.create_token.outputs.token }}
+      - name: Remove Invalid DNS Label
+        if: ${{ steps.dns_check.outcome == 'success' }}
+        uses: actions-ecosystem/action-remove-labels@v1
+        with:
+          labels: "Invalid DNS"
+          github_token: ${{ steps.create_token.outputs.token }}
 
-            - name: Add Invalid DNS Label
-              if: ${{ failure() }}
-              uses: actions-ecosystem/action-add-labels@v1
-              with:
-               labels: "Invalid DNS"
-               github_token: ${{ steps.create_token.outputs.token }}
-            - name: Remove Validated DNS Label
-              if: ${{ failure() }}
-              uses: actions-ecosystem/action-remove-labels@v1
-              with:
-               labels: "Validated DNS"
-               github_token: ${{ steps.create_token.outputs.token }}
+      - name: Add Invalid DNS Label
+        if: ${{ failure() }}
+        uses: actions-ecosystem/action-add-labels@v1
+        with:
+          labels: "Invalid DNS"
+          github_token: ${{ steps.create_token.outputs.token }}
 
-    json:
-      name: JSON
-      runs-on: ubuntu-latest
-      steps:
+      - name: Remove Validated DNS Label
+        if: ${{ failure() }}
+        uses: actions-ecosystem/action-remove-labels@v1
+        with:
+           labels: "Validated DNS"
+           github_token: ${{ steps.create_token.outputs.token }}
+
+  json:
+    name: JSON
+    runs-on: ubuntu-latest
+    steps:
       - uses: actions/checkout@v4
         with:
           ref: ${{ github.event.pull_request.head.sha }}
@@ -113,13 +116,13 @@ jobs:
           labels: "Validated JSON"
           github_token: ${{ steps.create_token.outputs.token }}
           
-    tests:
-        name: Tests
-        if: "!contains(github.event.head_commit.message, '[skip-ci]')"
-        runs-on: ubuntu-latest
-        steps:
-            - uses: actions/checkout@v4
+  tests:
+  name: Tests
+  if: "!contains(github.event.head_commit.message, '[skip-ci]')"
+  runs-on: ubuntu-latest
+  steps:
+      - uses: actions/checkout@v4
 
-            - run: npm install
+      - run: npm install
 
-            - run: npm test
+      - run: npm test
