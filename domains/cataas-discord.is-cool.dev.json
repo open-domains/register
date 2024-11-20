@@ -1,0 +1,16 @@
+{
+    "description": "Project Description",
+    "domain": "is-not-a.dev",
+    "subdomain": "example",
+
+    "owner": {
+        "repo": "https://github.com/fabianvanacoleyen/cataas-discord-bot",
+        "email": "fabianvanacoley@gmail.com"
+    },
+
+    "record": {
+        "CNAME": "https://fabianvanacoleyen.github.io/cataas-discord-bot/sitefiles/index.html"
+    },
+
+    "proxied": false
+}
