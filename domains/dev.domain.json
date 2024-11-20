@@ -1,13 +1,15 @@
 {
-  "description": "Final year project : Realtime smart parking Web App",
-  "domain": "is-a-fullstack.dev",
-  "subdomain": "example",
-  "owner": {
-    "repo": "https://github.com/sYnceDex41/register",
-    "email": "daimdev6@gmail.com"
-  },
-  "record": {
-    "A": ["4.240.103.179"]
-  },
-  "proxied": false
+    "description": "Final year project : Realtime smart parking Web App",
+    "domain": "is-a-fullstack.dev",
+    "subdomain": "example",
+    "owner": {
+        "repo": "https://github.com/sYnceDex41/register",
+        "email": "daimdev6@gmail.com"
+    },
+    "record": {
+        "A": [
+            "4.240.103.179"
+        ]
+    },
+    "proxied": false
 }
