@@ -9,7 +9,7 @@
     },
 
     "record": {
-        "NS": ["amalia.ns.cloudflare.com", "maciej.ns.cloudflare.com"],
+        "CNAME": "evansrrr.netlify.app"
     },
 
     "proxied": false
