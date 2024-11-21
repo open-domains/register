@@ -1,0 +1,14 @@
+{
+    "description": "Allset Web Application",
+    "domain": "allset.dev",
+    "subdomain": "www",
+
+    "owner": {
+        "repo": "https://github.com/Arnavgr8/Allset/tree/main",
+        "email": "malhotraarnav70@gmail.com"
+    },
+
+    "record": {},
+
+    "proxied": false
+}
