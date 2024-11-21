@@ -9,8 +9,7 @@
     },
 
     "record": {
-        "A": ["34.102.250.126"],
-        "CNAME": "hunkaa.divhunt.art"
+        "A": ["34.102.250.126"]
     },
 
     "proxied": false
