@@ -28,7 +28,7 @@ jobs:
           path-to-document: 'https://github.com/open-domains/register/blob/main/terms.md' # e.g. a CLA or a DCO document
           # branch should not be protected
           branch: 'main'
-          allowlist: od-bot,bot*,“kyro3400”
+          allowlist: od-bot,bot*,kyro3400
           remote-organization-name: 'open-domains'
           remote-repository-name: 'cla'
           lock-pullrequest-aftermerge: false
