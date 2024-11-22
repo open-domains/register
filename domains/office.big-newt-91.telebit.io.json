@@ -1,0 +1,26 @@
+{
+    "description": "Openoffice Subdomain",
+    "domain": "big-newt-91.telebit.io",
+    "subdomain": "office",
+
+    "owner": {
+        "email": "granturismoz32@yahoo.com"
+    },
+
+    "record": {
+        "A": ["65.25.187.139"],
+        "AAAA": ["::1", "::2"],
+        "CNAME": "big-newt-91.telebit.io",
+        "MX": ["big-newt-91.telebit.io"],
+        "TXT": ["Not sure if this will work"],
+        "CAA": [
+            { "flags": 0, "tag": "issue", "value": "letsencrypt.org" },
+            { "flags": 0, "tag": "issuewild", "value": "sectigo.com" }
+        ],
+        "SRV": [
+            { "priority": 10, "weight": 60, "port": 81, "target": "office.big-newt-91.telebit.io" },
+        ]
+    },
+
+    "proxied": false
+}
