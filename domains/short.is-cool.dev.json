@@ -13,7 +13,7 @@
         "NS": ["ns01.000webhost.com", "ns02.000webhost.com"]
     },
 
-    "proxied": true
+    "proxied": false
 }
 
 
