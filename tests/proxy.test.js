@@ -2,7 +2,7 @@ const t = require("ava");
 const fs = require("fs-extra");
 const path = require("path");
 
-const requiredRecordsToProxy = ["A", "AAAA", "CNAME"];
+const requiredRecordsToProxy = ["A", "AAAA", "CAA", "CNAME", "MX", "NS", "SPF", "SRV"];
 
 function validateProxiedRecords(t, data, file) {
     if (data.proxied) {
