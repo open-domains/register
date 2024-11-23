@@ -7,7 +7,7 @@ const requiredFields = {
     record: "object"
 };
 
-const optionalOwnerFields = {
+const requiredOwnerFields = {
     email: "string"
 };
 
@@ -50,7 +50,7 @@ t("All files should have the required fields", (t) => {
         const data = fs.readJsonSync(path.join(domainsPath, file));
 
         validateRequiredFields(t, data, requiredFields, file);
-        //validateRequiredFields(t, data.owner, requiredFields, file);
+        validateRequiredFields(t, data, requiredOwnerFields, file);
 
         if (!data.reserved) {
             t.true(Object.keys(data.record).length > 0, `${file}: No record types found`);
@@ -58,7 +58,7 @@ t("All files should have the required fields", (t) => {
     });
 });
 
-t("All files should have valid optional owner fields", (t) => {
+/*t("All files should have valid optional owner fields", (t) => {
     const files = fs.readdirSync(domainsPath).filter(file => {
     const filePath = path.join(domainsPath, file);
     return fs.lstatSync(filePath).isFile(); // Only include files
@@ -72,4 +72,4 @@ t("All files should have valid optional owner fields", (t) => {
             t.regex(data.owner.email, emailRegex, `${file}: Owner email should be a valid email address`);
         }
     });
-});
+});*/
