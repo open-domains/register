@@ -6,7 +6,9 @@
         "email": "aboutuste@gmail.com"
     },
     "record": {
-        "CNAME": ["aboutuste.github.io"],
+        "CNAME": [
+            "aboutuste.github.io"
+        ]
     },
     "proxied": false
 }
