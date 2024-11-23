@@ -10,5 +10,5 @@
         "TXT": ["zoho-verification=zb65903823.zmverify.zoho.in"]
     },
 
-    "proxied": true
+    "proxied": false
 }
