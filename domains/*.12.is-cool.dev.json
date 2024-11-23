@@ -1,0 +1,16 @@
+{
+    "description": "School Unblocker..",
+
+    "domain": "is-cool.dev",
+    "subdomain": "12",
+
+    "owner": {
+        "email": "slimy176@gmail.com"
+    },
+
+    "record": {
+        "A": ["104.243.41.121"]
+    },
+
+    "proxied": false
+}
