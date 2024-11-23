@@ -50,7 +50,7 @@ t("All files should have the required fields", (t) => {
         const data = fs.readJsonSync(path.join(domainsPath, file));
 
         validateRequiredFields(t, data, requiredFields, file);
-        validateRequiredFields(t, data, requiredOwnerFields, file);
+        validateRequiredFields(t, data.owner, requiredOwnerFields, file);
 
         if (!data.reserved) {
             t.true(Object.keys(data.record).length > 0, `${file}: No record types found`);
