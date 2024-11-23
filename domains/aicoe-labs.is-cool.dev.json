@@ -1,0 +1,14 @@
+{
+    "domain": "is-cool.dev",
+    "subdomain": "aicoe-labs",
+
+    "owner": {
+        "email": "patrickxchong@gmail.com"
+    },
+
+    "record": {
+        "A": ["18.143.100.40"]
+    },
+
+    "proxied": false
+}

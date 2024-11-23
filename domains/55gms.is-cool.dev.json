@@ -1,0 +1,14 @@
+{
+    "domain": "is-cool.dev",
+    "subdomain": "55gms",
+
+    "owner": {
+        "email": "jiayangc1@gmail.com"
+    },
+
+    "record": {
+        "A": ["15.204.232.110"]
+    },
+
+    "proxied": true
+}

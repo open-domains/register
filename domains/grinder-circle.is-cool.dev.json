@@ -1,0 +1,16 @@
+{
+    "description": "IPTV Streaming",
+    "domain": "is-cool.dev",
+    "subdomain": "grinder-circle",
+
+    "owner": {
+        "repo": "https://github.com/antebrl/IPTV-StreamHub",
+        "email": "ahcwnh@gmail.com"
+    },
+
+    "record": {
+        "A": ["34.159.173.219"]
+    },
+
+    "proxied": false
+}
