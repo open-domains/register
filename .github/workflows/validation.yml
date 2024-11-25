@@ -1,7 +1,7 @@
 name: Validation
 
 on:
-    pull_request:
+    pull_request_target:
 
     push:
         branches: [main]
@@ -17,13 +17,12 @@ on:
 concurrency:
   group: ${{ github.ref }}-validation
   cancel-in-progress: true
-  
+
 jobs:
   dns:
-   name: DNS
-   if: "!contains(github.event.head_commit.message, '[skip-ci]')"
-   runs-on: ubuntu-latest
-   steps:
+    name: DNS
+    runs-on: ubuntu-latest
+    steps:
       - uses: actions/checkout@v4
         with:
           ref: ${{ github.event.pull_request.head.sha }}
@@ -38,15 +37,15 @@ jobs:
         id: dns_check
         uses: is-a-dev/dnscontrol-action@main
         with:
-           args: check
-           config_file: "dnsconfig.js"
+          args: check
+          config_file: "dnsconfig.js"
 
       - name: Add Validated DNS Label
         if: ${{ steps.dns_check.outcome == 'success' }}
         uses: actions-ecosystem/action-add-labels@v1
         with:
-           labels: "Validated DNS"
-           github_token: ${{ steps.create_token.outputs.token }}
+          labels: "Validated DNS"
+          github_token: ${{ steps.create_token.outputs.token }}
       - name: Remove Invalid DNS Label
         if: ${{ steps.dns_check.outcome == 'success' }}
         uses: actions-ecosystem/action-remove-labels@v1
@@ -60,13 +59,12 @@ jobs:
         with:
           labels: "Invalid DNS"
           github_token: ${{ steps.create_token.outputs.token }}
-
       - name: Remove Validated DNS Label
         if: ${{ failure() }}
         uses: actions-ecosystem/action-remove-labels@v1
         with:
-           labels: "Validated DNS"
-           github_token: ${{ steps.create_token.outputs.token }}
+          labels: "Validated DNS"
+          github_token: ${{ steps.create_token.outputs.token }}
 
   json:
     name: JSON
