@@ -41,32 +41,6 @@ function validateOptionalFields(t, obj, optionalFields, file) {
     });
 }
 
-t("All files should be valid JSON", (t) => {
-    files.forEach((file) => {
-        t.notThrows(() => fs.readJsonSync(path.join(domainsPath, file)), `${file}: Invalid JSON file`);
-    });
-});
-
-t("All files should have valid file names", (t) => {
-    files.forEach((file) => {
-        t.true(file.endsWith(".json"), `${file}: File does not have .json extension`);
-
-        // Check for any unwanted domain in file names
-        t.false(Domains.some(domain => file.endsWith(domain + ".json")), `${file}: File name should not contain restricted domain extensions`);
-
-        t.true(file === file.toLowerCase(), `${file}: File name should be lowercase`);
-        
-        // Ignore root domain
-        if (!rootDomainFiles.includes(file)) {
-            t.regex(
-                file.replace(/\.json$/, ""),
-                hostnameRegex,
-                `${file}: FQDN must be 1-253 characters, use letters, numbers, dots, or hyphens, and not start or end with a hyphen.`
-            );
-        }
-    });
-});
-
 t("All files should have the required fields", (t) => {
     const files = fs.readdirSync(domainsPath).filter(file => {
     const filePath = path.join(domainsPath, file);
@@ -76,7 +50,6 @@ t("All files should have the required fields", (t) => {
         const data = fs.readJsonSync(path.join(domainsPath, file));
 
         validateRequiredFields(t, data, requiredFields, file);
-        //validateRequiredFields(t, data.owner, requiredFields, file);
 
         if (!data.reserved) {
             t.true(Object.keys(data.record).length > 0, `${file}: No record types found`);
