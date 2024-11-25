@@ -13,7 +13,7 @@ t("Nested subdomains should not exist without a parent subdomain", (t) => {
             return; // Skip directories
         }
 
-        const subdomain = file.replace(".json", "");
+        const subdomain = file.replace(/\.json$/, "");
 
         if (subdomain.split(".").length > 1) {
             // Get parent domain by removing the last part (subdomain) from the full subdomain
@@ -38,7 +38,7 @@ t("Nested subdomains should not exist if the parent subdomain has NS records", (
             return; // Skip directories
         }
 
-        const subdomain = file.replace(".json", "");
+        const subdomain = file.replace(/\.json$/, "");
 
         if (subdomain.split(".").length > 1) {
             // Get parent domain by removing the last part (subdomain) from the full subdomain
