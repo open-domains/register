@@ -1,0 +1,18 @@
+{
+
+    "description": "github verification",
+
+    "domain": "is-cool.dev",
+    "subdomain": "_github-pages-challenge-codimationtech.codimationtech",
+
+    "owner": {
+        "repo": "https://github.com/codimationtech/",
+        "email": "codimationtech@gmail.com"
+    },
+
+    "record": {
+        "TXT": ["39b81d3d8996462398bf81b8b47386"]
+    },
+
+    "proxied": false
+}
