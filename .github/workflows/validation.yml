@@ -12,7 +12,6 @@ on:
             - ".github/workflows/validate.yml"
             - "dnsconfig.js"
 
-    workflow_dispatch:
 
 concurrency:
   group: ${{ github.ref }}-validation
