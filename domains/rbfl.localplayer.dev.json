@@ -1,7 +1,7 @@
 {
     "description": "The official website of the team RBFL",
     "domain": "localplayer.dev",
-    "subdomain": "RBFL",
+    "subdomain": "rbfl",
 
     "owner": {
         "repo": "https://github.com/WasiTC/Rbfl",
@@ -9,7 +9,7 @@
     },
 
     "record": {
-        "CNAME": "ghs.google.com"
+        "CNAME": "ghs.googlehosted.com"
     },
 
     "proxied": false
