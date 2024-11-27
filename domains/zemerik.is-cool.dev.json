@@ -9,7 +9,7 @@
     },
 
     "record": {
-        "URL": "https://zemerik.is-a.dev"
+        "CNAME": "zemerik.is-a.dev"
     },
 
     "proxied": false
