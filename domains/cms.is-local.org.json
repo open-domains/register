@@ -2,7 +2,7 @@
 {
     "description": "Personal CMS Website",
 
-    "domain": "is-cool.dev",
+    "domain": "is-local.org",
     "subdomain": "cms",
 
     "owner": {
