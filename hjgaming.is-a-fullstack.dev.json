@@ -1,0 +1,16 @@
+{
+    "description": "Arbotix Development",
+    "domain": "is-a-fullstack.dev",
+    "subdomain": "hjgaming",
+
+    "owner": {
+        "repo": "https://github.com/SourceCodezShop/register",
+        "email": "jariwalaharshal80@gmail.com"
+    },
+
+    "record": {
+        "A": ["76.76.21.21"]
+    },
+
+    "proxied": false
+}
