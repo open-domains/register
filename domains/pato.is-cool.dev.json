@@ -9,7 +9,8 @@
     },
 
     "record": {
-        "CNAME": "patoflamejantetv.github.io"
+        "CNAME": "patoflamejantetv.github.io",
+        "_github-pages-challenge-PatoFlamejanteTV": "5e7d7eccd736cadf79ac3e40fd1b7c"
     },
 
     "proxied": false
