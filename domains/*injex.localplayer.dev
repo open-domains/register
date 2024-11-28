@@ -1,0 +1,20 @@
+{
+    "description": "Proxy site",
+
+    "domain": "localplayer.dev",
+    "subdomain": "injex",
+
+    "owner": {
+        "repo": "https://github.com/strongdogxp/elixir",
+        "email": "josh@pettits.net"
+    },
+
+    "record": {
+        "CNAME": "ns-1528.awsdns-63.org"
+        "CNAME": "ns-517.awsdns-00.net"
+        "CNAME": "ns-1942.awsdns-50.co.uk"
+        "CNAME": "ns-450.awsdns-56.com"
+    },
+
+    "proxied": false
+}
