@@ -1,0 +1,20 @@
+158.178.206.169
+{
+    "description": "ImAxolotlicek Portfolio",
+    "domain": "is-cool.dev",
+    "subdomain": "imaxolotlicek",
+
+    "owner": {
+        "repo": "https://github.com/ImAxolotlicekDev/register2",
+        "email": "jan.benes@imaxolotlicek.eu"
+    },
+
+    "record": {
+        "A": ["158.178.206.169"],
+        "AAAA": ["::1", "::2"],
+        "CNAME": "example.com",
+        "MX": ["6f1ead3638134ed8.mx2.emailprofi.seznam.cz	", "6f1ead3638134ed8.mx1.emailprofi.seznam.cz	"],
+    },
+
+    "proxied": false
+}
