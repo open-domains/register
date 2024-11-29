@@ -1,0 +1,14 @@
+{
+    "domain": "is-local.org",
+    "subdomain": "*.sportslivelk",
+
+    "owner": {
+        "email": "mdrochana93@gmail.com"
+    },
+
+    "record": {
+        "CNAME": "383zyusx94sis.ahost.marscode.site",
+    },
+
+    "proxied": false
+}
