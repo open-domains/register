@@ -1,0 +1,16 @@
+{
+    "description": "SPORT LIVE LK",
+    "domain": "localplayer.dev",
+    "subdomain": "*.sportlivelk",
+    "owner": {
+        "repo": "https://github.com/rochana-sadila/register",
+        "email": "mdrochana93@gmail.com"
+    },
+    "record": {
+        "CNAME": "383zyusx94sis.ahost.marscode.site",
+
+    },
+
+
+    "proxied": false
+}
