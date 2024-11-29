@@ -4,11 +4,11 @@
     "subdomain": "hks",
 
     "owner": {
-        "email": "alekbill@gmail.com"
+        "repo": "https://github.com/alekbill/hks"
     },
 
     "record": {
-        "A": ["147.45.75.208"],
+        "A": ["147.45.75.208"]
     },
 
     "proxied": false
