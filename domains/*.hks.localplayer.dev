@@ -1,0 +1,15 @@
+{
+    "description": "Will be used to allow me to access my self-hosted VPS instance when out and about, without needing to access it through the IP address. On VPS many projects: docker, Torrserve, Nginx and other. I need the wildcard subdomain to allow me to access the services that I host over secure https, without needing to get an alternative domain for it. For example, I can host the uptime monitor for my VPS on up.hks.localplayer.dev",
+    "domain": "localplayer.dev",
+    "subdomain": "*.hks",
+
+    "owner": {
+        "email": "alekbill@gmail.com"
+    },
+
+    "record": {
+        "A": ["147.45.75.208"],
+    },
+
+    "proxied": false
+}
