@@ -1,10 +1,11 @@
 {
-    "description": "Will be used to allow me to access my self-hosted VPS instance when out and about, without needing to access it through the IP address. On VPS many projects: docker, Torrserve, Nginx and other. I need the wildcard subdomain to allow me to access the services that I host over secure https, without needing to get an alternative domain for it. For example, I can host the uptime monitor for my VPS on up.hks.localplayer.dev",
+    "description": "Personal server study such as nginx, Minecraft server and so on.",
     "domain": "localplayer.dev",
     "subdomain": "hks",
 
     "owner": {
-        "repo": "https://github.com/alekbill/hks"
+        "repo": "https://github.com/alekbill/register",
+        "email": "alekbill@gmail.com"
     },
 
     "record": {
