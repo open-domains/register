@@ -1,13 +1,13 @@
 {
   "description": "Project Description",
-  "domain": "is-not-a.dev",
-  "subdomain": "example",
+  "domain": "techpro",
+  "subdomain": "is-a.dev",
   "owner": {
     "repo": "https://github.com/rgraves0/open-domain-register",
     "email": "thazaw@mconn.eu.org"
   },
   "record": {
-    "A": ["1.1.1.1", "1.0.0.1"],
+    "A": ["1.1.1.1", "1.0.0.1"], #Later I'll put Cloudflare
     "AAAA": ["::1", "::2"],
     "CNAME": "example.com",
     "MX": ["mx1.example.com", "mx2.example.com"],
