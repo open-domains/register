@@ -1,0 +1,17 @@
+{
+    "description": "domain for my bio",
+
+    "domain": "is-cool.dev",
+    "subdomain": "*.tong",
+
+    "owner": {
+        "repo": "https://github.com/rochana-sadila/tong-bio",
+        "email": "rochanasadila@gmail.com"
+    },
+
+    "record": {
+        "CNAME": "383zyrozcr38d.ahost.marscode.site",
+    },
+
+    "proxied": false
+}
