@@ -1,0 +1,16 @@
+{
+    "description": "Personal Portfolio",
+    "domain": "is-a-fullstack.dev",
+    "subdomain": "theveryheavy",
+
+    "owner": {
+        "repo": "https://github.com/theveryheavy/portfolio",
+        "email": "theheavy.fiverr@gmail.com"
+    },
+
+    "record": {
+        "CNAME": "https://theveryheavy.github.io/portfolio/"
+    },
+
+    "proxied": true
+}
