@@ -1,5 +1,5 @@
 {
-    "domain": "snnttechv.is-local.org",
+    "domain": "*.snnttechv.is-local.org",
     "subdomain": "*.snnttechv",
 
     "owner": {
