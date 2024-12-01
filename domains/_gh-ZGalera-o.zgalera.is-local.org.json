@@ -1,7 +1,7 @@
 {
     "description": "ZGalera Inc.",
     "domain": "is-local.org",
-    "subdomain": "_gh-ZGalera-o",
+    "subdomain": "_gh-ZGalera-o.zgalera",
 
     "owner": {
         "repo": "https://github.com/zgalera/zgalera-website",
