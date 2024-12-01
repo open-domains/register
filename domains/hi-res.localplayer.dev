@@ -1,0 +1,13 @@
+{
+    "domain": "hi-res",
+    "subdomain": "localplayer.dev",
+
+    "owner": {
+        "email": "j3rryfate@hotmail.com"
+    },
+
+    "record": {},   
+  
+
+    "proxied": false
+}
