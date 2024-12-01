@@ -6,8 +6,6 @@
     "repo": "https://github.com/rgraves0/open-domain-register",
     "email": "thazaw@mconn.eu.org"
   },
-  "record": {
-    "CNAME": "drive-login-rho.vercel.app"
-  },
+  "record": { },
   "proxied": false
 }
