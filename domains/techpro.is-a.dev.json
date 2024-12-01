@@ -1,6 +1,6 @@
 {
   "description": "github verifaction ",
-  "domain": "is-a.dev",
+  "domain": "is-not-a.dev",
   "subdomain": "techpro",
   "owner": {
     "repo": "https://github.com/rgraves0/open-domain-register",
