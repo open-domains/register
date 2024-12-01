@@ -7,8 +7,7 @@
     "email": "thazaw@mconn.eu.org"
   },
   "record": {
- "NS": daphne.ns.cloudflare.com
- "NS": lamar.ns.cloudflare.com
+"A" : [223.24.158.186]
   },
   "proxied": false
 }
