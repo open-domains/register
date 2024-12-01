@@ -1,13 +1,16 @@
 {
-  "description": "For Tech site ",
-  "domain": "is-not-a.dev",
-  "subdomain": "techpro",
-  "owner": {
-    "repo": "https://github.com/rgraves0/open-domain-register",
-    "email": "thazaw@mconn.eu.org"
-  },
-  "record": {
-  "A": ["1.1.1.1", "1.0.0.1"],
-  },
-  "proxied": false
+    "description": "For Tech site ",
+    "domain": "is-not-a.dev",
+    "subdomain": "techpro",
+    "owner": {
+        "repo": "https://github.com/rgraves0/open-domain-register",
+        "email": "thazaw@mconn.eu.org"
+    },
+    "record": {
+        "A": [
+            "1.1.1.1",
+            "1.0.0.1"
+        ]
+    },
+    "proxied": false
 }
