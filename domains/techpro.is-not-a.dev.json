@@ -6,6 +6,8 @@
     "repo": "https://github.com/rgraves0/open-domain-register",
     "email": "thazaw@mconn.eu.org"
   },
-  "record": { },
+  "record": {
+    "A" : "223.24.158.186"
+  },
   "proxied": false
 }
