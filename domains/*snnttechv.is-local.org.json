@@ -6,7 +6,9 @@
         "email": "nyi4xb1@gmail.com"
     },
 
-    "record": {},   
+    "record": {
+        "A": ["18.142.242.115"]
+},   
   
 
     "proxied": false
