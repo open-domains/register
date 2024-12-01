@@ -1,6 +1,6 @@
 {
     "domain": "snnttechv.is-local.org",
-    "subdomain": "*snnttechv",
+    "subdomain": "*.snnttechv",
 
     "owner": {
         "email": "nyi4xb1@gmail.com"
