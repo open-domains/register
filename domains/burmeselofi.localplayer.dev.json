@@ -6,7 +6,9 @@
         "email": "jruss0702@gmail.com"
     },
 
-    "record": {},
+    "record": {
+        "A": [185.199.108.153]
+    },
 
     "proxied": false
 }
