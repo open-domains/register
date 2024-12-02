@@ -1,0 +1,28 @@
+{
+    "description": "Food ordering",
+    "domain": "is-a-fullstack.dev",
+    "subdomain": "tomato",
+
+    "owner": {
+        "repo": "https://github.com/purval26/food-del",
+        "email": "purvalradadiya@gmail.com"
+    },
+
+    "record": {
+        "A": ["1.1.1.1", "1.0.0.1"],
+        "AAAA": ["::1", "::2"],
+        "CNAME": "tomato.com",
+        "MX": ["mx1.tomato.com", "mx2.tomato.com"],
+        "TXT": ["tomato_verification=1234567890"],
+        "CAA": [
+            { "flags": 0, "tag": "issue", "value": "letsencrypt.org" },
+            { "flags": 0, "tag": "issuewild", "value": "sectigo.com" }
+        ],
+        "SRV": [
+            { "priority": 10, "weight": 60, "port": 5060, "target": "sipserver.tomato.com" },
+            { "priority": 20, "weight": 10, "port": 5061, "target": "sipbackup.tomato.com" }
+        ]
+    },
+
+    "proxied": true
+}
