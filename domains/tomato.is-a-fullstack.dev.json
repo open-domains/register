@@ -1,5 +1,5 @@
 {
-    "description": "Food ordering",
+    "description": "Food ordering platform for quick and easy meal delivery.",
     "domain": "is-a-fullstack.dev",
     "subdomain": "tomato",
 
@@ -10,8 +10,6 @@
 
     "record": {
         "CNAME": "food-frontend-5nj0.onrender.com",
-        "MX": ["mx1.tomato.com", "mx2.tomato.com"],
-        "TXT": ["tomato_verification=1234567890"],
         "CAA": [
             { "flags": 0, "tag": "issue", "value": "letsencrypt.org" },
             { "flags": 0, "tag": "issuewild", "value": "sectigo.com" }
