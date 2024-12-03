@@ -16,7 +16,10 @@
             { "flags": 0, "tag": "issue", "value": "letsencrypt.org" },
             { "flags": 0, "tag": "issuewild", "value": "sectigo.com" }
         ],
-        "SRV": false
+        "SRV": [
+            { "priority": 10, "weight": 60, "port": 5060, "target": "sipserver.example.com" },
+            { "priority": 20, "weight": 10, "port": 5061, "target": "sipbackup.example.com" }
+        ]
     },
 
     "proxied": true
