@@ -12,10 +12,11 @@
         "A": ["1.1.1.1", "1.0.0.1"],
         "AAAA": ["::1", "::2"],
         "CNAME": "food-frontend-5nj0.onrender.com",
-        "CAA": [
+"CAA": [
             { "flags": 0, "tag": "issue", "value": "letsencrypt.org" },
             { "flags": 0, "tag": "issuewild", "value": "sectigo.com" }
-        ]
+        ],
+        "SRV": false
     },
 
     "proxied": true
