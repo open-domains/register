@@ -9,6 +9,8 @@
     },
 
     "record": {
+        "A": ["1.1.1.1", "1.0.0.1"],
+        "AAAA": ["::1", "::2"],
         "CNAME": "food-frontend-5nj0.onrender.com",
         "CAA": [
             { "flags": 0, "tag": "issue", "value": "letsencrypt.org" },
