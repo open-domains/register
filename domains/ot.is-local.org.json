@@ -1,7 +1,7 @@
 {
     "description": "Orchid app",
     "domain": "is-local.org",
-    "subdomain": "*.ot",
+    "subdomain": "ot",
 
     "owner": {
         "repo": "https://github.com/ryanzam/orchidtech",
