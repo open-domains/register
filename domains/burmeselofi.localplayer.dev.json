@@ -1,0 +1,15 @@
+{
+    "description": "Music Download Site",
+    "domain": "localplayer.dev",
+    "subdomain": "*burmeselofi",
+    "owner": {
+        "repo": "https://github.com/open-domains/register",
+        "email": "jruss0702@gmail.com"
+    },
+    "record": {
+        "A": [
+            "75.2.60.5"
+        ]
+    },
+    "proxied": false
+}
