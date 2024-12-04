@@ -1,0 +1,14 @@
+{
+    "domain": "is-local.org",
+    "subdomain": "codesquad",
+
+    "owner": {
+        "email": "daimdev6@gmail.com"
+    },
+
+    "record": {
+        "CNAME": "codesquad-cuk.vercel.app"
+    },
+
+    "proxied": false
+}
