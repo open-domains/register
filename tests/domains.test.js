@@ -27,7 +27,7 @@ t("Nested subdomains should not exist without a valid parent domain", (t) => {
         // First-level subdomains have no immediate parent to check
         if (subdomain.split(".").length > 3) {
             // Get the immediate parent domain (remove the first subdomain part)
-            const parentSubdomain = subdomain.split(".").slice(1).join(".");
+            const parentSubdomain = subdomain.split(".").slice(-3).join(".");
 
             // Ensure the immediate parent subdomain exists in the list of files
             t.true(
@@ -54,7 +54,7 @@ t("Nested subdomains should not exist if the parent domain has NS records", (t) 
         // First-level subdomains have no immediate parent to check
         if (subdomain.split(".").length > 3) {
             // Get the immediate parent domain, by getting the last 3 parts.
-            const parentSubdomain = subdomain.split(".").slice(-3);
+            const parentSubdomain = subdomain.split(".").slice(-3).join(".");
             const parentFilePath = path.join(domainsPath, `${parentSubdomain}.json`);
 
             // Check if the parent file exists before attempting to read it
