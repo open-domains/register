@@ -3,7 +3,7 @@ const fs = require("fs-extra");
 const path = require("path");
 
 const requiredFields = {
-    //owner: "object",
+    owner: "object",
     record: "object"
 };
 
@@ -66,6 +66,7 @@ t("All files should have valid optional owner fields", (t) => {
         const data = fs.readJsonSync(path.join(domainsPath, file));
 
         validateOptionalFields(t, data, optionalOwnerFields, file);
+        validateOptionalFields(t, data.owner, optionalOwnerFields, file);
 
         if (data.owner.email) {
             t.regex(data.owner.email, emailRegex, `${file}: Owner email should be a valid email address`);
