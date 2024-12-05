@@ -9,7 +9,7 @@ const files = fs.readdirSync(domainsPath);
 const validRootDomains = Array.from(
     new Set(
         files
-            .map((file) => file.split(".").slice(-2).join("."))
+            .map((file) => file.split(".").slice(-3).join("."))
     )
 );
 
