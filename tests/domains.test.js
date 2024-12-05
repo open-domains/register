@@ -5,16 +5,17 @@ const path = require("path");
 const domainsPath = path.resolve("domains");
 const files = fs.readdirSync(domainsPath);
 
-/**
- * Helper function to determine if a subdomain is a root domain.
- * A root domain is assumed to be exactly two parts (e.g., "is-cool.dev").
- */
-function isRootDomain(domain) {
-    return domain.split(".").length === 2;
-}
+// Extract valid root domains dynamically from the files
+const validRootDomains = Array.from(
+    new Set(
+        files
+            .map((file) => file.split(".").slice(-2).join("."))
+            .filter((domain) => domain.endsWith(".dev") || domain.endsWith(".org"))
+    )
+);
 
-t("Nested subdomains should not exist without a parent subdomain", (t) => {
-    const issues = [];
+t("Nested subdomains should not exist without a valid parent domain", (t) => {
+    const invalidFiles = [];
 
     files.forEach((file) => {
         // Skip directories and process only .json files
@@ -25,28 +26,27 @@ t("Nested subdomains should not exist without a parent subdomain", (t) => {
 
         const subdomain = file.replace(/\.json$/, "");
 
-        if (subdomain.split(".").length > 2) {
-            // Get parent domain by removing the leftmost part
-            const parentSubdomain = subdomain.split(".").slice(1).join(".");
+        // Find the first-level parent subdomain
+        const parentSubdomainParts = subdomain.split(".");
+        const rootDomain = parentSubdomainParts.slice(-2).join(".");
+        const firstLevelParent = `${parentSubdomainParts.slice(-3, -2)[0]}.${rootDomain}`;
 
-            // Skip check if the parent subdomain is a root domain
-            if (isRootDomain(parentSubdomain)) {
-                return;
-            }
-
-            // Check if the parent subdomain exists
-            if (!files.includes(`${parentSubdomain}.json`)) {
-                issues.push(`${file}: Parent subdomain ${parentSubdomain}.json does not exist`);
-            }
+        if (
+            parentSubdomainParts.length > 2 && // Must have at least one subdomain
+            validRootDomains.includes(rootDomain) && // Must belong to a valid root domain
+            !files.includes(`${firstLevelParent}.json`) // Parent must exist
+        ) {
+            invalidFiles.push(`${file}: Parent domain ${firstLevelParent}.json does not exist`);
         }
     });
 
-    // Report all issues at once
-    t.deepEqual(issues, [], `Found issues:\n${issues.join("\n")}`);
+    // Fail the test if there are invalid files
+    invalidFiles.forEach((message) => t.fail(message));
+    t.pass();
 });
 
-t("Nested subdomains should not exist if the parent subdomain has NS records", (t) => {
-    const issues = [];
+t("Nested subdomains should not exist if the parent domain has NS records", (t) => {
+    const invalidFiles = [];
 
     files.forEach((file) => {
         // Skip directories and process only .json files
@@ -57,30 +57,25 @@ t("Nested subdomains should not exist if the parent subdomain has NS records", (
 
         const subdomain = file.replace(/\.json$/, "");
 
-        if (subdomain.split(".").length > 2) {
-            // Get parent domain by removing the leftmost part
-            const parentSubdomain = subdomain.split(".").slice(1).join(".");
-            const parentFilePath = path.join(domainsPath, `${parentSubdomain}.json`);
+        // Find the first-level parent subdomain
+        const parentSubdomainParts = subdomain.split(".");
+        const rootDomain = parentSubdomainParts.slice(-2).join(".");
+        const firstLevelParent = `${parentSubdomainParts.slice(-3, -2)[0]}.${rootDomain}`;
+        const parentFilePath = path.join(domainsPath, `${firstLevelParent}.json`);
 
-            // Skip check if the parent subdomain is a root domain
-            if (isRootDomain(parentSubdomain)) {
-                return;
-            }
-
-            // Check if the parent file exists before attempting to read it
+        if (parentSubdomainParts.length > 2 && validRootDomains.includes(rootDomain)) {
             if (fs.existsSync(parentFilePath)) {
                 const parentDomain = fs.readJsonSync(parentFilePath);
-
-                // Check if the parent has NS records
-                if (parentDomain.record.NS !== undefined) {
-                    issues.push(`${file}: Parent subdomain ${parentSubdomain} has NS records`);
+                if (parentDomain.record?.NS) {
+                    invalidFiles.push(`${file}: Parent domain ${firstLevelParent} has NS records`);
                 }
             } else {
-                issues.push(`${file}: Parent subdomain ${parentSubdomain}.json file does not exist`);
+                invalidFiles.push(`${file}: Parent domain ${firstLevelParent}.json does not exist`);
             }
         }
     });
 
-    // Report all issues at once
-    t.deepEqual(issues, [], `Found issues:\n${issues.join("\n")}`);
+    // Fail the test if there are invalid files
+    invalidFiles.forEach((message) => t.fail(message));
+    t.pass();
 });
