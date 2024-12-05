@@ -14,6 +14,8 @@ function isRootDomain(domain) {
 }
 
 t("Nested subdomains should not exist without a parent subdomain", (t) => {
+    const issues = [];
+
     files.forEach((file) => {
         // Skip directories and process only .json files
         const filePath = path.join(domainsPath, file);
@@ -26,24 +28,26 @@ t("Nested subdomains should not exist without a parent subdomain", (t) => {
         if (subdomain.split(".").length > 2) {
             // Get parent domain by removing the leftmost part
             const parentSubdomain = subdomain.split(".").slice(1).join(".");
-            
+
             // Skip check if the parent subdomain is a root domain
             if (isRootDomain(parentSubdomain)) {
                 return;
             }
 
-            // Ensure the parent subdomain exists
-            t.true(
-                files.includes(`${parentSubdomain}.json`),
-                `${file}: Parent subdomain ${parentSubdomain}.json does not exist`
-            );
+            // Check if the parent subdomain exists
+            if (!files.includes(`${parentSubdomain}.json`)) {
+                issues.push(`${file}: Parent subdomain ${parentSubdomain}.json does not exist`);
+            }
         }
     });
 
-    t.pass();
+    // Report all issues at once
+    t.deepEqual(issues, [], `Found issues:\n${issues.join("\n")}`);
 });
 
 t("Nested subdomains should not exist if the parent subdomain has NS records", (t) => {
+    const issues = [];
+
     files.forEach((file) => {
         // Skip directories and process only .json files
         const filePath = path.join(domainsPath, file);
@@ -68,16 +72,15 @@ t("Nested subdomains should not exist if the parent subdomain has NS records", (
                 const parentDomain = fs.readJsonSync(parentFilePath);
 
                 // Check if the parent has NS records
-                t.is(
-                    parentDomain.record.NS,
-                    undefined,
-                    `${file}: Parent subdomain ${parentSubdomain} has NS records`
-                );
+                if (parentDomain.record.NS !== undefined) {
+                    issues.push(`${file}: Parent subdomain ${parentSubdomain} has NS records`);
+                }
             } else {
-                t.fail(`${parentSubdomain}.json file does not exist`);
+                issues.push(`${file}: Parent subdomain ${parentSubdomain}.json file does not exist`);
             }
         }
     });
 
-    t.pass();
+    // Report all issues at once
+    t.deepEqual(issues, [], `Found issues:\n${issues.join("\n")}`);
 });
