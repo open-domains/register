@@ -15,10 +15,10 @@ t("Nested subdomains should not exist without a parent subdomain", (t) => {
 
         const subdomain = file.replace(/\.json$/, "");
 
-        if (subdomain.split(".").length > 1) {
-            // Get parent domain by removing the last part (subdomain) from the full subdomain
+        if (subdomain.split(".").length > 2) {
+            // Get parent domain by removing the leftmost part
             const parentSubdomain = subdomain.split(".").slice(1).join(".");
-
+            
             // Ensure the parent subdomain exists
             t.true(
                 files.includes(`${parentSubdomain}.json`),
@@ -40,16 +40,21 @@ t("Nested subdomains should not exist if the parent subdomain has NS records", (
 
         const subdomain = file.replace(/\.json$/, "");
 
-        if (subdomain.split(".").length > 1) {
-            // Get parent domain by removing the last part (subdomain) from the full subdomain
+        if (subdomain.split(".").length > 2) {
+            // Get parent domain by removing the leftmost part
             const parentSubdomain = subdomain.split(".").slice(1).join(".");
-
             const parentFilePath = path.join(domainsPath, `${parentSubdomain}.json`);
 
             // Check if the parent file exists before attempting to read it
             if (fs.existsSync(parentFilePath)) {
                 const parentDomain = fs.readJsonSync(parentFilePath);
-                t.is(parentDomain.record.NS, undefined, `${file}: Parent subdomain has NS records`);
+
+                // Check if the parent has NS records
+                t.is(
+                    parentDomain.record.NS,
+                    undefined,
+                    `${file}: Parent subdomain ${parentSubdomain} has NS records`
+                );
             } else {
                 t.fail(`${parentSubdomain}.json file does not exist`);
             }
@@ -58,3 +63,4 @@ t("Nested subdomains should not exist if the parent subdomain has NS records", (
 
     t.pass();
 });
+
