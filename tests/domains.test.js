@@ -5,13 +5,9 @@ const path = require("path");
 const domainsPath = path.resolve("domains");
 const files = fs.readdirSync(domainsPath);
 
-// Extract all subdomains from files (without considering specific TLDs)
-const validRootDomains = Array.from(
-    new Set(
-        files
-            .map((file) => file.split(".").slice(-3).join("."))
-    )
-);
+// Arrays to store issues for each test
+const noParentIssues = [];
+const nsRecordIssues = [];
 
 t("Nested subdomains should not exist without a valid parent domain", (t) => {
     files.forEach((file) => {
@@ -30,14 +26,17 @@ t("Nested subdomains should not exist without a valid parent domain", (t) => {
             const parentSubdomain = subdomain.split(".").slice(-3).join(".");
 
             // Ensure the immediate parent subdomain exists in the list of files
-            t.true(
-                files.includes(`${parentSubdomain}.json`),
-                `${file}: Parent domain ${parentSubdomain}.json does not exist`
-            );
+            if (!files.includes(`${parentSubdomain}.json`)) {
+                noParentIssues.push(`${file}: Parent domain ${parentSubdomain}.json does not exist`);
+            }
         }
     });
 
-    t.pass();
+    if (noParentIssues.length > 0) {
+        t.fail("Issues found (no parent domain):\n" + noParentIssues.join("\n"));
+    } else {
+        t.pass();
+    }
 });
 
 t("Nested subdomains should not exist if the parent domain has NS records", (t) => {
@@ -62,16 +61,18 @@ t("Nested subdomains should not exist if the parent domain has NS records", (t) 
                 const parentDomain = fs.readJsonSync(parentFilePath);
 
                 // Check if the parent has NS records
-                t.is(
-                    parentDomain.record.NS,
-                    undefined,
-                    `${file}: Parent domain ${parentSubdomain} has NS records`
-                );
+                if (parentDomain.record.NS !== undefined) {
+                    nsRecordIssues.push(`${file}: Parent domain ${parentSubdomain} has NS records`);
+                }
             } else {
-                t.fail(`${parentSubdomain}.json file does not exist`);
+                nsRecordIssues.push(`${parentSubdomain}.json file does not exist`);
             }
         }
     });
 
-    t.pass();
+    if (nsRecordIssues.length > 0) {
+        t.fail("Issues found (NS records):\n" + nsRecordIssues.join("\n"));
+    } else {
+        t.pass();
+    }
 });
