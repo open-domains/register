@@ -5,9 +5,12 @@ const path = require("path");
 const domainsPath = path.resolve("domains");
 const files = fs.readdirSync(domainsPath);
 
-// Extract all valid domains from the files
-const validDomains = new Set(
-    files.map((file) => file.replace(/\.json$/, "")) // Remove .json extension for easier comparison
+// Extract all subdomains from files (without considering specific TLDs)
+const validRootDomains = Array.from(
+    new Set(
+        files
+            .map((file) => file.split(".").slice(-2).join("."))
+    )
 );
 
 t("Nested subdomains should not exist without a valid parent domain", (t) => {
@@ -20,15 +23,16 @@ t("Nested subdomains should not exist without a valid parent domain", (t) => {
 
         const subdomain = file.replace(/\.json$/, "");
 
-        // Check if the domain is a nested subdomain (i.e., has more than 2 parts)
+        // Skip first-level subdomains (e.g., "banana.is-cool.dev")
+        // First-level subdomains have no immediate parent to check
         if (subdomain.split(".").length > 2) {
-            // Get the "root" domain by extracting only the last two parts
-            const rootDomain = subdomain.split(".").slice(-2).join(".");
+            // Get the immediate parent domain (remove the first subdomain part)
+            const parentSubdomain = subdomain.split(".").slice(1).join(".");
 
-            // Ensure the root domain exists
+            // Ensure the immediate parent subdomain exists in the list of files
             t.true(
-                validDomains.has(rootDomain),
-                `${file}: Parent domain ${rootDomain}.json does not exist`
+                files.includes(`${parentSubdomain}.json`),
+                `${file}: Parent domain ${parentSubdomain}.json does not exist`
             );
         }
     });
@@ -46,11 +50,12 @@ t("Nested subdomains should not exist if the parent domain has NS records", (t) 
 
         const subdomain = file.replace(/\.json$/, "");
 
-        // Check if the domain is a nested subdomain (i.e., has more than 2 parts)
+        // Skip first-level subdomains (e.g., "banana.is-cool.dev")
+        // First-level subdomains have no immediate parent to check
         if (subdomain.split(".").length > 2) {
-            // Get the "root" domain by extracting only the last two parts
-            const rootDomain = subdomain.split(".").slice(-2).join(".");
-            const parentFilePath = path.join(domainsPath, `${rootDomain}.json`);
+            // Get the immediate parent domain (remove the first subdomain part)
+            const parentSubdomain = subdomain.split(".").slice(1).join(".");
+            const parentFilePath = path.join(domainsPath, `${parentSubdomain}.json`);
 
             // Check if the parent file exists before attempting to read it
             if (fs.existsSync(parentFilePath)) {
@@ -60,10 +65,10 @@ t("Nested subdomains should not exist if the parent domain has NS records", (t) 
                 t.is(
                     parentDomain.record.NS,
                     undefined,
-                    `${file}: Parent domain ${rootDomain} has NS records`
+                    `${file}: Parent domain ${parentSubdomain} has NS records`
                 );
             } else {
-                t.fail(`${rootDomain}.json file does not exist`);
+                t.fail(`${parentSubdomain}.json file does not exist`);
             }
         }
     });
