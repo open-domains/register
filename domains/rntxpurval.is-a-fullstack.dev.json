@@ -1,7 +1,7 @@
 {
     "description": "For Hosting My projects",
     "domain": "is-a-fullstack.dev",
-    "subdomain": "rntxpurval",
+    "subdomain": "rntxpurval.is-a-fullstack.dev",
 
     "owner": {
         "repo": "https://github.com/purval26/food-del",
