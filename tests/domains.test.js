@@ -25,7 +25,7 @@ t("Nested subdomains should not exist without a valid parent domain", (t) => {
 
         // Skip first-level subdomains (e.g., "banana.is-cool.dev")
         // First-level subdomains have no immediate parent to check
-        if (subdomain.split(".").length > 2) {
+        if (subdomain.split(".").length > 3) {
             // Get the immediate parent domain (remove the first subdomain part)
             const parentSubdomain = subdomain.split(".").slice(1).join(".");
 
@@ -52,7 +52,7 @@ t("Nested subdomains should not exist if the parent domain has NS records", (t) 
 
         // Skip first-level subdomains (e.g., "banana.is-cool.dev")
         // First-level subdomains have no immediate parent to check
-        if (subdomain.split(".").length > 2) {
+        if (subdomain.split(".").length > 3) {
             // Get the immediate parent domain (remove the first subdomain part)
             const parentSubdomain = subdomain.split(".").slice(1).join(".");
             const parentFilePath = path.join(domainsPath, `${parentSubdomain}.json`);
