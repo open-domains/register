@@ -1,0 +1,20 @@
+{
+    "description": "For Hosting My projects",
+    "domain": "is-a-fullstack.dev",
+    "subdomain": "rntxpurval",
+
+    "owner": {
+        "repo": "https://github.com/purval26/food-del",
+        "email": "purvalradadiya@gmail.com"
+    },
+
+    "record": {
+        "CNAME": "example.com",
+        "CAA": [
+            { "flags": 0, "tag": "issue", "value": "letsencrypt.org" },
+            { "flags": 0, "tag": "issuewild", "value": "sectigo.com" }
+        ]
+    },
+
+    "proxied": false
+}
