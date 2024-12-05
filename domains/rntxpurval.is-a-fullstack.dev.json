@@ -1,7 +1,7 @@
 {
     "description": "For Hosting My projects",
     "domain": "is-a-fullstack.dev",
-    "subdomain": "rntxpurval.is-a-fullstack.dev",
+    "subdomain": "rntxpurval",
 
     "owner": {
         "repo": "https://github.com/purval26/food-del",
@@ -9,7 +9,9 @@
     },
 
     "record": {
-        "CNAME": "food-frontend-5nj0.onrender.com",
+        "CNAME": {"name" : "tomato.rntxpurval.is-a-fullstack.dev",
+                    "target": "food-frontend-5nj0.onrender.com"
+        }
         "CAA": [
             { "flags": 0, "tag": "issue", "value": "letsencrypt.org" },
             { "flags": 0, "tag": "issuewild", "value": "sectigo.com" }
