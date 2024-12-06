@@ -1,0 +1,14 @@
+{
+    "description": "sctech's webapps",
+    "domain": "localplayer.dev",
+    "subdomain": "*.app.sctech",
+    "owner": {
+        "email": "gamerselimiko@gmail.com"
+    },
+    "record": {
+        "A": [
+            "75.2.60.5"
+        ]
+    },
+    "proxied": false
+}
