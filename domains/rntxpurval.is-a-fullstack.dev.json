@@ -9,11 +9,7 @@
     },
 
     "record": {
-        "CNAME": "tomato.rntxpurval.is-a-fullstack.dev",
-        "CAA": [
-            { "flags": 0, "tag": "issue", "value": "letsencrypt.org" },
-            { "flags": 0, "tag": "issuewild", "value": "sectigo.com" }
-        ]
+        "CNAME": "tomato.rntxpurval.is-a-fullstack.dev"
     },
 
     "proxied": false
