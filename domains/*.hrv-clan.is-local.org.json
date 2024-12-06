@@ -1,0 +1,13 @@
+{
+    "description": "Website introducing Discord server: Hrv Rero Clan and more!",
+    "domain": "is-local.org",
+    "subdomain": "*.hrv-clan",
+    "owner": {
+        "repo": "https://github.com/hungrerovn/hrv-clan",
+        "email": "hungrero.vn@gmail.com"
+    },
+    "record": {
+        "A": ["hrv-clan"]
+    },
+    "proxied": false
+}
