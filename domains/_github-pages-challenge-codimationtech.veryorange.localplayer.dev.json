@@ -2,8 +2,8 @@
 
     "description": "github verification",
 
-    "domain": "is-cool.dev",
-    "subdomain": "_github-pages-challenge-codimationtech.codimationtech",
+    "domain": "localplayer.dev",
+    "subdomain": "_github-pages-challenge-codimationtech.veryorange",
 
     "owner": {
         "repo": "https://github.com/codimationtech/",
@@ -11,7 +11,7 @@
     },
 
     "record": {
-        "TXT": ["39b81d3d8996462398bf81b8b47386"]
+        "TXT": ["bade021905f4aeaa4b73a86a19c8d0"]
     },
 
     "proxied": false
