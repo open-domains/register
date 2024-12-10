@@ -9,8 +9,6 @@
 
     "record": {
         "NS": ["michelle.ns.cloudflare.com", "noah.ns.cloudflare.com"]
-        "CAA": [
-            { "flags": 0, "tag": "issue", "value": "letsencrypt.org" },
     },
 
     "proxied": false
