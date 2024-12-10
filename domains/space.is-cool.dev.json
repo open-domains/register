@@ -1,0 +1,16 @@
+{
+    "description": "proxy for school",
+    "domain": "is-cool.dev",
+    "subdomain": "space",
+
+    "owner": {
+        "username": "https://github.com/thisisanalthowcool",
+        "email": "thesecondalthowco00l@proton.me"
+    },
+
+    "record": {
+        "A": ["104.243.38.145"]
+    },
+
+    "proxied": false
+}

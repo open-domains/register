@@ -1,0 +1,17 @@
+{
+    "description": "This is for my default website, hope this subdomain accepted.",
+
+    "domain": "is-a-fullstack.dev",
+    "subdomain": "johnsmithsren",
+
+    "owner": {
+        "repo": "https://github.com/johnsmithsren/renjmBlog.github.io.git",
+        "email": "rjm1149104294@gmail.com"
+    },
+
+    "record": {
+        "CNAME": "johnsmithsren.github.io"
+    },
+
+    "proxied": false
+}

@@ -1,7 +1,18 @@
 name: Validation
 
 on:
-  pull_request_target:
+    pull_request_target:
+
+    push:
+        branches: [main]
+        paths:
+            - "domains/*"
+            - "tests/*"
+            - "utils/*"
+            - ".github/workflows/validate.yml"
+            - "dnsconfig.js"
+
+    workflow_dispatch:
 
 concurrency:
   group: ${{ github.ref }}-validation
@@ -24,7 +35,7 @@ jobs:
 
       - name: Check DNS
         id: dns_check
-        uses: koenrh/dnscontrol-action@v3
+        uses: is-a-dev/dnscontrol-action@main
         with:
           args: check
           config_file: "dnsconfig.js"
@@ -102,3 +113,14 @@ jobs:
         with:
           labels: "Validated JSON"
           github_token: ${{ steps.create_token.outputs.token }}
+          
+  tests:
+    name: Tests
+    if: "!contains(github.event.head_commit.message, '[skip-ci]')"
+    runs-on: ubuntu-latest
+    steps:
+       - uses: actions/checkout@v4
+
+       - run: npm install
+
+       - run: npm test

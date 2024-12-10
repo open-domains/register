@@ -1,0 +1,14 @@
+{
+    "domain": "localplayer.dev",
+    "subdomain": "_discord.aboutuste",
+    "owner": {
+        "repo": "https://github.com/Aboutuste/register",
+        "email": "aboutuste@gmail.com"
+    },
+    "record": {
+        "TXT": [
+            "dh=c6382a8e4d4f76773d169ddff4a4ddbfe6f0c60e"
+        ]
+    },
+    "proxied": false
+}

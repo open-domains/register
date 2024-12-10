@@ -1,0 +1,13 @@
+{
+    "description": "CMS",
+    "domain": "is-local.org",
+    "subdomain": "free-cms",
+    "owner": {
+        "repo": "https://github.com/devdaim6/CMs-freelance",
+        "email": "daimdev6@gmail.com"
+    },
+    "record": {
+        "A": ["4.247.175.26"]
+    },
+    "proxied": true
+}
