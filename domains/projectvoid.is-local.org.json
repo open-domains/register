@@ -1,0 +1,16 @@
+{
+    "description": "A website where you can play many games, talk in a chatroom, and more.",
+    "domain": "is-local.org",
+    "subdomain": "mathplayground24",
+
+    "owner": {
+        "repo": "https://github.com/dasjdw0d/projectvoid",
+        "email": "joeylentz0525@gmail.com"
+    },
+
+    "record": {
+        "A": ["38.175.196.231"]
+    },
+
+    "proxied": true
+}
