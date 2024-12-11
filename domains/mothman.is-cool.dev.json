@@ -1,0 +1,15 @@
+{
+    "description": "primarially for exposing apps on my selfhosted homelab to the internet",
+    "domain": "is-cool.dev",
+    "subdomain": "mothman",
+
+    "owner": {
+        "repo": "https://github.com/rcdemuth/register"
+    },
+
+    "record": {
+        "A":["76.26.79.112"]
+    },
+
+    "proxied": false
+}
