@@ -1,9 +1,9 @@
 {
   "domain": "is-cool.dev",
-  "subdomain": "_gitlab-pages-verification-code.neovoid",
+  "subdomain": "_gitlab-pages-verification-code.neovoid.is-cool.dev",
 
   "owner": {
-    "repo": "https://gitlab.com/p1n349pl31/nvpie",
+    "repo": "https://gitlab.com/p1n349pl31/neovoid",
     "email": "neovoid@envs.net"
   },
 
