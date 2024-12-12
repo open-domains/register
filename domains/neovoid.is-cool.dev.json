@@ -1,4 +1,6 @@
 {
+  "description": "A Personal Website of Neovoid",
+  
   "domain": "is-cool.dev",
   "subdomain": "_gitlab-pages-verification-code.neovoid",
 
@@ -8,6 +10,7 @@
   },
 
   "record": {
+    "CNAME": "p1n349pl31.gitlab.io",
     "TXT": ["gitlab-pages-verification-code=cd80407865addc0520bf493251e9f2a6"]
   },
 
