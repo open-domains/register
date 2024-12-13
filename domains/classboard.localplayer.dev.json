@@ -1,7 +1,7 @@
 {
     "description": "Gaming Website",
     "domain": "localplayer.dev",
-    "subdomain": "Classplay",
+    "subdomain": "Classboard",
     "owner": {
         "repo": "https://github.com/useclassplay/useclassplay.github.io",
         "email1": "riyadbahabry@yahoo.com"
