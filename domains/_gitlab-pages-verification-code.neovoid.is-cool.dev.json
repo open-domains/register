@@ -7,9 +7,7 @@
       "email":"neovoid@envs.net"
    },
    "record":{
-      "TXT":[
-         "gitlab-pages-verification-code=cd80407865addc0520bf493251e9f2a6"
-      ]
+      "TXT":["gitlab-pages-verification-code=cd80407865addc0520bf493251e9f2a6"]
    },
    "proxied":false
 }
