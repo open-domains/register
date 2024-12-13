@@ -39,3 +39,5 @@ The Open Domains program is free for users but relies on donations to operate.
 
 # Changes to Terms and Conditions
 Open Domains reserves the right to change these terms and conditions at any time, with or without notice. Users are responsible for reviewing these terms and conditions on a regular basis to ensure that they are aware of any changes.
+
+#bahabryra accepts this TOC
