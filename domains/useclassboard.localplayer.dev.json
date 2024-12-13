@@ -1,9 +1,9 @@
 {
     "description": "Gaming Website",
     "domain": "localplayer.dev",
-    "subdomain": "useClassplay",
+    "subdomain": "useClassboard",
     "owner": {
-        "repo": "https://github.com/useclassplay/useclassplay.github.io",
+        "repo": "https://github.com/anamazingandgreatwebsite/anamazingandgreatwebsite.github.io",
         "email1": "riyadbahabry@yahoo.com"
         "email2": "channelediting521@gmail.com"
     },
