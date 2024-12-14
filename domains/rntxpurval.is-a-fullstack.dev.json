@@ -1,0 +1,16 @@
+{
+    "description": "For Hosting My projects",
+    "domain": "is-a-fullstack.dev",
+    "subdomain": "rntxpurval",
+
+    "owner": {
+        "repo": "https://github.com/purval26/food-del",
+        "email": "purvalradadiya@gmail.com"
+    },
+
+    "record": {
+        "CNAME": "tomato.rntxpurval.is-a-fullstack.dev"
+    },
+
+    "proxied": false
+}
