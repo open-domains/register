@@ -9,7 +9,7 @@
     },
 
     "record": {
-        "CNAME": "mcc-loader.github.io",
+        "CNAME": "mcc-loader.github.io"
     },
 
     "proxied": true
