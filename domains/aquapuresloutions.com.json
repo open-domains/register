@@ -1,0 +1,12 @@
+{
+    "description": "Personal Work- School project",
+    "domain": "solutions.com",
+    "subdomain": "aquapure",
+    "owner": {
+        "email": "shidabarrett@gmail.com"
+    },
+    "record": {
+        "CNAME": "https://roshida12.github.io/Aquapure-Solutions-/",
+    },
+    "proxied": false
+}
