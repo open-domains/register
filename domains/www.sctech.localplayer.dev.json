@@ -7,7 +7,7 @@
         "email": "gamerselimiko@gmail.com"
     },
     "record": {
-        "CNAME": "sctech.netlify.app"
+        "A": ["75.2.60.5"]
     },
     "proxied": false
 }
