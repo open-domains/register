@@ -1,0 +1,13 @@
+{
+    "description": "company website",
+    "domain": "localplayer.dev",
+    "subdomain": "deenmaster",
+    "owner": {
+        "repo": "https://github.com/DeenMaster/deenMaster.github.io",
+        "email": "riyadbahabry@yahoo.com"
+    },
+    "record": {
+        "CNAME": "deenMaster.github.io"
+    },
+    "proxied": true
+}
