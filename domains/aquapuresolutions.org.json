@@ -1,0 +1,14 @@
+{
+    "description": "sctech's webapps",
+    "domain": "solutions.org",
+    "subdomain": "aquapure",
+    "owner": {
+        "email": "shidabarrett@gmail.com"
+    },
+    "record": {
+        "A": [
+            "75.2.60.5"
+        ]
+    },
+    "proxied": false
+}
