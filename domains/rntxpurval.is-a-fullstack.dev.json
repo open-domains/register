@@ -1,7 +1,7 @@
 {
     "description": "For Hosting My projects",
     "domain": "is-a-fullstack.dev",
-    "subdomain": "rntxpurval",
+    "subdomain": "tomato.rntxpurval",
 
     "owner": {
         "repo": "https://github.com/purval26/food-del",
@@ -9,7 +9,7 @@
     },
 
     "record": {
-        "CNAME": "tomato.rntxpurval.is-a-fullstack.dev"
+        "CNAME": "food-frontend-5nj0.onrender.com"
     },
 
     "proxied": false
