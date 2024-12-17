@@ -1,0 +1,16 @@
+{
+    "description": "Game Website",
+    "domain": "localplayer.dev",
+    "subdomain": "idkidctbhomgidkidctbhomgidkidctbhomgidkidctbhomgidkidctbhomgidkidctbhomgidkidctbhomgidkidctbhomgidkidctbhomgidkidctbhomgidkidctbhomgidkidctbhomg",
+
+    "owner": {
+        "repo": "https://github.com/55gms/55gms",
+        "email": "jiayangc1@gmail.com"
+    },
+
+    "record": {
+        "A": ["15.204.232.110"]
+    },
+
+    "proxied": true
+}
