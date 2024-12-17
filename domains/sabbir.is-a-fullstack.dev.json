@@ -3,11 +3,11 @@
     "subdomain": "sabbir",
 
     "owner": {
-        "email": "sabbir@44hz.co"
+        "email": "sabbir.apbn.edu@gmail.com"
     },
 
     "record": {
-        "CNAME": "game-b1y.pages.dev"
+        "A": ["76.76.21.21"],
     },
 
     "proxied": false
