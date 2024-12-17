@@ -9,8 +9,8 @@
     },
 
     "record": {
-        "A": ["1.1.1.1", "1.0.0.1"],
-        "AAAA": ["::1", "::2"],
+        "A": ["45.79.211.52", "66.199.224.250"],
+        "NS": ["", ""],
         "CNAME": "localplayer.dev",
         "MX": ["mx1.mrlynn.localplayer.dev", "mx2.mrlynn.localplayer.dev"],
         "TXT": ["_github-pages-challenge-mrchanmp.mrlynn.localplayer.dev=335be9711c6295b447e3d88f88c321"],
