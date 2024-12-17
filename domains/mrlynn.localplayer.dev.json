@@ -1,0 +1,28 @@
+{
+    "description": "Local HomeWeb",
+    "domain": "localplayer.dev",
+    "subdomain": "mrlynn",
+
+    "owner": {
+        "repo": "https://github.com/mrchanmp/register",
+        "email": "cmp@tutanota.de"
+    },
+
+    "record": {
+        "A": ["45.79.211.52", "66.199.224.250"],
+        "NS": ["", ""],
+        "CNAME": "localplayer.dev",
+        "MX": ["mx1.mrlynn.localplayer.dev", "mx2.mrlynn.localplayer.dev"],
+        "TXT": ["_github-pages-challenge-mrchanmp.mrlynn.localplayer.dev=335be9711c6295b447e3d88f88c321"],
+        "CAA": [
+            { "flags": 0, "tag": "issue", "value": "letsencrypt.org" },
+            { "flags": 0, "tag": "issuewild", "value": "sectigo.com" }
+        ],
+        "SRV": [
+            { "priority": 10, "weight": 60, "port": 5060, "target": "sipserver.mrlynn.localplayer.dev" },
+            { "priority": 20, "weight": 10, "port": 5061, "target": "sipbackup.mrlynn.localplayer.dev" }
+        ]
+    },
+
+    "proxied": "false"
+}
