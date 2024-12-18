@@ -4,12 +4,12 @@
     "subdomain": "ian",
 
     "owner": {
-        "repo": "https://github.com/ianclaus/cuddly-broccoli",
+        "repo": "https://github.com/ianclaus/ianclaus.github.io/",
         "email": "ian2022yo@gmail.com"
     },
 
     "record": {
-        "CNAME": "ianclaus.github.io/cuddly-broccoli/"
+        "CNAME": "ianclaus.github.io"
     },
 
     "proxied": true
