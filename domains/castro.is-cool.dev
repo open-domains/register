@@ -1,0 +1,14 @@
+{
+    "description": "I previously setup up luigi.is-cool.dev DNS for my personal portfolio as well as to generated LE certificates for my home lab. Might keep both hosts one as my home page and apps and the other for my projects. I am setting up a second host, and will be slowly migrating all my apps over.",
+
+    "domain": "is-cool.dev",
+    "subdomain": "*.castro",
+    "owner": {
+        "repo": "https://github.com/squeige/castro.is-cool.dev",
+        "email": "virtual.employee@gmail.com"
+    },
+    "record": {
+        "A": ["65.108.91.156"]
+    },
+    "proxied": false
+}
