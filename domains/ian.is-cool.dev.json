@@ -4,7 +4,7 @@
     "subdomain": "ian",
 
     "owner": {
-        "repo": "https://github.com/ianclaus/cuddly-broccoli",
+        "repo": https://github.com/ianclaus/cuddly-broccoli",
         "email": "ian2022yo@gmail.com"
     },
 
@@ -12,5 +12,5 @@
         "A": ["185.199.108.153", "185.199.109.153"]
     },
 
-    "proxied": false
+    "proxied": true
 }
