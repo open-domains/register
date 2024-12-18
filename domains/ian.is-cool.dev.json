@@ -1,5 +1,5 @@
 {
-    "description": "Project Description",
+    "description": "A website",
     "domain": "is-cool.dev",
     "subdomain": "ian",
 
@@ -9,8 +9,7 @@
     },
 
     "record": {
-        "A": ["185.199.108.153", "185.199.109.153"],
-        "TXT": ["dh=caf9a122d27a4b4001436ff87947111ca8865c6e"],
+        "A": ["185.199.108.153", "185.199.109.153"]
     },
 
     "proxied": false
