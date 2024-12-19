@@ -1,0 +1,16 @@
+{
+    "description": "Personal website",
+    "domain": "is-cool.dev",
+    "subdomain": "ian",
+
+    "owner": {
+        "repo": "https://github.com/ianclaus/ianclaus",
+        "email": "ianyo@proton.me"
+    },
+
+    "record": {
+        "CNAME": "ianclaus.github.io/ianclaus",
+    },
+
+    "proxied": true
+}
