@@ -4,8 +4,7 @@
     "subdomain": "classboard",
     "owner": {
         "repo": "https://github.com/anamazingandgreatwebsite/anamazingandgreatwebsite.github.io",
-        "email1": "riyadbahabry@yahoo.com"
-        "email2": "channelediting521@gmail.com"
+        "email": "riyadbahabry@yahoo.com"
     },
     "record": {
         "CNAME": "anamazingandgreatwebsite.github.io"
