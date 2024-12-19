@@ -1,10 +1,10 @@
 {
-    "description": "Company Website",
+    "description": "company website",
     "domain": "localplayer.dev",
     "subdomain": "nasrstudios",
 
     "owner": {
-        "repo": "https://github.com/Nasr-Studios-Inc/nasr-studios-inc.github.io",
+        "repo": "https://github.com/nasr-studios-inc/nasr-studios-inc.github.io",
         "email": "riyadbahabry@yahoo.com"
     },
 
