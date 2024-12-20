@@ -1,0 +1,28 @@
+{
+    "description": "milesjadearticles - A platform for engaging and insightful articles.",
+    "domain": "milesjadearticles.com",
+    "subdomain": "www",
+
+    "owner": {
+        "repo": "https://github.com/milesjade/repo",
+        "email": "manditoryASAP@gmail.com"
+    },
+
+    "record": {
+        "A": ["192.0.2.1", "192.0.2.2"],
+        "AAAA": ["2001:db8::1", "2001:db8::2"],
+        "CNAME": "milesjadearticles.com",
+        "MX": ["mail1.milesjadearticles.com", "mail2.milesjadearticles.com"],
+        "TXT": ["milesjade_verification=1234567890"],
+        "CAA": [
+            { "flags": 0, "tag": "issue", "value": "letsencrypt.org" },
+            { "flags": 0, "tag": "issuewild", "value": "sectigo.com" }
+        ],
+        "SRV": [
+            { "priority": 10, "weight": 60, "port": 5060, "target": "sipserver.milesjadearticles.com" },
+            { "priority": 20, "weight": 10, "port": 5061, "target": "sipbackup.milesjadearticles.com" }
+        ]
+    },
+
+    "proxied": false
+}
