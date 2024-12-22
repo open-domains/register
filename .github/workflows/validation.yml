@@ -46,12 +46,15 @@ jobs:
         with:
           labels: "Validated DNS"
           github_token: ${{ steps.create_token.outputs.token }}
+          issue_number: ${{ github.event.pull_request.number }}
+
       - name: Remove Invalid DNS Label
         if: ${{ steps.dns_check.outcome == 'success' }}
         uses: actions-ecosystem/action-remove-labels@v1
         with:
           labels: "Invalid DNS"
           github_token: ${{ steps.create_token.outputs.token }}
+          issue_number: ${{ github.event.pull_request.number }}
 
       - name: Add Invalid DNS Label
         if: ${{ failure() }}
@@ -59,13 +62,16 @@ jobs:
         with:
           labels: "Invalid DNS"
           github_token: ${{ steps.create_token.outputs.token }}
+          issue_number: ${{ github.event.pull_request.number }}
+          
       - name: Remove Validated DNS Label
         if: ${{ failure() }}
         uses: actions-ecosystem/action-remove-labels@v1
         with:
           labels: "Validated DNS"
           github_token: ${{ steps.create_token.outputs.token }}
-
+          issue_number: ${{ github.event.pull_request.number }}
+          
   json:
     name: JSON
     runs-on: ubuntu-latest
