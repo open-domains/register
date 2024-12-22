@@ -1,0 +1,16 @@
+{
+    "description": "DIBSTER is currently testing.",
+    "domain": "localplayer.dev",
+    "subdomain": "dibby",
+
+    "owner": {
+        "repo": "https://github.com/DEV-DIBSTER/Testing",
+        "email": "dibster@danbot.host"
+    },
+
+    "record": {
+        "A": ["69.197.135.202"]
+    },
+
+    "proxied": false
+}
