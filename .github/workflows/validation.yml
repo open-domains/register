@@ -1,18 +1,16 @@
 name: Validation
 
 on:
-    pull_request_target:
-
-    push:
-        branches: [main]
-        paths:
-            - "domains/*"
-            - "tests/*"
-            - "utils/*"
-            - ".github/workflows/validate.yml"
-            - "dnsconfig.js"
-
-    workflow_dispatch:
+  pull_request_target:
+  push:
+    branches: [main]
+    paths:
+      - "domains/*"
+      - "tests/*"
+      - "utils/*"
+      - ".github/workflows/validation.yml"
+      - "dnsconfig.js"
+  workflow_dispatch:
 
 concurrency:
   group: ${{ github.ref }}-validation
@@ -46,12 +44,15 @@ jobs:
         with:
           labels: "Validated DNS"
           github_token: ${{ steps.create_token.outputs.token }}
+          issue_number: ${{ github.event.pull_request.number }}
+
       - name: Remove Invalid DNS Label
         if: ${{ steps.dns_check.outcome == 'success' }}
         uses: actions-ecosystem/action-remove-labels@v1
         with:
           labels: "Invalid DNS"
           github_token: ${{ steps.create_token.outputs.token }}
+          issue_number: ${{ github.event.pull_request.number }}
 
       - name: Add Invalid DNS Label
         if: ${{ failure() }}
@@ -59,12 +60,15 @@ jobs:
         with:
           labels: "Invalid DNS"
           github_token: ${{ steps.create_token.outputs.token }}
+          issue_number: ${{ github.event.pull_request.number }}
+          
       - name: Remove Validated DNS Label
         if: ${{ failure() }}
         uses: actions-ecosystem/action-remove-labels@v1
         with:
           labels: "Validated DNS"
           github_token: ${{ steps.create_token.outputs.token }}
+          issue_number: ${{ github.event.pull_request.number }}
 
   json:
     name: JSON
@@ -94,12 +98,15 @@ jobs:
         with:
           labels: "Validated JSON"
           github_token: ${{ steps.create_token.outputs.token }}
+          issue_number: ${{ github.event.pull_request.number }}
+
       - name: Remove Invalid JSON Label
         if: ${{ steps.json_check.outcome == 'success' }}
         uses: actions-ecosystem/action-remove-labels@v1
         with:
           labels: "Invalid JSON"
           github_token: ${{ steps.create_token.outputs.token }}
+          issue_number: ${{ github.event.pull_request.number }}
 
       - name: Add Invalid JSON Label
         if: ${{ failure() }}
@@ -107,20 +114,23 @@ jobs:
         with:
           labels: "Invalid JSON"
           github_token: ${{ steps.create_token.outputs.token }}
+          issue_number: ${{ github.event.pull_request.number }}
+
       - name: Remove Validated JSON Label
         if: ${{ failure() }}
         uses: actions-ecosystem/action-remove-labels@v1
         with:
           labels: "Validated JSON"
           github_token: ${{ steps.create_token.outputs.token }}
+          issue_number: ${{ github.event.pull_request.number }}
           
   tests:
     name: Tests
     if: "!contains(github.event.head_commit.message, '[skip-ci]')"
     runs-on: ubuntu-latest
     steps:
-       - uses: actions/checkout@v4
+      - uses: actions/checkout@v4
 
-       - run: npm install
+      - run: npm install
 
-       - run: npm test
+      - run: npm test

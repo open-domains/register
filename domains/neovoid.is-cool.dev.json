@@ -1,14 +1,17 @@
 {
+  "description": "Personal Website for Neovoid",
+
   "domain": "is-cool.dev",
   "subdomain": "neovoid",
 
   "owner": {
+    "repo": "https://gitlab.com/p1n349pl31/nvpie",
     "email": "neovoid@envs.net"
   },
 
   "record": {
-    "CNAME": "exozy.me"
+     "CNAME": "p1n349pl31.gitlab.io"
   },
 
-  "proxied": false
+  "proxied": true
 }
