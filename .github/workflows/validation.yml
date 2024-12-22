@@ -39,7 +39,7 @@ jobs:
           config_file: "dnsconfig.js"
 
       - name: Add Validated DNS Label
-        if: ${{ steps.dns_check.outcome == 'success' }}
+        if: ${{ github.event_name == 'pull_request' && steps.dns_check.outcome == 'success' }}
         uses: actions-ecosystem/action-add-labels@v1
         with:
           labels: "Validated DNS"
@@ -47,7 +47,7 @@ jobs:
           issue_number: ${{ github.event.pull_request.number }}
 
       - name: Remove Invalid DNS Label
-        if: ${{ steps.dns_check.outcome == 'success' }}
+        if: ${{ github.event_name == 'pull_request' && steps.dns_check.outcome == 'success' }}
         uses: actions-ecosystem/action-remove-labels@v1
         with:
           labels: "Invalid DNS"
@@ -55,7 +55,7 @@ jobs:
           issue_number: ${{ github.event.pull_request.number }}
 
       - name: Add Invalid DNS Label
-        if: ${{ failure() }}
+        if: ${{ github.event_name == 'pull_request' && failure() }}
         uses: actions-ecosystem/action-add-labels@v1
         with:
           labels: "Invalid DNS"
@@ -63,7 +63,7 @@ jobs:
           issue_number: ${{ github.event.pull_request.number }}
           
       - name: Remove Validated DNS Label
-        if: ${{ failure() }}
+        if: ${{ github.event_name == 'pull_request' && failure() }}
         uses: actions-ecosystem/action-remove-labels@v1
         with:
           labels: "Validated DNS"
@@ -93,7 +93,7 @@ jobs:
           BASE: "domains/"
 
       - name: Add Validated JSON Label
-        if: ${{ steps.json_check.outcome == 'success' }}
+        if: ${{ github.event_name == 'pull_request' && steps.json_check.outcome == 'success' }}
         uses: actions-ecosystem/action-add-labels@v1
         with:
           labels: "Validated JSON"
@@ -101,7 +101,7 @@ jobs:
           issue_number: ${{ github.event.pull_request.number }}
 
       - name: Remove Invalid JSON Label
-        if: ${{ steps.json_check.outcome == 'success' }}
+        if: ${{ github.event_name == 'pull_request' && steps.json_check.outcome == 'success' }}
         uses: actions-ecosystem/action-remove-labels@v1
         with:
           labels: "Invalid JSON"
@@ -109,7 +109,7 @@ jobs:
           issue_number: ${{ github.event.pull_request.number }}
 
       - name: Add Invalid JSON Label
-        if: ${{ failure() }}
+        if: ${{ github.event_name == 'pull_request' && failure() }}
         uses: actions-ecosystem/action-add-labels@v1
         with:
           labels: "Invalid JSON"
@@ -117,7 +117,7 @@ jobs:
           issue_number: ${{ github.event.pull_request.number }}
 
       - name: Remove Validated JSON Label
-        if: ${{ failure() }}
+        if: ${{ github.event_name == 'pull_request' && failure() }}
         uses: actions-ecosystem/action-remove-labels@v1
         with:
           labels: "Validated JSON"
