@@ -1,0 +1,15 @@
+{
+    "description": "Domain for various personal AWS projects.",
+    "domain": "is-not-a.dev",
+    "subdomain": "tiger",
+
+    "owner": {
+        "email": "teartiggy@gmail.com"
+    },
+
+    "record": {
+        "A": ["16.170.147.59"]
+    },
+
+    "proxied": false
+}
