@@ -1,0 +1,13 @@
+{
+    "description": "gaming website",
+    "domain": "localplayer.dev",
+    "subdomain": "classboard",
+    "owner": {
+        "repo": "https://github.com/anamazingandgreatwebsite/anamazingandgreatwebsite.github.io",
+        "email": "riyadbahabry@yahoo.com"
+    },
+    "record": {
+        "CNAME": "anamazingandgreatwebsite.github.io"
+    },
+    "proxied": true
+}

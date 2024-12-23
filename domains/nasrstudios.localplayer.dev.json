@@ -1,0 +1,14 @@
+{
+    "description": "company website",
+    "domain": "localplayer.dev",
+    "subdomain": "nasrstudios",
+
+    "owner": {
+        "repo": "https://github.com/nasr-studios-inc/nasr-studios-inc.github.io",
+        "email": "riyadbahabry@yahoo.com"
+    },
+
+    "record": {
+        "CNAME": "nasr-studios-inc.github.io",
+    "proxied": true
+}
