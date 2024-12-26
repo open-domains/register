@@ -16,6 +16,7 @@ jobs:
           private_key: ${{ secrets.PRIVATE_KEY }}
 
       - name: "CLA Assistant"
+        id: cla_assistant_step
         if: >
           (github.event_name == 'issue_comment' && contains(github.event.comment.body || '', 'recheck')) ||
           (github.event_name == 'issue_comment' && contains(github.event.comment.body || '', 'I have read the CLA Document and I hereby sign the CLA')) ||
@@ -28,10 +29,37 @@ jobs:
           path-to-signatures: 'signatures-v3.json'
           path-to-document: 'https://github.com/open-domains/register/blob/main/terms.md'
           branch: 'main'
-          allowlist: od-bot,bot*,kyro3400
+          allowlist: od-bot,bot*
           remote-organization-name: 'open-domains'
           remote-repository-name: 'cla'
           lock-pullrequest-aftermerge: false
+
+      - name: Re-run CLA Check if "recheck"
+        if: >
+          github.event_name == 'issue_comment' && contains(github.event.comment.body || '', 'recheck')
+        uses: actions/github-script@v6
+        with:
+            script: |
+              const octokit = github.getOctokit(process.env.GITHUB_TOKEN)
+              const { data: checkRuns } = await octokit.rest.checks.listForRef({
+                owner: context.repo.owner,
+                repo: context.repo.repo,
+                ref: context.sha,
+                 check_name: 'CLA / CLAAssistant (pull_request_target)'
+              });
+              if(checkRuns.total_count > 0){
+                const checkRunId = checkRuns.check_runs[0].id;
+                await octokit.rest.checks.rerequestCheckRun({
+                 owner: context.repo.owner,
+                 repo: context.repo.repo,
+                 check_run_id: checkRunId
+                });
+                console.log("CLA check re-run has been triggered")
+             }else{
+                console.log("CLA check not found")
+              }
+            env:
+              GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
 
       - name: Add CLA Signed
         uses: actions-ecosystem/action-add-labels@v1
@@ -46,7 +74,7 @@ jobs:
       - name: Remove CLA Required
         uses: actions-ecosystem/action-remove-labels@v1
         if: >
-          (github.event_name == 'issue_comment' && contains(github.event.comment.body || '', 'recheck')) ||
+           (github.event_name == 'issue_comment' && contains(github.event.comment.body || '', 'recheck')) ||
           (github.event_name == 'issue_comment' && contains(github.event.comment.body || '', 'I have read the CLA Document and I hereby sign the CLA')) ||
           github.event_name == 'pull_request_target'
         with:
