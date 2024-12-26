@@ -1,0 +1,16 @@
+{
+    "description": "Our test domain for NS records",
+    "domain": "is-not-a.dev",
+    "subdomain": "big-test",
+
+    "owner": {
+        "repo": "https://github.com/open-domains/testing",
+        "email": "jon@danbot.host"
+    },
+
+    "record": {
+        "NS": ["alex.ns.cloudflare.com", "surina.ns.cloudflare.com"]
+    },
+
+    "proxied": false
+}
