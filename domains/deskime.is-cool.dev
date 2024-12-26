@@ -1,0 +1,17 @@
+{
+    "description": "Official website of Deskime",
+    "domain": "is-cool.dev",
+    "subdomain": "deskime",
+
+    "owner": {
+        "repo": "https://github.com/Deskime",
+        "email": "contact.pinnacle.x@gmail.com"
+    },
+
+    "record": {
+        "A": ["103.169.142.0", "103.169.142.0"],
+        "TXT": ["canva-domain-verify=268d02b6-e5ed-4229-adf6-054dd485cb38"],
+    },
+
+    "proxied": true
+}
