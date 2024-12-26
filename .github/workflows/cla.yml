@@ -29,7 +29,7 @@ jobs:
           path-to-signatures: 'signatures-v3.json'
           path-to-document: 'https://github.com/open-domains/register/blob/main/terms.md'
           branch: 'main'
-          allowlist: od-bot,bot*
+          allowlist: od-bot,bot*,kyro3400
           remote-organization-name: 'open-domains'
           remote-repository-name: 'cla'
           lock-pullrequest-aftermerge: false
@@ -55,11 +55,11 @@ jobs:
                  check_run_id: checkRunId
                 });
                 console.log("CLA check re-run has been triggered")
-             }else{
+              } else {
                 console.log("CLA check not found")
               }
-            env:
-              GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
 
       - name: Add CLA Signed
         uses: actions-ecosystem/action-add-labels@v1
@@ -74,7 +74,7 @@ jobs:
       - name: Remove CLA Required
         uses: actions-ecosystem/action-remove-labels@v1
         if: >
-           (github.event_name == 'issue_comment' && contains(github.event.comment.body || '', 'recheck')) ||
+          (github.event_name == 'issue_comment' && contains(github.event.comment.body || '', 'recheck')) ||
           (github.event_name == 'issue_comment' && contains(github.event.comment.body || '', 'I have read the CLA Document and I hereby sign the CLA')) ||
           github.event_name == 'pull_request_target'
         with:
