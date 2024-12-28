@@ -1,0 +1,28 @@
+{
+    "description": "Project Description",
+    "domain": "is-a.dev",
+    "subdomain": "micropedia",
+
+    "owner": {
+        "repo": "https://github.com/BrazilSueco/micropedia",
+        "email": "biancamed2012@programmer.net"
+    },
+
+    "record": {
+        "A": ["1.1.1.1", "1.0.0.1"],
+        "AAAA": ["::1", "::2"],
+        "CNAME": "micropedia.com",
+        "MX": ["mx1.mkcropedia.com", "mx2.micropedia.com"],
+        "TXT": ["micropedia_verification=1234567890"],
+        "CAA": [
+            { "flags": 0, "tag": "issue", "value": "letsencrypt.org" },
+            { "flags": 0, "tag": "issuewild", "value": "sectigo.com" }
+        ],
+        "SRV": [
+            { "priority": 10, "weight": 60, "port": 5060, "target": "sipserver.example.com" },
+            { "priority": 20, "weight": 10, "port": 5061, "target": "sipbackup.example.com" }
+        ]
+    },
+
+    "proxied": false
+}
