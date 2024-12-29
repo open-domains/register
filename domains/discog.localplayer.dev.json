@@ -8,7 +8,7 @@
     },
 
     "record": {
-        "URL": "https://discog.opensourceforce.net"
+        "CNAME": "discog.opensourceforce.net"
     },
 
     "proxied": false

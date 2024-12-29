@@ -1,0 +1,16 @@
+{
+    "description": "ZGalera Inc.",
+    "domain": "is-local.org",
+    "subdomain": "_gh-ZGalera-o.zgalera",
+
+    "owner": {
+        "repo": "https://github.com/zgalera/zgalera-website",
+        "email": "81070564+okineadev@users.noreply.github.com"
+    },
+
+    "record": {
+        "TXT": ["4f188db718"]
+    },
+
+    "proxied": false
+}

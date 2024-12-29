@@ -1,9 +1,8 @@
 {
-    "description": "sctech's apps",
+    "description": "sctech's webapps",
     "domain": "localplayer.dev",
     "subdomain": "*.app.sctech",
     "owner": {
-        "repo": "https://github.com/sctech-tr/website",
         "email": "gamerselimiko@gmail.com"
     },
     "record": {

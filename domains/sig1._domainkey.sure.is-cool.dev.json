@@ -8,7 +8,7 @@
     },
 
     "record": {
-        "CNAME": ["sig1.dkim.sure.is-cool.dev.at.icloudmailadmin.com"]    
+        "CNAME": "sig1.dkim.sure.is-cool.dev.at.icloudmailadmin.com"    
     },
 
     "proxied": false

@@ -1,0 +1,14 @@
+{
+    "domain": "is-cool.dev",
+    "subdomain": "daki",
+
+    "owner": {
+        "email": "macabalimicooz@gmail.com"
+    },
+
+    "record": {
+        "CNAME": "daki-dashv2.vercel.app"
+    },
+
+    "proxied": false
+}
