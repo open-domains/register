@@ -1,0 +1,16 @@
+{
+    "description": "Personal website",
+    "domain": "is-cool.dev",
+    "subdomain": "anbuinfosec",
+
+    "owner": {
+        "repo": "https://github.com/anbuinfosec/anbuinfosec.github.io",
+        "email": "anbuinfosec@gmail.com"
+    },
+
+    "record": {
+        "CNAME": "ianclaus.github.io",
+    },
+
+    "proxied": true
+}
