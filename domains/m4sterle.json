@@ -2,16 +2,12 @@
   "description": "a ddx... dev blog?",
   "domain": "is-not-a.dev",
   "subdomain": "m4sterle",
-  
   "owner": {
     "repo": "https://github.com/m4sterle/d4tadawg",
     "email": "this.be@masterle.xyz"
   },
-
   "record": {
-    "A": ["75.2.60.5"],
     "CNAME": "d4tadawg.netlify.app"
   },
-  
   "proxied": false
 }
