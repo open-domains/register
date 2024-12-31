@@ -1,0 +1,18 @@
+{
+  "description": "A medical student's development blog and project showcase",
+  "domain": "is-not-a.dev",
+  "subdomain": "m4sterle",
+  
+  "owner": {
+    "repo": "https://github.com/m4sterle/is-not-a-dev",
+    "email": "this.is@masterle.xyz"
+  },
+
+  "record": {
+    "A": ["75.2.60.5"],
+    "ALIAS": ["apex-loadbalancer.netlify.com"],
+    "CNAME": "d4tadawg.netlify.app"
+  },
+  
+  "proxied": false
+}
