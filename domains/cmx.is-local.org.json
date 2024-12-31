@@ -7,7 +7,7 @@
         "email": "admin@cmx.im"
     },
     "record": {
-        "CNAME": "s1.cmx.edu.kg"
+        "CNAME": "m6.cmx.edu.kg"
     },
-    "proxied": true
+    "proxied": false
 }
