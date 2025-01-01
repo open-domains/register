@@ -1,0 +1,17 @@
+{
+  "description": "For use in training, test and development of non-commercial online services.",
+
+  "domain": "is-local.org",
+  "subdomain": "nahor",
+
+  "owner": {
+    "email": "bob.rohan@nahor.co.uk"
+  },
+
+  "record": {
+    "NS": ["ns-1388.awsdns-45.org", "ns-1678.awsdns-17.co.uk", "ns-309.awsdns-38.com", "ns-536.awsdns-03.net"]
+  },
+
+  "proxied": false
+}
+
