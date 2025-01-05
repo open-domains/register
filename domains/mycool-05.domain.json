@@ -1,0 +1,11 @@
+{
+    "description": "Project Description",
+    "domain": "is-not-a.dev",
+    "subdomain": "mycool-05",
+
+    "record": {
+        "A": ["76.184.228.113"]
+    },
+
+    "proxied": false
+}
