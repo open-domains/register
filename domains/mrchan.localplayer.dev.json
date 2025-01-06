@@ -1,0 +1,21 @@
+{
+    "description": "Test Project",
+    "domain": "localplayer.dev",
+    "subdomain": "mrchan",
+
+    "owner": {
+        "repo": "https://github.com/drcklynn/register",
+        "email": "mrchanmp@yandex.com"
+    },
+
+    "record": {
+        "A": ["127.0.0.1", "127.0.0.2","127.0.0.3","127.0.0.4"],
+        "CNAME": "*.mrchan.localplayer.dev",
+        "NS": ["ns1.mrchan.localplayer.dev","ns2.mrchan.localplayer.dev","ns3.mrchan.localplayer.dev","ns4.mrchan.localplayer.dev"],
+        "CAA": [
+            {"flags": 0,"tag": "issue","value": "letsencrypt.org"}
+        ]
+    }
+        
+    "proxied": "false"
+}
