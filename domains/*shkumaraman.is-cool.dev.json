@@ -1,0 +1,13 @@
+{
+    "description": "Domain Name",
+    "domain": "is-cool.dev",
+    "subdomain": "shkumaraman",
+    "owner": {
+        "repo": "https://github.com/shkumaraman",
+        "email": "kumarsharma2580@gmail.com"
+    },
+    "record": {
+        "NS": ["ns1.example.com", "ns2.example.com"]
+    },
+    "proxied": true
+}
