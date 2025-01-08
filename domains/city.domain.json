@@ -4,13 +4,12 @@
     "subdomain": "citytransportsimulator",
 
     "owner": {
-        "repo": "https://github.com/username/repo",
         "email": "phoenixmc.developer@gmail.com"
     },
 
     "record": {
         "A": ["89.168.64.238"],
-        "CNAME": "web",
+        "CNAME": "citytransportsimulator",
     },
 
     "proxied": false
