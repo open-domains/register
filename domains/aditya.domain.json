@@ -15,5 +15,5 @@
     "CNAME": "adityafull-stack.vercel.app."
   },
 
-  "proxy": true
+  "proxy": false
 }
