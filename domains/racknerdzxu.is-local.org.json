@@ -1,5 +1,5 @@
 {
-    "description": "VPS",
+    "description": "X2RAY Personal VPS",
 
     "domain": "is-local.org",
     "subdomain": "racknerdzxu",
@@ -13,5 +13,5 @@
         "A": ["104.168.11.37"]
     },
 
-    "proxied": true            
+    "proxied": false            
 }
