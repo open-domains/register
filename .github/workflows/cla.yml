@@ -53,6 +53,3 @@ jobs:
         with:
           labels: "CLA Required"
           github_token: ${{ steps.create_token.outputs.token }}
-          
-
-        

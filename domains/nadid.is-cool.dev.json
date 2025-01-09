@@ -1,0 +1,13 @@
+{
+    "description": "Personal portfolio website for Nadid Wasique(DaTaklaCatto) showcasing different projects and other information.",
+    "domain": "is-cool.dev",
+    "subdomain": "nadid",
+    "owner": {
+        "repo": "https://github.com/DaTaklaCatto/Nadid-Wasique-Portfolio",
+        "email": "nadidwasique57@gmail.com"
+    },
+    "record": {
+        "CNAME": "nadid-wasique.netlify.app"
+    },
+    "proxied": false
+}
