@@ -9,7 +9,7 @@
     },
 
     "record": {
-        "CNAME": "david.northeurope.cloudapp.azure.com"
+        "A": ["74.234.45.159"],
     },
 
     "proxied": false
