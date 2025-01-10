@@ -1,0 +1,16 @@
+{
+    "description": "Just domain for student",
+    "domain": "localplayer.dev",
+    "subdomain": "notline",
+
+    "owner": {
+        "repo": "https://github.com/dav2010ID/register_domain",
+        "email": "131987730+dav2010ID@users.noreply.github.com"
+    },
+
+    "record": {
+        "CNAME": "david.northeurope.cloudapp.azure.com"
+    },
+
+    "proxied": false
+}
