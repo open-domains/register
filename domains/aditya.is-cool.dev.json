@@ -12,7 +12,7 @@
   },
 
   "record": {
-    "CNAME": "adityafull-stack.vercel.app."
+    "CNAME": "adityafull-stack.vercel.app"
   },
 
   "proxy": false
