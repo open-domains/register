@@ -1,6 +1,4 @@
 {
-  "$schema": "../schemas/domain.schema.json",
-
   "description": "My portfolio website showcasing full-stack development skills",
 
   "domain": "is-cool.dev",
