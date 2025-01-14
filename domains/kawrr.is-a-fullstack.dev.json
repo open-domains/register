@@ -4,11 +4,12 @@
     "subdomain": "kawrr",
 
     "owner": {
+        "username": "Kawrrq",
         "email": "kawrrq@gmail.com"
     },
 
     "record": {
-        "A": ["163.123.192.252"],
+        "A": ["163.123.192.252"]
     },
 
     "proxied": false
