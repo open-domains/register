@@ -9,10 +9,10 @@
     },
 
     "record": {
-        "A": ["128.204.218.48"],
+        "A": "128.204.218.48",
         "CNAME": "cookie4u.is-cool.dev",
-        "MX": ["mail0.serv00.com"],
-        "TXT": ["v=spf1 mx a include:mail0.serv00.com -all"],
+        "MX": "mail0.serv00.com",
+        "TXT": "v=spf1 mx a include:mail0.serv00.com -all"
     },
 
     "proxied": false
