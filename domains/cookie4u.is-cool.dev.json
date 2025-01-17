@@ -3,7 +3,6 @@
     "domain": "is-cool.dev",
     "subdomain": "cookie4u",
     "owner": {
-        "repo": "https://github.com/phathua/cookie4u",
         "email": "phat2003qn@gmail.com"
     },
     "record": {
