@@ -2,18 +2,14 @@
     "description": "Portfolio template",
     "domain": "is-cool.dev",
     "subdomain": "cookie4u",
-
     "owner": {
         "repo": "https://github.com/phathua/cookie4u",
         "email": "phat2003qn@gmail.com"
     },
-
     "record": {
-        "A": "128.204.218.48",
-        "CNAME": "cookie4u.is-cool.dev",
-        "MX": "mail0.serv00.com",
-        "TXT": "v=spf1 mx a include:mail0.serv00.com -all"
+        "A": ["128.204.218.48"],
+        "MX": ["10 mail0.serv00.com"],
+        "TXT": ["v=spf1 mx a include:mail0.serv00.com -all"]
     },
-
     "proxied": false
 }
