@@ -1,0 +1,13 @@
+{
+    "description": "Toronto local bilingual news blog website for community in Toronto, ON, Canada",
+    "domain": "is-local.org",
+    "subdomain": "toronto",
+    "owner": {
+        "repo": "https://github.com/alstrasolutions/opendomains-register",
+        "email": "admin+tech@ontarionet.ca"
+    },
+    "record": {
+        "CNAME": "webhost.ontarionet.ca"
+    },
+    "proxied": true
+}
