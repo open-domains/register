@@ -11,7 +11,6 @@
     "record": {
         "A": ["1.1.1.1", "1.0.0.1"],
         "AAAA": ["::1", "::2"],
-        "CNAME": "mailbun.is-local.org",
         "MX": ["mx1.forwardemail.net", "mx2.forwardemail.net"],
         "TXT": ["forward-email=sheherzeakaina@proton.me"]
     },
