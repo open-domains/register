@@ -16,7 +16,7 @@
         "TXT": ["forward-email=sheherzeakaina@proton.me"],
         "CAA": [
             { "flags": 0, "tag": "issue", "value": "letsencrypt.org" },
-        ],
+        ]
     },
 
     "proxied": false
