@@ -1,0 +1,23 @@
+{
+    "description": "Project Description",
+    "domain": "is-local.org",
+    "subdomain": "mailbun",
+
+    "owner": {
+        "repo": "https://github.com/sheherzeakaina/register",
+        "email": "hello@mailbun.is-local.org"
+    },
+
+    "record": {
+        "A": ["1.1.1.1", "1.0.0.1"],
+        "AAAA": ["::1", "::2"],
+        "CNAME": "mailbun.is-local.org",
+        "MX": ["mx1.forwardemail.net", "mx2.forwardemail.net"],
+        "TXT": ["forward-email=sheherzeakaina@proton.me"],
+        "CAA": [
+            { "flags": 0, "tag": "issue", "value": "letsencrypt.org" },
+        ],
+    },
+
+    "proxied": false
+}
