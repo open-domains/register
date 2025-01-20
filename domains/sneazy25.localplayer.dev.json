@@ -1,0 +1,31 @@
+{
+
+    "description": "Something that is related to themeddler",
+
+    "domain": "localplayer.dev",
+
+    "subdomain": "sneazy25",
+
+
+
+    "owner": {
+
+        "repo": "https://github.com/sneazy25/register",
+
+        "email": "sneazy25@proton.mail"
+
+    },
+
+
+
+    "record": {
+
+        "A": ["76.76.21.21"]
+
+    },
+
+
+
+    "proxied": false
+
+}
