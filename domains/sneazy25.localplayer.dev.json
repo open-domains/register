@@ -1,0 +1,14 @@
+{
+  "description": "Portofolio sneazy25 (Me)",
+
+  "domain": "localplayer.dev",
+  "subdomain": "sneazy25",
+
+  "owner": {
+    "email": "sneazy25@proton.mail"
+  },
+
+  "record": {
+    "CNAME": "cname.vercel-dns.com"
+  }
+}
