@@ -9,8 +9,7 @@
     },
 
     "record": {
-        "A": ["185.199.108.153","185.199.109.153","185.199.110.153","185.199.111.153"],
-        "CNAME": "jayeshk09.github.io",
+        "CNAME": "jayeshk09.github.io"
     },
 
     "proxied": false
