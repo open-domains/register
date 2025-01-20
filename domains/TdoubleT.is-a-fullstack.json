@@ -1,0 +1,14 @@
+{
+    "domain": "is-a-fullstack.dev",
+    "subdomain": "x",
+
+    "owner": {
+        "email": "hoangtuanthu981@gmail.com"
+    },
+
+    "record": {
+        "CNAME": "https://tuanthu1.github.io/tuanthu2/"
+    },
+
+    "proxied": false
+}
