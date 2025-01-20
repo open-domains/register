@@ -1,8 +1,9 @@
 {
     "domain": "is-a-fullstack.dev",
-    "subdomain": "tuant",
+    "subdomain": "TdoubleT",
 
     "owner": {
+        "repo": "https://github.com/tuanthu1/tuanthu2",
         "email": "hoangtuanthu981@gmail.com"
     },
 
