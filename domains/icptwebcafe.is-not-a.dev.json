@@ -1,0 +1,18 @@
+{
+    "description": "I want to create a business email",
+    "domain": "is-not-a.dev",
+    "subdomain": "icptwebcafe",
+
+    "owner": {
+        "repo": "https://github.com/devtony10/register",
+        "email": "oc.anthony.ii@gmail.com"
+    },
+
+    "record": {
+        "A": ["1.1.1.1", "1.0.0.1"],
+        "CNAME": "example.com",
+        "TXT": ["example_verification=1234567890"],
+    },
+
+    "proxied": false
+}
