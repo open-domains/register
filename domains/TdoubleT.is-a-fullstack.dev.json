@@ -11,5 +11,5 @@
         "CNAME": "tuanthu1.github.io"
     },
 
-    "proxied": false
+    "proxied": true
 }
