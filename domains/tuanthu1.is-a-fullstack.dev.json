@@ -1,6 +1,6 @@
 {
     "domain": "is-a-fullstack.dev",
-    "subdomain": "TdoubleT",
+    "subdomain": "tuanthu1",
 
     "owner": {
         "repo": "https://github.com/tuanthu1/tuanthu2",
@@ -11,5 +11,5 @@
         "CNAME": "tuanthu1.github.io"
     },
 
-    "proxied": true
+    "proxied": false
 }
