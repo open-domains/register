@@ -9,7 +9,7 @@
   },
 
   "record": {
-    "NS": ["ns1.luadns.net",,"ns2.luadns.net","ns3.luadns.net","ns4.luadns.net"]
+    "NS": ["ns1.luadns.net","ns2.luadns.net","ns3.luadns.net","ns4.luadns.net"]
   },
 
   "proxied": false
