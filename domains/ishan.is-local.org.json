@@ -1,13 +1,15 @@
 {
   "description": "A house repair site",
   "domain": "is-local.org",
-  "subdomain": "github-pages-challenge-Clay990",
+  "subdomain": "_github-pages-challenge-Clay990.ishan",
   "owner": {
     "repo": "https://github.com/Clay990/opendomains-register",
     "email": "asuraj991m@gmail.com"
   },
- "record": {
-        "TXT": ["5b99a48ab93b07fdc3c0e7a2042bb7"]
-    },
+  "record": {
+    "TXT": [
+      "5b99a48ab93b07fdc3c0e7a2042bb7"
+    ]
+  },
   "proxied": false
 }
