@@ -7,7 +7,12 @@
     "email": "asuraj991m@gmail.com"
   },
   "record": {
-    "TXT": "5b99a48ab93b07fdc3c0e7a2042bb7"
+    "TXT": [
+      {
+        "name": "_github-pages-challenge-Clay990",
+        "value": "5b99a48ab93b07fdc3c0e7a2042bb7"
+      }
+    ]
   },
   "proxied": false
 }
