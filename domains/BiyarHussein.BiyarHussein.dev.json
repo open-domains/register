@@ -1,0 +1,16 @@
+{
+    "description": "BiyarHussein",
+    "domain": "BiyarHussein.dev",
+    "subdomain": "BiyarHussein",
+
+    "owner": {
+        "repo": "https://github.com/BiyarHussein/biyarhussein.github.io.git",
+        "email": "biyar.csi2223172@spu.edu.iq"
+    },
+
+    "record": {
+        "CNAME": "biyarhussein.github.io"
+    },
+
+    "proxied": false
+}
