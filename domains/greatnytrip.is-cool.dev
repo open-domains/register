@@ -1,0 +1,16 @@
+{
+    "description": "Great New York Trip Series - runs every spring and summer!",
+    "domain": "is-cool.dev",
+    "subdomain": "greatnytrip",
+
+    "owner": {
+        "repo": "https://github.com/brmonaghan/greatnytrip",
+        "email": "stormsnsnow@gmail.com"
+    },
+
+    "record": {
+        "TXT": ["google-site-verification=AUQzRrxZw2JHCGGyvTjr7F24Yx6fKUWJovQjy-FSPaw"]
+    },
+
+    "proxied": false
+}
