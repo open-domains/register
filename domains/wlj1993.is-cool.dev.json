@@ -1,0 +1,16 @@
+{
+  "description": "Personal Project",
+
+  "domain": "is-cool.dev",
+  "subdomain": "wlj1993",
+
+  "owner": {
+    "email": "aaa@wlj.ddns-ip.net"
+  },
+
+  "record": {
+    "NS": ["ns1.luadns.net",,"ns2.luadns.net","ns3.luadns.net","ns4.luadns.net"]
+  },
+
+  "proxied": false
+}
