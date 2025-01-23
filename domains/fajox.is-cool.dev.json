@@ -10,7 +10,9 @@
     },
 
     "record": {
-        "CNAME": "fajox1.github.io"
+        "A": [
+            "45.91.201.222"
+        ]
     },
 
     "proxied": false
