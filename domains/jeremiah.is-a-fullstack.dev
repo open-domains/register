@@ -1,0 +1,16 @@
+{
+    "domain": "is-a-fullstack.dev",
+    "subdomain": "jeremiah",
+
+    "owner": {
+        "email": "jmatdesigns@gmail.com"
+    },
+
+    "record": {
+        "A": ["174.138.190.59"]
+    },
+
+    "proxied": false
+}
+
+
