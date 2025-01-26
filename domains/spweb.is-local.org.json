@@ -1,0 +1,15 @@
+{
+    "description": "Personal website",
+    "domain": "is-local.org",
+    "subdomain": "spweb",
+
+    "owner": {
+        "email": "spweb.utility483@slmail.me"
+    },
+
+    "record": {
+        "CNAME": "spwww.pages.dev"
+    },
+
+    "proxied": false
+}
