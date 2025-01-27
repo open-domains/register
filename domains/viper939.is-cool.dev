@@ -1,0 +1,16 @@
+{
+    "description": "My email and website",
+    "domain": "is-cool.dev",
+    "subdomain": "viper939",
+
+    "owner": {
+        "repo": "https://github.com/Viper939999/register",
+        "email": "viperpi5@protonmail.com"
+    },
+
+    "record": {
+        "TXT": ["058f6338c11140f380974be56e9abfd5"],
+    },
+
+    "proxied": false
+}
