@@ -1,0 +1,17 @@
+{
+    "description": "Used for unblocking and bypassing school filters.",
+
+    "domain": "localplayer.dev",
+    "subdomain": "reading",
+
+    "owner": {
+        "repo": "https://github.com/Thisisanalthowcool/website-2",
+        "email": "thesecondalthowco00l@proton.me"
+    },
+
+    "record": {
+        "A": ["216.24.57.1"]
+    },
+
+    "proxied": false
+}
