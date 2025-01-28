@@ -1,0 +1,31 @@
+name: Deploy Subdomain Configuration
+
+on:
+  push:
+    branches:
+      - main  # Jalankan workflow saat ada perubahan di branch main
+
+jobs:
+  deploy:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout Repository
+        uses: actions/checkout@v3
+
+      - name: Validate JSON
+        run: |
+          echo "Validating JSON files..."
+          find domains -name "*.json" | while read file; do
+            if ! jq empty "$file"; then
+              echo "Error in $file"
+              exit 1
+            fi
+          done
+
+      - name: Deploy to Hosting
+        run: |
+          echo "Deploying subdomain configuration..."
+          # Ganti dengan perintah atau skrip untuk deploy ke hosting Anda
+          # Contoh: Upload file ke server menggunakan SCP atau FTP
+          scp -r domains/ user@your-server:/path/to/hosting/config/
