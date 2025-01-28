@@ -5,7 +5,7 @@
 
     "owner": {
         "repo": "https://github.com/ArtChivegroup/register",  // Ganti dengan URL repo GitHub Anda
-        "email": "dimasalmactar12@gmail.com"
+        "email": "dmzartchive@gmail.com"
     },
 
     "record": {
