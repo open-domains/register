@@ -1,0 +1,30 @@
+{
+    "description": "DMZ Archive Project",
+    "domain": "is-local.org",
+    "subdomain": "dmzartchive",
+
+    "owner": {
+        "repo": "https://github.com/ArtChivegroup/register",  // Ganti dengan URL repo GitHub Anda
+        "email": "dimasalmactar12@gmail.com"
+    },
+
+    "record": {
+        "A": ["128.204.218.48"],  // Ganti dengan IP server hosting Anda
+        "NS": [
+            "dns1.serv00.com",
+            "dns2.serv00.com"
+        ],
+        "MX": [
+            { "priority": 10, "value": "mail0.serv00.com" }
+        ],
+        "TXT": [
+            "v=spf1 include:mail0.serv00.com ~all"
+        ],
+        "CAA": [
+            { "flags": 0, "tag": "issue", "value": "letsencrypt.org" },
+            { "flags": 0, "tag": "issuewild", "value": "sectigo.com" }
+        ]
+    },
+
+    "proxied": false
+}
