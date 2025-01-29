@@ -1,0 +1,14 @@
+{
+    "description": "A SHKUMARAMAN Company",
+    "domain": "is-local.org",
+    "subdomain": "*.shkumaraman",
+    "owner": {
+        "repo": "https://github.com/shkumaraman",
+        "email": "kumarsharma2580@gmail.com"
+    },
+    "record": {
+        "NS1": ["103.76.122.60"],
+        "NS2": ["103.76.122.60"]
+    },
+    "proxied": true
+}
