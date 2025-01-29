@@ -1,0 +1,16 @@
+{
+    "description": "Allows you to search things and play games from servers",
+    "domain": "is-a-fullstack.dev",
+    "subdomain": "kawrr",
+
+    "owner": {
+        "username": "Kawrrq",
+        "email": "kawrrq@gmail.com"
+    },
+
+    "record": {
+        "A": ["163.123.192.252"]
+    },
+
+    "proxied": false
+}

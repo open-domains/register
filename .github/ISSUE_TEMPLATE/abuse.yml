@@ -1,0 +1,24 @@
+name: "Report Abuse"
+description: "Report an abusive domain or related activity"
+title: "Report Abuse: [Enter Domain Here]"
+labels: 
+  - report-abuse
+body:
+  - type: input
+    id: domain
+    attributes:
+      label: "Domain"
+      description: "Enter the domain name you want to report (e.g., example.com)."
+      placeholder: "Enter domain here"
+  - type: textarea
+    id: reason
+    attributes:
+      label: "Reason"
+      description: "Explain why you believe this domain is being abused. Examples include phishing, malware, or spam."
+      placeholder: "Provide a detailed explanation"
+  - type: textarea
+    id: proof
+    attributes:
+      label: "Proof"
+      description: "Provide evidence of abuse, such as screenshots, URLs, or logs showing malicious activity."
+      placeholder: "Provide evidence or links"

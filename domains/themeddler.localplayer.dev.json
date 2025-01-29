@@ -1,0 +1,16 @@
+{
+    "description": "TheMeddler",
+    "domain": "localplayer.dev",
+    "subdomain": "themeddler",
+
+    "owner": {
+        "repo": "https://github.com/SlycIsACatboy/registerdomains",
+        "email": "noahhz942@gmail.com"
+    },
+
+    "record": {
+        "A": ["45.92.9.144"]
+    },
+
+    "proxied": false
+}
