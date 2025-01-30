@@ -6,7 +6,7 @@
         "email": "kumarsharma2580@gmail.com"
     },
     "record": {
-        "NS": ["hans.ns.cloudflare.com", "zoe.ns.cloudflare.com"]
+        "A": ["103.76.122.60"]
     },
     "proxied": true
 }
