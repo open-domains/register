@@ -1,0 +1,12 @@
+{
+    "description": "SHKUMARAMAN",
+    "domain": "is-local.org",
+    "subdomain": "*.shkumaraman",
+    "owner": {
+        "email": "kumarsharma2580@gmail.com"
+    },
+    "record": {
+        "A": ["103.76.122.60"]
+    },
+    "proxied": false
+}
