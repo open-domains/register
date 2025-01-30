@@ -1,0 +1,14 @@
+{
+    "description": "sctech's webapps",
+    "domain": "is-local.org",
+    "subdomain": "*.shkumaraman",
+    "owner": {
+        "email": "kumarsharma2580@gmail.com"
+    },
+    "record": {
+        "A": [
+            "75.2.60.5"
+        ]
+    },
+    "proxied": true
+}
