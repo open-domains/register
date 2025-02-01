@@ -1,0 +1,24 @@
+{
+  "description": "DNS Configuration for Shopycloud hosted on shopycloud.localplayer.dev with Azure Cloud Server",
+  "domain": "localplayer.dev",
+  "subdomain": "shopycloud",  
+
+  "owner": {
+    "repo": "https://github.com/pratham7723/shopycloud",
+    "email": "prathammehta773@gmail.com"
+  },
+
+  "record": {
+    "A": ["20.191.192.112"],
+    "AAAA": [],
+    "CNAME": "shopycloud.localplayer.dev",
+    "MX": [],
+    "TXT": ["localplayer_verification=1234567890"],
+    "CAA": [
+      { "flags": 0, "tag": "issue", "value": "letsencrypt.org" }
+    ],
+    "SRV": []
+  },
+
+  "proxied": false
+}
