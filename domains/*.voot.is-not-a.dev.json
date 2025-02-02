@@ -1,0 +1,16 @@
+{
+    "description": "Personal Homelab",
+    "domain": "is-not-a.dev",
+    "subdomain": "*.voot",
+
+    "owner": {
+        "repo": "https://github.com/kahossain/register",
+        "email": "kazi.hossain@outlook.com"
+    },
+
+    "record": {
+        "A": ["72.189.239.56"]
+    },
+
+    "proxied": false
+}
