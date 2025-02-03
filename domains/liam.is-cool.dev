@@ -1,0 +1,17 @@
+{
+    "description": "An email domain for Liam, an aspiring developer.",
+    "domain": "is-cool.dev",
+    "subdomain": "liam",
+
+    "owner": {
+        "repo": "https://github.com/liamatienza",
+        "email": "liamdev@duck.com"
+    },
+
+    "record": {
+        "MX": ["mx1.forwardemail.net", "mx2.forwardemail.net"],
+        "TXT": ["forward-email=ZWZjZTA2MTIyMzY2NDJkMS0yNWE5NjFiMjkxOThlNDYwZTNjOTkwYzY2NGQ1MzdmZmM1ZjUxMjRhMTBlMTQzOTM3YzhlMWYyYjk0MTA5ZjE0"],
+    },
+
+    "proxied": false
+}
