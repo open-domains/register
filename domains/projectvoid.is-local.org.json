@@ -1,7 +1,7 @@
 {
     "description": "A website where you can play many games, talk in a chatroom, and more.",
     "domain": "is-local.org",
-    "subdomain": "mathplayground24",
+    "subdomain": "curiolearn",
 
     "owner": {
         "repo": "https://github.com/dasjdw0d/projectvoid",
