@@ -1,7 +1,6 @@
 {
     "description": "Portfolio",
     "domain": "is-not-a.dev",
-    "subdomain": "example",
 
     "owner": {
         "repo": "https://github.com/Dhruvkoshta/Dhruvkoshta.github.io",
