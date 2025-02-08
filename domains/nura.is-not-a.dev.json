@@ -16,14 +16,8 @@
             }
         ],
         "TXT": [
-            {
-                "host": "@",
-                "value": "hosted-email-verify=fvlpvxpb"
-            },
-            {
-                "host": "@",
-                "value": "v=spf1 include:spf.migadu.com -all"
-            }
+            {"value": "hosted-email-verify=fvlpvxpb"},
+            {"value": "v=spf1 include:spf.migadu.com -all"}
         ]
     },
     "proxied": false
