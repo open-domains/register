@@ -3,18 +3,8 @@
     "domain": "is-not-a.dev",
     "subdomain": "nura",
     "record": {
-        "MX": [
-            {
-                "host": "@",
-                "value": "aspmx1.migadu.com",
-                "priority": 10
-            },
-            {
-                "host": "@",
-                "value": "aspmx2.migadu.com",
-                "priority": 20
-            }
-        ],
+        "MX": ["aspmx1.migadu.com"],
+        "MX": ["aspmx2.migadu.com"],
         "TXT": ["hosted-email-verify=fvlpvxpb"],
         "TXT": ["v=spf1 include:spf.migadu.com -all"]
     },
