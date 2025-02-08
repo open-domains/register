@@ -1,0 +1,16 @@
+{
+    "description": "Simple personal website.",
+    "domain": "is-not-a.dev",
+    "subdomain": "itsreimau",
+
+    "owner": {
+        "repo": "https://github.com/itsreimau/itsreimau.github.io",
+        "email": "iblmln@outlook.co.id"
+    },
+
+    "record": {
+        "CNAME": "itsreimau.github.io"
+    },
+
+    "proxied": false
+}
