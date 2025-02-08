@@ -1,0 +1,22 @@
+{
+    "description": "Wildcard CNAME Records",
+    "domain": "is-not-a.dev",
+    "subdomain": "*.nura",
+    "record": {
+        "CNAME": [
+            {
+                "host": "key1",
+                "value": "key1.nura.is-not-a.dev.domainkey.migadu.com."
+            },
+            {
+                "host": "key2",
+                "value": "key2.nura.is-not-a.dev.domainkey.migadu.com."
+            },
+            {
+                "host": "key3",
+                "value": "key3.nura.is-not-a.dev.domainkey.migadu.com."
+            }
+        ]
+    },
+    "proxied": false
+}
