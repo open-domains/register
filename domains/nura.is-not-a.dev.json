@@ -15,10 +15,8 @@
                 "priority": 20
             }
         ],
-        "TXT": [
-            {"value": "hosted-email-verify=fvlpvxpb"},
-            {"value": "v=spf1 include:spf.migadu.com -all"}
-        ]
+        "TXT": ["hosted-email-verify=fvlpvxpb"],
+        "TXT": ["v=spf1 include:spf.migadu.com -all"]
     },
     "proxied": false
 }
