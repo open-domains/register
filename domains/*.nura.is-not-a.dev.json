@@ -5,16 +5,16 @@
     "record": {
         "CNAME": [
             {
-                "host": "key1",
-                "value": "key1.nura.is-not-a.dev.domainkey.migadu.com."
+                "host": "key1._domainkey",
+                "value": "key1.nura.is-not-a.dev._domainkey.migadu.com."
             },
             {
-                "host": "key2",
-                "value": "key2.nura.is-not-a.dev.domainkey.migadu.com."
+                "host": "key2._domainkey",
+                "value": "key2.nura.is-not-a.dev._domainkey.migadu.com."
             },
             {
-                "host": "key3",
-                "value": "key3.nura.is-not-a.dev.domainkey.migadu.com."
+                "host": "key3._domainkey",
+                "value": "key3.nura.is-not-a.dev._domainkey.migadu.com."
             }
         ]
     },
