@@ -9,13 +9,17 @@
     },
 
     "record": {
-        "CNAME": "key1.nura.is-not-a.dev._domainkey.migadu.com.",
-        "CNAME": "key2.nura.is-not-a.dev._domainkey.migadu.com.",
-        "CNAME": "key3.nura.is-not-a.dev._domainkey.migadu.com.",
-        "MX": ["aspmx1.migadu.com", "aspmx2.migadu.com"],
-        "TXT": ["hosted-email-verify=fvlpvxpb"],
-        "TXT": ["v=spf1 include:spf.migadu.com -all"],
-    },
+    "CNAME": "nura.is-not-a.dev.migadu.com.",
+    "MX": ["aspmx1.migadu.com", "aspmx2.migadu.com"],
+    "TXT": [
+        "hosted-email-verify=fvlpvxpb",
+        "v=spf1 include:spf.migadu.com -all",
+        "key1.nura.is-not-a.dev._domainkey.migadu.com.",
+        "key2.nura.is-not-a.dev._domainkey.migadu.com.",
+        "key3.nura.is-not-a.dev._domainkey.migadu.com."
+    ]
+}
+
 
     "proxied": false
 }
