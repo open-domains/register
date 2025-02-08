@@ -10,9 +10,9 @@
 
     "record": {
         "CNAME": [
-            "key1.nura.is-not-a.dev._domainkey.migadu.com.",
-            "key2.nura.is-not-a.dev._domainkey.migadu.com.",
-            "key3.nura.is-not-a.dev._domainkey.migadu.com."
+            "key1.nura.is-not-a.dev.domainkey.migadu.com.",
+            "key2.nura.is-not-a.dev.domainkey.migadu.com.",
+            "key3.nura.is-not-a.dev.domainkey.migadu.com."
         ],
         "MX": [
             "aspmx1.migadu.com",
