@@ -1,21 +1,30 @@
 {
-    "description": "Own Email",
+    "description": "Email Configuration",
     "domain": "is-not-a.dev",
     "subdomain": "nura",
-
-    "owner": {
-        "repo": "https://github.com/Mooo0042/mooo0042.github.io",
-        "email": "sairus0042@gmail.com"
-    },
-
     "record": {
-        "CNAME": "key1.nura.is-not-a.dev._domainkey.migadu.com.",
-        "CNAME": "key2.nura.is-not-a.dev._domainkey.migadu.com.",
-        "CNAME": "key3.nura.is-not-a.dev._domainkey.migadu.com.",
-        "MX": ["aspmx1.migadu.com", "aspmx2.migadu.com"],
-        "TXT": ["hosted-email-verify=fvlpvxpb"],
-        "TXT": ["v=spf1 include:spf.migadu.com -all"]
+        "MX": [
+            {
+                "host": "@",
+                "value": "aspmx1.migadu.com",
+                "priority": 10
+            },
+            {
+                "host": "@",
+                "value": "aspmx2.migadu.com",
+                "priority": 20
+            }
+        ],
+        "TXT": [
+            {
+                "host": "@",
+                "value": "hosted-email-verify=fvlpvxpb"
+            },
+            {
+                "host": "@",
+                "value": "v=spf1 include:spf.migadu.com -all"
+            }
+        ]
     },
-
     "proxied": false
 }
