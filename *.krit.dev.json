@@ -1,0 +1,16 @@
+{
+  "description": "Personal Self Hosted Apps and Public Website",
+
+  "domain": "krit.dev",
+  "subdomain": "*.krit",
+
+  "owner": {
+    "email": "forthedevsubdomain@mail.com"
+  },
+
+  "record": {
+    "NS": ["ns1.he.net", "ns2.he.net", "ns3.he.net", "ns4.he.net", "ns5.he.net"]
+  },
+
+  "proxied": false
+}
