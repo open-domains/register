@@ -1,0 +1,16 @@
+{
+    "description": "Evans Archive",
+    "domain": "is-not-a.dev",
+    "subdomain": "arc.evans",
+
+    "owner": {
+        "repo": "https://github.com/evansrrr/evansarc",
+        "email": "enzoraziore@outlook.com"
+    },
+
+    "record": {
+        "CNAME": "evansarc.netlify.app"
+    },
+
+    "proxied": false
+}

@@ -1,0 +1,13 @@
+{
+    "description": "Will be used on my vercel.app website that I working on.",
+    "domain": "is-local.org",
+    "subdomain": "comments-zishu",
+    "owner": {
+        "repo": "https://vercel.com/lakes-projects-37f4809d/comment",
+        "email": "lake.hupo.2001@outlook.com"
+    },
+    "record": {
+        "CNAME": "comment-six-nu.vercel.app"
+    },
+    "proxied": false
+}

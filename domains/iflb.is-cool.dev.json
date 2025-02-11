@@ -1,0 +1,17 @@
+{
+    "description": "Unblocker for school",
+
+    "domain": "is-cool.dev",
+    "subdomain": "iflb",
+
+    "owner": {
+        "repo": "https://github.com/UseInterstellar/Interstellar",
+        "email": "thesecondalthowco00l@proton.me"
+    },
+
+    "record": {
+        "CNAME": "interstellarforschool.onrender.com"
+    },
+
+    "proxied": false
+}

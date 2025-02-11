@@ -1,0 +1,18 @@
+{
+    "description": "A mail domain for my personal server",
+    "domain": "is-local.org",
+    "subdomain": "raph-vps",
+
+    "owner": {
+        "repo": "https://github.com/DarkBrines",
+        "email": "darkbrinees@gmail.com"
+    },
+
+    "record": {
+        "A": ["213.165.82.45"],
+        "MX": ["raph-vps.is-local.org"],
+        "SPF": "v=spf1 ip4:213.165.82.45 -all"
+    },
+  
+    "proxied": false
+}

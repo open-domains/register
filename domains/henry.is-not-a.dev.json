@@ -1,0 +1,16 @@
+{
+    "description": "Personal blog for a friend",
+    "domain": "is-not-a.dev",
+    "subdomain": "henry",
+
+    "owner": {
+        "repo": "https://github.com/dandepan303/astro-paper",
+        "email": "dandepan303@gmail.com"
+    },
+
+    "record": {
+        "A": ["75.2.60.5"]
+    },
+
+    "proxied": false
+}

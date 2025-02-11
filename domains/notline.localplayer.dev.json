@@ -1,0 +1,16 @@
+{
+    "description": "Just domain for student",
+    "domain": "localplayer.dev",
+    "subdomain": "notline",
+
+    "owner": {
+        "repo": "https://github.com/dav2010ID/notline",
+        "email": "131987730+dav2010ID@users.noreply.github.com"
+    },
+
+    "record": {
+        "A": ["74.234.45.159"]
+    },
+
+    "proxied": false
+}

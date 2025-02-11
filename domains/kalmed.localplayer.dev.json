@@ -1,0 +1,16 @@
+{
+    "description": "Gamer Profile Website",
+    "domain": "localplayer.dev",
+    "subdomain": "kalmed",
+  
+    "owner": {
+        "repo": "https://github.com/k4lm3d/k4lm3d.github.io",
+        "email": "k4lm3d@duck.com"
+    },
+
+    "record": {
+        "CNAME": "k4lm3d.github.io"
+    },
+
+    "proxied": false
+}

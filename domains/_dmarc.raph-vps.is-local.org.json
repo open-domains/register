@@ -1,0 +1,16 @@
+{
+    "description": "A mail domain for my personal server (DMARC)",
+    "domain": "is-local.org",
+    "subdomain": "_dmarc.raph-vps",
+
+    "owner": {
+        "repo": "https://github.com/DarkBrines",
+        "email": "darkbrinees@gmail.com"
+    },
+
+    "record": {
+        "TXT": ["v=DMARC1; p=reject; rua=mailto:postmaster@raph-vps.is-local.org; ruf=mailto:postmaster@raph-vps.is-local.org; sp=reject; adkim=s; aspf=s"]
+    },
+  
+    "proxied": false
+}

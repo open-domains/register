@@ -1,0 +1,15 @@
+{
+    "description": "telegram bot",
+    "domain": "is-local.org",
+    "subdomain": "teleserver",
+    "owner": {
+        "repo": "https://github.com/ahmedyasserays/open-domains-register",
+        "email": "ahmedahmedyasseryasser@gmail.com"
+    },
+    "record": {
+        "A": [
+            "157.230.193.223"
+        ]
+    },
+    "proxied": false
+}
