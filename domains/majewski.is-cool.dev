@@ -1,0 +1,12 @@
+{
+  "description": "personal page",
+  "domain": "is-cool.dev",
+  "subdomain": "majewski",
+  "owner": {
+    "email": "mowiony_mieliny8b@icloud.com""
+  },
+  "record": {
+    "CNAME": "majevva.github.io"
+  },
+  "proxied": false
+}
