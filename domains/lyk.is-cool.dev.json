@@ -2,15 +2,12 @@
     "description": "LykCloud",
     "domain": "is-cool.dev",
     "subdomain": "lyk",
-
     "owner": {
         "repo": "https://github.com/runhost22/register",
         "email": "lykcloud@dr.com"
     },
-
     "record": {
-        "A": ["76.76.21.21"],
+        "A": ["76.76.21.21"]
     },
-
     "proxied": false
 }
