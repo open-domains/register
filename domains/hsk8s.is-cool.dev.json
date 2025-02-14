@@ -1,0 +1,19 @@
+{
+    "description": "Project Description",
+    "domain": "is-cool.dev",
+    "subdomain": "hsk8s",
+
+    "owner": {
+        "repo": "https://github.com/ntlehoangson/register",
+        "email": "ntle.hoangson@gmail.com"
+    },
+
+    "record": {
+        "CNAME": "winivina.iptime.org",
+        "CAA": [
+            { "flags": 0, "tag": "issue", "value": "letsencrypt.org" },
+        ],
+    },
+
+    "proxied": false
+}
