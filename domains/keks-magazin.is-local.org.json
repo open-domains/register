@@ -1,0 +1,16 @@
+{
+    "description": "A friend domain",
+    "domain": "is-local.org",
+    "subdomain": "keks-magazin",
+
+    "owner": {
+        "repo": "https://github.com/getSono/register_2",
+        "email": "sono@sono.is-a.dev"
+    },
+
+    "record": {
+        "CNAME": "keks-magazin.github.io"
+    },
+
+    "proxied": false
+}

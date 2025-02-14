@@ -1,0 +1,15 @@
+{
+    "description": "Minecraft Server",
+    "domain": "is-cool.dev",
+    "subdomain": "grinder-circle",
+
+    "owner": {
+        "email": "ahcwnh@gmail.com"
+    },
+
+    "record": {
+        "A": ["130.61.85.247"]
+    },
+
+    "proxied": false
+}

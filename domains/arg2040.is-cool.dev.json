@@ -1,0 +1,16 @@
+{
+    "description": "Project Description",
+    "domain": "is-cool.dev",
+    "subdomain": "arg2040",
+
+    "owner": {
+        "repo": "https://github.com/Gamer/repo",
+        "email": "arirajd@gmail.com"
+    },
+
+    "record": {
+        "AAAA": ["2405:201:c021:2c:753f:e415:9e84:7d19"]
+    },
+
+    "proxied": true
+}

@@ -13,5 +13,5 @@
     "NS": ["arushi.ns.cloudflare.com", "duke.ns.cloudflare.com"]
   },
 
-  "proxied": true
+  "proxied": false
 }

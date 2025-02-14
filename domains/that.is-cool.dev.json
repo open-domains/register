@@ -1,0 +1,16 @@
+{
+    "description": "Personal server study such as nginx, Minecraft server and so on.",
+    "domain": "is-cool.dev",
+    "subdomain": "that",
+
+    "owner": {
+        "repo": "https://github.com/Embracing-Galaxy/open-domain-register",
+        "email": "fulcrum-z@outlook.com"
+    },
+
+    "record": {
+        "AAAA": ["2a12:bec0:168:43b::"]
+    },
+
+    "proxied": false
+}

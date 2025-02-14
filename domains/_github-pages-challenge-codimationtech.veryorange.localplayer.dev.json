@@ -1,0 +1,18 @@
+{
+
+    "description": "github verification",
+
+    "domain": "localplayer.dev",
+    "subdomain": "_github-pages-challenge-codimationtech.veryorange",
+
+    "owner": {
+        "repo": "https://github.com/codimationtech/",
+        "email": "codimationtech@gmail.com"
+    },
+
+    "record": {
+        "TXT": ["bade021905f4aeaa4b73a86a19c8d0"]
+    },
+
+    "proxied": false
+}

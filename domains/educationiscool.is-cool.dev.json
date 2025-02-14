@@ -1,0 +1,17 @@
+{
+    "description": "Unblocker for school",
+
+    "domain": "is-cool.dev",
+    "subdomain": "educationiscool",
+
+    "owner": {
+        "repo": "https://github.com/holy-unblocker/website-legacy-aio",
+        "email": "thesecondalthowco00l@proton.me"
+    },
+
+    "record": {
+        "CNAME": "healthy-dottie-thisisanalthowcool-289ee256.koyeb.app"
+    },
+
+    "proxied": false
+}

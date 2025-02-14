@@ -1,0 +1,16 @@
+{
+    "description": "IPTV Streaming",
+    "domain": "localplayer.dev",
+    "subdomain": "darmstadt",
+
+    "owner": {
+        "repo": "https://github.com/antebrl/IPTV-StreamHub",
+        "email": "ahcwnh@gmail.com"
+    },
+
+    "record": {
+        "A": ["130.61.108.36"]
+    },
+
+    "proxied": false
+}

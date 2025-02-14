@@ -1,0 +1,13 @@
+{
+    "description": "CCDS domain, subdomain are used for accessing multiple service. eg., npm.ccds.is-local.org for node proxy manager",
+    "domain": "is-local.org",
+    "subdomain": "*.ccds",
+    "owner": {
+        "repo": "https://github.com/rafathasan/register",
+        "email": "rafathasankhan@gmail.com"
+    },
+    "record": {
+        "A": ["103.81.70.74"]
+    },
+    "proxied": false
+}

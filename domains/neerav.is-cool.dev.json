@@ -1,0 +1,13 @@
+{
+    "description": "Just want to host my personal portfolio site on it!",
+    "domain": "is-cool.dev",
+    "subdomain": "neerav",
+    "owner": {
+        "repo": "https://github.com/BadPotato1007/myportfolio",
+        "email": "neeravgupta07@gmail.com"
+    },
+    "record": {
+        "TXT": ["vc-domain-verify=neerav.is-a.dev,c15e13a6aa8319e806ec"]
+    },
+    "proxied": false
+}

@@ -10,7 +10,7 @@
   },
 
   "record": {
-    "CNAME": ["site.namedhosting.com"]
+    "CNAME": "site.namedhosting.com"
   },
 
   "proxied": false

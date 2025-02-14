@@ -1,0 +1,15 @@
+{
+    "domain": "is-cool.dev",
+    "subdomain": "philip",
+
+    "owner": {
+        "repo": "https://github.com/philipo30/portfolio",
+        "email": "philip30business@gmail.com"
+    },
+
+    "record": {
+        "CNAME": "philip30.vercel.app"
+    },
+
+    "proxied": false
+}

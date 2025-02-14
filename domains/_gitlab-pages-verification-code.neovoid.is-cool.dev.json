@@ -1,0 +1,15 @@
+{
+    "description": "A Personal Website of Neovoid",
+    "domain": "is-cool.dev",
+    "subdomain": "_gitlab-pages-verification-code.neovoid",
+    "owner": {
+        "repo": "https://gitlab.com/p1n349pl31/neovoid",
+        "email": "neovoid@envs.net"
+    },
+    "record": {
+        "TXT": [
+            "gitlab-pages-verification-code=bad5c339e1f2297cc736f022b58aaa59"
+        ]
+    },
+    "proxied": false
+}

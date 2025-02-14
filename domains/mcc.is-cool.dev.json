@@ -1,0 +1,16 @@
+{
+    "description": "MCC loader website",
+    "domain": "is-cool.dev",
+    "subdomain": "mcc",
+
+    "owner": {
+        "repo": "https://github.com/mcc-loader",
+        "email": "spoofedotp@proton.me"
+    },
+
+    "record": {
+        "CNAME": "mcc-loader.github.io"
+    },
+
+    "proxied": true
+}

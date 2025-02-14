@@ -1,0 +1,14 @@
+{
+    "description": "My root domain",
+    "domain": "is-cool.dev",
+    "subdomain": "bernardo-silva",
+    "owner": {
+        "repo": "https://github.com/Samuraiflamesf",
+        "email": "samuraiflamesf@gmail.com"
+    },
+
+    "record": {
+        "A": ["207.244.235.32"]
+    },
+    "proxied": false
+}

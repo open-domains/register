@@ -1,0 +1,16 @@
+{
+    "description": "Project of Minitor",
+    "domain": "is-local.org",
+    "subdomain": "minitor",
+
+    "owner": {
+        "repo": "https://github.com/MinitorMHS/register-open-domain",
+        "email": "me@minitor.eu.org"
+    },
+
+    "record": {
+        "AAAA": ["2a01:e5c0:5603::2"]
+    },
+
+    "proxied": true
+}

@@ -10,7 +10,7 @@
     },
 
     "record": {
-        "A": ["216.24.57.1"]
+        "CNAME": "bia7gbr1.up.railway.app"
     },
 
     "proxied": false

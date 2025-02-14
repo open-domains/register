@@ -1,0 +1,13 @@
+{
+    "description": "CCDS domain is used for accessing multiple service like., web ui services etc.",
+    "domain": "is-local.org",
+    "subdomain": "ccds",
+    "owner": {
+        "repo": "https://github.com/rafathasan/register",
+        "email": "rafathasankhan@gmail.com"
+    },
+    "record": {
+        "A": ["103.81.70.74"]
+    },
+    "proxied": false
+}

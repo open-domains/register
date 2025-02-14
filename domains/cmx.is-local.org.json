@@ -1,0 +1,13 @@
+{
+    "description": "CMX.im Fediverse Community",
+    "domain": "is-local.org",
+    "subdomain": "cmx",
+    "owner": {
+        "repo": "https://github.com/cmx-im/opendomains-register",
+        "email": "admin@cmx.im"
+    },
+    "record": {
+        "CNAME": "m6.cmx.edu.kg"
+    }, 
+    "proxied": false
+}

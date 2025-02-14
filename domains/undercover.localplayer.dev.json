@@ -1,0 +1,13 @@
+{
+    "description": "Undercover web game",
+    "domain": "localplayer.dev",
+    "subdomain": "undercover",
+    "owner": {
+        "repo": "https://github.com/antebrl/undercover-word-game",
+        "email": "ahcwnh@gmail.com"
+    },
+    "record": {
+        "CNAME": "antebrl.github.io"
+    },
+    "proxied": false
+}

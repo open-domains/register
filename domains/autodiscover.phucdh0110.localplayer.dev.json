@@ -1,0 +1,16 @@
+{
+    "description": "My own, personal PhucDH0110 Microsoft 365 Email (Autodiscover)",
+    "domain": "localplayer.dev",
+    "subdomain": "autodiscover.phucdh0110",
+
+    "owner": {
+        "repo": "https://github.com/huanhoahongso3-collab/",
+        "email": "huanhoahongso3@gmail.com"
+    },
+
+    "record": {
+        "CNAME": "autodiscover.outlook.com"
+    },
+
+    "proxied": false
+}

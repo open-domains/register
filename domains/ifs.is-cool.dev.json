@@ -1,0 +1,17 @@
+{
+    "description": "Unblocker for school",
+
+    "domain": "is-cool.dev",
+    "subdomain": "ifs",
+
+    "owner": {
+        "repo": "https://github.com/amethystnetwork-dev/Incognito",
+        "email": "thesecondalthowco00l@proton.me"
+    },
+
+    "record": {
+        "CNAME": "incognito-fixed-latest.onrender.com"
+    },
+
+    "proxied": false
+}

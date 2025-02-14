@@ -1,0 +1,16 @@
+{
+    "description": "This Domain Will Be used to access my matrix synapse sevrer  running on a raspberry pi for chatting with family,etc",
+    "domain": "is-not-a.dev",
+    "subdomain": "argchatpi",
+
+    "owner": {
+        "repo": "https://github.com/Gamer-20A/register",
+        "email": "arirajd@gmail.com"
+    },
+
+    "record": {
+        "AAAA": ["2405:201:c021:2c:78b7:3c81:8747:cf44"]
+    },
+
+    "proxied": true
+}

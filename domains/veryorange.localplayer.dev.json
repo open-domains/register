@@ -1,0 +1,18 @@
+{
+
+    "description": "As a nice place where I can test out some stuff that needs a website (and also for random stuff)",
+
+    "domain": "localplayer.dev",
+    "subdomain": "veryorange",
+
+    "owner": {
+        "repo": "https://github.com/codimationtech/veryorange",
+        "email": "codimationtech@gmail.com"
+    },
+
+   "record": {
+    "CNAME": "codimationtech.github.io"
+  },
+
+    "proxied": false
+}
