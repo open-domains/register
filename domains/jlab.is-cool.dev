@@ -1,0 +1,16 @@
+{
+    "description": "Domain for jlab",
+    "domain": "is-cool.dev",
+    "subdomain": "jlab",
+
+    "owner": {
+        "repo": "https://github.com/jonlabr/forks-open-domains",
+        "email": "ficihic253@sectorid.com"
+    },
+
+    "record": {
+        "A": ["23.91.233.248"]
+    },
+
+    "proxied": false
+}
