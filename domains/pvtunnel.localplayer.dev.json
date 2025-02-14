@@ -1,0 +1,16 @@
+{
+    "description": "A simple web proxy using Ultraviolet",
+    "domain": "localplayer.dev",
+    "subdomain": "pvtunnel",
+
+    "owner": {
+        "repo": "https://github.com/projectvoid123/proxy",
+        "email": "joeylentz0525@gmail.com"
+    },
+
+    "record": {
+        "A": ["66.23.198.231"]
+    },
+
+    "proxied": true
+}
