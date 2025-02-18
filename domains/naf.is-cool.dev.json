@@ -1,26 +1,26 @@
 {
-    "description": "Một server minecraft nhỏ nhưng chứa nhiều điều thú vị:D",
-    
-    "domain": "is-cool.dev",
-    "subdomain": "naf",
+  "description": "Một server minecraft nhỏ nhưng chứa nhiều điều thú vị:D",
 
-    "owner": {
-        "repo": "https://github.com/naipret/naf.is-cool.dev",
-        "email": "ngvphu235e@gmail.com"
-    },
+  "domain": "is-cool.dev",
+  "subdomain": "naf",
 
-    "record": {
-        "SRV": [
-          {
-            "service": "_minecraft",
-            "protocol": "_tcp",
-            "priority": 0,
-            "weight": 5,
-            "port": 25145,
-            "target": "mc.squidinc.space"
-          }
-        ]
-    },
+  "owner": {
+    "repo": "https://github.com/naipret/naf.is-cool.dev",
+    "email": "ngvphu235e@gmail.com"
+  },
 
-    "proxied": false
+  "record": {
+    "SRV": [
+      {
+        "service": "_minecraft",
+        "protocol": "_tcp",
+        "priority": 0,
+        "weight": 5,
+        "port": 25145,
+        "target": "mc.squidinc.space"
+      }
+    ]
+  },
+
+  "proxied": false
 }
