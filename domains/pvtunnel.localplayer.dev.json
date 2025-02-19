@@ -1,7 +1,7 @@
 {
     "description": "A simple web proxy using Ultraviolet",
     "domain": "localplayer.dev",
-    "subdomain": "pvtunnel",
+    "subdomain": "nexushub",
 
     "owner": {
         "repo": "https://github.com/projectvoid123/proxy",
