@@ -1,0 +1,16 @@
+{
+  "description": "My Portfolio",
+
+  "domain": "is-a-fullstack.dev",
+  "subdomain": "jaycee",
+
+  "owner": {
+    "email": "jaycee@rootscratch.com"
+  },
+
+  "record": {
+     "CNAME": "https://qr.rootscratch.com/john"
+  },
+
+  "proxied": true
+}
