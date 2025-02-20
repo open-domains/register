@@ -1,0 +1,15 @@
+{
+    "description": "Personal PhotoServer",
+    "domain": "is-not-a.dev",
+    "subdomain": "photo-serv5412",
+
+    "owner": {
+        "email": "freedome-soft@hldrive.com"
+    },
+
+    "record": {
+        "A": ["213.21.237.81"]
+    },
+
+    "proxied": false
+}
