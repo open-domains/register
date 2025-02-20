@@ -1,0 +1,13 @@
+{
+    "description": "prime site",
+    "domain": "localplayer.dev",
+    "subdomain": "prime-gxmes",
+    "owner": {
+        "repo": "https://github.com/primegaming1/primegames",
+        "email": "elijah.mcdougall@gmail.com"
+    },
+    "record": {
+        "CNAME": "primegaming1.github.io"
+    },
+    "proxied": false
+}
