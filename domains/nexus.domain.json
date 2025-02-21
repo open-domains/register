@@ -2,15 +2,12 @@
     "description": "Project Description",
     "domain": "is-cool.dev",
     "subdomain": "nexus",
-
     "owner": {
         "repo": "https://github.com/NexusIsReal/register",
         "email": "nexusnirob3000@gmail.com"
     },
-
     "record": {
-        "A": ["76.76.21.21"],
+        "A": ["76.76.21.21"]
     },
-
     "proxied": false
 }
