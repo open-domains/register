@@ -1,0 +1,17 @@
+{
+    "description": "Wildcard for my personal learning test project",
+
+    "domain": "is-cool.dev",
+    "subdomain": "*.pracaks",
+
+    "owner": {
+        "repo": "https://github.com/9suriya/free-subdomain-register",
+        "email": "febgkeprac3months@gmail.com"
+    },
+
+    "record": {
+        "A": ["128.203.235.239"]
+    },
+
+    "proxied": false
+}
