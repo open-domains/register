@@ -1,0 +1,16 @@
+{
+    "description": "Santhosh's Portfolio Website",
+    "domain": "is-cool.dev",
+    "subdomain": "santhosh",
+
+    "owner": {
+        "repo": "https://github.com/santhoshsj-dev/sj-portfolio-v2",
+        "email": "santhoshsekar2903@gmail.com.com"
+    },
+
+    "record": {
+        "CNAME": "santhoshsj.vercel.app",
+    },
+
+    "proxied": false
+}
