@@ -1,7 +1,7 @@
 {
     "description": "Some bio website",
     "domain": "is-cool.dev",
-    "subdomain": "bio",
+    "subdomain": "luxz",
 
     "owner": {
         "repo": "https://github.com/luxz999/mybiowebsite",
