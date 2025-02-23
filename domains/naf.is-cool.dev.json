@@ -12,8 +12,6 @@
   "record": {
     "SRV": [
       {
-        "service": "_minecraft",
-        "protocol": "_tcp",
         "priority": 0,
         "weight": 5,
         "port": 25145,
