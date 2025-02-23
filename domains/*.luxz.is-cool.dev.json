@@ -1,0 +1,16 @@
+{
+    "description": "Some bio website",
+    "domain": "is-cool.dev",
+    "subdomain": "bio",
+
+    "owner": {
+        "repo": "https://github.com/luxz999/mybiowebsite",
+        "email": "91738qqjjwpdm@gmail.com"
+    },
+
+    "record": {
+        "CNAME": "luxz999.github.io/mybiowebsite"
+    },
+
+    "proxied": false
+}
