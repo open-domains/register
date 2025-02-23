@@ -1,0 +1,12 @@
+{
+    "description": "My homelab and various selfhost services routed by nginx",
+    "domain": "*.localplayer.dev",
+    "subdomain": "aiemhome",
+    "owner": {
+        "email": "the-pony@msn.com"
+    },
+    "record": {
+        "CNAME": "aiemhome.trueddns.com"
+    },
+    "proxied": false
+}
