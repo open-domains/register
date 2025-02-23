@@ -1,16 +1,13 @@
 {
-  "description": "Wildcard subdomain for hosting multiple apps",
-  "domain": "is-cool.dev",
-  "subdomain": "*.app",
-  "owner": {
-    "username": "JonathanXDR",
-    "email": "jonathan.russ@bluewin.ch"
-  },
-  "record": {
-    "NS": [
-      "ns1.vercel-dns.com",
-      "ns2.vercel-dns.com"
-    ]
-  },
-  "proxied": false
+    "description": "Wildcard subdomain for hosting multiple apps",
+    "domain": "is-cool.dev",
+    "subdomain": "*.app",
+    "owner": {
+        "username": "JonathanXDR",
+        "email": "jonathan.russ@bluewin.ch"
+    },
+    "record": {
+        "NS": ["ns1.vercel-dns.com", "ns2.vercel-dns.com"]
+    },
+    "proxied": false
 }
