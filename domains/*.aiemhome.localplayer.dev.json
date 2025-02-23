@@ -1,7 +1,7 @@
 {
     "description": "My homelab and various selfhost services routed by nginx",
-    "domain": "*.localplayer.dev",
-    "subdomain": "aiemhome",
+    "domain": "localplayer.dev",
+    "subdomain": "*.aiemhome",
     "owner": {
         "email": "the-pony@msn.com"
     },
