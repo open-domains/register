@@ -1,7 +1,7 @@
 {
-    "description": "Wildcard subdomain for hosting multiple apps",
+    "description": "Subdomain for hosting multiple projects, apps or sites related to JonathanXDR",
     "domain": "is-cool.dev",
-    "subdomain": "*.app",
+    "subdomain": "jonathan",
     "owner": {
         "username": "JonathanXDR",
         "email": "jonathan.russ@bluewin.ch"

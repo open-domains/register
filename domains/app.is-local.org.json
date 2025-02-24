@@ -1,7 +1,7 @@
 {
-    "description": "Wildcard subdomain for hosting multiple projects",
+    "description": "Subdomain for hosting multiple apps",
     "domain": "is-local.org",
-    "subdomain": "*.project",
+    "subdomain": "app",
     "owner": {
         "username": "JonathanXDR",
         "email": "jonathan.russ@bluewin.ch"
