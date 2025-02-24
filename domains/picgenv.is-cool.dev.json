@@ -1,0 +1,16 @@
+{
+    "description": "PicGenV",
+    "domain": "is-cool.dev",
+    "subdomain": "picgenv",
+
+    "owner": {
+        "repo": "https://github.com/FreeCode911/register",
+        "email": "email@lykcloud.me"
+    },
+
+    "record": {
+        "CNAME": "picgenv-website.pages.dev",
+    },
+
+    "proxied": false
+}
