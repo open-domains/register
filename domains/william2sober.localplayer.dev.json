@@ -1,0 +1,17 @@
+{
+    "description": "William Holley Website",
+    "domain": "localplayer.dev",
+    "subdomain": "william2sober",
+
+    "owner": {
+        "repo": "https://github.com/william2sober/open-domains",
+        "email": "william2sober@gmail.com"
+    },
+
+    "record": {
+        "A": ["76.76.21.21"]
+    },
+
+    "proxied": false
+}
+
