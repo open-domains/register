@@ -10,4 +10,9 @@
 
     "record": {
         "CNAME": "cyiwdio.vercel.app",
+    
+    }
+"proxied": false
+
+
 }
