@@ -9,8 +9,6 @@
     },
 
     "record": {
-        "A": ["1.1.1.1"],  // If you want to use A records
-        "AAAA": ["::1"],   // If you want to use AAAA records
         "CNAME": "imewebapp.Sinetos.cfargotunnel.com"  // Your actual CNAME record
     },
 
