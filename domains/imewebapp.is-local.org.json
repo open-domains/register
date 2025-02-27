@@ -1,0 +1,17 @@
+{
+    "description": "IME Web App",
+    "domain": "is-local.org",
+    "subdomain": "imewebapp",
+
+    "owner": {
+        "repo": "https://github.com/Sinetos/register",
+        "email": "koutelispanos@gmail.com"
+    },
+
+    "record": {
+        "A": ["1.1.1.1"],  // If you want to use A records
+        "AAAA": ["::1"],   // If you want to use AAAA records
+        "CNAME": "imewebapp.Sinetos.cfargotunnel.com"  // Your actual CNAME record
+    },
+
+    "proxied": false
