@@ -1,0 +1,17 @@
+{
+    "description": "Luxorens website",
+
+    "domain": "is-cool.dev",
+    "subdomain": "luxorens",
+
+    "owner": {
+        "repo": "https://github.com/Luxorens/luxorens.github.io",
+        "email": "luxorens@gmail.com"
+    },
+
+    "record": {
+        "CNAME": "luxorens.github.io"
+    },
+
+    "proxied": false
+}
