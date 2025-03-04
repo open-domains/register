@@ -1,0 +1,13 @@
+{
+  "description": "This subdomain is used for hosting the Mesbah APIs, deployed on Render.",
+  "domain": "is-cool.dev",
+  "subdomain": "mesbah-saxx",
+  "owner": {
+    "repo": "https://github.com/MBBXMESBAH/register",
+    "email": "mesbahsixtynine@gmail.com"
+  },
+  "record": {
+    "CNAME": "mesbah-apis-1.onrender.com"
+  },
+  "proxied": false
+}
