@@ -9,7 +9,7 @@
     },
 
     "record": {
-        "CNAME": "imewebapp.Sinetos.cfargotunnel.com"  // Your actual CNAME record
+        "CNAME": "imewebapp.Sinetos.cfargotunnel.com"
     },
 
     "proxied": false
