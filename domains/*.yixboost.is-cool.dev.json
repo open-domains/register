@@ -1,0 +1,17 @@
+{
+    "description": "ALt domain for Yixboost Games",
+
+    "domain": "is-cool.dev",
+    "subdomain": "*.yixboost",
+
+    "owner": {
+        "repo": "https://github.com/Yixboost/yixboost.github.io",
+        "email": "support@yixboost.dev"
+    },
+
+    "record": {
+        "A": ["82.168.19.207"]
+    },
+
+    "proxied": false
+}
