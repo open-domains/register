@@ -1,0 +1,15 @@
+{
+    "description": "Bozenka - an open-source project for managing communities across various platforms such as VK, Discord, and Telegram. ",
+    "domain": "is-cool.dev",
+    "subdomain": "bozenka",
+
+    "owner": {
+        "repo": "https://github.com/kittyneverdies/Bozenka",
+        "email": "Catofeyevich@proton.me"
+    },
+
+    "record": {
+        "CNAME": "bozenka.gitbook.io",
+    },
+    "proxied": false
+}
