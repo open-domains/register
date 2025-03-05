@@ -1,0 +1,16 @@
+{
+    "description": "My weblog",
+
+    "domain": "localplayer.dev",
+    "subdomain": "w3teal",
+
+    "owner": {
+        "repo": "https://github.com/w3teal/_site"
+    },
+
+    "record": {
+        "CNAME": "na-west1.surge.sh"
+    },
+
+    "proxied": false
+}
