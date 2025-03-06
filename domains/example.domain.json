@@ -1,0 +1,22 @@
+{
+    "description": "Project Description",
+
+    "domain": "is-not-a.dev",
+    "subdomain": "nullx.is-not-a.dev",
+
+    "owner": {
+        "repo": "https://github.com/wahyusudrajad/register",
+        "email": "networkofficial58@gmail.com"
+    },
+
+    "record": {
+        "A": ["1.1.1.1", "1.0.0.1"],
+        "AAAA": ["::1", "::2"],
+        "CNAME": "nullx.com",
+        "MX": ["mx1.nullx.com", "mx2.nullx.com"],
+        "NS": ["ns1.nullx.com", "ns2.nullx.com"],
+        "TXT": ["nullx_verification=1234567890"]
+    },
+
+    "proxied": false
+}
