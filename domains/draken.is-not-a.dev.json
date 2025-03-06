@@ -4,13 +4,12 @@
     "subdomain": "draken",
 
     "owner": {
-        "repo": "https://github.com/dragonx943/register-2",
         "email": "premieregirl26@gmail.com"
     },
 
     "record": {
-        "CNAME": "ec2-54-254-71-100.ap-southeast-1.compute.amazonaws.com"
+        "A": ["54.254.71.100"]
     },
 
-    "proxied": true
+    "proxied": false
 }
