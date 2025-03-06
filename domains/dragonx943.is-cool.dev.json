@@ -1,10 +1,10 @@
 {
     "description": "Kotatsu Sync Server by Draken",
-
-    "domain": "is-not-a.dev",
-    "subdomain": "draken",
+    "domain": "is-cool.dev",
+    "subdomain": "dragonx943",
 
     "owner": {
+        "repo": "https://github.com/dragonx943/register-2",
         "email": "premieregirl26@gmail.com"
     },
 
