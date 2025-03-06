@@ -1,0 +1,19 @@
+{
+    "description": "This domain is required for my research project on WMO Information System 2.0 for Meteorological Data Exchange",
+    "domain": "is-local.org",
+    "subdomain": "wis2box",
+
+    "owner": {
+        "repo": "https://github.com/KashifProg/register",
+        "email": "kashifmemon81@gmail.com"
+    },
+
+    "record": {
+        "A": ["221.120.203.58"],
+        "SRV": [
+            { "priority": 10, "weight": 60, "port": 1883, "target": "wis2box.is-local.org" },
+        ]
+    },
+
+    "proxied": false
+}
