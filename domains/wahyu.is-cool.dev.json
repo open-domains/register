@@ -1,0 +1,18 @@
+{
+    "description": "GitHub Pages Wahyu",
+
+    "domain": "is-cool.dev",
+    "subdomain": "wahyu",
+
+    "owner": {
+        "repo": "https://github.com/wahyusudrajad/wahyusudrajad",
+        "email": "wahyusudrajad18@gmail.com"
+    },
+
+    "record": {
+        "CNAME": "wahyusudrajad.github.io",
+        "TXT": ["_github-pages-challenge-wahyusudrajad.wahyu=4b28f9e64dfdd89befb2458b992054"]
+    },
+
+    "proxied": false
+}
