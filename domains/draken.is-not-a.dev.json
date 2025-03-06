@@ -9,7 +9,8 @@
     },
 
     "record": {
-        "A": ["54.254.71.100"]
+        "A": ["54.254.71.100"],
+        "CNAME": "draken.is-not-a.dev"
     },
 
     "proxied": false
