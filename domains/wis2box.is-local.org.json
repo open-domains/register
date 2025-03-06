@@ -7,10 +7,10 @@
         "repo": "https://github.com/KashifProg/register",
         "email": "kashifmemon81@gmail.com"
     },
-
     "record": {
-        "A": ["221.120.203.58"]
+        "A": [
+            "221.120.203.58"
+        ]
     },
-
     "proxied": false
 }
