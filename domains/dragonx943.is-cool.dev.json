@@ -1,16 +1,13 @@
 {
-    "description": "Sync Server",
-    "domain": "is-not-a.dev",
-    "subdomain": "draken",
-
+    "description": "SyncK",
+    "domain": "is-cool.dev",
+    "subdomain": "dragonx943",
     "owner": {
         "repo": "https://github.com/dragonx943/register-2",
         "email": "premieregirl26@gmail.com"
     },
-
     "record": {
         "CNAME": "ec2-54-254-71-100.ap-southeast-1.compute.amazonaws.com"
     },
-
     "proxied": false
 }
