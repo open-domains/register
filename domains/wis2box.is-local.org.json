@@ -1,16 +1,14 @@
 {
-    "description": "This domain is required for my research project on WMO Information System 2.0 for Meteorological Data Exchange",
-    "domain": "is-local.org",
+    "description": "This domain will be used for my research project to setup WMO Informaion System 2.0",
+    "domain": "is-cool.dev",
     "subdomain": "wis2box",
-
     "owner": {
         "repo": "https://github.com/KashifProg/register",
         "email": "kashifmemon81@gmail.com"
     },
+
     "record": {
-        "A": [
-            "221.120.203.58"
-        ]
+        "A": ["221.120.203.58"]
     },
     "proxied": false
 }
