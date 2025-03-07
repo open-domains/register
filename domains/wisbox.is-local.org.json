@@ -1,7 +1,7 @@
 {
     "description": "This domain will be used for my research project to setup WMO Informaion System 2.0",
-    "domain": "is-cool.dev",
-    "subdomain": "wis2box",
+    "domain": "is-local.org",
+    "subdomain": "wisbox",
     "owner": {
         "repo": "https://github.com/KashifProg/register",
         "email": "kashifmemon81@gmail.com"
