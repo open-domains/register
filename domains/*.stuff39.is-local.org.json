@@ -1,0 +1,18 @@
+{
+    "description": "Personal site",
+    "domain": "is-local.org",
+    "subdomain": "stuff39",
+
+    "owner": {
+        "repo": "https://github.com/stuff39/register",
+        "email": "qwertyuiopanez11@gmail.com"
+    },
+
+    "record": {
+        "A": ["185.199.108.153", "185.199.109.153", "185.199.110.153", "185.199.111.153"],
+        "AAAA": ["2606:50c0:8000::153", "2606:50c0:8001::153", "2606:50c0:8002::153", "2606:50c0:8003::153"],
+        "CNAME": "stuff39.github.io",
+    },
+
+    "proxied": false
+}
