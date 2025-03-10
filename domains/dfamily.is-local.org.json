@@ -8,6 +8,7 @@
     },
     "record": {
         "A": ["78.124.119.170"]
+        "MX": ["dfamily.is-local.org/guacamole"],
     },
     "proxied": false
 }
