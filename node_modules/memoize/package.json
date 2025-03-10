@@ -1,0 +1,71 @@
+{
+	"name": "memoize",
+	"version": "10.0.0",
+	"description": "Memoize functions - An optimization used to speed up consecutive function calls by caching the result of calls with identical input",
+	"license": "MIT",
+	"repository": "sindresorhus/memoize",
+	"funding": "https://github.com/sindresorhus/memoize?sponsor=1",
+	"author": {
+		"name": "Sindre Sorhus",
+		"email": "sindresorhus@gmail.com",
+		"url": "https://sindresorhus.com"
+	},
+	"type": "module",
+	"exports": {
+		"types": "./dist/index.d.ts",
+		"default": "./dist/index.js"
+	},
+	"sideEffects": false,
+	"engines": {
+		"node": ">=18"
+	},
+	"scripts": {
+		"test": "xo && ava && npm run build && tsd --typings dist/index.d.ts",
+		"build": "del-cli dist && tsc",
+		"prepack": "npm run build"
+	},
+	"files": [
+		"dist"
+	],
+	"keywords": [
+		"memoize",
+		"function",
+		"mem",
+		"memoization",
+		"cache",
+		"caching",
+		"optimize",
+		"performance",
+		"ttl",
+		"expire",
+		"promise"
+	],
+	"dependencies": {
+		"mimic-function": "^5.0.0"
+	},
+	"devDependencies": {
+		"@sindresorhus/tsconfig": "^5.0.0",
+		"@types/serialize-javascript": "^5.0.4",
+		"ava": "^5.3.1",
+		"del-cli": "^5.1.0",
+		"delay": "^6.0.0",
+		"serialize-javascript": "^6.0.1",
+		"ts-node": "^10.9.1",
+		"tsd": "^0.29.0",
+		"xo": "^0.56.0"
+	},
+	"ava": {
+		"timeout": "1m",
+		"extensions": {
+			"ts": "module"
+		},
+		"nodeArguments": [
+			"--loader=ts-node/esm"
+		]
+	},
+	"xo": {
+		"rules": {
+			"@typescript-eslint/no-unsafe-return": "off"
+		}
+	}
+}

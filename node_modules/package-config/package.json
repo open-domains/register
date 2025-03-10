@@ -1,0 +1,56 @@
+{
+	"name": "package-config",
+	"version": "5.0.0",
+	"description": "Get namespaced config from the closest package.json",
+	"license": "MIT",
+	"repository": "sindresorhus/package-config",
+	"funding": "https://github.com/sponsors/sindresorhus",
+	"author": {
+		"name": "Sindre Sorhus",
+		"email": "sindresorhus@gmail.com",
+		"url": "https://sindresorhus.com"
+	},
+	"type": "module",
+	"exports": {
+		"types": "./index.d.ts",
+		"default": "./index.js"
+	},
+	"sideEffects": false,
+	"engines": {
+		"node": ">=18"
+	},
+	"scripts": {
+		"test": "xo && ava && tsd"
+	},
+	"files": [
+		"index.js",
+		"index.d.ts"
+	],
+	"keywords": [
+		"json",
+		"read",
+		"parse",
+		"file",
+		"fs",
+		"graceful",
+		"load",
+		"package",
+		"config",
+		"configuration",
+		"object",
+		"namespace",
+		"namespaced"
+	],
+	"dependencies": {
+		"find-up-simple": "^1.0.0",
+		"load-json-file": "^7.0.1"
+	},
+	"devDependencies": {
+		"ava": "^5.3.1",
+		"tsd": "^0.29.0",
+		"xo": "^0.56.0"
+	},
+	"fixture": {
+		"foo": true
+	}
+}
