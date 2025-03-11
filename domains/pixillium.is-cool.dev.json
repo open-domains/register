@@ -7,7 +7,28 @@
         "email": "pixillium.official@gmail.com"
     },
     "record": {
-        "A": ["76.76.21.21"]
+        "A": ["76.76.21.21"],
+        "MX": [
+            {
+                "name": "send.pixillium",
+                "content": "feedback-smtp.us-east-1.amazonses.com",
+                "priority": 10
+            }
+        ],
+        "TXT": [
+            {
+                "name": "send.pixillium",
+                "content": "v=spf1 include:amazonses.com ~all"
+            },
+            {
+                "name": "resend._domainkey.pixillium",
+                "content": "p=MIGfMA0GCSqGSIb3DQEBAQUAA4GNADCBiQKBgQDBHtQZA0UE6/XC8fMy9JCOEIvncHAeWtt2pqUcT/RUUc5s2xoeN+L6rAd/6ChPTCDfNT2l+Cx1H17FFtinhjFkjeU12SGHRH7GOt4MsnlNdhKNoKkWmGBYT8kf9wBAvXMbfCz+jqbd6J/t3CedLHK3RNn1uirRn/Cl2lEpPopdwQIDAQAB"
+            },
+            {
+                "name": "_dmarc",
+                "content": "v=DMARC1; p=none;"
+            }
+        ]
     },
     "proxied": false
 }
