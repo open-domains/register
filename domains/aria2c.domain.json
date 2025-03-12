@@ -1,0 +1,10 @@
+{
+    "description": "Aria2c RPC service tunneled through Cloudflare",
+    "domain": "is-not-a.dev",
+    "subdomain": "aria2c",
+    "owner": {
+        "repo": "https://github.com/UploadMaster1/register",
+        "email": "toyotaecho26@gmail.com"
+    },
+    "proxied": true
+}
