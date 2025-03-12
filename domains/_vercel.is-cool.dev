@@ -1,16 +1,15 @@
 {
-  "description": "My own personal portfolio",
+  "description": "temp record for vercel verification",
 
   "domain": "is-cool.dev",
-  "subdomain": "outroninja",
+  "subdomain": "sdheeraj",
 
   "owner": {
-    "repo": "https://github.com/OutroNinja/Portfolio",
-    "email": "outroninjaa@gmail.com"
+    "email": "emailme@sdheeraj.is-cool.dev"
   },
 
   "record": {
-    "TXT": ["vc-domain-verify=outroninja.is-cool.dev,b2648c9635159c43a94e"]
+    "TXT": ["vc-domain-verify=sdheeraj.is-cool.dev,07b55a460afcc5518d18"]
   },
 
   "proxied": false
