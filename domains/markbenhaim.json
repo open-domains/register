@@ -1,0 +1,12 @@
+{
+    "domain": "is-a.dev",
+    "subdomain": "markbenhaim",
+    "owner": {
+        "repo": "https://github.com/benhaim23/blockchain-visuals-hub",
+        "email": "markbenhaim0@gmail.com"
+    },
+    "record": {
+        "CNAME": "benhaim23.github.io"
+    },
+    "description": "Mark Benhaim's Blockchain Visuals Portfolio"
+}
