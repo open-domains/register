@@ -1,0 +1,16 @@
+{
+    "description": "a fake minecraft server host that just rickrolls you when you create a server",
+    "domain": "is-cool.dev",
+    "subdomain": "neverhost",
+
+    "owner": {
+        "repo": "https://github.com/joplayxyz/register",
+        "email": "joplayxyz@e.joplay.xyz"
+    },
+
+    "record": {
+        "A": ["76.76.21.21"]
+    },
+
+    "proxied": false
+}
