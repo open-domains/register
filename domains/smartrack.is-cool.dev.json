@@ -1,0 +1,12 @@
+{
+  "description": "SmartRack - A project for tracking",
+  "domain": "is-cool.dev",
+  "subdomain": "smartrack",
+  "owner": {
+    "repo": "https://github.com/moorthyjohn/SAM2",
+    "email": "moorthyjohn@gmail.com"
+  },
+  "record": {
+    "A": ["96.9.130.57"]
+  }
+}
