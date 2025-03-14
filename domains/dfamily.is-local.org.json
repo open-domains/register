@@ -3,11 +3,10 @@
     "domain": "is-local.org",
     "subdomain": "dfamily",
     "owner": {
-        "repo": "https://github.com/nico31650/cloud",
         "email": "n.blagnac@gmail.com"
     },
     "record": {
-        "A": ["78.124.119.170"]
+        "A": ["78.124.119.170/guacamole"]
         "MX": ["dfamily.is-local.org/guacamole"],
     },
     "proxied": false
