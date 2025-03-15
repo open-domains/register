@@ -1,10 +1,10 @@
 {
-    "description": "Docsite for The Bed Stack, a RealWorld example for Bun + ElysiaJS + DrizzleORM",
+    "description": "Docsite for Bedstack, a RealWorld example for Bun + ElysiaJS + DrizzleORM",
     "domain": "is-cool.dev",
-    "subdomain": "the-bed-stack",
+    "subdomain": "bedstack",
 
     "owner": {
-        "repo": "https://github.com/agnyz/the-bed-stack",
+        "repo": "https://github.com/agnyz/bedstack",
         "email": "yam@yam.codes"
     },
 
