@@ -1,0 +1,16 @@
+{
+    "description": "wndrr8",
+    "domain": "is-cool.dev",
+    "subdomain": "wndrr8",
+
+    "owner": {
+        "repo": "https://github.com/wndrr8/repo",
+        "email": "wndrr8@gmail.com"
+    },
+
+    "record": {
+        "A": ["77.239.117.159"]
+    },
+
+    "proxied": true
+}
