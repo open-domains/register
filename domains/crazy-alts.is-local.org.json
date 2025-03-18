@@ -1,0 +1,17 @@
+{
+    "description": "Crazy Alts",
+    "domain": ".is-local.org",
+    "subdomain": "crazy-alts",
+
+    "owner": {
+        "repo": "https://github.com/VGWARDEN/mc-acc",
+        "email": "viggamer12@gmail.com"
+    },
+
+    "record": {
+        "A": ["76.76.21.21", "76.76.21.21"],
+        "MX": ["ns1.vercel-dns.com", "ns2.vercel-dns.com"],
+        ],
+
+    "proxied": false
+}
