@@ -1,0 +1,16 @@
+{
+    "description": "A collection of tools - Coming soon",
+    "domain": "is-cool.dev",
+    "subdomain": "hyperio",
+
+    "owner": {
+        "repo": "https://github.com/orinn2k7/register",
+        "email": "huynguyen02102007@gmail.com"
+    },
+
+    "record": {
+        "A": ["76.76.21.21"]
+    },
+
+    "proxied": false
+}
