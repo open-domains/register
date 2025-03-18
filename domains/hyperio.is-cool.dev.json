@@ -9,7 +9,7 @@
     },
 
     "record": {
-        "A": ["76.76.21.21"]
+        "CNAME": ["orius.vercel.app"]
     },
 
     "proxied": false
