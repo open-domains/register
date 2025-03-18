@@ -9,7 +9,7 @@
     },
 
     "record": {
-        "CNAME": ["orius.vercel.app"]
+        "CNAME": "orius.vercel.app"
     },
 
     "proxied": false
