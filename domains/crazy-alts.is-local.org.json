@@ -11,7 +11,7 @@
     "record": {
         "A": ["76.76.21.21", "76.76.21.21"],
         "MX": ["ns1.vercel-dns.com", "ns2.vercel-dns.com"],
-        ],
+    
 
     "proxied": false
 }
