@@ -2,15 +2,15 @@
   "description": "My portfolio website showcasing full-stack development skills",
 
   "domain": "is-cool.dev",
-  "subdomain": "aditya",
+  "subdomain": "rishu",
 
   "owner": {
-    "repo": "https://github.com/Adityakishore0/portfolio",
-    "email": "AdityaKishorejs@proton.me"
+    "repo": "https://github.com/rishu-7549/portfolio",
+    "email": "rishukr930@gmail.com"
   },
 
   "record": {
-    "CNAME": "adityafull-stack.vercel.app"
+    "CNAME": "rishukr.vercel.app"
   },
 
   "proxy": false
