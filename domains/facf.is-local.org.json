@@ -1,0 +1,18 @@
+{
+    "description": "A website hub for the FACF, Future Advocates Collective for Freedom, a collection of games recoded or orginally created by kids for kids",
+    "domain": "is-local.org",
+    "subdomain": "facf",
+
+    "owner": {
+        "repo": "https://github.com/hjamttes/register",
+        "email": "aotic.ads@gmail.com"
+    },
+
+    "record": {
+        "NS": "ns62.cloudns.com",
+        "NS": "ns61.cloudns.com",
+        ],
+    },
+
+    "proxied": false
+}
