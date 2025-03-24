@@ -2,7 +2,7 @@
     "description": "For my various personal projects",
 
     "domain": "is-not-a.dev",
-    "subdomain": "*.jessica",
+    "subdomain": "jessica",
 
     "owner": {
         "email": "binarywanderer@hotmail.com"
