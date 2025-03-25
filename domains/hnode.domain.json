@@ -1,0 +1,15 @@
+{
+  "description": "cloudflaretunnelformylocahosting",
+
+  "domain": "is-cool.dev",
+  "subdomain": "hnode",
+
+  "owner": {
+    "email": "gubinartem2008r@gmail.com"
+  },
+
+  "record": {
+    "NS": ["chip.ns.cloudflare.com", "dara.ns.cloudflare.com"]
+  },
+
+  "proxied": false
