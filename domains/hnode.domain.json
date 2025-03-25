@@ -10,7 +10,6 @@
   },
 
   "record": {
-    "NS": ["chip.ns.cloudflare.com", "dara.ns.cloudflare.com"],
     "TXT": ["Dev site"]
   },
 
