@@ -8,10 +8,6 @@
     "record": {
         "A": [
             "172.28.172.203"
-        ],
-        "NS": [
-            "chip.ns.cloudflare.com",
-            "dara.ns.cloudflare.com"
         ]
     },
     "proxied": false
