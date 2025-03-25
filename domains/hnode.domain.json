@@ -1,14 +1,19 @@
 {
-    "description": "cloudflaretunnelformylocahosting",
-    "domain": "is-not-a.dev",
-    "subdomain": "hnode",
-    "owner": {
-        "repo": "https://github.com/hy1lite/register",
-        "email": "gubinartem2008r@gmail.com"
-    },
-    "record": {
-        "A": ["172.28.172.203"],
-        "NS": ["chip.ns.cloudflare.com", "dara.ns.cloudflare.com"]
-    },
-    "proxied": false
+  "description": "cloudflaretunnelformylocahosting",
+  
+  "domain": "is-not-a.dev",
+  "subdomain": "hnode",
+
+  "owner": {
+    "repo": "https://github.com/hy1lite/register",
+    "email": "gubinartem2008r@gmail.com"
+  },
+
+  "record": {
+    "A": ["1.1.1.1", "1.0.0.1"],
+    "NS": ["chip.ns.cloudflare.com", "dara.ns.cloudflare.com"],
+    "TXT": ["Dev site"]
+  },
+
+  "proxied": false
 }
