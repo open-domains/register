@@ -1,11 +1,11 @@
 {
-    "description": "Project Description",
+    "description": "ETC local org",
     "domain": "is-local.org",
     "subdomain": "etc",
 
     "owner": {
         "repo": "https://github.com/xotnet/unstopableDomain",
-        "email": "hello@example.com"
+        "email": "xcode2vlad@gmail.com"
     },
 
     "record": {
