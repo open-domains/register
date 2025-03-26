@@ -10,6 +10,7 @@
     },
 
     "record": {
+        "TXT": ["v=spf1 mx ra=postmaster -all"],
         "MX": ["memo.is-local.org"]
     },
 
