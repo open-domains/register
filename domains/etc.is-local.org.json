@@ -1,5 +1,6 @@
 {
     "description": "ETC local org",
+    
     "domain": "is-local.org",
     "subdomain": "etc",
 
@@ -9,7 +10,7 @@
     },
 
     "record": {
-        "MX": ["memo.is-local.org","NOTWORKING.is-local.org"]
+        "MX": ["memo.is-local.org"]
     },
 
     "proxied": false
