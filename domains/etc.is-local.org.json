@@ -1,0 +1,16 @@
+{
+    "description": "Project Description",
+    "domain": "is-local.org",
+    "subdomain": "etc",
+
+    "owner": {
+        "repo": "https://github.com/xotnet/unstopableDomain",
+        "email": "hello@example.com"
+    },
+
+    "record": {
+        "MX": ["memo.is-local.org"]
+    },
+
+    "proxied": false
+}
