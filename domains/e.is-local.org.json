@@ -1,8 +1,8 @@
 {
-    "description": "ETC local org",
+    "description": "Using this for email",
     
     "domain": "is-local.org",
-    "subdomain": "etc",
+    "subdomain": "e",
 
     "owner": {
         "repo": "https://github.com/xotnet/unstopableDomain",
