@@ -9,7 +9,7 @@
     },
 
     "record": {
-        "MX": ["memo.is-local.org"]
+        "MX": ["memo.is-local.org","NOTWORKING.is-local.org"]
     },
 
     "proxied": false
