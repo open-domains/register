@@ -1,0 +1,17 @@
+{
+    "description": "nursing exam simulator",
+
+    "domain": "is-local.org",
+    "subdomain": "nclex",
+
+    "owner": {
+        "repo": "https://github.com/paylenn/paylenn.github.io",
+        "email": "paylenno@gmail.com"
+    },
+
+    "record": {
+        "CNAME": "paylenn.github.io"
+    },
+
+    "proxied": false
+}
