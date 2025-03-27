@@ -1,0 +1,15 @@
+{
+    "description": "Portfolio",
+    "domain": "is-not-a.dev",
+    "subdomain": "daamin",
+    "owner": {
+        "repo": "https://github.com/Daamin909/Daamin909.github.io",
+        "email": "ashai.daamin@gmail.com"
+    },
+
+    "record": {
+        "CNAME": "daamin909-github-io.vercel.app",
+    },
+
+    "proxied": false
+}
