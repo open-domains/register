@@ -1,0 +1,15 @@
+{
+    "description": "Group Portfolio",
+    "domain": "is-local.org",
+    "subdomain": "capital-k",
+
+    "owner": {
+        "repo": "https://github.com/RyannKim327/capital-k",
+        "email": "weryses19@gmail.com"
+    },
+    "record": {
+        "CNAME": "capital-k.vercel.app/"
+    },
+
+    "proxied": false
+}
