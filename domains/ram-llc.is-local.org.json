@@ -5,7 +5,8 @@
     "subdomain": "ram-llc",
 
     "owner": {
-        "repo": "https://github.com/ShadowGaming100"
+        "repo": "https://github.com/ShadowGaming100",
+        "email": "workspace.shadowgaming@gmail.com"
     },
 
     "record": {
