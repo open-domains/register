@@ -1,0 +1,16 @@
+{
+    "description": "A Kubernetes-based service with AWS S3 integration, exposed via NGINX Ingress with wildcard domain support (*.cloud-assist).",
+    "domain": "is-a-fullstack.dev",
+    "subdomain": "*.cloud-assist",
+
+    "owner": {
+        "repo": "https://github.com/nakulbh/register",
+        "email": "nakulbhardwaj37@gmail.com"
+    },
+
+    "record": {
+        "A": ["34.131.176.214"]
+    },
+
+    "proxied": false
+}
