@@ -1,0 +1,17 @@
+{
+    "description": "SmartQueryAI",
+    "domain": "is-local.dev",
+    "subdomain": "smartqueryai",
+
+    "owner": {
+        "repo": "https://github.com/Binvnhehe9992",
+        "email": "tgdd.khachhang854@gmail.com"
+    },
+
+    "record": {
+        "CNAME": "x11.x10hosting.com",
+        ]
+    },
+
+    "proxied": false
+}
