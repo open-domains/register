@@ -1,0 +1,14 @@
+{
+    "domain": "is-cool.dev",
+    "subdomain": "suiteblog",
+
+    "owner": {
+        "email": "goryo.webdev@gmail.com"
+    },
+
+    "record": {
+        "CNAME": "suiteblog.is-cool.dev.hosting.netsuite.com"
+    },
+
+    "proxied": false
+}
