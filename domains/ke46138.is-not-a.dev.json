@@ -1,0 +1,17 @@
+{
+    "description": "ke46138 page. I will use this subdomain for vnc, http, mail",
+
+    "domain": "is-not-a.dev",
+    "subdomain": "ke46138",
+
+    "owner": {
+        "repo": "https://github.com/ke46138/",
+        "email": "ke46138@gmail.com"
+    },
+
+    "record": {
+        "A": ["176.214.226.62"]
+    },
+
+    "proxied": false
+}

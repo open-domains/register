@@ -9,7 +9,8 @@
     },
 
     "record": {
-        "CNAME": "udemy-rmpn.onrender.com"
+        "A": ["66.241.124.129"],
+        "AAAA": ["2a09:8280:1::4a:41d2:0"]
     },
 
     "proxied": false

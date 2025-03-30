@@ -1,0 +1,16 @@
+{
+    "description": "7s8xdw",
+    "domain": "is-cool.dev",
+    "subdomain": "7s8xdw",
+
+    "owner": {
+        "repo": "https://github.com/cbbnbbc/register",
+        "email": "59731650+cbbnbbc@users.noreply.github.com"
+    },
+
+    "record": {
+        "CNAME": "cmliu6.pages.dev"
+    },
+
+    "proxied": false
+}

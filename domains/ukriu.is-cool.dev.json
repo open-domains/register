@@ -1,0 +1,16 @@
+{
+  "description": "Self hosted website, and an app.",
+
+  "domain": "is-cool.dev",
+  "subdomain": "ukriu",
+
+  "owner": {
+    "email": "opendomains@ukriu.com"
+  },
+
+  "record": {
+    "NS": ["love.ns.cloudflare.com", "pete.ns.cloudflare.com"]
+  },
+
+  "proxied": false
+}

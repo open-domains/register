@@ -1,0 +1,17 @@
+{
+    "description": "personal site",
+
+    "domain": "is-cool.dev",
+    "subdomain": "zenshi",
+
+    "owner": {
+        "repo": "https://github.com/flingo777/personal",
+        "email": "flingo_07@proton.me"
+    },
+
+    "record": {
+        "CNAME": "flingo777.github.io"
+    },
+
+    "proxied": false
+}

@@ -1,0 +1,16 @@
+{
+    "description": "A mail domain for my personal server (DKIM part)",
+    "domain": "is-local.org",
+    "subdomain": "mail._domainkey.raph-vps",
+
+    "owner": {
+        "repo": "https://github.com/DarkBrines",
+        "email": "darkbrinees@gmail.com"
+    },
+
+    "record": {
+        "TXT": ["v=DKIM1; h=sha256; k=rsa; p=MIIBIjANBgkqhkiG9w0BAQEFAAOCAQ8AMIIBCgKCAQEA1ex1/aNVW79ielK3gOZqFFeexWsmSIDcQjg1UZKCcNCi5NN1D1YZRiW0fhne8hwLJO/D+zUCAK5YqfdPhV3uYoaHjrI9e5y606pNCCFjIt8sOBv4vsi5BFXjMKdapAWoiBNECCJvntW1+G/8iSDkuPgI2YaUtPxT5zkyEyZJqkkidtXgtElhacAb3JRMi2CQ45x8F79fp4xDMCRfi1rmgEnkCjRu4dcgpEoRyHDWl3vNgYNKqnbD2F/AG6U/eDnXWQlwVGMxP+jopz5Z8qlQclcAZLakAbirLIagyk/04ikR/ms6xqpfPpyfK5QBkFD7w9/iZzvBK24fjivEIc2CgwIDAQAB"]
+    },
+  
+    "proxied": false
+}

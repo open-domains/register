@@ -1,0 +1,16 @@
+
+{
+    "description": "Final year project : Realtime smart parking Web App",
+    "domain": "is-a-fullstack.dev",
+    "subdomain": "smart-parking-daim",
+    "owner": {
+        "repo": "https://github.com/sYnceDex41/register",
+        "email": "daimdev6@gmail.com"
+    },
+    "record": {
+        "A": [
+            "20.204.99.201"
+        ]
+    },
+    "proxied": false
+}

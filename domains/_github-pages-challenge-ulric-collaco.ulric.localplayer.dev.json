@@ -1,0 +1,15 @@
+{
+    "description": "Personal Website",
+    "domain": "localplayer.dev",
+    "subdomain": "ulric",
+    "owner": {
+        "repo": "https://github.com/ulric-collaco/ulric.github.io",
+        "email": "collacou@gmail.com"
+    },
+    "record": {
+        "TXT": [
+            "651f8600b2ab5acabd62c3bed23a5c"
+        ]
+    },
+    "proxied": false
+}

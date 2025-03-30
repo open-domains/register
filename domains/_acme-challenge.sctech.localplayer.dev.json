@@ -1,0 +1,14 @@
+{
+  "domain": "localplayer.dev",
+  "subdomain": "_acme-challenge.sctech",
+
+  "owner": {
+    "email": "gamerselimiko@gmail.com"
+  },
+
+  "record": {
+    "TXT": ["0HJsc3l_WPPpVCM-LDEBvvba4bHMfd32Sxl1GNDmAzo"]
+  },
+
+  "proxied": false
+}

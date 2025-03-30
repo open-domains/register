@@ -1,0 +1,18 @@
+{
+    "description": "My own, personal PhucDH0110 website about projects",
+    "domain": "localplayer.dev",
+    "subdomain": "phucdh0110",
+
+    "owner": {
+        "repo": "https://github.com/huanhoahongso3-collab/",
+        "email": "huanhoahongso3@gmail.com"
+    },
+
+    "record": {
+        "A": ["75.2.60.5"],
+        "MX": ["phucdh0110-localplayer-dev.mail.protection.outlook.com"],
+        "TXT": ["v=spf1 include:spf.protection.outlook.com -all"]
+    },
+
+    "proxied": false
+}

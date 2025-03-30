@@ -1,0 +1,16 @@
+{
+    "description": "api for SpicyDevs",
+
+    "domain": "localplayer.dev",
+    "subdomain": "api",
+
+    "owner": {
+        "email": "aayushmagrawal@gmail.com"
+    },
+
+    "record": {
+        "A": ["69.30.249.53"]
+    },
+
+    "proxied": false
+}

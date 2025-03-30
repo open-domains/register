@@ -1,0 +1,14 @@
+{
+    "domain": "is-a-fullstack.dev",
+    "subdomain": "aenger",
+
+    "owner": {
+        "email": "a_enger@pm.me"
+    },
+
+    "record": {
+        "A": ["79.76.45.76"]
+    },
+
+    "proxied": false
+}

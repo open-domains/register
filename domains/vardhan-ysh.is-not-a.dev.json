@@ -1,0 +1,18 @@
+{
+    "description": "Portfolio website hosted on GitHub Pages",
+    "domain": "is-not-a.dev",
+    "subdomain": "vardhan-ysh",
+
+    "owner": {
+        "repo": "https://github.com/vardhan-ysh/yvsc",
+        "email": "yashvardhansingh112233@gmail.com"
+    },
+
+    "record": {
+        "TXT": [
+            "_github-pages-challenge-Vardhan-ysh.vardhan-ysh=66e6d3fc66e048230dc5f2c5b2891c"
+        ]
+    },
+
+    "proxied": false
+}

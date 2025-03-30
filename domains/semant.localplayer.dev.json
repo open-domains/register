@@ -9,6 +9,6 @@
   },
 
   "record": {
-    "NS": ["ns1.vercel-dns.com", "ns2.vercel-dns.com"]
+    "CNAME": "cname.vercel-dns.com"
   }
 }

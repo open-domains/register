@@ -1,0 +1,19 @@
+{
+  "description": "Project Description",
+
+  "domain": "is-a-fullstack.dev",
+  "subdomain": "ayan",
+
+  "owner": {
+    "repo": "https://github.com/ghost-67-g/portfolio",
+    "email": "ayannaseerg67@gmail.com"
+  },
+
+  "record": {
+    "TXT": [
+      "_github-pages-challenge-Ghost-67-G.ayan.is-a-fullstack.dev=004dbec46148587e3dcb85f8cbe1dd"
+    ]
+  },
+
+  "proxied": false
+}

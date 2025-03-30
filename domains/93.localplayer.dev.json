@@ -1,0 +1,16 @@
+{
+    "description": "School Unblocker..",
+
+    "domain": "localplayer.dev",
+    "subdomain": "93",
+
+    "owner": {
+        "email": "slimy176@gmail.com"
+    },
+
+    "record": {
+        "A": ["104.243.41.121"]
+    },
+
+    "proxied": false
+}

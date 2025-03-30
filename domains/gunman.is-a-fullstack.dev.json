@@ -1,5 +1,5 @@
 {
-    "description": "A Fun Website (Currently Directed TO Google",
+    "description": "A Fun Website",
 
     "domain": "is-a-fullstack.dev",
     "subdomain": "gunman",
@@ -10,7 +10,7 @@
     },
 
     "record": {
-        "A": ["142.250.77.238"]
+        "CNAME": "bia7gbr1.up.railway.app"
     },
 
     "proxied": false

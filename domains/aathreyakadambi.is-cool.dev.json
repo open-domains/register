@@ -1,0 +1,16 @@
+{
+    "description": "My personal blog, called Lemonade, where I discuss many things from life to math to plants to anything I'm interested in at the moment.",
+    "domain": "is-cool.dev",
+    "subdomain": "aathreyakadambi",
+
+    "owner": {
+        "repo": "https://github.com/BlueFlame202/lemonade",
+        "email": "aathreyakadambi@gmail.com"
+    },
+
+    "record": {
+        "CNAME": "aathreyakadambi.vercel.app"
+    },
+
+    "proxied": false
+}

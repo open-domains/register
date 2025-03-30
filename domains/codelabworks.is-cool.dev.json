@@ -1,0 +1,17 @@
+{
+    "description": "This change would link this domain to my CF account, enabling me to access analytics, enhanced protection features (such as Under Attack Mode and WAF settings), caching options, and potentially faster load times (as advertised).",
+
+    "domain": "is-cool.dev",
+    "subdomain": "codelabworks",
+
+    "owner": {
+        "repo": "https://github.com/ShadowGaming100",
+        "email": "domain@mycodelab.dedyn.io"
+    },
+
+    "record": {
+        "NS": ["mallory.ns.cloudflare.com", "darwin.ns.cloudflare.com"]
+    },
+
+    "proxied": false
+} 

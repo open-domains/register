@@ -1,0 +1,17 @@
+{
+    "description": "School club website",
+
+    "domain": "is-cool.dev",
+    "subdomain": "stackunderflow",
+
+    "owner": {
+        "repo": "https://github.com/stackunderflowclub/site",
+        "email": "816218@seq.org"
+    },
+
+    "record": {
+        "CNAME": "akhilzebra.hackclub.app"
+    },
+
+    "proxied": false
+}

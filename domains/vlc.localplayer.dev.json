@@ -1,0 +1,13 @@
+{
+    "description": "gh-pages vlc-protocol doc",
+    "domain": "localplayer.dev",
+    "subdomain": "vlc",
+    "owner": {
+        "repo": "https://github.com/TanmoyTheBoT/vlc-protocol",
+        "email": "tanmoysarkershuvo@gmail.com"
+    },
+    "record": {
+        "CNAME": "tanmoythebot.github.io"
+    },
+    "proxied": false
+}

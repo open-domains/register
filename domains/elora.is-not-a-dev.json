@@ -1,0 +1,18 @@
+{
+    "description": "Elora's Hobby",
+    "domain": "is-not-a.dev",
+    "subdomain": "elora",
+
+    "owner": {
+        "username": "https://github.com/elorahub/",
+        "email": "elorahubph@gmail.com"
+    },
+
+    "record": {
+        "A": ["162.159.205.11"],
+        "MX": ["elora.is-not-a.dev"],  
+        "TXT": ["_spf.mx.cloudflare.net"]
+    },
+
+    "proxied": false
+}

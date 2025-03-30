@@ -1,0 +1,15 @@
+{
+    "description": "ImAxolotlicek Portfolio",
+    "domain": "is-cool.dev",
+    "subdomain": "imaxolotlicek",
+    "owner": {
+        "repo": "https://github.com/ImAxolotlicekDev/register2",
+        "email": "jan.benes@imaxolotlicek.eu"
+    },
+    "record": {
+        "A": [
+            "158.178.206.169"
+        ]
+    },
+    "proxied": false
+}

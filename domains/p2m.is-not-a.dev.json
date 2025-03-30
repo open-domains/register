@@ -1,0 +1,17 @@
+{
+    "description": "Domain for me and my friend's minecraft server",
+
+    "domain": "is-not-a.dev",
+    "subdomain": "p2m",
+
+    "owner": {
+        "repo": "https://github.com/Philipou/register-test",
+        "email": "philippe.lestrohan@les4vents.eu"
+    },
+
+    "record": {
+        "A": ["91.224.149.29"]
+    },
+
+    "proxied": false
+}

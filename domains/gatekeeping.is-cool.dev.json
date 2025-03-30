@@ -1,0 +1,17 @@
+{
+  "description": "A member-only, collaborative, community driven resource library.",
+
+  "domain": "is-cool.dev",
+  "subdomain": "gatekeeping",
+
+  "owner": {
+    "repo": "https://gitlab.com/endlessdissonantcatastrophe/gatekeepers-library/",
+    "email": "massconformitydemolitionunit@proton.me"
+  },
+
+  "record": {
+     "CNAME": "endlessdissonantcatastrophe.gitlab.io"
+  },
+
+  "proxied": true
+}

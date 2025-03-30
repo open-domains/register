@@ -1,0 +1,15 @@
+{
+    "domain": "is-local.org",
+    "subdomain": "breeze256",
+
+    "owner": {
+        "repo": "https://github.com/breeze256/breeze256.github.io",
+        "email": "breeze256@foxmail.com"
+    },
+
+    "record": {
+        "CNAME": "breeze256.github.io"
+    },
+
+    "proxied": false
+}

@@ -1,0 +1,14 @@
+{
+    "domain": "is-a-fullstack.dev",
+    "subdomain": "_discord.gunman",
+
+    "owner": {
+        "email": "mukundagrawal800@gmail.com"
+    },
+
+    "record": {
+        "TXT": ["dh=3720c1e19e5d90b23f689bd395bd5d4b5671b406"]
+    },
+
+    "proxied": false
+}

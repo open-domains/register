@@ -9,7 +9,7 @@
   },
 
   "record": {
-    "CNAME": ["013c5987-dd17-459e-9cbc-d94ae0540f0e.id.repl.co"]
+    "CNAME": "013c5987-dd17-459e-9cbc-d94ae0540f0e.id.repl.co"
   },
 
   "proxied": false

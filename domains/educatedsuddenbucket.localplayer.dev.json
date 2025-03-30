@@ -1,0 +1,17 @@
+{
+    "description": "Personal site",
+
+    "domain": "localplayer.dev",
+    "subdomain": "educatedsuddenbucket",
+
+    "owner": {
+        "repo": "https://github.com/EducatedSuddenBucket/educatedsuddenbucket.github.io",
+        "email": "educatedsuddenbucket@gmail.com"
+    },
+
+    "record": {
+        "A": ["216.24.57.1"]
+    },
+
+    "proxied": false
+}

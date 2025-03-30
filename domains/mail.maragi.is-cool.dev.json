@@ -7,8 +7,8 @@
     },
 
     "record": {
-        "CNAME": ["webmail.alwaysdata.com"]
+        "A": ["185.31.40.24"]
     },
 
-    "proxied": true
+    "proxied": false
 }

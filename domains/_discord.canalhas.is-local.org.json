@@ -1,0 +1,17 @@
+{
+    "description": "Canalhas",
+
+    "domain": "is-local.org",
+    "subdomain": "_discord.canalhas",
+
+    "owner": {
+        "repo": "https://github.com/zeus7dc/register",
+        "email": "iszeus7@proton.me"
+    },
+
+    "record": {
+        "TXT": ["dh=65e1e2c43aa372e13842a94e8407ece10bc42666"]
+    },
+
+    "proxied": false
+}
