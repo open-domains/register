@@ -1,0 +1,16 @@
+{
+    "description": "skibidi games on web",
+    "domain": "is-not-a.dev",
+    "subdomain": "skibidi-web",
+
+    "owner": {
+        "repo": "https://github.com/hydro-network/skibidi-web",
+        "email": "mcdougzz@yahoo.com"
+    },
+
+    "record": {
+        "CNAME": "hydro-network.github.io"
+    },
+
+    "proxied": false
+}
