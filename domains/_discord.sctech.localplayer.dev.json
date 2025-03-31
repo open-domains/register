@@ -1,0 +1,14 @@
+{
+    "domain": "localplayer.dev",
+    "subdomain": "_discord.sctech",
+
+    "owner": {
+        "email": "gamerselimiko@gmail.com"
+    },
+
+    "record": {
+        "TXT": ["dh=44d0d3ae74a526e2f56ef224f96fcf9faf3c55ca"]
+    },
+
+    "proxied": false
+}
