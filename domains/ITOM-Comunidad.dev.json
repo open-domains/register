@@ -1,0 +1,15 @@
+{
+    "description": "Dominio para la comunidad Ansible",
+
+    "domain": "ITOM-Comunidad.dev.json.dev",
+
+    "owner": {
+        "email": "riexavi2@gmail.com"
+    },
+
+    "record": {
+        "CNAME": "ec2-54-247-76-36.eu-west-1.compute.amazonaws.com"
+    },
+
+    "proxied": false
+}
