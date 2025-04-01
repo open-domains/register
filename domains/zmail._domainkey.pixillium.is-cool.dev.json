@@ -1,0 +1,13 @@
+{
+    "description": "Zoho mail DKIM & others if needed",
+    "domain": "is-cool.dev",
+    "subdomain": "zmail._domainkey.pixillium",
+    "owner": {
+        "repo": "https://github.com/pixillium/open-domains-register",
+        "email": "pixillium.official@gmail.com"
+    },
+    "record": {
+        "TXT": ["v=DKIM1; k=rsa; p=MIGfMA0GCSqGSIb3DQEBAQUAA4GNADCBiQKBgQCAlPUHSt+1HTIhWea7sufwvuB8eeWGD2bw94SDP2JKl1QuYUWiDaBuFgS6PtN7nGx9NG/yX4xNt3K0BT8ztAdKLpHqs1PPkFNLBu16q7edgq+MBuWnmQX9Orj7/ExiR4GCGMm1XS632rEOzGcH1NaEzpEQhyBKvLMYFFZZ2Xr1IQIDAQAB"]
+    },
+    "proxied": false
+}
