@@ -1,0 +1,20 @@
+{
+    "description": "Fast URL Shortener using SHA-256",
+    "domain": "is-local.org",
+    "subdomain": "shorturl",
+
+    "owner": {
+        "repo": "https://github.com/nx0ly/urlredirect",
+        "email": "kaydois123@gmail.com"
+    },
+
+    "record": {
+        "CNAME": "urlshortener-production-17d6.up.railway.app",
+        "CAA": [
+            { "flags": 0, "tag": "issue", "value": "letsencrypt.org" },
+            { "flags": 0, "tag": "issuewild", "value": "sectigo.com" }
+        ]
+    },
+
+    "proxied": false
+}

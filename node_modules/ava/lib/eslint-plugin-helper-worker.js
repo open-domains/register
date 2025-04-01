@@ -1,0 +1,74 @@
+import v8 from 'node:v8';
+import {parentPort, workerData} from 'node:worker_threads';
+
+import normalizeExtensions from './extensions.js';
+import {normalizeGlobs} from './globs.js';
+import {loadConfig} from './load-config.js';
+import providerManager from './provider-manager.js';
+
+const MAX_DATA_LENGTH_EXCLUSIVE = 100 * 1024; // Allocate 100 KiB to exchange globs.
+
+const configCache = new Map();
+
+const collectProviders = async ({conf, projectDir}) => {
+	const providers = [];
+	if (Object.hasOwn(conf, 'typescript')) {
+		const {level, main} = await providerManager.typescript(projectDir, {fullConfig: conf});
+		providers.push({
+			level,
+			main: main({config: conf.typescript}),
+			type: 'typescript',
+		});
+	}
+
+	return providers;
+};
+
+const buildGlobs = ({conf, providers, projectDir, overrideExtensions, overrideFiles}) => {
+	const extensions = overrideExtensions
+		? normalizeExtensions(overrideExtensions)
+		: normalizeExtensions(conf.extensions, providers);
+
+	return {
+		cwd: projectDir,
+		...normalizeGlobs({
+			extensions,
+			files: overrideFiles ?? conf.files,
+			providers,
+		}),
+	};
+};
+
+const resolveGlobs = async (projectDir, overrideExtensions, overrideFiles) => {
+	if (!configCache.has(projectDir)) {
+		const {config: conf} = await loadConfig({resolveFrom: projectDir});
+		const providers = await collectProviders({conf, projectDir});
+		configCache.set(projectDir, {conf, providers});
+	}
+
+	const {conf, providers} = await configCache.get(projectDir);
+	return buildGlobs({
+		conf, providers, projectDir, overrideExtensions, overrideFiles,
+	});
+};
+
+const data = new Uint8Array(workerData.dataBuffer);
+const sync = new Int32Array(workerData.syncBuffer);
+
+const handleMessage = async ({projectDir, overrideExtensions, overrideFiles}) => {
+	let encoded;
+	try {
+		const globs = await resolveGlobs(projectDir, overrideExtensions, overrideFiles);
+		encoded = v8.serialize(globs);
+	} catch (error) {
+		encoded = v8.serialize(error);
+	}
+
+	const byteLength = encoded.length < MAX_DATA_LENGTH_EXCLUSIVE ? encoded.copy(data) : MAX_DATA_LENGTH_EXCLUSIVE;
+	Atomics.store(sync, 0, byteLength);
+	Atomics.notify(sync, 0);
+};
+
+parentPort.on('message', handleMessage);
+handleMessage(workerData.firstMessage); // eslint-disable-line unicorn/prefer-top-level-await
+delete workerData.firstMessage;
