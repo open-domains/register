@@ -1,0 +1,15 @@
+{
+    "description": "IME Web App",
+    "domain": "is-local.org",
+    "subdomain": "imewebapp",
+
+    "owner": {
+        "repo": "https://github.com/Sinetos/register",
+        "email": "koutelispanos@gmail.com"
+    },
+
+    "record": {
+        "CNAME": "imewebapp.Sinetos.cfargotunnel.com"
+    },
+
+    "proxied": false
