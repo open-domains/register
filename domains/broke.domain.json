@@ -1,0 +1,16 @@
+{
+    "description": "Development & Gaming projects. I self-host my servers and i would not like to share my own IP address with others. This domain will allow me to access my stuff from far and also be protected.",
+    "domain": "is-not-a.dev",
+    "subdomain": "br0k3",
+
+    "owner": {
+        "repo": "https://github.com/br0k3V/register",
+        "email": "alexgabdela@yahoo.com"
+    },
+
+    "record": {
+        "A": ["147.185.221.24"],
+    },
+
+    "proxied": false
+}
