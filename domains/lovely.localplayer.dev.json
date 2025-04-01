@@ -1,0 +1,16 @@
+{
+    "description": "gateway for site",
+    "domain": "localplayer.dev",
+    "subdomain": "lovely",
+
+    "owner": {
+        "repo": "https://github.com/Gj4meZ/rsr",
+        "email": "chilliatogj4mez@gmail.com"
+    },
+
+    "record": {
+        "A": ["87.106.232.208"]
+    },
+
+    "proxied": true
+}
