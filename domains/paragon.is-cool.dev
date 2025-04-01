@@ -1,0 +1,16 @@
+{
+    "description": "the site for paragon installation, docs and api doc",
+    "domain": "is-cool.dev",
+    "subdomain": "paragon",
+
+    "owner": {
+        "repo": "https://github.com/shithost/Paragon",
+        "email": "admin@electrical-development.site"
+    },
+
+    "record": {
+        "A": ["216.24.57.1"]
+    },
+
+    "proxied": false
+}
