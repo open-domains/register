@@ -1,0 +1,22 @@
+{
+    "description": "Personal Home server",
+    "domain": "is-cool.dev",
+    "subdomain": "ra",
+
+    "owner": {
+        "repo": "https://github.com/RafayAhmad7548/open-domains-register",
+        "email": "rafayahmad1425@gmail.com"
+    },
+
+    "record": {
+        "A": ["58.65.202.120"],
+        "AAAA": [],
+        "CNAME": "",
+        "MX": ["mail.ra.is-cool.dev"],
+        "TXT": [],
+        "CAA": [],
+        "SRV": []
+    },
+
+    "proxied": false
+}
