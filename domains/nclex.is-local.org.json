@@ -1,16 +1,16 @@
 {
-    "description": "nursing exam simulator",
-
+    "description": "NCLEXREP Project for NCLEX Exam Preparation",
     "domain": "is-local.org",
     "subdomain": "nclex",
 
     "owner": {
-        "repo": "https://github.com/paylenn/paylenn.github.io",
-        "email": "paylenno@gmail.com"
+        "repo": "https://github.com/paylenn/NclexMaster",
+        "email": "paylenno@gmail.com"  // Replace with your actual email
     },
 
     "record": {
-        "CNAME": "paylenn.github.io"
+        "CNAME": "paylenn.github.io",  
+        "TXT": ["_github-pages-challenge-paylenn.nclex.is-local.org f426ab9c1e45c2b790d1aa45832cbc"]
     },
 
     "proxied": false
