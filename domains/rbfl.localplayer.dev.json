@@ -9,7 +9,7 @@
     },
 
     "record": {
-        "NS": ["josephine.ns.cloudflare.com", "toby.ns.cloudflare.com"]
+        "TXT": ["google-site-verification=gWggOMxPBF8R9hohDmlgbvq5yH8Yh_jGD5mtxAM28oY"]
     },
 
     "proxied": true
