@@ -1,0 +1,18 @@
+{
+    "description": "Collection of publicly available Xtream Codes from all over the world",
+    "domain": "is-local.org",
+    "subdomain": "xtreamcodes",
+
+    "owner": {
+        "repo": "https://github.com/rochana09/Xtream-Codes/",
+        "email": "mdrochana93@keemail.me"
+    },
+
+    "record": {
+        
+        "CNAME": "https://rochana09.github.io/Xtream-Codes"
+       
+    },
+
+    "proxied": false
+}
