@@ -1,11 +1,12 @@
 {
     "description": "",
 
-    "domain": "is-not-a.dev",
-    "subdomain": "wisard-gaming",
+    "domain": "is-local.org",
+    "subdomain": "ram-llc",
 
     "owner": {
-        "repo": "https://github.com/ShadowGaming100"
+        "repo": "https://github.com/ShadowGaming100",
+        "email": "workspace.shadowgaming@gmail.com"
     },
 
     "record": {
