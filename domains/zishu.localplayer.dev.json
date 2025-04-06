@@ -1,0 +1,13 @@
+{
+    "description": "Will be used on my local server that I working on.",
+    "domain": "localplayer.dev",
+    "subdomain": "zishu",
+    "owner": {
+        "repo": "https://github.com/HP-L/hp-l.github.io",
+        "email": "lake.hupo.2001@outlook.com"
+    },
+    "record": {
+        "NS": "cullen.ns.cloudflare.com"
+    },
+    "proxied": false
+}
