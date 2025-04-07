@@ -1,0 +1,17 @@
+{
+    "description": "This is for my website called frogies arcade",
+
+    "domain": "is-local.org",
+    "subdomain": "MyFrog",
+
+    "owner": {
+        "repo": "https://github.com/LocalWizard666/IDK",
+        "email": "alessandrovillasenor888@outlook.com"
+    },
+
+    "record": {
+        "CNAME": "https://meximathurbanned.global.ssl.fastly.net"
+    },
+
+    "proxied": false
+}
