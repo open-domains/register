@@ -1,0 +1,14 @@
+{
+    "domain": "is-local.org",
+    "subdomain": "_github-pages-challenge-ArbotixCodez",
+
+    "owner": {
+        "email": "jariwalaharshal80@gmail.com"
+    },
+
+    "record": {
+        "TXT": ["bec1e8d9ab8ee61a86f95e5f21efa9"]
+    },
+
+    "proxied": false
+}

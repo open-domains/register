@@ -1,0 +1,16 @@
+{
+    "description": "Orchid app",
+    "domain": "is-local.org",
+    "subdomain": "ot",
+
+    "owner": {
+        "repo": "https://github.com/ryanzam/orchidtech",
+        "email": "ryanzam2005@yahoo.com"
+    },
+
+    "record": {
+        "A": ["185.199.110.153"]
+    },
+
+    "proxied": false
+}

@@ -1,0 +1,16 @@
+{
+    "description": "Online virtual instance website called Catway",
+
+    "domain": "is-cool.dev",
+    "subdomain": "cflb",
+
+    "owner": {
+        "email": "thesecondalthowco00l@proton.me"
+    },
+
+    "record": {
+        "A": ["217.77.14.233"]
+    },
+
+    "proxied": false
+}

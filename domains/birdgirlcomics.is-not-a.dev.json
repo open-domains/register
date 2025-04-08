@@ -1,0 +1,16 @@
+{
+    "description": "Comix",
+    "domain": "is-not-a.dev",
+    "subdomain": "birdgirlcomics",
+
+    "owner": {
+        "repo": "https://github.com/birdgirlcomics/birdgirlcomics.github.io",
+        "email": "xaviermgilbert@gmail.com"
+    },
+
+    "record": {
+        "CNAME": "birdgirlcomics.github.io"
+    },
+
+    "proxied": false
+}

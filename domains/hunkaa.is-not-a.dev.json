@@ -1,0 +1,16 @@
+{
+    "description": "personal blog",
+    "domain": "is-not-a.dev",
+    "subdomain": "hunkaa",
+
+    "owner": {
+        "repo": "https://github.com/hunkadunkaa",
+        "email": "hungndatwork@gmail.com"
+    },
+
+    "record": {
+        "A": ["34.102.250.126"]
+    },
+
+    "proxied": false
+}

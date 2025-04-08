@@ -24,13 +24,14 @@ jobs:
           # the below token should have repo scope and must be manually added by you in the repository's secret
           PERSONAL_ACCESS_TOKEN: ${{ steps.create_token.outputs.token }}
         with:
-          path-to-signatures: 'signatures-v2.json'
+          path-to-signatures: 'signatures-v3.json'
           path-to-document: 'https://github.com/open-domains/register/blob/main/terms.md' # e.g. a CLA or a DCO document
           # branch should not be protected
           branch: 'main'
-          allowlist: od-bot,bot*,Omxpro
+          allowlist: od-bot,bot*,kyro3400
           remote-organization-name: 'open-domains'
           remote-repository-name: 'cla'
+          lock-pullrequest-aftermerge: false
 
       - name: add CLA signed
         uses: actions-ecosystem/action-add-labels@v1
@@ -52,6 +53,3 @@ jobs:
         with:
           labels: "CLA Required"
           github_token: ${{ steps.create_token.outputs.token }}
-          
-
-        

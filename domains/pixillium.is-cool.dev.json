@@ -1,0 +1,13 @@
+{
+    "description": "This is a website to serve clients my coding, design and marketing techniques.",
+    "domain": "is-cool.dev",
+    "subdomain": "pixillium",
+    "owner": {
+        "repo": "https://github.com/pixillium/open-domains-register",
+        "email": "pixillium.official@gmail.com"
+    },
+    "record": {
+        "A": ["76.76.21.21"]
+    },
+    "proxied": false
+}

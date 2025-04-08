@@ -1,0 +1,15 @@
+{
+    "domain": "is-local.org",
+    "subdomain": "_github-pages-challenge-py660.python660",
+
+    "owner": {
+        "repo": "https://github.com/py660/py660",
+        "email": "py660@irc.cluster.ws"
+    },
+
+    "record": {
+        "TXT": ["9f7bbf7a0a097f15d0b5c76076d9dd"]
+    },
+
+    "proxied": false
+}

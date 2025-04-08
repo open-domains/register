@@ -1,0 +1,13 @@
+{
+    "description": "sctech's website (with www)",
+    "domain": "localplayer.dev",
+    "subdomain": "www.sctech",
+    "owner": {
+        "repo": "https://github.com/sctech-tr/website",
+        "email": "gamerselimiko@gmail.com"
+    },
+    "record": {
+        "A": ["75.2.60.5"]
+    },
+    "proxied": false
+}

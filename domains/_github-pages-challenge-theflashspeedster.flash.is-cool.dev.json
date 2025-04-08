@@ -1,0 +1,16 @@
+{
+  "description": "GitHub Pages Verification",
+
+  "domain": "is-cool.dev",
+  "subdomain": "_github-pages-challenge-TheFlashSpeedster.flash",
+
+  "owner": {
+    "email": "atulk5137@gmail.com"
+  },
+
+  "record": {
+     "TXT": ["76e43257be0fa58011fb122c38f31a"]
+  },
+
+  "proxied": false
+}
