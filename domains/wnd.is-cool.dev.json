@@ -11,7 +11,7 @@
     },
 
     "record": {
-        "MX": ["wndmx.is-cool.dev"]
+        "MX": ["mx.wnd.is-cool.dev"]
     },
 
     "proxied": false
