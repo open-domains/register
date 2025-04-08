@@ -1,17 +1,13 @@
 {
     "domain": "is-cool.dev",
-    "subdomain": "wnd",
+    "subdomain": "wndmx",
 
     "owner": {
         "email": "wnd_is-cool_dev.20240125.jewo@spamgourmet.com"
     },
 
     "record": {
-        "A": ["213.95.155.206"]
-    },
-
-    "record": {
-        "MX": ["wndmx.is-cool.dev"]
+        "A": ["88.99.104.57"]
     },
 
     "proxied": false
