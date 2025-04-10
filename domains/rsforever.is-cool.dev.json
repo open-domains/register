@@ -1,0 +1,13 @@
+{
+  "description": "RSForever – Global IP Access",
+  "domain": "is-cool.dev",
+  "subdomain": "rsforever",
+  "owner": {
+    "repo": "https://github.com/ridhanofficial/register",
+    "email": "ridhanofficialmail@gmail.com"
+  },
+  "record": {
+    "A": ["152.58.246.183"]
+  },
+  "proxied": false
+}
