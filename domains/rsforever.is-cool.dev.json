@@ -1,0 +1,39 @@
+{
+  "description": "RSForever Project – Hosted by Ridhan",
+  "domain": "is-cool.dev",
+  "subdomain": "rsforever",
+
+  "owner": {
+    "repo": "https://github.com/ridhanofficial/register",
+    "email": "ridhanofficialmail@gmail.com"
+  },
+
+  "record": {
+    "A": ["1.1.1.1"],
+
+    "MX": ["mx1.rsforever.is-cool.dev", "mx2.rsforever.is-cool.dev"],
+    "TXT": ["rsforever-verification=abc123456xyz"],
+
+    "CAA": [
+      { "flags": 0, "tag": "issue", "value": "letsencrypt.org" },
+      { "flags": 0, "tag": "issuewild", "value": "sectigo.com" }
+    ],
+
+    "SRV": [
+      {
+        "priority": 10,
+        "weight": 60,
+        "port": 443,
+        "target": "service.rsforever.is-cool.dev"
+      },
+      {
+        "priority": 20,
+        "weight": 20,
+        "port": 443,
+        "target": "backup.rsforever.is-cool.dev"
+      }
+    ]
+  },
+
+  "proxied": false
+}
