@@ -6,17 +6,39 @@ var proxy = {
     on: { cloudflare_proxy: "on" }
 };
 
+// Modified function to use DNSControl's file handling
 function getDomainsList(filesPath) {
     var result = [];
-    var files = glob.apply(null, [filesPath, true, ".json"]);
-
+    
+    // Use require() directly for each domain file instead of glob
+    // This assumes your files are named as expected and in the right directory
+    var fs = require('fs');
+    var path = require('path');
+    
+    var files = [];
+    try {
+        // Read the directory directly
+        files = fs.readdirSync(filesPath).filter(function(filename) {
+            return filename.endsWith('.json');
+        }).map(function(filename) {
+            return path.join(filesPath, filename);
+        });
+    } catch(e) {
+        console.log("Error reading directory:", e);
+        return [];
+    }
+    
     for (var i = 0; i < files.length; i++) {
         var basename = files[i].split("/").reverse()[0];
         var name = basename.split(".")[0];
-
-        result.push({ name: name, data: require(files[i]) });
+        
+        try {
+            result.push({ name: name, data: require(files[i]) });
+        } catch(e) {
+            console.log("Error loading file", files[i], e);
+        }
     }
-
+    
     return result;
 }
 
@@ -75,34 +97,35 @@ for (var idx in domains) {
         }
     }
 
-  if (domainData.records.CAA) {
-    for (var caa in domainData.records.CAA) {
-      var caaRecord = domainData.records.CAA[caa];
-      commit[domainData.domain].push(
-        CAA(domainData.subdomain, caaRecord.flags, caaRecord.tag, caaRecord.value)
-      );
+    if (domainData.records.CAA) {
+        for (var caa in domainData.records.CAA) {
+            var caaRecord = domainData.records.CAA[caa];
+            commit[domainData.domain].push(
+                CAA(domainData.subdomain, caaRecord.flags, caaRecord.tag, caaRecord.value)
+            );
+        }
     }
-  }
 
-  if (domainData.records.SRV) {
-    for (var srv in domainData.records.SRV) {
-      var srvRecord = domainData.records.SRV[srv];
-      commit[domainData.domain].push(
-        SRV(domainData.subdomain, srvRecord.priority, srvRecord.weight, srvRecord.port, srvRecord.target + ".")
-      );
+    if (domainData.records.SRV) {
+        for (var srv in domainData.records.SRV) {
+            var srvRecord = domainData.records.SRV[srv];
+            commit[domainData.domain].push(
+                SRV(domainData.subdomain, srvRecord.priority, srvRecord.weight, srvRecord.port, srvRecord.target + ".")
+            );
+        }
     }
-  }
 
-  // Handle PTR records
-  if (domainData.records.PTR) {
-    for (var ptr in domainData.records.PTR) {
-      commit[domainData.domain].push(
-        PTR(domainData.subdomain, domainData.records.PTR[ptr] + ".")
-      );
+    // Handle PTR records
+    if (domainData.records.PTR) {
+        for (var ptr in domainData.records.PTR) {
+            commit[domainData.domain].push(
+                PTR(domainData.subdomain, domainData.records.PTR[ptr] + ".")
+            );
+        }
     }
-  }
 }
 
 for (var domainName in commit) {
     D(domainName, regNone, providerCf, commit[domainName]);
-    }
+}
+
