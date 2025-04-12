@@ -1,0 +1,14 @@
+{
+    "domain": "localplayer.dev",
+    "subdomain": "try",
+
+    "owner": {
+        "email": "fai1117hk2@gmail.com"
+    },
+
+    "record": {
+        "A": ["35.194.155.135"]
+    },
+
+    "proxied": false
+}
