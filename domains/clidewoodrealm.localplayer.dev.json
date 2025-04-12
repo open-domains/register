@@ -9,7 +9,7 @@
     "record": {
         "A": ["185.31.40.24"],
         "MX": ["mx1.alwaysdata.com", "mx2.alwaysdata.com"],
-        "TXT": ["v=spf1 mx a:ad.alwaysdata.net ~all"]
+        "TXT": ["v=spf1 mx a:ad.alwaysdata.net ~all", "v=spf1 include:spf.protection.outlook.com -all"]
     },
 
     "proxied": false
