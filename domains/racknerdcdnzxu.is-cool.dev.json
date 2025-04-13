@@ -1,0 +1,15 @@
+{
+    "description": "X2RAY Personal VPS",
+    "domain": "is-cool.dev",
+    "subdomain": "racknerdcdnzxu",
+    "owner": {
+        "repo": "https://github.com/ZachXu/register",
+        "email": "zach.xu1987@gmail.com"
+    },
+    "record": {
+        "A": [
+            "104.168.11.37"
+        ]
+    },
+    "proxied": true
+}

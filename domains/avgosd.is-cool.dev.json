@@ -2,15 +2,14 @@
     "description": "Avgosd Project",
     "domain": "is-cool.dev",
     "subdomain": "avgosd",
-
     "owner": {
         "repo": "https://github.com/avdija/register",
         "email": "avgosd@avgosd.is-cool.dev"
     },
-
     "record": {
-        "MX": ["uk.iqq.se"]
+        "MX": [
+            "uk.iqq.se"
+        ]
     },
-
     "proxied": false
 }
