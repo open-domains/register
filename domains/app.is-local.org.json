@@ -7,7 +7,10 @@
         "email": "jonathan.russ@bluewin.ch"
     },
     "record": {
-        "NS": ["ns1.vercel-dns.com", "ns2.vercel-dns.com"]
+        "NS": [
+            "ns1.vercel-dns.com",
+            "ns2.vercel-dns.com"
+        ]
     },
     "proxied": false
 }

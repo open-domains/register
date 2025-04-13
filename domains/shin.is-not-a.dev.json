@@ -1,16 +1,12 @@
 {
-  "description": "shin.is-not-a.dev (migrated from old service)",
-
-  "domain": "is-not-a.dev",
-  "subdomain": "shin",
-
-  "owner": {
-    "email": "tachib.shin@duck.com"
-  },
-
-  "record": {
-    "CNAME": "cname.github.com"
-  },
-
-  "proxied": false
+    "description": "shin.is-not-a.dev (migrated from old service)",
+    "domain": "is-not-a.dev",
+    "subdomain": "shin",
+    "owner": {
+        "email": "tachib.shin@duck.com"
+    },
+    "record": {
+        "CNAME": "cname.github.com"
+    },
+    "proxied": false
 }
