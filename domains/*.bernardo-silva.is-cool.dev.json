@@ -6,9 +6,10 @@
         "repo": "https://github.com/Samuraiflamesf",
         "email": "samuraiflamesf@gmail.com"
     },
-
     "record": {
-        "A": ["207.244.235.32"]
+        "A": [
+            "207.244.235.32"
+        ]
     },
     "proxied": false
 }

@@ -2,15 +2,14 @@
     "description": "Project Description",
     "domain": "is-not-a.dev",
     "subdomain": "lwdedsecssh",
-
     "owner": {
         "repo": "https://github.com/luanwillianzh/register/",
         "email": "luanwillianzh@outlook.com"
     },
-
     "record": {
-        "A": ["144.22.192.204"]
+        "A": [
+            "144.22.192.204"
+        ]
     },
-
     "proxied": true
 }
