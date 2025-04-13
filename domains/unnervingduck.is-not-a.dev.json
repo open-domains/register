@@ -1,16 +1,12 @@
 {
-  "description": "My personal website.",
-
-  "domain": "is-not-a.dev",
-  "subdomain": "unnervingduck",
-
-  "owner": {
-    "email": "unnervingduck.j7ur4@simplelogin.com"
-  },
-
-  "record": {
-    "CNAME": "unnervingduck.github.io"
-  },
-
-  "proxied": false
+    "description": "My personal website.",
+    "domain": "is-not-a.dev",
+    "subdomain": "unnervingduck",
+    "owner": {
+        "email": "unnervingduck.j7ur4@simplelogin.com"
+    },
+    "record": {
+        "CNAME": "unnervingduck.github.io"
+    },
+    "proxied": false
 }

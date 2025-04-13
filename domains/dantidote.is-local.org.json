@@ -3,10 +3,10 @@
     "domain": "is-local.org",
     "subdomain": "dantidote",
     "owner": {
-      "email": "xcode2vlad@gmail.com"
-  },
-  "record": {
-      "CNAME": "vrahmanov.github.io"
-  },
+        "email": "xcode2vlad@gmail.com"
+    },
+    "record": {
+        "CNAME": "vrahmanov.github.io"
+    },
     "proxied": false
-  }
+}
