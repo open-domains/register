@@ -1,16 +1,14 @@
 {
-  "description": "my service",
-
-  "domain": "is-not-a.dev",
-  "subdomain": "prisoner",
-
-  "owner": {
-    "email": "mpslpanahi@gmail.com"
-  },
-
-  "record": {
-    "A": ["91.107.184.202"]
-  },
-
-  "proxied": false
+    "description": "my service",
+    "domain": "is-not-a.dev",
+    "subdomain": "prisoner",
+    "owner": {
+        "email": "mpslpanahi@gmail.com"
+    },
+    "record": {
+        "A": [
+            "91.107.184.202"
+        ]
+    },
+    "proxied": false
 }

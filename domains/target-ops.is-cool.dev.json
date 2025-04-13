@@ -3,10 +3,10 @@
     "domain": "is-cool.dev",
     "subdomain": "target-ops",
     "owner": {
-      "email": "xcode2vlad@gmail.com"
-  },
-  "record": {
-      "CNAME": "target-ops.github.io"
-  },
+        "email": "xcode2vlad@gmail.com"
+    },
+    "record": {
+        "CNAME": "target-ops.github.io"
+    },
     "proxied": false
-  }
+}
