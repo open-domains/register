@@ -1,16 +1,12 @@
 {
-  "description": "codeblocks.is-not-a.dev (migrated from old service)",
-
-  "domain": "is-not-a.dev",
-  "subdomain": "codeblocks",
-
-  "owner": {
-    "email": "jakobhess0815@gmail.com"
-  },
-
-  "record": {
-    "CNAME": "play.codeblocksmc.de"
-  },
-
-  "proxied": false
+    "description": "codeblocks.is-not-a.dev (migrated from old service)",
+    "domain": "is-not-a.dev",
+    "subdomain": "codeblocks",
+    "owner": {
+        "email": "jakobhess0815@gmail.com"
+    },
+    "record": {
+        "CNAME": "play.codeblocksmc.de"
+    },
+    "proxied": false
 }
