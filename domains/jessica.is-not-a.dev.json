@@ -1,0 +1,18 @@
+{
+    "description": "For my various personal projects",
+    "domain": "is-not-a.dev",
+    "subdomain": "jessica",
+    "owner": {
+        "email": "binarywanderer@hotmail.com"
+    },
+    "record": {
+        "NS": [
+            "ns1.he.net",
+            "ns2.he.net",
+            "ns3.he.net",
+            "ns4.he.net",
+            "ns5.he.net"
+        ]
+    },
+    "proxied": false
+}

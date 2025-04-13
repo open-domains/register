@@ -1,108 +1,124 @@
+// Setup registrar and DNS provider
 var regNone = NewRegistrar("none");
 var providerCf = DnsProvider(NewDnsProvider("cloudflare"));
 
 var proxy = {
-    off: { cloudflare_proxy: "off" },
-    on: { cloudflare_proxy: "on" }
+  on: { "cloudflare_proxy": "on" },
+  off: { "cloudflare_proxy": "off" }
 };
 
+// Load all domain configurations from JSON files
 function getDomainsList(filesPath) {
-    var result = [];
-    var files = glob.apply(null, [filesPath, true, ".json"]);
+  var result = [];
+  var files = glob.apply(null, [filesPath, true, '.json']);
 
-    for (var i = 0; i < files.length; i++) {
-        var basename = files[i].split("/").reverse()[0];
-        var name = basename.split(".")[0];
-
-        result.push({ name: name, data: require(files[i]) });
+  files.forEach(function(file) {
+    try {
+      var basename = file.split('/').pop();
+      var name = basename.split('.')[0];
+      var data = require(file);
+      
+      // Validate required fields
+      if (!data.domain || !data.record) {
+        console.error("Missing required fields in " + file);
+        return;
+      }
+      
+      result.push({ name: name, data: data });
+    } catch (error) {
+      console.error("Error loading " + file + ":", error);
     }
+  });
 
-    return result;
+  return result;
 }
 
-var domains = getDomainsList("./domains");
+var domains = getDomainsList('./domains');
+var recordsByDomain = {};
 
-var commit = {};
+// Helper to add records to a domain entry
+function addRecord(domain, record) {
+  if (!recordsByDomain[domain]) {
+    recordsByDomain[domain] = [];
+  }
+  recordsByDomain[domain].push(record);
+}
 
-for (var idx in domains) {
-    var domainData = domains[idx].data;
-    var proxyState = domainData.proxied ? proxy.on : proxy.off;
+// Process each domain
+domains.forEach(function(domainEntry) {
+  var domainData = domainEntry.data;
+  var proxyState = proxy.on; // Default to enabled
 
-    if (!commit[domainData.domain]) commit[domainData.domain] = [];
-
-    var owner = domainData.owner;
-    var ownerInfo = owner ? (owner.username ? owner.username : '') + ' ' + (owner.email ? '<' + owner.email + '>' : '') : '';
-
-    console.log("Configuring domain: " + domainData.subdomain + "." + domainData.domain + ", Owner: " + ownerInfo);
-
-    if (domainData.records.A) {
-        for (var a in domainData.records.A) {
-            commit[domainData.domain].push(A(domainData.subdomain, IP(domainData.records.A[a]), proxyState));
-        }
-    }
-
-    if (domainData.records.AAAA) {
-        for (var aaaa in domainData.records.AAAA) {
-            commit[domainData.domain].push(AAAA(domainData.subdomain, domainData.records.AAAA[aaaa], proxyState));
-        }
-    }
-
-    if (domainData.records.CNAME) {
-        commit[domainData.domain].push(CNAME(domainData.subdomain, domainData.records.CNAME + ".", proxyState));
-    }
-
-    if (domainData.records.MX) {
-        for (var mx in domainData.records.MX) {
-            commit[domainData.domain].push(MX(domainData.subdomain, domainData.records.MX[mx].priority, domainData.records.MX[mx].value + "."));
-        }
-    }
-
-    if (domainData.records.NS) {
-        for (var ns in domainData.records.NS) {
-            commit[domainData.domain].push(NS(domainData.subdomain, domainData.records.NS[ns] + "."));
-        }
-    }
-
-    if (domainData.records.TXT) {
-        for (var txt in domainData.records.TXT) {
-            if (domainData.records.TXT[txt].name === "@") {
-                commit[domainData.domain].push(TXT(domainData.subdomain, domainData.records.TXT[txt].value));
-            } else if (domainData.subdomain === "@") {
-                commit[domainData.domain].push(TXT(domainData.records.TXT[txt].name, domainData.records.TXT[txt].value));
-            } else {
-                commit[domainData.domain].push(TXT(domainData.records.TXT[txt].name + "." + domainData.subdomain, domainData.records.TXT[txt].value));
-            }
-        }
-    }
-
-  if (domainData.records.CAA) {
-    for (var caa in domainData.records.CAA) {
-      var caaRecord = domainData.records.CAA[caa];
-      commit[domainData.domain].push(
-        CAA(domainData.subdomain, caaRecord.flags, caaRecord.tag, caaRecord.value)
-      );
-    }
+  if (domainData.proxied === false) {
+    proxyState = proxy.off;
   }
 
-  if (domainData.records.SRV) {
-    for (var srv in domainData.records.SRV) {
-      var srvRecord = domainData.records.SRV[srv];
-      commit[domainData.domain].push(
-        SRV(domainData.subdomain, srvRecord.priority, srvRecord.weight, srvRecord.port, srvRecord.target + ".")
-      );
-    }
+  // Initialize records array for this domain
+  recordsByDomain[domainData.domain] = recordsByDomain[domainData.domain] || [];
+
+  // Handle A records
+  if (domainData.record.A) {
+    domainData.record.A.forEach(function(ipAddress) {
+      addRecord(domainData.domain, A(domainData.subdomain, IP(ipAddress), proxyState));
+    });
+  }
+
+  // Handle AAAA records
+  if (domainData.record.AAAA) {
+    domainData.record.AAAA.forEach(function(ipv6) {
+      addRecord(domainData.domain, AAAA(domainData.subdomain, ipv6, proxyState));
+    });
+  }
+
+  // Handle CNAME records
+  if (domainData.record.CNAME) {
+    addRecord(domainData.domain, CNAME(domainData.subdomain, domainData.record.CNAME + ".", proxyState));
+  }
+
+  // Handle MX records
+  if (domainData.record.MX) {
+    domainData.record.MX.forEach(function(mx) {
+      addRecord(domainData.domain, MX(domainData.subdomain, 10, mx + "."));
+    });
+  }
+
+  // Handle NS records
+  if (domainData.record.NS) {
+    domainData.record.NS.forEach(function(ns) {
+      addRecord(domainData.domain, NS(domainData.subdomain, ns + "."));
+    });
+  }
+
+  // Handle TXT records
+  if (domainData.record.TXT) {
+    domainData.record.TXT.forEach(function(txt) {
+      addRecord(domainData.domain, TXT(domainData.subdomain, txt));
+    });
+  }
+
+  // Handle CAA records
+  if (domainData.record.CAA) {
+    domainData.record.CAA.forEach(function(caaRecord) {
+      addRecord(domainData.domain, CAA(domainData.subdomain, caaRecord.flags, caaRecord.tag, caaRecord.value));
+    });
+  }
+
+  // Handle SRV records
+  if (domainData.record.SRV) {
+    domainData.record.SRV.forEach(function(srvRecord) {
+      addRecord(domainData.domain, SRV(domainData.subdomain, srvRecord.priority, srvRecord.weight, srvRecord.port, srvRecord.target + "."));
+    });
   }
 
   // Handle PTR records
-  if (domainData.records.PTR) {
-    for (var ptr in domainData.records.PTR) {
-      commit[domainData.domain].push(
-        PTR(domainData.subdomain, domainData.records.PTR[ptr] + ".")
-      );
-    }
+  if (domainData.record.PTR) {
+    domainData.record.PTR.forEach(function(ptr) {
+      addRecord(domainData.domain, PTR(domainData.subdomain, ptr + "."));
+    });
   }
-}
+});
 
-for (var domainName in commit) {
-    D(domainName, regNone, providerCf, commit[domainName]);
-    }
+// Commit all DNS records for each domain
+Object.keys(recordsByDomain).forEach(function(domainName) {
+  D(domainName, regNone, providerCf, recordsByDomain[domainName]);
+});
