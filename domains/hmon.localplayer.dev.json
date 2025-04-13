@@ -1,16 +1,12 @@
 {
-  "description": "personal web proxy service",
-
-  "domain": "localplayer.dev",
-  "subdomain": "hmon",
-
-  "owner": {
-    "email": "daniel@daniel.is-a.dev"
-  },
-
-  "record": {
-    "CNAME": "hmon.gives"
-  },
-
-  "proxied": false
+    "description": "personal web proxy service",
+    "domain": "localplayer.dev",
+    "subdomain": "hmon",
+    "owner": {
+        "email": "daniel@daniel.is-a.dev"
+    },
+    "record": {
+        "CNAME": "hmon.gives"
+    },
+    "proxied": false
 }

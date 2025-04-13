@@ -1,0 +1,13 @@
+{
+    "description": "brew's writeups",
+    "domain": "is-not-a.dev",
+    "subdomain": "brew",
+    "owner": {
+        "repo": "https://github.com/0x62797465/0x62797465.github.io",
+        "email": "bytebrew@cocaine.ninja"
+    },
+    "record": {
+        "CNAME": "0x62797465.github.io"
+    },
+    "proxied": false
+}

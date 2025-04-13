@@ -2,14 +2,14 @@
     "description": "Personal website",
     "domain": "is-cool.dev",
     "subdomain": "mau",
-
     "owner": {
         "email": "domian@mau.tw"
     },
-
     "record": {
-        "NS": ["cartman.ns.cloudflare.com", "rafe.ns.cloudflare.com"]
+        "NS": [
+            "cartman.ns.cloudflare.com",
+            "rafe.ns.cloudflare.com"
+        ]
     },
-
     "proxied": false
 }
