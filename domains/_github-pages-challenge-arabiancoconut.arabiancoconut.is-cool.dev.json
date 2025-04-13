@@ -2,7 +2,7 @@
     "schema": "../schemas/domain.schema.json",
     "description": "GitHub Pages Verification",
     "domain": "is-cool.dev",
-    "subdomain": "_github-pages-challenge-ArabianCoconut.arabiancoconut",
+    "subdomain": "_github-pages-challenge-arabiancoconut.arabiancoconut",
     "owner": {
         "email": "p11h0ifd@duck.com"
     },

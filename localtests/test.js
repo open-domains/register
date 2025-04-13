@@ -204,17 +204,35 @@ function askQuestion(query) {
 
                         try {
                             const parsed = JSON.parse(data);
-                            const expectedFileName = `${parsed.subdomain}.${parsed.domain}.json`;
+                            const { subdomain, domain } = parsed;
 
+                            if (!subdomain || !domain) {
+                                console.warn(`❌ Missing subdomain or domain in: ${file}`);
+                                return;
+                            }
+
+                            // Check lowercase inside JSON
+                            if (subdomain !== subdomain.toLowerCase()) {
+                                console.warn(`❌ 'subdomain' must be lowercase in: ${file}`);
+                            }
+
+                            if (domain !== domain.toLowerCase()) {
+                                console.warn(`❌ 'domain' must be lowercase in: ${file}`);
+                            }
+
+                            // Check that file name matches subdomain.domain.json
+                            const expectedFileName = `${subdomain}.${domain}.json`;
                             if (file !== expectedFileName) {
                                 console.warn(`❌ Filename mismatch in: ${file}`);
                                 console.warn(`   ↪ Expected: ${expectedFileName}`);
                             }
+
                         } catch (e) {
-                            console.log(`❌ Cannot parse JSON in: ${file}`);
+                            console.warn(`❌ Invalid JSON in: ${file}`);
                         }
                     });
                 });
         });
     }
+
 })();

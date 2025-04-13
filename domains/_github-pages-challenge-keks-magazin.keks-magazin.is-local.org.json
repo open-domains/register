@@ -1,7 +1,7 @@
 {
     "description": "GitHub Verify",
     "domain": "is-local.org",
-    "subdomain": "_github-pages-challenge-Keks-Magazin.keks-magazin",
+    "subdomain": "_github-pages-challenge-keks-magazin.keks-magazin",
     "owner": {
         "repo": "https://github.com/getSono/register_2",
         "email": "sono@sono.is-a.dev"
