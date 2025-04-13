@@ -14,7 +14,8 @@ const sectionMap = {
     2: 'JSON syntax validation',
     3: 'Owner property validation',
     4: 'Filename format validation',
-    5: 'Filename content match validation'
+    5: 'Filename content match validation',
+    6: 'Nested subdomain validation'
 };
 
 function askQuestion(query) {
@@ -235,4 +236,63 @@ function askQuestion(query) {
         });
     }
 
+    //==================== SECTION 6: NESTED SUBDOMAIN VALIDATION ====================//
+    if (selectedSections.includes(6)) {
+        fs.readdir(domainsDir, (err, files) => {
+            if (err) {
+                console.error(`Error reading directory: ${err.message}`);
+                return;
+            }
+
+            const jsonFiles = files.filter(file => file.endsWith('.json'));
+
+            const domainMap = new Map();
+
+            // Preload all domain files and their content
+            jsonFiles.forEach(file => {
+                const filePath = path.join(domainsDir, file);
+                const content = fs.readFileSync(filePath, 'utf8');
+
+                try {
+                    const json = JSON.parse(content);
+                    domainMap.set(file, {
+                        file,
+                        email: json.owner?.email || null,
+                        subdomain: json.subdomain,
+                        domain: json.domain
+                    });
+                } catch (e) {
+                    console.warn(`❌ Invalid JSON in file: ${file}`);
+                }
+            });
+
+            // Validate nested subdomains
+            for (const { file, subdomain, domain, email } of domainMap.values()) {
+                if (!subdomain || !domain || !email) continue;
+
+                const fullDomain = `${subdomain}.${domain}`;
+                const subdomainParts = subdomain.split('.');
+
+                // Skip non-nested
+                if (subdomainParts.length < 2) continue;
+
+                // Find the root subdomain (right-most part before the domain)
+                const rootSubdomain = subdomainParts[subdomainParts.length - 1];
+                const rootFile = `${rootSubdomain}.${domain}.json`;
+
+                if (!domainMap.has(rootFile)) {
+                    console.warn(`❌ Missing root subdomain for ${fullDomain} → expected: ${rootFile}`);
+                    continue;
+                }
+
+                const rootEntry = domainMap.get(rootFile);
+
+                if (rootEntry.email !== email) {
+                    console.warn(`❌ Unauthorized nested subdomain in: ${file}`);
+                    console.warn(`   ↪ Root file: ${rootFile}`);
+                    console.warn(`   ↪ Owner email mismatch: expected "${rootEntry.email}", found "${email}"`);
+                }
+            }
+        });
+    }
 })();
