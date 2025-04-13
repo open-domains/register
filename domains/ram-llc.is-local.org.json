@@ -1,0 +1,17 @@
+{
+    "description": "",
+
+    "domain": "is-local.org",
+    "subdomain": "ram-llc",
+
+    "owner": {
+        "repo": "https://github.com/ShadowGaming100",
+        "email": "workspace.shadowgaming@gmail.com"
+    },
+
+    "record": {
+        "NS": ["darwin.ns.cloudflare.com", "mallory.ns.cloudflare.com"]
+    },
+
+    "proxied": false
+} 
