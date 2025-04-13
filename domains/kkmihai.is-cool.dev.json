@@ -1,16 +1,12 @@
 {
-  "description": "Portfolio Website",
-
-  "domain": "is-cool.dev",
-  "subdomain": "kkmihai",
-
-  "owner": {
-    "email": "kkmihai@proton.me"
-  },
-
-  "record": {
-    "CNAME": "cname.vercel-dns.com"
-  },
-
-  "proxied": false
+    "description": "Portfolio Website",
+    "domain": "is-cool.dev",
+    "subdomain": "kkmihai",
+    "owner": {
+        "email": "kkmihai@proton.me"
+    },
+    "record": {
+        "CNAME": "cname.vercel-dns.com"
+    },
+    "proxied": false
 }
