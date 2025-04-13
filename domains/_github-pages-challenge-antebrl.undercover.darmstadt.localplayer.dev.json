@@ -7,7 +7,9 @@
         "email": "ahcwnh@gmail.com"
     },
     "record": {
-        "TXT": ["cd873119197c654713a6c91abafd00"]
+        "TXT": [
+            "cd873119197c654713a6c91abafd00"
+        ]
     },
     "proxied": false
 }
