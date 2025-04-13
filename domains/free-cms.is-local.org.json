@@ -7,7 +7,9 @@
         "email": "daimdev6@gmail.com"
     },
     "record": {
-        "A": ["4.247.175.26"]
+        "A": [
+            "4.247.175.26"
+        ]
     },
     "proxied": true
 }

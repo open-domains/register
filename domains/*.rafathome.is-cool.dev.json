@@ -6,7 +6,9 @@
         "email": "rafathasankhan@gmail.com"
     },
     "record": {
-        "A": ["103.81.70.71"]
+        "A": [
+            "103.81.70.71"
+        ]
     },
     "proxied": false
 }
