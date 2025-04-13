@@ -2,12 +2,11 @@
     "description": "My Portfolio",
     "domain": "is-cool.dev",
     "subdomain": "hr",
-
     "owner": {
         "repo": "https://github.com/unknownmeovo/unknownmeovo/",
         "email": "hadiraza.9002@gmail.com"
     },
-  "record": {
+    "record": {
         "CNAME": "portfolio-4ade3.web.app"
-  }
+    }
 }

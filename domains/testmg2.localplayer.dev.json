@@ -1,14 +1,13 @@
 {
     "domain": "localplayer.dev",
     "subdomain": "testmg2",
-
     "owner": {
         "email": "mejsler@pm.me"
     },
-
     "record": {
-        "A": ["45.89.63.217"]
+        "A": [
+            "45.89.63.217"
+        ]
     },
-
     "proxied": false
 }
