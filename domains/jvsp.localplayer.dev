@@ -1,0 +1,16 @@
+{
+    "description": "My Portfolio",
+    "domain": "localplayer.dev",
+    "subdomain": "jvsp",
+
+    "owner": {
+        "repo": "https://github.com/AustrianNoah/Portfolio2",
+        "email": "javasnippets.coding@gmail.com"
+    },
+
+    "record": {
+        "CNAME": "austriannoah.github.io"
+    },
+
+    "proxied": false
+}
