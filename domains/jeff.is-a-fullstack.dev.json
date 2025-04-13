@@ -4,10 +4,8 @@
     "owner": {
         "email": "jeff.tian@outlook.com"
     },
-
     "record": {
         "CNAME": "jeff-tian.github.io"
     },
-
     "proxied": false
 }

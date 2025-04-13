@@ -6,7 +6,10 @@
         "email": "wekuz@duck.com"
     },
     "record": {
-        "NS": ["dina.ns.cloudflare.com", "matt.ns.cloudflare.com"]
+        "NS": [
+            "dina.ns.cloudflare.com",
+            "matt.ns.cloudflare.com"
+        ]
     },
     "proxied": false
 }
