@@ -6,6 +6,7 @@
   "scripts": {
     "test": "npx ava tests/*.test.js",
     "lt": "node ./localtests/test.js",
-    "format": "node ./localtests/format.js"
+    "format": "node ./localtests/format.js",
+    "lowercase": "node ./localtests/lowercase.js"
   }
 }

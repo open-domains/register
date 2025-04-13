@@ -13,7 +13,8 @@ const sectionMap = {
     1: 'Non-JSON file detection',
     2: 'JSON syntax validation',
     3: 'Owner property validation',
-    4: 'Filename format validation'
+    4: 'Filename format validation',
+    5: 'Filename content match validation'
 };
 
 function askQuestion(query) {
@@ -179,6 +180,40 @@ function askQuestion(query) {
                     if (!expectedSuffix) {
                         console.warn(`❌ Invalid root domain in filename: ${file}`);
                     }
+                });
+        });
+    }
+
+    //==================== SECTION 5: FILENAME CONTENT MATCH VALIDATION ====================//
+    if (selectedSections.includes(5)) {
+        fs.readdir(domainsDir, (err, files) => {
+            if (err) {
+                console.error(`Error reading directory: ${err.message}`);
+                return;
+            }
+
+            files
+                .filter(file => file.endsWith('.json'))
+                .forEach(file => {
+                    const filePath = path.join(domainsDir, file);
+                    fs.readFile(filePath, 'utf8', (err, data) => {
+                        if (err) {
+                            console.error(`Error reading file ${file}: ${err.message}`);
+                            return;
+                        }
+
+                        try {
+                            const parsed = JSON.parse(data);
+                            const expectedFileName = `${parsed.subdomain}.${parsed.domain}.json`;
+
+                            if (file !== expectedFileName) {
+                                console.warn(`❌ Filename mismatch in: ${file}`);
+                                console.warn(`   ↪ Expected: ${expectedFileName}`);
+                            }
+                        } catch (e) {
+                            console.log(`❌ Cannot parse JSON in: ${file}`);
+                        }
+                    });
                 });
         });
     }
