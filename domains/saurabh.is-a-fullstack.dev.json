@@ -1,11 +1,9 @@
 {
     "domain": "is-a-fullstack.dev",
     "subdomain": "saurabh",
-
     "owner": {
         "email": "saurabhkirve@gmail.com"
     },
-
     "record": {
         "A": [
             "185.199.108.153",
@@ -13,11 +11,13 @@
             "185.199.110.153",
             "185.199.111.153"
         ],
-
-        "MX": ["mx1.forwardemail.net", "mx2.forwardemail.net"],
-
-        "TXT": ["forward-email=saurabhkirve@gmail.com"]
+        "MX": [
+            "mx1.forwardemail.net",
+            "mx2.forwardemail.net"
+        ],
+        "TXT": [
+            "forward-email=saurabhkirve@gmail.com"
+        ]
     },
-
     "proxied": false
 }

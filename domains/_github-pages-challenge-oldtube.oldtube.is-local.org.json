@@ -6,7 +6,9 @@
         "email": "triforcexp@gmail.com"
     },
     "record": {
-        "TXT": ["64a24160508ca0bbe84d519f0a75ce"]
+        "TXT": [
+            "64a24160508ca0bbe84d519f0a75ce"
+        ]
     },
     "proxied": false
 }

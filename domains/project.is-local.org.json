@@ -1,0 +1,16 @@
+{
+    "description": "Subdomain for hosting multiple projects",
+    "domain": "is-local.org",
+    "subdomain": "project",
+    "owner": {
+        "username": "JonathanXDR",
+        "email": "jonathan.russ@bluewin.ch"
+    },
+    "record": {
+        "NS": [
+            "ns1.vercel-dns.com",
+            "ns2.vercel-dns.com"
+        ]
+    },
+    "proxied": false
+}
