@@ -2,15 +2,12 @@
     "description": "Express.js Library",
     "domain": "is-cool.dev",
     "subdomain": "suvidhajs",
-
     "owner": {
         "repo": "https://github.com/ishwar00/suvidha.js",
         "email": "ishwargowda100@gmail.com"
     },
-
     "record": {
         "CNAME": "cname.vercel-dns.com"
     },
-
     "proxied": false
 }
