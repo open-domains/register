@@ -1,11 +1,9 @@
 {
     "domain": "is-a-fullstack.dev",
     "subdomain": "erp112",
-
     "owner": {
         "email": "vialonitasuhardiman@gmail.com"
     },
-
     "record": {
         "A": [
             "185.199.108.153",
@@ -14,6 +12,5 @@
             "185.199.111.153"
         ]
     },
-
     "proxied": false
 }
