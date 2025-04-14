@@ -80,6 +80,29 @@ t("All files should have the required fields", (t) => {
     });
 });
 
+t("All files should have lowercase subdomain/domain and match filename", (t) => {
+    const files = fs.readdirSync(domainsPath).filter(file => {
+        const filePath = path.join(domainsPath, file);
+        return file.endsWith(".json") && fs.lstatSync(filePath).isFile();
+    });
+
+    files.forEach(file => {
+        const filePath = path.join(domainsPath, file);
+        const data = fs.readJsonSync(filePath);
+
+        const { subdomain, domain } = data;
+
+        t.truthy(subdomain, `${file}: Missing subdomain field`);
+        t.truthy(domain, `${file}: Missing domain field`);
+
+        t.is(subdomain, subdomain.toLowerCase(), `${file}: 'subdomain' must be lowercase`);
+        t.is(domain, domain.toLowerCase(), `${file}: 'domain' must be lowercase`);
+
+        const expectedFileName = `${subdomain}.${domain}.json`;
+        t.is(file, expectedFileName, `${file}: Filename does not match subdomain and domain`);
+    });
+});
+
 t("All files should have valid optional owner fields", (t) => {
     const files = fs.readdirSync(domainsPath).filter(file => {
     const filePath = path.join(domainsPath, file);
