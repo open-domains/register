@@ -1,0 +1,16 @@
+{
+    "description": "WhisprAI - An AI based Chat Assistant",
+    "domain": "is-local.org",
+    "subdomain": "whisprai",
+
+    "owner": {
+        "repo": "https://github.com/aggarwalvansh/whisprai",
+        "email": "aggvans@gmail.com"
+    },
+
+    "record": {
+        "CNAME": "whisprai.onrender.com"
+    },
+
+    "proxied": false
+}
