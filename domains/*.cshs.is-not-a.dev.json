@@ -1,6 +1,6 @@
 {
     "description": "Wildcard for home srver",
-    "domain": "is-not-a.dev.json",
+    "domain": "is-not-a.dev",
     "subdomain": "*.cshs",
     "owner": {
         "repo": "https://github.com/Chaim12345",
