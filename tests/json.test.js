@@ -120,24 +120,26 @@ t("All files should have lowercase subdomain/domain and match filename", (t) => 
     });
 });
 
-t("All files should use a valid root domain", (t) => {
+t("All files must use a valid root domain in both file name and JSON content", (t) => {
     const files = fs.readdirSync(domainsPath).filter(file => {
         const filePath = path.join(domainsPath, file);
         return file.endsWith(".json") && fs.lstatSync(filePath).isFile();
     });
 
     files.forEach(file => {
-        const data = fs.readJsonSync(path.join(domainsPath, file));
+        const filePath = path.join(domainsPath, file);
+        const data = fs.readJsonSync(filePath);
+
         const domain = data.domain;
 
         t.truthy(domain, `${file}: Missing domain field`);
-        t.true(
-            domains.includes(`.${domain}`),
-            `${file}: Domain '${domain}' is not in the list of allowed domains`
-        );
+        const domainWithDot = `.${domain}`;
+        t.true(domains.includes(domainWithDot), `${file}: Domain '${domain}' is not allowed`);
+
+        const endsWithValidDomain = domains.some(valid => file.endsWith(valid + ".json"));
+        t.true(endsWithValidDomain, `❌ Filename does not end with a valid root domain: ${file}`);
     });
 });
-
 
 // Thanks is-a.dev for this.
 t("JSON files should not be in the root directory", (t) => {
