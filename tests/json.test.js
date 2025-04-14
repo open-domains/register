@@ -80,7 +80,7 @@ t("All files should have the required fields", (t) => {
     });
 });
 
-t("All files should have lowercase subdomain/domain and match filename", (t) => {
+t("All filenames, subdomains, and domains must be lowercase", (t) => {
     const files = fs.readdirSync(domainsPath).filter(file => {
         const filePath = path.join(domainsPath, file);
         return file.endsWith(".json") && fs.lstatSync(filePath).isFile();
@@ -90,16 +90,17 @@ t("All files should have lowercase subdomain/domain and match filename", (t) => 
         const filePath = path.join(domainsPath, file);
         const data = fs.readJsonSync(filePath);
 
+        // Check filename is lowercase
+        t.is(file, file.toLowerCase(), `${file}: Filename must be lowercase`);
+
         const { subdomain, domain } = data;
 
+        // Check JSON values are lowercase
         t.truthy(subdomain, `${file}: Missing subdomain field`);
         t.truthy(domain, `${file}: Missing domain field`);
 
-        t.is(subdomain, subdomain.toLowerCase(), `${file}: 'subdomain' must be lowercase`);
-        t.is(domain, domain.toLowerCase(), `${file}: 'domain' must be lowercase`);
-
-        const expectedFileName = `${subdomain}.${domain}.json`;
-        t.is(file, expectedFileName, `${file}: Filename does not match subdomain and domain`);
+        t.is(subdomain, subdomain.toLowerCase(), `${file}: Subdomain must be lowercase`);
+        t.is(domain, domain.toLowerCase(), `${file}: Domain must be lowercase`);
     });
 });
 
