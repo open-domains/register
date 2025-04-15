@@ -1,7 +1,7 @@
 {
     "description": "Foundty TTRRG Dev testing and play cloud",
     "domain": "localplayer.dev",
-    "subdomain": "*.aethel",
+    "subdomain": "aethel",
 
     "owner": {
         "repo": "https://github.com/jusitnboggs/register",
