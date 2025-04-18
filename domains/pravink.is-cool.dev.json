@@ -1,0 +1,16 @@
+{
+    "description": "My domain for web dev",
+    "domain": "is-cool.dev",
+    "subdomain": "pravink",
+
+    "owner": {
+        "repo": "https://github.com/pravin024/register",
+        "email": "pkscienzt024@gmail.com"
+    },
+
+    "record": {
+
+    },
+
+    "proxied": false
+}
