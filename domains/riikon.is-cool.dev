@@ -1,0 +1,19 @@
+{
+    "description": "Riikon's team profile and server...",
+    "domain": "is-cool.dev",
+    "subdomain": "riikon",
+
+    "owner": {
+        "repo": "https://github.com/Riikon-Team/Riikon-team.github.io.gito",
+        "email": "riikon04@gmail.com"
+    },
+
+    "record": {
+        "NS": [
+            "galileo.aternos.org",
+            "columbus.aternos.org"
+        ]
+    },
+
+    "proxied": false
+}
