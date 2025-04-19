@@ -1,5 +1,5 @@
 {
-    "description": "This is a website to serve clients my coding, design and marketing techniques.",
+    "description": "This is a website to serve clients my coding, design, and marketing techniques.",
     "domain": "is-cool.dev",
     "subdomain": "pixillium",
     "owner": {
@@ -7,7 +7,7 @@
         "email": "hidder.outgoing779@passfwd.com"
     },
     "record": {
-        "TXT": ["v=BIMI1; l=https://pixillium.is-cool.dev/bimi.svg;"]
+        "TXT": ["v=BIMI1; l=https://pixillium.is-cool.dev/bimi.svg"]
     },
     "proxied": false
 }
