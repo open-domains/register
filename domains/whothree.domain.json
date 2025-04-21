@@ -1,0 +1,16 @@
+{
+    "description": "daily collection and practice on webgl and web motion",
+    "domain": "is-cool.dev",
+    "owner": {
+        "repo": "https://github.com/gottaegbert/recording",
+        "email": "gottaegbert@gmail.com"
+    },
+
+    "record": {
+      "CNAME": {
+         "whothreecollection.vercel.app"
+    }
+    },
+
+    "proxied": false
+}
