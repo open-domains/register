@@ -9,7 +9,7 @@
     "record": {
       "CNAME": {
          "whothreecollection.vercel.app"
-    }
+      }
     },
 
     "proxied": false
