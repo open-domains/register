@@ -9,10 +9,6 @@
     },
 
     "record": {
-        "NS": [
-            "galileo.aternos.org",
-            "columbus.aternos.org"
-        ],
         "CNAME": "riikon-team.github.io"
     },
 
