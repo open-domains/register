@@ -6,10 +6,10 @@
         "email": "aboutuste@gmail.com"
     },
     "record": {
-         "NS": [
-      "hal.ns.cloudflare.com",
-      "magali.ns.cloudflare.com"
-    ]
+        "NS": [
+            "hal.ns.cloudflare.com",
+            "magali.ns.cloudflare.com"
+        ]
     },
     "proxied": false
 }
