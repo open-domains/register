@@ -1,0 +1,16 @@
+{
+    "description": "Foundty TTRRG Dev testing and play cloud",
+    "domain": "localplayer.dev",
+    "subdomain": "aethel",
+
+    "owner": {
+        "repo": "https://github.com/jusitnboggs/register",
+        "email": "justin.boggs@yahoo.com"
+    },
+
+    "record": {
+        "A": ["47.25.159.121"]
+    },
+
+    "proxied": false
+}

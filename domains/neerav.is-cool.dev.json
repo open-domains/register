@@ -7,7 +7,9 @@
         "email": "neeravgupta07@gmail.com"
     },
     "record": {
-        "TXT": ["vc-domain-verify=neerav.is-a.dev,c15e13a6aa8319e806ec"]
+        "TXT": [
+            "vc-domain-verify=neerav.is-a.dev,c15e13a6aa8319e806ec"
+        ]
     },
     "proxied": false
 }

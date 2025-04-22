@@ -1,16 +1,12 @@
 {
-  "description": "prohodime.is-not-a.dev (migrated from old service)",
-
-  "domain": "is-not-a.dev",
-  "subdomain": "prohodime",
-
-  "owner": {
-    "email": "ruzickajakub2006@gmail.com"
-  },
-
-  "record": {
-    "CNAME": "kytkaprogramuje.github.io"
-  },
-
-  "proxied": false
+    "description": "prohodime.is-not-a.dev (migrated from old service)",
+    "domain": "is-not-a.dev",
+    "subdomain": "prohodime",
+    "owner": {
+        "email": "ruzickajakub2006@gmail.com"
+    },
+    "record": {
+        "CNAME": "kytkaprogramuje.github.io"
+    },
+    "proxied": false
 }

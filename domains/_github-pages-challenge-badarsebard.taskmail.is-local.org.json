@@ -6,7 +6,9 @@
         "email": "taskmail.foss@gmail.com"
     },
     "record": {
-        "TXT": ["efaf44d943c49060807f7ce44f322c"]
+        "TXT": [
+            "efaf44d943c49060807f7ce44f322c"
+        ]
     },
     "proxied": false
 }

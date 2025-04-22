@@ -1,16 +1,12 @@
 {
-  "description": "molai.is-not-a.dev (migrated from old service)",
-
-  "domain": "is-not-a.dev",
-  "subdomain": "molai",
-
-  "owner": {
-    "email": "mahir@molai.dev"
-  },
-
-  "record": {
-    "CNAME": "molai.dev"
-  },
-
-  "proxied": false
+    "description": "molai.is-not-a.dev (migrated from old service)",
+    "domain": "is-not-a.dev",
+    "subdomain": "molai",
+    "owner": {
+        "email": "mahir@molai.dev"
+    },
+    "record": {
+        "CNAME": "molai.dev"
+    },
+    "proxied": false
 }

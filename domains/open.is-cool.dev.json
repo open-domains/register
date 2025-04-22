@@ -5,10 +5,11 @@
     "owner": {
         "email": "epoxid@riseup.net"
     },
-
     "record": {
-        "NS": ["earl.ns.cloudflare.com","paityn.ns.cloudflare.com"]
+        "NS": [
+            "earl.ns.cloudflare.com",
+            "paityn.ns.cloudflare.com"
+        ]
     },
-
     "proxied": false
 }
