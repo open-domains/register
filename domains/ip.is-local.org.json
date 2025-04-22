@@ -5,11 +5,7 @@
         "email": "rgcoloman@gmail.com"
     },
     "record": {
-        "NS": "ns1.afraid.org",
-        "NS": "ns2.afraid.org",
-        "NS": "ns3.afraid.org",
-        "NS": "ns4.afraid.org"
-        
+        "NS": ["ns1.afraid.org", "ns2.afraid.org", "ns3.afraid.org", "ns4.afraid.org"]
     },
     "proxied": false
 }
