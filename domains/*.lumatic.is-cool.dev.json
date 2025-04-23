@@ -7,7 +7,7 @@
     "email": "lumaticgroup@gmail.com"
   },
   "record": {
-        "MX": ["lumatic.is-cool.dev", "mail.lumatic.is-cool.dev"],
+        "MX": ["lumatic.is-cool.dev", "mail.lumatic.is-cool.dev"]
   },
   "proxied": false
 }
