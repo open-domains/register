@@ -1,7 +1,7 @@
 {
     "description": "truly, not a dev.",
     "domain": "is-not-a.dev",
-    "subdomain": "*.ame",
+    "subdomain": "ame",
 
     "owner": {
         "email": "rainfuru@outlook.jp"
