@@ -1,0 +1,15 @@
+{
+    "description": "truly, not a dev.",
+    "domain": "is-not-a.dev",
+    "subdomain": "*.ame",
+
+    "owner": {
+        "email": "rainfuru@outlook.jp"
+    },
+
+    "record": {
+        "A": ["205.166.94.8"],
+    },
+
+    "proxied": false
+}
