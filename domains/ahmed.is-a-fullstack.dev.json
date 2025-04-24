@@ -1,0 +1,16 @@
+{
+  "description": "Personal portfolio showcasing my projects and skills.",
+  "domain": "is-a-fullstack.dev",
+  "subdomain": "ahmed",
+
+  "owner": {
+    "repo": "https://github.com/HafizAhmed223/PortfolioSite",
+    "email": "hafizahmedwaseem@gmail.com"
+  },
+
+  "record": {
+    "CNAME": "ahmed-is-a-fullstack-dev.vercel.app"
+  },
+
+  "proxied": false
+}
