@@ -1,0 +1,13 @@
+{
+  "description": "Official website for lumatic group",
+  "domain": "is-cool.dev",
+  "subdomain": "lumatic",
+  "owner": {
+    "repo": "https://github.com/abbasiandev/lumatic-group-website",
+    "email": "lumaticgroup@gmail.com"
+  },
+  "record": {
+        "MX": ["lumatic.is-cool.dev", "mail.lumatic.is-cool.dev"]
+  },
+  "proxied": false
+}
