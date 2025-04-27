@@ -14,7 +14,7 @@
           "185.199.111.153"
         ],
         "MX": ["lumatic.is-cool.dev", "mail.lumatic.is-cool.dev"],
-        "TXT": ["zoho-verification=zb58291057.zmverify.zoho.eu"],
+        "TXT": ["zoho-verification=zb58291057.zmverify.zoho.eu"]
   },
   "proxied": false
 }
