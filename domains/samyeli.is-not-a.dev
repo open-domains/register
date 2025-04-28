@@ -1,0 +1,19 @@
+{
+    "description": "Static Calculator",
+    "domain": "is-not-a.dev",
+    "subdomain": "samyeli",
+
+    "owner": {
+        "repo": "https://github.com/samyeliph/samyeliCAL",
+        "email": "tinahuangxph@gmail.com"
+    },
+
+    "record": {
+        "A": ["185.199.108.153",
+            "185.199.109.153",
+            "185.199.110.153",
+            "185.199.111.153"],
+    },
+
+    "proxied": false
+}
