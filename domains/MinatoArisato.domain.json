@@ -1,0 +1,28 @@
+{
+    "description": "Project Description",
+    "domain": ".is-cool.dev",
+    "subdomain": "MinatoArisato",
+
+    "owner": {
+        "repo": "https://github.com/hanifnau0912/register",
+        "email": "vvtuberx@gmail.com"
+    },
+
+    "record": {
+        "A": ["8.8.8.8", "8.8.4.4"],
+        "AAAA": ["::1", "::2"],
+        "CNAME": "gv-mfm3pkcwvyzdi3.dv.googlehosted.com",
+        "MX": ["mx1.smtp.google.com", "mx2.smtp.google.com"],
+        "TXT": ["google-site-verification=15-tfRzfhcRGJrj96iFQMsx-uYDU_nDAKXku_8UD7bE"],
+        "CAA": [
+            { "flags": 0, "tag": "issue", "value": "letsencrypt.org" },
+            { "flags": 0, "tag": "issuewild", "value": "sectigo.com" }
+        ],
+        "SRV": [
+            { "priority": 10, "weight": 60, "port": 5060, "target": "sipserver.example.com" },
+            { "priority": 20, "weight": 10, "port": 5061, "target": "sipbackup.example.com" }
+        ]
+    },
+
+    "proxied": false
+}
