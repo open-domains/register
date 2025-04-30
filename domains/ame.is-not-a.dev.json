@@ -9,9 +9,7 @@
     },
 
     "record": {
-        "CNAME": [
-            "amedott.github.io"
-        ]
+        "CNAME": "amedott.github.io"
     },
 
     "proxied": false
