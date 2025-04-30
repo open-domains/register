@@ -4,13 +4,17 @@
     "subdomain": "ame",
 
     "owner": {
+        "repo": "https://github.com/amedott/amedott.github.io"
         "email": "rainfuru@outlook.jp"
     },
 
     "record": {
         "A": [
-            "205.166.94.5"
-        ]
+            "185.199.108.153",
+            "185.199.109.153",
+            "185.199.110.153",
+            "185.199.11.153"
+        ],
     },
 
     "proxied": false
