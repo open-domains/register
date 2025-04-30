@@ -1,0 +1,14 @@
+{
+    "description": "Site with games, apps and webtools",
+    "domain": "localplayer.dev",
+    "subdomain": "milkyway",
+    "owner": {
+        "email": "voxel0@disroot.org"
+    },
+    "record": {
+        "CNAME": [
+            "milkymirror.github.io"
+        ]
+    },
+    "proxied": false
+}
