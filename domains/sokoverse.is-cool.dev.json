@@ -1,0 +1,14 @@
+
+{
+    "description": "Sokoverse is a modern take on the classic Sokoban puzzle game, featuring procedural level generation and multiple game modes. The game is built using Next.js, TypeScript, and Tailwind CSS.",
+    "domain": "is-cool.dev",
+    "subdomain": "sokoverse",
+    "owner": {
+        "repo": "https://github.com/Fexxix/sokoverse",
+        "email": "fexxix@gmail.com"
+    },
+    "record": {
+        "CNAME": "sokoverse-gamma.vercel.app"
+    },
+    "proxied": false
+}
