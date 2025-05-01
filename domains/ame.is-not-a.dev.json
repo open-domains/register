@@ -3,7 +3,7 @@
     "domain": "is-not-a.dev",
     "subdomain": "ame",
     "owner": {
-        "repo": "https://github.com/amedott/amedott.github.io",
+        "repo": "https://github.com/amedott/amedott.github.io"
     },
     "record": {
         "CNAME": "amedott.github.io"
