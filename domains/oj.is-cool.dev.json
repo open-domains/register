@@ -1,0 +1,13 @@
+{
+    "description": "ETOJ website",
+    "domain": "is-cool.dev",
+    "subdomain": "oj",
+    "owner": {
+        "repo": "https://github.com/Eternity-Sky/register",
+        "email": "tengyumo666@hotmail.com"
+    },
+    "record": {
+        "CNAME": "etoj.xyz"
+    },
+    "proxied": true
+}
