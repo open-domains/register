@@ -2,16 +2,11 @@
     "description": "truly, not a dev.",
     "domain": "is-not-a.dev",
     "subdomain": "ame",
-
     "owner": {
-        "email": "rainfuru@outlook.jp"
+        "repo": "https://github.com/amedott/amedott.github.io"
     },
-
     "record": {
-        "A": [
-            "205.166.94.5"
-        ]
+        "CNAME": "amedott.github.io"
     },
-
-    "proxied": false
-} 
+    "proxied": false   
+}
