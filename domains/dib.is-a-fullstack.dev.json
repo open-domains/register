@@ -1,0 +1,15 @@
+{
+    "description": "DIBSTER",
+    "domain": "is-a-fullstack.dev",
+    "subdomain": "dib",
+
+    "owner": {
+        "email": "dibster@danbot.host"
+    },
+
+    "record": {
+        "CNAME": "dibster.dev"
+    },
+
+    "proxied": false
+}
