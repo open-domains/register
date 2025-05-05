@@ -1,5 +1,5 @@
 {
-  "description": "miti99's homepage",
+  "description": "miti99",
   "domain": "is-cool.dev",
   "subdomain": "miti99",
 
@@ -9,7 +9,7 @@
   },
 
   "record": {
-      "CNAME": "miti99.pages.dev"
+      "CNAME": "miti99.eu.org"
   },
 
   "proxied": false
