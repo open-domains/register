@@ -1,0 +1,16 @@
+{
+    "description": "The hub for my websites",
+    "domain": "is-local.org",
+    "subdomain": "cp3",
+
+    "owner": {
+        "repo": "https://github.com/ChristianPenguin3/christianpenguin3.github.io",
+        "email": "owenburdin13@gmail.com"
+    },
+
+    "record": {
+        "CNAME": "christianpenguin3.github.io",
+    },
+
+    "proxied": true
+}
