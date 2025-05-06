@@ -1,0 +1,16 @@
+{
+    "description": "PeteZah Games",
+    "domain": "is-not-a.dev",
+    "subdomain": "sigmapizza",
+
+    "owner": {
+        "repo": "https://github.com/petezahv4/PeteZahGames",
+        "email": "contact@petezahgames.com"
+    },
+
+    "record": {
+        "A": ["62.72.3.251"],
+    },
+
+    "proxied": false
+}
