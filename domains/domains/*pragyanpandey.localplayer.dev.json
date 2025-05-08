@@ -1,0 +1,13 @@
+{
+    "description": "Pragyan Pandey is a passionate developer from India.",
+    "domain": "localplayer.dev",
+    "subdomain": "pragyanpandey",
+    "owner": {
+        "repo": "https://github.com/pragyanpandey3006/pragyan",
+        "email": "pragyanpandey8431@outlook.com"
+    },
+    "record": {
+        "CNAME": "pragyanpandey.vercel.app"
+    },
+    "proxied": false
+}
