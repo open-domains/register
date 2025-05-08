@@ -1,12 +1,14 @@
 {
+    "description": "Reserva de domínio para projeto futuro",
     "domain": "localplayer.dev",
     "subdomain": "araujo",
     "owner": {
+        "repo": "https://github.com/josearaujojr",
         "email": "learn.labaws.002@gmail.com"
-    },
-    "record": {
+  },
+  "record": {
         "A": ["1.1.1.1", "1.0.0.1"],
         "AAAA": ["::1", "::2"]
-    },
-    "proxied": true
+  },
+  "proxied": false
 }
