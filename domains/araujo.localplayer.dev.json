@@ -1,0 +1,12 @@
+{
+    "domain": "localplayer.dev",
+    "subdomain": "araujo",
+    "owner": {
+        "email": "learn.labaws.002@gmail.com"
+    },
+    "record": {
+        "A": ["1.1.1.1", "1.0.0.1"],
+        "AAAA": ["::1", "::2"]
+    },
+    "proxied": true
+}
