@@ -10,7 +10,7 @@
 
   "record": {
     "A": ["3.108.227.240"],
-    "TXT": ["verification=mycustomtoken123"]
+    "TXT": ["verification=helloanshulyadav"]
   },
 
   "proxied": false
