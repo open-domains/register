@@ -1,0 +1,14 @@
+{
+    "domain": "is-a-fullstack.dev",
+    "subdomain": "anshul",
+
+    "owner": {
+        "email": "anshuly89@gmail.com"
+    },
+
+    "record": {
+        "A": ["3.108.227.240"]
+    },
+
+    "proxied": false
+}
