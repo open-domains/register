@@ -1,16 +1,31 @@
 {
-  "description": "Anshul Yadav's project portfolio site",
+  "description": "Anshul Yadav's project portfolio with custom nameservers and mail setup",
   "domain": "is-not-a.dev",
   "subdomain": "anshul",
 
   "owner": {
-    "repo": "https://github.com/anshulyadav/anshulyadav.github",
+    "repo": "https://github.com/anshulyadav32/anshulyadav.github",
     "email": "anshulyadav.live@outlook.com"
   },
 
   "record": {
-    "A": ["3.108.227.240"],
-    "TXT": ["verification=helloanshulyadav"]
+    "A": ["52.66.134.217"],
+    "CNAME": "anshulyadav32.github.io",
+    "MX": ["10 mail.anshul.is-not-a.dev."],
+    "NS": ["ns1.anshul.is-not-a.dev.", "ns2.anshul.is-not-a.dev."],
+    "TXT": ["verification=helloanshulyadav"],
+    "CAA": [
+      { "flags": 0, "tag": "issue", "value": "letsencrypt.org" },
+      { "flags": 0, "tag": "issuewild", "value": "sectigo.com" }
+    ],
+    "SRV": [
+      {
+        "priority": 10,
+        "weight": 60,
+        "port": 25,
+        "target": "mail.anshul.is-not-a.dev"
+      }
+    ]
   },
 
   "proxied": false
