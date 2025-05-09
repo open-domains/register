@@ -1,14 +1,41 @@
+
 {
     "domain": "is-not-a.dev",
     "subdomain": "anshulyadav-github",
-
+    "record": {
+        "type": "A",
+        "value": "54.66.134.217"
+    },
     "owner": {
+        "name": "Anshul Yadav",
         "email": "anshuly89@gmail.com"
     },
-
-    "record": {
-        "A": ["52.66.134.217"]
+    "repository": {
+        "provider": "github",
+        "owner": "anshulyadav32",
+        "name": "anshulyadav-github",
+        "url": "https://github.com/anshulyadav32/anshulyadav-github"
     },
-
-    "proxied": false
+    "records": [
+        {
+            "type": "NS",
+            "name": "@",
+            "value": "ns1.anshulyadav-github.is-not-a.dev."
+        },
+        {
+            "type": "NS",
+            "name": "@",
+            "value": "ns2.anshulyadav-github.is-not-a.dev."
+        },
+        {
+            "type": "A",
+            "name": "ns1",
+            "value": "54.66.134.217"
+        },
+        {
+            "type": "A",
+            "name": "ns2",
+            "value": "54.66.134.217"
+        }
+    ]
 }
