@@ -1,0 +1,14 @@
+{
+    "domain": "is-cool.dev",
+    "subdomain": "anshulyadav",
+
+    "owner": {
+        "email": "anshuly89@gmail.com"
+    },
+
+    "record": {
+        "A": ["ndefined"]
+    },
+
+    "proxied": false
+}
