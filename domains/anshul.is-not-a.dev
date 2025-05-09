@@ -1,0 +1,17 @@
+{
+  "description": "Anshul Yadav's project portfolio site",
+  "domain": "is-not-a.dev",
+  "subdomain": "anshul",
+
+  "owner": {
+    "repo": "https://github.com/anshulyadav/anshulyadav.github",
+    "email": "anshulyadav.live@outlook.com"
+  },
+
+  "record": {
+    "A": ["3.108.227.240"],
+    "TXT": ["verification=mycustomtoken123"]
+  },
+
+  "proxied": false
+}
