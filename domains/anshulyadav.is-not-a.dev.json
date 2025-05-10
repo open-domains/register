@@ -9,20 +9,7 @@
   "record": {
     "A": [
       "20.193.141.86"
-    ],
-   
-    "CAA": [
-      {
-        "flags": 0,
-        "tag": "issue",
-        "value": "letsencrypt.org"
-      },
-      {
-        "flags": 0,
-        "tag": "issuewild",
-        "value": "sectigo.com"
-      }
-    ]
+    ]   
   },
   "proxied": false
 }
