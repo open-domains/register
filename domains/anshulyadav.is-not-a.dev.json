@@ -1,19 +1,28 @@
 {
-    "description": "truly, not a dev.",
+    "description": "Custom nameservers for anshulyadav.is-not-a.dev (Plesk-managed)",
     "domain": "is-not-a.dev",
     "subdomain": "anshulyadav",
+  
     "owner": {
-        "repo": "https://github.com/anshulyadav3232/anshulyadav-github"
+      "repo": "https://github.com/anshulyadav32/anshulyadav-github",
+      "email": "anshuly89@gmail.com"
     },
+  
     "record": {
-        "A": {
-            "ns1": "3.108.227.240",
-            "ns2": "3.108.227.241"
-        },
-        "NS": {
-            "ns1": "ns1.anshulyadav.is-not-a.dev",
-            "ns2": "ns2.anshulyadav.is-not-a.dev"
-        }
+      "NS": [
+        "ns1.anshulyadav.is-not-a.dev",
+        "ns2.anshulyadav.is-not-a.dev"
+      ]
     },
-    "proxied": false   
-}
+  
+    "alias": {
+      "ns1": {
+        "A": ["20.193.141.86"]
+      },
+      "ns2": {
+        "A": ["20.193.141.86"]
+      }
+    },
+  
+    "proxied": false
+  }
