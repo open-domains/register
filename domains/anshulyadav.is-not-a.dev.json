@@ -1,0 +1,15 @@
+{
+  "description": "DNS configuration for anshulyadav.is-not-a.dev",
+  "domain": "is-not-a.dev",
+  "subdomain": "anshulyadav",
+  "owner": {
+    "repo": "https://github.com/anshulyadav32/anshulyadav-github",
+    "email": "anshuly89@gmail.com"
+  },
+  "record": {
+    "A": [
+      "20.193.141.86"
+    ]   
+  },
+  "proxied": false
+}
