@@ -9,7 +9,8 @@
     },
 
     "record": {
-        "CNAME": "cname.vercel-dns.com"
+        "CNAME": "ctrlshiftcoders.github.io",
+        "TXT": ["google-site-verification=U-hcauukB_Cc_6ViMGIZxmJzUPXqw7BmIphTT3PXZNk"]
     },
 
     "proxied": false
