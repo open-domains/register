@@ -1,0 +1,54 @@
+{
+  "description": "Full DNS config for anshulyadav.is-not-a.dev (excluding NS records)",
+  "domain": "is-not-a.dev",
+  "subdomain": "anshulyadav",
+
+  "owner": {
+    "repo": "https://github.com/anshulyadav32/anshulyadav-github",
+    "email": "anshuly89@gmail.com"
+  },
+
+  "record": {
+    "A": [
+      "20.193.141.86"
+    ],
+    "MX": [
+      {
+        "priority": 10,
+        "value": "mail.anshulyadav.is-not-a.dev"
+      }
+    ],
+    "TXT": [
+      "v=spf1 +a +mx +a:hardcore-cerf.20-193-141-86.plesk.page -all",
+      "v=DMARC1; p=quarantine; adkim=s; aspf=s"
+    ],
+    "CNAME": {
+      "www": "anshulyadav.is-not-a.dev",
+      "ftp": "anshulyadav.is-not-a.dev"
+    },
+    "SRV": {
+      "_imaps._tcp": "anshulyadav.is-not-a.dev",
+      "_pop3s._tcp": "anshulyadav.is-not-a.dev",
+      "_smtps._tcp": "anshulyadav.is-not-a.dev"
+    }
+  },
+
+  "alias": {
+    "mail": {
+      "A": ["20.193.141.86"]
+    },
+    "webmail": {
+      "A": ["20.193.141.86"]
+    },
+    "ipv4": {
+      "A": ["20.193.141.86"]
+    }
+  },
+
+  "dkim": {
+    "default._domainkey": "v=DKIM1; p=MIIBIjANBgkqhkiG9w0BAQEFAAOCAQ8AMIIBCgKCAQEA1smIARtwV4iDEzlEKseCBz8i9EcAGZcJ9SSPsHV9jxXeemS76vQ0+snQ+y3ggQSodMuraL2gOINWGETi3SRf/B9HgO6uYfaN/68qFpmgW2o/oodh22TJO3XSz/zVJzgSxKomkOGs/LfsT0wjxo521ULCsAcePr/ATSoB/GLIWnYY++JhAJg4MCV+ZtojKTWS+Lxpepj9df1/yd0IEoqiupWgYyQ9/DymrMMRvSXorv/QBZiqMlx6Ex+n+dp5Fm160Go7aSUDrmaETzPe7YxR6NFCxIhbrUYwaq5/vfJ+YdGuGqvvZ8x0gA7227jxWTtaCEepl5EWXKbTXr60vjQaDwIDAQAB;",
+    "_domainkey": "o=-"
+  },
+
+  "proxied": false
+}
