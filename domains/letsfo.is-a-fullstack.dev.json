@@ -1,0 +1,11 @@
+{
+    "domain": "is-a-fullstack.dev",
+    "subdomain": "letsfo",
+    "owner": {
+    "discord": ".zenthh"
+    },
+    "record": {
+        "CNAME": "letsfo.github.io"
+    },
+    "proxied": false
+}

@@ -1,0 +1,13 @@
+{
+    "domain": "is-a-fullstack.dev",
+    "subdomain": "letsfo",
+    "owner": {
+        "discord": ".zenthh"
+    },
+    "record": {
+        "TXT": [
+            "89a988316c151da055b108c9567395"
+        ]
+    },
+    "proxied": false
+}
