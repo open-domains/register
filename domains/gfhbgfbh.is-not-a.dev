@@ -7,7 +7,9 @@
         "email": "amir.khazaee@optiop.org"
     },
     "record": {
-        "A": "95.217.160.242"
+        "A": [
+            "95.217.160.242"
+        ]
     },
     "proxied": false
 }
