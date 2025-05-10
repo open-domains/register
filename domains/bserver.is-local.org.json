@@ -7,7 +7,7 @@
         "email": "tiagoboh10@gmail.com"
     },
     "record": {
-        "CNAME": "bserver.io"
+        "CNAME": ["bserver.io", "www.bserver.io", "www.bserver.is-local.org"]
     },
     "proxied": false
 }
