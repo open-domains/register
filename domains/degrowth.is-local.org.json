@@ -1,0 +1,19 @@
+{
+    "description": "Degrowth Nextcloud project",
+    "domain": "is-local.org",
+    "subdomain": "degrowth",
+
+    "owner": {
+        "repo": "https://github.com/username/sjgasca77",
+        "email": "sjgasca@gmail.com"
+    },
+
+    "record": {
+        "A": ["157.180.20.0"],
+        "CAA": [
+            { "flags": 0, "tag": "issue", "value": "letsencrypt.org" }  
+        ]
+    },
+
+    "proxied": false
+}
