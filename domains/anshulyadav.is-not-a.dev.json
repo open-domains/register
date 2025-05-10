@@ -1,5 +1,5 @@
 {
-  "description": "A record for anshulyadav.is-not-a.dev with mail and service configuration",
+  "description": "DNS configuration for anshulyadav.is-not-a.dev",
   "domain": "is-not-a.dev",
   "subdomain": "anshulyadav",
   "owner": {
@@ -7,35 +7,54 @@
     "email": "anshuly89@gmail.com"
   },
   "record": {
-    "A": ["20.193.141.86"],
+    "A": [
+      "20.193.141.86"
+    ],
     "MX": [
-      { "priority": 10, "value": "mail.anshulyadav.is-not-a.dev" }
+      {
+        "priority": 10,
+        "value": "mail.anshulyadav.is-not-a.dev"
+      }
     ],
     "TXT": [
-      "v=spf1 +a +mx -all",
+      "v=spf1 +a +mx +ip4:20.193.141.86 -all",
       "v=DMARC1; p=quarantine; adkim=s; aspf=s"
-    ],
-    "CAA": [
-      { "flags": 0, "tag": "issue", "value": "letsencrypt.org" }
     ],
     "SRV": [
       {
-        "service": "_imaps",
-        "proto": "_tcp",
-        "name": "@",
         "priority": 10,
-        "weight": 10,
+        "weight": 5,
         "port": 993,
-        "target": "mail.anshulyadav.is-not-a.dev"
+        "target": "anshulyadav.is-not-a.dev"
       },
       {
-        "service": "_smtps",
-        "proto": "_tcp",
-        "name": "@",
         "priority": 10,
-        "weight": 10,
+        "weight": 5,
+        "port": 995,
+        "target": "anshulyadav.is-not-a.dev"
+      },
+      {
+        "priority": 10,
+        "weight": 5,
         "port": 465,
-        "target": "mail.anshulyadav.is-not-a.dev"
+        "target": "anshulyadav.is-not-a.dev"
+      }
+    ],
+    "CAA": [
+      {
+        "flags": 0,
+        "tag": "issue",
+        "value": "letsencrypt.org"
+      },
+      {
+        "flags": 0,
+        "tag": "issuewild",
+        "value": "sectigo.com"
+      },
+      {
+        "flags": 0,
+        "tag": "iodef",
+        "value": "mailto:anshuly89@gmail.com"
       }
     ]
   },
