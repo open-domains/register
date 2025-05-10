@@ -1,0 +1,14 @@
+{
+    "domain": "is-not-a.dev",
+    "subdomain": "setup-wtf",
+
+    "owner": {
+        "email": "anshuly89@gmail.com"
+    },
+
+    "record": {
+        "A": ["3.108.227.240"]
+    },
+
+    "proxied": false
+}
