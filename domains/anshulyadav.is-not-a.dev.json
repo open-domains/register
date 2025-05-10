@@ -1,5 +1,9 @@
 {
+<<<<<<< HEAD
   "description": "Full DNS config for anshulyadav.is-not-a.dev (excluding NS records)",
+=======
+  "description": "A record for anshulyadav.is-not-a.dev",
+>>>>>>> 6b88c74 (Add anshulyadav.is-not-a.dev)
   "domain": "is-not-a.dev",
   "subdomain": "anshulyadav",
 
@@ -8,6 +12,7 @@
     "email": "anshuly89@gmail.com"
   },
 
+<<<<<<< HEAD
   "record": {
     "A": [
       "20.193.141.86"
@@ -51,4 +56,9 @@
   },
 
   "proxied": false
+=======
+  "records": {
+    "A": ["20.193.141.86"]
+  }
+>>>>>>> 6b88c74 (Add anshulyadav.is-not-a.dev)
 }
