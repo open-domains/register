@@ -1,0 +1,28 @@
+{
+  "description": "Custom nameservers for anshulyadav.is-cool.dev (Plesk-managed)",
+  "domain": "is-cool.dev",
+  "subdomain": "anshulyadav",
+
+  "owner": {
+    "repo": "https://github.com/anshulyadav32/anshulyadav-github",
+    "email": "anshuly89@gmail.com"
+  },
+
+  "record": {
+    "NS": [
+      "ns1.anshulyadav.is-cool.dev",
+      "ns2.anshulyadav.is-cool.dev"
+    ]
+  },
+
+  "alias": {
+    "ns1": {
+      "A": ["20.193.141.86"]
+    },
+    "ns2": {
+      "A": ["20.193.141.86"]
+    }
+  },
+
+  "proxied": false
+}
