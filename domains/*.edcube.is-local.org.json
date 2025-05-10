@@ -1,0 +1,16 @@
+{
+    "description": "I will use the wildcard subdomain to make many links to my EdCube gaming website.",
+    "domain": "is-local.org",
+    "subdomain": "*.edcube",
+
+    "owner": {
+        "repo": "https://github.com/NN-Coder/EdCube-STABLE",
+        "email": "neilnabar7@gmail.com"
+    },
+
+    "record": {
+        "A": ["152.53.81.196"],
+    },
+
+    "proxied": false
+}
