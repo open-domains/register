@@ -1,0 +1,19 @@
+{
+    "description": "A domain for the BBM Trio's Minecraft Server",
+    "domain": "is-cool.dev",
+    "subdomain": "bbmtrio",
+
+    "owner": {
+        "repo": "https://github.com/29bburkle/register",
+        "email": "29bburkle@gmail.com"
+    },
+
+    "record": {
+        "A": ["98.10.96.47"],
+        "SRV": ["_minecraft._tcp.bbmtrio"],
+            { "priority": 0, "weight": 0, "port": 25565, "target": "bbmtrio.is-cool.dev" },
+        ]
+    },
+
+    "proxied": false
+}
