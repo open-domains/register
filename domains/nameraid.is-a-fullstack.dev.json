@@ -1,0 +1,11 @@
+{
+    "domain": "is-a-fullstack.dev",
+    "subdomain": "nameraid",
+    "owner": {
+        "email": "nameraid@protonmail.com"
+    },
+    "record": {
+        "CNAME":"https://n3mr1d.vercel.app"
+    },
+    "proxied": false
+}
