@@ -1,0 +1,16 @@
+{
+    "description": "YAC Homepage",
+    "domain": "is-local.org",
+    "subdomain": "yac",
+
+    "owner": {
+        "repo": "https://github.com/lverx/opendomains-register",
+        "email": "profoundlvr@gmail.com"
+    },
+
+    "record": {
+        "CNAME": "yac-hp.glitch.me"
+    },
+
+    "proxied": false
+}
