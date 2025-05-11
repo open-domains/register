@@ -4,13 +4,13 @@
     "subdomain": "yac",
 
     "owner": {
-        "repo": "https://github.com/lverx/opendomains-register",
+        "repo": "https://github.com/lverx/lverx.github.io",
         "email": "profoundlvr@gmail.com"
     },
 
     "record": {
-        "CNAME": "yac-hp.glitch.me"
+        "CNAME": "lverx.github.io"
     },
 
-    "proxied": false
+    "proxied": true
 }
