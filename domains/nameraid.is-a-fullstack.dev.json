@@ -1,7 +1,9 @@
 {
+    "description": "portofolio",
     "domain": "is-a-fullstack.dev",
     "subdomain": "nameraid",
     "owner": {
+        "repo":"https://github.com/n3mr1d/register",
         "email": "nameraid@protonmail.com"
     },
     "record": {
