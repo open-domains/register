@@ -5,7 +5,7 @@
         "email": "nameraid@protonmail.com"
     },
     "record": {
-        "CNAME":"https://n3mr1d.vercel.app"
+        "CNAME":"n3mr1d.vercel.app"
     },
     "proxied": false
 }
