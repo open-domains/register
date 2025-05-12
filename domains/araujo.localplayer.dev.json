@@ -1,0 +1,13 @@
+{
+  "description": "Domínio para projeto pessoal em construção",
+  "domain": "localplayer.dev",
+  "subdomain": "araujo",
+  "owner": {
+    "repo": "https://github.com/josearaujojr/josearaujojr.github.io",
+    "email": "learn.labaws.002@gmail.com"
+  },
+  "record": {
+    "A": ["185.199.110.153"]
+  },
+  "proxied": false
+}
