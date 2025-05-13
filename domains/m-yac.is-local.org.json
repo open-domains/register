@@ -1,7 +1,7 @@
 {
     "description": "YAC Email",
     "domain": "is-local.org",
-    "subdomain": "m.yac",
+    "subdomain": "m-yac",
 
     "owner": {
         "repo": "https://github.com/lverx/lverx.github.io",
