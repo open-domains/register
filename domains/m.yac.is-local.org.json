@@ -1,7 +1,7 @@
 {
     "description": "YAC Email",
     "domain": "is-local.org",
-    "subdomain": "yac",
+    "subdomain": "m.yac",
 
     "owner": {
         "repo": "https://github.com/lverx/lverx.github.io",
@@ -9,7 +9,7 @@
     },
 
     "record": {
-        "MX": ["mx1.improvmx.com.", "mx2.improvmx.com."],
+        "MX": ["mx1.improvmx.com", "mx2.improvmx.com"],
         "TXT": "v=spf1 include:spf.improvmx.com ~all"
     },
 
