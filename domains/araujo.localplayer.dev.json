@@ -7,7 +7,7 @@
     "email": "learn.labaws.002@gmail.com"
   },
   "record": {
-    "A": ["54.211.88.95"]
+    "CNAME": "app-655977236.us-east-1.elb.amazonaws.com"
   },
   "proxied": false
 }
