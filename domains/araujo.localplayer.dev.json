@@ -7,7 +7,7 @@
     "email": "learn.labaws.002@gmail.com"
   },
   "record": {
-    "CNAME": "josearaujojr.github.io"
+    "A": ["54.211.88.95"]
   },
   "proxied": false
 }
