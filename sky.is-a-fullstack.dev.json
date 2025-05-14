@@ -1,0 +1,16 @@
+{
+    "description": "My Landing Page",
+    "domain": "is-a-fullstack.dev",
+    "subdomain": "sky",
+
+    "owner": {
+        "repo": "https://github.com/Lverz/sky",
+        "email": "sky@lverx.xyz"
+    },
+
+    "record": {
+        "CNAME": "sky-6fq.pages.dev"
+    },
+
+    "proxied": true
+}
