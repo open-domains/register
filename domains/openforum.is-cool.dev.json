@@ -1,0 +1,19 @@
+{
+    "description": "Open source forum template built with nextjs",
+    "domain": "is-cool.dev",
+    "subdomain": "openforum",
+
+    "owner": {
+        "repo": "https://github.com/mercho40/openforum",
+        "email": "info@pedilo.tech"
+    },
+
+    "record": {
+        "NS": [
+            "aliza.ns.cloudflare.com",
+            "yoxall.ns.cloudflare.com"
+        ]
+    },
+
+    "proxied": false
+}
