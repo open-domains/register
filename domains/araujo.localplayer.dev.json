@@ -9,12 +9,5 @@
   "record": {
     "CNAME": "app-655977236.us-east-1.elb.amazonaws.com"
   },
-  "additionalRecords": [
-    {
-      "type": "CNAME",
-      "host": "_3c866ddf2ca217430960202fd2e7d2d4.validate",
-      "value": "_cbb44af36e1005e6fbb822a9d0246582.xlfgrmvvlj.acm-validations.aws."
-    }
-  ],
   "proxied": false
 }
