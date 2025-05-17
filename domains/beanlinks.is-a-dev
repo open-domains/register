@@ -1,0 +1,1 @@
+{ "description": "My personal collection of useful links.", "domain": "is-a.dev", "subdomain": "beanlinks", "owner": { "repo": "github.com/MYNAMEINBEAN/bio", "email": "beanbosssssssss@gmail.com" }, "record": { "CNAME": "mynameinbean.github.io/bio/" }, "proxied": false }
