@@ -1,0 +1,15 @@
+{
+  "description": "Funny websitez",
+  "domain": "is-not-a.dev",
+  "subdomain": "skibidirizzler",
+  "owner": {
+    "github": "DodgeTheDarins"
+  },
+  "record": {
+    "A": null,
+    "AAAA": null,
+    "CNAME": "76e9bc10-87d5-49b9-a7ff-2fdece58f18e.cfargotunnel.com",
+    "TXT": [],
+    "MX": []
+  }
+}
