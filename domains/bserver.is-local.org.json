@@ -7,7 +7,11 @@
         "email": "tiagoboh10@gmail.com"
     },
     "record": {
-        "CNAME": "bserver.io"
+        "A": ["100.124.85.91"],
+        "CNAME": "www.bserver.is-local.org",
+        "CAA": [
+            { "flags": 0, "tag": "issue", "value": "letsencrypt.org" }
+        ]
     },
     "proxied": false
 }
