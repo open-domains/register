@@ -1,0 +1,12 @@
+{
+    "description": "The hub for the rest of my websites",
+    "domain": "is-local.org",
+    "subdomain": "cp3",
+    "owner": {
+        "email": "christianpenguin3@gmail.com"
+    },
+    "record": {
+        "CNAME": "website-christianpenguin3-hub.pages.dev"
+    },
+    "proxied": false
+}
