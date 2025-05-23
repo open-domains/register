@@ -1,0 +1,13 @@
+{
+    "description": "Aleph's Website: A bunch of Flash and stuff.",
+    "domain": "is-not-a.dev",
+    "subdomain": "dingus",
+    "owner": {
+        "repo": "https://github.com/GuacamoleApps/dingus",
+        "email": "barstaxjolster@gmail.com"
+    },
+    "record": {
+        "CNAME": "guacamoleapps.github.com"
+    },
+    "proxied": false
+}
