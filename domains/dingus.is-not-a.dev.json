@@ -1,0 +1,13 @@
+{
+    "description": "A small social media website!",
+    "domain": "is-not-a.dev",
+    "subdomain": "dingus",
+    "owner": {
+        "repo": "https://codeberg.org/dingus-guacapp/pages",
+        "email": "barstaxjolster@gmail.com"
+    },
+    "record": {
+        "CNAME": "dingus-guacapp.codeberg.page"
+    },
+    "proxied": false
+}
