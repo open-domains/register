@@ -1,13 +1,13 @@
 {
-    "description": "Aleph's Website: A bunch of Flash and stuff.",
+    "description": "A small social media website!",
     "domain": "is-not-a.dev",
     "subdomain": "dingus",
     "owner": {
-        "repo": "https://github.com/GuacamoleApps/dingus",
+        "repo": "https://codeberg.org/dingus-guacapp/pages",
         "email": "barstaxjolster@gmail.com"
     },
     "record": {
-        "CNAME": "guacamoleapps.github.com"
+        "CNAME": "dingus-guacapp.codeberg.page"
     },
     "proxied": false
 }
