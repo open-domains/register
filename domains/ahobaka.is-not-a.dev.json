@@ -1,0 +1,16 @@
+{
+    "description": "Portfolio",
+    "domain": "is-not-a.dev",
+    "subdomain": "ahobaka",
+
+    "owner": {
+        "repo": "https://github.com/baka-aho/baka-aho.github.io",
+        "email": "dev.aho.emi@gmail.com"
+    },
+
+    "record": {
+        "CNAME": "baka-aho.github.io"
+    },
+
+    "proxied": false
+}
