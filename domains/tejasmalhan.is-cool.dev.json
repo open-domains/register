@@ -1,0 +1,16 @@
+{
+  "description": "Personal website for Tejas Malhan (Netlify hosted)",
+  "domain": "is-cool.dev",
+  "subdomain": "tejasmalhan",
+
+  "owner": {
+    "repo": "https://github.com/Tejas-Malhan/Tejas-Malhan",
+    "email": "tejasmalhan@gmail.com"
+  },
+
+  "record": {
+    "CNAME": "tejasmalhan.netlify.app"
+  },
+
+  "proxied": false
+}
