@@ -7,7 +7,7 @@
         "email": "qwertymail@duck.com"
     },
     "record": {
-        "CNAME": "https://smit4k.github.io/engineeringclub-website/",
+        "CNAME": "smit4k.github.io/engineeringclub-website/",
     },
     "proxied": false
 }
