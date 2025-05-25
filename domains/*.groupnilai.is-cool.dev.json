@@ -1,0 +1,17 @@
+{
+    "description": "Wildcard for my NGINX Proxy Manager",
+    "domain": "is-cool.dev",
+    "subdomain": "*.groupnilai",
+    "owner": {
+        "repo": "https://github.com/groupnilyt/ai",
+        "email": "starrgrinder@gmail.com"
+    },
+    "record": {
+        "CNAME": [
+            "groupnilyt.github.io"
+        ]
+      "CNAME": [
+        "groupnilyt.github.io"
+    },
+    "proxied": false
+}
