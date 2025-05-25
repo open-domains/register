@@ -1,0 +1,13 @@
+{
+    "description": "Website for a school club",
+    "domain": "is-local.org",
+    "subdomain": "noviengineering",
+    "owner": {
+        "repo": "https://github.com/smit4k/engineeringclub-website",
+        "email": "qwertymail@duck.com"
+    },
+    "record": {
+        "CNAME": "https://smit4k.github.io/engineeringclub-website/",
+    },
+    "proxied": false
+}
