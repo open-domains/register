@@ -8,7 +8,7 @@
     },
 
     "record": {
-        "A": ["77.221.138.189"],
+        "A": ["75.2.60.5"],
         "MX": ["emx.mail.ru"],
         "TXT": ["mailru-domain: 4PC3NOTPepNtpFmW", "yandex-verification: 25b9c36e4c98b148", " v=spf1 redirect=_spf.mail.ru"]
     },
