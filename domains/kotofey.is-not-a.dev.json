@@ -9,7 +9,6 @@
 
     "record": {
         "A": ["75.2.60.5"],
-        "CNAME": "apex-loadbalancer.netlify.com",
         "MX": ["emx.mail.ru"],
         "TXT": ["mailru-domain: 4PC3NOTPepNtpFmW", "yandex-verification: 25b9c36e4c98b148", " v=spf1 redirect=_spf.mail.ru"]
     },
