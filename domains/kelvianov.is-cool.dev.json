@@ -1,0 +1,14 @@
+{
+    "domain": "is-cool.dev",
+    "subdomain": "kelvianov",
+
+    "owner": {
+        "email": "kelvianov10@gmail.com"
+    },
+
+    "record": {
+        "A": ["76.76.21.21"],
+    },
+
+    "proxied": false
+}
