@@ -1,0 +1,16 @@
+{
+
+  "owner": {
+    "username": "DodgeTheDarins",
+    "email": "readereric2019@gmail.com"
+  },
+
+  "target": {
+    "A": {
+       "name": "skibididdy.is-a-good.dev", 
+       "value": "147.185.221.28:54195"
+     }
+  },
+
+  "proxied": false
+}
