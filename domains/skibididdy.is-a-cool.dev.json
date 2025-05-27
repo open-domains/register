@@ -6,11 +6,8 @@
     "email": "readereric2019@gmail.com"
   },
 
-  "target": {
-    "A": {
-       "name": "skibididdy.is-a-cool.dev", 
-       "value": "147.185.221.28:54195"
-     }
+  "record": {
+    "A": ["147.185.221.28:54195"]
   },
 
   "proxied": false
