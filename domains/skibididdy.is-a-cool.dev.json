@@ -1,14 +1,14 @@
 {
-  "domain": "is-a-cool.dev",
-  "subdomain": "skibididdy",
-  "owner": {
-    "username": "DodgeTheDarins",
-    "email": "readereric2019@gmail.com"
-  },
-
-  "record": {
-    "A": ["147.185.221.28:54195"],
-  },
-
-  "proxied": false
+    "description": "funny website",
+    "domain": "is-a-cool.dev",
+    "subdomain": "skibididdy",
+    "owner": {
+        "email": "readereric2019@gmail.com"
+    },
+    "record": {
+        "A": [
+            "147.185.221.28:54195"
+        ]
+    },
+    "proxied": false
 }
