@@ -1,5 +1,5 @@
 {
-  "domain": "is-a-good.dev",
+  "domain": "is-a-cool.dev",
   "subdomain": "skibididdy",
   "owner": {
     "username": "DodgeTheDarins",
@@ -8,7 +8,7 @@
 
   "target": {
     "A": {
-       "name": "skibididdy.is-a-good.dev", 
+       "name": "skibididdy.is-a-cool.dev", 
        "value": "147.185.221.28:54195"
      }
   },
