@@ -1,0 +1,14 @@
+{
+    "domain": "is-not-a.dev",
+    "subdomain": "bighead",
+
+    "owner": {
+        "repo": "https://github.com/301frequenter",
+        "email": "301frequenter@proton.me"
+    },
+
+    "record": {
+        "CNAME": "bighead.pages.dev",
+    },
+    "proxied": false
+}
