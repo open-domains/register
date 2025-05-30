@@ -3,15 +3,17 @@
     "domain": "is-not-a.dev",
     "subdomain": "kotofey",
     "owner": {
-        "email": "aleks00808a@gmail.com"
+        "email": "aleks00808a@gmail.com",
+        "repo": "https://github.com/Kotofey008/register"
     },
     "record": {
         "A": [
-            "77.221.138.189"
+            "75.2.60.5"
         ],
         "TXT": [
             "mailru-domain: 4PC3NOTPepNtpFmW",
-            "yandex-verification: 25b9c36e4c98b148"
+            "yandex-verification: 25b9c36e4c98b148",
+             "v=spf1 redirect=_spf.mail.ru"
         ]
     },
     "proxied": false
