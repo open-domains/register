@@ -1,0 +1,13 @@
+{
+  "description": "Personal Website",
+  "domain": "is-cool.dev",
+  "subdomain": "siwach",
+  "owner": {
+    "repo": "https://github.com/aayushsiwa/portfolio",
+    "email": "22052177@kiit.ac.in"
+  },
+  "record": {
+    "CNAME": "aayushsiwa.pages.dev"
+  },
+  "proxied": false
+}
