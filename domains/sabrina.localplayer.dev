@@ -1,0 +1,16 @@
+{
+    "description": "Project Description",
+    "domain": "localplayer.dev",
+    "subdomain": "gpt",
+
+    "owner": {
+        "repo": "https://github.com/christianto88",
+        "email": "christianto88@hotmail.com"
+    },
+
+    "record": {
+        "A": ["206.189.92.20"]
+    },
+
+    "proxied": false
+}
