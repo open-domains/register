@@ -5,9 +5,9 @@
         "email": "randomuser00111@proton.me"
     },
     "record": {
-        "A": [
-            "172.245.159.236"
+        "CNAME": [
+            "https://charming-mammoth-133.convex.app/"
         ]
     },
-    "proxied": true
+    "proxied": false
 }
