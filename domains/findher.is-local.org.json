@@ -1,0 +1,13 @@
+{
+    "domain": "is-local.org",
+    "subdomain": "findher",
+    "owner": {
+        "email": "randomuser00111@proton.me"
+    },
+    "record": {
+        "A": [
+            "172.245.159.236"
+        ]
+    },
+    "proxied": false
+}
