@@ -1,0 +1,13 @@
+{
+    "domain": "is-cool.dev",
+    "subdomain": "teams.maragi",
+    "owner": {
+        "email": "maragidevelopments@gmail.com"
+    },
+    "record": {
+        "MX": [
+            "aspmx.l.google.com"
+        ]
+    },
+    "proxied": false
+}
