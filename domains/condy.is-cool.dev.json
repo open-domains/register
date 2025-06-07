@@ -1,0 +1,13 @@
+{
+    "description": "Web Portfolio",
+    "domain": "is-cool.dev",
+    "subdomain": "condy",
+    "owner": {
+        "repo": "https://github.com/jhoncarlo-condy/open-domain-register",
+        "email": "jhoncarlo.condy@gmail.com"
+    },
+    "record": {
+        "CNAME": "cname.vercel-dns.com"
+    },
+    "proxied": false
+}

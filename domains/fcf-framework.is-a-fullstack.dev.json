@@ -1,0 +1,14 @@
+{
+    "description": "FCF Framework for developing web applications and more",
+    "domain": "is-a-fullstack.dev",
+    "subdomain": "fcf-framework",
+    "owner": {
+        "repo": "https://github.com/fcf-framework",
+        "email": "v.o.markin221@gmail.com"
+    },
+
+    "record": {
+        "A": ["104.251.217.196"]
+    },
+    "proxied": false
+}
