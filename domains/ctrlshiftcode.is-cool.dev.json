@@ -4,12 +4,15 @@
     "subdomain": "ctrlshiftcode",
 
     "owner": {
-        "repo": "https://github.com/crtl-shift-coders/ctrlshiftcoders.github.io",
+        "repo": "https://github.com/ctrl-shift-coders/ctrlshiftcoders.github.io",
         "email": "jthweb@duck.com"
     },
 
     "record": {
-        "CNAME": "ctrlshiftcoders.github.io"
+        "TXT": [
+            "google-site-verification=U-hcauukB_Cc_6ViMGIZxmJzUPXqw7BmIphTT3PXZNk",
+            "_gh-Ctrl-Shift-Coders-o.ctrlshiftcode=433bf8c431"
+        ]
     },
 
     "proxied": false
