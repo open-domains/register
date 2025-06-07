@@ -10,7 +10,8 @@
 
     "record": {
         "CNAME": "ctrlshiftcoders.github.io",
-        "TXT": ["google-site-verification=U-hcauukB_Cc_6ViMGIZxmJzUPXqw7BmIphTT3PXZNk"]
+        "TXT": ["google-site-verification=U-hcauukB_Cc_6ViMGIZxmJzUPXqw7BmIphTT3PXZNk"],
+        "TXT": ["_gh-Ctrl-Shift-Coders-o.ctrlshiftcode=433bf8c431"]
     },
 
     "proxied": false
