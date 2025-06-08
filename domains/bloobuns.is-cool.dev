@@ -1,0 +1,15 @@
+{
+    "description": "Will be used to allow me to access my self-hosted identity server for testing purposes",
+    "domain": "is-cool.dev",
+    "subdomain": "bloobuns",
+    "owner": {
+        "repo": "https://github.com/nischay876",
+        "email": "nischay_02@outlook.com"
+    },
+    "record": {
+        "A": [
+            "216.198.79.193"
+        ]
+    },
+    "proxied": false
+}
