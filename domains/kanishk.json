@@ -1,0 +1,17 @@
+{
+    "description": "This website is for a simple task.",
+    "domain": "is-cool.dev",
+    "subdomain": "kanishk",
+
+    "owner": {
+        "repo": "https://github.com/Kaanishk1460/kanishk-portfolio",
+        "email": "kanishkmitra1460@gmail.com"
+    },
+
+    "record": {
+        "CNAME": "kaanishk1460.github.io",
+        
+    },
+
+    "proxied": false
+}
