@@ -1,7 +1,7 @@
 {
     "description": "This will be used to access some self hosted apps, mostly n8n. I'm trying to learn.",
     "domain": "is-cool.dev",
-    "subdomain": "n8n",
+    "subdomain": "rohwie",
     "owner": {
         "repo": "https://github.com/rohwie",
         "email": "schlebbo@gmail.com"
