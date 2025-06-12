@@ -4,13 +4,14 @@
     "subdomain": "ctrlshiftcode",
 
     "owner": {
-        "repo": "https://github.com/crtl-shift-coders/ctrlshiftcoders.github.io",
+        "repo": "https://github.com/ctrl-shift-coders/ctrlshiftcoders.github.io",
         "email": "jthweb@duck.com"
     },
 
     "record": {
-        "CNAME": "ctrlshiftcoders.github.io"
+        "CNAME" : "ctrlshiftcode.is-cool.dev"
     },
 
     "proxied": false
 }
+
