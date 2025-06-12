@@ -1,0 +1,14 @@
+{
+    "description": "Secure Convert PH",
+    "domain": "is-local.org",
+    "subdomain": "secureconvertph",
+    "owner": {
+        "email": "secureconvertph@gmail.com"
+    },
+    "record": {
+        "A": [
+            "52.76.250.180"
+        ]
+    },
+    "proxied": false
+}
