@@ -1,0 +1,16 @@
+{
+    "description": "ICPC Resolver in HTML",
+    "domain": "is-local.org",
+    "subdomain": "icpcresolver",
+
+    "owner": {
+        "repo": "https://github.com/jthweb/ICPC-resolver",
+        "email": "jthweb@duck.com"
+    },
+
+    "record": {
+        "CNAME": "icpcresolver.is-local.org",
+    },
+
+    "proxied": false
+}
