@@ -1,0 +1,15 @@
+{
+    "description": "Personal website with links to my Youtube and Twitch channels, and Discord server invite page",
+    "domain": "localplayer.dev",
+    "subdomain": "tab-f",
+    "owner": {
+        "repo": "https://github.com/fazi3294/register",
+        "email": "tab.f3294@gmail.com"
+    },
+    "record": {
+        "TXT": [
+            "google-site-verification=Bm8sApIJ-PcyFHgl_nuec63KHPKaSctj99aEzE1bOWU"
+        ]
+    },
+    "proxied": false
+}
