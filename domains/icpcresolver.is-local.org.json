@@ -1,7 +1,7 @@
 {
     "description": "ICPC resolver in HTML",
-    "domain": "is-cool.dev",
-    "subdomain": "ctrlshiftcode",
+    "domain": "is-local.org",
+    "subdomain": "icpcresolver",
 
     "owner": {
         "repo": "https://github.com/jthweb/ICPC-resolver",
