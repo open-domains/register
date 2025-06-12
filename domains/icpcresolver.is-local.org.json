@@ -1,7 +1,7 @@
 {
-    "description": "ICPC Resolver in HTML",
-    "domain": "is-local.org",
-    "subdomain": "icpcresolver",
+    "description": "ICPC resolver in HTML",
+    "domain": "is-cool.dev",
+    "subdomain": "ctrlshiftcode",
 
     "owner": {
         "repo": "https://github.com/jthweb/ICPC-resolver",
@@ -9,8 +9,9 @@
     },
 
     "record": {
-        "CNAME": "icpcresolver.is-local.org",
+        "CNAME" : "icpcresolver.is-local.org"
     },
 
     "proxied": false
 }
+
