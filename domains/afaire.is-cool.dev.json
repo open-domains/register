@@ -1,0 +1,13 @@
+{
+    "description": "ToDo App",
+    "domain": "is-cool.dev",
+    "subdomain": "afaire",
+    "owner": {
+        "repo": "https://github.com/mavg-8G/Afaire",
+        "email": "kzjium14@afaire.anonaddy.com"
+    },
+    "record": {
+        "A": ["62.171.187.41"]
+    },
+    "proxied": false
+}

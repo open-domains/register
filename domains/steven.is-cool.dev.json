@@ -1,0 +1,12 @@
+{
+    "domain": "is-cool.dev",
+    "subdomain": "steven",
+    "owner": {
+        "repo": "https://github.com/301frequenter/register",
+        "email": "301frequenter@proton.me"
+    },
+    "record": {
+        "CNAME": "steven-last-seen.pages.dev"
+    },
+    "proxied": false
+}
