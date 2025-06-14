@@ -1,108 +1,124 @@
+// Setup registrar and DNS provider
 var regNone = NewRegistrar("none");
 var providerCf = DnsProvider(NewDnsProvider("cloudflare"));
 
-var proxy = { // https://stackexchange.github.io/dnscontrol/providers/cloudflare
+var proxy = {
   on: { "cloudflare_proxy": "on" },
   off: { "cloudflare_proxy": "off" }
-}
+};
 
-/**
- * Note: glob() is only an internal undocumented helper function (maybe risky).
- *
- * @param {String} filesPath
- * @returns {{
- *  name: string,
- *  data: {
- *    description?: string,
- *    domain: string,
- *    subdomain: string,
- *    owner?: {repo?: string, email?: string},
- *    record: {TXT?: string[], A?: string[], AAAA?: string[], CNAME?: string, NS?: string[]},
- *    proxied?: boolean
- *  }}[]}
-*/
-
+// Load all domain configurations from JSON files
 function getDomainsList(filesPath) {
   var result = [];
   var files = glob.apply(null, [filesPath, true, '.json']);
 
-  for (var i = 0; i < files.length; i++) {
-    var basename = files[i].split('/').reverse()[0];
-    var name = basename.split('.')[0];
-
-    result.push({name: name, data: require(files[i])});
-  }
+  files.forEach(function(file) {
+    try {
+      var basename = file.split('/').pop();
+      var name = basename.split('.')[0];
+      var data = require(file);
+      
+      // Validate required fields
+      if (!data.domain || !data.record) {
+        console.error("Missing required fields in " + file);
+        return;
+      }
+      
+      result.push({ name: name, data: data });
+    } catch (error) {
+      console.error("Error loading " + file + ":", error);
+    }
+  });
 
   return result;
 }
 
 var domains = getDomainsList('./domains');
+var recordsByDomain = {};
 
-/**
- * @type {{}}
-*/
-
-var commit = {};
-
-for (var idx in domains) {
-  var domainData = domains[idx].data;
-  var proxyState = proxy.on; // enabled by default
-
-  if (!commit[domainData.domain]) {
-    commit[domainData.domain] = [];
+// Helper to add records to a domain entry
+function addRecord(domain, record) {
+  if (!recordsByDomain[domain]) {
+    recordsByDomain[domain] = [];
   }
+  recordsByDomain[domain].push(record);
+}
+
+// Process each domain
+domains.forEach(function(domainEntry) {
+  var domainData = domainEntry.data;
+  var proxyState = proxy.on; // Default to enabled
 
   if (domainData.proxied === false) {
     proxyState = proxy.off;
   }
 
+  // Initialize records array for this domain
+  recordsByDomain[domainData.domain] = recordsByDomain[domainData.domain] || [];
+
+  // Handle A records
   if (domainData.record.A) {
-    for (var a in domainData.record.A) {
-      commit[domainData.domain].push(
-        A(domainData.subdomain, IP(domainData.record.A[a]), proxyState) // https://stackexchange.github.io/dnscontrol/js#A
-      )
-    }
+    domainData.record.A.forEach(function(ipAddress) {
+      addRecord(domainData.domain, A(domainData.subdomain, IP(ipAddress), proxyState));
+    });
   }
 
+  // Handle AAAA records
   if (domainData.record.AAAA) {
-    for (var aaaa in domainData.record.AAAA) {
-      commit[domainData.domain].push(
-        AAAA(domainData.subdomain, domainData.record.AAAA[aaaa], proxyState) // https://stackexchange.github.io/dnscontrol/js#AAAA
-      )
-    }
+    domainData.record.AAAA.forEach(function(ipv6) {
+      addRecord(domainData.domain, AAAA(domainData.subdomain, ipv6, proxyState));
+    });
   }
 
+  // Handle CNAME records
   if (domainData.record.CNAME) {
-    commit[domainData.domain].push(
-      CNAME(domainData.subdomain, domainData.record.CNAME + ".", proxyState) // https://stackexchange.github.io/dnscontrol/js#CNAME
-    )
+    addRecord(domainData.domain, CNAME(domainData.subdomain, domainData.record.CNAME + ".", proxyState));
   }
-  
+
+  // Handle MX records
   if (domainData.record.MX) {
-    for (var mx in domainData.record.MX) {
-      commit[domainData.domain].push(
-        MX(domainData.subdomain, 10, domainData.record.MX[mx] + ".") // https://stackexchange.github.io/dnscontrol/js#CNAME
-      )
-    }  
+    domainData.record.MX.forEach(function(mx) {
+      addRecord(domainData.domain, MX(domainData.subdomain, 10, mx + "."));
+    });
   }
 
+  // Handle NS records
   if (domainData.record.NS) {
-    for (var ns in domainData.record.NS) {
-      commit[domainData.domain].push(
-        NS(domainData.subdomain, domainData.record.NS[ns] + ".") // https://stackexchange.github.io/dnscontrol/js#NS
-      )
-    }
+    domainData.record.NS.forEach(function(ns) {
+      addRecord(domainData.domain, NS(domainData.subdomain, ns + "."));
+    });
   }
 
+  // Handle TXT records
   if (domainData.record.TXT) {
-    for (var txt in domainData.record.TXT) {
-      commit[domainData.domain].push(
-        TXT(domainData.subdomain, domainData.record.TXT[txt]) // https://stackexchange.github.io/dnscontrol/js#TXT
-      )
-    }
+    domainData.record.TXT.forEach(function(txt) {
+      addRecord(domainData.domain, TXT(domainData.subdomain, txt));
+    });
   }
-}
 
-for (var domainName in commit) {
-  D(domainName, regNone, providerCf, commit[domainName]);
-}
+  // Handle CAA records
+  if (domainData.record.CAA) {
+    domainData.record.CAA.forEach(function(caaRecord) {
+      addRecord(domainData.domain, CAA(domainData.subdomain, caaRecord.flags, caaRecord.tag, caaRecord.value));
+    });
+  }
+
+  // Handle SRV records
+  if (domainData.record.SRV) {
+    domainData.record.SRV.forEach(function(srvRecord) {
+      addRecord(domainData.domain, SRV(domainData.subdomain, srvRecord.priority, srvRecord.weight, srvRecord.port, srvRecord.target + "."));
+    });
+  }
+
+  // Handle PTR records
+  if (domainData.record.PTR) {
+    domainData.record.PTR.forEach(function(ptr) {
+      addRecord(domainData.domain, PTR(domainData.subdomain, ptr + "."));
+    });
+  }
+});
+
+// Commit all DNS records for each domain
+Object.keys(recordsByDomain).forEach(function(domainName) {
+  D(domainName, regNone, providerCf, recordsByDomain[domainName]);
+});

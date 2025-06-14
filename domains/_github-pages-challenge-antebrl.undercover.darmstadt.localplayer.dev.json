@@ -1,0 +1,15 @@
+{
+    "description": "Undercover web game",
+    "domain": "localplayer.dev",
+    "subdomain": "_github-pages-challenge-antebrl.undercover.darmstadt",
+    "owner": {
+        "repo": "https://github.com/antebrl/undercover-word-game",
+        "email": "ahcwnh@gmail.com"
+    },
+    "record": {
+        "TXT": [
+            "cd873119197c654713a6c91abafd00"
+        ]
+    },
+    "proxied": false
+}

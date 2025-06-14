@@ -1,0 +1,12 @@
+{
+    "description": "A website that lists information about different shops/businesses",
+    "domain": "is-local.org",
+    "subdomain": "this",
+    "owner": {
+        "discord": "@semant",
+        "email": "contact@semant.is-a.dev"
+    },
+    "record": {
+        "CNAME": "cname.vercel-dns.com"
+    }
+}

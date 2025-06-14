@@ -1,0 +1,14 @@
+{
+  "description": "Personal portfolio hosted on a self-hosted server",
+  "domain": "is-a-fullstack.dev",
+  "subdomain": "nameraid",
+  "owner": {
+    "repo": "https://github.com/n3mr1d/portofolio",
+    "email": "nameraid@protonmail.com"
+  },
+  "record": {
+    "CNAME": "n3mr1d.vercel.app"
+  },
+  "proxied": false
+}
+

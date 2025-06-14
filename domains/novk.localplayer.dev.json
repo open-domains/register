@@ -1,0 +1,15 @@
+{
+    "description": "A free online audio player, for personal use. Beginned as an alternative to personal audio playlists in vk.com. No politics, No lawsuits, No censorship.",
+    "domain": "localplayer.dev",
+    "subdomain": "novk",
+    "owner": {
+        "username": "https://github.com/Eduard-gan",
+        "email": "eduard.gan@gmail.com"
+    },
+    "record": {
+        "A": [
+            "178.157.90.143"
+        ]
+    },
+    "proxied": false
+}

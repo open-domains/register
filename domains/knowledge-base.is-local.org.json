@@ -1,0 +1,14 @@
+{
+    "description": "Knowledge Base",
+    "domain": "is-local.org",
+    "subdomain": "knowledge-base",
+    "owner": {
+        "email": "3v4l@keemail.me"
+    },
+    "record": {
+        "A": [
+            "95.217.58.106"
+        ]
+    },
+    "proxied": true
+}

@@ -1,0 +1,13 @@
+{
+    "domain": "localplayer.dev",
+    "subdomain": "applications.clidewoodrealm",
+    "owner": {
+        "email": "is-a-dev@win11react.com"
+    },
+    "record": {
+        "A": [
+            "185.31.40.24"
+        ]
+    },
+    "proxied": false
+}

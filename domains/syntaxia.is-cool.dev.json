@@ -1,0 +1,11 @@
+{
+    "domain": "is-cool.dev",
+    "subdomain": "syntaxia",
+    "owner": {
+        "email": "melwilsj@gmail.com"
+    },
+    "record": {
+        "CNAME": "syntaxia.alwaysdata.net"
+    },
+    "proxied": false
+}

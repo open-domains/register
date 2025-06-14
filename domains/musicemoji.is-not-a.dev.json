@@ -1,0 +1,16 @@
+{
+  "description": "Site for @musicemojibot on Telegram",
+  "domain": "is-not-a.dev",
+  "subdomain": "musicemoji",
+
+  "owner": {
+    "repo": "https://github.com/niklinque/register",
+    "email": "nikita@wwpager.me"
+  },
+
+  "record": {
+    "A": ["193.233.237.22"]
+  },
+
+  "proxied": true
+}

@@ -3,6 +3,9 @@
 
   "domain": "is-local.org",
   "subdomain": "_github-pages-challenge-open-domains",
+  "owner": {
+    "email": "sys@open-domains.net"
+  },
 
   "record": {
     "TXT": ["4dac434fb53ff628939d322fb073ad"]

@@ -3,6 +3,9 @@
 
   "domain": "is-local.org",
   "subdomain": "www",
+  "owner": {
+    "email": "sys@open-domains.net"
+  },
 
   "record": {
     "CNAME": "is-local.org"

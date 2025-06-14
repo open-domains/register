@@ -1,0 +1,16 @@
+{
+    "domain": "is-a-fullstack.dev",
+    "subdomain": "fsd",
+    "owner": {
+        "email": "fin.seibt9@gmail.com"
+    },
+    "record": {
+        "MX": [
+            "mx1.forwardemail.net",
+            "mx2.forwardemail.net"
+        ],
+        "TXT": [
+            "forward-email=fin.seibt9@gmail.com"
+        ]
+    }
+}

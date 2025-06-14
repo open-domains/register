@@ -1,43 +1,162 @@
 name: Validation
 
 on:
-    pull_request:
-
-    push:
-        branches: [main]
-        paths:
-            - "domains/**"
-            - ".github/workflows/validation.yml"
-            - "dnsconfig.js"
-
-    workflow_dispatch:
+  pull_request_target:
+  push:
+    branches: [main]
+    paths:
+      - "domains/*"
+      - "tests/*"
+      - "utils/*"
+      - ".github/workflows/validation.yml"
+      - "dnsconfig.js"
+  workflow_dispatch:
 
 concurrency:
-    group: ${{ github.ref }}-validation
-    cancel-in-progress: true
+  group: pr-${{ github.event.pull_request.number }}
+  cancel-in-progress: true
 
 jobs:
-    dns:
-        name: DNS
-        runs-on: ubuntu-latest
-        steps:
-            - uses: actions/checkout@v4
+  dns:
+    name: DNS
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          ref: ${{ github.event.pull_request.head.sha || github.sha }}
 
-            - name: Check
-              uses: koenrh/dnscontrol-action@v3
-              with:
-                  args: check
-                  config_file: "dnsconfig.js"
+      - name: Log Git State
+        run: |
+          echo "GITHUB_REF: $GITHUB_REF"
+          echo "GITHUB_SHA: $GITHUB_SHA"
+          echo "PR HEAD SHA: ${{ github.event.pull_request.head.sha }}"
+          git rev-parse --abbrev-ref HEAD
+          git log -1 --oneline
 
-    json:
-        name: JSON
-        runs-on: ubuntu-latest
-        steps:
-            - uses: actions/checkout@v4
+      - id: create_token
+        uses: tibdex/github-app-token@v2
+        with:
+          app_id: ${{ secrets.APP_ID }}
+          private_key: ${{ secrets.PRIVATE_KEY }}
 
-            - name: JSON Syntax Check
-              uses: limitusus/json-syntax-check@v2
-              with:
-                  pattern: "\\.json$"
-              env:
-                  BASE: "domains/"
+      - name: Check DNS
+        id: dns_check
+        uses: is-a-dev/dnscontrol-action@main
+        with:
+          args: check
+          config_file: "dnsconfig.js"
+
+      - name: Add Validated DNS Label
+        if: ${{ github.event_name == 'pull_request' && steps.dns_check.outcome == 'success' }}
+        uses: actions-ecosystem/action-add-labels@v1
+        with:
+          labels: "Validated DNS"
+          github_token: ${{ steps.create_token.outputs.token }}
+          issue_number: ${{ github.event.pull_request.number }}
+
+      - name: Remove Invalid DNS Label
+        if: ${{ github.event_name == 'pull_request' && steps.dns_check.outcome == 'success' }}
+        uses: actions-ecosystem/action-remove-labels@v1
+        with:
+          labels: "Invalid DNS"
+          github_token: ${{ steps.create_token.outputs.token }}
+          issue_number: ${{ github.event.pull_request.number }}
+
+      - name: Add Invalid DNS Label
+        if: ${{ github.event_name == 'pull_request' && failure() }}
+        uses: actions-ecosystem/action-add-labels@v1
+        with:
+          labels: "Invalid DNS"
+          github_token: ${{ steps.create_token.outputs.token }}
+          issue_number: ${{ github.event.pull_request.number }}
+
+      - name: Remove Validated DNS Label
+        if: ${{ github.event_name == 'pull_request' && failure() }}
+        uses: actions-ecosystem/action-remove-labels@v1
+        with:
+          labels: "Validated DNS"
+          github_token: ${{ steps.create_token.outputs.token }}
+          issue_number: ${{ github.event.pull_request.number }}
+
+  json:
+    name: JSON
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          ref: ${{ github.event.pull_request.head.sha || github.sha }}
+
+      - name: Log Git State
+        run: |
+          echo "GITHUB_REF: $GITHUB_REF"
+          echo "GITHUB_SHA: $GITHUB_SHA"
+          echo "PR HEAD SHA: ${{ github.event.pull_request.head.sha }}"
+          git rev-parse --abbrev-ref HEAD
+          git log -1 --oneline
+
+      - id: create_token
+        uses: tibdex/github-app-token@v2
+        with:
+          app_id: ${{ secrets.APP_ID }}
+          private_key: ${{ secrets.PRIVATE_KEY }}
+
+      - name: JSON Syntax Check
+        id: json_check
+        uses: limitusus/json-syntax-check@v2
+        with:
+          pattern: "\\.json$"
+        env:
+          BASE: "domains/"
+
+      - name: Add Validated JSON Label
+        if: ${{ github.event_name == 'pull_request' && steps.json_check.outcome == 'success' }}
+        uses: actions-ecosystem/action-add-labels@v1
+        with:
+          labels: "Validated JSON"
+          github_token: ${{ steps.create_token.outputs.token }}
+          issue_number: ${{ github.event.pull_request.number }}
+
+      - name: Remove Invalid JSON Label
+        if: ${{ github.event_name == 'pull_request' && steps.json_check.outcome == 'success' }}
+        uses: actions-ecosystem/action-remove-labels@v1
+        with:
+          labels: "Invalid JSON"
+          github_token: ${{ steps.create_token.outputs.token }}
+          issue_number: ${{ github.event.pull_request.number }}
+
+      - name: Add Invalid JSON Label
+        if: ${{ github.event_name == 'pull_request' && failure() }}
+        uses: actions-ecosystem/action-add-labels@v1
+        with:
+          labels: "Invalid JSON"
+          github_token: ${{ steps.create_token.outputs.token }}
+          issue_number: ${{ github.event.pull_request.number }}
+
+      - name: Remove Validated JSON Label
+        if: ${{ github.event_name == 'pull_request' && failure() }}
+        uses: actions-ecosystem/action-remove-labels@v1
+        with:
+          labels: "Validated JSON"
+          github_token: ${{ steps.create_token.outputs.token }}
+          issue_number: ${{ github.event.pull_request.number }}
+
+  tests:
+    name: Tests
+    if: "!contains(github.event.head_commit.message, '[skip-ci]')"
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          ref: ${{ github.event.pull_request.head.sha || github.sha }}
+
+      - name: Log Git State
+        run: |
+          echo "GITHUB_REF: $GITHUB_REF"
+          echo "GITHUB_SHA: $GITHUB_SHA"
+          echo "PR HEAD SHA: ${{ github.event.pull_request.head.sha }}"
+          git rev-parse --abbrev-ref HEAD
+          git log -1 --oneline
+
+      - run: npm install
+
+      - run: npm test

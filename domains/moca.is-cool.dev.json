@@ -1,0 +1,13 @@
+{
+    "description": "This is for facilitate my archival purpose",
+    "domain": "is-cool.dev",
+    "subdomain": "moca",
+    "owner": {
+        "repo": "https://github.com/MocaRafee",
+        "email": "harif.rp05@gmail.com"
+    },
+    "record": {
+        "CNAME": "yuki.nokaze.workers.dev"
+    },
+    "proxied": false
+}

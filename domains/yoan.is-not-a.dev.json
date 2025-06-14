@@ -1,0 +1,14 @@
+{
+    "description": "My portfolio",
+    "domain": "is-not-a.dev",
+    "subdomain": "yoan",
+    "owner": {
+        "email": "yoangilliand@gmail.com"
+    },
+    "record": {
+        "A": [
+            "76.76.21.21"
+        ]
+    },
+    "proxied": false
+}

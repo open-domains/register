@@ -1,0 +1,16 @@
+{
+    "description": "Riikon's team profile and server...",
+    "domain": "is-cool.dev",
+    "subdomain": "riikon",
+
+    "owner": {
+        "repo": "https://github.com/Riikon-Team/Riikon-team.github.io.git",
+        "email": "riikon04@gmail.com"
+    },
+
+    "record": {
+        "CNAME": "riikon-team.github.io"
+    },
+
+    "proxied": false
+}

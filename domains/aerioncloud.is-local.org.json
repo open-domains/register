@@ -1,0 +1,15 @@
+{
+    "description": "Domain for the usage of AerionCloud, a private non-commercial cloud hosting for my friends and I. Nameservers needed for CloudFlare Argo (a.k.a. CloudFlare Tunnels).",
+    "domain": "is-local.org",
+    "subdomain": "aerioncloud",
+    "owner": {
+        "email": "milo@milosantos.com"
+    },
+    "record": {
+        "NS": [
+            "kristin.ns.cloudflare.com",
+            "uriah.ns.cloudflare.com"
+        ]
+    },
+    "proxied": false
+}

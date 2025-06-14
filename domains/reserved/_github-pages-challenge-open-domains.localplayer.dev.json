@@ -3,6 +3,9 @@
 
   "domain": "localplayer.dev",
   "subdomain": "_github-pages-challenge-open-domains",
+  "owner": {
+    "email": "sys@open-domains.net"
+  },
 
   "record": {
     "TXT": ["33caf63f8f1a7c2174183f7d2f25ec"]

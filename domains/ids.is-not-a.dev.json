@@ -1,0 +1,15 @@
+{
+    "description": "Will be used to allow me to access my self-hosted identity server for testing purposes",
+    "domain": "is-not-a.dev",
+    "subdomain": "ids",
+    "owner": {
+        "repo": "https://github.com/rufistofeles",
+        "email": "rufistofeles@outlook.com"
+    },
+    "record": {
+        "A": [
+            "104.237.142.42"
+        ]
+    },
+    "proxied": false
+}

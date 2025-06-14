@@ -1,0 +1,12 @@
+{
+    "description": "Using this for icloud+ email",
+    "domain": "is-cool.dev",
+    "subdomain": "sig1._domainkey.sure",
+    "owner": {
+        "email": "jbhv12@gmail.com"
+    },
+    "record": {
+        "CNAME": "sig1.dkim.sure.is-cool.dev.at.icloudmailadmin.com"
+    },
+    "proxied": false
+}
