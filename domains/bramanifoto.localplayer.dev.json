@@ -1,0 +1,13 @@
+{
+  "description": "Personal photo library powered by Immich, accessible via Cloudflare tunnel",
+  "domain": "localplayer.dev",
+  "subdomain": "bramanifoto",
+  "owner": {
+    "repo": "https://github.com/Staltbriedis/BramaniTemp",
+    "email": "bertsdavis@gmail.com"
+  },
+  "record": {
+    "CNAME": "7c5ecac1-5d56-4293-809e-6553661e9151.cfargotunnel.com"
+  },
+  "proxied": true
+}
