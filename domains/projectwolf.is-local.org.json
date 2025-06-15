@@ -1,0 +1,16 @@
+{
+    "description": "A web system for collaborative and syncronized task management",
+    "domain": "is-local.org",
+    "subdomain": "projectwolf",
+
+    "owner": {
+        "repo": "https://github.com/kwonyuli01/register",
+        "email": "kwonyuli01@yahoo.com"
+    },
+
+    "record": {
+        "A": ["135.237.45.132"],
+    },
+
+    "proxied": false
+}
