@@ -1,5 +1,5 @@
 {
-  "description": "Attendance system with Cloudflare Tunnel for remote access.",
+  "description": "Attendance system using Cloudflare Tunnel for Fingerspot remote access.",
   "domain": "is-local.org",
   "subdomain": "ziis",
   "owner": {
@@ -7,7 +7,7 @@
     "email": "rapotppmziis@gmail.com"
   },
   "record": {
-    "TXT": ["cloudflare-tunnel"]
+    "CNAME": "tunnel.cloudflare.com"
   },
   "proxied": true
 }
