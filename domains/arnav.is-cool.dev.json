@@ -1,0 +1,16 @@
+{
+    "description": "Simple Portfoilio Of Me :)",
+    "domain": "is-cool.dev",
+    "subdomain": "arnav",
+
+    "owner": {
+        "repo": "https://github.com/arnxv-coder/register-open-domains",
+        "email": "arnav@sagaraga.com"
+    },
+
+    "record": {
+        "A": "216.198.79.193"
+    },
+
+    "proxied": false
+}
