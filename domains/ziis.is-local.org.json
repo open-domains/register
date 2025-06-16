@@ -1,21 +1,13 @@
 {
-  "description": "This project is an online attendance management system using Fingerspot Personnel software. It leverages Cloudflare Tunnel to securely expose a local server (running on Windows 10 Pro) over the internet, enabling remote access through the subdomain ziis.is-local.org. The system ensures accurate and centralized attendance data collection with secure remote monitoring capabilities.",
-
+  "description": "Attendance system with Cloudflare Tunnel for remote access.",
   "domain": "is-local.org",
   "subdomain": "ziis",
-
   "owner": {
     "repo": "https://github.com/vikriza/ziistunnel",
     "email": "rapotppmziis@gmail.com"
   },
-
   "record": {
-    "A": ["1.1.1.1"],
-    "TXT": ["cloudflare-tunnel=active"],
-    "CAA": [
-      { "flags": 0, "tag": "issue", "value": "letsencrypt.org" }
-    ]
+    "TXT": ["cloudflare-tunnel"]
   },
-
   "proxied": true
 }
