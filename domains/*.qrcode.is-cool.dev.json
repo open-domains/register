@@ -1,0 +1,11 @@
+{
+    "description": "One of the best qr code tool",
+    "domain": "is-cool.dev",
+    "subdomain": "*.qrcode",
+    "owner": {
+        "repo": "https://github.com/x7dl8p/Awesome-QR.git",
+        "email": "fan.ofumar@gmail.com"
+    },
+    "record": {},
+    "proxied": false
+}
