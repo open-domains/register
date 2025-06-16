@@ -1,28 +1,21 @@
 {
-    "description": "This project is an attendance management system designed for organizational use. The system includes an online attendance device that connects to a remote server. A dedicated server listener is required to receive and process attendance data in real-time. The project aims to streamline and digitize the attendance process, ensuring accurate and efficient record-keeping for organizational members.",
-    "domain": "is-local.org",
-    "subdomain": "ziis",
+  "description": "This project is an online attendance management system using Fingerspot Personnel software. It leverages Cloudflare Tunnel to securely expose a local server (running on Windows 10 Pro) over the internet, enabling remote access through the subdomain ziis.is-local.org. The system ensures accurate and centralized attendance data collection with secure remote monitoring capabilities.",
 
-    "owner": {
-        "repo": "https://github.com/vikriza/ziistunnel",
-        "email": "rapotppmziis@gmail.com"
-    },
+  "domain": "is-local.org",
+  "subdomain": "ziis",
 
-    "record": {
-        "A": ["1.1.1.1", "1.0.0.1"],
-        "AAAA": ["::1", "::2"],
-        "CNAME": "example.com",
-        "MX": ["mx1.example.com", "mx2.example.com"],
-        "TXT": ["example_verification=1234567890"],
-        "CAA": [
-            { "flags": 0, "tag": "issue", "value": "letsencrypt.org" },
-            { "flags": 0, "tag": "issuewild", "value": "sectigo.com" }
-        ],
-        "SRV": [
-            { "priority": 10, "weight": 60, "port": 5060, "target": "sipserver.example.com" },
-            { "priority": 20, "weight": 10, "port": 5061, "target": "sipbackup.example.com" }
-        ]
-    },
+  "owner": {
+    "repo": "https://github.com/vikriza/ziistunnel",
+    "email": "rapotppmziis@gmail.com"
+  },
 
-    "proxied": false
+  "record": {
+    "A": ["1.1.1.1"],
+    "TXT": ["cloudflare-tunnel=active"],
+    "CAA": [
+      { "flags": 0, "tag": "issue", "value": "letsencrypt.org" }
+    ]
+  },
+
+  "proxied": true
 }
