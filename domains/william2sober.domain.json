@@ -1,0 +1,16 @@
+{
+    "description": "William Holley Links List Website",
+    "domain": "is-not-a.dev",
+    "subdomain": "william2sober",
+
+    "owner": {
+        "repo": "https://github.com/william2sober/register",
+        "email": "william2sober@gmail.com"
+    },
+
+    "record": {
+        "A": ["216.198.79.193"]
+    },
+
+    "proxied": false
+}
