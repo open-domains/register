@@ -1,0 +1,16 @@
+{
+  "description": "Fade's Website",
+  "domain": "localplayer.dev",
+  "subdomain": "fade",
+
+  "owner": {
+    "repo": "https://github.com/fadewasheres",
+    "email": "me@sillyfa.de"
+  },
+
+  "record": {
+    "A": ["76.76.21.21"]
+  },
+
+  "proxied": false
+}
