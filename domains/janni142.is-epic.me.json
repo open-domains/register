@@ -1,0 +1,9 @@
+{
+  "target": "janni142.github.io",
+  "owner": {
+    "email": "dns@janni142.is-cool.dev"
+  },
+  "record": {
+    "MX": ["mx1.improvmx.com", "mx2.improvmx.com"]
+  }
+}
