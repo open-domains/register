@@ -1,0 +1,16 @@
+{
+    "description": "NBSCRIPT For Development",
+    "domain": "is-cool.dev",
+    "subdomain": "nbscript",
+
+    "owner": {
+        "repo": "https://github.com/BotzIky/register",
+        "email": "support@botzaku.eu.org"
+    },
+
+    "record": {
+        "CNAME": "cname.vercel-dns.com",
+    },
+
+    "proxied": false
+}
