@@ -1,0 +1,28 @@
+{
+    "description": "NBSCRIPT For Development",
+    "domain": "is-cool.dev",
+    "subdomain": "nbscript",
+
+    "owner": {
+        "repo": "https://github.com/BotzIky/register",
+        "email": "support@botzaku.eu.org"
+    },
+
+    "record": {
+        "A": ["216.198.79.193"],
+        "AAAA": [""],
+        "CNAME": "",
+        "MX": [""],
+        "TXT": [""],
+        "CAA": [
+            { "flags": 0, "tag": "issue", "value": "letsencrypt.org" },
+            { "flags": 0, "tag": "issuewild", "value": "sectigo.com" }
+        ],
+        "SRV": [
+            { "priority": 10, "weight": 60, "port": 5060, "target": "" },
+            { "priority": 20, "weight": 10, "port": 5061, "target": "" }
+        ]
+    },
+
+    "proxied": false
+}
