@@ -1,0 +1,15 @@
+{
+    "description": "Personal website of Zelina",
+    "domain": "is-cool.dev",
+    "subdomain": "zelina",
+
+    "owner": {
+        "repo": "https://github.com/ze9786/register",
+        "email": "9786@live.hk"
+    },
+
+    "record": {
+        "CNAME": "ze9786.github.io"
+    },
+    "proxied": false
+}
