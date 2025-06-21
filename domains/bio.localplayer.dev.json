@@ -1,0 +1,16 @@
+{
+  "description": "my bio website",
+  "domain": "localplayer.dev",
+  "subdomain": "bio",
+
+  "owner": {
+    "repo": "https://github.com/fadewasheres",
+    "email": "me@sillyfa.de"
+  },
+
+  "record": {
+    "A": ["216.198.79.193"]
+  },
+
+  "proxied": false
+}
