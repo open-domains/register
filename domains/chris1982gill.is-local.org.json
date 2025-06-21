@@ -1,0 +1,18 @@
+{
+    "description": "Chris's domain",
+    "domain": "is-local.org",
+    "subdomain": "chris1982gill",
+
+    "owner": {
+        "repo": "https://github.com/cmg198/register",
+        "email": "chrisgithubgill@gmail.com"
+    },
+
+    "record": {
+
+        "CNAME": "chrisgithub.zapto.org"
+
+    },
+
+    "proxied": false
+}
