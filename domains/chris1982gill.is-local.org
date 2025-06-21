@@ -5,7 +5,7 @@
 
     "owner": {
         "repo": "https://github.com/cmg198/register",
-        "email": "chrisgillcamera@gmail.com"
+        "email": "chrisgithubgill@gmail.com"
     },
 
     "record": {
