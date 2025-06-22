@@ -1,5 +1,5 @@
 {
-    "description": "Email for my roblox development group.",
+    "description": "Website and email for my roblox development group.",
     "domain": "is-local.org",
     "subdomain": "syno",
 
@@ -9,8 +9,9 @@
     },
 
     "record": {
+        "A": ["216.198.79.193"],
         "TXT": ["zoho-verification=zb30922740.zmverify.zoho.eu"],
     },
 
-    "proxied": true
+    "proxied": false
 }
