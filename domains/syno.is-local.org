@@ -1,0 +1,16 @@
+{
+    "description": "Email for my roblox development group.",
+    "domain": "is-local.org",
+    "subdomain": "syno",
+
+    "owner": {
+        "repo": "https://github.com/jxkz0/register-",
+        "email": "jxkz034@gmail.com"
+    },
+
+    "record": {
+        "TXT": ["zoho-verification=zb30922740.zmverify.zoho.eu"],
+    },
+
+    "proxied": true
+}
