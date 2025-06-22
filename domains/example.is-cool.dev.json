@@ -1,0 +1,16 @@
+{
+  "description": "URL Shortener Web App hosted on Netlify",
+  "domain": "is-cool.dev",
+  "subdomain": "example",
+
+  "owner": {
+    "repo": "https://github.com/anxpam/register",
+    "email": "anxpamanand@gmail.com"
+  },
+
+  "record": {
+    "CNAME": "link-lytics.netlify.app"
+  },
+
+  "proxied": false
+}
