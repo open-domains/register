@@ -1,0 +1,14 @@
+{
+    "description": "Personal website of Zelina",
+    "domain": "is-cool.dev",
+    "subdomain": "zelina",
+
+    "owner": {
+        "repo": "https://github.com/ze9786/register",
+        "email": "zelinadev@gmail.com"
+    },
+    "record": {
+        "CNAME": "zelinato.netlify.app"
+    },
+    "proxied": false
+}
