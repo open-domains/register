@@ -1,0 +1,13 @@
+{
+  {
+    "description": "Portfolio",
+    "domain": "is-cool.dev",
+    "subdomain": "israrxy",
+    "owner": {
+        "username": "israrxy",
+        "email": "titled.official@proton.me"
+    },
+    "record": {
+        "CNAME": "israrxy.github.io"
+    }
+}
