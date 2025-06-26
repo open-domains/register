@@ -10,7 +10,12 @@
 
     "record": {
         "A": ["216.198.79.193"],
-        "TXT": ["zoho-verification=zb30922740.zmverify.zoho.eu"]
+        "TXT": ["zoho-verification=zb30922740.zmverify.zoho.eu"],
+        "MX": [
+            "mx.zoho.eu",
+            "mx2.zoho.eu",
+            "mx3.zoho.eu"
+        ],
     },
 
     "proxied": false
