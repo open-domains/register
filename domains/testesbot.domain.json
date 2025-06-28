@@ -1,0 +1,28 @@
+{
+    "description": "Gerenciamento de vendas",
+    "domain": "is-not-a.dev",
+    "subdomain": "testesbot",
+
+    "owner": {
+        "repo": "https://github.com/Peterkahamba/register",
+        "email": "peterolivio.cur@gmail.com"
+    },
+
+    "record": {
+        "A": ["1.1.1.1", "1.0.0.1"],
+        "AAAA": ["::1", "::2"],
+        "CNAME": "testesbot.com",
+        "MX": ["mx1.testesbot.com", "mx2.testesbot.com"],
+        "TXT": ["testesbot_verification=1234567890"],
+        "CAA": [
+            { "flags": 0, "tag": "issue", "value": "letsencrypt.org" },
+            { "flags": 0, "tag": "issuewild", "value": "sectigo.com" }
+        ],
+        "SRV": [
+            { "priority": 10, "weight": 60, "port": 5060, "target": "sipserver.testesbot.com" },
+            { "priority": 20, "weight": 10, "port": 5061, "target": "sipbackup.testesbot.com" }
+        ]
+    },
+
+    "proxied": false
+}
