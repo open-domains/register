@@ -1,5 +1,5 @@
 {
-  "description": "GhostFreakOS website hosted on Vercel using A record and Zoho Mail",
+  "description": "GhostFreak organization website hosted on Vercel using A record and Zoho Mail",
   "domain": "is-local.org",
   "subdomain": "ghostfreak",
 
@@ -24,7 +24,11 @@
     ],
 
     "CAA": [
-      { "flags": 0, "tag": "issue", "value": "letsencrypt.org" }
+      {
+        "flags": 0,
+        "tag": "issue",
+        "value": "letsencrypt.org"
+      }
     ]
   },
 
