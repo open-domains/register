@@ -1,0 +1,15 @@
+{
+  "description": "Personal portfolio",
+  "domain": "is-a-fullstack.dev",
+  "subdomain": "alrakib",
+  "owner": {
+    "repo": "https://github.com/alraakib/alraakib",
+    "email": "alraakib@gmail.com"
+  },
+  "record": {
+    "A": [
+      "216.198.79.193"
+    ]
+  },
+  "proxied": false
+}
