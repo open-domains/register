@@ -21,14 +21,6 @@
       "v=spf1 include:zoho.com ~all",
       "zoho-verification=zb75158262.zmverify.zoho.com",
       "v=DMARC1; p=none; rua=mailto:ghostfrekk@gmail.com"
-    ],
-
-    "CAA": [
-      {
-        "flags": 0,
-        "tag": "issue",
-        "value": "letsencrypt.org"
-      }
     ]
   },
 
