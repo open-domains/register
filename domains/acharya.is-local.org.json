@@ -1,0 +1,13 @@
+{
+  "description": "Landing page for Acharya Technologies by 1ndrajeet",
+  "domain": "is-local.org",
+  "subdomain": "acharya",
+  "owner": {
+    "repo": "https://github.com/1ndrajeet/acharya-tech",
+    "email": "1ndrajeet@proton.me"
+  },
+  "record": {
+    "A": ["216.198.79.193"]
+  },
+  "proxied": false
+}
