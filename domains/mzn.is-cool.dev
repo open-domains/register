@@ -1,0 +1,15 @@
+{
+    "description": "Personal Portfolio",
+    "domain": "is-cool.dev",
+    "subdomain": "mzn",
+    "owner": {
+        "repo": "https://github.com/itzmzn/mznking.github.io",
+        "email": "maazinking23@gmail.com"
+    },
+    "record": {
+        "A": [
+            "216.24.57.1"
+        ]
+    },
+    "proxied": false
+}
