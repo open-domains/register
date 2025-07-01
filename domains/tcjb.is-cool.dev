@@ -1,0 +1,20 @@
+{
+    "description": "Subdomain for my firma website",
+    "domain": "is-cool.dev",
+    "subdomain": "tcjb",
+    "owner": {
+        "email": "dns@janni142.is-cool.dev"
+    },
+    "record": {
+        "A": [
+            "185.199.108.153",
+            "185.199.109.153",
+            "185.199.110.153",
+            "185.199.111.153"
+        ],
+       "TXT": [
+           "zoho-verification=zb77039682.zmverify.zoho.eu"
+       ]
+    },
+    "proxied": false
+}
