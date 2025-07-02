@@ -1,0 +1,15 @@
+{
+    "description": "website on a game called SPTS",
+    "domain": "is-not-a.dev",
+    "subdomain": "eclipse",
+    "owner": {
+        "repo": "https://github.com/nexus4212/eclipse",
+        "email": "eclipse5198@gmail.com"
+    },
+    "record": {
+        "A": [
+            "74.208.13.100"
+        ]
+    },
+    "proxied": true
+}
