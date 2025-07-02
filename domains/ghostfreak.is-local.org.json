@@ -18,11 +18,27 @@
     ],
 
     "TXT": [
-      "v=spf1 include:zoho.com ~all",
+      "v=spf1 include:zohomail.com include:zoho.com ~all",
       "zoho-verification=zb75158262.zmverify.zoho.com",
       "v=DMARC1; p=none; rua=mailto:ghostfrekk@gmail.com"
+    ],
+
+    "CAA": [
+      {
+        "flags": 0,
+        "tag": "issue",
+        "value": "letsencrypt.org"
+      }
     ]
   },
 
-  "proxied": false
+  "proxied": false,
+
+  "nested": {
+    "zmail._domainkey": {
+      "TXT": [
+        "v=DKIM1; k=rsa; p=MIGfMA0GCSqGSIb3DQEBAQUAA4GNADCBiQKBgQCcqGauh/PfsFeSE32efubhufS6CFmNB+b0fEl1sBVfVYl+HYI6UsjQoSfSehdgaM29xIawSbqigglCGzirYMkjrs7xnSMk71nGjcsZcOPm5TGw1KvJ+QFOQ+VTqxUpK6u6CB/FSiDeKMVP+8jZ7iiTCpW4qkS6lUcFAZzvJ+hQXwIDAQAB"
+      ]
+    }
+  }
 }
