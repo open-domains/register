@@ -24,15 +24,11 @@
     ],
 
     "CAA": [
-      {
-        "flags": 0,
-        "tag": "issue",
-        "value": "letsencrypt.org"
-      }
+      { "flags": 0, "tag": "issue", "value": "letsencrypt.org" }
     ]
   },
 
-  "proxied": false,
+  "proxied": true,
 
   "nested": {
     "zmail._domainkey": {
