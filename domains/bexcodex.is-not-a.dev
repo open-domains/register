@@ -1,0 +1,16 @@
+{
+    "description": "portofolio website",
+    "domain": "is-not-a.dev",
+    "subdomain": "bexcodex",
+
+    "owner": {
+        "repo": "https://github.com/bexnxx07/register",
+        "email": "bexcode0@gmail.com"
+    },
+
+    "record": {
+        "NS": ["abdullah.ns.cloudflare.com", "meera.ns.cloudflare.com"]
+    },
+
+    "proxied": false
+}
