@@ -9,6 +9,8 @@
     "email": "thebalayogesh@gmail.com"
   },
 
-  "record": {},
+  "record": {
+    "CNAME": "thebalayogesh.github.io"
+  },
   "proxied": false
 }
