@@ -9,12 +9,14 @@
     "email": "contact@theilker.com"
   },
 
-  "record": {
+  "record": [
+  {
     "type": "CNAME",
     "name": "dailker",
     "content": "theilker.com",
     "ttl": 3600
-  },
+  }
+],
 
   "proxied": true
 }
