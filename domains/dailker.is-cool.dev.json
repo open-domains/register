@@ -1,0 +1,20 @@
+{
+  "$schema": "../schemas/domain.schema.json",
+  "description": "Reserve subdomain dailker and redirect to theilker.com",
+  "domain": "is-cool.dev",
+  "subdomain": "dailker",
+
+  "owner": {
+    "repo": "https://github.com/dailker",
+    "email": "contact@theilker.com"
+  },
+
+  "record": {
+    "type": "CNAME",
+    "name": "dailker",
+    "content": "theilker.com",
+    "ttl": 3600
+  },
+
+  "proxied": true
+}
