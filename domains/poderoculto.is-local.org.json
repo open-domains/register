@@ -1,0 +1,16 @@
+{
+  "description": "Site sobre o poder oculto da mente para sedução",
+  "domain": "is-local.org",
+  "subdomain": "poderoculto",
+
+  "owner": {
+    "repo": "https://github.com/AndreDev20/site-mkt",
+    "email": "gdutility0@gmail.com"
+  },
+
+  "record": {
+    "A": ["216.198.79.1"],
+  },
+
+  "proxied": false
+}
