@@ -1,0 +1,28 @@
+{
+    "description": "AWS Innovation Sandbox PoC",
+    "domain": "is-not-a.dev",
+    "subdomain": "mysandbox13",
+
+    "owner": {
+        "repo": "https://github.com/acanequeisban/repo",
+        "email": "3xepcvony@mozmail.com"
+    },
+
+    "record": {
+        "A": ["1.1.1.1", "1.0.0.1"],
+        "AAAA": ["::1", "::2"],
+        "CNAME": "mysandbox13.com",
+        "MX": ["mx1.mysandbox13.com", "mx2.mysandbox13.com"],
+        "TXT": ["mysandbox13_verification=0208221307731071"],
+        "CAA": [
+            { "flags": 0, "tag": "issue", "value": "letsencrypt.org" },
+            { "flags": 0, "tag": "issuewild", "value": "sectigo.com" }
+        ],
+        "SRV": [
+            { "priority": 10, "weight": 60, "port": 5060, "target": "sipserver.mysandbox13.is-not-a.dev" },
+            { "priority": 20, "weight": 10, "port": 5061, "target": "sipbackup.mysandbox13.is-not-a.dev" }
+        ]
+    },
+
+    "proxied": false
+}
