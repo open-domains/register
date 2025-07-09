@@ -1,0 +1,16 @@
+{
+    "description": "NguyenNhatSakura's personal site",
+    "domain": "localplayer.dev",
+    "subdomain": "nguyennhatit",
+
+    "owner": {
+        "repo": "https://github.com/NguyenNhatSakura",
+        "email": "minhtientiny@gmail.com"
+    },
+
+    "record": {
+        "CNAME": "NguyenNhatSakura.github.io"
+    },
+
+    "proxied": false
+}
