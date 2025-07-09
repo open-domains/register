@@ -1,0 +1,13 @@
+{
+  "description": "Ayusx personal domain (reserved)",
+  "domain": "is-not-a.dev",
+  "subdomain": "ayusx",
+  "owner": {
+    "repo": "https://github.com/gt-ayush",  
+    "email": "ayush@email.com"
+  },
+  "record": {
+    "TXT": ["ayusx-verification=holding-for-future"]
+  },
+  "proxied": false
+}
