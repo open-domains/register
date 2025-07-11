@@ -16,7 +16,8 @@
         "TXT": [
             "v=spf1 mx a:ad.alwaysdata.net ~all",
             "MS=ms82095761",
-            "v=spf1 include:spf.protection.outlook.com -all"
+            "v=spf1 include:spf.protection.outlook.com -all",
+            "v=spf1 mx a:google.com ~all"
         ]
     },
     "proxied": false
