@@ -1,0 +1,12 @@
+{
+  "description": "草稿小站 - 个人博客",
+  "domain": "is-not-a.dev",
+  "subdomain": "openmagicblog",
+  "owner": {
+    "repo": "https://github.com/3406088084/3406088084.github.io",
+    "email": "3454812161@qq.com"
+  },
+  "record": {
+    "CNAME": "3406088084.github.io"
+  }
+}
