@@ -10,5 +10,5 @@
     "type": "CNAME",
     "value": "excessbyte.github.io"
   },
-  "proxied": true
+  "proxied": false
 }
