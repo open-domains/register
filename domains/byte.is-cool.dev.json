@@ -1,14 +1,16 @@
 {
-  "description": "My portfolio website",
-  "domain": "is-cool.dev",
-  "subdomain": "byte",
-  "owner": {
-    "username": "ExcessByte",
-    "email": "excessbyte@gmail.com"
-  },
-  "record": {
-    "type": "CNAME",
-    "value": "excessbyte.github.io"
-  },
-  "proxied": false
+    "description": "Project Description",
+    "domain": "is-cool.dev",
+    "subdomain": "byte",
+
+    "owner": {
+        "repo": "https://github.com/ExcessByte/excessbyte.github.io",
+        "email": "excessbyte@gmail.com"
+    },
+
+    "record": {
+        "CNAME": "excessbyte.github.io"
+    },
+
+    "proxied": false
 }
