@@ -1,0 +1,14 @@
+{
+  "description": "My portfolio website",
+  "domain": "is-cool.dev",
+  "subdomain": "byte",
+  "owner": {
+    "username": "ExcessByte",
+    "email": "excessbyte@gmail.com"
+  },
+  "record": {
+    "type": "CNAME",
+    "value": "excessbyte.github.io"
+  },
+  "proxied": true
+}
