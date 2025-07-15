@@ -1,0 +1,19 @@
+{
+    "description": "Testing Domain",
+    "domain": "localplayer.dev",
+    "subdomain": "dibby123",
+    "owner": {
+        "repo": "https://github.com/DEV-DIBSTER",
+        "email": "dibster@danbot.host"
+    },
+    "record": {
+        "NS": [
+            "ns1.he.net",
+            "ns2.he.net",
+            "ns3.he.net",
+            "ns4.he.net",
+            "ns5.he.net"
+        ]
+    },
+    "proxied": false
+}
