@@ -26,9 +26,9 @@ jobs:
         # Beta Release
         uses: contributor-assistant/github-action@v2.6.1
         env:
-          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+          GITHUB_TOKEN: ${{ steps.create_token.outputs.token }}
           # the below token should have repo scope and must be manually added by you in the repository's secret
-          PERSONAL_ACCESS_TOKEN: ${{ secrets.PERSONAL_ACCESS_TOKEN }}
+          PERSONAL_ACCESS_TOKEN: ${{ steps.create_token.outputs.token }}
         with:
           path-to-signatures: 'signatures-v3.json'
           path-to-document: 'https://github.com/open-domains/register/blob/main/terms.md' # e.g. a CLA or a DCO document
