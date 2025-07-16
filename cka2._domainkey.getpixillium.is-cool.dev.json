@@ -1,0 +1,16 @@
+{
+    "description": "Used to connect Kit to the domain.",
+    "domain": "is-cool.dev",
+    "subdomain": "cka2._domainkey.getpixillium",
+
+    "owner": {
+        "repo": "https://github.com/pixillium/open-domains-registry",
+        "email": "dev.emission443@passinbox.com"
+    },
+
+    "record": {
+        "CNAME": "dkim2.dm-48ff3464.sg2.convertkit.com"
+    },
+
+    "proxied": false
+}
