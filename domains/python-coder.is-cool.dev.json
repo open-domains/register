@@ -1,0 +1,17 @@
+{
+    "description": "My persenel website",
+    "domain": "is-cool.dev",
+    "subdomain": "python-coder",
+
+    "owner": {
+        "repo": "https://github.com/defPythonCoder/register-open-domain",
+        "email": "spm.ccnt.tp@gmail.com"
+    },
+
+    "record": {
+        "SRV": [
+            { "priority": 1, "weight": 1, "port": 3176, "target": "node66.lunes.host" },
+        ]
+    },
+    "proxied": false
+}
