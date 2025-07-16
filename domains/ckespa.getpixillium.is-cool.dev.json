@@ -1,0 +1,16 @@
+{
+    "description": "Used to connect Kit.",
+    "domain": "is-cool.dev",
+    "subdomain": "ckespa.getpixillium",
+
+    "owner": {
+        "repo": "https://github.com/pixillium/open-domains-registry",
+        "email": "dev.emission443@passinbox.com"
+    },
+
+    "record": {
+        "CNAME": "spf.dm-290af8e5.sg2.convertkit.com"
+    },
+
+    "proxied": false
+}
