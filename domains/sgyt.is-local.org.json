@@ -1,13 +1,13 @@
 {
-    "description": "Self Hosted Minecraft Server for Java and bedrock",
-    "domain": "is-local.org",
-    "subdomain": "sgyt",
-    "owner": {
-        "repo": "https://github.com/SGYT0007/register"
-        "email": "cshaily37@gmail.com"
-    },
-    "record": {
-       "CNAME": "immortal-ringtail-key.ngrok-free.app"
-    },
-    "proxied": false
+  "description": "Self hosted Minecraft server for Java and Bedrock",
+  "domain": "is-local.org",
+  "subdomain": "sgyt",
+  "owner": {
+    "repo": "https://github.com/sgyt0007/register",
+    "email": "cshaily37@gmail.com"
+  },
+  "record": {
+    "CNAME": ["immortal-ringtail-key.ngrok-free.app"]
+  },
+  "proxied": false
 }
