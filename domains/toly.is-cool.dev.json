@@ -1,0 +1,12 @@
+{
+  "description": "A self hosted web application",
+  "domain": "is-cool.dev",
+  "subdomain": "toly",
+  "owner": {
+    "email": "tolyandr@gmail.com"
+  },
+  "record": {
+    "CNAME": "661606e8c73b.sn.mynetname.net"
+  },
+  "proxied": false
+}
