@@ -7,7 +7,7 @@
     "email": "cshaily37@gmail.com"
   },
   "record": {
-    "CNAME": ["immortal-ringtail-key.ngrok-free.app"]
+    "CNAME": "immortal-ringtail-key.ngrok-free.app"
   },
   "proxied": false
 }
