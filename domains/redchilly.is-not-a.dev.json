@@ -1,16 +1,16 @@
 {
-    "description": "Official RedChilly Website",
-    "domain": "is-not-a.dev",
-    "subdomain": "redchilly",
+  "description": "Self hosted website, and an app. ",
 
-    "owner": {
-        "repo": "https://github.com/officialbloom711/register",
-        "email": "officialbloom711@gmail.com"
-    },
+  "domain": "is-cool.dev",
+  "subdomain": "redchilly",
 
-    "record": {
-        "A": ["34.93.51.227"]
-    },
+  "owner": {
+    "email": "opendomains@uk.is-a.dev"
+  },
 
-    "proxied": false
+  "record": {
+    "NS": ["david.ns.cloudflare.com", "zita.ns.cloudflare.com"]
+  },
+
+  "proxied": false
 }
