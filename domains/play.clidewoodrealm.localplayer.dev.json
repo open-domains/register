@@ -2,11 +2,11 @@
     "domain": "localplayer.dev",
     "subdomain": "play.clidewoodrealm",
     "owner": {
-        "email": "78.47.111.29"
+        "email": "admin@maragi.is-cool.dev"
     },
     "record": {
         "A": [
-            "147.185.221.22"
+            "78.47.111.29"
         ]
     },
     "proxied": false
