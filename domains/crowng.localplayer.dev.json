@@ -1,0 +1,13 @@
+{
+    "description": "Cool Games that you can play at school",
+    "domain": "localplayer.dev",
+    "subdomain": "crowng",
+    "owner": {
+        "repo": "https://github.com/genZrizzCode/register",
+        "email": "code4rizz@gmail.com"
+    },
+    "record": {
+        "CNAME": "genzrizzcode.github.io"
+    },
+    "proxied": false
+}
