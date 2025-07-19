@@ -4,10 +4,10 @@
     "subdomain": "rotur",
     "owner": {
         "signal": "milo.66",
-        "discord": 699318362848886864,
+        "discord": "699318362848886900",
         "email": "milo@milosantos.com"
     },
-    "records": {
+    "record": {
         "NS": [
             "kristin.ns.cloudflare.com",
             "uriah.ns.cloudflare.com"
