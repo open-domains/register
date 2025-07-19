@@ -76,3 +76,43 @@ t("Nested subdomains should not exist if the parent domain has NS records", (t) 
         t.pass();
     }
 });
+
+/*
+
+//Note: This test is commented out because certain users only provide email addresses with no usernames.
+
+t("Nested subdomains should be owned by the parent subdomain's owner", (t) => {
+    files.forEach((file) => {
+        // Skip directories and process only .json files
+        const filePath = path.join(domainsPath, file);
+        if (fs.lstatSync(filePath).isDirectory()) {
+            return; // Skip directories
+        }
+
+        const subdomain = file.replace(/\.json$/, "");
+
+        // Skip first-level subdomains (e.g., "banana.is-cool.dev")
+        // First-level subdomains have no immediate parent to check
+        if (subdomain.split(".").length > 3) {
+            // Get the immediate parent domain, by getting the last 3 parts.
+            const parentSubdomain = subdomain.split(".").slice(-3).join(".");
+            const parentFilePath = path.join(domainsPath, `${parentSubdomain}.json`);
+
+            // Check if the parent file exists before attempting to read it
+            if (fs.existsSync(parentFilePath)) {
+                const parentDomain = fs.readJsonSync(parentFilePath);
+                const subdomainData = fs.readJsonSync(filePath);
+
+                // Check if the owner of the subdomain matches the parent domain's owner
+                if (subdomainData.owner !== parentDomain.owner) {
+                    t.fail(`${file}: Owner mismatch with parent domain ${parentSubdomain}`);
+                }
+            } else {
+                t.fail(`${parentSubdomain}.json file does not exist`);
+            }
+        }
+    });
+
+    t.pass();
+});
+*/
