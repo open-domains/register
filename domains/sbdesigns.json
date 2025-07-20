@@ -6,5 +6,5 @@
   "records": {
     "CNAME": "sbdesigns.pages.dev"
   },
-  "proxied": true
+  "proxied": false
 }
