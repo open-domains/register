@@ -1,0 +1,16 @@
+{
+    "description": "Author portfolio site by Cass. Expect bold words, brutal honesty, and no bullshit.",
+    "domain": "is-cool.dev",
+    "subdomain": "c728",
+
+    "owner": {
+        "repo": "https://github.com/CassieMarie0728/c728-author",
+        "email": "cmcrossno@gmail.com"
+    },
+
+    "record": {
+        "CNAME": "cassiemarie0728.github.io"
+    },
+
+    "proxied": false
+}
