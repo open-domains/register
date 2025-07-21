@@ -1,0 +1,15 @@
+{
+  "description": "Minecraft server hosted at 130.61.111.88",
+  "domain": "localplayer.dev",
+  "subdomain": "semiconductor",
+
+  "owner": {
+    "email": "semiconductor_proton@proton.me"
+  },
+
+  "record": {
+    "A": ["130.61.111.88"]
+  },
+
+  "proxied": false
+}
