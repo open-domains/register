@@ -1,5 +1,5 @@
 {
-    "domain": ".is-local.org",
+    "domain": "is-local.org",
     "subdomain": "aqms",
     "description": "Real-time Air Quality Monitoring System - University of Ilorin Computer Engineering Capstone Project",
     "owner": {
