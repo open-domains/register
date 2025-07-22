@@ -34,7 +34,8 @@ https://discord.gg/kVjkg6VBwa
 | [`*.open-comm.org`](https://open-comm.org) |
 
 
-> **Note:** `open-comm.org` is not currently listed on the [Public Suffix List (PSL)](https://publicsuffix.org/).
+> [!NOTE]
+> `open-comm.org` is not currently listed on the [Public Suffix List (PSL)](https://publicsuffix.org/).
 
 > [!NOTE]
 > Wildcard domains (like `*.example.is-not-a.dev`) are supported too, but the reason for their registration should be very clear and described in detail.
