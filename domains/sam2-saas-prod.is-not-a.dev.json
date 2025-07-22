@@ -12,7 +12,7 @@
       "54.204.75.7"
     ],
     "MX": [
-      "10 feedback-smtp.us-east-1.amazonses.com"
+      "feedback-smtp.us-east-1.amazonses.com"
     ],
     "TXT": [
       "v=spf1 include:amazonses.com ~all",
