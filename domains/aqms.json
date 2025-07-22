@@ -1,14 +1,13 @@
 {
-  "description": "AQMS Dashboard",
-  "domain": "is-not-a.dev",
-  "subdomain": "aqms",
-  "owner": {
-    "repo": "https://github.com/maleeqB/register",
-    "email": "malikbello084@gmail.com"
-  },
-  "record": {
-    "A": ["48.221.112.12"]
-  },
-  "proxied": true
+    "domain": "is-not-a.dev",
+    "subdomain": "aqms",
+    "description": "Real-time Air Quality Monitoring System - University of Ilorin Computer Engineering Capstone Project",
+    "owner": {
+        "email": "malikbello084@gmail.com"
+    },
+    "record": {
+        "CNAME": "48.221.112.12"
+    },
+    "proxied": true
 }
 
