@@ -3,11 +3,11 @@
     "domain": "is-a-fullstack.dev",
     "subdomain": "getlies",
     "owner": {
-        "repo": "https://github.com/getlies/getlies.github.io.git",
+        "repo": "https://github.com/9balls-sync/9balls-sync.github.io.git",
         "email": "morphoit@gmail.com"
     },
     "record": {
-        "CNAME": "getlies.github.io"
+        "CNAME": "9balls-sync.github.io"
     },
     "proxied": false
 }
