@@ -1,0 +1,18 @@
+{
+    "description": "Portfoilo",
+    "domain": "localplayer.dev",
+    "subdomain": "v2",
+
+    "owner": {
+        "repo": "https://github.com/zkavi/register",
+        "email": "bitdancer@skidd.ing"
+    },
+
+    "record": {
+        "A": [
+          "198.51.233.1"
+        ]
+    },
+
+    "proxied": false
+}
