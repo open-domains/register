@@ -1,0 +1,17 @@
+{
+  "owner": {
+    "username": "EricPortes",
+    "email": "eric.11.portes@gmail.com"
+  },
+  "records": {
+    "CNAME": {
+      "domain": "cname.vercel-dns.com"
+    },
+    "TXT": [
+      {
+        "name": "_vercel",
+        "value": "vc-domain-verify=wouldyourathermusic.is-a.dev,bd5eeb248abf1b492b44"
+      }
+    ]
+  }
+}
