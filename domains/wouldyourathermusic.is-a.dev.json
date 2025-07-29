@@ -1,0 +1,15 @@
+{
+  "description": "A song comparison game hosted on Vercel. Approval Rating based on Specific song success",
+  "domain": "is-a.dev",
+  "subdomain": "wouldyourathermusic",
+  "owner": {
+    "username": "EricPortes",
+    "email": "eric.11.portes@gmail.com"
+  },
+  "record": {
+    "CNAME": "cname.vercel-dns.com",
+    "_vercel": {
+      "TXT": "vc-domain-verify=wouldyourathermusic.is-a.dev,bd5eeb248abf1b492b44"
+    }
+  }
+}
