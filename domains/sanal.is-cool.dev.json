@@ -1,0 +1,14 @@
+{
+    "domain": "is-cool.dev",
+    "subdomain": "sanal",
+
+    "owner": {
+        "username": "sanalchandran",
+        "email": "sanalchandran23@gmail.com"
+    },
+
+    "record": {
+        "A": ["140.245.30.133"]
+    },
+    "proxied": false
+}
