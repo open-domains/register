@@ -3,10 +3,9 @@
     "username": "EricPortes",
     "email": "eric.11.portes@gmail.com"
   },
-  "records": {
-    "CNAME": {
-      "domain": "cname.vercel-dns.com"
-    },
+  "record": {
+    "domain": "is-a.dev",
+    "CNAME": "cname.vercel-dns.com",
     "TXT": [
       {
         "name": "_vercel",
