@@ -1,0 +1,14 @@
+{
+    "description": "Personal server at 45.13.226.125",
+    "domain": "is-cool.dev",
+    "subdomain": "fera23",
+    "owner": {
+        "repo": "https://github.com/ferodo9/repo",
+        "email": "farzadcod@gmail.com"
+    },
+    "record": {
+        "A": ["45.13.226.125"],
+        "TXT": ["fera23-is-cool-dev-verification"]
+    },
+    "proxied": false
+}
