@@ -1,0 +1,14 @@
+{
+  "description": "John's personal server",
+  "domain": "is-a-fullstack.dev",
+  "subdomain": "john23",
+  "owner": {
+    "email": "farzadcod@gmail.com"
+  },
+  "record": {
+    "A": [
+      "45.13.226.125"
+    ]
+  },
+  "proxied": false
+}
