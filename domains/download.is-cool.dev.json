@@ -1,6 +1,7 @@
 {
+    "description": "Website to download personal media files",
     "domain": "is-cool.dev",
-    "subdomain": "download",
+    "subdomain": "dl",
 
     "owner": {
         "username": "sanalchandran",
