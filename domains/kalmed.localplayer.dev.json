@@ -7,7 +7,7 @@
         "email": "k4lm3d@duck.com"
     },
     "record": {
-        "CNAME": "k4lm3d.github.io"
+        "A": ["216.24.57.1"]
     },
     "proxied": false
 }
