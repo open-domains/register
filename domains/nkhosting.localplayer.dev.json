@@ -1,0 +1,15 @@
+{
+    "description": "It for my personal project for games hosted",
+    "domain": "localplayer.dev",
+    "subdomain": "nkhosting",
+    "owner": {
+        "repo": "https://github.com/HomeLabs-Code",
+        "email": "homegaminglabs@gmail.com"
+    },
+    "record": {
+        "A": [
+            "8.8.8.8"
+        ]
+    },
+    "proxied": false
+}
