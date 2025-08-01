@@ -1,17 +1,15 @@
 {
-    "description": "nkhosting.is-local.org used for games hosting panel",
-    "domain": "is-not-a.dev",
+    "description": "nkhosting.is-local.org used for personal games hosting panel",
+    "domain": "localplayer.dev",
     "subdomain": "nkhosting",
-
     "owner": {
         "repo": "https://github.com/HomeLabs-Code",
         "email": "homegaminglabs@gmail.com"
     },
-
     "record": {
-        "A": ["172.26.192.1"],
-        }
+        "A": [
+            "172.26.192.1"
+        ]
     },
-
     "proxied": false
 }
