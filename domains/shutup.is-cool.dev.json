@@ -1,0 +1,12 @@
+{
+    "domain": "is-cool.dev",
+    "subdomain": "shutup",
+    "owner": {
+        "email": "matheus.bolzan@gmail.com"
+    },
+    "record": {
+        "A": [
+            "207.244.245.41"
+        ]
+    }
+}
