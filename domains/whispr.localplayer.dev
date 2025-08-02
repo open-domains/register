@@ -1,0 +1,16 @@
+{
+    "description": "An ope-source end-to-end encrypted chat app with no login and signup.. ",
+    "domain": "localplayer.dev",
+    "subdomain": "whispr",
+
+    "owner": {
+        "repo": "https://github.com/e1shivank/whispr",
+        "email": "hello@example.com"
+    },
+
+    "record": {
+        "A": ["216.24.57.1"]
+    },
+
+    "proxied": false
+}
