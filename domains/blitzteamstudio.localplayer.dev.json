@@ -1,0 +1,17 @@
+{
+  "description": "BlitzTeamStudio: Laravel + React project",
+  "domain": "localplayer.dev",
+  "subdomain": "blitzteamstudio",
+
+  "owner": {
+    "repo": "https://github.com/Z3R07R4C3Skyrim/register",
+    "email": "blitzteamstudio@gmail.com"
+  },
+
+  "record": {
+    "A": ["162.55.91.72"],
+    "TXT": ["owner=blitzteamstudio"]
+  },
+
+  "proxied": false
+}
