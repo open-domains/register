@@ -1,0 +1,16 @@
+{
+    "description": "API backend for my Padel Telegram bot.",
+    "domain": "is-a.dev",
+    "subdomain": "padel-app",
+
+    "owner": {
+        "repo": "https://github.com/low1n12/padel-app",
+        "email": "testt@example.com"
+    },
+
+    "record": {
+        "CNAME": "padel-app.is-a.dev"
+    },
+
+    "proxy": false
+}
