@@ -1,0 +1,15 @@
+{
+    "description": "Self hosted website, and an app. ",
+    "domain": "is-cool.dev",
+    "subdomain": "ngc",
+    "owner": {
+        "email": "opendomains@uk.is-a.dev"
+    },
+    "record": {
+        "NS": [
+            "anton.ns.cloudflare.com",
+            "savanna.ns.cloudflare.com"
+        ]
+    },
+    "proxied": false
+}
