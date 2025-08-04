@@ -1,0 +1,16 @@
+{
+    "description": "want this domain for self hosting purposes",
+    "domain": "open-comm.org",
+    "subdomain": "*.miniton",
+
+    "owner": {
+        "repo": "https://github.com/profire-top",
+        "email": "domains@miniton.onthewifi.com"
+    },
+
+    "record": {
+        "AAAA": ["2405:201:4033:d1f4:6ed4:ce8a:3f7a:413e"],
+    },
+
+    "proxied": false
+}
