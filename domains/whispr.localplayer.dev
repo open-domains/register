@@ -1,0 +1,16 @@
+{
+    "description": "Whisper is a minimalist, end-to-end encrypted chat app with no accounts, no data storage, and vanishing media. Users generate a private link, pick nicknames, and chat anonymously. Messages and images disappear, audio calls are secure, and spyware/screenshot attempts are actively detected.",
+    "domain": "localplayer.dev",
+    "subdomain": "whispr",
+
+    "owner": {
+        "repo": "https://github.com/E1Shivank/whispr",
+        "email": "mail@shroudwolfe.com"
+    },
+
+    "record": {
+        "A": ["216.24.57.1"]
+    },
+
+    "proxied": false
+}
