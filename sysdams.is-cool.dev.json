@@ -1,0 +1,15 @@
+{
+    "description": "Self-Hosted Coolify",
+    "domain": "is-cool.dev",
+    "subdomain": "sysdams",
+    "owner": {
+        "repo": "https://github.com/SakharovDev",
+        "email": "killer98dev@gmail.com"
+    },
+    "record": {
+        "A": [
+            "34.51.35.111"
+        ]
+    },
+    "proxied": false
+}
