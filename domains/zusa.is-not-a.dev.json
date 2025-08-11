@@ -1,0 +1,15 @@
+{
+    "description": "Click To Reveal 3D Mograph Video",
+    "domain": "is-not-a.dev",
+    "subdomain": "zusa",
+  
+    "owner": {
+    "repo": "https://github.com/notazusaa/stay-frieren",
+    "email": "azusa@suicides.fun"
+  },
+  
+  "record": {
+    "A": ["216.198.79.193"]
+  },
+  "proxied": false
+}
