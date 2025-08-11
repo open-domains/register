@@ -1,0 +1,17 @@
+{
+    "description": "Click To Reveal Motion Graphic Video.",
+    "domain": "is-not-a.dev",
+    "subdomain": "zusa",
+
+    "owner": {
+        "repo": "https://github.com/notazusaa/stay-frieren",
+        "email": "azusa@suicides.fun"
+    },
+
+    "record": {
+        "A": ["216.198.79.1"],
+        ]
+    },
+
+    "proxied": false
+}
