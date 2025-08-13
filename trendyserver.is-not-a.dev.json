@@ -1,0 +1,17 @@
+{
+  "description": "Homelab reverse-proxy stack",
+  "domain": "is-not-a.dev",
+  "subdomain": "trendyserver",
+
+  "owner": {
+    "repo": "https://github.com/TrendyBoi/my_domain_register",
+    "email": "prestonsimpson101@gmail.com"
+  },
+
+  "record": {
+    "A": ["192.168.50.130"],
+    "CNAME": "trendyserver.tail97f619.ts.net"
+  },
+
+  "proxied": false
+}
