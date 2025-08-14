@@ -1,7 +1,7 @@
 {
     "description": "Used for my own website hosted by a Raspberry Pi 5.",
     "domain": "is-cool.dev",
-    "subdomain": "*.sssstf0rest",
+    "subdomain": "sssstf0rest",
     "owner": {
         "repo": "https://github.com/sssstf0rest",
         "email": "haoshen0226@gmail.com"
