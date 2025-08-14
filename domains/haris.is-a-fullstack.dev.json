@@ -1,0 +1,14 @@
+{
+    "domain": "is-a-fullstack.dev",
+    "subdomain": "haris",
+
+    "owner": {
+        "email": "harisandaz41@gmail.com"
+    },
+
+    "record": {
+        "CNAME": "cname.vercel-dns.com"
+    },
+
+    "proxied": false
+}
