@@ -1,6 +1,12 @@
 {
-  "golfersbarber": {
+  "domain": "is-cool.dev",
+  "subdomain": "golfersbarber",
+  "owner": {
     "repo": "Monir12123/Golfers-Barber",
-    "type": "CNAME"
-  }
+    "email": "بريدك-الإلكتروني"
+  },
+  "record": {
+    "CNAME": "monir12123.github.io"
+  },
+  "proxied": false
 }
