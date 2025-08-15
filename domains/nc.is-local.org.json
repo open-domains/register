@@ -1,0 +1,15 @@
+{
+    "description": "Nextcloud server for personal use",
+    "domain": "is-local.org",
+    "subdomain": "nc",
+
+    "owner": {
+        "repo": "https://github.com/a-meledin/",
+        "email": "aleksei.meledin@gmail.com"
+    },
+
+    "record": {
+         "A": ["195.2.71.250"]
+    },
+    "proxied": false
+}
