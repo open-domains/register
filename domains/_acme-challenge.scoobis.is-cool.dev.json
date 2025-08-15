@@ -1,5 +1,5 @@
 {
-    "description": "A basic static site (accessible from http://scoobies.scoobis.online)",
+    "description": "An acme challenge for getting cf tunnels to work",
     "domain": "is-cool.dev",
     "subdomain": "_acme-challenge.scoobis",
 
