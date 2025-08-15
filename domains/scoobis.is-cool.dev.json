@@ -1,5 +1,5 @@
 {
-    "description": "A basic static site (accessible from http://scoobies.scoobis.online)",
+    "description": "A basic static site (accessible from http://scoobies.scoobis.us.to)",
     "domain": "is-cool.dev",
     "subdomain": "scoobis",
 
@@ -9,7 +9,7 @@
     },
 
     "record": {
-        "CNAME": "scoobies.scoobis.online"
+        "CNAME": "scoobies.scoobis.us.to"
     },
 
     "proxied": true
