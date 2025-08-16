@@ -1,0 +1,13 @@
+{
+    "description": "This domain will host my developer portfolio, showing my open-source contributions, Raspberry Pi hosting setup, and technical blog posts.",
+    "domain": "is-cool.dev",
+    "subdomain": "sssst",
+    "owner": {
+        "repo": "https://github.com/sssstf0rest",
+        "email": "haoshen0226@gmail.com"
+    },
+    "record": {
+        "CNAME": "rpi.fell-lionfish.ts.net"
+    },
+    "proxied": false
+}
