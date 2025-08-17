@@ -1,0 +1,13 @@
+{
+  "description": "This subdomain is used to host my personal portfolio built with React and Bootstrap. It is deployed on Vercel and accessible via a custom domain provided by Open-Domains. This setup allows me to maintain a professional online presence with HTTPS support and fast DNS resolution.",
+  "domain": "is-cool.dev",
+  "subdomain": "sidharth",
+  "owner": {
+    "repo": "https://github.com/sidharthsaini18",
+    "email": "sidharth1812saini@gmail.com"
+  },
+  "record": {
+    "CNAME": ["my-portfolio-delta-amber-14.vercel.app"]
+  },
+  "proxied": false
+}
