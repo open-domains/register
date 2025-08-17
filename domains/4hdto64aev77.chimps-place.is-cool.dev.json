@@ -1,5 +1,5 @@
 {
-    "description": "chimps-place.is-cool.dev will be used as the official website for a game on the Meta Quest VR Store. The site is hosted on Google Sites, and the subdomain 4hdto64aev77.chimps-place.is-cool.dev is required to connect the custom domain to Google Sites.",
+    "description": "The subdomain 4hdto64aev77.chimps-place.is-cool.dev is required by Google Sites to connect the custom domain chimps-place.is-cool.dev.",
     "domain": "is-cool.dev",
     "subdomain": "4hdto64aev77.chimps-place",
     "owner": {
