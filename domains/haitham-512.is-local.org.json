@@ -1,0 +1,17 @@
+{
+    "description": "Project For Test Porposes",
+    "domain": "is-local.org",
+    "subdomain": "haitham-512",
+
+    "owner": {
+        "repo": "https://github.com/haitham-512/haitham-512.github.io",
+        "email": "haithamuser512@gmail.com"
+    },
+
+    "record": {
+        "A": ["1.1.1.1", "1.0.0.1"],
+        "AAAA": ["::1", "::2"],
+        "CNAME": "haitham-512.github.io",
+        "MX": ["mx.haitham-512.github.io.com"]
+    }
+}
