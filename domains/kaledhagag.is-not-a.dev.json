@@ -1,4 +1,4 @@
-{
+yo{
   "description": "My personal email & website",
   "domain": "is-a.dev",
   "subdomain": "kaledhagag",
@@ -11,7 +11,7 @@
   "record": {
     "A": ["123.45.67.89"],
     "MX": ["mx.zoho.com", "mx2.zoho.com"],
-    "TXT": ["v=spf1 include:zoho.com ~all"]
+    "TXT": ["zoho-verification=zb86200041.zmverify.zoho.com"]
   },
 
   "proxied": true
