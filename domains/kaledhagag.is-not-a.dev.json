@@ -9,9 +9,10 @@ yo{
   },
 
   "record": {
-    "A": ["1.1.1.1"],
+    "A": ["123.45.67.89"],
+    "MX": ["mx.zoho.com", "mx2.zoho.com"],
     "TXT": ["zoho-verification=zb86200041.zmverify.zoho.com"]
   },
 
-  "proxied": false 
+  "proxied": true
 }
