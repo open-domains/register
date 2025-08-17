@@ -1,7 +1,7 @@
 {
     "schema": "../schemas/domain.schema.json",
     "description": "A simple countdown website + main page for justincodingprojects",
-    "domain": "is-not-a.dev",
+    "domain": "is-local.org",
     "subdomain": "justincodingprojects",
     "owner": {
         "repo": "https://github.com/justincodingprojects/automated-countdown-generator-reborn",
