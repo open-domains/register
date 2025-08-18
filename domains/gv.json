@@ -8,6 +8,6 @@
 	},
     "record": {
 	  "MX": ["mx.zoho.com", "mx2.zoho.com"],
-	  "TXT": ["zoho-verification=zb50318520.zmverify.zoho.com"],
+	  "TXT": ["zoho-verification=zb50318520.zmverify.zoho.com"]
     }
 }
