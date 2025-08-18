@@ -1,0 +1,16 @@
+{
+    "description": "GitHub verification for This is not a dev, Badbunsen's GitHub website",
+    "domain": "is-not-a.dev",
+    "subdomain": "_github-pages-challenge-goodtestingtube.this",
+
+    "owner": {
+        "repo": "https://github.com/goodtestingtube/goodtestingtube.github.io/",
+        "email": "alephdiallo@proton.me"
+    },
+
+    "record": {
+        "TXT": ["f05b3786d328b8cc7394473efffff8"]
+    },
+
+    "proxied": false
+}
