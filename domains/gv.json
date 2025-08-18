@@ -1,0 +1,13 @@
+{
+  "description": "Gil Not Dev",
+  "domain": "is-not-a.dev",
+  "subdomain": "gil",
+    "owner": {
+	  "repo": "https://github.com/engineerbarok/gilv",
+	  "email": "gil@geekx.eu.org"
+	},
+    "record": {
+	  "MX": ["mx.zoho.com", "mx2.zoho.com"],
+	  "TXT": ["zoho-verification=zb50318520.zmverify.zoho.com"],
+    }
+}
