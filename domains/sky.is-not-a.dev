@@ -1,0 +1,16 @@
+{
+    "description": "Personal link in bio <3",
+    "domain": "is-not-a.dev",
+    "subdomain": "sky",
+
+    "owner": {
+        "repo": "https://github.com/lverx/sky-Link-in-bio",
+        "email": "sky.sibley@icloud.com"
+    },
+
+    "record": {
+        "CNAME": "sky-link-in-bio.pages.dev"
+    },
+
+    "proxied": true
+}
