@@ -1,0 +1,13 @@
+{
+    "description": "X-rem's personal domain",
+    "domain": "is-cool.dev",
+    "subdomain": "xrem",
+    "owner": {
+        "repo": "https://github.com/xrem/open-domains-register",
+        "email": "remmybump@gmail.com"
+    },
+    "record": {
+        "CNAME": "xrem.github.io"
+    },
+    "proxied": false
+}
