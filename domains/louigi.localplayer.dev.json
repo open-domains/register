@@ -1,0 +1,13 @@
+{
+  "description": "Louigi website",
+  "domain": "localplayer.dev",
+  "subdomain": "louigi",
+    "owner": {
+	  "repo": "https://github.com/wigi13/louigi",
+	  "email": "kuraichinmoku13@gmail.com"
+	},
+    "record": {
+	  "MX": ["mx.zoho.com", "mx2.zoho.com"],
+	  "TXT": ["zoho-verification=zb50318520.zmverify.zoho.com"]
+    }
+}
