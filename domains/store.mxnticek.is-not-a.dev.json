@@ -1,0 +1,12 @@
+{
+    "description": "mxnticek.is-not-a.dev (migrated from old service)",
+    "domain": "is-not-a.dev",
+    "subdomain": "store.mxnticek",
+    "owner": {
+        "email": "mapy.od.fanousku@post.cz"
+    },
+    "record": {
+        "CNAME": "sell-beacon.net"
+    },
+    "proxied": false
+}

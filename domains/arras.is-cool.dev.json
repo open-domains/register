@@ -1,0 +1,11 @@
+{
+    "domain": "is-cool.dev",
+    "subdomain": "arras",
+    "owner": {
+        "email": "hussainabidi2009@gmail.com"
+    },
+    "record": {
+        "CNAME": "3eb3d9a7-db58-4359-b233-28e0fff0802d.id.repl.co"
+    },
+    "proxied": true
+}

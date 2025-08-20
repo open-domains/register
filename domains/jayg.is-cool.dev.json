@@ -1,19 +1,13 @@
 {
-  "$schema": "../schemas/domain.schema.json",
-
-  "description": "Need a domain for my personal website",
-
-  "domain": "is-cool.dev",
-  "subdomain": "jayg",
-
-  "owner": {
-    "repo": "https://github.com/JayGgit/JayGgit.github.io",
-    "email": "opinbox@duck.com"
-  },
-
-  "record": {
-    "CNAME": "jayggit.github.io"
-  },
-
-  "proxy": false
+    "description": "Need a domain for my personal website",
+    "domain": "is-cool.dev",
+    "subdomain": "jayg",
+    "owner": {
+        "repo": "https://github.com/JayGgit/JayGgit.github.io",
+        "email": "opinbox@duck.com"
+    },
+    "record": {
+        "CNAME": "jayggit.github.io"
+    },
+    "proxied": false
 }

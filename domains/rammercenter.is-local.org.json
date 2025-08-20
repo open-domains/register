@@ -1,0 +1,13 @@
+{
+    "description": "MyProject",
+    "domain": "is-local.org",
+    "subdomain": "rammercenter",
+    "owner": {
+        "repo": "https://github.com/rammerhq/RammerhqCenter",
+        "email": "gallertgrindelvald@gmail.com"
+    },
+    "record": {
+        "CNAME": "rammerhq.github.io"
+    },
+    "proxied": false
+}

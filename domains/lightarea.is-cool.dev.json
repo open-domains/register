@@ -1,0 +1,11 @@
+{
+    "domain": "is-cool.dev",
+    "subdomain": "lightarea",
+    "owner": {
+        "email": "admin@lighthosting.eu.org"
+    },
+    "record": {
+        "CNAME": "lighthostingfree.github.io"
+    },
+    "proxied": false
+}

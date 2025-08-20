@@ -1,0 +1,15 @@
+{
+    "description": "GH Pages verification for my accound",
+    "domain": "is-cool.dev",
+    "subdomain": "_github-pages-challenge-bananad3v.banana",
+    "owner": {
+        "repo": "https://github.com/BANanaD3V/bananadev-ml",
+        "email": "supnedoelstudios@gmail.com"
+    },
+    "record": {
+        "TXT": [
+            "1c794bf1edc94c96da4c986b9c060a"
+        ]
+    },
+    "proxied": false
+}

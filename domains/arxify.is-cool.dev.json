@@ -1,18 +1,12 @@
 {
-  "$schema": "../schemas/domain.schema.json",
-
-  "description": "A personal website for Arxify (Student & Software Developer)",
-
-  "domain": "is-cool.dev",
-  "subdomain": "arxify",
-
-  "owner": {
-    "email": "arxifybusiness@proton.me"
-  },
-
-  "record": {
-    "CNAME": "arxifybyte.github.io"
-  },
-
-  "proxy": false
+    "description": "A personal website for Arxify (Student & Software Developer)",
+    "domain": "is-cool.dev",
+    "subdomain": "arxify",
+    "owner": {
+        "email": "arxifybusiness@proton.me"
+    },
+    "record": {
+        "CNAME": "arxifybyte.github.io"
+    },
+    "proxied": false
 }

@@ -1,0 +1,11 @@
+{
+    "domain": "is-cool.dev",
+    "subdomain": "shabbir",
+    "owner": {
+        "email": "shabbir.ezzy.official@gmail.com"
+    },
+    "record": {
+        "CNAME": "shabbir260505.github.io"
+    },
+    "proxied": false
+}

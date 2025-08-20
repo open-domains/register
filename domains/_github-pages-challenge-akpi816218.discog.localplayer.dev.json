@@ -1,0 +1,14 @@
+{
+    "description": "GitHub Pages verification",
+    "domain": "localplayer.dev",
+    "subdomain": "_github-pages-challenge-akpi816218.discog",
+    "owner": {
+        "email": "816218@seq.org"
+    },
+    "record": {
+        "TXT": [
+            "b2269716dc3b944f89cc8e6e7690e4"
+        ]
+    },
+    "proxied": false
+}

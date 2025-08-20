@@ -1,0 +1,13 @@
+{
+    "description": "Minecraft Server Website",
+    "domain": "is-local.org",
+    "subdomain": "hotcocoa",
+    "owner": {
+        "repo": "https://github.com/KaminoCodes/register-2",
+        "email": "waffles.30th.email@gmail.com"
+    },
+    "record": {
+        "CNAME": "site.namedhosting.com"
+    },
+    "proxied": false
+}

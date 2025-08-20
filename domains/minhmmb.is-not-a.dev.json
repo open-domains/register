@@ -1,0 +1,11 @@
+{
+    "domain": "is-not-a.dev",
+    "subdomain": "minhmmb",
+    "owner": {
+        "email": "mn9173024@gmail.com"
+    },
+    "record": {
+        "CNAME": "minnb-bit.github.io"
+    },
+    "proxied": true
+}

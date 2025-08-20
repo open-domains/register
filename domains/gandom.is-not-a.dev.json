@@ -1,18 +1,15 @@
 {
-  "$schema": "../schemas/domain.schema.json",
-
-  "description": "Test My Apps and Share Ideas",
-
-  "domain": "is-not-a.dev",
-  "subdomain": "gandom",
-
-  "owner": {
-    "email": "ErnestJ.Morrison@pm.me"
-  },
-
-  "record": {
-    "NS": ["ns1.gcorelabs.net", "ns2.gcdn.services"],
-  },
-
-  "proxy": false
+    "description": "Test My Apps and Share Ideas",
+    "domain": "is-not-a.dev",
+    "subdomain": "gandom",
+    "owner": {
+        "email": "ErnestJ.Morrison@pm.me"
+    },
+    "record": {
+        "NS": [
+            "ns1.gcorelabs.net",
+            "ns2.gcdn.services"
+        ]
+    },
+    "proxied": false
 }

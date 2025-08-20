@@ -1,0 +1,13 @@
+{
+    "description": "A blog",
+    "domain": "is-cool.dev",
+    "subdomain": "josh",
+    "owner": {
+        "repo": "https://github.com/phocks/blog",
+        "email": "phocks@gmail.com"
+    },
+    "record": {
+        "CNAME": "phocks.github.io"
+    },
+    "proxied": false
+}

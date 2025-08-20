@@ -1,18 +1,14 @@
 {
-  "$schema": "../schemas/domain.schema.json",
-
-  "description": "animeblox.is-not-a.dev (migrated from old service)",
-
-  "domain": "is-not-a.dev",
-  "subdomain": "animeblox",
-
-  "owner": {
-    "email": "panwarnishchey@gmail.com"
-  },
-
-  "record": {
-    "A": ["20.204.184.177"]
-  },
-
-  "proxy": false
+    "description": "animeblox.is-not-a.dev (migrated from old service)",
+    "domain": "is-not-a.dev",
+    "subdomain": "animeblox",
+    "owner": {
+        "email": "panwarnishchey@gmail.com"
+    },
+    "record": {
+        "A": [
+            "20.204.184.177"
+        ]
+    },
+    "proxied": false
 }

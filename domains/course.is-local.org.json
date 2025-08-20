@@ -1,0 +1,17 @@
+{
+    "description": "A free courses provider website",
+    "domain": "is-local.org",
+    "subdomain": "course",
+    "owner": {
+        "email": "dqtfp@hi2.in"
+    },
+    "record": {
+        "A": [
+            "66.241.124.129"
+        ],
+        "AAAA": [
+            "2a09:8280:1::4a:41d2:0"
+        ]
+    },
+    "proxied": false
+}

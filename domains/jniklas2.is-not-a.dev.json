@@ -1,18 +1,12 @@
 {
-  "$schema": "../schemas/domain.schema.json",
-
-  "description": "jniklas2.is-not-a.dev (migrated from old service)",
-
-  "domain": "is-not-a.dev",
-  "subdomain": "jniklas2",
-
-  "owner": {
-    "email": "admin@crashcrafter.de"
-  },
-
-  "record": {
-    "CNAME": "notadev.ccsrv.eu"
-  },
-
-  "proxy": false
+    "description": "jniklas2.is-not-a.dev (migrated from old service)",
+    "domain": "is-not-a.dev",
+    "subdomain": "jniklas2",
+    "owner": {
+        "email": "admin@crashcrafter.de"
+    },
+    "record": {
+        "CNAME": "notadev.ccsrv.eu"
+    },
+    "proxied": false
 }

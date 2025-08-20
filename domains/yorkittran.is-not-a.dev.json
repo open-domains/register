@@ -1,19 +1,13 @@
 {
-  "$schema": "../schemas/domain.schema.json",
-
-  "description": "Personal Website",
-
-  "domain": "is-not-a.dev",
-  "subdomain": "yorkittran",
-
-  "owner": {
-    "repo": "https://github.com/yorkittran/yorkittran.github.io",
-    "email": "yorkittran@gmail.com"
-  },
-
-  "record": {
-    "CNAME": "yorkittran.github.io"
-  },
-
-  "proxy": false
+    "description": "Personal Website",
+    "domain": "is-not-a.dev",
+    "subdomain": "yorkittran",
+    "owner": {
+        "repo": "https://github.com/yorkittran/yorkittran.github.io",
+        "email": "yorkittran@gmail.com"
+    },
+    "record": {
+        "CNAME": "yorkittran.github.io"
+    },
+    "proxied": false
 }

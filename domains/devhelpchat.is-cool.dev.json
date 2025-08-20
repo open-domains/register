@@ -1,0 +1,12 @@
+{
+    "domain": "is-cool.dev",
+    "subdomain": "devhelpchat",
+    "owner": {
+        "repo": "https://github.com/Helloeveryonetg/register",
+        "email": "theprogrammerandcoder3@gmail.com"
+    },
+    "record": {
+        "A": ["75.2.60.5"]
+    },
+    "proxied": false
+}

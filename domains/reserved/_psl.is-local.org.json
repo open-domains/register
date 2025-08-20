@@ -1,16 +1,15 @@
 {
-  "$schema": "../../schemas/domain.schema.json",
-
   "description": "PSL Verification",
 
   "domain": "is-local.org",
   "subdomain": "_psl",
-
-  "owner": {},
+  "owner": {
+    "email": "sys@open-domains.net"
+  },
 
   "record": {
     "TXT": ["https://github.com/publicsuffix/list/pull/1672"]
   },
 
-  "proxy": false
+  "proxied": false
 }

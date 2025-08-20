@@ -1,19 +1,13 @@
 {
-  "$schema": "../schemas/domain.schema.json",
-
-  "description": "A personal portfolio",
-
-  "domain": "is-not-a.dev",
-  "subdomain": "naybiblu",
-
-  "owner": {
-    "repo": "https://github.com/naybiblu/naybiblu.is-not-a.dev",
-    "email": "iamsuperv15@gmail.com"
-  },
-
-  "record": {
-    "CNAME": "naybiblu.github.io"
-  },
-
-  "proxy": false
+    "description": "A personal portfolio",
+    "domain": "is-not-a.dev",
+    "subdomain": "naybiblu",
+    "owner": {
+        "repo": "https://github.com/naybiblu/naybiblu.is-not-a.dev",
+        "email": "iamsuperv15@gmail.com"
+    },
+    "record": {
+        "CNAME": "naybiblu.github.io"
+    },
+    "proxied": false
 }

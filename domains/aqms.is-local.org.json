@@ -1,0 +1,13 @@
+{
+    "domain": "is-local.org",
+    "subdomain": "aqms",
+    "description": "Real-time Air Quality Monitoring System - University of Ilorin Computer Engineering Capstone Project",
+    "owner": {
+        "email": "malikbello084@gmail.com"
+    },
+    "record": {
+        "CNAME": "aaa.cluster.ws"
+    },
+    "proxied": true
+}
+

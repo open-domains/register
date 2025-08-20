@@ -1,0 +1,14 @@
+{
+    "domain": "is-not-a.dev",
+    "subdomain": "_acme-challenge.store.mxnticek",
+    "owner": {
+        "repo": "https://github.com/vlastikyoutubeko/vlastikyoutubeko.github.io",
+        "email": "mxnticek@proton.me"
+    },
+    "record": {
+        "TXT": [
+            "tOwpNqSiDUFbsgzD1NYrnaetVO1V2TpShcBMcpIhKgo"
+        ]
+    },
+    "proxied": false
+}

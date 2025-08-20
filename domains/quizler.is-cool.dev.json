@@ -1,0 +1,15 @@
+{
+    "description": "Quizler - A simple quiz app built using HTML, CSS, and JavaScript, hosted on GitHub Pages.",
+    "domain": "is-cool.dev",
+    "subdomain": "quizler",
+
+    "owner": {
+        "repo": "https://github.com/chiragbuilds/register",
+        "email": "chiragprajapati6100@gmail.com"
+    },
+
+    "record": {
+        "CNAME": "chiragbuilds.github.io"
+    },
+    "proxied": false
+}

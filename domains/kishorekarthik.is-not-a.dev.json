@@ -1,19 +1,13 @@
 {
-    "$schema": "../schemas/domain.schema.json",
-
     "description": "Project for a symposium  --> https://zorphix.live for more info",
-
     "domain": "is-not-a.dev",
     "subdomain": "kishorekarthik",
-
     "owner": {
         "repo": "https://github.com/Kishorekarthik-04/Kishorekarthik-04.github.io",
         "email": "m.nadeemgani@gmail.com"
     },
-
     "record": {
         "CNAME": "Kishorekarthik-04.github.io"
     },
-
-    "proxy": false
+    "proxied": false
 }

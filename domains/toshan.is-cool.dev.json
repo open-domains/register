@@ -1,0 +1,18 @@
+{
+    "description": "website for my friend",
+    "domain": "is-cool.dev",
+    "subdomain": "toshan",
+    "owner": {
+        "repo": "https://github.com/turbomaster95/toshan",
+        "email": "dev@deva.is-cool.dev"
+    },
+    "record": {
+        "NS": [
+            "ns1.hostry.com",
+            "ns2.hostry.com",
+            "ns3.hostry.com",
+            "ns4.hostry.com"
+        ]
+    },
+    "proxied": false
+}

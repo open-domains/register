@@ -1,0 +1,13 @@
+{
+    "description": "sctech's blog",
+    "domain": "localplayer.dev",
+    "subdomain": "7vvk22a5l2fs.sctech",
+    "owner": {
+        "repo": "https://github.com/sctech-tr/website",
+        "email": "gamerselimiko@gmail.com"
+    },
+    "record": {
+        "CNAME": "gv-ouulzefxcyxkfy.dv.googlehosted.com"
+    },
+    "proxied": false
+}

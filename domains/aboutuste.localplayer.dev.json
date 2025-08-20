@@ -1,0 +1,15 @@
+{
+    "domain": "localplayer.dev",
+    "subdomain": "aboutuste",
+    "owner": {
+        "repo": "https://github.com/Aboutuste/repo",
+        "email": "aboutuste@gmail.com"
+    },
+    "record": {
+        "NS": [
+            "hal.ns.cloudflare.com",
+            "magali.ns.cloudflare.com"
+        ]
+    },
+    "proxied": false
+}

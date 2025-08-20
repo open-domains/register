@@ -1,0 +1,15 @@
+{
+    "description": "Project Website",
+    "domain": "is-local.org",
+    "subdomain": "_github-pages-challenge-sc136.ironflake",
+    "owner": {
+        "repo": "https://github.com/SC136/WeTall",
+        "email": "swarchuri06@gmail.com"
+    },
+    "record": {
+        "TXT": [
+            "12a82cafbbfeb8c927edd8c38a00b6"
+        ]
+    },
+    "proxied": false
+}

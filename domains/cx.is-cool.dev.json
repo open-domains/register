@@ -1,0 +1,13 @@
+{
+    "description": "CX game development website",
+    "domain": "is-cool.dev",
+    "subdomain": "cx",
+    "owner": {
+        "repo": "https://github.com/joshruds/cx.is-cool.dev",
+        "email": "cxgamedev@gmail.com"
+    },
+    "record": {
+        "CNAME": "joshruds.github.io"
+    },
+    "proxied": true
+}

@@ -1,0 +1,16 @@
+{
+    "domain": "is-not-a.dev",
+    "subdomain": "ababil",
+    "owner": {
+        "email": "ababilmustaqim@proton.me"
+    },
+    "record": {
+        "A": [
+            "76.76.21.21"
+        ],
+        "TXT": [
+            "google-site-verification=GGZt9BgbF-X8rMiVsHY_zQ1USeG5fQAX6bNe5nzjnhM"
+        ]
+    },
+    "proxied": false
+}

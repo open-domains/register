@@ -1,0 +1,16 @@
+{
+  "description": "Personal website and blog",
+  "domain": "is-not-a.dev",
+  "subdomain": "yuting",
+
+  "owner": {
+    "repo": "https://github.com/wyuting0/wyuting0.github.io",
+    "email": "wyuting2011@gmail.com"
+  },
+
+  "record": {
+    "CNAME": "wyuting0.github.io"
+  },
+
+  "proxied": false
+}

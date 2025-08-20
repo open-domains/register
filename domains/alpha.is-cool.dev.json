@@ -1,0 +1,11 @@
+{
+    "domain": "is-cool.dev",
+    "subdomain": "alpha",
+    "owner": {
+        "email": "sweepalf@gmail.com"
+    },
+    "record": {
+        "CNAME": "edge.redirect.pizza"
+    },
+    "proxied": false
+}

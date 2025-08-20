@@ -1,18 +1,12 @@
 {
-  "$schema": "../schemas/domain.schema.json",
-
-  "description": "manbo.is-not-a.dev (migrated from old service)",
-
-  "domain": "is-not-a.dev",
-  "subdomain": "manbo",
-
-  "owner": {
-    "email": "manboqt@gmail.com"
-  },
-
-  "record": {
-    "CNAME": "jam-manbo.github.io"
-  },
-
-  "proxy": false
+    "description": "manbo.is-not-a.dev (migrated from old service)",
+    "domain": "is-not-a.dev",
+    "subdomain": "manbo",
+    "owner": {
+        "email": "manboqt@gmail.com"
+    },
+    "record": {
+        "CNAME": "jam-manbo.github.io"
+    },
+    "proxied": false
 }

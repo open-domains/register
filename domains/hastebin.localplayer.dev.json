@@ -1,0 +1,11 @@
+{
+    "domain": "localplayer.dev",
+    "subdomain": "hastebin",
+    "owner": {
+        "email": "nischay876@gmail.com"
+    },
+    "record": {
+        "CNAME": "frankfurt2.spiderservers.cloud"
+    },
+    "proxied": false
+}

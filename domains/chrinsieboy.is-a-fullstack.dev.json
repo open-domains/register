@@ -1,0 +1,11 @@
+{
+    "domain": "is-a-fullstack.dev",
+    "subdomain": "chrinsieboy",
+    "owner": {
+        "email": "github@chris.friemann.nl"
+    },
+    "record": {
+        "CNAME": "chrisfriemann.nl"
+    },
+    "proxied": false
+}

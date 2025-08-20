@@ -1,0 +1,11 @@
+{
+    "domain": "is-cool.dev",
+    "subdomain": "raofin",
+    "owner": {
+        "email": "hello@raofin.net"
+    },
+    "record": {
+        "CNAME": "rao-dev.pages.dev"
+    },
+    "proxied": false
+}

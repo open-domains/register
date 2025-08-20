@@ -1,0 +1,13 @@
+{
+    "domain": "is-cool.dev",
+    "subdomain": "dshi",
+    "owner": {
+        "email": "221474B@student.hci.edu.sg"
+    },
+    "record": {
+        "A": [
+            "49.245.17.62"
+        ]
+    },
+    "proxied": false
+}

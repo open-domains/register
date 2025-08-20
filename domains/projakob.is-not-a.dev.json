@@ -1,18 +1,14 @@
 {
-  "$schema": "../schemas/domain.schema.json",
-
-  "description": "projakob.is-not-a.dev (migrated from old service)",
-
-  "domain": "is-not-a.dev",
-  "subdomain": "projakob",
-
-  "owner": {
-    "email": "jakobhess0815@outlook.de"
-  },
-
-  "record": {
-    "A": ["88.218.227.76"]
-  },
-
-  "proxy": false
+    "description": "projakob.is-not-a.dev (migrated from old service)",
+    "domain": "is-not-a.dev",
+    "subdomain": "projakob",
+    "owner": {
+        "email": "jakobhess0815@outlook.de"
+    },
+    "record": {
+        "A": [
+            "88.218.227.76"
+        ]
+    },
+    "proxied": false
 }

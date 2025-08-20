@@ -1,18 +1,14 @@
 {
-  "$schema": "../schemas/domain.schema.json",
-
-  "description": "mdc.is-not-a.dev (migrated from old service)",
-
-  "domain": "is-not-a.dev",
-  "subdomain": "mdc",
-
-  "owner": {
-    "email": "jaof.univ2b@gmail.com"
-  },
-
-  "record": {
-    "TXT": ["vc-domain-verify=mdc.is-not-a.dev,092a7755efa3e7d3f6ee"]
-  },
-
-  "proxy": false
+    "description": "mdc.is-not-a.dev (migrated from old service)",
+    "domain": "is-not-a.dev",
+    "subdomain": "mdc",
+    "owner": {
+        "email": "jaof.univ2b@gmail.com"
+    },
+    "record": {
+        "TXT": [
+            "vc-domain-verify=mdc.is-not-a.dev,092a7755efa3e7d3f6ee"
+        ]
+    },
+    "proxied": false
 }

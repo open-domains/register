@@ -1,0 +1,13 @@
+{
+    "domain": "is-not-a.dev",
+    "subdomain": "latealways",
+    "owner": {
+        "email": "latealways.official@gmail.com"
+    },
+    "record": {
+        "A": [
+            "85.239.250.3"
+        ]
+    },
+    "proxied": true
+}

@@ -1,0 +1,13 @@
+{
+    "description": "A Fun Website",
+    "domain": "is-a-fullstack.dev",
+    "subdomain": "gunman",
+    "owner": {
+        "repo": "https://github.com/MukuJhansi/register-1",
+        "email": "mukundagrawal800@gmail.com"
+    },
+    "record": {
+        "CNAME": "bia7gbr1.up.railway.app"
+    },
+    "proxied": false
+}

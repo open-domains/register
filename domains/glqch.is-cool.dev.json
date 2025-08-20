@@ -1,0 +1,13 @@
+{
+    "schema": "../schemas/domain.schema.json",
+    "description": "The domain for project use",
+    "domain": "is-cool.dev",
+    "subdomain": "glqch",
+    "owner": {
+        "email": "non@non.com"
+    },
+    "record": {
+        "CNAME": "glqchgithubio-production.up.railway.app"
+    },
+    "proxied": false
+}

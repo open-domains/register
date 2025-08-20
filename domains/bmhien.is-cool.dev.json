@@ -1,0 +1,11 @@
+{
+    "domain": "is-cool.dev",
+    "subdomain": "bmhien",
+    "owner": {
+        "email": "buiminhhien001@gmail.com"
+    },
+    "record": {
+        "CNAME": "bm-hien.github.io"
+    },
+    "proxied": false
+}

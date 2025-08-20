@@ -1,13 +1,10 @@
 {
-  "$schema": "../../schemas/domain.schema.json",
-
   "description": "Root domain",
 
   "domain": "is-cool.dev",
   "subdomain": "@",
-
   "owner": {
-    "repo": "https://github.com/open-domains/is-cool.dev"
+    "email": "sys@open-domains.net"
   },
 
   "record": {
@@ -28,5 +25,5 @@
     "TXT": ["v=spf1 ~all"]
   },
 
-  "proxy": false
+  "proxied": false
 }

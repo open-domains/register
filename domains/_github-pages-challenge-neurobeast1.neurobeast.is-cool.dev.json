@@ -1,18 +1,14 @@
 {
-  "$schema": "../schemas/domain.schema.json",
-
-  "description": "GitHub Pages Verification",
-
-  "domain": "is-cool.dev",
-  "subdomain": "_github-pages-challenge-neurobeast1.neurobeast",
-
-  "owner": {
-    "email": "info@neurobeast.gq"
-  },
-
-  "record": {
-     "TXT": ["0765e9bd025547cc5cfbf7bd166654"]
-  },
-
-  "proxy": false
+    "description": "GitHub Pages Verification",
+    "domain": "is-cool.dev",
+    "subdomain": "_github-pages-challenge-neurobeast1.neurobeast",
+    "owner": {
+        "email": "info@neurobeast.gq"
+    },
+    "record": {
+        "TXT": [
+            "0765e9bd025547cc5cfbf7bd166654"
+        ]
+    },
+    "proxied": false
 }

@@ -1,0 +1,22 @@
+{
+    "description": "Project Description",
+    "domain": "is-local.org",
+    "subdomain": "minilibraries",
+    "owner": {
+        "repo": "https://github.com/logabe",
+        "email": "logangbentley@gmail.com"
+    },
+    "record": {
+        "A": [
+            "209.38.18.71"
+        ],
+        "MX": [
+            "mailserver.purelymail.com"
+        ],
+        "TXT": [
+            "v=spf1 include:_spf.purelymail.com ~all",
+            "purelymail_ownership_proof=fea62ca314ee6efe75add59d476530a62d5b02df16c6b862d670543cec5c8d6e2b23de070a6ec97c627485c201498c311bf4c63fa3b35bd8042b0aca7f66d66d"
+        ]
+    },
+    "proxied": false
+}

@@ -1,0 +1,14 @@
+{
+    "description": "FILLED BY DEV-DIBSTER",
+    "domain": "is-cool.dev",
+    "subdomain": "xsoar",
+    "owner": {
+        "email": "david.mellor@telus.net"
+    },
+    "record": {
+        "A": [
+            "20.151.75.99"
+        ]
+    },
+    "proxied": false
+}

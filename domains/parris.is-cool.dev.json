@@ -1,0 +1,13 @@
+{
+    "description": "My personal website",
+    "domain": "is-cool.dev",
+    "subdomain": "parris",
+    "owner": {
+        "repo": "https://replit.com/@parriz/parriz",
+        "email": "faris.publicsup@gmail.com"
+    },
+    "record": {
+        "CNAME": "3e590fd2-00dd-4936-9e9d-19e4ff106338.id.repl.co"
+    },
+    "proxied": false
+}

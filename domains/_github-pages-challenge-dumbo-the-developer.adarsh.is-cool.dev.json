@@ -1,0 +1,14 @@
+{
+    "domain": "is-cool.dev",
+    "subdomain": "_github-pages-challenge-dumbo-the-developer.adarsh",
+    "owner": {
+        "repo": "https://dumbo-the-developer/dumbo-the-developer.github.io",
+        "email": "gak1901p@gmail.com"
+    },
+    "record": {
+        "TXT": [
+            "8aef6ad6f3b4cffb05ca9f36cc34cd"
+        ]
+    },
+    "proxied": false
+}

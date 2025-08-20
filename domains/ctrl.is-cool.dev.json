@@ -1,0 +1,12 @@
+{
+    "description": "A really good discord oauth2 website and a dynamic website with ejsw",
+    "domain": "is-cool.dev",
+    "subdomain": "ctrl",
+    "owner": {
+        "email": "nandubussines@gmail.com"
+    },
+    "record": {
+        "CNAME": "8a809bb2-32c2-41b3-ae59-6657851cc960.id.repl.co"
+    },
+    "proxied": false
+}

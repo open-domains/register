@@ -1,0 +1,15 @@
+{
+    "description": "ZGalera Inc.",
+    "domain": "is-local.org",
+    "subdomain": "_github-pages-challenge-zgalera.zgalera",
+    "owner": {
+        "repo": "https://github.com/zgalera/zgalera-website",
+        "email": "81070564+okineadev@users.noreply.github.com"
+    },
+    "record": {
+        "TXT": [
+            "222e25011968e9e2abfd8dbdd78431"
+        ]
+    },
+    "proxied": false
+}

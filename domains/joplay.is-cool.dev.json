@@ -1,0 +1,13 @@
+{
+    "description": "short-link to my website (joplay.xyz)",
+    "domain": "is-cool.dev",
+    "subdomain": "joplay",
+    "owner": {
+        "repo": "https://github.com/Joplayyt/joplays_opendomains_subdomain/",
+        "email": "Joplayyt@proton.me"
+    },
+    "record": {
+        "CNAME": "joplay.xyz"
+    },
+    "proxied": false
+}

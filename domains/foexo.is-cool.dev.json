@@ -1,0 +1,18 @@
+{
+    "description": "Personal website and email service",
+    "domain": "is-cool.dev",
+    "subdomain": "foexo",
+    "owner": {
+        "email": "wolfo89+foexo@protonmail.com"
+    },
+    "record": {
+        "NS": [
+            "ns1.he.net",
+            "ns2.he.net",
+            "ns3.he.net",
+            "ns4.he.net",
+            "ns5.he.net"
+        ]
+    },
+    "proxied": false
+}

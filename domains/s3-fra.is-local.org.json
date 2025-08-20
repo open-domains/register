@@ -1,0 +1,11 @@
+{
+    "domain": "is-local.org",
+    "subdomain": "s3-fra",
+    "owner": {
+        "email": "nischay876@gmail.com"
+    },
+    "record": {
+        "CNAME": "h3s8.fra.idrivee2-8.com"
+    },
+    "proxied": false
+}

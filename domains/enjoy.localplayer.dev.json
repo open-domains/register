@@ -1,18 +1,14 @@
 {
-	"$schema": "../schemas/domain.schema.json",
-
-	"description": "personal use domain",
-
-	"domain": "localplayer.dev",
-	"subdomain": "enjoy",
-
-	"owner": {
-		"email": "andchit223@gmail.com"
-	},
-
-	"record": {
-		"A": ["185.174.136.141"]
-	},
-
-	"proxy": false
+    "description": "personal use domain",
+    "domain": "localplayer.dev",
+    "subdomain": "enjoy",
+    "owner": {
+        "email": "andchit223@gmail.com"
+    },
+    "record": {
+        "A": [
+            "185.174.136.141"
+        ]
+    },
+    "proxied": false
 }

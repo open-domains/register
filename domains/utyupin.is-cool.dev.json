@@ -1,0 +1,11 @@
+{
+    "domain": "is-cool.dev",
+    "subdomain": "utyupin",
+    "owner": {
+        "email": "stepa1792@gmail.com"
+    },
+    "record": {
+        "CNAME": "utyupin-photo.web.app"
+    },
+    "proxied": false
+}

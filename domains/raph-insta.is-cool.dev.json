@@ -1,0 +1,15 @@
+{
+    "$schema": "../schemas/domain.schema.json",
+    "description": "A small clone of instagram for personal use",
+    "domain": "is-cool.dev",
+    "subdomain": "raph-insta",
+    "owner": {
+        "email": "raph10@mail.com"
+    },
+    "record": {
+        "A": [
+            "129.151.255.198"
+        ]
+    },
+    "proxy": false
+}

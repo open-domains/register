@@ -1,0 +1,13 @@
+{
+    "domain": "is-cool.dev",
+    "subdomain": "wiredmind",
+    "owner": {
+        "email": "admin@tetrazero.com"
+    },
+    "record": {
+        "A": [
+            "51.91.236.255"
+        ]
+    },
+    "proxied": false
+}

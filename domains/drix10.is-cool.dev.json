@@ -1,18 +1,12 @@
 {
-  "$schema": "../schemas/domain.schema.json",
-
-  "description": "Portfolio website",
-
-  "domain": "is-cool.dev",
-  "subdomain": "drix10",
-
-  "owner": {
-    "email": "ggdrishtant@gmail.com"
-  },
-
-  "record": {
-    "CNAME": "f4d28d47-e408-4acf-a3d2-399ecd55a9bc.id.repl.co"
-  },
-
-  "proxy": false
+    "description": "Portfolio website",
+    "domain": "is-cool.dev",
+    "subdomain": "drix10",
+    "owner": {
+        "email": "ggdrishtant@gmail.com"
+    },
+    "record": {
+        "CNAME": "f4d28d47-e408-4acf-a3d2-399ecd55a9bc.id.repl.co"
+    },
+    "proxied": false
 }

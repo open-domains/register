@@ -1,0 +1,15 @@
+{
+    "schema": "../schemas/domain.schema.json",
+    "description": "GitHub Pages Verification",
+    "domain": "is-cool.dev",
+    "subdomain": "_github-pages-challenge-arabiancoconut.arabiancoconut",
+    "owner": {
+        "email": "p11h0ifd@duck.com"
+    },
+    "record": {
+        "TXT": [
+            "69dddce1d886bf46fce9aa94529895"
+        ]
+    },
+    "proxied": false
+}

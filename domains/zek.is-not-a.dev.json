@@ -1,18 +1,12 @@
 {
-  "$schema": "../schemas/domain.schema.json",
-
-  "description": "zek.is-not-a.dev (migrated from old service)",
-
-  "domain": "is-not-a.dev",
-  "subdomain": "zek",
-
-  "owner": {
-    "email": "zekxtreme@proton.me"
-  },
-
-  "record": {
-    "CNAME": "zekxtreme.github.io"
-  },
-
-  "proxy": false
+    "description": "zek.is-not-a.dev (migrated from old service)",
+    "domain": "is-not-a.dev",
+    "subdomain": "zek",
+    "owner": {
+        "email": "zekxtreme@proton.me"
+    },
+    "record": {
+        "CNAME": "zekxtreme.github.io"
+    },
+    "proxied": false
 }

@@ -1,18 +1,12 @@
 {
-  "$schema": "../schemas/domain.schema.json",
-
-  "description": "Hide's website[Hound Wolf]",
-
-  "domain": "localplayer.dev",
-  "subdomain": "hide",
-
-  "owner": {
-    "email": "hide@disroot.org"
-  },
-
-  "record": {
-    "CNAME": "hid-e.pages.dev"
-  },
-
-  "proxy": false
+    "description": "Hide's website[Hound Wolf]",
+    "domain": "localplayer.dev",
+    "subdomain": "hide",
+    "owner": {
+        "email": "hide@disroot.org"
+    },
+    "record": {
+        "CNAME": "hid-e.pages.dev"
+    },
+    "proxied": false
 }

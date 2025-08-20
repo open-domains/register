@@ -1,0 +1,13 @@
+{
+    "description": "dailker",
+    "domain": "is-cool.dev",
+    "subdomain": "dailker",
+    "owner": {
+        "repo": "https://github.com/dailker",
+        "email": "contact@theilker.com"
+    },
+    "record": {
+        "CNAME": "theilker.com"
+    },
+    "proxied": false
+}

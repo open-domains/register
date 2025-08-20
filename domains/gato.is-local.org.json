@@ -1,18 +1,15 @@
 {
-  "$schema": "../schemas/domain.schema.json",
-
-  "description": "A domain for a Minecraft server hosted using Aternos.",
-
-  "domain": "is-local.org",
-  "subdomain": "gato",
-
-  "owner": {
-    "email": "oli72905@gmail.com"
-  },
-
-  "record": {
-    "NS": ["galileo.aternos.org", "columbus.aternos.org"]
-  },
-
-  "proxy": false
+    "description": "A domain for a Minecraft server hosted using Aternos.",
+    "domain": "is-local.org",
+    "subdomain": "gato",
+    "owner": {
+        "email": "oli72905@gmail.com"
+    },
+    "record": {
+        "NS": [
+            "galileo.aternos.org",
+            "columbus.aternos.org"
+        ]
+    },
+    "proxied": false
 }

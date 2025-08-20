@@ -1,18 +1,14 @@
 {
-  "$schema": "../schemas/domain.schema.json",
-
-  "description": "This is domain for AsyncpywhatKit",
-
-  "domain": "is-not-a.dev",
-  "subdomain": "asyncpywhatkit",
-
-  "owner": {
-    "email": "sigireddybalasai@gmail.com"
-  },
-
-  "record": {
-    "TXT": ["replit-verify=f16c98f3-908f-4487-8254-8b5570b13c0b"]
-  },
-
-  "proxy": false
+    "description": "This is domain for AsyncpywhatKit",
+    "domain": "is-not-a.dev",
+    "subdomain": "asyncpywhatkit",
+    "owner": {
+        "email": "sigireddybalasai@gmail.com"
+    },
+    "record": {
+        "TXT": [
+            "replit-verify=f16c98f3-908f-4487-8254-8b5570b13c0b"
+        ]
+    },
+    "proxied": false
 }

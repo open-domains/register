@@ -1,0 +1,15 @@
+{
+    "description": "Personal Project",
+    "domain": "is-cool.dev",
+    "subdomain": "hitamjahat",
+    "owner": {
+        "email": "hitamjahat1@gmail.com"
+    },
+    "record": {
+        "NS": [
+            "ns1.vultr.com",
+            "ns2.vultr.com"
+        ]
+    },
+    "proxied": false
+}

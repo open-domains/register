@@ -1,0 +1,15 @@
+{
+    "description": "As an Website and Android Application Developer I need a Website. For this purpose I need this domain.",
+    "domain": "is-cool.dev",
+    "subdomain": "nayem",
+    "owner": {
+        "email": "nayemahmedniloy@gmail.com"
+    },
+    "record": {
+        "NS": [
+            "ns1.epizy.com",
+            "ns2.epizy.com"
+        ]
+    },
+    "proxied": false
+}

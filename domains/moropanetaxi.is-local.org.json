@@ -1,0 +1,13 @@
+{
+    "domain": "is-local.org",
+    "subdomain": "moropanetaxi",
+    "owner": {
+        "email": "jakoalberts@gmail.com"
+    },
+    "record": {
+        "A": [
+            "162.0.217.78"
+        ]
+    },
+    "proxied": false
+}

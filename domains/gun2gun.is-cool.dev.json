@@ -1,0 +1,13 @@
+{
+    "description": "The Gun2Gun free 24/7 LAC server hosting project.",
+    "domain": "is-cool.dev",
+    "subdomain": "gun2gun",
+    "owner": {
+        "repo": "https://github.com/Joystickplays/register",
+        "email": "joystickgaming09@gmail.com"
+    },
+    "record": {
+        "CNAME": "gun2gun-587be.web.app"
+    },
+    "proxied": false
+}

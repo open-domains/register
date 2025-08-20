@@ -1,0 +1,13 @@
+{
+    "description": "first personal portfolio site",
+    "domain": "is-cool.dev",
+    "subdomain": "jayesh",
+    "owner": {
+        "repo": "https://github.com/jayeshk09/jayeshk09.github.io",
+        "email": "narutoitachi279@gmail.com"
+    },
+    "record": {
+        "CNAME": "jayeshk09.github.io"
+    },
+    "proxied": false
+}

@@ -1,0 +1,13 @@
+{
+    "domain": "is-cool.dev",
+    "subdomain": "zaptest",
+    "owner": {
+        "email": "progcspavel@gmail.com"
+    },
+    "record": {
+        "A": [
+            "16.16.79.110"
+        ]
+    },
+    "proxied": false
+}

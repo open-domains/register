@@ -1,18 +1,14 @@
 {
-  "$schema": "../schemas/domain.schema.json",
-
-  "description": "Verification Upload",
-
-  "domain": "is-local.org",
-  "subdomain": "_github-pages-challenge-dragonipenguin.lafora-disease",
-
-  "owner": {
-    "email": "dragoni_penguin@tutanota.com"
-  },
-
-  "record": {
-    "TXT": ["2c2ad329438bbc64fd5e371bbdee54"]
-  },
-
-  "proxy": false
+    "description": "Verification Upload",
+    "domain": "is-local.org",
+    "subdomain": "_github-pages-challenge-dragonipenguin.lafora-disease",
+    "owner": {
+        "email": "dragoni_penguin@tutanota.com"
+    },
+    "record": {
+        "TXT": [
+            "2c2ad329438bbc64fd5e371bbdee54"
+        ]
+    },
+    "proxied": false
 }

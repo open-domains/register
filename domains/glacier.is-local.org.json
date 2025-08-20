@@ -1,0 +1,13 @@
+{
+    "description": "2 year+ WebOS project to recreate windows/mac/linux inside of browser and Next",
+    "domain": "is-local.org",
+    "subdomain": "glacier",
+    "owner": {
+        "repo": "https://github.com/klashdevelopment/GlacierOS",
+        "email": "gavingogaming@gmail.com"
+    },
+    "record": {
+        "CNAME": "glacier.fly.dev"
+    },
+    "proxied": false
+}

@@ -1,0 +1,21 @@
+{
+    "description": "Personal website with email forwarding on custom domain",
+    "domain": "is-local.org",
+    "subdomain": "tmail",
+    "owner": {
+        "email": "wolfo89+foexo@protonmail.com"
+    },
+    "record": {
+        "A": [
+            "167.235.217.200"
+        ],
+        "MX": [
+            "23be714e76795932.mx2.emailprofi.seznam.cz",
+            "23be714e76795932.mx1.emailprofi.seznam.cz"
+        ],
+        "TXT": [
+            "v=spf1 include:spf.seznam.cz ~all"
+        ]
+    },
+    "proxied": false
+}

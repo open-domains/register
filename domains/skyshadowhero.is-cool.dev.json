@@ -1,0 +1,12 @@
+{
+    "description": "The domain for blog use",
+    "domain": "is-cool.dev",
+    "subdomain": "skyshadowhero",
+    "owner": {
+        "email": "a1233456333@163.com"
+    },
+    "record": {
+        "CNAME": "skyshadowhero.github.io"
+    },
+    "proxied": false
+}

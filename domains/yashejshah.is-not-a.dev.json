@@ -1,18 +1,12 @@
 {
-  "$schema": "../schemas/domain.schema.json",
-
-  "description": "yashejshah.is-not-a.dev (migrated from old service)",
-
-  "domain": "is-not-a.dev",
-  "subdomain": "yashejshah",
-
-  "owner": {
-    "email": "yashej.shah@gmail.com"
-  },
-
-  "record": {
-    "CNAME": "yashejshah.github.io"
-  },
-
-  "proxy": false
+    "description": "yashejshah.is-not-a.dev (migrated from old service)",
+    "domain": "is-not-a.dev",
+    "subdomain": "yashejshah",
+    "owner": {
+        "email": "yashej.shah@gmail.com"
+    },
+    "record": {
+        "CNAME": "yashejshah.github.io"
+    },
+    "proxied": false
 }

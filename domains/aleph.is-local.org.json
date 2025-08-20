@@ -1,0 +1,25 @@
+{
+    "description": "Aleph's Website: A bunch of Flash and stuff.",
+    "domain": "is-local.org",
+    "subdomain": "aleph",
+    "owner": {
+        "repo": "https://github.com/alephdfilms/alephdfilms.github.io/",
+        "email": "alephdiallo@mail.com"
+    },
+    "record": {
+        "A": [
+            "185.199.108.153"
+        ],
+        "MX": [
+            "mx1.forwardemail.net",
+            "mx2.forwardemail.net"
+        ],
+        "TXT": [
+            "forward-email=aleph:alephdiallo@mail.com",
+            "forward-email=berayah:jones3brothersicloud@gmail.com",
+            "forward-email=hello:alephdiallo@mail.com",
+            "google-site-verification=vhPxYEvdHutPjhPqdo-_iMmtvuufae-ehRh70jpi4To"
+        ]
+    },
+    "proxied": false
+}

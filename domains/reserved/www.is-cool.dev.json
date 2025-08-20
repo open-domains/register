@@ -1,18 +1,15 @@
 {
-  "$schema": "../../schemas/domain.schema.json",
-
   "description": "www Subdomain",
 
   "domain": "is-cool.dev",
   "subdomain": "www",
-
   "owner": {
-    "repo": "https://github.com/open-domains/is-cool.dev"
+    "email": "sys@open-domains.net"
   },
 
   "record": {
     "CNAME": "is-cool.dev"
   },
 
-  "proxy": false
+  "proxied": false
 }

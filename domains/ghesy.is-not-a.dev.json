@@ -1,18 +1,12 @@
 {
-  "$schema": "../schemas/domain.schema.json",
-
-  "description": "ghesy.is-not-a.dev (migrated from old service)",
-
-  "domain": "is-not-a.dev",
-  "subdomain": "ghesy",
-
-  "owner": {
-    "email": "roci@disroot.org"
-  },
-
-  "record": {
-    "CNAME": "ghesy.github.io"
-  },
-
-  "proxy": false
+    "description": "ghesy.is-not-a.dev (migrated from old service)",
+    "domain": "is-not-a.dev",
+    "subdomain": "ghesy",
+    "owner": {
+        "email": "roci@disroot.org"
+    },
+    "record": {
+        "CNAME": "ghesy.github.io"
+    },
+    "proxied": false
 }

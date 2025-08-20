@@ -1,0 +1,14 @@
+{
+    "description": "Personal finance webpage",
+    "domain": "is-cool.dev",
+    "subdomain": "babo",
+    "owner": {
+        "email": "cimon.carlson@gmail.com"
+    },
+    "record": {
+        "A": [
+            "35.227.28.157"
+        ]
+    },
+    "proxied": false
+}

@@ -1,0 +1,12 @@
+{
+    "description": "Portfolio",
+    "domain": "is-cool.dev",
+    "subdomain": "zemerik",
+    "owner": {
+        "email": "zemerikY@gmail.com"
+    },
+    "record": {
+        "CNAME": "zemerik.is-a.dev"
+    },
+    "proxied": false
+}

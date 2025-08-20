@@ -1,0 +1,18 @@
+{
+    "description": "Wildcard website for my projects",
+    "domain": "is-cool.dev",
+    "subdomain": "deva",
+    "owner": {
+        "repo": "https://github.com/turbomaster95/turbomaster95.github.io",
+        "email": "devamidhun.3c.kmbvm@gmail.com"
+    },
+    "record": {
+        "NS": [
+            "ns1.hostry.com",
+            "ns2.hostry.com",
+            "ns3.hostry.com",
+            "ns4.hostry.com"
+        ]
+    },
+    "proxied": false
+}

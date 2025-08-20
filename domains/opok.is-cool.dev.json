@@ -1,19 +1,16 @@
 {
-  "$schema": "../schemas/domain.schema.json",
-
-  "description": "Domain for the OP-OK Devlopment Network",
-
-  "domain": "is-cool.dev",
-  "subdomain": "opok",
-
-  "owner": {
-    "repo": "https://github.com/op-ok/register",
-    "email": "opok_net@protonmail.com"
-  },
-
-  "record": {
-    "CNAME": ["3cb94f80-fb00-4d22-adb4-70dde56d6677.id.repl.co"]
-  },
-
-  "proxy": false
+    "description": "Domain for the OP-OK Devlopment Network",
+    "domain": "is-cool.dev",
+    "subdomain": "opok",
+    "owner": {
+        "repo": "https://github.com/opott/register",
+        "email": "opok_net@protonmail.com"
+    },
+    "record": {
+        "NS": [
+            "ns1.epizy.com",
+            "ns2.epizy.com"
+        ]
+    },
+    "proxied": false
 }

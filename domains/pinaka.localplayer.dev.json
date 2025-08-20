@@ -1,0 +1,11 @@
+{
+    "domain": "localplayer.dev",
+    "subdomain": "pinaka",
+    "owner": {
+        "email": "shiva02939@gmail.com"
+    },
+    "record": {
+        "CNAME": "pinaka-1-j7999633.deta.app"
+    },
+    "proxied": false
+}

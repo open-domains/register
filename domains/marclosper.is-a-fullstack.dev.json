@@ -1,0 +1,12 @@
+{
+    "domain": "is-a-fullstack.dev",
+    "subdomain": "marclosper",
+    "owner": {
+        "repo": "https://github.com/marclosper/marclosper.github.io",
+        "email": "lospermarc@gmail.com"
+    },
+    "record": {
+        "CNAME": "marclosper.github.io"
+    },
+    "proxied": false
+}

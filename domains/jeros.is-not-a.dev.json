@@ -1,18 +1,12 @@
 {
-  "$schema": "../schemas/domain.schema.json",
-
-  "description": "jeros.is-not-a.dev (migrated from old service)",
-
-  "domain": "is-not-a.dev",
-  "subdomain": "jeros",
-
-  "owner": {
-    "email": "smartlinkwfs@gmail.com"
-  },
-
-  "record": {
-    "CNAME": "ascript89.github.io"
-  },
-
-  "proxy": false
+    "description": "jeros.is-not-a.dev (migrated from old service)",
+    "domain": "is-not-a.dev",
+    "subdomain": "jeros",
+    "owner": {
+        "email": "smartlinkwfs@gmail.com"
+    },
+    "record": {
+        "CNAME": "ascript89.github.io"
+    },
+    "proxied": false
 }

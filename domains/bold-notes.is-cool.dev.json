@@ -1,0 +1,15 @@
+{
+    "description": "A Website for notes and tutorials on A-level curriculum",
+    "domain": "is-cool.dev",
+    "subdomain": "bold-notes",
+    "owner": {
+        "repo": "https://github.com/micnekr/open-domains-register",
+        "email": "08mnekrasov@brightoncollege.net"
+    },
+    "record": {
+        "A": [
+            "143.47.238.176"
+        ]
+    },
+    "proxied": false
+}

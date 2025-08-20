@@ -1,0 +1,15 @@
+{
+    "description": "Deployment of numerous test sites.",
+    "domain": "localplayer.dev",
+    "subdomain": "dib",
+    "owner": {
+        "email": "dibster@danbot.host"
+    },
+    "record": {
+        "NS": [
+            "scott.ns.cloudflare.com",
+            "tessa.ns.cloudflare.com"
+        ]
+    },
+    "proxied": false
+}

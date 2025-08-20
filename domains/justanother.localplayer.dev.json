@@ -1,0 +1,13 @@
+{
+    "domain": "localplayer.dev",
+    "subdomain": "justanother",
+    "owner": {
+        "email": "jakoalberts@gmail.com"
+    },
+    "record": {
+        "A": [
+            "45.148.30.39"
+        ]
+    },
+    "proxied": false
+}

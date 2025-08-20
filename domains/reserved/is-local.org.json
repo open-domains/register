@@ -1,13 +1,10 @@
 {
-  "$schema": "../../schemas/domain.schema.json",
-
   "description": "Root domain",
 
   "domain": "is-local.org",
   "subdomain": "@",
-
   "owner": {
-    "repo": "https://github.com/open-domains/is-local.org"
+    "email": "sys@open-domains.net"
   },
 
   "record": {
@@ -28,5 +25,5 @@
     "TXT": ["v=spf1 ~all"]
   },
 
-  "proxy": false
+  "proxied": false
 }

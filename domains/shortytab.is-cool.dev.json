@@ -1,0 +1,15 @@
+{
+    "description": "ShortyTab - Chrome Tab Switcher Extension",
+    "domain": "is-cool.dev",
+    "subdomain": "shortytab",
+
+    "owner": {
+        "repo": "https://github.com/chiragbuilds/register",
+        "email": "chiragprajapati6100@gmail.com"
+    },
+
+    "record": {
+        "CNAME": "chiragbuilds.github.io"
+    },
+    "proxied": false
+}

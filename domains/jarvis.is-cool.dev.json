@@ -1,0 +1,11 @@
+{
+    "domain": "is-cool.dev",
+    "subdomain": "jarvis",
+    "owner": {
+        "email": "hemantyou001@gmail.com"
+    },
+    "record": {
+        "CNAME": "jarvisapk.infinityfreeapp.com"
+    },
+    "proxied": false
+}

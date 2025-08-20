@@ -1,0 +1,16 @@
+{
+    "domain": "localplayer.dev",
+    "subdomain": "cyber",
+    "owner": {
+        "email": "michaelinso12@gmail.com"
+    },
+    "record": {
+        "A": [
+            "213.188.192.2"
+        ],
+        "AAAA": [
+            "2a09:8280:1:9032:60eb:1797:5542:d0db"
+        ]
+    },
+    "proxied": true
+}

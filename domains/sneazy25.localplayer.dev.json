@@ -1,0 +1,11 @@
+{
+    "description": "Showcase/Testing Websites",
+    "domain": "localplayer.dev",
+    "subdomain": "sneazy25",
+    "owner": {
+        "email": "contact@sneazy25.is-a.dev"
+    },
+    "record": {
+        "CNAME": "cname.vercel-dns.com"
+    }
+}

@@ -1,0 +1,14 @@
+{
+    "description": "mc domain",
+    "domain": "localplayer.dev",
+    "subdomain": "mc",
+    "owner": {
+        "email": "polo@polos.systems"
+    },
+    "record": {
+        "A": [
+            "51.195.89.58"
+        ]
+    },
+    "proxied": false
+}

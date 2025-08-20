@@ -1,18 +1,12 @@
 {
-  "$schema": "../schemas/domain.schema.json",
-
-  "description": "My personal website.",
-
-  "domain": "is-not-a.dev",
-  "subdomain": "unnervingduck",
-
-  "owner": {
-    "email": "unnervingduck.j7ur4@simplelogin.com"
-  },
-
-  "record": {
-    "CNAME": "unnervingduck.github.io"
-  },
-
-  "proxy": false
+    "description": "My personal website.",
+    "domain": "is-not-a.dev",
+    "subdomain": "unnervingduck",
+    "owner": {
+        "email": "unnervingduck.j7ur4@simplelogin.com"
+    },
+    "record": {
+        "CNAME": "unnervingduck.github.io"
+    },
+    "proxied": false
 }

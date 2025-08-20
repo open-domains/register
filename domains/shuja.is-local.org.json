@@ -1,19 +1,13 @@
 {
-  "$schema": "../schemas/domain.schema.json",
-
-  "description": "Redirect",
-
-  "domain": "is-local.org",
-  "subdomain": "shuja",
-
-  "owner": {
-    "repo": "https://github.com/pakbch/pakbch.github.io",
-    "email": "shujaballs@cock.li"
-  },
-
-  "record": {
-    "CNAME": "pakbch.github.io"
-  },
-
-  "proxy": false
+    "description": "Redirect",
+    "domain": "is-local.org",
+    "subdomain": "shuja",
+    "owner": {
+        "repo": "https://github.com/pakbch/pakbch.github.io",
+        "email": "shujaballs@cock.li"
+    },
+    "record": {
+        "CNAME": "pakbch.github.io"
+    },
+    "proxied": false
 }

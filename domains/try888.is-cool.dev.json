@@ -1,0 +1,13 @@
+{
+    "domain": "is-cool.dev",
+    "subdomain": "try888",
+    "owner": {
+        "email": "fai1117hk2@gmail.com"
+    },
+    "record": {
+        "A": [
+            "35.206.220.254"
+        ]
+    },
+    "proxied": false
+}

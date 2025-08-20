@@ -1,0 +1,16 @@
+{
+    "description": "GitHub Pages site for ctrl-shift-coders project",
+    "domain": "is-cool.dev",
+    "subdomain": "ctrlshiftcode",
+
+    "owner": {
+        "repo": "https://github.com/crtl-shift-coders/ctrlshiftcoders.github.io",
+        "email": "jthweb@duck.com"
+    },
+
+    "record": {
+        "CNAME": "ctrlshiftcoders.github.io"
+    },
+
+    "proxied": false
+}

@@ -1,0 +1,11 @@
+{
+    "domain": "is-cool.dev",
+    "subdomain": "externref",
+    "owner": {
+        "email": "shiva02939@gmail.com"
+    },
+    "record": {
+        "CNAME": "externref.up.railway.app"
+    },
+    "proxied": false
+}

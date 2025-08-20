@@ -1,19 +1,13 @@
 {
-    "$schema": "../schemas/domain.schema.json",
-
     "description": "zeusgang.is-local.org",
-
     "domain": "is-local.org",
     "subdomain": "zeusgang",
-
     "owner": {
         "repo": "https://github.com/zeusgangproject/zeusgangproject.github.io",
         "email": "kaz442197@gmail.com"
     },
-
     "record": {
         "CNAME": "zeusgangproject.github.io"
     },
-
-    "proxy": false
+    "proxied": false
 }

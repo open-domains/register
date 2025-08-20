@@ -1,0 +1,13 @@
+{
+    "domain": "is-cool.dev",
+    "subdomain": "sandgur",
+    "owner": {
+        "email": "progger-kitten@mail.ru"
+    },
+    "record": {
+        "A": [
+            "62.217.178.122"
+        ]
+    },
+    "proxied": false
+}

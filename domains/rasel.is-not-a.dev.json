@@ -1,18 +1,12 @@
 {
-  "$schema": "../schemas/domain.schema.json",
-
-  "description": "rasel.is-not-a.dev (migrated from old service)",
-
-  "domain": "is-not-a.dev",
-  "subdomain": "rasel",
-
-  "owner": {
-    "email": "cixike1775@edxplus.com"
-  },
-
-  "record": {
-    "CNAME": "resellerways.com"
-  },
-
-  "proxy": false
+    "description": "rasel.is-not-a.dev (migrated from old service)",
+    "domain": "is-not-a.dev",
+    "subdomain": "rasel",
+    "owner": {
+        "email": "cixike1775@edxplus.com"
+    },
+    "record": {
+        "CNAME": "resellerways.com"
+    },
+    "proxied": false
 }

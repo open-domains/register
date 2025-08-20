@@ -1,0 +1,17 @@
+{
+    "description": "domain for my personal site and server",
+    "domain": "is-cool.dev",
+    "subdomain": "teleportaura",
+    "owner": {
+        "repo": "https://codeberg.org/TeleportAura/pages",
+        "email": "thescrap@protonmail.com"
+    },
+    "record": {
+        "NS": [
+            "ns0.1984.is",
+            "ns1.1984hosting.com",
+            "ns2.1984.is"
+        ]
+    },
+    "proxied": false
+}

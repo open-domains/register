@@ -1,0 +1,12 @@
+{
+  "description": "Personal photo library powered by Immich",
+  "domain": "is-cool.dev",
+  "subdomain": "immich.toly",
+  "owner": {
+    "email": "tolyandr@gmail.com"
+  },
+  "record": {
+    "CNAME": "661606e8c73b.sn.mynetname.net"
+  },
+  "proxied": false
+}

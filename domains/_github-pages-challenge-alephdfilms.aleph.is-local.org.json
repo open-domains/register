@@ -1,0 +1,15 @@
+{
+    "schema": "../schemas/domain.schema.json",
+    "description": "GitHub Pages Verification",
+    "domain": "is-local.org",
+    "subdomain": "_github-pages-challenge-alephdfilms.aleph",
+    "owner": {
+        "email": "alephdiallo@mail.com"
+    },
+    "record": {
+        "TXT": [
+            "8c73767826b13c35473cce8cd3aee5"
+        ]
+    },
+    "proxied": false
+}

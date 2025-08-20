@@ -1,0 +1,12 @@
+{
+    "description": "A games website with many web games",
+    "domain": "is-cool.dev",
+    "subdomain": "zatoga",
+    "owner": {
+        "email": "tamoghnak13@gmail.com"
+    },
+    "record": {
+        "CNAME": "zatoga.pages.dev"
+    },
+    "proxied": true
+}

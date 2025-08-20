@@ -1,0 +1,13 @@
+{
+    "description": "PORTFOLIO Website: A Minecraft developer portfolio",
+    "domain": "is-cool.dev",
+    "subdomain": "adarsh",
+    "owner": {
+        "repo": "https://github.com/dumbo-the-developer/dumbo-the-developer.github.io",
+        "email": "gak1901p@gmail.com"
+    },
+    "record": {
+        "CNAME": "dumbo-the-developer.github.io"
+    },
+    "proxied": false
+}

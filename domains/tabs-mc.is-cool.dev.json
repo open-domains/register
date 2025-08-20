@@ -1,0 +1,16 @@
+{
+    "description": "Minecraft server subdomain",
+    "domain": "is-cool.dev",
+    "subdomain": "tabs-mc",
+
+    "owner": {
+        "repo": "https://github.com/fazi3294/register",
+        "email": "tab.f3294@gmail.com"
+    },
+
+    "record": {
+        "A": ["60.30.249.53"]
+    },
+
+    "proxied": false
+}

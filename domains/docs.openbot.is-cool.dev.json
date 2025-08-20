@@ -1,0 +1,13 @@
+{
+    "domain": "is-cool.dev",
+    "subdomain": "docs.openbot",
+    "owner": {
+        "email": "mayofurg@gmail.com"
+    },
+    "record": {
+        "A": [
+            "185.2.100.15"
+        ]
+    },
+    "proxied": false
+}

@@ -1,0 +1,13 @@
+{
+    "description": "A website for games to play at school",
+    "domain": "is-local.org",
+    "subdomain": "melvin",
+    "owner": {
+        "repo": "https://github.com/MartinTintin3/melvin-games",
+        "email": "maroymart@gmail.com"
+    },
+    "record": {
+        "CNAME": "melvin4life.com"
+    },
+    "proxied": false
+}

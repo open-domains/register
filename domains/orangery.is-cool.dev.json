@@ -1,0 +1,12 @@
+{
+    "description": "A personal website",
+    "domain": "is-cool.dev",
+    "subdomain": "orangery",
+    "owner": {
+        "email": "dinhbaochauthi99@gmail.com"
+    },
+    "record": {
+        "CNAME": "orangery-me.github.io"
+    },
+    "proxied": false
+}

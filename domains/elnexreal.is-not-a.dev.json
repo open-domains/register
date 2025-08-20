@@ -1,18 +1,15 @@
 {
-    "$schema": "../schemas/domain.schema.json",
-
     "description": "My personal website.",
-
     "domain": "is-not-a.dev",
     "subdomain": "elnexreal",
-
     "owner": {
         "email": "elnexreal@proton.me"
     },
-
     "record": {
-	"NS": ["ns1.epizy.com", "ns2.epizy.com"]
+        "NS": [
+            "ns1.epizy.com",
+            "ns2.epizy.com"
+        ]
     },
-
-    "proxy": false
+    "proxied": false
 }

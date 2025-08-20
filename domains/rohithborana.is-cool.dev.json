@@ -1,0 +1,13 @@
+{
+  "description": "Rohith Borana's personal site",
+  "domain": "is-cool.dev",
+  "subdomain": "rohithborana",
+  "owner": {
+    "repo": "https://github.com/therohithborana/portfolioo",
+    "email": "boranarohith07@gmail.com"
+  },
+  "record": {
+    "CNAME": "rohithborana.vercel.app"
+  },
+  "proxied": false
+}

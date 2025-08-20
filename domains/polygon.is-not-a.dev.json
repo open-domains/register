@@ -1,0 +1,16 @@
+{
+    "domain": "is-not-a.dev",
+    "subdomain": "polygon",
+    "owner": {
+        "email": "remy@kusari.eu.org"
+    },
+    "record": {
+        "NS": [
+            "ns1.hostry.com",
+            "ns2.hostry.com",
+            "ns3.hostry.com",
+            "ns4.hostry.com"
+        ]
+    },
+    "proxied": false
+}

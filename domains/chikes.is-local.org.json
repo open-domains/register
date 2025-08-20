@@ -1,0 +1,13 @@
+{
+    "description": "A Domain for a small startup",
+    "domain": "is-local.org",
+    "subdomain": "chikes",
+    "owner": {
+        "repo": "https://github.com/chikes-web-turquoisetnt/chikes-web-turquoisetnt.github.io",
+        "email": "turquoisetntmultimedia+chikesweb@gmail.com"
+    },
+    "record": {
+        "CNAME": "chikes-web-turquoisetnt.github.io"
+    },
+    "proxied": false
+}

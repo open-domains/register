@@ -1,18 +1,12 @@
 {
-  "$schema": "../schemas/domain.schema.json",
-
-  "description": "portfolio Website",
-
-  "domain": "localplayer.dev",
-  "subdomain": "mj1532",
-
-  "owner": {
-    "email": "business@mj1532.cf"
-  },
-
-  "record": {
-    "CNAME": "portfolio-4s4.pages.dev"
-  },
-
-  "proxy": false
+    "description": "portfolio Website",
+    "domain": "localplayer.dev",
+    "subdomain": "mj1532",
+    "owner": {
+        "email": "business@mj1532.cf"
+    },
+    "record": {
+        "CNAME": "portfolio-4s4.pages.dev"
+    },
+    "proxied": false
 }

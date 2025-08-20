@@ -1,0 +1,12 @@
+{
+    "description": "My website for my personal hobbies.",
+    "domain": "localplayer.dev",
+    "subdomain": "midnight",
+    "owner": {
+        "email": "kankeet56@outlook.com"
+    },
+    "record": {
+        "CNAME": "013c5987-dd17-459e-9cbc-d94ae0540f0e.id.repl.co"
+    },
+    "proxied": false
+}

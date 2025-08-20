@@ -1,18 +1,12 @@
 {
-  "$schema": "../schemas/domain.schema.json",
-
-  "description": "alias",
-
-  "domain": "is-cool.dev",
-  "subdomain": "ihsan",
-
-  "owner": {
-    "email": "mschodeihsan@gmail.com"
-  },
-
-  "record": {
-    "CNAME": "ihsanhardiansah.me",
-  },
-
-  "proxy": false
+    "description": "alias",
+    "domain": "is-cool.dev",
+    "subdomain": "ihsan",
+    "owner": {
+        "email": "mschodeihsan@gmail.com"
+    },
+    "record": {
+        "CNAME": "ihsanhardiansah.me"
+    },
+    "proxied": false
 }

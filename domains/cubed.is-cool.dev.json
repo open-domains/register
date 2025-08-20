@@ -1,0 +1,18 @@
+{
+    "description": "Collection of homemade/selfhosted projects",
+    "domain": "is-cool.dev",
+    "subdomain": "cubed",
+    "owner": {
+        "email": "georgee.keylock@gmail.com"
+    },
+    "record": {
+        "NS": [
+            "ns1.he.net",
+            "ns2.he.net",
+            "ns3.he.net",
+            "ns4.he.net",
+            "ns5.he.net"
+        ]
+    },
+    "proxied": false
+}

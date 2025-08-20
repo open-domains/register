@@ -1,18 +1,12 @@
 {
-  "$schema": "../schemas/domain.schema.json",
-
-  "description": "rafoux.is-not-a.dev (migrated from old service)",
-
-  "domain": "is-not-a.dev",
-  "subdomain": "rafoux",
-
-  "owner": {
-    "email": "rafouxenclio@gmail.com"
-  },
-
-  "record": {
-    "CNAME": "cname.github.com"
-  },
-
-  "proxy": false
+    "description": "rafoux.is-not-a.dev (migrated from old service)",
+    "domain": "is-not-a.dev",
+    "subdomain": "rafoux",
+    "owner": {
+        "email": "rafouxenclio@gmail.com"
+    },
+    "record": {
+        "CNAME": "cname.github.com"
+    },
+    "proxied": false
 }

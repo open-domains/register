@@ -1,0 +1,12 @@
+{
+    "description": "Bot Plaza is a top.gg clone which ensures ever bot application to our site is treated fairly and when declined, a second change is given.",
+    "domain": "is-cool.dev",
+    "subdomain": "botplaza",
+    "owner": {
+        "email": "Jayeshpoudel@outlook.com"
+    },
+    "record": {
+        "CNAME": "739116a3-2f7b-4c25-9f30-eb2546ca6bd5.id.repl.co"
+    },
+    "proxied": false
+}

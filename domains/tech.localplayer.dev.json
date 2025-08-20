@@ -1,0 +1,13 @@
+{
+    "domain": "localplayer.dev",
+    "subdomain": "tech",
+    "owner": {
+        "email": "michaelinso12@gmail.com"
+    },
+    "record": {
+        "AAAA": [
+            "2a09:8280:1:9032:60eb:1797:5542:d0db"
+        ]
+    },
+    "proxied": false
+}
