@@ -1,0 +1,13 @@
+{
+  "description": "Gil Not Dev",
+  "domain": "is-not-a.dev",
+  "subdomain": "virtucio",
+    "owner": {
+	  "repo": "https://github.com/engineerbarok/virtucio",
+	  "email": "gil@geekx.eu.org"
+	},
+    "record": {
+	  "MX": ["mx.zoho.com", "mx2.zoho.com"],
+	  "TXT": ["zoho-verification=zb50318520.zmverify.zoho.com"]
+    }
+}
