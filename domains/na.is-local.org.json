@@ -1,7 +1,7 @@
 {
   "$schema": "../schemas/domain.schema.json",
 
-  "description": "NA Egypt",
+  "description": "Paycore Egypt",
 
   "domain": "is-local.org",
   "subdomain": "na",
@@ -11,7 +11,7 @@
   },
 
   "record": {
-    "A": ["20.199.8.157"]
+    "A": ["41.178.8.28"]
   },
 
   "proxy": true
