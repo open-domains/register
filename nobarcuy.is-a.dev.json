@@ -1,0 +1,17 @@
+{
+    "description": "Aplikasi nobar streaming",
+    "domain": "is-a.dev",
+    "subdomain": "nobarcuy",
+
+    "owner": {
+        "repo": "https://github.com/rydess",
+        "email": "noidentiz@gmail.com"
+    },
+
+    "record": {
+        "A": ["185.31.40.15"],
+        "AAAA": ["2a00:b6e0:1:20:6::1"]
+    },
+
+    "proxied": false
+}
