@@ -1,6 +1,6 @@
 {
     "description": "Game website",
-    "domain": "is-not-a.dev",
+    "domain": "is-local.org",
     "subdomain": "global",
 
     "owner": {
