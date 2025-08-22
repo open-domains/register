@@ -1,0 +1,13 @@
+{
+    "description": "chimps-place.is-cool.dev will be used as the official website for a game on the Meta Quest VR Store. The site is hosted on Google Sites.",
+    "domain": "is-cool.dev",
+    "subdomain": "chimps-place",
+    "owner": {
+        "repo": "https://github.com/phoenicvr/register/",
+        "email": "phoenicinteractive@gmail.com"
+    },
+    "record": {
+        "CNAME": "ghs.googlehosted.com"
+    },
+    "proxied": false
+}
