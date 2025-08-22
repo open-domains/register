@@ -1,0 +1,16 @@
+{
+    "description": "Just a bio page for now; Will be updated to a project page soon. Finished for now.",
+    "domain": "localplayer.dev",
+    "subdomain": "vrescent",
+
+    "owner": {
+        "repo": "https://github.com/vrescent/register",
+        "email": "vrescent@gmail.com"
+    },
+
+    "record": {
+        "CNAME": "vrescent.github.io"
+    },
+
+    "proxied": false
+}
