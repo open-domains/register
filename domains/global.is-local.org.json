@@ -1,0 +1,18 @@
+{
+    "description": "Game website",
+    "domain": "is-local.org",
+    "subdomain": "global",
+
+    "owner": {
+        "repo": "https://github.com/GlobalwideGames/globalwidegames.github.io",
+        "email": "joshuavonharten@gmail.com"
+    },
+
+    "record": {
+"A": [
+"185.199.108.153"
+        ]
+    },
+
+    "proxied": false
+}
