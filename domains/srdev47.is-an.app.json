@@ -4,9 +4,9 @@
   "subdomain": "srdev47",
   "owner": {
     "repo": "https://github.com/srdev47/register",
-    "email": "your-email@example.com"
+    "email": "soumyajirtoy.ray@gmail.com"
   },
   "record": {
-    "CNAME": ["example.com"]
+    "CNAME": "srdev47.github.io"
   }
 }
