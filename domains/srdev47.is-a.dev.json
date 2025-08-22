@@ -1,0 +1,12 @@
+{
+  "description": "Subdomain for my n8n automation project",
+  "domain": "is-a.dev",
+  "subdomain": "srdev47",
+  "owner": {
+    "repo": "https://github.com/srdev47/register",
+    "email": "soumyajirtoy.ray@gmail.com"
+  },
+  "record": {
+    "CNAME": "srdev47.github.io"
+  }
+}
