@@ -1,0 +1,11 @@
+{
+    "domain": "is-cool.dev",
+    "subdomain": "abhi",
+    "owner": {
+        "email": "hello@iabhinav.me"
+    },
+    "record": {
+        "CNAME": "edge.redirect.pizza"
+    },
+    "proxied": false
+}
