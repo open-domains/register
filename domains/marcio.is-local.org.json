@@ -1,0 +1,13 @@
+{
+    "domain": "is-local.org",
+    "subdomain": "marcio",
+    "owner": {
+        "repo": "https://github.com/marcio-web/portfolio",
+        "email": "alvim.dev4@gmail.com"
+    },
+    "description": "Professional portfolio for Márcio Alvim, highlighting business intelligence projects, data analysis expertise, and interactive dashboards.",
+    "record": {
+        "A": ["75.2.60.5"]
+    },
+    "proxied": false
+}
