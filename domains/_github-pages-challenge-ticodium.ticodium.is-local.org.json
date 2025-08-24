@@ -1,0 +1,16 @@
+{
+    "schema": "../schemas/domain.schema.json",
+    "description": "github pages verification",
+    "domain": "is-local.org",
+    "subdomain": "_github-pages-challenge-ticodium.ticodium",
+    "owner": {
+        "repo": "https://github.com/ticodium/",
+        "email": "admin@ticodium.org"
+    },
+    "record": {
+        "TXT": [
+            "d732127614d16bc5dab6779031ccde"
+        ]
+    },
+    "proxied": false
+}
