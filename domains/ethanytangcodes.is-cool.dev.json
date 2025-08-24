@@ -1,0 +1,16 @@
+{
+    "description": "its a site for personal use that i put information on",
+    "domain": "is-cool.dev",
+    "subdomain": "ethanytangcodes",
+
+    "owner": {
+        "repo": "https://github.com/ethanytangcodes/ethanytangcodes.github.io",
+        "email": ethantytang11@gmail.com"
+    },
+
+    "record": {
+        "CNAME": "https://ethanytangcodes.github.io",
+    },
+
+    "proxied": false
+}
