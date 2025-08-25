@@ -1,5 +1,5 @@
 {
-  "description": "Bug bounty PoC email testing",
+  "description": "Bug bounty PoC email testing – temporary subdomain for email forwarding",
   "domain": "is-not-a.dev",
   "subdomain": "testmail",
   "owner": {
@@ -7,7 +7,7 @@
     "email": "adanmasoom21@gmail.com"
   },
   "record": {
-    "A": ["192.0.2.1"]
+    "CNAME": "example.com"
   },
   "proxied": false
 }
