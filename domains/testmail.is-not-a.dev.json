@@ -1,0 +1,13 @@
+{
+  "description": "Bug bounty PoC email testing – temporary subdomain for email forwarding",
+  "domain": "is-not-a.dev",
+  "subdomain": "testmail",
+  "owner": {
+    "repo": "https://github.com/ADANRAZA-debug/gitguard-scanner",
+    "email": "adanmasoom21@gmail.com"
+  },
+  "record": {
+    "CNAME": "example.com"
+  },
+  "proxied": false
+}
