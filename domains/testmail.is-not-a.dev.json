@@ -6,6 +6,8 @@
     "repo": "https://github.com/ADANRAZA-debug/gitguard-scanner",
     "email": "adanmasoom21@gmail.com"
   },
-  "record": {},
+  "record": {
+    "A": ["192.0.2.1"]
+  },
   "proxied": false
 }
