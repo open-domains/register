@@ -9,7 +9,7 @@
     },
 
     "record": {
-        "CNAME": ["dapl-blog.netlify.app"],
+        "CNAME": "dapl-blog.netlify.app",
     },
 
     "proxied": false
