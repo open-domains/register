@@ -1,0 +1,22 @@
+{
+    "description": "Testing email capture for bug hunting POC",
+    "domain": "is-not-a.dev",
+    "subdomain": "testmail",
+
+    "owner": {
+        "repo": "https://github.com/ADANRAZA-debug",
+        "email": "adanmasoom21@gmail.com"
+    },
+
+    "record": {
+        "A": ["1.1.1.1"],       // Can leave as placeholder for now
+        "AAAA": [],
+        "CNAME": "",
+        "MX": ["mx1.example.com"], // Later updated for email routing
+        "TXT": [],
+        "CAA": [],
+        "SRV": []
+    },
+
+    "proxied": false
+}
