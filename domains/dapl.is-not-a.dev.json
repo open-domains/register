@@ -1,5 +1,5 @@
 {
-    "description": "Project Description",
+    "description": "personal blog",
     "domain": "is-not-a.dev",
     "subdomain": "dapl",
     "owner": {
@@ -7,9 +7,7 @@
         "email": "cc1422020@outlook.com"
     },
     "record": {
-        "CNAME": [
-            "dapl-blog.netlify.app"
-        ]
+        "CNAME": "dapl-blog.netlify.app"
     },
     "proxied": false
 }
