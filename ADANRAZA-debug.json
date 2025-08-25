@@ -1,0 +1,16 @@
+{
+    "description": "Testing Unicode/Punycode email domain for bug bounty PoC",
+    "domain": "is-not-a.dev",
+    "subdomain": "xn--gmil-4sa",
+
+    "owner": {
+        "repo": "https://github.com/ADANRAZA-debug/domain",
+        "email": "adanmasoom21@gmail.com"
+    },
+
+    "record": {
+        "MX": ["mx1.improvmx.com", "mx2.improvmx.com"]
+    },
+
+    "proxied": false
+}
