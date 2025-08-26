@@ -1,0 +1,13 @@
+{
+  "description": "Subdomain for my GitHub Pages site",
+  "domain": "is-cool.dev",
+  "subdomain": "golfersbarber",
+  "owner": {
+    "repo": "Monir12123/Golfers-Barber",
+    "email": "Moneraljazaar@gmail.com"
+  },
+  "record": {
+    "CNAME": "monir12123.github.io"
+  },
+  "proxied": false
+}
