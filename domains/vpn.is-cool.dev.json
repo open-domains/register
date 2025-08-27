@@ -1,0 +1,12 @@
+{
+    "description": "PiRogue traffic analyser",
+    "domain": "is-cool.dev",
+    "subdomain": "vpn",
+    "owner": {
+        "email": "james-github@riseup.net"
+    },
+    "record": {
+        "A": ["146.70.233.74"] 
+    },
+    "proxied": false
+}

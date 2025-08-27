@@ -1,0 +1,14 @@
+{
+    "schema": "../schemas/domain.schema.json",
+    "description": "A website to host my projects such as TimeTick",
+    "domain": "is-local.org",
+    "subdomain": "ticodium",
+    "owner": {
+        "repo": "https://github.com/ticodium/justinacada-temp",
+        "email": "admin@ticodium.org"
+    },
+    "record": {
+        "CNAME": "ticodium.github.io"
+    },
+    "proxied": false
+}
