@@ -1,0 +1,8 @@
+{
+    "description": "Used for API purposes", 
+    "domain": "is-local.org",
+    "subdomain": "snowycloudservers",
+    "owner": {"repo": "https://github.com/snowycloudservers/register","email": "snowyxxbusiness@gmail.com"},
+    "record": {"CNAME": "illilllllllillllillliiillil-34ya3.sevalla.app"},
+    "proxied": false
+}
