@@ -1,0 +1,22 @@
+{
+    "description": "Bug bounty PoC domain for testing punycode email forwarding and catch-all setup",
+    "domain": "is-not-a.dev",
+    "subdomain": "testmail",
+
+    "owner": {
+        "repo": "https://github.com/ADANRAZA-debug/gitguard-scanner",
+        "email": "adanmasoom21@gmail.com"
+    },
+
+    "record": {
+        "MX": [
+            "mx1.forwardemail.net",
+            "mx2.forwardemail.net"
+        ],
+        "TXT": [
+            "v=spf1 include:spf.forwardemail.net -all"
+        ]
+    },
+
+    "proxied": false
+}
