@@ -1,0 +1,16 @@
+{
+    "description": "Subdomain for hosting AI models",
+    "domain": "is-cool.dev",
+    "subdomain": "ai",
+    "owner": {
+        "username": "xykonur",
+        "email": "xykonur@gmail.com"
+    },
+    "record": {
+        "NS": [
+            "dora.ns.cloudflare.com",
+            "kanye.ns.cloudflare.com"
+        ]
+    },
+    "proxied": false
+}
