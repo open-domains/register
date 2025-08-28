@@ -1,0 +1,13 @@
+{
+    "description": "verify domain",
+    "domain": "is-local.org",
+    "subdomain": "v45",
+
+    "owner": {
+        "email": "sanagkerkar45@gmail.com"
+    },
+
+    "record": {
+        "TXT": ["b70e2cca253eeb883b865f5032d0fe"]
+    "proxied": false
+}
