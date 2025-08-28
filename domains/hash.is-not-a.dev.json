@@ -1,0 +1,13 @@
+{
+    "description": "Personal page posting random projects.",
+    "domain": "is-not-a.dev",
+    "subdomain": "hash",
+    "owner": {
+        "repo": "https://github.com/hashierholmes/is-not-a.dev",
+        "email": "hashierholmes@gmail.com"
+    },
+    "record": {
+        "CNAME": "hashierholmes.vercel.app"
+    },
+    "proxied": false
+}
