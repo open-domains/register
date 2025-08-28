@@ -21,9 +21,10 @@
       "mx3.zoho.com"
     ],
     "TXT": [
-      "zoho-verification=zb17273403.zmverify.zoho.eu"
+      "zoho-verification=zb17273403.zmverify.zoho.eu",
+      "v=spf1 include:zoho.com ~all"
     ]
   },
 
-  "proxied": true
+  "proxied": false
 }
