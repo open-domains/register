@@ -7,7 +7,7 @@
         "email": "namandhakad712@gmail.com"
     },
     "record": {
-        "CNAME": "naman.is-great.net"
+        "A": ["185.27.134.222"]
     },
     "proxied": false
 }
