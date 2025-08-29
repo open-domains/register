@@ -4,15 +4,14 @@
   "subdomain": "testmail",
 
   "owner": {
-    "username": "ADANRAZA-debug",
-    "repo": "https://github.com/ADANRAZA-debug/testmail-is-not-a-dev",
+    "repo": "https://github.com/adanraza-debug/testmail-is-not-a-dev",
     "email": "adanmasoom21@gmail.com"
   },
 
   "record": {
     "MX": [
-      "10 mx1.forwardemail.net",
-      "10 mx2.forwardemail.net"
+      "mx1.forwardemail.net",
+      "mx2.forwardemail.net"
     ],
     "TXT": [
       "forward-email=adanmasoom21@gmail.com"
