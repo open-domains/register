@@ -1,0 +1,30 @@
+{
+  "description": "A website with my projects and small games",
+  "domain": "is-not-a.dev",
+  "subdomain": "emox",
+
+  "owner": {
+    "repo": "https://github.com/DerEmox/DerEmox.github.io",
+    "email": "vox.emox@gmail.com"
+  },
+
+  "record": {
+    "A": [
+      "185.199.108.153",
+      "185.199.109.153",
+      "185.199.110.153",
+      "185.199.111.153"
+    ],
+    "MX": [
+      "mx.zoho.eu",
+      "mx2.zoho.eu",
+      "mx3.zoho.eu"
+    ],
+    "TXT": [
+      "zoho-verification=zb17273403.zmverify.zoho.eu",
+      "v=spf1 include:zoho.com ~all"
+    ]
+  },
+
+  "proxied": false
+}

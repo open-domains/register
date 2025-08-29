@@ -1,0 +1,12 @@
+{
+  "description": "Blog Scetch",
+  "domain": "is-cool.dev",
+  "subdomain": "pro9669",
+  "owner": {
+    "repo": "https://github.com/haitham-512/haitham-512.github.io",
+    "email": "haithamuser512@gmail.com"
+  },
+  "record": {
+     "A": ["185.199.109.153"] 
+  }
+}
