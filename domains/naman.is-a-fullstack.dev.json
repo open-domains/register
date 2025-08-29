@@ -1,0 +1,13 @@
+{
+    "description": "Portfolio",
+    "domain": "is-a-fullstack.dev",
+    "subdomain": "naman",
+    "owner": {
+        "repo": "https://github.com/namandhakad712",
+        "email": "namandhakad712@gmail.com"
+    },
+    "record": {
+        "A": ["216.198.79.1"]
+    },
+    "proxied": false
+}

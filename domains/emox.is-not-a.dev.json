@@ -16,14 +16,15 @@
       "185.199.111.153"
     ],
     "MX": [
-      "mx.zoho.com",
-      "mx2.zoho.com",
-      "mx3.zoho.com"
+      "mx.zoho.eu",
+      "mx2.zoho.eu",
+      "mx3.zoho.eu"
     ],
     "TXT": [
-      "zoho-verification=zb17273403.zmverify.zoho.eu"
+      "zoho-verification=zb17273403.zmverify.zoho.eu",
+      "v=spf1 include:zoho.com ~all"
     ]
   },
 
-  "proxied": true
+  "proxied": false
 }
