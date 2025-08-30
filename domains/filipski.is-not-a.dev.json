@@ -10,10 +10,10 @@
 
     "record": {
         "A": [ 
-            "147.185.221.31",
-        ]
+            "147.185.221.31"
+        ],
         "SRV": [
-            { "priority": 10, "weight": 60, "port": 34624, "target": "filipski.is-not-a.dev" },
+            { "priority": 10, "weight": 60, "port": 34624, "target": "filipski.is-not-a.dev" }
         ]
     },
 
