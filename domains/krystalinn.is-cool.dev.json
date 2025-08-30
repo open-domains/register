@@ -1,0 +1,14 @@
+{
+    "description": "A site displaying Life stats",
+    "domain": "is-cool.dev",
+    "subdomain": "krystalinn",
+    "owner": {
+        "email": "flingo_07@proton.me"
+    },
+     "record": {
+        "A": [
+            "216.198.79.1"
+        ]
+    },
+    "proxied": false
+}
