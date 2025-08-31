@@ -1,0 +1,16 @@
+{
+  "description": "",
+  "domain": "is-local.org",
+  "subdomain": "nova",
+
+  "owner": {
+    "repo": "https://github.com/lazysniperz/register",
+    "email": "ahmed.shafek.official@gmail.com"
+  },
+
+  "record": {
+    "A": ["216.198.79.1"]
+  },
+
+  "proxied": false
+}
