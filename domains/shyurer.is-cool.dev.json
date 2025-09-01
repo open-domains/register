@@ -1,0 +1,9 @@
+{
+    "description": "shyurer linktree",
+    "domain": "is-cool.dev",
+
+    "owner": {
+        "repo": "https://github.com/shyurer/shyurer",
+        "email": "shyurer@gmail.com"
+    }
+}
