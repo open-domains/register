@@ -1,0 +1,12 @@
+{
+    "description": "kuro.is-cool.dev",
+    "domain": "is-cool.dev",
+    "subdomain": "kuro",
+    "owner": {
+        "repo": "https://gitlab.com/kuro_r/pages/"
+    },
+    "record": {
+        "CNAME": "cname.vercel-dns.com"
+    },
+    "proxied": false
+}
