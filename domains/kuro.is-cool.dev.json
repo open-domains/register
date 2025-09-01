@@ -1,0 +1,12 @@
+{
+    "description": "kuro.is-cool.dev",
+    "domain": "is-cool.dev",
+    "subdomain": "kuro",
+    "owner": {
+        "repo": "https://gitlab.com/kuro_r/pages/"
+    },
+    "record": {
+        "CNAME": "pages-lime-gamma.vercel.app"
+    },
+    "proxied": false
+}
