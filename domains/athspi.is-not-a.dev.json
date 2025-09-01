@@ -1,0 +1,13 @@
+{
+    "description": "A showcase of my personal project.",
+    "domain": "is-not-a.dev",
+    "subdomain": "athspi",
+    "owner": {
+        "username": "athspi",
+        "email": "sandipghotaneygurung@gmail.com"
+    },
+    "record": {
+        "CNAME": "ns1.byet.org"
+    },
+    "proxied": false
+}
