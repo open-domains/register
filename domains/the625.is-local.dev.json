@@ -1,0 +1,16 @@
+{
+  "description": "Website for The 625 project",
+  "domain": "is-local.dev",
+  "subdomain": "the625",
+
+  "owner": {
+    "repo": "https://github.com/amyhoyt625/the625",
+    "email": "amylenahoyt@gmail.com"
+  },
+
+  "record": {
+    "CNAME": "amyhoyt625.github.io"
+  },
+
+  "proxied": false
+}
