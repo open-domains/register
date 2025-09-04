@@ -1,0 +1,17 @@
+{
+  "description": "Personal project and email forwarding tests",
+  "domain": "is-not-a.dev",
+  "subdomain": "xn--testmil-lwa",
+
+  "owner": {
+    "repo": "https://github.com/ADANRAZA-debug/gitguard-scanner",
+    "email": "adanmasoom21@gmail.com"
+  },
+
+  "record": {
+    "MX": ["mx1.improvmx.com", "mx2.improvmx.com"],
+    "TXT": ["v=spf1 include:spf.improvmx.com ~all"]
+  },
+
+  "proxied": false
+}
