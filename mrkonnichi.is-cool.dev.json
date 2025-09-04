@@ -1,0 +1,15 @@
+{
+    "description": "personal domain for hobbies",
+    "domain": "is-cool.dev",
+    "subdomain": "mrkonnichi",
+    "owner": {
+        "email": "domain.dwelling846@aleeas.com"
+    },
+
+    "record": {
+        "CNAME": "ns61.cloudns.net",
+        "CNAME": "ns62.cloudns.com",
+        "CNAME": "ns63.cloudns.net",
+        "CNAME": "ns64.cloudns.uk",
+    "proxied": false
+}
