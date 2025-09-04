@@ -8,9 +8,7 @@
     },
 
     "record": {
-        "CNAME": [
-            "mrkonnichi.github.io"
-        ]
+        "CNAME": "mrkonnichi.github.io"
     },
     "proxied": false
 }
