@@ -3,11 +3,14 @@
     "domain": "is-cool.dev",
     "subdomain": "mrkonnichi",
     "owner": {
-        "email": "domain.dwelling846@aleeas.com"
+        "email": "domain.dwelling846@aleeas.com",
         "repo": "https://github.com/MrKonnichi/The-Hub"
     },
 
     "record": {
-        "CNAME": "mrkonnichi.github.io",
+        "CNAME": [
+            "mrkonnichi.github.io"
+        ]
+    },
     "proxied": false
 }
