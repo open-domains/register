@@ -1,6 +1,6 @@
 {
   "description": "My project hosted on AWS server",
-  "domain": "is-not-a.dev",
+  "domain": "is-cool.dev",
   "subdomain": "ayushraturi",
   "owner": {
     "repo": "https://github.com/AyushRaturi/domain",
