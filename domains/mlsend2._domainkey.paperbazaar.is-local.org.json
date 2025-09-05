@@ -1,7 +1,7 @@
 {
     "description": "school project",
     "domain": "is-local.org",
-    "subdomain": "paperbazaar",
+    "subdomain": "mlsend2._domainkey.paperbazaar",
 
     "owner": {
         "repo": "https://github.com/satindar31/paperbazaar",
