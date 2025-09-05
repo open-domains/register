@@ -9,7 +9,8 @@
     },
 
     "record": {
-        "A": ["216.198.79.1"]
+        "A": ["216.198.79.1"],
+        "TXT": ["v=spf1 include:_spf.mailersend.net ~all"]
     },
 
     "proxied": false
