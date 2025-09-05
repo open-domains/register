@@ -1,0 +1,13 @@
+{
+    "domain": "localplayer.dev",
+    "subdomain": "forums.clidewoodrealm",
+    "owner": {
+        "email": "maragidevelopments@gmail.com"
+    },
+    "record": {
+        "A": [
+            "185.31.40.16"
+        ]
+    },
+    "proxied": false
+}

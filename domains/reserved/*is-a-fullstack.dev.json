@@ -1,0 +1,20 @@
+{
+    "domain": "is-a-fullstack.dev",
+    "subdomain": "*",
+
+    "owner": {
+        "email": "sys@open-domains.net"
+    },
+
+    "record": {
+    "A": [
+      "153.92.208.196"
+    ],
+
+    "AAAA": [
+      "2a02:4780:f:1e98::1"
+    ]
+  },
+
+    "proxied": false
+}

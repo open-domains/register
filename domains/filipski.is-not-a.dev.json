@@ -1,0 +1,15 @@
+{
+    "description": "i want to get this domain so i can make the link to my raspberrypi memorable",
+    "domain": "is-not-a.dev",
+    "subdomain": "filipski",
+    "owner": {
+        "repo": "https://github.com/Kubaf101010",
+        "email": "kubafilipski10@gmail.com"
+    },
+    "record": {
+        "A": [
+            "147.185.221.31"
+        ]
+    },
+    "proxied": false
+}

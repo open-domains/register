@@ -1,0 +1,15 @@
+{
+    "description": "My portfolio website, showcasing my projects, skills, and experiences in software development and design.",
+    "domain": "is-cool.dev",
+    "subdomain": "prathmesh",
+    "owner": {
+        "repo": "https://github.com/prathmeshsoni/portfolio",
+        "email": "info@soniprathmesh.com"
+    },
+    "record": {
+        "A": [
+            "216.198.79.1"
+        ]
+    },
+    "proxied": false
+}

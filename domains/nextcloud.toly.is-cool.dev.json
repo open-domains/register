@@ -1,0 +1,12 @@
+{
+  "description": "Self-hosted file sharing and collaboration platform",
+  "domain": "is-cool.dev",
+  "subdomain": "nextcloud.toly",
+  "owner": {
+    "email": "tolyandr@gmail.com"
+  },
+  "record": {
+    "CNAME": "661606e8c73b.sn.mynetname.net"
+  },
+  "proxied": false
+}

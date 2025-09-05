@@ -22,7 +22,7 @@ If you like this service and want us to continue running it, please consider don
 Make sure to join our Discord server:
 https://discord.gg/kVjkg6VBwa
 
-## Domains
+## 🌍 Available Domains
 
 | Available Domains |
 |:-:|
@@ -31,6 +31,11 @@ https://discord.gg/kVjkg6VBwa
 | [`*.is-local.org`](https://is-local.org) |
 | [`*.is-not-a.dev`](https://is-not-a.dev) |
 | [`*.localplayer.dev`](https://localplayer.dev) |
+| [`*.open-comm.org`](https://open-comm.org) |
+
+
+> [!NOTE]
+> `open-comm.org` is not currently listed on the [Public Suffix List (PSL)](https://publicsuffix.org/).
 
 > [!NOTE]
 > Wildcard domains (like `*.example.is-not-a.dev`) are supported too, but the reason for their registration should be very clear and described in detail.
@@ -39,27 +44,29 @@ https://discord.gg/kVjkg6VBwa
 [badge-dnssec]:https://shields.io/badge/%20-DNSSEC-blue?logo=moleculer&logoColor=white&style=plastic?cacheSeconds=3600
 [badge-ssl]:https://shields.io/badge/SSL-Required-blue?style=plastic?cacheSeconds=3600
 
-### Settings
+### ⚙️ Settings
 
-| Setting | [`is-a-fullstack.dev`](https://is-a-fullstack.dev)  | [`is-cool.dev`](https://is-cool.dev) | [`is-local.org`](https://is-local.org) | [`is-not-a.dev`](https://is-not-a.dev) | [`localplayer.dev`](https://localplayer.dev) |
-|-|-|-|-|-|-|
-| PSL | ✅ | ✅ | ✅ | ✅ | ✅ |
-| [DNSSEC][dnssec] | ✅ | ✅ | ✅ | ✅ | ✅ |
-| Email | ✅ | ✅ | ✅ | ✅ | ✅ |
-| SSL/TLS* | [Full][ssl-full] | [Full][ssl-full] | [Full][ssl-full] | [Full][ssl-full] | [Full][ssl-full] |
-| Always Use HTTPS* | ✅ | ✅ | ✅ | ✅ | ✅ |
-| HTTP Strict Transport Security (HSTS) | ✅ | ✅ | ✅ | ✅ | ✅ |
-| Minimum TLS Version* | 1.2 | 1.2 | 1.2 | 1.2 | 1.2 |
-| Opportunistic Encryption, TLS 1.3* | ✅ | ✅ | ✅ | ✅ | ✅ |
-| WAF (Web Application Firewall)* | Medium Security Level | Medium Security Level | Medium Security Level | Medium Security Level | Medium Security Level |
-| Browser Integrity Check* | ✅ | ✅ | ✅ | ✅ | ✅ |
-| [Caching Level][caching-levels], Browser Cache TTL* | Standard, 4 hours | Standard, 4 hours | Standard, 4 hours | Standard, 4 hours | Standard, 4 hours |
+| Setting | [`is-a-fullstack.dev`](https://is-a-fullstack.dev)  | [`is-cool.dev`](https://is-cool.dev) | [`is-local.org`](https://is-local.org) | [`is-not-a.dev`](https://is-not-a.dev) | [`localplayer.dev`](https://localplayer.dev) | [`open-comm.org`](https://open-comm.org) |
+|-|-|-|-|-|-|-|
+| PSL | ✅ | ✅ | ✅ | ✅ | ✅ | ❌ |
+| [DNSSEC][dnssec] | ✅ | ✅ | ✅ | ✅ | ✅ | ✅ |
+| Email | ✅ | ✅ | ✅ | ✅ | ✅ | ✅ |
+| SSL/TLS* | [Full][ssl-full] | [Full][ssl-full] | [Full][ssl-full] | [Full][ssl-full] | [Full][ssl-full] | [Full][ssl-full] |
+| Always Use HTTPS* | ✅ | ✅ | ✅ | ✅ | ✅ | ✅ |
+| HTTP Strict Transport Security (HSTS) | ✅ | ✅ | ✅ | ✅ | ✅ | ✅ |
+| Minimum TLS Version* | 1.2 | 1.2 | 1.2 | 1.2 | 1.2 | 1.2 |
+| Opportunistic Encryption, TLS 1.3* | ✅ | ✅ | ✅ | ✅ | ✅ | ✅ |
+| WAF (Web Application Firewall)* | Medium Security Level | Medium Security Level | Medium Security Level | Medium Security Level | Medium Security Level | Medium Security Level |
+| Browser Integrity Check* | ✅ | ✅ | ✅ | ✅ | ✅ | ✅ |
+| [Caching Level][caching-levels], Browser Cache TTL* | Standard, 4 hours | Standard, 4 hours | Standard, 4 hours | Standard, 4 hours | Standard, 4 hours | Standard, 4 hours |
 
 \*Only available when your domain has Cloudflare's proxy (`"proxied": true`) enabled
 
-[dnssec]:https://developers.cloudflare.com/dns/additional-options/dnssec
-[ssl-full]:https://developers.cloudflare.com/ssl/origin-configuration/ssl-modes/full
+[dnssec]:https://developers.cloudflare.com/dns/additional-options/dnssec  
+[ssl-full]:https://developers.cloudflare.com/ssl/origin-configuration/ssl-modes/full  
 [caching-levels]:https://developers.cloudflare.com/cache/how-to/set-caching-levels
+
+---
 
 ## Register
 

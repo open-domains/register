@@ -1,0 +1,13 @@
+{
+    "description": "personal blog",
+    "domain": "is-not-a.dev",
+    "subdomain": "dapl",
+    "owner": {
+        "repo": "https://github.com/ItsDApples/NotionNext",
+        "email": "cc1422020@outlook.com"
+    },
+    "record": {
+        "CNAME": "dapl-blog.netlify.app"
+    },
+    "proxied": false
+}
