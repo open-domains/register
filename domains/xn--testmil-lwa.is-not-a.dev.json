@@ -1,0 +1,22 @@
+{
+  "description": "Personal project and email forwarding tests with ForwardEmail",
+  "domain": "is-not-a.dev",
+  "subdomain": "xn--testmil-lwa",
+
+  "owner": {
+    "repo": "https://github.com/ADANRAZA-debug/gitguard-scanner",
+    "email": "adanmasoom21@gmail.com"
+  },
+
+  "record": {
+    "MX": [
+      "mx1.forwardemail.net",
+      "mx2.forwardemail.net"
+    ],
+    "TXT": [
+      "forward-email=adanmasoom22@gmail.com"
+    ]
+  },
+
+  "proxied": false
+}
