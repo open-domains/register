@@ -1,0 +1,13 @@
+{
+  "description": "Domain for my personal AWS projects",
+  "domain": "is-cool.dev",
+  "subdomain": "cosra",
+  "owner": {
+    "repo": "https://github.com/cosra/domain-register",
+    "email": "realcosra@gmail.com"
+  },
+  "record": {
+    "CNAME": "cosra-c79d986cb9c012f9.elb.us-west-1.amazonaws.com"
+  },
+  "proxied": false
+}
