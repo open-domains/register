@@ -1,7 +1,7 @@
 {
     "description": "school project",
     "domain": "is-local.org",
-    "subdomain": "paperbazaar",
+    "subdomain": "mta",
 
     "owner": {
         "repo": "https://github.com/satindar31/paperbazaar",
@@ -9,8 +9,7 @@
     },
 
     "record": {
-        "A": ["216.198.79.1"],
-        "TXT": ["v=spf1 include:_spf.mailersend.net ~all"]
+        "CNAME": "mailersend.net"
     },
 
     "proxied": false
