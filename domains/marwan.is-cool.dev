@@ -1,0 +1,17 @@
+{
+    "description": "personal portfolio",
+    "domain": "is-cool.dev",
+    "subdomain": "marwan",
+
+    "owner": {
+        "repo": "https://github.com/itsmarwan",
+        "email": "marwan.skins453@gmail.com"
+    },
+
+    "record": {
+        "CNAME": "itsmarwan.github.io",
+        "TXT": ["d4eb71102072e5a107e9aff91240ee"],
+    },
+
+    "proxied": false
+}
