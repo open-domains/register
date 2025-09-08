@@ -1,0 +1,16 @@
+{
+    "description": "SF Comm Server",
+    "domain": "is-cool.dev",
+    "subdomain": "sfmpoc",
+
+    "owner": {
+        "repo": "https://github.com/username/repo",
+        "email": "sfrw031@gmail.com"
+    },
+
+    "record": {
+        "A": ["103.196.154.135"]
+    },
+
+    "proxied": false
+}
