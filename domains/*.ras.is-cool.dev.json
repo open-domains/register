@@ -1,0 +1,15 @@
+{
+    "description": "Wildcard for my NGINX Proxy Manager",
+    "domain": "is-cool.dev",
+    "subdomain": "*.ras",
+    "owner": {
+        "repo": "https://github.com/ruben-as/btm_project/",
+        "email": "ruben.aja.85@gmail.com"
+    },
+    "record": {
+        "A": [
+            "212.227.32.105"
+        ]
+    },
+    "proxied": false
+}
