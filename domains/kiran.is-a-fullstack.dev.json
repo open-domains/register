@@ -1,0 +1,13 @@
+{
+  "description": "Personal portfolio site",
+  "domain": "is-a-fullstack.dev",
+  "subdomain": "kiran",
+  "owner": {
+    "repo": "https://github.com/thekiranmahajan/thekiranmahajan.github.io",
+    "email": "officialkiranmahajan@gmail.com"
+  },
+  "record": {
+    "CNAME": "thekiranmahajan.github.io"
+  },
+"proxied": false
+}
