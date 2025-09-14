@@ -1,0 +1,16 @@
+{
+    "description": "Stacks project hosted on Vercel",
+    "domain": "is-a.dev",
+    "subdomain": "stacks",
+
+    "owner": {
+        "repo": "https://github.com/Gouthamsai78/register",
+        "email": "gouthamsai480@gmail.com"
+    },
+
+    "record": {
+        "CNAME": "cname.vercel-dns.com"
+    },
+
+    "proxied": false
+}
