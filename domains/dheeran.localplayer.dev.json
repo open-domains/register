@@ -1,0 +1,9 @@
+{
+    "domain": "localplayer.dev",
+    "subdomain": "dheeran",
+    "owner": {
+        "repo": "https://github.com/teamblackwing/dheeran",
+        "email": "dheerandps@gmail.com"
+    },
+    "proxied": false
+}
