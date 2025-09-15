@@ -1,0 +1,13 @@
+{
+  "description": "Personal website that's hosted on github pages.",
+  "domain": "localplayer.dev",
+  "subdomain": "dheeran",
+  "owner": {
+    "repo": "https://github.com/teamblackwing/dheeran",
+    "email": "dheerandps@gmail.com"
+  },
+  "record": {
+    "CNAME": "https://dheeran.vercel.app/"
+  },
+  "proxied": false
+}
