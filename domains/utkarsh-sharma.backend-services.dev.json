@@ -1,0 +1,17 @@
+[{
+  "description": "Subscription tracker app build with Nodejs, mongodb, arcjet, upstash, nodemailer and REST APIs. Deployed on EC2 with Docker.",
+  "domain": "backend-services.dev",
+  "subdomain": "utkarsh-sharma",
+
+  "owner": {
+    "repo": "https://github.com/Utkarsh9571/Subscription-tracker.git",
+    "email": "utkarshsharma9571@gmail.com"
+  },
+
+  "record": {
+    "A": ["54.226.105.207"],
+    "TXT": ["open-domains-verification=utkarsh-subscription-tracker-verify-2025"]
+  },
+
+  "proxied": false
+}]
