@@ -1,0 +1,12 @@
+{
+    "description": "A website for a local debate and speech club.",
+    "domain": "is-local.org",
+    "subdomain": "cfc",
+    "owner": {
+        "email": "ezraclintoc@gmail.com"
+    },
+    "record": {
+      "CNAME": "cfc-snowy.vercel.app"
+    },
+    "proxied": false
+}
