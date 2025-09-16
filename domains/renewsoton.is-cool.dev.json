@@ -9,7 +9,7 @@
     },
 
     "record": {
-        "A": [45.55.72.95],
+        "A": ["45.55.72.95"],
         "TXT": ["google-site-verification=49XMYQ5smDFoap4623GwzwwJOYEZm6GFmsAiyTieyeA"]
     },
 
