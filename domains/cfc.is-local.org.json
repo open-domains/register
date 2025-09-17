@@ -6,7 +6,8 @@
         "email": "ezraclintoc@gmail.com"
     },
     "record": {
-      "CNAME": "cfc-snowy.vercel.app"
+      "CNAME": "cfc-snowy.vercel.app",
+      "TXT": ["google-site-verification=Eb44T5l7HLkqOX9UwQsELrwfQQRKhNMsv8E7H7-USY4"]
     },
     "proxied": false
 }
