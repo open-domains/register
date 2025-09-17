@@ -1,0 +1,17 @@
+{
+    "description": "Testing subdomain for my applications",
+    "domain": "is-not-a.dev",
+    "subdomain": "jmtest",
+
+    "owner": {
+        "repo": "https://github.com/jiri-martinek/register_jmtest",
+        "email": "j4s@centrum.cz"
+    },
+
+    "record": {
+        "A": ["20.105.216.46"],
+        "TXT": ["C3ACBF7BB0A79767036AB889ED75EACD3595CB9886C6A54C3D5EE1FCE1534036"]
+    },
+
+    "proxied": false
+}
