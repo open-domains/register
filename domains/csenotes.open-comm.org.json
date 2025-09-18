@@ -8,6 +8,7 @@
   },
   "record": {
     "CNAME": "ghs.googlehosted.com"
+    "TXT": "google-site-verification=-VS_Blb1RIH930A3HqvceVo8D7qO6xRrj6loXgTPo40"
   },
   "proxied": true
 }
