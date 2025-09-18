@@ -1,0 +1,13 @@
+{
+  "description": "CSEnotes – Free Civil Service Exam Review Notes 2026",
+  "domain": "open-comm.org",
+  "subdomain": "csenotes",
+  "owner": {
+    "repo": "https://github.com/AldwinJay/open-domains",
+    "email": "dwinsolutions@outlook.ph"
+  },
+  "record": {
+    "TXT": "google-site-verification=-VS_Blb1RIH930A3HqvceVo8D7qO6xRrj6loXgTPo40"
+  },
+  "proxied": false
+}
