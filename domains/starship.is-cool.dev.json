@@ -1,9 +1,11 @@
 {
-  "starship": {
-    "CNAME": ["starship-site-github-io.pages.dev"]
+  "subdomain": "starship",
+  "domain": "is-cool.dev",
+  "record": {
+    "CNAME": "starship-site-github-io.pages.dev"
   },
   "owner": {
-    "email": ["domains@starship-app.com"],
-    "username": ["starship-site"]
+    "email": "domains@starship-app.com",
+    "username": "starship-site"
   }
 }
