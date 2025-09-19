@@ -1,8 +1,9 @@
 {
   "starship": {
-    "CNAME": ["starship-site-github-io.pages.dev"],
+    "CNAME": ["starship-site-github-io.pages.dev"]
+  },
+  "owner": {
+    "email": ["domains@starship-app.com"],
+    "username": ["starship-site"]
   }
-"owner": {
-  "email": ["domains@starship-app.com"]
-  "username": ["starship-site"]
 }
