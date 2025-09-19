@@ -1,6 +1,6 @@
 {
   "subdomain": "starship",
-  "domain": "is-cool.dev",
+  "domain": "localplayer.dev",
   "record": {
     "CNAME": "starship-site-github-io.pages.dev"
   },
