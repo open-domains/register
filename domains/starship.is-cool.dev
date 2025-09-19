@@ -1,5 +1,6 @@
 {
-  "example": {
+  "starship": {
     "CNAME": ["starship-site-github-io.pages.dev"],
   }
+owner: ["domains@starship-app.com]
 }
