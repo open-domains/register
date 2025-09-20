@@ -1,0 +1,13 @@
+{
+  "description": "This is a personal website for my discord bot stock of grow a garden",
+  "subdomain": "api.giahuy",
+  "domain": "is-local.org",
+  "owner": {
+    "github": "mtheintrude23",
+    "email": "nguyengiahuy123465@gmail.com"
+  },
+  "record": {
+    "CNAME": "api-tmyd.onrender.com"
+  },
+  "proxied": true
+}
