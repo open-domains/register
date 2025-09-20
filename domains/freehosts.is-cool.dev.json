@@ -1,8 +1,8 @@
 {
     "description": "",
 
-    "domain": "is-local.org",
-    "subdomain": "ram-llc",
+    "domain": "is-cool.dev",
+    "subdomain": "freehosts",
 
     "owner": {
         "repo": "https://github.com/ShadowGaming100",
@@ -10,7 +10,7 @@
     },
 
     "record": {
-        "NS": ["darwin.ns.cloudflare.com", "mallory.ns.cloudflare.com"]
+        "NS": ["harlan.ns.cloudflare.com", "mina.ns.cloudflare.com"]
     },
 
     "proxied": false
