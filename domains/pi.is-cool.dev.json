@@ -1,0 +1,14 @@
+{
+    "description": "Test Gemini Protocol Server",
+    "domain": "is-cool.dev",
+    "subdomain": "pi",
+
+    "owner": {
+        "repo": "https://github.com/geomlattice/orbit",
+        "email": "logvoid@disroot.org"
+    },
+
+    "record": {
+        "A": ["150.136.110.52"]
+    }
+}
