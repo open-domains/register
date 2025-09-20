@@ -1,0 +1,14 @@
+{
+    "domain": "is-local.org",
+    "subdomain": "stock",
+
+    "owner": {
+        "username": "sanalchandran",
+        "email": "sanalchandran23@gmail.com"
+    },
+
+    "record": {
+        "A": ["152.67.6.243"]
+    },
+    "proxied": false
+}
