@@ -1,0 +1,16 @@
+{
+    "description": "GlyphNexus Website",
+    "domain": "localplayer.dev",
+    "subdomain": "glyphnexus",
+
+    "owner": {
+        "repo": "https://github.com/D34ThGamer/register",
+        "email": "vishwamdave69@yahoo.com"
+    },
+
+    "record": {
+        "CNAME": "https://glyphnexus-app.onrender.com",
+    },
+
+    "proxied": false
+}
