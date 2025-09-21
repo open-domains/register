@@ -192,3 +192,21 @@ t("All files in the domains directory must have a .json extension", (t) => {
         t.pass();
     }
 });
+
+t("TXT Records should be arrays not just strings", (t) => {
+    const files = fs.readdirSync(domainsPath).filter(file => {
+        const filePath = path.join(domainsPath, file);
+        return file.endsWith(".json") && fs.lstatSync(filePath).isFile();
+    });
+
+    files.forEach(file => {
+        const filePath = path.join(domainsPath, file);
+        const data = fs.readJsonSync(filePath);
+        if (data.record && data.record.TXT !== undefined) {
+            t.true(Array.isArray(data.record.TXT), `${file}: TXT record should be an array`);
+            data.record.TXT.forEach((txt, idx) => {
+                t.is(typeof txt, "string", `${file}: TXT record at index ${idx} should be a string`);
+            });
+        }
+    });
+});
