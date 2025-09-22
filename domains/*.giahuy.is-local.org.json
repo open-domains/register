@@ -1,6 +1,6 @@
 {
   "description": "This is a personal website for my discord bot stock of grow a garden",
-  "subdomain": "api.giahuy",
+  "subdomain": "*.giahuy",
   "domain": "is-local.org",
   "owner": {
     "github": "mtheintrude23",
