@@ -1,0 +1,16 @@
+{
+  "description": "CS6604 Traffic Safety Project Domain",
+  "domain": "is-cool.dev",
+  "subdomain": "cs6604-trafficsafety",
+
+  "owner": {
+    "repo": "https://github.com/username/cs6604-trafficsafety",
+    "email": "cchengshun@vt.edu"
+  },
+
+  "record": {
+    "CNAME": "Ulrixon.github.io"
+  },
+
+  "proxied": false
+}
