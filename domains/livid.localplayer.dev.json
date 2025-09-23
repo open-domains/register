@@ -1,0 +1,11 @@
+{
+    "domain": "localplayer.dev",
+    "subdomain": "livid",
+    "owner": {
+        "email": "jamel50792@gmail.com",
+    },
+    "record": {
+        "CNAME": "davidspoofy.github.io"
+    },
+    "proxied": false
+}
