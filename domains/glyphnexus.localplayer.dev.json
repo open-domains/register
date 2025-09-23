@@ -9,7 +9,7 @@
     },
 
     "record": {
-        "CNAME": "d34thgamer.github.io"
+        "A": "216.24.57.1"
     },
 
     "proxied": false
