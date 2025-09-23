@@ -1,0 +1,15 @@
+{
+    "description": "Github Verification for livid.localplayer.dev",
+    "domain": "localplayer.dev",
+    "subdomain": "_github-pages-challenge-davidspoofy",
+    "owner": {
+        "repo": "https://github.com/davidspoofy/davidspoofy.github.io",
+        "email": "jamel50792@gmail.com"
+    },
+    "record": {
+        "TXT": [
+            "b65136881f34e0eef47f0a588b6f59"
+        ]
+    },
+    "proxied": false
+}
