@@ -1,0 +1,16 @@
+{
+    "description": "Just a test",
+    "domain": "localplayer.dev",
+    "subdomain": "thenotorious",
+
+    "owner": {
+        "repo": "https://github.com/amir-khazaee/register",
+        "email": "amir.mahdi.khazeee@gmail.com"
+    },
+
+    "record": {
+        "A": ["91.99.185.48"]
+    },
+
+    "proxied": false
+}
