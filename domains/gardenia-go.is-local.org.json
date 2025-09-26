@@ -1,7 +1,7 @@
 {
   "description": "Wildcard subdomains for Gardenia Grand Opening",
   "domain": "is-local.org",
-  "subdomain": "*.gardenia-go",
+  "subdomain": "gardenia-go",
   "owner": {
     "repo": "https://github.com/Lightsoft123",
     "email": "stevenfebrianto771@gmail.com"
