@@ -9,13 +9,11 @@
   },
 
   "record": {
-    "A": ["216.198.79.1"],
-
     "CNAME": {
+      "qnit": "cname.vercel-dns.com",
       "brevo1._domainkey.qnit": "b1.qnit-is-local-org.dkim.brevo.com",
       "brevo2._domainkey.qnit": "b2.qnit-is-local-org.dkim.brevo.com"
     },
-
     "TXT": {
       "qnit": ["brevo-code:bac82ac18a607480e266004d04c4b8e5"],
       "_dmarc.qnit": ["v=DMARC1; p=none; rua=mailto:rua@dmarc.brevo.com"]
