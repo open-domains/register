@@ -7,7 +7,6 @@
     "email": "stevenfebrianto771@gmail.com"
   },
   "record": {
-    "A": ["216.198.79.1"],
-    "CNAME": "23d3a26c1c968c41.vercel-dns-017.com"
+    "A": ["216.198.79.1"]
   }
 }
