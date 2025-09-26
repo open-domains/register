@@ -1,0 +1,16 @@
+{
+  "description": "An Online Study Material Repository For College Students",
+  "domain": "is-local.org",
+  "subdomain": "qnit",
+
+  "owner": {
+    "repo": "https://github.com/Sayan-Ghosh-25/qnit-project",
+    "email": "bandanagho674@gmail.com"
+  },
+
+  "record": {
+    "A": ["216.198.79.1"]
+  },
+
+  "proxied": false
+}
