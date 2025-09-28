@@ -1,0 +1,11 @@
+{
+    "description": "Personal portfolio showcasing my projects and skills.",
+    "domain": "is-cool.dev",
+    "subdomain": "harsh",
+    "owner": {
+        "email": "harshb7839@gmail.com"
+    },
+    "record": {
+        "CNAME": "harshz.vercel.app"
+    }
+}
