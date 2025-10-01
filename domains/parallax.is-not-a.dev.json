@@ -18,7 +18,7 @@
 
         "MX": ["mx1.forwardemail.net", "mx2.forwardemail.net"],
 
-        "TXT": "forward-email=loser.alt.2025@gmail.com"
+        "TXT": ["forward-email=loser.alt.2025@gmail.com"]
     },
     "proxied": false
 }
