@@ -1,0 +1,18 @@
+{
+    "description": "University of Belize Community Docker instance admin SSH tunnel",
+    "domain": "is-local.org",
+    "subdomain": "ubedubz",
+
+    "owner": {
+        "username": "university-of-belize",
+        "email": "mmedina@ub.edu.bz"
+    },
+
+    "record": {
+        "NS": [
+            "annalise.ns.cloudflare.com",
+            "venkat.ns.cloudflare.com"
+        ]
+    },
+    "proxied": false
+}
