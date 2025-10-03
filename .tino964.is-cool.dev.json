@@ -1,6 +1,6 @@
 {
   "description": "Subdomain für Tino964 Portfolio",
-  "domain": ".is-a-cool.dev",
+  "domain": ".is-cool.dev",
   "subdomain": ".tino964",
   "owner": {
     "repo": "https://github.com/tino964MC/",
