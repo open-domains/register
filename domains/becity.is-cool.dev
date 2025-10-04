@@ -1,0 +1,22 @@
+{
+    "description": "BeCity Minecraft Server",
+    "domain": "is-cool.dev",
+    "subdomain": "becity",
+
+    "owner": {
+        "repo": "https://github.com/janni142",
+        "email": "*@janni142.is-cool.dev"
+    },
+
+    "record": {
+        "A": [
+            "185.199.108.153",
+            "185.199.109.153",
+            "185.199.110.153",
+            "185.199.111.153"
+        ],
+        "NS": ["galileo.exaroton.com", "columbus.exaroton.com"]
+    },
+
+    "proxied": false
+}
