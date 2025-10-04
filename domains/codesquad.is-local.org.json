@@ -6,7 +6,7 @@
     },
     "record": {
         "CNAME": "codesquad-one.vercel.app",
-        "TXT":"vc-domain-verify=codesquad.is-local.org,c4233ac1fdf242499652"
+        "TXT": ["vc-domain-verify=codesquad.is-local.org,c4233ac1fdf242499652"]
     },
     "proxied": false
 }
