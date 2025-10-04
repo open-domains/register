@@ -1,0 +1,11 @@
+{
+  "description": "Wildcard subdomains for mintstudios",
+  "domain": "is-cool.dev",
+  "subdomain": "*.mintstudios",
+  "owner": {
+    "email": "hello.mintstudios@gmail.com"
+  },
+  "record": {
+    "CNAME": "cname.vercel-dns.com"
+  }
+}
