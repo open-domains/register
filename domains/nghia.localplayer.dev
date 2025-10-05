@@ -1,1 +1,13 @@
-
+{
+  "description": "Reserve nghia.localplayer.dev for Cloudflare setup",
+  "domain": "localplayer.dev",
+  "subdomain": "nghia",
+  "owner": {
+    "repo": "https://github.com/nghia17420/register",
+    "email": "17420@student.vgu.edu.vn"
+  },
+  "record": {
+    "TXT": ["reserved for future Cloudflare configuration"]
+  },
+  "proxied": false
+}
