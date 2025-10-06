@@ -1,0 +1,17 @@
+{
+    "description": "Personal portfolio :p",
+
+    "domain": "is-cool.dev",
+    "subdomain": "mike",
+
+    "owner": {
+        "repo": "https://github.com/mikevdberge",
+        "email": "mike.van.den.berge+iscooldev@gmail.com"
+    },
+
+    "record": {
+        "CNAME": "mikevdberge.is-a.dev"
+    },
+
+    "proxied": true
+}
