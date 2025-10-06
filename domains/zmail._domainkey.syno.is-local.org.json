@@ -1,0 +1,15 @@
+{
+    "description": "Using this for zoho email",
+    "domain": "is-local.org",
+    "subdomain": "zmail._domainkey.syno",
+    "owner": {
+        "email": "jxkz034@gmail.com"
+    },
+    "record": {
+        "TXT": [
+            "v=DKIM1; k=rsa; p=MIGfMA0GCSqGSIb3DQEBAQUAA4GNADCBiQKBgQCpd+bwHQnZKXfZpXpJm1zwxn30V9yd2H1FidlEyJe8ehOmYDO7NO/RLmT2CqX57cbfrAUwXS+XBDdKh3CYZQ8uRT+m9cGlforLQ5cuE8S3o4wIs/65p7EgWCoCDgnKXZWIfgN5wYxIpw/m2RAe74WhnfkAJZL4ZZkENNpFa+jxhwIDAQAB"
+        ]
+    },
+    
+    "proxied": false
+}

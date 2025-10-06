@@ -1,0 +1,16 @@
+{
+    "description": "My personal website.. ",
+    "domain": "localplayer.dev",
+    "subdomain": "pragyan",
+
+    "owner": {
+        "repo": "https://github.com/pragyanpandey3006/websitepragyan",
+        "email": "pragyanpandeydeveloper@gmail.com"
+    },
+
+    "record": {
+        "A": ["216.198.79.1"]
+    },
+
+    "proxied": false
+}

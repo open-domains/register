@@ -1,0 +1,13 @@
+{
+    "description": "It's a free 2FA manager for everyone with advanced functionalities.",
+    "domain": "is-cool.dev",
+    "subdomain": "vaultic",
+    "owner": {
+        "repo": "https://github.com/pixillium/vaultic",
+        "email": "hidder.outgoing779@passfwd.com"
+    },
+    "record": {
+        "A": ["76.76.21.21"]
+    },
+    "proxied": false
+}

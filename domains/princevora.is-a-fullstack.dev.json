@@ -1,0 +1,11 @@
+{
+    "description": "Prince Vora Portfolio.",
+    "domain": "is-a-fullstack.dev",
+    "subdomain": "princevora",
+    "owner": {
+        "email": "princevora684@gmail.com"
+    },
+    "record": {
+        "CNAME": "princevora.vercel.app"
+    }
+}

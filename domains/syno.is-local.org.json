@@ -1,0 +1,25 @@
+{
+    "description": "The official website for my Roblox development company.",
+    "domain": "is-local.org",
+    "subdomain": "syno",
+
+    "owner": {
+        "repo": "https://github.com/jxkz0/register-",
+        "email": "jxkz034@gmail.com"
+    },
+
+    "record": {
+        "A": ["216.198.79.193"],
+        "TXT": [
+            "zoho-verification=zb30922740.zmverify.zoho.eu",
+            "v=spf1 include:zohomail.eu ~all"
+        ],
+        "MX": [
+            "mx.zoho.eu",
+            "mx2.zoho.eu",
+            "mx3.zoho.eu"
+        ]
+    },
+
+    "proxied": false
+}

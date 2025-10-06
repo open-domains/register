@@ -1,0 +1,13 @@
+{
+    "description": "Games, apps and webtools online",
+    "domain": "localplayer.dev",
+    "subdomain": "milkyway",
+    "owner": {
+        "repo": "https://github.com/milkymirror/milkymirror.github.io",
+        "email": "voxel0@disroot.org"
+    },
+    "record": {
+        "CNAME": "milkymirror.github.io"
+    },
+    "proxied": false
+}

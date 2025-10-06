@@ -1,0 +1,15 @@
+{
+    "description": "Cordless - self-hosted chat app (Discord alternative)",
+    "domain": "is-cool.dev",
+    "subdomain": "cordless",
+
+    "owner": {
+        "email": "vakaris@oranges.lt"
+    },
+
+    "record": {
+        "A": ["78.60.219.244"]
+    },
+
+    "proxied": false
+}

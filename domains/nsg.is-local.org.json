@@ -1,0 +1,13 @@
+{
+    "description": "gaming group website",
+    "domain": "is-local.org",
+    "subdomain": "nsg",
+    "owner": {
+        "repo": "https://github.com/k4lm3d/nsg",
+        "email": "k4lm3d@duck.com"
+    },
+    "record": {
+        "A": ["216.24.57.1"]
+    },
+    "proxied": false
+}

@@ -1,0 +1,15 @@
+{
+  "description": "Self-hosted website and app",
+  "domain": "is-cool.dev",
+  "subdomain": "ngc",
+
+  "owner": {
+    "email": "opendomains@uk.is-a.dev"
+  },
+
+  "record": {
+    "A": ["140.238.228.155"]
+  },
+
+  "proxied": false
+}

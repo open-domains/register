@@ -1,0 +1,16 @@
+{
+    "description": "Subdomain for hosting multiple projects, apps or sites related to JonathanXDR",
+    "domain": "is-cool.dev",
+    "subdomain": "jonathan",
+    "owner": {
+        "username": "JonathanXDR",
+        "email": "jonathan.russ@bluewin.ch"
+    },
+    "record": {
+        "NS": [
+            "ns1.vercel-dns.com",
+            "ns2.vercel-dns.com"
+        ]
+    },
+    "proxied": false
+}

@@ -1,0 +1,16 @@
+{
+    "description": "A website containing games I have made with unity or js",
+    "domain": "is-cool.dev",
+    "subdomain": "sumen",
+
+    "owner": {
+        "repo": "https://github.com/sumen113/sumen",
+        "email": "sumen113k@gmail.com"
+    },
+
+    "record": {
+        "CNAME": "xenophobic-cathlene-tagon-f6734669.koyeb.app"
+    },
+
+    "proxied": false
+}

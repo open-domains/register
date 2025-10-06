@@ -1,0 +1,20 @@
+{
+    "description": "Elora's Calculator",
+    "domain": "is-not-a.dev",
+    "subdomain": "samyeli",
+    "owner": {
+        "username": "https://github.com/elorahub/",
+        "email": "elorahubph@gmail.com"
+    },
+
+    "record": {
+        "A": [
+            "185.199.108.153",
+            "185.199.109.153",
+            "185.199.110.153",
+            "185.199.111.153"
+        ]
+    },
+
+    "proxied": false
+}

@@ -1,0 +1,15 @@
+{
+    "description": "Website for programming contest",
+    "domain": "is-not-a.dev",
+    "subdomain": "wdmpc",
+
+    "owner": {
+        "repo": "https://github.com/mpc-ou/web-design-contest-website.git",
+        "email": "it.mpclub@ou.edu.vn"
+    },
+
+    "record": {
+        "A": ["216.198.79.1"]
+    },
+    "proxied": false
+}

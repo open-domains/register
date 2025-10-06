@@ -1,0 +1,14 @@
+{
+    "description": "Verification Upload",
+    "domain": "is-a-fullstack.dev",
+    "subdomain": "_github-pages-challenge-ilrc.one",
+    "owner": {
+        "email": "xray.34pbzj@bumpmail.io"
+    },
+    "record": {
+        "TXT": [
+            "1843480f7bb3863468ca7fcb2ab195"
+        ]
+    },
+    "proxy": false
+}
