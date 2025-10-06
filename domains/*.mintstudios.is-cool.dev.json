@@ -1,0 +1,16 @@
+{
+    "description": "I need the wildcard subdomain to allow me to access the services that I host over secure https, without needing to get an alternative domain for it. For example, I can host the uptime monitor for my mintstudios on uptime.mintstudios.is-cool.dev, and this would be used for alerts/notifications as well",
+    "domain": "is-cool.dev",
+    "subdomain": "*.mintstudios",
+    "owner": {
+        "email": "hello.mintstudios@gmail.com"
+    },
+    "record": {
+        "TXT": [
+            "p=MIGfMA0GCSqGSIb3DQEBAQUAA4GNADCBiQKBgQDbe6OWRq9AuPIXI73NNaguWQ9mzlpD3ZYjCqsqHsm5rNCr6D6aREnI89pfa/v3/XgGLW0Dd3vBWoU+5NBrPxSRLhzXfV/Rj8RjTYI4G8NJ5eSw/3C7anokjhpLt7rKpjdO9+gAnqKsJ3jR56UnXXAHiYfOFOsQjloITO5RZS0MdQIDAQAB"
+        ],
+        "MX": [
+            "feedback-smtp.us-east-1.amazonses.com"
+        ]
+    }
+}
