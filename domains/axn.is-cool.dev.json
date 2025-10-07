@@ -1,0 +1,26 @@
+{
+  "description": "Mail forwarding via Addy",
+  "domain": "is-cool.dev",
+  "subdomain": "axn",
+
+  "owner": {
+    "repo": "https://github.com/anxarden/open-domains",
+    "email": "hello@example.com"
+  },
+
+  "record": {
+    "MX": [
+      "mx1.unbox.at",
+      "mx2.unbox.at"
+    ],
+    "TXT": [
+      "aa-verify=95a2ae396869a89ce15b1afcfe34f5e2ec44322b",
+      "v=spf1 include:unbox.at -all"
+    ],
+    "CAA": [
+      { "flags": 0, "tag": "issue", "value": "letsencrypt.org" }
+    ]
+  },
+
+  "proxied": false
+}
