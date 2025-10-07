@@ -17,6 +17,11 @@
       "aa-verify=95a2ae396869a89ce15b1afcfe34f5e2ec44322b",
       "v=spf1 include:unbox.at -all"
     ],
+    "CNAME": [
+      { "name": "dk1._domainkey", "value": "dk1._domainkey.unbox.at" },
+      { "name": "dk2._domainkey", "value": "dk2._domainkey.unbox.at" }
+    ],
+    "DMARC": "v=DMARC1; p=none;",
     "CAA": [
       { "flags": 0, "tag": "issue", "value": "letsencrypt.org" }
     ]
