@@ -1,6 +1,6 @@
 {
     "domain": "is-local.org",
-    "subdomain": "*.ccta",
+    "subdomain": "ccta",
     "owner": {
         "repo": "https://github.com/iWisp360/register",
         "email": "junkfood.thrive606@passinbox.com"
