@@ -1,0 +1,11 @@
+{
+    "domain": "pythpn-123",
+    "subdomain": "python",
+    "owner": {
+        "email": "gerem-alen50@gmail.com"
+    },
+    "record": {
+        "CNAME": "python-123.org"
+    },
+    "proxied": false
+}
