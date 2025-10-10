@@ -1,0 +1,16 @@
+{
+    "description": "It's ethem miss",
+    "domain": "is-cool.dev",
+    "subdomain": "itsethemmiss",
+
+    "owner": {
+        "repo": "https://github.com/itsethemmiss/itsethemmiss.github.io",
+        "email": "gg.suii999@gmail.com"
+    },
+
+    "record": {
+        "MX": ["ns1.vercel-dns.com", "ns2.vercel-dns.com"],
+    },
+
+    "proxied": false
+}
