@@ -1,0 +1,13 @@
+{
+  "description": "Sufi Customer Care (Website Name)",
+  "domain": "is-cool.dev",
+  "subdomain": "SufiHost",
+  "owner": {
+    "repo": "https://sufi-customer-care.vercel.app/",
+    "email": "sufibuisness@gmail.com"
+  },
+  "record": {
+    "CNAME": "sufi-customer-care.vercel.app"
+  },
+  "proxied": false
+}
