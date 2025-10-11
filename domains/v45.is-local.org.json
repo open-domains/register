@@ -1,0 +1,15 @@
+{
+    "description": "personal project",
+    "domain": "is-local.org",
+    "subdomain": "v45",
+
+    "owner": {
+        "email": "sanagkerkar45@gmail.com"
+    },
+
+    "record": {
+        "CNAME": "v45tech.pages.dev"
+    },
+
+    "proxied": false
+}

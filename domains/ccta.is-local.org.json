@@ -1,0 +1,13 @@
+{
+    "domain": "is-local.org",
+    "subdomain": "ccta",
+    "owner": {
+        "repo": "https://github.com/iWisp360/register",
+        "email": "junkfood.thrive606@passinbox.com"
+    },
+    "record": {
+        "A": [
+            "134.195.90.141"
+        ]
+    }
+}
