@@ -1,0 +1,12 @@
+{
+    "domain": "is-cool.dev",
+    "subdomain": "beeper",
+    "owner": {
+        "repo": "https://github.com/BeeperBot/BeeperBot.github.io",
+        "email": "bot40games2@gmail.com"
+    },
+    "record": {
+        "CNAME": "beeperbot.github.io"
+    },
+    "proxied": false
+}
