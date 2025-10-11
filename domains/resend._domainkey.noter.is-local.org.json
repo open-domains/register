@@ -1,7 +1,7 @@
 {
     "description": "Noter emailing",
     "domain": "is-local.org",
-    "subdomain": "noreply.noter",
+    "subdomain": "resend._domainkey.noter",
     "owner": {
         "repo": "https://github.com/SeeSatya/register-1",
         "discord": "SeeSatya"
