@@ -1,0 +1,13 @@
+{
+    "description": "Noter emailing",
+    "domain": "is-local.org",
+    "subdomain": "noreply.noter",
+    "owner": {
+        "repo": "https://github.com/SeeSatya/register-1",
+        "discord": "SeeSatya"
+    },
+    "record": {
+        "TXT": ["p=MIGfMA0GCSqGSIb3DQEBAQUAA4GNADCBiQKBgQCi1JlYyz0e4kHO1wDBU/8m9N5CSsMcG3Qw+WMqmr29eplI9ehJE9GBwgxrgqQikGbiYIAM9xs8hcCWLdtEuXiEXbHBCiI4D2bsKqEE/Ks8TEApjU2LCUrstEbOb36bDAxPrJhgd55HeXE019JfOMUOh/5Dg7zCxMS0fMw++N8o7wIDAQAB"]
+    },
+    "proxied": false
+}
