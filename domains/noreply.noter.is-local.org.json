@@ -1,0 +1,14 @@
+{
+    "description": "Noter emailing",
+    "domain": "is-local.org",
+    "subdomain": "noreply.noter",
+    "owner": {
+        "repo": "https://github.com/SeeSatya/register-1",
+        "discord": "SeeSatya"
+    },
+    "record": {
+        "MX": ["feedback-smtp.ap-northeast-1.amazonses.com"],
+        "TXT": ["v=spf1 include:amazonses.com ~all"]
+    },
+    "proxied": false
+}
