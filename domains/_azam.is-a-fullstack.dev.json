@@ -3,11 +3,11 @@
   "domain": "is-a-fullstack.dev",
   "subdomain": "azam",
   "owner": {
-    "repo": "https://github.com/AzamAliCodes/portfolio",
+    "repo": "https://github.com/azamalicodes/portfolio",
     "email": "social.azamali@gmail.com"
   },
   "record": {
-    "TXT": ["_github-pages-challenge-AzamAliCodes=098c1c0e3bc376eaac6a69579209c9"]
+    "TXT": ["_github-pages-challenge-azamalicodes=098c1c0e3bc376eaac6a69579209c9"]
   },
   "proxied": true
 }
