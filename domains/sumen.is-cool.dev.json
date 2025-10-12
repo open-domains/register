@@ -9,7 +9,7 @@
     },
 
     "record": {
-        "CNAME": "https://sumensite.vercel.app"
+        "CNAME": "sumensite.vercel.app"
     },
 
     "proxied": false
