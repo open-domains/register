@@ -1,5 +1,5 @@
 {
-    "description": "A website containing games I have made with unity or js",
+    "description": "A website with a proxy and games",
     "domain": "is-cool.dev",
     "subdomain": "sumen",
 
@@ -9,7 +9,7 @@
     },
 
     "record": {
-        "CNAME": "xenophobic-cathlene-tagon-f6734669.koyeb.app"
+        "CNAME": "https://sumensite.vercel.app"
     },
 
     "proxied": false
