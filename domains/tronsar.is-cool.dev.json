@@ -1,0 +1,16 @@
+{
+    "description": "My landing and product pages. (I'm developer)",
+    "domain": "is-cool.dev",
+    "subdomain": "tronsar",
+
+    "owner": {
+        "repo": "https://github.com/TronsDevelopment/trons",
+        "email": "esrjoo841@gmail.com"
+    },
+
+    "record": {
+        "CNAME": "tronsdevelopment.github.io"
+    },
+
+    "proxied": false
+}
