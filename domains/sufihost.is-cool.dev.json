@@ -1,7 +1,7 @@
 {
-  "description": "Sufi Customer Care (Website Name)",
+  "description": "sufi customer care",
   "domain": "is-cool.dev",
-  "subdomain": "SufiHost",
+  "subdomain": "sufihost",
   "owner": {
     "repo": "https://sufi-customer-care.vercel.app/",
     "email": "sufibuisness@gmail.com"
