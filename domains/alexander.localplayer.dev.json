@@ -1,0 +1,15 @@
+{
+    "description": "Personal portfolio site.",
+    "domain": "localplayer.dev",
+    "subdomain": "alexander",
+    "owner": {
+        "repo": "https://github.com/AlexanderLisborg",
+        "email": "alexanderlisborg@gmail.com"
+    },
+    "record": {
+        "A": [
+            "109.228.160.241"
+        ]
+    },
+    "proxied": false
+}
