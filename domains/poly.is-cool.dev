@@ -1,0 +1,21 @@
+{
+    "description": "A domain for me to host, among other things, my Matrix HS. This currently points to an oracle free tier box.",
+    "domain": "is-cool.dev",
+    "subdomain": "poly",
+
+    "owner": {
+        "repo": "https://https://github.com/patrlim/register",
+        "email": "patrlimyt@gmail.com"
+    },
+
+    "record": {
+        "A": ["158.101.201.94"],
+        "TXT": ["Domain belonging to a bit of a silly person"],
+        "CAA": [
+            { "flags": 0, "tag": "issue", "value": "letsencrypt.org" },
+            { "flags": 0, "tag": "issuewild", "value": "sectigo.com" }
+        ]
+    },
+
+    "proxied": true
+}
