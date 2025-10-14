@@ -4,13 +4,12 @@
     "subdomain": "poly",
 
     "owner": {
-        "repo": "https://https://github.com/patrlim/register",
+        "repo": "https://github.com/patrlim/register",
         "email": "patrlimyt@gmail.com"
     },
 
     "record": {
         "A": ["158.101.201.94"],
-        "TXT": ["Domain belonging to a bit of a silly person"],
         "CAA": [
             { "flags": 0, "tag": "issue", "value": "letsencrypt.org" },
             { "flags": 0, "tag": "issuewild", "value": "sectigo.com" }
