@@ -1,0 +1,16 @@
+{
+    "description": "It is my personal subdomain.",
+    "domain": "localplayer.dev",
+    "subdomain": "treviasxk",
+
+    "owner": {
+        "repo": "https://github.com/treviasxk",
+        "email": "treviasxk@live.com"
+    },
+
+    "record": {
+        "A": ["164.152.44.169"]
+    },
+
+    "proxied": false
+}
