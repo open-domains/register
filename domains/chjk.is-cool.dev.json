@@ -1,0 +1,16 @@
+{
+    "description": "Subdomain for CHJK Studios",
+    "domain": "is-cool.dev",
+    "subdomain": "chjk",
+
+    "owner": {
+        "repo": "https://github.com/chjk-studios/register",
+        "email": "contact@chjk.xyz"
+    },
+
+    "record": {
+        "A": ["216.198.79.1"]
+    },
+
+    "proxied": false
+}
