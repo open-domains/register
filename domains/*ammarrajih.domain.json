@@ -1,7 +1,7 @@
 {
   "description": "Personal website for Ammar Rajih",
   "domain": "is-not-a.dev",
-  "subdomain": "ammarrajih",
+  "subdomain": "*.ammarrajih",
   "owner": {
     "repo": "https://github.com/Ammar777782439/hotel-booking",
     "email": "ammarragha@gmail.com"
