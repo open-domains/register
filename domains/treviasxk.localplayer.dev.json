@@ -5,11 +5,12 @@
 
     "owner": {
         "repo": "https://github.com/treviasxk",
-        "email": "treviasxk@live.com"
+        "email": "example@email.com"
     },
 
     "record": {
-        "A": ["164.152.44.169"]
+        "A": ["164.152.44.169"],
+        "CNAME": ["treviasxk.github.io"]
     },
 
     "proxied": false
