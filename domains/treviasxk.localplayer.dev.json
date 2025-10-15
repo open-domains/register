@@ -13,5 +13,5 @@
         "CNAME": ["treviasxk.github.io"]
     },
 
-    "proxied": true
+    "proxied": false
 }
