@@ -1,0 +1,16 @@
+{
+    "description": "Personal website",
+    "domain": "is-cool.dev",
+    "subdomain": "stenalpjolly",
+
+    "owner": {
+        "repo": "https://github.com/stenalpjolly",
+        "email": "stenalpjolly@gmail.com"
+    },
+
+    "record": {
+        "CNAME": "stenalpjolly.github.io"
+    },
+
+    "proxied": true
+}
