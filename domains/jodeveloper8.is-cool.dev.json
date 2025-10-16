@@ -1,7 +1,7 @@
 {
   "description": "Wildcard subdomains for jodeveloper8",
   "domain": "is-cool.dev",
-  "subdomain": "*.jodeveloper8",
+  "subdomain": "jodeveloper8",
   "owner": {
     "repo": "https://github.com/JoDeveloper",
     "email": "jodeveloper8@gmail.com"
