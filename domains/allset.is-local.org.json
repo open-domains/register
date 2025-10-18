@@ -1,0 +1,16 @@
+{
+    "description": "Personal portfolio website to showcase web development projects.",
+    "domain": "is-local.org",
+    "subdomain": "allset",
+
+    "owner": {
+        "repo": "https://github.com/Arnavgr8/allset-flask",
+        "email": "malhotraarnav70@gmail.com"
+    },
+
+    "record": {
+        "CNAME": "allset-web.vercel.app"
+    },
+
+    "proxied": false
+}
