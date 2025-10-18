@@ -1,0 +1,13 @@
+{
+    "description": "ROLS personal host",
+    "domain": "is-not-a.dev",
+    "subdomain": "rhostcontent",
+    "owner": {
+        "repo": "https://github.com/RomanROLS/domain",
+        "email": "admin@rhostcontent.is-not-a.dev
+    },
+    "record": {
+        "A": ["109.120.134.45"]
+     }
+    "proxied": false
+}
