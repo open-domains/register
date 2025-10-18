@@ -1,0 +1,20 @@
+{
+    "description": "Project Description",
+    "domain": "is-local.org",
+    "subdomain": "quwars",
+
+    "owner": {
+        "repo": "https://github.com/yetkinkaanediz-hue/register",
+        "email": "yetkinkaanediz@gmail.com"
+    },
+
+    "record": {
+        "CNAME": "quwarstr.etsy.com",
+        "MX": ["mx1.simplelogin.co.", "mx2.simplelogin.co."],
+        "TXT": ["sl-verification=ktnjfdcodgbwkfliorlttndvekqbtg"],
+        "CAA": [
+            { "flags": 0, "tag": "issue", "value": "letsencrypt.org" },
+            { "flags": 0, "tag": "issuewild", "value": "sectigo.com" }
+        ],
+    },
+}
