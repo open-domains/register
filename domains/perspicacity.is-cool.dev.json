@@ -1,0 +1,12 @@
+{
+  "description": "Perspicacity - Beyond Knowledge, Towards Wisdom. An AI-powered Islamic research app.",
+  "domain": "is-cool.dev",
+  "subdomain": "perspicacity",
+  "owner": {
+    "username": "mdselimdev",
+    "email": "mdselim.ibn@gmail.com"
+  },
+  "record": {
+    "CNAME": "mdselimdev.github.io"
+  }
+}
