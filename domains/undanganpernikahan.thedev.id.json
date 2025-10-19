@@ -1,0 +1,12 @@
+{
+  "description": "Wedding invitation website for family and friends.",
+  "domain": "undanganpernikahan.thedev.id",
+  "subdomain": "undanganpernikahan",
+  "owner": {
+    "repo": "https://github.com/rafa231206/undangan-pernikahan",
+    "email": "emailkamu@gmail.com"
+  },
+  "record": {
+    "CNAME": "rafa231206.github.io"
+  }
+}
