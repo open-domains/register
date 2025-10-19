@@ -1,0 +1,16 @@
+{
+    "description": "My portfolio and blog website",
+    "domain": "is-cool.dev",
+    "subdomain": "jerenwa",
+
+    "owner": {
+        "repo": "https://github.com/JereNwa/website",
+        "email": "hello@example.com"
+    },
+
+    "record": {
+        "A": ["216.198.79.1"],
+    },
+
+    "proxied": false
+}
