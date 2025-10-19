@@ -4,10 +4,12 @@
   "subdomain": "acharya",
   "owner": {
     "repo": "https://github.com/1ndrajeet/acharya-tech",
-    "email": "1ndrajeet@proton.me"
+    "email": "omkar.kulkarni.3174@gmail.com"
   },
   "record": {
-    "A": ["216.198.79.193"]
+    "A": ["216.198.79.193"],
+    "MX": ["mx1.improvmx.com", "mx2.improvmx.com"],
+    "TXT": ["v=spf1 include:spf.improvmx.com ~all"]
   },
   "proxied": false
 }
