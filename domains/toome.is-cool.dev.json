@@ -1,0 +1,13 @@
+{
+    "description": "Personal blog github page",
+    "domain": "is-cool.dev",
+    "subdomain": "toome",
+    "owner": {
+        "repo": "https://github.com/lilico9/toome",
+        "email": "nesociuz561@disroot.org"
+    },
+    "record": {
+        "CNAME": "lilico9.github.io"
+    },
+    "proxied": false
+}
