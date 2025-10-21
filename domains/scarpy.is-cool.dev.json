@@ -1,0 +1,12 @@
+{
+    "description": "Domain for my personal projects",
+    "domain": "is-cool.dev",
+    "subdomain": "scarpy",
+    "owner": {
+        "repo": "https://github.com/Scarpy19/register2",
+        "email": "nootravez19@gmail.com"
+    },
+    "record": {
+        "A": ["158.179.209.133"]
+    }
+}
