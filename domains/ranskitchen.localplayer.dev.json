@@ -1,0 +1,12 @@
+{
+  "description": "Personal Web for n8n, accessible via Cloudflare tunnel (still learning)",
+  "domain": "localplayer.dev",
+  "subdomain": "ranskitchen",
+  "owner": {
+    "email": "ihsanfikri2@gmail.com"
+  },
+  "record": {
+    "CNAME": "518ec6dd-2752-45dc-ae78-4adc0d71ddd5.cfargotunnel.com"
+  },
+  "proxied": true
+}

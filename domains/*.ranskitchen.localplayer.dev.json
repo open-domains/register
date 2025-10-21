@@ -1,5 +1,5 @@
 {
-  "description": "Personal Web for Profile and Wild card domain for my home lab, docker and traefik experimentation, accessible via Cloudflare tunnel (still learning)",
+  "description": "Personal Web for Profile and Wild card domain for my home lab, docker and traefik experimentation example n8n.ranskitchen.localplayer.dev for n8n apps, accessible via Cloudflare tunnel (still learning)",
   "domain": "localplayer.dev",
   "subdomain": "*.ranskitchen",
   "owner": {
