@@ -1,0 +1,12 @@
+{
+  "description": "Public Access of Self-hosted home lab, accessible via Cloudflare tunnel (still learning)",
+  "domain": "is-not-a.dev",
+  "subdomain": "ihsan",
+  "owner": {
+    "email": "ihsanfikri2@gmail.com"
+  },
+  "record": {
+    "CNAME": "59a49aa0-248a-4770-a8a7-3e3a3b134182.cfargotunnel.com"
+  },
+  "proxied": false
+}
