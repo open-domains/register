@@ -1,6 +1,6 @@
 {
   "description": "Public Access of Self-hosted home lab, accessible via Cloudflare tunnel (still learning)",
-  "domain": ".is-not-a.dev",
+  "domain": "is-not-a.dev",
   "subdomain": "ihsan",
   "owner": {
     "email": "ihsanfikri2@gmail.com"
