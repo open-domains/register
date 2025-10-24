@@ -1,0 +1,12 @@
+{
+  "description": "For personal, testing and learning anything related.", 
+  "domain": "is-not-a.dev",
+  "subdomain": "lang",
+  "owner": {
+    "repo": "https://github.com/lan700ng"
+  },
+  "record": {
+    "CNAME": "lan700ng.github.io"
+  },
+  "proxied": true
+}
