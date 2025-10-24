@@ -1,0 +1,13 @@
+{
+  "description": "PRMITR Web Project hosted on Vercel",
+  "domain": "is-local.org",
+  "subdomain": "prmitr.gdg",
+  "owner": {
+    "repo": "https://github.com/gdgdataset",
+    "email": "fykartik@gmail.com"
+  },
+  "record": {
+    "CNAME": "88b98691d6af7bee.vercel-dns-017.com."
+  },
+  "proxied": false
+}
