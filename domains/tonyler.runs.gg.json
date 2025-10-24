@@ -1,0 +1,13 @@
+{
+  "description": "PassivMOS Webapp - Cosmos Passive Income Calculator",
+  "domain": "runs.gg",
+  "subdomain": "tonyler",
+  "owner": {
+    "repo": "https://github.com/tonyler/passivmos_web",
+    "email": "tonyler@pm.me"
+  },
+  "record": {
+    "AAAA": ["2a01:4f9:c012:b061::1"]
+  },
+  "proxied": false
+}
