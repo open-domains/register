@@ -7,9 +7,9 @@
         "email": "gorgonfweman@outlook.com"
     },
     "record": {
-        "CNAME": [
+        "CNAME": {
             "fweeaaaa1.github.io"
-        ]
+            }
     },
     "proxied": false
 }
