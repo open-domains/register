@@ -11,7 +11,5 @@
 
     "record": {
         "CNAME": "apex-loadbalancer.netlify.com"
-    },
-
-    "proxied": false
+    }
 }
