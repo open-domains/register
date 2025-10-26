@@ -1,0 +1,12 @@
+{
+    "description": "Portfolio website for PayFopus — showcasing creative Envato projects, web services, and digital works.",
+    "domain": "is-local.org",
+    "subdomain": "payfopus",
+    "owner": {
+        "email": "mahmedhleli@gmail.com"
+    },
+    "record": {
+        "A": ["193.190.127.144"]
+    },
+    "proxied": false
+}
