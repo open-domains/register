@@ -1,0 +1,17 @@
+{
+    "description": "Personal Purpose Site (GDPS, Panel, Blog or anything else ig)",
+    "domain": "is-local.org",
+    "subdomain": "huygd",
+
+    "owner": {
+        "email": "huynhquochuytkna@gmail.com"
+    },
+
+    "record": {
+        "AAAA": ["2a11:6c7:f07:75::2"],
+        "MX": ["mx1.forwardemail.net", "mx1.forwardemail.net"],
+        "TXT": ["forward-email=huynhquochuytkna@gmail.com"]
+    },
+
+    "proxied": true
+}
