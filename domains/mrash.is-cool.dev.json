@@ -9,9 +9,9 @@
     },
 
     "record": {
-        "A": ["1.1.1.1", "1.0.0.1"],
+        "A": ["216.198.79.1"],
         "AAAA": ["::1", "::2"],
-        "CNAME": "example.com",
+        "CNAME": "amiosama.vercel.app",
         "MX": ["mx.smtp.dev", "mx2.example.com"],
         "TXT": ["example_verification=1234567890"],
         "CAA": [
