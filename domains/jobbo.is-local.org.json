@@ -1,0 +1,12 @@
+{
+  "description": "my goofy ass portfolio", 
+  "domain": "is-local.org",
+  "subdomain": "jobbo",
+  "owner": {
+    "repo": "https://github.com/FWEEaaaa1/fweeaaaa1.github.io"
+  },
+  "record": {
+    "CNAME": "fweeaaaa1.github.io"
+  },
+  "proxied": false
+}

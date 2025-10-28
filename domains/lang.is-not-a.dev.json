@@ -1,0 +1,12 @@
+{
+  "description": "For personal, testing and learning anything related. I use github.io because I want my github repositories have a page then use this domain to access the page with my repo name endpoint.", 
+  "domain": "is-not-a.dev",
+  "subdomain": "lang",
+  "owner": {
+    "repo": "https://github.com/lan700ng"
+  },
+  "record": {
+    "CNAME": "lan700ng.github.io"
+  },
+  "proxied": true
+}

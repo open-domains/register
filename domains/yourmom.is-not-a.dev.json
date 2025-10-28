@@ -1,0 +1,15 @@
+{
+    "description": "my portfolio",
+    "domain": "is-not-a.dev",
+    "subdomain": "yourmom",
+    "owner": {
+        "repo": "https://github.com/FWEEaaaa1/fweeaaaa1.github.io",
+        "email": "gorgonfweman@outlook.com"
+    },
+    "record": {
+        "A": [
+            "128.204.223.115"
+        ]
+    },
+    "proxied": false
+}
