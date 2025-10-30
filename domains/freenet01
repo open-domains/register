@@ -1,0 +1,16 @@
+{
+    "description": "Мой персональный выделенный сервер",
+    "domain": "localplayer.dev",
+    "subdomain": "freenet01",
+
+    "owner": {
+        "repo": "https://github.com/open-domains/register",
+        "email": "khatkov22@gmail.com"
+    },
+
+    "record": {
+        "A": ["193.222.97.109"]
+    },
+
+    "proxied": false
+}
