@@ -1,0 +1,13 @@
+{
+    "description": "Mata Project",
+    "domain": "is-cool.dev",
+    "subdomain": "mata",
+    "owner": {
+        "email": "dktester069@gmail.com"
+    },
+
+    "record": {
+        "CNAME": "angla-unacrimonious-detractively.ngrok-free.dev"
+    },
+    "proxied": false
+}
