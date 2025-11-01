@@ -1,0 +1,16 @@
+{
+    "description": "This is will be my fun project because i want to learning about web development ",
+    "domain": "is-local.org",
+    "owner": {
+        "repo": "https://github.com/dclctve/register",
+        "email": "aldipratama285@gmail.com"
+    },
+    "record": {
+        "A": [
+            "103.30.147.120",
+        "CNAME": "dclctve.is-local
+            org"
+        ]
+    },
+    "proxied": false
+}
