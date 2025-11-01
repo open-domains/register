@@ -1,7 +1,7 @@
 {
     "description": "DCLCTVE Project",
     "domain": "is-local.org",
-    "subdomain": "dclctve",
+    "subdomain": "*.dclctve",
 
     "owner": {
         "repo": "https://github.com/dclctve/register",
