@@ -1,13 +1,38 @@
 {
-    "description": "My personal domain, will be used for hosting personal web services",
-    "domain": "is-cool.dev",
-    "subdomain": "rafat",
-    "owner": {
-        "repo": "https://github.com/rafathasan/register",
-        "email": "rafathasankhan@gmail.com"
-    },
-    "record": {
-        "A": ["103.81.70.74"]
-    },
-    "proxied": false
+  "description": "My personal domain, used for hosting personal web services and email server",
+  "domain": "is-cool.dev",
+  "subdomain": "rafat",
+  "owner": {
+    "repo": "https://github.com/rafathasan/register",
+    "email": "rafathasankhan@gmail.com"
+  },
+  "record": {
+    "A": [
+      "173.254.215.83"
+    ],
+    "MX": [
+      {
+        "priority": 10,
+        "value": "mail.rafat.is-cool.dev"
+      }
+    ],
+    "TXT": [
+      {
+        "name": "@",
+        "value": "v=spf1 a mx ip4:173.254.215.83 ~all"
+      },
+      {
+        "name": "_dmarc",
+        "value": "v=DMARC1; p=quarantine; rua=mailto:rafathasankhan@gmail.com"
+      }
+    ]
+  },
+  "subrecords": {
+    "mail": {
+      "A": [
+        "173.254.215.83"
+      ]
+    }
+  },
+  "proxied": false
 }
