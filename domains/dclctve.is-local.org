@@ -1,0 +1,28 @@
+{
+    "description": "DCLCTVE Project",
+    "domain": "is-local.org",
+    "subdomain": "dclctve",
+
+    "owner": {
+        "repo": "https://github.com/dclctve/register",
+        "email": "aldipratama285@gmail.com"
+    },
+
+    "record": {
+        "A": ["ns1.diskon.com", "ns2.diskon.com"],
+        "AAAA": ["::1", "::2"],
+        "CNAME": "dclctve.is-local.org",
+        "MX": ["mx1.example.com", "mx2.example.com"],
+        "TXT": ["example_verification=1234567890"],
+        "CAA": [
+            { "flags": 0, "tag": "issue", "value": "letsencrypt.org" },
+            { "flags": 0, "tag": "issuewild", "value": "sectigo.com" }
+        ],
+        "SRV": [
+            { "priority": 10, "weight": 60, "port": 5060, "target": "sipserver.example.com" },
+            { "priority": 20, "weight": 10, "port": 5061, "target": "sipbackup.example.com" }
+        ]
+    },
+
+    "proxied": false
+}
