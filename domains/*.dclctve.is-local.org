@@ -1,0 +1,16 @@
+{
+    "description": "DCLCTVE Project for fun",
+    "domain": "is-local.org",
+    "subdomain": "*.dclctve",
+
+    "owner": {
+        "repo": "https://github.com/dclctve/register",
+        "email": "aldipratama285@gmail.com"
+    },
+
+    "record": {
+        "A": ["103.30.147.120"],       
+    },
+
+    "proxied": false
+}
