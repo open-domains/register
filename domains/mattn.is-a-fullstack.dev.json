@@ -1,0 +1,13 @@
+{
+  "description": "Project Description",
+  "domain": "is-a-fullstack.dev",
+  "subdomain": "mattn",
+  "owner": {
+    "repo": "https://github.com/mattn/mattn.is-a-fullstack.dev",
+    "email": "mattn.jp@gmail.com"
+  },
+  "record": {
+    "CNAME": "cname.compile-error.net"
+  },
+  "proxied": false
+}
