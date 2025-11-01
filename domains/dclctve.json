@@ -1,0 +1,16 @@
+{
+  "owner": {
+        "repo": "https://github.com/dclctve/register",
+        "email": "aldipratama285@gmail.com"
+    },
+    
+
+"record": {
+        "A": "ns1.diskon.com", "ns2.diskon.com",
+        "CNAME" : "103.30.147.120"
+
+
+},
+
+    "proxied": false
+}
