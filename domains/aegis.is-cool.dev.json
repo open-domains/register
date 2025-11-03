@@ -8,5 +8,6 @@
     },
     "record": {
     "CNAME": "aegis-plus.github.io"
-    }
+    },
+    "proxied": true
 }
