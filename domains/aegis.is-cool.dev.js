@@ -11,7 +11,7 @@
         "MX": [
           { "target": "mx1.improvmx.com", "priority": 10 },
           { "target": "mx2.improvmx.com", "priority": 20 }
-        ],
+                ],
         "TXT": "v=spf1 include:spf.improvmx.com ~all"
-    },
+    }
 }
