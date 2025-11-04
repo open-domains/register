@@ -1,0 +1,19 @@
+{
+    "description": "Experimental private mail server http://46.63.0.172/roundcube",
+    "domain": "is-local.org",
+    "subdomain": "term",
+
+    "owner": {
+        "repo": "https://github.com/termoss27/register",
+        "email": "vova.lepen@gmail.com"
+    },
+
+    "record": {
+        "A": ["46.63.0.172"],
+        "MX": [
+            "term.is-local.org"
+        ]
+    },
+
+    "proxied": false
+}

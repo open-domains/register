@@ -1,0 +1,13 @@
+{
+    "description": "Law Services",
+    "domain": "is-local.org",
+    "subdomain": "leal",
+    "owner": {
+        "repo": "https://github.com/lealsj/leal",
+        "email": "lealdespachojuridico@gmail.com"
+    },
+    "record": {
+        "CNAME": "lealsj.github.io"
+    },
+    "proxied": true
+}

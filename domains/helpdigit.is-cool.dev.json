@@ -1,0 +1,16 @@
+{
+    "description": "HelpDigit",
+    "domain": "is-cool.dev",
+    "subdomain": "helpdigit",
+
+    "owner": {
+        "repo": "https://github.com/Rixolino/register",
+        "email": "helpdigit2025@gmail.com"
+    },
+
+    "record": {
+        "CNAME": "cname.vercel-dns.com"
+    },
+
+    "proxied": false
+}

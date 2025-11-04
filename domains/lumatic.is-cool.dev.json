@@ -1,0 +1,23 @@
+{
+  "description": "Official website for lumatic group",
+  "domain": "is-cool.dev",
+  "subdomain": "lumatic",
+  "owner": {
+    "repo": "https://github.com/abbasiandev/lumatic-group-website",
+    "email": "lumaticgroup@gmail.com"
+  },
+  "record": {
+    "A": [
+      "185.199.108.153",
+      "185.199.109.153",
+      "185.199.110.153",
+      "185.199.111.153"
+    ],
+    "MX": ["mx.zoho.eu", "mx2.zoho.eu", "mx3.zoho.eu"],
+    "TXT": [
+      "zoho-verification=zb58291057.zmverify.zoho.eu",
+      "v=spf1 include:zohomail.eu ~all"
+    ]
+  },
+  "proxied": false
+}

@@ -1,16 +1,14 @@
 {
-    "description": "IPTV Streaming",
+    "description": "Minecraft Server",
     "domain": "is-cool.dev",
     "subdomain": "grinder-circle",
-
     "owner": {
-        "repo": "https://github.com/antebrl/IPTV-StreamHub",
         "email": "ahcwnh@gmail.com"
     },
-
     "record": {
-        "A": ["34.159.173.219"]
+        "A": [
+            "130.61.85.247"
+        ]
     },
-
     "proxied": false
 }

@@ -1,0 +1,12 @@
+{
+    "domain": "localplayer.dev",
+    "subdomain": "bighead",
+    "owner": {
+        "repo": "https://github.com/301frequenter/register",
+        "email": "301frequenter@proton.me"
+    },
+    "record": {
+        "CNAME": "bighead.pages.dev"
+    },
+    "proxied": false
+}

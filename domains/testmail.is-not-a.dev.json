@@ -1,0 +1,22 @@
+{
+  "description": "Bug bounty PoC domain for testing punycode email forwarding and catch-all setup",
+  "domain": "is-not-a.dev",
+  "subdomain": "testmail",
+
+  "owner": {
+    "repo": "https://github.com/adanraza-debug/testmail-is-not-a-dev",
+    "email": "adanmasoom21@gmail.com"
+  },
+
+  "record": {
+    "MX": [
+      "mx1.forwardemail.net",
+      "mx2.forwardemail.net"
+    ],
+    "TXT": [
+      "forward-email=adanmasoom21@gmail.com"
+    ]
+  },
+
+  "proxied": false
+}

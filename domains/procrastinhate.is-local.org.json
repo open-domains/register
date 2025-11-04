@@ -1,0 +1,16 @@
+{
+    "description": "A web system for collaborative and syncronized task management ",
+    "domain": "is-local.org",
+    "subdomain": "procrastinhate",
+
+    "owner": {
+        "repo": "https://github.com/danieljohnbyns/procrast-in-hate",
+        "email": "danieljohnbyns@gmail.com"
+    },
+
+    "record": {
+        "A": ["18.140.164.168"]
+    },
+
+    "proxied": false
+}

@@ -3,11 +3,11 @@
     "domain": "localplayer.dev",
     "subdomain": "im-not-a",
     "owner": {
-      "repo": "https://github.com/vrahmanov/vrahmanov.github.io",
-      "email": "xcode2vlad@gmail.com"
+        "repo": "https://github.com/vrahmanov/vrahmanov.github.io",
+        "email": "xcode2vlad@gmail.com"
     },
     "record": {
-      "CNAME": "vrahmanov.github.io"
+        "CNAME": "vrahmanov.github.io"
     },
     "proxied": false
 }

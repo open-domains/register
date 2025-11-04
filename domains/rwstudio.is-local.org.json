@@ -1,0 +1,12 @@
+{
+    "description": "Small minecraft comic studio page",
+    "domain": "is-local.org",
+    "subdomain": "rwstudio",
+    "owner": {
+        "email": "kaz442197@gmail.com"
+    },
+    "record": {
+        "CNAME": "ourstorycomic.github.io"
+    },
+    "proxied": false
+}

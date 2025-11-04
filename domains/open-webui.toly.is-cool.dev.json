@@ -1,0 +1,12 @@
+{
+  "description": "Self-hosted AI platform",
+  "domain": "is-cool.dev",
+  "subdomain": "open-webui.toly",
+  "owner": {
+    "email": "tolyandr@gmail.com"
+  },
+  "record": {
+    "CNAME": "661606e8c73b.sn.mynetname.net"
+  },
+  "proxied": false
+}

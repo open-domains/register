@@ -1,0 +1,12 @@
+{
+    "description": "Personal Self Hosted Apps and Public Website",
+    "domain": "is-cool.dev",
+    "subdomain": "funnychip",
+    "owner": {
+        "email": "chips1105@proton.me"
+    },
+    "record": {
+        "CNAME": "funnychip796.web.app"
+    },
+    "proxied": false
+}

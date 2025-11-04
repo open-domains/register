@@ -1,0 +1,13 @@
+{
+    "description": "Noter site",
+    "domain": "is-local.org",
+    "subdomain": "noter",
+    "owner": {
+        "repo": "https://github.com/SeeSatya/register-1",
+        "discord": "SeeSatya"
+    },
+    "record": {
+        "CNAME": "blog-noter.pages.dev"
+    },
+    "proxied": false
+}

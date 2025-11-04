@@ -1,16 +1,12 @@
 {
-  "description": "Personal irl website",
-
-  "domain": "is-not-a.dev",
-  "subdomain": "qwertx",
-
-  "owner": {
-    "email": "zuweyrh752@gmail.com"
-  },
-
-  "record": {
-    "CNAME": "qwertx.is-really.cool"
-  },
-
-  "proxied": false
+    "description": "Personal irl website",
+    "domain": "is-not-a.dev",
+    "subdomain": "qwertx",
+    "owner": {
+        "email": "zuweyrh752@gmail.com"
+    },
+    "record": {
+        "CNAME": "qwertx.is-really.cool"
+    },
+    "proxied": false
 }

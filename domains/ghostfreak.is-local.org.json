@@ -1,0 +1,28 @@
+{
+  "description": "GhostFreak organization site hosted on Vercel with Zoho Mail",
+  "domain": "is-local.org",
+  "subdomain": "ghostfreak",
+
+  "owner": {
+    "repo": "https://github.com/ghostfreakk/register",
+    "email": "ahmed.shafek.official@gmail.com"
+  },
+
+  "record": {
+    "A": ["216.198.79.193"],
+
+    "MX": [
+      "mx.zoho.com",
+      "mx2.zoho.com",
+      "mx3.zoho.com"
+    ],
+
+    "TXT": [
+      "v=spf1 include:zoho.com ~all",
+      "zoho-verification=zb75158262.zmverify.zoho.com",
+      "v=DMARC1; p=none; rua=mailto:ghostfrekk@gmail.com"
+    ]
+  },
+
+  "proxied": false
+}

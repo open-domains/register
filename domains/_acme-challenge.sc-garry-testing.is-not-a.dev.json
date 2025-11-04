@@ -1,0 +1,12 @@
+{
+  "description": "Use for testing SuiteCommerce",
+  "domain": "is-not-a.dev",
+  "subdomain": "_acme-challenge.sc-garry-testing",
+  "owner": {
+    "email": "garry.g@ebizcharge.com"
+  },
+  "record": {
+    "CNAME": "sc-garry-testing.is-not-a.dev.hosting-verify.netsuite.com"
+  },
+  "proxied": false
+}

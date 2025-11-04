@@ -1,0 +1,12 @@
+{
+    "description": "My portfolio website",
+    "domain": "is-cool.dev",
+    "subdomain": "oli-mebberson",
+    "owner": {
+        "repo": "https://github.com/olii-dev/aboutme",
+        "email": "oli@mebberson.com"
+    },
+    "record": {
+        "CNAME": "olii-dev.github.io"
+    }
+}

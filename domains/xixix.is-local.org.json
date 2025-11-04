@@ -1,0 +1,13 @@
+{
+    "description": "Public Website",
+    "domain": "is-local.org",
+    "subdomain": "xixix",
+    "owner": {
+        "repo": "https://github.com/aw12aw2021/domain",
+        "email": "aw12aw2021@outlook.com"
+    },
+    "record": {
+        "CNAME": "32ac42a4.pro78xy.pages.dev"
+    },
+    "proxied": false
+}

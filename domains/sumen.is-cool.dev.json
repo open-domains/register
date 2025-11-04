@@ -1,0 +1,16 @@
+{
+    "description": "A website with a proxy and games",
+    "domain": "is-cool.dev",
+    "subdomain": "sumen",
+
+    "owner": {
+        "repo": "https://github.com/sumen113/sumen",
+        "email": "sumen113k@gmail.com"
+    },
+
+    "record": {
+        "CNAME": "sumensite.vercel.app"
+    },
+
+    "proxied": false
+}

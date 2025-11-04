@@ -1,0 +1,13 @@
+{
+    "description": "For testing all of my project",
+    "domain": "is-local.org",
+    "subdomain": "mhzsamfortest",
+    "owner": {
+        "repo": "https://github.com/mhzsam",
+        "email": "mhzsam@gmail.com"
+    },
+    "record": {
+        "A": ["95.217.160.242"]       
+    },
+    "proxied": false
+}

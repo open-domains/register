@@ -1,0 +1,13 @@
+{
+    "domain": "is-cool.dev",
+    "subdomain": "_discord.maragi",
+    "owner": {
+        "email": "maragidevelopments@gmail.com"
+    },
+    "record": {
+        "TXT": [
+            "dh=f6c7e0d57690cc3a80edea17a2c941febc3eba0a"
+        ]
+    },
+    "proxied": false
+}

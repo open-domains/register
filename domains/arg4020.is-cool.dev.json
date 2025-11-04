@@ -1,0 +1,15 @@
+{
+    "description": "This domain is to access my nextcloudpi instance on my raspberry pi publicly anywhere using cloudflare proxy",
+    "domain": "is-cool.dev",
+    "subdomain": "arg4020",
+    "owner": {
+        "repo": "https://github.com/Gamer-20A/register",
+        "email": "arirajd@gmail.com"
+    },
+    "record": {
+        "AAAA": [
+            "2405:201:c021:112:dea6:32ff:feb2:3a23"
+        ]
+    },
+    "proxied": true
+}

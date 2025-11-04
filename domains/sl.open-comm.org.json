@@ -1,0 +1,16 @@
+{
+    "description": "Music sharing, music communication",
+    "domain": "open-comm.org",
+    "subdomain": "sl",
+
+    "owner": {
+        "repo": "https://github.com/xiaoli-love/YesPlayMusic",
+        "email": "sl@tiplab.net"
+    },
+
+    "record": {
+        "A": ["8.210.228.74"]
+    },
+
+    "proxied": false
+}

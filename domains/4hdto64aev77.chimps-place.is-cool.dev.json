@@ -1,0 +1,13 @@
+{
+    "description": "The subdomain 4hdto64aev77.chimps-place.is-cool.dev is required by Google Sites to connect the custom domain chimps-place.is-cool.dev.",
+    "domain": "is-cool.dev",
+    "subdomain": "4hdto64aev77.chimps-place",
+    "owner": {
+        "repo": "https://github.com/phoenicvr/register/",
+        "email": "phoenicinteractive@gmail.com"
+    },
+    "record": {
+        "CNAME": "gv-ez3liwjkagc7xo.dv.googlehosted.com"
+    },
+    "proxied": false
+}

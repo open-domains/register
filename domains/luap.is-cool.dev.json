@@ -1,0 +1,13 @@
+{
+    "description": "Personal blog github page",
+    "domain": "is-cool.dev",
+    "subdomain": "luap",
+    "owner": {
+        "repo": "https://github.com/0xcyberpj/",
+        "email": "paul.j@icloud.com"
+    },
+    "record": {
+        "CNAME": "paul.is-epic.me"
+    },
+    "proxied": false
+}

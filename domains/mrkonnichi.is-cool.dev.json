@@ -1,0 +1,14 @@
+{
+    "description": "personal domain to use to link to my other projects",
+    "domain": "is-cool.dev",
+    "subdomain": "mrkonnichi",
+    "owner": {
+        "email": "domain.dwelling846@aleeas.com",
+        "repo": "https://github.com/MrKonnichi/The-Hub"
+    },
+
+    "record": {
+        "CNAME": "mrkonnichi.github.io"
+    },
+    "proxied": false
+}

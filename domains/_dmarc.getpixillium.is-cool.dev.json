@@ -1,0 +1,15 @@
+{
+  "description": "It is for DMARC verification.",
+  "domain": "is-cool.dev",
+  "subdomain": "_dmarc.getpixillium",
+  "owner": {
+    "repo": "https://github.com/pixillium/open-domains-register",
+    "email": "pixillium.official@gmail.com"
+  },
+  "record": {
+    "TXT": [
+      "v=DMARC1; p=none; rua=mailto:hello@pixillium.is-cool.dev; ruf=mailto:hello@pixillium.is-cool.dev; sp=quarantine; adkim=r; aspf=r; pct=100"
+    ]
+  },
+  "proxied": false
+}

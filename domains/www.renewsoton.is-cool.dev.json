@@ -1,0 +1,16 @@
+{
+    "description": "Student society site for the Renewable Engineering Society at Southampton. _redirect subdomain dealt with in different file.",
+    "domain": "is-cool.dev",
+    "subdomain": "www.renewsoton",
+
+    "owner": {
+        "repo": "https://github.com/harilaosk/DomainRegister",
+        "email": "167791450+harilaosk@users.noreply.github.com"
+    },
+
+    "record": {
+        "CNAME": "ghs.googlehosted.com"
+    },
+
+    "proxied": false
+}

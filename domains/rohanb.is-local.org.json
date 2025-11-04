@@ -1,0 +1,17 @@
+{
+    "description": "For use in training, test and development of non-commercial online services.",
+    "domain": "is-local.org",
+    "subdomain": "rohanb",
+    "owner": {
+        "email": "bobbyrohan@gmail.com"
+    },
+    "record": {
+        "NS": [
+            "ns-1421.awsdns-49.org",
+            "ns-1866.awsdns-41.co.uk",
+            "ns-81.awsdns-10.com",
+            "ns-917.awsdns-50.net"
+        ]
+    },
+    "proxied": false
+}

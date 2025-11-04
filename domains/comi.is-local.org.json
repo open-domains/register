@@ -5,10 +5,11 @@
     "owner": {
         "email": "comi@disroot.org"
     },
-
     "record": {
-        "NS": ["galilea.ns.cloudflare.com","otto.ns.cloudflare.com"]
+        "NS": [
+            "galilea.ns.cloudflare.com",
+            "otto.ns.cloudflare.com"
+        ]
     },
-
     "proxied": false
 }

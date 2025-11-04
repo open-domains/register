@@ -1,0 +1,16 @@
+{
+    "description": "Collage club website",
+    "domain": "is-local.org",
+    "subdomain": "gdg",
+
+    "owner": {
+        "repo": "https://github.com/gdgdataset",
+        "email": "fykartik@gmail.com"
+    },
+
+    "record": {
+        "A": ["216.198.79.1"]
+    },
+
+    "proxied": false
+}

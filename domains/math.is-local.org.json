@@ -1,0 +1,14 @@
+{
+    "description": "Game unblocker",
+    "domain": "is-local.org",
+    "subdomain": "math",
+    "owner": {
+        "email": "Kawrrq@gmail.com"
+    },
+    "record": {
+        "A": [
+            "172.96.141.252"
+        ]
+    },
+    "proxied": false
+}
