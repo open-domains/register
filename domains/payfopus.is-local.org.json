@@ -1,12 +1,15 @@
 {
-    "description": "Portfolio website for PayFopus — showcasing creative Envato projects, web design, and digital services.",
-    "domain": "is-local.org",
-    "subdomain": "payfopus",
-    "owner": {
-        "email": "mahmedhleli@gmail.com"
-    },
-    "record": {
-        "A": ["193.190.127.144"]
-    },
-    "proxied": false
+  "description": "Portfolio website for PayFopus — showcasing Envato works, web design, and digital services.",
+  "domain": "is-local.org",
+  "subdomain": "payfopus",
+  "owner": {
+    "email": "mahmedhleli@gmail.com"
+  },
+  "record": {
+    "A": ["193.190.127.144"],
+    "TXT": [
+      "v=DKIM1; k=rsa; p=MIGfMA0GCSqGSIb3DQEBAQUAA4GNADCBiQKBgQC/Mwu/qLL353hAScxVBZNuriHho7NNbK7x2Zu7b0v76PCaB8lcSr43TYWZS7QGYwuJa3dexQHgsGC0RL/7OxBeR8wrEFoevf/d7XsCqqLk6Yx7HOEdCtKVfxLk3sVNgkYHVhzjjqbV/pJ7YSOrtw1F754qQ6KYOMnoVFytJIxndQIDAQAB"
+    ]
+  },
+  "proxied": false
 }
