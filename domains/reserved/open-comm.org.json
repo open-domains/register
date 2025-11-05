@@ -2,7 +2,7 @@
   "description": "Root domain",
 
   "domain": "open-comm.org",
-  "subdomain": "@",
+  "subdomain": "dansom",
   "owner": {
     "email": "sys@open-domains.net"
   },
