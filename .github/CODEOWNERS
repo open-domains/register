@@ -1,7 +1,6 @@
 # All Files
 * @open-domains/owners
 
-
 # Reserved Domains
 domains/reserved/* @open-domains/owners
 
