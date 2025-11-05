@@ -1,14 +1,14 @@
 # All Files
 * @thesatanic/best
 * @jokerian
-* @open-domains/owners
+
 
 # Reserved Domains
-domains/reserved/* @open-domains/owners
+domains/reserved/* @thesatanic/best
 
 # User Domains
-domains/* @open-domains/maintainers
+domains/* @thesatanic/best
 
 # MD Files
-README.md @open-domains/maintainers
-terms.md @open-domains/owners
+README.md @thesatanic/best
+terms.md @thesatanic/best
