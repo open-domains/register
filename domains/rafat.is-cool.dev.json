@@ -7,32 +7,7 @@
     "email": "rafathasankhan@gmail.com"
   },
   "record": {
-    "A": [
-      "173.254.215.83"
-    ],
-    "MX": [
-      {
-        "priority": 10,
-        "value": "mail.rafat.is-cool.dev"
-      }
-    ],
-    "TXT": [
-      {
-        "name": "@",
-        "value": "v=spf1 a mx ip4:173.254.215.83 ~all"
-      },
-      {
-        "name": "_dmarc",
-        "value": "v=DMARC1; p=quarantine; rua=mailto:rafathasankhan@gmail.com"
-      }
-    ]
-  },
-  "subrecords": {
-    "mail": {
-      "A": [
-        "173.254.215.83"
-      ]
-    }
-  },
-  "proxied": false
+    "A": ["173.254.215.83"]
+    },
+    "proxied": false
 }
