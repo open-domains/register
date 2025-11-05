@@ -1,9 +1,9 @@
 {
     "description": "GitHub Pages verification",
     "domain": "localplayer.dev",
-    "subdomain": "_github-pages-challenge-thesatanic.thesatanic",
+    "subdomain": "_github-pages-challenge-thesatanic",
     "owner": {
-        "email": "224460231+jokerian@users.noreply.github.com"
+        "email": "jkrebian@disroot.org"
     },
     "record": {
         "TXT": [
