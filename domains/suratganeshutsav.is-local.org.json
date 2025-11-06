@@ -1,0 +1,16 @@
+{
+    "description": "its surat ganesh utsav officials website",
+    "domain": "is-local.org",
+    "subdomain": "suratganeshutsav",
+
+    "owner": {
+        "repo": "https://github.com/Hjgaming/register",
+        "email": "jariwalaharshal80@gmail.com"
+    },
+
+    "record": {
+        "A": ["216.198.79.1"]
+    },
+
+    "proxied": false
+}
