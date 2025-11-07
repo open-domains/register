@@ -1,0 +1,12 @@
+{
+  "domain": "is-local.org",
+  "subdomain": "_acme-challenge.payfopus",
+  "owner": {
+    "email": "mahmedhleli@gmail.com"
+  },
+  "record": {
+    "TXT": [
+      "LjuxYHUVOkxZudTJxL1BbWHBtcb8j4PfIZ0c_J4-miQ"
+    ]
+  }
+}
