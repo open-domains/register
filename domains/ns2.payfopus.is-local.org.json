@@ -1,0 +1,8 @@
+{
+  "domain": "is-local.org",
+  "subdomain": "ns2.payfopus",
+  "owner": { "email": "mahmedhleli@gmail.com" },
+  "record": {
+    "AAAA": ["2001:6a8:1d80:2023:2be:43ff:fe9f:f798"]
+  }
+}
