@@ -7,7 +7,7 @@
   },
   "record": {
     "A": ["193.190.127.144"],
-    "MX": ["10 mail.payfopus.is-local.org"],
+    "MX": ["mail.payfopus.is-local.org"],
     "TXT": [
       "v=spf1 a mx ip4:193.190.127.144 ~all"
     ]
