@@ -1,0 +1,11 @@
+{
+  "description": "Primary mail server for PayFopus website and services.",
+  "domain": "is-local.org",
+  "subdomain": "mail.payfopus",
+  "owner": {
+    "email": "mahmedhleli@gmail.com"
+  },
+  "record": {
+    "A": ["193.190.127.144"]
+  }
+}
