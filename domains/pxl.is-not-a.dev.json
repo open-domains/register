@@ -1,0 +1,16 @@
+{
+    "description": "simple personal website",
+    "domain": "is-not-a.dev",
+    "subdomain": "pxl",
+
+    "owner": {
+        "repo": "https://github.com/heypxl/heypxl.github.io",
+        "email": "pxlskye@gmail.com"
+    },
+
+    "record": {
+        "CNAME": "heypxl.github.io",
+    },
+
+    "proxied": false
+}
