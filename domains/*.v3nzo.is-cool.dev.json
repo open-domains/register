@@ -1,0 +1,16 @@
+{
+    "description": "Yosri Ghaba - E-Portfolio",
+    "domain": "is-cool.dev",
+    "subdomain": "v3nzo",
+
+    "owner": {
+        "repo": "https://github.com/Woolbridge/v3nzo",
+        "email": "ghaba.yosri@gmail.com"
+    },
+
+    "record": {
+        "CNAME": "woolbridge.github.io/v3nzo/"
+    },
+
+    "proxied": false
+}
