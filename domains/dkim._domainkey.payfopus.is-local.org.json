@@ -1,4 +1,5 @@
 {
+  "description": "DKIM public key for PayFopus mail signing.",
   "domain": "is-local.org",
   "subdomain": "dkim._domainkey.payfopus",
   "owner": {
@@ -6,7 +7,7 @@
   },
   "record": {
     "TXT": [
-      "v=DKIM1; k=rsa; p=MIGfMA0GCSqGSIb3DQEBAQUAA4GNADCBiQKBgQDYjqMYVYvpJTSZzGKoJUn0uwEnLF67kpOJvQTBoHfFGezyGL6BoYmFqyW2EkaYAe09NObmAsdAC2KMPQ2o4SPSjJ6HBUogjB9OuvJXthNWdURqlXM2RSiiQIOgFhVqA1aoAQzixSVciposNXeoL67KJ4cliqeFqtROggyI7CEOmwIDAQAB"
+      "v=DKIM1; k=rsa; p=MIGfMA0GCSqGSIb3DQEBAQUAA4GNADCBiQKBgQC/Mwu/qLL353hAScxVBZNuriHho7NNbK7x2Zu7b0v76PCaB8lcSr43TYWZS7QGYwuJa3dexQHgsGC0RL/7OxBeR8wrEFoevf/d7XsCqqLk6Yx7HOEdCtKVfxLk3sVNgkYHVhzjjqbV/pJ7YSOrtw1F754qQ6KYOMnoVFytJIxndQIDAQAB"
     ]
   }
 }
