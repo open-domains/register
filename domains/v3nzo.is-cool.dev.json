@@ -3,11 +3,11 @@
     "domain": "is-cool.dev",
     "subdomain": "v3nzo",
     "owner": {
-        "repo": "https://github.com/Woolbridge/v3nzo",
+        "repo": "https://github.com/woolbridge/v3nzo",
         "email": "ghaba.yosri@gmail.com"
     },
     "record": {
-        "CNAME": "woolbridge.github.io/v3nzo"
+        "CNAME": "woolbridge.github.io"
     },
     "proxied": false
 }
