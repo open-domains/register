@@ -1,0 +1,16 @@
+{
+  "description": "Criti - Study material platform for industrial technical institute using google sites",
+  "domain": "is-cool.dev",
+  "subdomain": "criti",
+
+  "owner": {
+    "repo": "https://github.com/OmegaCrimson/criti-platform",
+    "email": "nightangelyt01@gmail.com"
+  },
+
+  "record": {
+    "CNAME": "ghs.googlehosted.com"
+  },
+
+  "proxied": false
+}
