@@ -1,0 +1,16 @@
+{
+    "description": "Store for the Aeropus Mini-Office project.",
+    "domain": "is-cool.dev",
+    "subdomain": "aeropus",
+
+    "owner": {
+        "repo": "https://github.com/dasfohlen1900/Mini-Office",
+        "email": "lukovic.minioffice.aeropus@protonmail.com"
+    },
+
+    "record": {
+        "A": ["1.1.1.1", "1.0.0.1"]
+    },
+
+    "proxied": false
+}
