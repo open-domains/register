@@ -1,10 +1,11 @@
 {
     "description": "A basic static site",
     "domain": "is-cool.dev",
-    "subdomain": "scoobis",
+    "subdomain": "scoobies",
 
     "owner": {
-        "username": "turtletown73"
+        "username": "turtletown73",
+        "email": "turtletown73@gmail.com"
     },
 
     "record": {
