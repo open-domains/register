@@ -1,0 +1,15 @@
+{
+    "description": "A basic static site",
+    "domain": "is-cool.dev",
+    "subdomain": "scoobis",
+
+    "owner": {
+        "username": "turtletown73"
+    },
+
+    "record": {
+        "A": "68.51.36.237"
+    },
+
+    "proxied": true
+}
