@@ -8,9 +8,9 @@
         "email": "turtletown73@gmail.com"
     },
 
-    "record": {
+    "record": [
         "A": "68.51.36.237"
-    },
+    ],
 
-    "proxied": true
+    "proxied": false
 }
