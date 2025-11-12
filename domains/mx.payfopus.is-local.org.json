@@ -1,0 +1,11 @@
+{
+  "description": "MX record for PayFopus mail delivery.",
+  "domain": "is-local.org",
+  "subdomain": "payfopus",
+  "owner": {
+    "email": "mahmedhleli@gmail.com"
+  },
+  "record": {
+    "MX": ["mail.payfopus.is-local.org"]
+  }
+}
