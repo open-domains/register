@@ -1,0 +1,13 @@
+{
+  "description": "Personal n8n automation server",
+  "domain": "localplayer.dev",
+  "subdomain": "n8n",
+  "owner": {
+    "repo": "https://github.com/calvinnnarmstrong/register",
+    "email": "litinyau99@gmail.com"
+  },
+  "record": {
+    "A": ["72.60.234.135"]
+  },
+  "proxied": true
+}
