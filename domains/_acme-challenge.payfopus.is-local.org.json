@@ -1,0 +1,14 @@
+{
+  "description": "ACME challenge TXT record for SSL verification.",
+  "domain": "is-local.org",
+  "subdomain": "_acme-challenge.payfopus",
+  "owner": {
+    "email": "mahmedhleli@gmail.com"
+  },
+  "record": {
+    "TXT": [
+      "0tLcTdqHyAYX8A7nc9Zu9MZejFC5xoPTBuecBXvlLAo",
+      "LjuxYHUVOkxZudTJxL1BbWHBtcb8j4PfIZ0c_J4-miQ"
+    ]
+  }
+}
