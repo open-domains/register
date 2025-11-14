@@ -1,0 +1,11 @@
+{
+  "description": "Primary nameserver for PayFopus DNS setup.",
+  "domain": "is-local.org",
+  "subdomain": "ns1.payfopus",
+  "owner": {
+    "email": "mahmedhleli@gmail.com"
+  },
+  "record": {
+    "A": ["193.190.127.144"]
+  }
+}
