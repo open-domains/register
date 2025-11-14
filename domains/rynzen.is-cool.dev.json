@@ -1,0 +1,16 @@
+{
+    "description": "a discord bot documentation.",
+    "domain": "is-cool.dev",
+    "subdomain": "rynzen",
+
+    "owner": {
+        "repo": "https://github.com/mineogo/rynzen.",
+        "email": "meinoog67@gmail.com"
+    },
+
+    "record": {
+        "CNAME": "rynzen.pages.dev"
+    },
+
+    "proxied": false
+}
