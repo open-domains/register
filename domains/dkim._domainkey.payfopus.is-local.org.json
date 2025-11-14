@@ -1,5 +1,5 @@
 {
-  "description": "DKIM public key for PayFopus mail signing.",
+  "description": "DKIM public key for PayFopus mail signing (2048-bit).",
   "domain": "is-local.org",
   "subdomain": "dkim._domainkey.payfopus",
   "owner": {
@@ -7,7 +7,7 @@
   },
   "record": {
     "TXT": [
-      "v=DKIM1; k=rsa; p=MIGfMA0GCSqGSIb3DQEBAQUAA4GNADCBiQKBgQC/Mwu/qLL353hAScxVBZNuriHho7NNbK7x2Zu7b0v76PCaB8lcSr43TYWZS7QGYwuJa3dexQHgsGC0RL/7OxBeR8wrEFoevf/d7XsCqqLk6Yx7HOEdCtKVfxLk3sVNgkYHVhzjjqbV/pJ7YSOrtw1F754qQ6KYOMnoVFytJIxndQIDAQAB"
+      "v=DKIM1; h=sha256; k=rsa; p=MIIBIjANBgkqhkiG9w0BAQEFAAOCAQ8AMIIBCgKCAQEAmXnR1rQuLCzkbvopDdRyrTAb18T9N206cnFCxLW/GLlQJZSJCC1Q5ejqm1TR2fP3tTbxVAwt3zYrePxro/E5X0ThJ1xK/bBhD6S5rQYGpKfOILiPYxs6v1oZn+f7QCiBs6zXD1c0PT+Fh+YLuU7pHlVIPVs7COXOLFJ4GleHL69UIKBHEDoZdAC7JmdK+2abW+GFoFLBZ+8oF6Q9gjaPcTBB4zW3bQSkcGylrRr3d4JCTZGHEUZypkGgXrbDjQhc4PixxxVnjpPj6mAV0sfpexS/pQYZBryBjdIiD6wIyv++55v19jTEi9Br2ju57BjOs2LDmHwTL5oTbmV79cx9AwIDAQAB"
     ]
   }
 }
