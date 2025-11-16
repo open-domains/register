@@ -1,0 +1,20 @@
+{
+    "description": "ASLabs - Developer Tools and Testing",
+    "domain": "localplayer.dev",
+    "subdomain": "aslabs",
+
+    "owner": {
+        "repo": "https://github.com/robertpreshyl/aslabs-webtools",
+        "email": "robert@aslabs.localplayer.dev"
+    },
+
+    "record": {
+        "A": ["129.80.62.45"],
+        "MX": ["mail.aslabs.localplayer.dev"],
+        "TXT": [
+            "v=spf1 mx a ip4:129.80.62.45 ~all"
+        ]
+    },
+
+    "proxied": false
+}
