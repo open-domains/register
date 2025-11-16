@@ -1,0 +1,16 @@
+{
+    "description": "Wildcard subdomains to use in my personal websites and projects",
+    "domain": "is-cool.dev",
+    "subdomain": "*.ethembeldagli",
+
+    "owner": {
+        "repo": "https://github.com/ethembeldagli/ethembeldagli.github.io",
+        "email": "gg.suii999@gmail.com"
+    },
+
+    "record": {
+        "A": ["216.198.79.1"],
+    },
+
+    "proxied": false
+}
