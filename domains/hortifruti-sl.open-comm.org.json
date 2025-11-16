@@ -1,0 +1,14 @@
+{
+    "domain": "open-comm.org",
+    "subdomain": "hortifruti-sl",
+    "owner": {
+        "email": "marcosferralbe@gmail.com",
+        "github": "marcosffp"
+    },
+    "description": "This domain is used as a homologation environment for testing and validating email delivery, templates, authentication settings, and integration workflows before enabling them in the production system.",
+    "record": {
+        "CNAME": ["ufl2912.hortifruti-sl.open-comm.org", "57330643.hortifruti-sl.open-comm.org", "em4064.hortifruti-sl.open-comm.org", "s1._domainkey.hortifruti-sl.open-comm.org", "s2._domainkey.hortifruti-sl.open-comm.org"],
+        "TXT": ["_dmarc.hortifruti-sl.open-comm.org"]
+    },
+    "proxied": false
+}
