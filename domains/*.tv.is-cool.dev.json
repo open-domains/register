@@ -1,0 +1,14 @@
+{
+    "description": "Film and television website",
+    "domain": "is-cool.dev",
+    "subdomain": "tv",
+
+    "owner": {
+        "repo": "https://github.com/biligit/register",
+        "email": "yuehanxun40@outlook.com"
+    },
+
+    "record": {
+        "A": ["216.198.79.1"]
+    "proxied": false
+}
