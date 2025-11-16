@@ -1,0 +1,12 @@
+{
+  "description": "ECPD Non-Profit Organization Catch-All Email via Forward Email",
+  "records": [
+    { "type": "MX", "host": "@", "value": "mx1.forwardemail.net", "priority": 10 },
+    { "type": "MX", "host": "@", "value": "mx2.forwardemail.net", "priority": 10 },
+    { 
+      "type": "TXT", 
+      "host": "@", 
+      "value": "forward-email=mr.elhassan2do@gmail.com" 
+    }
+  ]
+}
