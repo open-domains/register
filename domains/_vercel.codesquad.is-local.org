@@ -1,0 +1,16 @@
+{
+  "description": "Vercel domain verification for codesquad.is-local.org",
+  "domain": "is-local.org",
+  "subdomain": "_vercel.codesquad",
+
+  "owner":   {
+    "repo": "https://github.com/doitcodesquad/department-of-it.git",
+    "email": "doitcodesquad@gmail.com"
+  },
+
+  "record": {
+    "TXT": ["vc-domain-verify=codesquad.is-local.org,c4233ac1fdf242499652"]
+  },
+
+  "proxied": false
+}
