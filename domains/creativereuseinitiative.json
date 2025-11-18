@@ -1,7 +1,12 @@
 {
+  "domain": "creativereuseinitiative",
+  "subdomain": "creativereuseinitiative",
   "owner": {
     "username": "zxgvdh9jqb-wq"
   },
   "repo": "rebottle-website",
-  "branch": "main"
+  "branch": "main",
+  "record": {
+    "A": ["192.0.2.1"]
+  }
 }
