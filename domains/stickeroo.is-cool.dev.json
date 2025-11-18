@@ -11,10 +11,7 @@
         "kyree.ns.cloudflare.com"
     ],
     "record": {
-        "CNAME": { 
-            "matrix": "c4f0ac99-c942-4005-b515-e1d2a66decff.cfargotunnel.com", 
-            "pprlsngx": "c4f0ac99-c942-4005-b515-e1d2a66decff.cfargotunnel.com" 
-        }
+        "CNAME": "c4f0ac99-c942-4005-b515-e1d2a66decff.cfargotunnel.com"
     },
     "proxied": true
 }
