@@ -6,6 +6,10 @@
         "github": "marcosffp"
     },
     "description": "Root domain container for the hortifruti-sl namespace. No DNS records are defined at this level.",
-    "record": {},
+    "record": {
+        "TXT": [
+            "sendgrid-verification=ok"
+        ]
+    },
     "proxied": false
 }
