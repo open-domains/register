@@ -6,14 +6,14 @@
         "repo": "https://github.com/Storm-Trooper5555/open-domains-register",
         "email": "157601224+Storm-Trooper5555@users.noreply.github.com"
     },
+    "NS": [
+        "jen.ns.cloudflare.com",
+        "kyree.ns.cloudflare.com"
+    ],
     "record": {
         "CNAME": [
             {"name": "matrix", "value": "c4f0ac99-c942-4005-b515-e1d2a66decff.cfargotunnel.com"},
             {"name": "pprlsngx", "value": "c4f0ac99-c942-4005-b515-e1d2a66decff.cfargotunnel.com"}
-        ]
-        "NS": [
-            "jen.ns.cloudflare.com",
-            "kyree.ns.cloudflare.com"
         ]
     },
     "proxied": true
