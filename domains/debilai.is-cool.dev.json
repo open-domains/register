@@ -1,5 +1,5 @@
 {
-    "description": "Minecraft server domain",
+    "description": "Minecraft server domain protected by TCPShield",
     "domain": "is-cool.dev",
     "subdomain": "debilai",
 
@@ -8,7 +8,7 @@
     },
 
     "record": {
-        "A": ["78.60.219.244"]
+        "CNAME": ["d6eb5b8265288643d599f03c7f5c68d4.ipv4.tcpshield.com."]
     },
 
     "proxied": false
