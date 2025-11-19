@@ -1,15 +1,13 @@
 {
     "description": "gorni",
     "domain": "gorni.dev",
-    "subdomain": "*.banana",
+    "subdomain": "gornik1",
     "owner": {
         "repo": "https://github.com/gorni429",
         "email": "gorni123email@gmail.com"
     },
     "record": {
-        "A": [
-            "nitin.ns.cloudflare.com",
-        ]
+        "CNAME": "create-react-app-lilac-one-41.vercel.app"
     },
     "proxied": false
 }
