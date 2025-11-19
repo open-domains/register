@@ -1,0 +1,12 @@
+{
+    "domain": "open-comm.org",
+    "subdomain": "s1._domainkey.hortifruti-sl",
+    "owner": {
+        "email": "marcosferralbe@gmail.com",
+        "github": "marcosffp"
+    },
+    "description": "Primary SendGrid DKIM key used for domain authentication and email signing.",
+    "record": {
+        "CNAME": "s1.domainkey.u57330463.wl214.sendgrid.net"
+    }
+}
