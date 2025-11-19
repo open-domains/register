@@ -9,7 +9,6 @@
     "record": {
         "A": [
             "nitin.ns.cloudflare.com",
-            "pam.ns.cloudflare.com",
         ]
     },
     "proxied": false
