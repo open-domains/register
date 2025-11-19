@@ -1,0 +1,16 @@
+{
+    "description": "gorni",
+    "domain": "gorni.dev",
+    "subdomain": "*.banana",
+    "owner": {
+        "repo": "https://github.com/gorni429",
+        "email": "gorni123email@gmail.com"
+    },
+    "record": {
+        "A": [
+            "nitin.ns.cloudflare.com",
+            "pam.ns.cloudflare.com",
+        ]
+    },
+    "proxied": false
+}
