@@ -1,9 +1,5 @@
 {
-  "owner": {
-    "github": "Tom-De-Jong"
-  },
-  "domain": "is-a-fullstack.dev",
-  "subdomain": "tomdejong",
+  "owner": "tom-de-jong",
   "records": {
     "CNAME": "tom-de-jong.github.io"
   }
