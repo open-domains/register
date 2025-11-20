@@ -1,0 +1,13 @@
+{
+  "description": "Vyom AI Agency Website",
+  "domain": "is-cool.dev",
+  "subdomain": "vyom-agency",
+  "owner": {
+    "repo": "https://github.com/jeel/vyom_agency_single_page_website",
+    "email": "jeelpatel1566@gmail.com"
+  },
+  "record": {
+    "CNAME": "jeel.github.io"
+  },
+  "proxied": false
+}
