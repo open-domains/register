@@ -3,11 +3,11 @@
   "domain": "is-cool.dev",
   "subdomain": "vyom-agency",
   "owner": {
-    "repo": "https://github.com/jeel/vyom_agency_single_page_website",
+    "repo": "https://github.com/jeel1566/vyom-agency",
     "email": "jeelpatel1566@gmail.com"
   },
   "record": {
-    "CNAME": "jeel.github.io"
+    "CNAME": "jeel1566.github.io"
   },
   "proxied": false
 }
