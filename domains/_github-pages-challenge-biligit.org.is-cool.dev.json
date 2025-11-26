@@ -1,0 +1,16 @@
+{
+    "description": "My personal blog, deployed on Github",
+    "domain": "is-cool.dev",
+    "subdomain": "_github-pages-challenge-biligit.org",
+
+    "owner": {
+        "repo": "https://github.com/biligit/opendo",
+        "email": "yuehanxun40@outlook.com"
+    },
+
+    "record": {
+        "TXT": ["b536b66ffa26c403c7adbabb16361c"]
+    },
+
+    "proxied": false
+}
