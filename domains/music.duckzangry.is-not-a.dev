@@ -1,0 +1,16 @@
+{
+    "description": "Project Description",
+    "domain": "is-not-a.dev",
+    "subdomain": "music",
+
+    "owner": {
+        "repo": "https://github.com/duckhayangry/spotifi-with-dynamicisland",
+        "email": "duckhayangry@gmail.com"
+    },
+
+    "record": {
+        "CNAME": "v0-music-player-component-zeta.vercel.app",
+    },
+
+    "proxied": false
+}
