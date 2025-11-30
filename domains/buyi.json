@@ -1,0 +1,14 @@
+{
+  "$schema": "../schemas/domain.schema.json",
+  "description": "personal domain for buyi",
+  "domain": "localplayer.dev",
+  "subdomain": "buyi",
+  "owner": {
+    "repo": "https://github.com/buyi06",
+    "email": "gonzaleztashak@gmail.com"
+  },
+  "record": {
+    "CNAME": "buyi06.github.io"
+  },
+  "proxied": false
+}
