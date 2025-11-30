@@ -1,0 +1,23 @@
+{
+    "description": "Server s oprosami",
+    "domain": "is-not-a.dev",
+    "subdomain": "chistquestlove",
+    "owner": {
+        "repo": "https://github.com/misha-nya-git/register/",
+        "email": "jigid.com@gmail.com"
+    },
+    "record": {
+        "CAA": [
+            {
+                "flags": 0,
+                "tag": "issue",
+                "value": "letsencrypt.org"
+            }
+        ],
+        "NS": [
+            "ns1.vdska.ru",
+            "ns2.vdska.ru"
+        ]
+    },
+    "proxied": false
+}
