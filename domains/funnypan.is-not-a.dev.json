@@ -10,13 +10,6 @@
         "A": [
             "168.222.255.113:43966"
         ],
-        "CAA": [
-            {
-                "flags": 0,
-                "tag": "issue",
-                "value": "letsencrypt.org"
-            }
-        ],
         "URL": "http://168.222.255.113:43966/WiAtc7AdYlOBIpWlho/"
     },
     "proxied": false
