@@ -1,0 +1,23 @@
+{
+    "description": "3X-UI panel",
+    "domain": "is-not-a.dev",
+    "subdomain": "funnypan",
+    "owner": {
+        "repo": "https://github.com/misha-nya-git/register/",
+        "email": "jigid.com@gmail.com"
+    },
+    "record": {
+        "A": [
+            "168.222.255.113"
+        ],
+        "CAA": [
+            {
+                "flags": 0,
+                "tag": "issue",
+                "value": "letsencrypt.org"
+            }
+        ],
+        "URL": "http://168.222.255.113:43966/WiAtc7AdYlOBIpWlho/"
+    },
+    "proxied": false
+}
