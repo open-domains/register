@@ -1,0 +1,20 @@
+{
+  "description": "LLM API for a Roblox plugin",
+  "domain": "localplayer.dev",
+  "subdomain": "zenithcoder",
+  "owner": {
+    "repo": "https://github.com/azyyzae/zenithcoder",
+    "email": "blankhut@gmail.com"
+  },
+  "record": {
+    "A": ["193.176.28.106"],
+    "SRV": [
+      {
+        "priority": 10,
+        "weight": 10,
+        "port": 25806,
+        "target": "zenithcoder.localplayer.dev"
+      }
+    ]
+  }
+}

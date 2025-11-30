@@ -1,0 +1,16 @@
+{
+    "description": "William Holley's Website",
+    "domain": "is-cool.dev",
+    "subdomain": "4realwilly",
+
+    "owner": {
+        "repo": "https://github.com/4realwilly/register-open-domains",
+        "email": "wholley123@icloud.com"
+    },
+
+    "record": {
+        "CNAME": "my-website-9et.pages.dev"
+    },
+
+    "proxied": false
+}

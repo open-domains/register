@@ -1,0 +1,12 @@
+{
+    "domain": "open-comm.org",
+    "subdomain": "em3399.hortifruti-sl",
+    "owner": {
+        "email": "marcosferralbe@gmail.com",
+        "github": "marcosffp"
+    },
+    "description": "SendGrid tracking CNAME record used for email click/open tracking and link rewriting.",
+    "record": {
+        "CNAME": "u57330463.wl214.sendgrid.net"
+    }
+}

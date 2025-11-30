@@ -1,0 +1,13 @@
+{
+  "description": "My website hosted on Netlify",
+  "domain": "is-not-a.dev",
+  "subdomain": "stop",
+  "owner": {
+    "repo": "https://github.com/laubro9/register",
+    "email": "24temprature@gmail.com"
+  },
+  "record": {
+    "CNAME": "coruscating-melomakarona-e5a880.netlify.app"
+  },
+  "proxied": false
+}

@@ -1,0 +1,13 @@
+{
+    "description": "Aeropus Mini-Office Project Website",
+    "domain": "is-cool.dev",
+    "subdomain": "aeropus",
+    "owner": {
+        "repo": "https://github.com/dasfohlen1900/Mini-Office",
+        "email": "lukovic.minioffice.aeropus@protonmail.com"
+    },
+    "record": {
+        "A": ["185.199.108.153", "185.199.109.153", "185.199.110.153", "185.199.111.153"]
+    },
+    "proxied": false
+}

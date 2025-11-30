@@ -8,10 +8,8 @@
     },
     "record": {
         "NS": [
-            "ns1.hostry.com",
-            "ns2.hostry.com",
-            "ns3.hostry.com",
-            "ns4.hostry.com"
+            "dimitris.ns.cloudflare.com",
+            "marlowe.ns.cloudflare.com"
         ]
     },
     "proxied": false

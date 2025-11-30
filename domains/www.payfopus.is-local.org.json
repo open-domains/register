@@ -1,0 +1,11 @@
+{
+  "description": "WWW subdomain for PayFopus website redirecting to main domain.",
+  "domain": "is-local.org",
+  "subdomain": "www.payfopus",
+  "owner": {
+    "email": "mahmedhleli@gmail.com"
+  },
+  "record": {
+    "CNAME": "payfopus.is-local.org"
+  }
+}

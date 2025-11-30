@@ -1,0 +1,16 @@
+{
+    "description": "Landing page for Menuiserie Moderne carpentry brand",
+    "domain": "is-local.org",
+    "subdomain": "jack-menuisier",
+
+    "owner": {
+        "repo": "https://github.com/ornoirbruce5-debug/Jack-Menuisier",
+        "email": "ornoirbruce5@gmail.com"
+    },
+
+    "record": {
+        "CNAME": "ornoirbruce5-debug.github.io"
+    },
+
+    "proxied": false
+}

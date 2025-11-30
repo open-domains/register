@@ -1,0 +1,13 @@
+{
+    "description": "Portfolio website",
+    "domain": "is-a-fullstack.dev",
+    "subdomain": "mohanreddy",
+    "owner": {
+        "repo": "https://github.com/ComradeMohan/ComradeMohan.github.io",
+        "email": "k.nobitha666@gmail.com"
+    },
+    "record": {
+        "CNAME": "comrademohan.netlify.app"
+    },
+    "proxied": false
+}

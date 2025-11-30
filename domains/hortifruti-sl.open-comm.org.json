@@ -1,0 +1,15 @@
+{
+    "domain": "open-comm.org",
+    "subdomain": "hortifruti-sl",
+    "owner": {
+        "email": "marcosferralbe@gmail.com",
+        "github": "marcosffp"
+    },
+    "description": "Root domain container for the hortifruti-sl namespace. No DNS records are defined at this level.",
+    "record": {
+        "TXT": [
+            "sendgrid-verification=ok"
+        ]
+    },
+    "proxied": false
+}
