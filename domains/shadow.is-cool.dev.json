@@ -1,0 +1,16 @@
+{
+    "description": "a wildcard for shadow",
+    "domain": "is-cool.dev",
+    "subdomain": "shadow",
+
+    "owner": {
+        "repo": "https://github.com/shadow0l9/shadow",
+        "email": "hasheshyoussef9@gmail.com"
+    },
+
+    "record": {
+        "CNAME": "shadow-port.pages.dev"
+    },
+
+    "proxied": false
+}
