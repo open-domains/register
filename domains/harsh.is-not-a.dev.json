@@ -1,7 +1,7 @@
 {
     "description": "Harsh M. Panchal's Website",
     "domain": "is-not-a.dev",
-    "subdomain": "*.harsh",
+    "subdomain": "harsh",
 
     "owner": {
         "repo": "https://github.com/HarshPanchal18",
