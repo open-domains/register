@@ -12,5 +12,5 @@
         "CNAME": "biligit.github.io"
     },
 
-    "proxied": false
+    "proxied": true
 }
