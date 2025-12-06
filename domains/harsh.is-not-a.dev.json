@@ -1,0 +1,16 @@
+{
+    "description": "Harsh M. Panchal's Website",
+    "domain": "is-not-a.dev",
+    "subdomain": "harsh",
+
+    "owner": {
+        "repo": "https://github.com/HarshPanchal18",
+        "email": "harshhhh1803@gmail.com"
+    },
+
+    "record": {
+        "CNAME": "harshpanchal18.github.io"
+    },
+
+    "proxied": false
+}
