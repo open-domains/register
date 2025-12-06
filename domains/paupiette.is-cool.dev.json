@@ -1,0 +1,16 @@
+{
+    "description": "Paupiette — A platform to organize baby prediction games with friends and family.",
+    "domain": "is-cool.dev",
+    "subdomain": "paupiette",
+
+    "owner": {
+        "repo": "https://github.com/francoisreme/paupiette",
+        "email": "francois.reme@pulsar.audio"
+    },
+
+    "record": {
+        "A": ["82.67.85.1"]
+    },
+
+    "proxied": false
+}
