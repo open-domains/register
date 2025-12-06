@@ -1,0 +1,13 @@
+{
+  "description": "Chill-verse – my personal website / portfolio",
+  "domain": "is-cool.dev",
+  "subdomain": "chill-verse",
+  "owner": {
+    "repo": "https://github.com/YoungPresido76/Chill-verse",
+    "email": "yungpresido76@gmail.com"
+  },
+  "record": {
+    "CNAME": "youngpresido76.github.io"
+  },
+  "proxied": false
+}
