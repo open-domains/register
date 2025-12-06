@@ -1,0 +1,16 @@
+{
+    "description": "unkn1wn's website",
+    "domain": "is-cool.dev",
+    "subdomain": "unkn1wn",
+
+    "owner": {
+        "repo": "https://github.com/unkn1wn0/unkn1wns-website",
+        "email": "epicgamesjuven@gmail.com"
+    },
+
+    "record": {
+        "A": ["75.2.60.5"]
+    },
+
+    "proxied": false
+}
