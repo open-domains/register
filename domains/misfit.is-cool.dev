@@ -1,0 +1,16 @@
+{
+    "description": "WebLy is an AI-powered website builder that transforms your ideas into fully functional, professional websites instantly.",
+    "domain": "is-cool.dev",
+    "subdomain": "misfit",
+
+    "owner": {
+        "repo": "https://github.com/AyushmanGupta21/WebLy",
+        "email": "guptaayushman176@gmail.com"
+    },
+
+    "record": {
+        "CNAME": "web-ly.vercel.app"
+    },
+
+    "proxied": false
+}
