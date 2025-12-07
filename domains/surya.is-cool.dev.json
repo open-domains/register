@@ -4,5 +4,7 @@
   "owner": {
     "email": "Surya.nallagonda123@gmail.com"
   },
-  "record": {}
+  "record": {
+    "CNAME": "cname.vercel-dns.com"
+  }
 }
