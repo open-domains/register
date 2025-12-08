@@ -1,5 +1,6 @@
 {
-  "description": "Wildcard subdomains for elkaff",
+  
+  "description": "Personal website portofolio",
   "domain": "is-not-a.dev",
   "subdomain": "*.elkaff",
   "owner": {
