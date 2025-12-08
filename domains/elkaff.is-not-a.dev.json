@@ -1,0 +1,15 @@
+{
+    "description": "Portfolio project",
+    "domain": "is-not-a.dev",
+    "subdomain": "elkaff",
+    "owner": {
+        "repo": "https://github.com/elkhaff/elkhaff",
+        "email": "elkhaff27@gmail.com"
+    },
+    "record": {
+        "A": [
+            "216.198.79.1"
+        ]
+    },
+    "proxied": false
+}
