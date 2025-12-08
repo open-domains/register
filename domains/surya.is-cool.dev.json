@@ -1,0 +1,11 @@
+{
+  "description": "Personal website / project domain for Surya",
+  "domain": "is-cool.dev",
+  "subdomain": "surya",
+  "owner": {
+    "email": "Surya.nallagonda123@gmail.com"
+  },
+  "record": {
+    "CNAME": "cname.vercel-dns.com"
+  }
+}
