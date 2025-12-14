@@ -1,0 +1,12 @@
+{
+  "description": "Personal website for Sefexxs",
+  "domain": "is-local.org",
+  "subdomain": "sefexxs",
+  "owner": {
+    "repo": "https://github.com/Sefexxs"
+  },
+  "record": {
+    "CNAME": "sefexxs.github.io"
+  },
+  "proxied": false
+}
