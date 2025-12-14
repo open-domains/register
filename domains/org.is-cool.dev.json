@@ -9,7 +9,8 @@
      }, 
   
      "record": { 
-         "CNAME": "biligit.github.io" 
+         "CNAME": "biligit.github.io",
+         "TXT": ["google-site-verification=OpD8ZRDVPKTySVbeI9FKHVtbNUJ1iQrXUF7GEiZbs5w"],
      }, 
   
      "proxied": true
