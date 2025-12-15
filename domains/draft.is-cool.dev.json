@@ -1,11 +1,15 @@
 {
-  "description": "Sahib Singh - Design Portfolio, this domaing will be used by a website which will have my design/architecture work and will server as a portfolio",
-  "repo": "https://github.com /maniack431/draftiscool",
-  "owner": {
-    "username": "maniack431",
-    "email": "unspecifiedfield@gmail.com"
-  },
-  "record": {
-    "CNAME": "maniack431.github.io"
-  }
+    "description": "My personal domain, a place for my work to sit a portfolio page",
+    "domain": "is-cool.dev",
+    "subdomain": "draft",
+    "owner": {
+        "repo": "https://github.com/maniack431/draftiscool",
+        "email": "unspecifiedfield@gmail.com"
+    },
+    "record": {
+        "CNAME": [
+            "maniack431.github.io"
+        ]
+    },
+    "proxied": false
 }
