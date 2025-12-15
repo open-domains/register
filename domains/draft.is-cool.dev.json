@@ -7,9 +7,7 @@
         "email": "unspecifiedfield@gmail.com"
     },
     "record": {
-        "CNAME": [
-            "maniack431.github.io"
-        ]
+        "CNAME": "maniack431.github.io"
     },
     "proxied": false
 }
