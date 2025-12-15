@@ -1,7 +1,7 @@
 { 
-     "description": "My personal blog, deployed on Github", 
+     "description": "Google Webmaster Tool Cname Verification", 
      "domain": "is-cool.dev", 
-     "subdomain": "org", 
+     "subdomain": "b27q562yg6z3.org", 
   
      "owner": { 
          "repo": "https://github.com/biligit/opendo", 
@@ -9,8 +9,8 @@
      }, 
   
      "record": { 
-         "CNAME": "biligit.github.io"
+         "CNAME": "gv-hmjomjawnnzp2t.dv.googlehosted.com"
      }, 
   
-     "proxied": true
+     "proxied": false
  }
