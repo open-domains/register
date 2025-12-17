@@ -1,0 +1,18 @@
+{
+    "description": "Used for my school project called gator learn, a tutoring website",
+    "domain": "is-cool.dev",
+    "subdomain": "gatorlearn",
+
+    "owner": {
+        "repo": "https://github.com/hill13/register",
+        "email": "hillkalathiya7@gmail.com"
+    },
+
+    "record": {
+        "A": ["18.144.101.99"],
+        
+        ]
+    },
+
+    "proxied": false
+}
