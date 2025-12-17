@@ -1,0 +1,15 @@
+{
+    "description": "lil personal website",
+    "domain": "is-not-a.dev",
+    "subdomain": "raster",
+
+    "owner": {
+        "email": "heyraster@proton.me"
+    },
+
+    "record": {
+        "CNAME": "raster.pages.dev",
+    },
+
+    "proxied": false
+}
