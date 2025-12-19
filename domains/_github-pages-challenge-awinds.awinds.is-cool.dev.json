@@ -1,0 +1,14 @@
+{
+    "description": "GitHub Pages verification",
+    "domain": "is-cool.dev",
+    "subdomain": "_github-pages-challenge-awinds.awinds",
+    "owner": {
+        "email": "awinds@gmail.com"
+    },
+    "record": {
+        "TXT": [
+            "83430ba4b570cc742dbc81541b19cd"
+        ]
+    },
+    "proxied": false
+}
