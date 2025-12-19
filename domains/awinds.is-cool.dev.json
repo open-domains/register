@@ -1,0 +1,12 @@
+{
+  "description": "Personal homepage and blog",
+  "domain": "is-cool.dev",
+  "subdomain": "awinds",
+  "owner": {
+    "repo": "https://github.com/awinds",
+    "email": "awinds@gmail.com"
+  },
+  "record": {
+    "CNAME": "awinds.github.io"
+  }
+}
