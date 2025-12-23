@@ -1,0 +1,13 @@
+{
+  "description": "GitHub Pages for sautify.is-cool.dev",
+  "domain": "is-cool.dev",
+  "subdomain": "sautify",
+  "owner": {
+    "repo": "https://github.com/wambugu71/sautify",
+    "email": "kenliz1738@gmail.com"
+  },
+  "record": {
+    "CNAME": "wambugu71.github.io"
+  },
+  "proxied": false
+}
