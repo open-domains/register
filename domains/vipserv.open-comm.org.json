@@ -7,10 +7,7 @@
     "email": "mehr2.business@gmail.com"
   },
   "record": {
-    "A": ["152.228.206.133"],
-    "AAAA": [],
-    "CNAME": "",
-    "TXT": []
+    "A": ["152.228.206.133"]
   },
   "proxied": false
 }
