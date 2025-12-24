@@ -1,0 +1,16 @@
+{
+  "description": "VPN panel and services",
+  "domain": "open-comm.org",
+  "subdomain": "vipserv",
+  "owner": {
+    "repo": "https://github.com/Parsa3323/vipserv-domain",
+    "email": "mehr2.business@gmail.com"
+  },
+  "record": {
+    "A": ["152.228.206.133"],
+    "AAAA": [],
+    "CNAME": "",
+    "TXT": []
+  },
+  "proxied": false
+}
