@@ -5,9 +5,7 @@
     "email": "prajapativishal1545@gmail.com"
   },
   "record": {
-    "CNAME": [
-      "vishalkumar-prajapati.netlify.app"
-    ]
+    "CNAME": "vishalkumar-prajapati.netlify.app"
   },
   "proxied": false
 }
