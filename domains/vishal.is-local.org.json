@@ -1,0 +1,13 @@
+{
+  "domain": "is-local.org",
+  "subdomain": "vishal",
+  "owner": {
+    "email": "prajapativishal1545@gmail.com"
+  },
+  "record": {
+    "CNAME": [
+      "vishalkumar-prajapati.netlify.app"
+    ]
+  },
+  "proxied": false
+}
