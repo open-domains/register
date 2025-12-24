@@ -1,16 +1,16 @@
 {
-    "description": "Subdomain where i will host some subdomains via a program using CloudFlare Tunnels",
+    "description": "Subdomain will be used on CloudFlare Tunnels",
     "domain": "is-cool.dev",
     "subdomain": "rotur",
     "owner": {
-        "signal": "milo.66",
-        "discord": "699318362848886900",
-        "email": "milo@milosantos.com"
+        "discord": "603952506330021898",
+        "email": "mist@mistium.com",
+        "github": "Mistium"
     },
     "record": {
         "NS": [
-            "kristin.ns.cloudflare.com",
-            "uriah.ns.cloudflare.com"
+            "vern.ns.cloudflare.com",
+            "zainab.ns.cloudflare.com"
         ]
     },
     "proxied": false
