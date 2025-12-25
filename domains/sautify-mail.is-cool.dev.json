@@ -1,0 +1,29 @@
+{
+  "description": "Mail testing  for GitHub Pages for sautify.is-cool.dev",
+  "domain": "is-cool.dev",
+  "subdomain": "sautify-mail",
+  "owner": {
+    "repo": "https://github.com/wambugu71/sautify",
+    "email": "kenliz1738@gmail.com"
+  },
+  "record": {
+      "MX": [
+                {
+            "priority": 10,
+            "value": "mx1.improvmx.com"
+        },
+
+        {
+            "priority": 20,
+            "value": "mx2.improvmx.com"
+        }
+            ],
+        "TXT": [
+            {
+                "name": "@",
+                "value": "v=spf1 include:spf.improvmx.com ~all"
+            }
+        ]
+  },
+  "proxied": false
+}
