@@ -1,0 +1,17 @@
+{
+    "description": "Project Jaisur Personal",
+    "domain": "is-a-fullstack.dev",
+    "subdomain": "jaisur",
+
+    "owner": {
+        "repo": "https://github.com/jaisur684/register/",
+        "email": "jaidevsuresh@jailabs.qzz.io"
+    },
+
+    "record": {
+        "A": ["73.170.103.13"],
+    
+    },
+
+    "proxied": true
+}
