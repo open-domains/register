@@ -18,12 +18,7 @@
             "value": "mx2.improvmx.com"
         }
             ],
-        "TXT": [
-            {
-                "name": "@",
-                "value": "v=spf1 include:spf.improvmx.com ~all"
-            }
-        ]
+        "TXT": ["v=spf1 include:spf.improvmx.com ~all"]
   },
   "proxied": false
 }
