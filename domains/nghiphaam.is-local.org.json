@@ -1,0 +1,19 @@
+{
+    "description": "Personal purpose",
+    "domain": "is-local.org",
+    "subdomain": "nghiphaam",
+
+    "owner": {
+        "repo": "https://github.com/nghiphaam/register",
+        "email": "nghiphaam.1504@gmail.com"
+    },
+
+    "record": {
+        "NS": [
+            "aragorn.ns.cloudflare.com",
+            "nia.ns.cloudflare.com"
+        ]
+    },
+
+    "proxied": false
+}
