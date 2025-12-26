@@ -7,7 +7,9 @@
     "email": "hungrero.vn@gmail.com"
   },
   "record": {
-    "CNAME": "hrv-web.netlify.app"
+    "CNAME": "hrv-web.netlify.app",
+   "txt": ["resend._domainkey.hrv-clan=p=MIGfMA0GCSqGSIb3DQEBAQUAA4GNADCBiQKBgQDPcfnbawAo7jAZX70O+NSWBZFOLlLlnUBWAxHChbib1qrJRHBPCHrjSmf+1s9w9AF47CvxoPJSPCqxq0QU8DTaPmNcTbP+/9nAtQPqgq4DquoUkKqi5x35IBhS1KTlAYAVqFzBdyXYE7niN0tIVKcNagD6CwiZyXAo08IIwt71KwIDAQAB","send.hrv-clan=v=spf1 include:amazonses.com ~all","_dmarc=v=DMARC1; p=none;"],
+  "mx": ["feedback-smtp.ap-northeast-1.amazonses.com","inbound-smtp.ap-northeast-1.amazonaws.com"]
   },
   "proxied": true
 }
