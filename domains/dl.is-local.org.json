@@ -1,0 +1,15 @@
+{
+    "description": "This website is to test media download.",
+    "domain": "is-local.org",
+    "subdomain": "dl",
+
+    "owner": {
+        "repo": "https://github.com/sanalchandran/personal-profile",
+        "email": "sanalchandran23@gmail.com"
+    },
+
+    "record": {
+        "A": ["80.225.214.49"]
+    },
+    "proxied": false
+}

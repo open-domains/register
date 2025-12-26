@@ -1,0 +1,15 @@
+{
+    "description": "X2RAY PeakCN VPS",
+    "domain": "is-local.org",
+    "subdomain": "peakcn",
+    "owner": {
+        "repo": "https://github.com/ZachXu/register",
+        "email": "zach.xu1987@gmail.com"
+    },
+    "record": {
+        "A": [
+            "52.29.1.182"
+        ]
+    },
+    "proxied": false
+}

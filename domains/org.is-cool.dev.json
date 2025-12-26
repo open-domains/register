@@ -1,0 +1,16 @@
+{ 
+     "description": "My personal blog, deployed on Github", 
+     "domain": "is-cool.dev", 
+     "subdomain": "org", 
+  
+     "owner": { 
+         "repo": "https://github.com/biligit/opendo", 
+         "email": "yuehanxun40@outlook.com" 
+     }, 
+  
+     "record": { 
+         "CNAME": "biligit.github.io"
+     }, 
+  
+     "proxied": true
+ }

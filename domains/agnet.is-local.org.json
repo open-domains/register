@@ -1,0 +1,13 @@
+{
+  "description": "An AI agent working with n8n",
+  "domain": "is-local.org",
+  "subdomain": "agnet",
+  "owner": {
+    "repo": "https://github.com/hleliofficiel/AlphaExaAI",
+    "email": "mahmedhleli@gmail.com"
+  },
+  "record": {
+    "A": ["193.190.127.144"]
+  },
+  "proxied": false
+}

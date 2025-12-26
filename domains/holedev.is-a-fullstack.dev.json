@@ -1,0 +1,11 @@
+{
+    "domain": "is-a-fullstack.dev",
+    "subdomain": "holedev",
+    "owner": {
+        "email": "phanleho002@gmail.com"
+    },
+    "record": {
+        "CNAME": "holedev.com"
+    },
+    "proxied": true
+}

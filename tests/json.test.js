@@ -14,14 +14,14 @@ const optionalOwnerFields = {
 const ignoredRootJSONFiles = ["package-lock.json", "package.json"];
 
 
-const domains = [".is-a-fullstack.dev", ".is-cool.dev", ".is-local.org", ".is-not-a.dev", ".localplayer.dev"];
+const domains = [".is-a-fullstack.dev", ".is-cool.dev", ".is-local.org", ".is-not-a.dev", ".localplayer.dev", ".open-comm.org"];
 
 const emailRegex = /^[a-zA-Z0-9._%+-]+@[a-zA-Z0-9.-]+\.[a-zA-Z]{2,}$/;
 const hostnameRegex = /^(?=.{1,253}$)(?:(?:[_a-zA-Z0-9](?:[a-zA-Z0-9-]{0,61}[a-zA-Z0-9])?)\.)+[a-zA-Z]{2,63}$/;
 
 const domainsPath = path.resolve("domains");
 const reservedDomainsPath = path.resolve("reserved");
-const rootDomainFiles = ["is-a-fullstack.dev.json", "is-cool.dev.json", "is-local.org.json", "is-not-a.dev.json", "localplayer.dev.json"];
+const rootDomainFiles = ["is-a-fullstack.dev.json", "is-cool.dev.json", "is-local.org.json", "is-not-a.dev.json", "localplayer.dev.json", "open-comm.org.json"];
 const files = fs.readdirSync(domainsPath);
 const reservedFiles = fs.existsSync(reservedDomainsPath) ? fs.readdirSync(reservedDomainsPath) : [];
 
@@ -191,4 +191,22 @@ t("All files in the domains directory must have a .json extension", (t) => {
     } else {
         t.pass();
     }
+});
+
+t("TXT Records should be arrays not just strings", (t) => {
+    const files = fs.readdirSync(domainsPath).filter(file => {
+        const filePath = path.join(domainsPath, file);
+        return file.endsWith(".json") && fs.lstatSync(filePath).isFile();
+    });
+
+    files.forEach(file => {
+        const filePath = path.join(domainsPath, file);
+        const data = fs.readJsonSync(filePath);
+        if (data.record && data.record.TXT !== undefined) {
+            t.true(Array.isArray(data.record.TXT), `${file}: TXT record should be an array`);
+            data.record.TXT.forEach((txt, idx) => {
+                t.is(typeof txt, "string", `${file}: TXT record at index ${idx} should be a string`);
+            });
+        }
+    });
 });

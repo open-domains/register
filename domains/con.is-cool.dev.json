@@ -1,0 +1,11 @@
+{
+    "domain": "is-cool.dev",
+    "subdomain": "con",
+    "owner": {
+        "email": "c3630356@gmail.com"
+    },
+    "record": {
+        "CNAME": "username252510.github.io"
+    },
+    "proxied": false
+}

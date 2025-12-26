@@ -270,7 +270,7 @@ t("All files should have valid record values", (t) => {
                         );
 
                         t.regex(
-                            value.target,
+                            record.target,
                             hostnameRegex,
                             `${file}: SRV record value should be a valid hostname for target at index ${value.indexOf(record)}`
                         );

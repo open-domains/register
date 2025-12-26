@@ -1,0 +1,13 @@
+{
+  "description": "DKIM public key for PayFopus mail signing (2048-bit).",
+  "domain": "is-local.org",
+  "subdomain": "dkim._domainkey.payfopus",
+  "owner": {
+    "email": "mahmedhleli@gmail.com"
+  },
+  "record": {
+    "TXT": [
+      "v=DKIM1; h=sha256; k=rsa; p=MIIBIjANBgkqhkiG9w0BAQEFAAOCAQ8AMIIBCgKCAQEAmXnR1rQuLCzkbvopDdRyrTAb18T9N206cnFCxLW/GLlQJZSJCC1Q5ejqm1TR2fP3tTbxVAwt3zYrePxro/E5X0ThJ1xK/bBhD6S5rQYGpKfOILiPYxs6v1oZn+f7QCiBs6zXD1c0PT+Fh+YLuU7pHlVIPVs7COXOLFJ4GleHL69UIKBHEDoZdAC7JmdK+2abW+GFoFLBZ+8oF6Q9gjaPcTBB4zW3bQSkcGylrRr3d4JCTZGHEUZypkGgXrbDjQhc4PixxxVnjpPj6mAV0sfpexS/pQYZBryBjdIiD6wIyv++55v19jTEi9Br2ju57BjOs2LDmHwTL5oTbmV79cx9AwIDAQAB"
+    ]
+  }
+}

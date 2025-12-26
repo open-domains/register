@@ -1,0 +1,13 @@
+{
+  "description": "SAM2 SaaS Concept - API service for AI-powered image segmentation platform (Production Environment)",
+  "domain": "is-not-a.dev",
+  "subdomain": "api.sam2-saas-prod",
+  "owner": {
+    "repo": "https://github.com/devtony01/sam2-saas-concept",
+    "email": "chibuezeogbuji01@gmail.com"
+  },
+  "record": {
+    "CNAME": "a50df0d491cd74be0a95d0fbc5535687-50644910.us-east-1.elb.amazonaws.com"
+  },
+  "proxied": false
+}

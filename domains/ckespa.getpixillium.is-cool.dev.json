@@ -1,0 +1,13 @@
+{
+  "description": "It is for Ckespa verification.",
+  "domain": "is-cool.dev",
+  "subdomain": "ckespa.getpixillium",
+  "owner": {
+    "repo": "https://github.com/pixillium/open-domains-register",
+    "email": "pixillium.official@gmail.com"
+  },
+  "record": {
+    "CNAME": "spf.dm-290af8e5.sg2.convertkit.com"
+  },
+  "proxied": false
+}

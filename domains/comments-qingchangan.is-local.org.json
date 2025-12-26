@@ -1,0 +1,13 @@
+{
+    "description": "Will be used on my vercel.app website that I working on.",
+    "domain": "is-local.org",
+    "subdomain": "comments-qingchangan",
+    "owner": {
+        "repo": "https://vercel.com/qingchangans-projects/waline",
+        "email": "qingchangan.cc@outlook.com"
+    },
+    "record": {
+        "CNAME": "cname-china.vercel-dns.com"
+    },
+    "proxied": false
+}

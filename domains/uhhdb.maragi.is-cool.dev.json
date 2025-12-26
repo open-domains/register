@@ -1,0 +1,16 @@
+{
+    "domain": "is-cool.dev",
+    "subdomain": "uhhdb.maragi",
+    "owner": {
+        "email": "maragidevelopments@gmail.com"
+    },
+    "record": {
+        "A": [
+            "185.31.40.16"
+        ],
+        "AAAA": [
+            "2a00:b6e0:0001:0020:0007:0000:0000:0001"
+        ]
+    },
+    "proxied": false
+}

@@ -1,0 +1,13 @@
+{
+  "description": "Personal portfolio website hosted on GitHub Pages",
+  "domain": "is-cool.dev",
+  "subdomain": "sakshi",
+  "owner": {
+    "repo": "https://github.com/thesakshijaiswal/thesakshijaiswal.github.io",
+    "email": "thesakshijaiswal@outlook.com"
+  },
+  "record": {
+    "CNAME": "thesakshijaiswal.github.io"
+  },
+  "proxied": false
+}

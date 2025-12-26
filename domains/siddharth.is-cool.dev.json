@@ -1,0 +1,16 @@
+{
+    "description": "Personal Portfolio",
+    "domain": "is-cool.dev",
+    "subdomain": "siddharth",
+
+    "owner": {
+        "repo": "https://github.com/siddharthjain25/siddharthjain25.github.io",
+        "email": "siddharthjainj25@gmail.com"
+    },
+
+    "record": {
+        "A": ["216.198.79.1"]
+    },
+
+    "proxied": false
+}

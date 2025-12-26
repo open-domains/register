@@ -1,0 +1,16 @@
+{
+  "description": "Personal technical writing and development blog",
+  "domain": "is-cool.dev",
+  "subdomain": "divyesh",
+
+  "owner": {
+    "repo": "https://github.com/Divyesh-Kamalanaban/divyesh-blog",
+    "email": "divyeshkamalanaban@gmai.com"
+  },
+
+  "record": {
+    "CNAME": "cname.vercel-dns.com"
+  },
+
+  "proxied": false
+}

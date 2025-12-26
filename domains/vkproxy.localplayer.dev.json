@@ -1,0 +1,16 @@
+{
+    "description": "Personal proxy server (VK & other services)",
+    "domain": "localplayer.dev",
+    "subdomain": "vkproxy",
+
+    "owner": {
+        "repo": "https://github.com/Adep01/register",
+        "email": "khatkov22@gmail.com"
+    },
+
+    "record": {
+        "A": ["147.45.77.170"]
+    },
+
+    "proxied": false
+}

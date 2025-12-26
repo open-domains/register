@@ -1,0 +1,11 @@
+{
+    "domain": "is-cool.dev",
+    "subdomain": "ana",
+    "owner": {
+        "email": "ana95bananaa@gmail.com"
+    },
+    "record": {
+        "CNAME": "ana95.pages.dev"
+    },
+    "proxied": false
+}

@@ -1,0 +1,13 @@
+{
+    "description": "gorni",
+    "domain": "is-not-a.dev",
+    "subdomain": "gornik1",
+    "owner": {
+        "repo": "https://github.com/gorni429",
+        "email": "gorni123email@gmail.com"
+    },
+    "record": {
+        "CNAME": "create-react-app-lilac-one-41.vercel.app"
+    },
+    "proxied": false
+}

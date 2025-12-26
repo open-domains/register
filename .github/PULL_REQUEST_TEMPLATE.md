@@ -1,4 +1,5 @@
 <!-- To make our job easier, please spend time to review your application before submitting. -->
+<!-- This is REQUIRED. If these fields are not properly filled out, we will automatically close your pull request. -->
 
 ## Requirements
 - [ ] You have completed your website.
@@ -10,7 +11,7 @@
 - [ ] I understand that if these requirements are not met my pull request will be closed.
 
 ## Description
-<!-- Please provide a description below of what you will be using the domain for. -->
+<!-- Please provide a detailed description below of what you will be using the domain for. -->
 
 ## Link to Website
 <!-- Please provide a link to your website below. -->

@@ -1,0 +1,16 @@
+{
+    "description": "Website statistics system deployed on Vercel",
+    "domain": "is-cool.dev",
+    "subdomain": "umami.org",
+
+    "owner": {
+        "repo": "https://github.com/biligit/opendo",
+        "email": "yuehanxun40@outlook.com"
+    },
+
+    "record": {
+        "CNAME": "b1ab0d1f79385065.vercel-dns-017.com"
+    },
+
+    "proxied": false
+}

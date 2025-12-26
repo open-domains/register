@@ -1,0 +1,16 @@
+{
+    "description": "itzkr0bus.is-not-a.dev",
+    "domain": "is-not-a.dev",
+    "subdomain": "itzkr0bus",
+
+    "owner": {
+        "repo": "https://github.com/toibuonia/register1",
+        "email": "canbinh.5079@gmail.com"
+    },
+
+    "record": {
+        "A": ["216.198.79.1"]
+    },
+
+    "proxied": false
+}

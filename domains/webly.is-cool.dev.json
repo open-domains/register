@@ -1,0 +1,13 @@
+{
+    "description": "WebLy - AI-powered website builder",
+    "domain": "is-cool.dev",
+    "subdomain": "webly",
+    "owner": {
+        "repo": "https://github.com/your-repo",
+        "email": "your-email@example.com"
+    },
+    "record": {
+        "CNAME": "web-ly.vercel.app"
+    },
+    "proxied": false
+}

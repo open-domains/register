@@ -1,0 +1,16 @@
+{
+    "description": "school project",
+    "domain": "is-local.org",
+    "subdomain": "mlsend2._domainkey.paperbazaar",
+
+    "owner": {
+        "repo": "https://github.com/satindar31/paperbazaar",
+        "email": "ibrahim@i.is-a.dev"
+    },
+
+    "record": {
+        "CNAME": "mlsend2._domainkey.mailersend.net"
+    },
+
+    "proxied": false
+}

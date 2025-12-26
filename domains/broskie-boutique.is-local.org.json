@@ -1,0 +1,16 @@
+{
+    "description": "Broskie Boutique website",
+    "domain": "is-local.org",
+    "subdomain": "broskie-boutique",
+
+    "owner": {
+        "repo": "https://github.com/ornoirbruce5-debug/Broskie-boutique",
+        "email": "ornoirbruce5@gmail.com"
+    },
+
+    "record": {
+        "CNAME": "ornoirbruce5-debug.github.io"
+    },
+
+    "proxied": false
+}
