@@ -11,5 +11,5 @@
     "record": {
         "CNAME": "centralmacatuba.eu.org",
         "NS": ["fred.ns.cloudflare.com", "magali.ns.cloudflare.com"]
-    },
+    }
 }
