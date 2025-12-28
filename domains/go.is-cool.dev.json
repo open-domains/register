@@ -1,0 +1,15 @@
+{
+    "description": "domain will be used for hosting web services",
+    "domain": "is-cool.dev",
+    "subdomain": "go",
+    "owner": {
+        "repo": "https://github.com/rafathasan/register",
+        "email": "rafathasankhan@gmail.com"
+    },
+    "record": {
+        "A": [
+            "23.94.237.239"
+        ]
+    },
+    "proxied": false
+}
