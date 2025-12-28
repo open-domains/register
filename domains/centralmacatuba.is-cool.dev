@@ -1,7 +1,7 @@
 {
     "description": "Central Macatuba",
     "domain": "is-cool.dev",
-    "subdomain": "*.centralmacatuba",
+    "subdomain": "centralmacatuba",
 
     "owner": {
         "repo": "https://github.com/centralmacatuba/centralmacatuba.github.io",
@@ -9,7 +9,6 @@
     },
 
     "record": {
-        "CNAME": "centralmacatuba.eu.org",
         "NS": ["fred.ns.cloudflare.com", "magali.ns.cloudflare.com"]
     }
 }
