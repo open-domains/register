@@ -7,7 +7,7 @@
     "email": "hungrero.vn@gmail.com"
   },
   "record": {
-    "CNAME": "hrv-web.netlify.app"
-  },
-  "proxied": true
+    "CNAME": "hrvclan.dpdns.org"
+   },
+  "proxied": false
 }

@@ -1,0 +1,14 @@
+{
+    "description": "domain to host app for personal use. Subdomain wildcards are used for accessing diffrent service.",
+    "domain": "is-cool.dev",
+    "subdomain": "*.go",
+    "owner": {
+        "email": "rafathasankhan@gmail.com"
+    },
+    "record": {
+        "A": [
+            "23.94.237.239"
+        ]
+    },
+    "proxied": false
+}
