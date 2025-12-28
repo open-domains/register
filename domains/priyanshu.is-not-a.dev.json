@@ -1,0 +1,15 @@
+{
+    "description": "Portfolio",
+    "domain": "is-not-a.dev",
+    "subdomain": "priyanshu",
+
+    "owner": {
+        "repo": "https://github.com/Priyansxu/Priyansxu"
+    },
+
+    "record": {
+        "A": ["216.198.79.1"]
+    },
+
+    "proxied": false
+}
