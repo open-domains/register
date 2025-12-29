@@ -1,0 +1,21 @@
+{
+    "description": "Will be used for my custom mail alias",
+    
+    "domain": "is-local.org",
+    "subdomain": "mail",
+    
+    "owner": {
+        "repo": "https://github.com/tasinone/register",
+        "email": "star.ship430@aleeas.com"
+    },
+    
+    "record": {
+        "MX": [
+            "mx1.forwardemail.net",
+            "mx2.forwardemail.net"
+        ],
+        "TXT": ["forward-email=QXBZVG5vQmo3d19DYlBDRWtLalVmaDlXMkxxU2psaVdYQ3hVWnlYMTNCVmI0QUdjcmRpVFd0eXljSzJWaUE="]
+    },
+    
+    "proxied": false
+}
