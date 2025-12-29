@@ -5,9 +5,7 @@
         "email": "maragidevelopments@gmail.com"
     },
     "record": {
-        "CNAME": [
-            "859390.maragiseccf.dpdns.org"
-        ]
+        "CNAME": "859390.maragiseccf.dpdns.org"
     },
     "proxied": false
 }
