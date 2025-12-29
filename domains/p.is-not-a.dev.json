@@ -1,0 +1,15 @@
+{
+    "description": "Portfolio",
+    "domain": "is-not-a.dev",
+    "subdomain": "p",
+
+    "owner": {
+        "repo": "https://github.com/Priyansxu/Priyansxu"
+    },
+
+    "record": {
+        "CNAME": "edge.redirect.pizza"
+    },
+
+    "proxied": false
+}
