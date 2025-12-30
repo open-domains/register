@@ -1,0 +1,16 @@
+{
+    "description": "Akasa Air VA",
+    "domain": "is-cool.dev",
+    "subdomain": "akasa",
+
+    "owner": {
+        "repo": "https://github.com/Akasa-Air/Akasa-Air.github.io",
+        "email": "jthweb@duck.com"
+    },
+
+    "record": {
+        "CNAME": "akasa-air.github.io"
+    },
+
+    "proxied": false
+}
