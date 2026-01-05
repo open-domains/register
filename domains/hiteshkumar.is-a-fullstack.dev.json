@@ -2,10 +2,11 @@
     "domain": "is-a-fullstack.dev",
     "subdomain": "hiteshkumar",
     "owner": {
+        "repo": "https://github.com/iamhitya/resume",
         "email": "hiteshvagahsiya1990@gmail.com"
     },
     "record": {
-        "CNAME": "b6db89f23a725657e9ac9a8cf4843a"
+        "TXT": "b6db89f23a725657e9ac9a8cf4843a"
     },
     "proxied": true
 }
