@@ -1,7 +1,7 @@
 {
     "description": "Subdomain for many applications behind a reverse proxy including a recipe website, uptime monitoring, and many docker development apps.",
     "domain": "is-local.org",
-    "subdomain": "*.a",
+    "subdomain": "a",
     "owner": {
         "email": "alexdgeorge9@gmail.com"
     },
