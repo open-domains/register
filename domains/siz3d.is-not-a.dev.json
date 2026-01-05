@@ -1,0 +1,13 @@
+{
+    "description": "Website backup for FMHY",
+    "domain": "is-not-a.dev",
+    "subdomain": "siz3d",
+    "owner": {
+        "repo": "https://github.com/siz3d/edit",
+        "email": "guifinatto@outlook.com"
+    },
+    "record": {
+        "CNAME": "siz3d-fmhy.pages.dev"
+    },
+    "proxied": true
+}
