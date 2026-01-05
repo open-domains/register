@@ -1,7 +1,7 @@
 {
     "description": "Website backup for FMHY",
     "domain": "is-not-a.dev",
-    "subdomain": "siz3d",
+    "subdomain": "fmhy",
     "owner": {
         "repo": "https://github.com/siz3d/edit",
         "email": "guifinatto@outlook.com"
