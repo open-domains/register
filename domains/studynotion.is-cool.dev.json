@@ -1,0 +1,12 @@
+{
+  "description": "StudyNotion – an educational platform deployed on Vercel",
+  "domain": "is-cool.dev",
+  "subdomain": "studynotion",
+  "owner": {
+    "repo": "https://github.com/Rahul-mandal01/StudyNotion",
+    "email": "rahulra16809999@gmail.com"
+  },
+  "record": {
+    "CNAME": "cname.vercel-dns.com"
+  }
+}
