@@ -1,0 +1,16 @@
+{
+  "description": "Hack2026 website hosted on Vercel",
+  "domain": "is-local.org",
+  "subdomain": "hack",
+
+  "owner": {
+    "repo": "https://github.com/archduke/hack2026",
+    "email": "gauravramyadav@gmail.com"
+  },
+
+  "record": {
+    "CNAME": ["cname.vercel-dns.com"]
+  },
+
+  "proxied": false
+}
