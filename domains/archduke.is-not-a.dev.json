@@ -1,0 +1,16 @@
+{
+  "description": "Archduke personal portfolio hosted on Vercel",
+  "domain": "is-not-a.dev",
+  "subdomain": "archduke",
+
+  "owner": {
+    "repo": "https://github.com/archduke/portfolio",
+    "email": "gauravramyadav@gmail.com"
+  },
+
+  "record": {
+    "CNAME": ["cname.vercel-dns.com"]
+  },
+
+  "proxied": false
+}
