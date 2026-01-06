@@ -1,0 +1,16 @@
+{
+  "description": "SeekEngine deployment on Vercel",
+  "domain": "is-local.org",
+  "subdomain": "engine",
+
+  "owner": {
+    "repo": "https://github.com/archduke/seekengine",
+    "email": "gauravramyadav@gmail.com"
+  },
+
+  "record": {
+    "CNAME": ["cname.vercel-dns.com"]
+  },
+
+  "proxied": false
+}
