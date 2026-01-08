@@ -1,0 +1,19 @@
+{
+    "description": "School Attendance Challenges, an initiative of Youth Mental Health Canada",
+    "domain": "open-comm.org",
+    "subdomain": "sac",
+
+    "owner": {
+        "repo": "https://github.com/ymhcanada",
+        "email": "its+opendomains@ymhc.ngo"
+    },
+
+    "record": {
+        "CNAME": "sac.open-comm.org.cname.edu-net.ca",
+        "CAA": [
+            { "flags": 0, "tag": "issue", "value": "letsencrypt.org" }
+        ]
+    },
+
+    "proxied": false
+}
