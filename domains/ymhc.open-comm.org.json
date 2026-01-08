@@ -9,10 +9,7 @@
     },
 
     "record": {
-        "CNAME": "sac.open-comm.org.cname.edu-net.ca",
-        "CAA": [
-            { "flags": 0, "tag": "issue", "value": "letsencrypt.org" }
-        ]
+        "CNAME": "sac.open-comm.org.cname.edu-net.ca"
     },
 
     "proxied": false
