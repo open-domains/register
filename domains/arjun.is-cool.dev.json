@@ -1,0 +1,15 @@
+{
+    "description": "A portfolio website with my personal application hostings.",
+    "domain": "is-cool.dev",
+    "subdomain": "arjun",
+    "owner": {
+        "repo": "https://github.com/arjunchakri/arjunchakri.github.io",
+        "email": "arjunchakri@gmail.com"
+    },
+    "record": {
+        "A": [
+            "140.245.215.44"
+        ]
+    },
+    "proxied": false
+}
