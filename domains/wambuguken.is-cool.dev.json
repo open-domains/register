@@ -1,0 +1,19 @@
+{
+    "description": "Mail testing  for GitHub Pages hosted portfolio",
+    "domain": "is-cool.dev",
+    "subdomain": "wambuguken",
+    "owner": {
+        "repo": "https://github.com/wambugu71/wambugu71",
+        "email": "kenliz1738@gmail.com"
+    },
+    "record": {
+        "MX": [
+            "mx1.improvmx.com",
+            "mx2.improvmx.com"
+        ],
+        "TXT": [
+            "v=spf1 include:spf.improvmx.com ~all"
+        ]
+    },
+    "proxied": false
+}
