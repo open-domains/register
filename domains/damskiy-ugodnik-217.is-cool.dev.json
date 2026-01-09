@@ -1,0 +1,13 @@
+{
+    "description": "Personal site for blog and Jellifyn with Mumble, may be MineCraft server",
+    "domain": "is-cool.dev",
+    "subdomain": "damskiy-ugodnik-217",
+    "owner": {
+        "repo": "https://github.com/purum-pum-pum/register",
+        "email": "13rav.pr@gmail.com"
+    },
+    "record": {
+        "A": ["5.35.74.68"]
+    },
+    "proxied": false
+}
