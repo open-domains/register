@@ -1,0 +1,11 @@
+{
+    "domain": "is-a-fullstack.dev",
+    "subdomain": "sagar",
+    "owner": {
+        "username": "Sagarbudhwani",
+        "email": "sagarbudhwani93@gmail.com"
+    },
+    "records": {
+        "CNAME": "sagarbudhwani.netlify.app"
+    }
+}
