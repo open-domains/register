@@ -1,0 +1,16 @@
+{
+    "description": "Youth Mental Health Canada",
+    "domain": "is-local.org",
+    "subdomain": "youthmentalhealthcanada",
+
+    "owner": {
+        "repo": "https://github.com/ymhcanada",
+        "email": "its+opendomains@ymhc.ngo"
+    },
+
+    "record": {
+        "CNAME": "youthmentalhealthcanada.is-local.org.cname.edu-net.ca"
+    },
+
+    "proxied": false
+}
