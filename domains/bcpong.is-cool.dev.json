@@ -1,0 +1,15 @@
+{
+    "description": "A ping pong web game",
+    "domain": "is-cool.dev",
+    "subdomain": "bcpong",
+    "owner": {
+        "repo": "https://github.com/happy025-dev-dev/bcpong",
+        "email": "zzhzzh141105@outlook.com"
+    },
+    "record": {
+        "A": [
+            "185.199.108.153"
+        ]
+    },
+    "proxied": false
+}
