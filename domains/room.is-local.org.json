@@ -1,0 +1,16 @@
+{
+  "description": "Room app hosted on Vercel",
+  "domain": "is-local.org",
+  "subdomain": "room",
+
+  "owner": {
+    "repo": "https://github.com/archduke/r0om",
+    "email": "gauravramyadav@gmail.com"
+  },
+
+  "record": {
+    "CNAME": "cname.vercel-dns.com"
+  },
+
+  "proxied": false
+}
