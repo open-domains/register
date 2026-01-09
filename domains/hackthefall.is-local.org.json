@@ -1,7 +1,7 @@
 {
-  "description": "Hack2026 website hosted on Vercel",
+  "description": "Hack2026 Hackathon website hosted on Vercel",
   "domain": "is-local.org",
-  "subdomain": "hack",
+  "subdomain": "hackthefall",
 
   "owner": {
     "repo": "https://github.com/archduke/hack2026",
