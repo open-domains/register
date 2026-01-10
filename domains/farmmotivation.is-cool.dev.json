@@ -1,0 +1,12 @@
+{
+    "description": "FarmMotivation",
+    "domain": "is-cool.dev",
+    "subdomain": "farmmotivation",
+
+    "owner": {
+        "repo": "https://github.com/QERR0R/farmmotivation",
+        "email": "n0n4m3007err0r@gmail.com"
+    },
+
+    "proxied": false
+}
