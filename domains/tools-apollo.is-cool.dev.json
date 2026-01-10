@@ -13,9 +13,6 @@
             "purpose=personal-dev-playground",
             "note=non-commercial",
             "env=testing"
-        ],
-        "CAA": [
-            { "flags": 0, "tag": "issue", "value": "letsencrypt.org" }
         ]
     },
 
