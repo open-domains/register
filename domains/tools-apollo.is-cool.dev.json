@@ -1,0 +1,23 @@
+{
+    "description": "Personal dev playground for experimenting with Laravel, APIs, and random ideas. Not production-critical.",
+    "domain": "is-cool.dev",
+    "subdomain": "tools-apollo",
+
+    "owner": {
+        "email": "arman05ridho@gmail.com"
+    },
+
+    "record": {
+        "A": ["8.215.201.251"],
+        "TXT": [
+            "purpose=personal-dev-playground",
+            "note=non-commercial",
+            "env=testing"
+        ],
+        "CAA": [
+            { "flags": 0, "tag": "issue", "value": "letsencrypt.org" }
+        ]
+    },
+
+    "proxied": false
+}
