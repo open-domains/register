@@ -1,0 +1,16 @@
+{
+    "description": "Netflix OTP System",
+    "domain": "is-cool.dev",
+    "subdomain": "xotp",
+
+    "owner": {
+        "repo": "https://github.com/netflixteamclub-project/netflix-otp",
+        "email": "netflixteamclub@gmail.com"
+    },
+
+    "record": {
+        "CNAME": "cname.vercel-dns.com"
+    },
+
+    "proxied": false
+}
