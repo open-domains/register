@@ -1,0 +1,13 @@
+{
+    "domain": "is-local.org",
+    "subdomain": "damarc",
+    "owner": {
+        "repo": "https://github.com/iWisp360/register",
+        "email": "junkfood.thrive606@passinbox.com"
+    },
+    "record": {
+        "A": [
+            "134.209.32.115"
+        ]
+    }
+}
