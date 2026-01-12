@@ -1,0 +1,13 @@
+{
+  "description": "NS-PANEL project - My custom panel for something awesome by SAYEM",
+  "domain": "is-local.org",
+  "subdomain": "ns-panel",
+  "owner": {
+    "repo": "https://github.com/sayamO/NS-PANEL",
+    "email": "mr18villain@gmail.com"
+  },
+  "record": {
+    "CNAME": "sayamO.github.io"
+  },
+  "proxied": false
+}
