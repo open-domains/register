@@ -1,0 +1,13 @@
+{
+  "description": "Personal test website pointing to my server at 120.55.244.173",
+  "domain": "is-cool.dev",
+  "subdomain": "iva-venas",
+  "owner": {
+    "repo": "https://github.com/chenmingqi304/register",
+    "email": "chenmingqi304@icloud.com"
+  },
+  "record": {
+    "A": ["120.55.244.173"]
+  },
+  "proxied": false
+}
