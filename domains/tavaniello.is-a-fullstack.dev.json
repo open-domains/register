@@ -1,0 +1,16 @@
+{
+    "description": "Portfolio",
+    "domain": "is-not-a.dev",
+    "subdomain": "tavaniello",
+
+    "owner": {
+        "repo": "https://github.com/username/repo",
+        "email": "dairontavaniello@gmail.com"
+    },
+
+    "record": {
+        "A": ["87.106.4.153"],
+    },
+
+    "proxied": false
+}
