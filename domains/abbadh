@@ -1,0 +1,13 @@
+{
+    "description": "My personal blog, called Lemonade, where I discuss many things from life to math to plants to anything I'm interested in at the moment.",
+    "domain": "is-cool.dev",
+    "subdomain": "aathreyakadambi",
+    "owner": {
+        "repo": "https://github.com/DevX-Dragon/Dragon-Fly",
+        "email": "notdragon.24@gmail.com"
+    },
+    "record": {
+        "CNAME": "https://devx-dragon.github.io/Dragon-Fly/"
+    },
+    "proxied": false
+}
