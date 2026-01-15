@@ -1,0 +1,16 @@
+{
+    "description": "Rock paper scissors faucet for the Banano cryptocurrency",
+    "domain": "is-cool.dev",
+    "subdomain": "rpsbanfaucet",
+
+    "owner": {
+        "email": "sigmatwojastara@gmail.com"
+    },
+
+    "record": {
+        "A": ["85.215.159.4"]
+    },
+
+    "proxied": true
+}
+
