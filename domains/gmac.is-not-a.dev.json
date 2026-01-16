@@ -1,0 +1,29 @@
+{
+  "description": "gmacbride's Personal Site",
+  "owner": {
+    "username": "gmacbride",
+    "email": "cheetopowder.guy@proton.me"
+  },
+  "records": {
+    "CNAME": "the-oblyv.github.io",
+    "TXT": [
+      "zoho-verification=zb62179437.zmverify.zoho.com",
+      "v=spf1 include:zoho.com ~all"
+    ],
+    "MX": [
+      {
+        "target": "mx.zoho.com",
+        "priority": 10
+      },
+      {
+        "target": "mx2.zoho.com",
+        "priority": 20
+      },
+      {
+        "target": "mx3.zoho.com",
+        "priority": 50
+      }
+    ]
+  },
+  "proxied": true
+}
