@@ -1,0 +1,14 @@
+{
+    "description": "GH page verification",
+    "domain": "localplayer.dev",
+    "subdomain": "_github-pages-challenge-fazi3294.tab2mc",
+    "owner": {
+        "repo": "https://github.com/fazi3294/register",
+        "email": "tab.f3294@gmail.com"
+    },
+        "record": {
+        "TXT": ["f8b44f5309da40fc63193d0060b825"]
+    },
+
+    "proxied": false
+}

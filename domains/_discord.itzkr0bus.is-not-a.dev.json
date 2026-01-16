@@ -1,0 +1,13 @@
+{
+    "domain": "is-not-a.dev",
+    "subdomain": "_discord.itzkr0bus",
+    "owner": {
+        "email": "canbinh.5079@gmail.com"
+    },
+    "record": {
+        "TXT": [
+            "dh=fa7e02914fb86dfdf833d893bcc7f195c4abaddb"
+        ]
+    },
+    "proxied": false
+}

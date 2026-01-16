@@ -1,0 +1,16 @@
+{
+    "description": "Domain for my personal hobby projects and Developer Testing",
+    "domain": "is-cool.dev",
+    "subdomain": "abhii",
+
+    "owner": {
+        "repo": "https://github.com/Abhinav-Sudini/register",
+        "email": "sudiniabhinav@gmail.com"
+    },
+
+    "record": {
+        "A": ["13.127.79.208"]
+    },
+
+    "proxied": false
+}

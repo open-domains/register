@@ -1,0 +1,15 @@
+{
+    "description": "SebAndBlocks CourseWork Site",
+    "domain": "is-cool.dev",
+    "subdomain": "seb",
+
+    "owner": {
+        "email": "sebandblocks@turquoisetnt.one"
+    },
+
+    "record": {
+        "CNAME": "sebandblocks.pages.dev"
+    },
+
+    "proxied": false
+}

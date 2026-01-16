@@ -1,0 +1,18 @@
+{
+    "description": "I need this domain for linking my forms app from mintstudios domain, and is used for transactional, alerts, and updates emails.",
+    "domain": "is-cool.dev",
+    "subdomain": "forms.mintstudios",
+    "owner": {
+        "email": "hello.mintstudios@gmail.com"
+    },
+    "record": {
+        "TXT": [
+            "p=MIGfMA0GCSqGSIb3DQEBAQUAA4GNADCBiQKBgQDfCFC+9HYcNR4n/ZgKVmuTjezGHU7+iskGEvDNAo0/qTued+eQZXLFPH69muyu5kCSK7UCw3wvG4P604AjNClpZqnUrYxXvYKgLhMsdwzCPqZkLB/eXAsIogGFzt2qJhxtryq48+ekhOwdF1U5qkUskl+QNDUX5o0//mwudljD2QIDAQAB",
+            "v=spf1 include:amazonses.com ~all",
+            "v=DMARC1; p=none;"
+        ],
+        "MX": [
+            "feedback-smtp.us-east-1.amazonses.com"
+        ]
+    }
+}

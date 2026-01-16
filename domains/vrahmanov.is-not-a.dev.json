@@ -3,10 +3,10 @@
     "domain": "is-not-a.dev",
     "subdomain": "vrahmanov",
     "owner": {
-      "email": "xcode2vlad@gmail.com"
-  },
-  "record": {
-      "CNAME": "vrahmanov.github.io"
-  },
+        "email": "xcode2vlad@gmail.com"
+    },
+    "record": {
+        "CNAME": "vrahmanov.github.io"
+    },
     "proxied": false
-  }
+}

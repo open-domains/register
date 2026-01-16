@@ -1,0 +1,13 @@
+{
+  "description": "My project hosted on AWS server",
+  "domain": "is-cool.dev",
+  "subdomain": "ayushraturi",
+  "owner": {
+    "repo": "https://github.com/AyushRaturi/domain",
+    "email": "ayushraturi6679@gmail.com"
+  },
+  "record": {
+    "A": ["3.111.196.212"]
+  },
+  "proxied": false
+}

@@ -1,0 +1,15 @@
+{
+    "description": "For verifying math.is-cool.dev with GitHub Pages",
+    "domain": "is-cool.dev",
+    "subdomain": "_github-pages-challenge-demonickatsu.math",
+    "owner": {
+        "repo": "https://github.com/ultimateunblocked1/ultimateunblocked1.github.io",
+        "email": "reactorindustries@proton.me"
+    },
+    "record": {
+        "TXT": [
+            "367bedac17ddd72967caa5a62b8c47"
+        ]
+    },
+    "proxied": false
+}

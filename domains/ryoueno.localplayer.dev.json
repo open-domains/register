@@ -1,0 +1,12 @@
+{
+  "description": "Personal service hosted via Cloudflare Tunnel",
+  "domain": "localplayer.dev",
+  "subdomain": "ryoueno",
+  "owner": {
+    "repo": "https://github.com/oyr5611/jpsonic"
+  },
+  "record": {
+    "CNAME": "1ea5b765-4b91-43e0-a03b-2713518c5e5e.cfargotunnel.com"
+  },
+  "proxied": false
+}

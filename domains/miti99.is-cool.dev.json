@@ -1,14 +1,16 @@
 {
-    "domain": "is-cool.dev",
-    "subdomain": "miti99",
+  "description": "miti99",
+  "domain": "is-cool.dev",
+  "subdomain": "miti99",
 
-    "owner": {
-        "email": "minhtienit99@gmail.com"
-    },
+  "owner": {
+      "repo": "https://github.com/tiennm99/open-domains",
+      "email": "minhtienit99@gmail.com"
+  },
 
-    "record": {
-        "CNAME": "miti.eu.org"
-    },
+  "record": {
+      "CNAME": "miti99.eu.org"
+  },
 
-    "proxied": false
+  "proxied": false
 }

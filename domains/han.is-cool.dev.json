@@ -1,0 +1,11 @@
+{
+    "domain": "is-cool.dev",
+    "subdomain": "han",
+    "owner": {
+        "email": "aspox8@gmail.com"
+    },
+    "record": {
+        "CNAME": "dev.hanlu.im"
+    },
+    "proxied": false
+}

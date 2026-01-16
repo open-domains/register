@@ -1,0 +1,13 @@
+{
+  "description": "It is for CKA setup.",
+  "domain": "is-cool.dev",
+  "subdomain": "cka2._domainkey.getpixillium",
+  "owner": {
+    "repo": "https://github.com/pixillium/open-domains-register",
+    "email": "pixillium.official@gmail.com"
+  },
+  "record": {
+    "CNAME": "dkim2.dm-48ff3464.sg2.convertkit.com"
+  },
+  "proxied": false
+}

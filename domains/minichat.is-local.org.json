@@ -1,0 +1,18 @@
+{
+    "description": "MiniChat is a lightweight free chat server",
+    "domain": "is-local.org",
+    "subdomain": "minichat",
+
+    "owner": {
+        "repo": "https://codeberg.org/logabe/mini_chat",
+        "email": "logangbentley@gmail.com"
+    },
+
+    "record": {
+        "A": ["37.27.51.34"],
+        "AAAA": ["2a01:4f9:3081:399c::4"],
+        "TXT": ["domain-verification=logabe"]
+    },
+
+    "proxied": false
+}

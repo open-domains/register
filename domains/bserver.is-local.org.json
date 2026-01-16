@@ -1,0 +1,13 @@
+{
+    "description": "Self hosted server",
+    "domain": "is-local.org",
+    "subdomain": "bserver",
+    "owner": {
+        "repo": "https://github.com/TiagoBohnenberger/register",
+        "email": "tiagoboh10@gmail.com"
+    },
+    "record": {
+        "CNAME": "bserver.io"
+    },
+    "proxied": false
+}

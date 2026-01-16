@@ -1,0 +1,12 @@
+{
+    "description": "Discord bot website",
+    "domain": "is-cool.dev",
+    "subdomain": "orion",
+    "owner": {
+        "repo": "https://github.com/ZeroDeaths379/orion-site",
+        "email": "rnv@pissmail.com"
+    },
+    "record": {
+        "CNAME": "orion-site-bno.pages.dev"
+    }
+}

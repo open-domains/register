@@ -1,0 +1,24 @@
+{
+    "description": "My custom bio page",
+    "domain": "is-not-a.dev",
+    "subdomain": "parallax",
+
+    "owner": {
+        "repo": "https://github.com/parallaxuniverse/parallaxuniverse.github.io",
+        "email": "loser.alt.2025@gmail.com"
+    },
+
+    "record": {
+        "A": [
+            "185.199.108.153",
+            "185.199.109.153",
+            "185.199.110.153",
+            "185.199.111.153"
+        ],
+
+        "MX": ["mx1.forwardemail.net", "mx2.forwardemail.net"],
+
+        "TXT": ["forward-email=loser.alt.2025@gmail.com"]
+    },
+    "proxied": false
+}

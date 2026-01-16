@@ -1,0 +1,14 @@
+{
+    "description": "my github blog page",
+    "domain": "is-cool.dev",
+    "subdomain": "_github-pages-challenge-skyshadowhero.skyshadowhero",
+    "owner": {
+        "email": "a1233456333@163.com"
+    },
+    "record": {
+        "TXT": [
+            "a2356f8a280e82b1aa2c1683b50f08"
+        ]
+    },
+    "proxied": false
+}

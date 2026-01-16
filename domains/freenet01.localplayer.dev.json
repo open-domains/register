@@ -1,0 +1,13 @@
+{
+    "description": "Personal dedicated server for VPN services",
+    "domain": "localplayer.dev",
+    "subdomain": "freenet01",
+    "owner": {
+        "repo": "https://github.com/Adep01/register",
+        "email": "khatkov22@gmail.com"
+    },
+    "record": {
+        "A": ["193.222.97.109"]
+    },
+    "proxied": false
+}

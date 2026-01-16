@@ -1,0 +1,13 @@
+{
+    "description": "Hemang Yadav (Zemerik) is a passionate developer based in Australia, specializing in numerous fields with his expertise.",
+    "domain": "localplayer.dev",
+    "subdomain": "zemerik",
+    "owner": {
+        "repo": "https://github.com/Zemerik/Portfolio-V2",
+        "email": "zemerikY@gmail.com"
+    },
+    "record": {
+        "CNAME": "zemerik.vercel.app"
+    },
+    "proxied": false
+}

@@ -1,0 +1,16 @@
+{
+    "description": "Ninjastrikers - personal web",
+    "domain": "is-not-a.dev",
+    "subdomain": "ninjastrikers",
+
+    "owner": {
+        "repo": "https://github.com/ninjastrikers/register1",
+        "email": "leonhart@ninjastrikres.net"
+    },
+
+    "record": {
+        "CNAME": "ninjastrikers.github.io"
+    },
+
+    "proxied": false
+}

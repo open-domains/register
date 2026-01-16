@@ -1,0 +1,16 @@
+{
+  "description": "Personal website for Abdul-Latif Sadiq (CLA applied)",
+  "domain": "is-not-a.dev",
+  "subdomain": "sadiq",
+
+  "owner": {
+    "repo": "https://github.com/8adiq",
+    "email": "abdullatifsadiq21@gmail.com"
+  },
+
+  "record": {
+    "CNAME": "sadiq-ten.vercel.app"
+  },
+
+  "proxied": true
+}

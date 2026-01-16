@@ -1,0 +1,14 @@
+{
+    "description": "jusoftvali.is-not-a.dev (url for site validation)",
+    "domain": "is-not-a.dev",
+    "subdomain": "jusoftvali",
+    "owner": {
+        "email": "hmsecondaccount@gmail.com"
+    },
+    "record": {
+        "A": [
+            "35.209.167.23"
+        ]
+    },
+    "proxied": false
+}

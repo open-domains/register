@@ -1,0 +1,13 @@
+{
+    "description": "Evans",
+    "domain": "is-not-a.dev",
+    "subdomain": "evans",
+    "owner": {
+        "repo": "https://github.com/evansrrr/evans",
+        "email": "enzoraziore@outlook.com"
+    },
+    "record": {
+        "CNAME": "evansrrr.netlify.app"
+    },
+    "proxied": false
+}

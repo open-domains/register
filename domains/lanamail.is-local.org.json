@@ -1,0 +1,15 @@
+{
+  "description": "Lana Portal Mail Website",
+  "domain": "is-local.org",
+  "subdomain": "lanamail",
+
+  "owner": {
+    "email": "frentayoce@gmail.com"
+  },
+
+  "record": {
+    "CNAME": "lanaportalmail.pages.dev"
+  },
+
+  "proxied": true
+}

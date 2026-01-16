@@ -1,0 +1,16 @@
+{
+    "description": "A basic static site",
+    "domain": "open-comm.org",
+    "subdomain": "global",
+
+    "owner": {
+        "username": "doxjosh",
+        "email": "joshuavonharten@gmail.com"
+    },
+
+    "record": {
+        "A": ["185.199.108.153"]
+    },
+
+    "proxied": false
+}

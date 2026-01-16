@@ -1,0 +1,15 @@
+{
+  "description": "DKIM record for Resend email signing - SAM2 SaaS Production",
+  "domain": "is-not-a.dev",
+  "subdomain": "resend._domainkey.sam2-saas-prod",
+  "owner": {
+    "repo": "https://github.com/devtony01/sam2-saas-concept",
+    "email": "chibuezeogbuji01@gmail.com"
+  },
+  "record": {
+    "TXT": [
+      "p=MIGfMA0GCSqGSIb3DQEBAQUAA4GNADCBiQKBgQDfVM4sMAa9ppIBm+D8SLRZsnEV+JWsWu4CBTCxOyzYTDN8X5tkBCueZrIQKkyy31pM72MMVvASkqOFBO+PmVI5hDxxI3+RZ5QeojSMrkm6kWa8Lz2XafYPv1NgHHGuGSoGhiYOIxqFCEytxnZurqtSy/C0E+Qx2zs9AaUbDObXVwIDAQAB"
+    ]
+  },
+  "proxied": false
+}

@@ -1,0 +1,15 @@
+{
+  "description": "DMARC record for email authentication policy - SAM2 SaaS Production",
+  "domain": "is-not-a.dev",
+  "subdomain": "_dmarc.sam2-saas-prod",
+  "owner": {
+    "repo": "https://github.com/devtony01/sam2-saas-concept",
+    "email": "chibuezeogbuji01@gmail.com"
+  },
+  "record": {
+    "TXT": [
+      "v=DMARC1; p=none;"
+    ]
+  },
+  "proxied": false
+}

@@ -1,0 +1,18 @@
+{
+    "description": "GH page verification",
+    "domain": "localplayer.dev",
+    "subdomain": "tab2mc",
+    "owner": {
+        "repo": "https://github.com/fazi3294/register",
+        "email": "tab.f3294@gmail.com"
+    },
+        "record": {
+        "A": ["185.199.111.153"],
+        "TXT": ["f8b44f5309da40fc63193d0060b825"],
+        "SRV": [
+            { "name": "_minecraft._tcp.localplayer.dev", "priority": 0, "weight": 5, "port": 1246, "target": "dono-04.danbot.host" }
+        ]
+    },
+
+    "proxied": false
+}

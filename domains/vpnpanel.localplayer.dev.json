@@ -1,0 +1,12 @@
+{
+  "description": "Main server panel for VPN and SSH services.",
+  "domain": "localplayer.dev",
+  "subdomain": "vpnpanel",
+  "owner": {
+    "email": "mahmedhleli@gmail.com"
+  },
+  "record": {
+    "A": ["193.191.169.12"]
+  },
+  "proxied": false
+}

@@ -1,0 +1,13 @@
+{
+    "domain": "is-a-fullstack.dev",
+    "subdomain": "_github-pages-challenge-mukujhansi.gunman",
+    "owner": {
+        "email": "mukundagrawal800@gmail.com"
+    },
+    "record": {
+        "TXT": [
+            "4ef9768bc4bbfe09766b9b96d10c94"
+        ]
+    },
+    "proxied": false
+}

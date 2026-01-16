@@ -1,0 +1,12 @@
+{
+    "description": "truly, not a dev.",
+    "domain": "is-not-a.dev",
+    "subdomain": "ame",
+    "owner": {
+        "repo": "https://github.com/amedott/amedott.github.io"
+    },
+    "record": {
+        "CNAME": "amedott.github.io"
+    },
+    "proxied": false   
+}

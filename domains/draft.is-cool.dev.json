@@ -1,0 +1,13 @@
+{
+    "description": "My personal domain, a place for my work to sit a portfolio page",
+    "domain": "is-cool.dev",
+    "subdomain": "draft",
+    "owner": {
+        "repo": "https://github.com/maniack431/draftiscool",
+        "email": "unspecifiedfield@gmail.com"
+    },
+    "record": {
+        "CNAME": "maniack431.github.io"
+    },
+    "proxied": false 
+}

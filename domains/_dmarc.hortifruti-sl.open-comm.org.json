@@ -1,0 +1,14 @@
+{
+    "domain": "open-comm.org",
+    "subdomain": "_dmarc.hortifruti-sl",
+    "owner": {
+        "email": "marcosferralbe@gmail.com",
+        "github": "marcosffp"
+    },
+    "description": "DMARC policy record used to define email authentication rules and reporting instructions.",
+    "record": {
+        "TXT": [
+            "v=DMARC1; p=none;"
+        ]
+    }
+}

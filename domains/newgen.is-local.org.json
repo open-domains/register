@@ -1,0 +1,17 @@
+{
+    "description": "Game Site",
+    "domain": "is-local.org",
+    "subdomain": "newgen",
+
+    "owner": {
+        "repo": "https://github.com/rednotsus",
+        "email": "jiayangc1@gmail.com"
+    },
+
+    "record": {
+        "A": [
+            "152.53.37.155"
+        ]
+    },
+    "proxied": false
+}

@@ -1,0 +1,15 @@
+{
+  "description": "A Minecraft server for IRRG community",
+  "domain": "localplayer.dev",
+  "subdomain": "irrg",
+  
+  "owner": {
+    "email": "siliconr@proton.me"
+  },
+  
+  "record": {
+    "A": ["130.61.111.88"]
+  },
+  
+  "proxied": false
+}

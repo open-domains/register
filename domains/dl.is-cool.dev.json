@@ -1,0 +1,15 @@
+{
+    "description": "Website to download personal media files",
+    "domain": "is-cool.dev",
+    "subdomain": "dl",
+
+    "owner": {
+        "username": "sanalchandran",
+        "email": "sanalchandran23@gmail.com"
+    },
+
+    "record": {
+        "A": ["80.225.214.49"]
+    },
+    "proxied": false
+}

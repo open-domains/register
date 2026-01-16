@@ -1,0 +1,24 @@
+{
+    "description": "sctech's website",
+    "domain": "localplayer.dev",
+    "subdomain": "sctech",
+    "owner": {
+        "repo": "https://github.com/sctech-tr/website",
+        "email": "gamerselimiko@gmail.com"
+    },
+    "record": {
+        "A": [
+            "75.2.60.5"
+        ],
+        "MX": [
+            "mx1.improvmx.com",
+            "mx2.improvmx.com"
+        ],
+        "TXT": [
+            "openpgp4fpr:57BE156FEB39FB9905BA1299169CABCFA8FDD1CF",
+            "v=spf1 include:spf.improvmx.com ~all",
+            "google-site-verification=SV5ezAZ5vc8Hyik9weJnPK5QBPs2H2SnR92XieKvOaQ"
+        ]
+    },
+    "proxied": false
+}

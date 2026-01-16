@@ -1,0 +1,13 @@
+{
+  "domain": "is-local.org",
+  "subdomain": "_dmarc.payfopus",
+  "owner": {
+    "email": "mahmedhleli@gmail.com"
+  },
+  "record": {
+    "TXT": [
+      "v=DMARC1; p=quarantine; rua=mailto:reports@payfopus.is-local.org; ruf=mailto:reports@payfopus.is-local.org; sp=quarantine; adkim=s; aspf=s"
+    ]
+  },
+  "proxied": false
+}

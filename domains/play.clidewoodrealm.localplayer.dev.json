@@ -1,0 +1,13 @@
+{
+    "domain": "localplayer.dev",
+    "subdomain": "play.clidewoodrealm",
+    "owner": {
+        "email": "admin@maragi.is-cool.dev"
+    },
+    "record": {
+        "A": [
+            "78.47.111.29"
+        ]
+    },
+    "proxied": false
+}

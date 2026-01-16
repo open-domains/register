@@ -1,0 +1,13 @@
+{
+  "description": "Portfolio and Blog Website of Kamaluddeen Aliyu Ahmad",
+  "domain": "is-a-fullstack.dev",
+  "subdomain": "kamaluddin",
+  "owner": {
+    "repo": "https://github.com/Kamaluddeen017set",
+    "email": "kamaluddeenaliyuahmad017@gmail.com"
+  },
+  "record": {
+    "CNAME": "devkhamal.vercel.app"
+  },
+  "proxied": false
+}

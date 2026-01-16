@@ -1,0 +1,16 @@
+{
+    "description": "YAC Homepage",
+    "domain": "is-local.org",
+    "subdomain": "yac",
+
+    "owner": {
+        "repo": "https://github.com/lverx/lverx.github.io",
+        "email": "profoundlvr@gmail.com"
+    },
+
+    "record": {
+        "CNAME": "lverx.github.io"
+    },
+
+    "proxied": true
+}
