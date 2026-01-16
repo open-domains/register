@@ -1,5 +1,5 @@
 {
-  "description": "This is a personal website for the hrv rero clan community on Discord.",
+  "description": "this is a personal website for the Hrv Rero Clan community on Discord.",
   "subdomain": "hrv-clan",
   "domain": "is-local.org",
   "owner": {
@@ -7,7 +7,15 @@
     "email": "hungrero.vn@gmail.com"
   },
   "record": {
-    "CNAME": "hrv-web.netlify.app"
+    "A": ["75.2.60.5"],
+    "MX": [
+      "mx1.simplelogin.co",
+      "mx2.simplelogin.co"
+    ],
+    "TXT": [
+      "v=spf1 include:simplelogin.co ~all",
+      "sl-verification=pephggejqrebaeehwtrcnlckzadkpz"
+    ]
   },
-  "proxied": true
+  "proxied": false
 }
