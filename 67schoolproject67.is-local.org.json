@@ -1,0 +1,11 @@
+{
+  "description": "An educational resource gateway for students to access school-related materials.",
+  "repo": "https://github.com/Wrbxy/bypass.dev",
+  "owner": {
+    "username": "wrbxy",
+    "email": "andrewmorris09151234@gmail.com"
+  },
+  "record": {
+    "CNAME": "edu-production-2436.up.railway.app"
+  }
+}
