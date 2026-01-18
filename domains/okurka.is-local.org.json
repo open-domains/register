@@ -3,6 +3,8 @@
   "domain": "is-local.org",
   "subdomain": "okurka",
   "owner": { "email": "kontact@weatherscout.zone.id" },
-  "record": {},
+  "record": {
+    "CNAME": "strong-responded.gl.at.ply.gg"
+  },
   "proxied": false
 }
