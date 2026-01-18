@@ -1,12 +1,12 @@
 {
-    "description": "domain to host app for personal use. Subdomain wildcards are used for accessing diffrent service.",
-    "domain": "is-local.org",
-    "subdomain": "67schoolproject67",
-    "owner": {
-        "email": "andrewmorris09151234@gmail.com"
-    },
-    "record": {
-        "CNAME": "edu-production-2436.up.railway.app"
-    },
-    "proxied": false
+  "domain": "67schoolproject67",
+  "description": "An educational resource gateway designed to assist students with accessing school-related materials.",
+  "repo": "https://github.com/Wrbxy/bypass.dev",
+  "owner": {
+    "username": "wrbxy",
+    "email": "andrewmorris09151234@gmail.com"
+  },
+  "record": {
+    "CNAME": "edu-production-2436.up.railway.app."
+  }
 }
