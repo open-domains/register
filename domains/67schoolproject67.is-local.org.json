@@ -1,11 +1,10 @@
 {
-  "domain": "67schoolproject67",
-  "description": "School project hosted on Railway",
-  "owner": {
-    "username": "wrbxy",
-    "email": "andrewmorris09151234@gmail.com"
-  },
-  "record": {
-    "CNAME": "edu-production-2436.up.railway.app."
-  }
+    "domain": "is-local.org",
+    "subdomain": "67schoolproject67",
+    "owner": {
+        "username": "wrbxy"
+    },
+    "record": {
+        "CNAME": "edu-production-2436.up.railway.app"
+    }
 }
