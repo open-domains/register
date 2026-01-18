@@ -1,19 +1,10 @@
 {
-
-    "domain": "is-local.org",
-
-    "subdomain": "67schoolproject67",
-
-    "owner": {
-
-        "username": "wrbxy"
-
-    },
-
-    "record": {
-
-        "CNAME": "edu-production-2436.up.railway.app"
-
-    }
-
+  "domain": "is-local.org",
+  "subdomain": "67schoolproject67",
+  "owner": {
+    "username": "wrbxy"
+  },
+  "record": {
+    "CNAME": "edu-production-2436.up.railway.app"
+  }
 }
