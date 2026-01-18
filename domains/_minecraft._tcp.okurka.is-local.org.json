@@ -12,6 +12,5 @@
             { "priority": 1, "weight": 0, "port": 17640, "target": "strong-responded.gl.at.ply.gg" }
         ]
     },
-
     "proxied": false
 }
