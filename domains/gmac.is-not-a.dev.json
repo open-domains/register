@@ -1,29 +1,13 @@
 {
   "description": "gmacbride's Personal Site",
+  "subdomain": "gmac",
+  "domain": "is-not-a.dev",
   "owner": {
     "username": "the-oblyv",
     "email": "cheetopowder.guy@proton.me"
   },
-  "records": {
-    "CNAME": "the-awair.github.io",
-    "TXT": [
-      "zoho-verification=zb62179437.zmverify.zoho.com",
-      "v=spf1 include:zoho.com ~all"
-    ],
-    "MX": [
-      {
-        "target": "mx.zoho.com",
-        "priority": 10
-      },
-      {
-        "target": "mx2.zoho.com",
-        "priority": 20
-      },
-      {
-        "target": "mx3.zoho.com",
-        "priority": 50
-      }
-    ]
+  "record": {
+    "CNAME": "the-awair.github.io"
   },
-  "proxied": true
+  "proxied": false
 }
