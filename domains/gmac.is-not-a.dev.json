@@ -4,7 +4,7 @@
     "username": "the-oblyv",
     "email": "cheetopowder.guy@proton.me"
   },
-  "records": {
+  "record": {
     "CNAME": "the-awair.github.io",
     "TXT": [
       "zoho-verification=zb62179437.zmverify.zoho.com",
