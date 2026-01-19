@@ -1,0 +1,16 @@
+{
+  "description": "Self hosted website, and an app. ",
+
+  "domain": "is-cool.dev",
+  "subdomain": "studio",
+
+  "owner": {
+    "email": "squid901820@gmail.com"
+  },
+
+  "record": {
+    "NS": ["david.ns.cloudflare.com", "zita.ns.cloudflare.com"]
+  },
+
+  "proxied": false
+}
