@@ -1,5 +1,7 @@
 {
   "description": "gmacbride's Personal Site",
+  "subdomain": "gmac",
+  "domain": "is-not-a.dev",
   "owner": {
     "username": "the-oblyv",
     "email": "cheetopowder.guy@proton.me"
