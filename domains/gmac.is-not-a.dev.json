@@ -7,16 +7,7 @@
     "email": "cheetopowder.guy@proton.me"
   },
   "record": {
-    "CNAME": "the-awair.github.io",
-    "TXT": [
-      "zoho-verification=zb62179437.zmverify.zoho.com",
-      "v=spf1 include:zoho.com ~all"
-    ],
-    "MX": [
-      "mx.zoho.com",
-      "mx2.zoho.com",
-      "mx3.zoho.com"
-    ]
+    "CNAME": "the-awair.github.io"
   },
   "proxied": false
 }
