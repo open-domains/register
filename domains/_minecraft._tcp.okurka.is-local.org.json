@@ -1,0 +1,19 @@
+{
+  "description": "Just want to connect to my minecraft server using a domain instead of those long ip adresses",
+  "domain": "is-local.org",
+  "subdomain": "_minecraft._tcp.okurka",
+  "owner": {
+    "email": "kontact@weatherscout.zone.id"
+  },
+  "record": {
+    "SRV": [
+      {
+        "priority": 1,
+        "weight": 0,
+        "port": 17640,
+        "target": "strong-responded.gl.at.ply.gg"
+      }
+    ]
+  },
+  "proxied": false
+}
