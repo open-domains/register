@@ -1,0 +1,20 @@
+{
+  "description": "ThinkJS é um jogo educativo para ensinar JavaScript de forma interativa e gamificada.",
+  "domain": "localplayer.dev",
+  "subdomain": "think-js",
+  "owner": {
+    "repo": "https://github.com/seu-usuario/think-js-game",
+    "email": "thinkjs.contato@gmail.com"
+  },
+  "record": {
+    "A": ["76.76.21.21"],
+    "AAAA": [],
+    "CNAME": null,
+    "MX": [],
+    "TXT": ["thinkjs_verification=localplayer"],
+    "CAA": [
+      { "flags": 0, "tag": "issue", "value": "letsencrypt.org" }
+    ]
+  },
+  "proxied": false
+}
