@@ -1,0 +1,16 @@
+{
+  "description": "Site institucional da Empresa Júnior Sem Fronteiras (FronteiraTec)",
+  "domain": "is-local.org",
+  "subdomain": "semfronteiras",
+
+  "owner": {
+    "repo": "https://github.com/FronteiraTec/site-semfronteiras",
+    "email": "gustavo.botezini@gmail.com"
+  },
+
+  "record": {
+    "CNAME": "fronteiratec.github.io"
+  },
+
+  "proxied": false
+}
