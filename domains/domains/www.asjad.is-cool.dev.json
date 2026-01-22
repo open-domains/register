@@ -1,0 +1,16 @@
+{
+  "description": "WWW subdomain for my personal portfolio (Vercel)",
+  "domain": "is-cool.dev",
+  "subdomain": "www.asjad",
+
+  "owner": {
+    "repo": "https://github.com/a4axjd",
+    "email": "noorasjad3@gmail.com"
+  },
+
+  "record": {
+    "CNAME": ["c0f66a4036462a41.vercel-dns-017.com"]
+  },
+
+  "proxied": false
+}
