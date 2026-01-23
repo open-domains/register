@@ -9,12 +9,8 @@
   "record": {
     "A": ["75.2.60.5"],
     "MX": [
-      "mx1.simplelogin.co",
-      "mx2.simplelogin.co"
-    ],
-    "TXT": [
-      "v=spf1 include:simplelogin.co ~all",
-      "sl-verification=pephggejqrebaeehwtrcnlckzadkpz"
+      "mx1.improvmx.com",
+      "mx2.improvmx.com"
     ]
   },
   "proxied": false
