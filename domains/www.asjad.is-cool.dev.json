@@ -9,7 +9,7 @@
   },
 
   "record": {
-    "CNAME": ["c0f66a4036462a41.vercel-dns-017.com"]
+  "CNAME": "c0f66a4036462a41.vercel-dns-017.com"
   },
 
   "proxied": false
