@@ -1,0 +1,15 @@
+{
+    "description": "Electronic School Cert verification",
+    "domain": "is-cool.dev",
+    "subdomain": "_59af0f16fb01ca42f0847a557a2b6025.school",
+
+    "owner": {
+        "email": "ivan.neverov@gmail.com"
+    },
+
+    "record": {
+        "CNAME": "_386356e4ebf89ef0ea3dc00d5933062a.jkddzztszm.acm-validations.aws."
+    },
+
+    "proxied": false
+}
