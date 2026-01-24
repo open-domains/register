@@ -1,0 +1,16 @@
+{
+    "description": "thymine.is-local.org",
+    "domain": "is-local.org",
+    "subdomain": "thymine",
+
+    "owner": {
+        "repo": "https://github.com/toibuonia/register1",
+        "email": "canbinh.5079@gmail.com"
+    },
+
+    "record": {
+        "A": ["75.2.60.5"]
+    },
+
+    "proxied": false
+}
