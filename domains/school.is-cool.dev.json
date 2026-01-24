@@ -1,7 +1,7 @@
 {
     "description": "Electronic School project",
     "domain": "is-cool.org",
-    "subdomain": "*.school",
+    "subdomain": "school",
 
     "owner": {
         "email": "michael.neveroff@gmail.com"
