@@ -1,0 +1,15 @@
+{
+    "description": "Electronic School project",
+    "domain": "is-cool.dev",
+    "subdomain": "school",
+
+    "owner": {
+        "email": "ivan.neverov@gmail.com"
+    },
+
+    "record": {
+        "A": ["3.144.110.156"]
+    },
+
+    "proxied": false
+}
