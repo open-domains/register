@@ -1,0 +1,18 @@
+{
+    "domain": "is-not-a.dev",
+    "subdomain": "zakhar",
+
+    "owner": {
+        "repo": "https://github.com/zakharsk/Open-Domains-register",
+        "email": "zaharsk@gmail.com"
+    },
+
+    "record": {
+        "NS": [
+            "blakely.ns.cloudflare.com",
+            "kevin.ns.cloudflare.com"
+        ]
+    },
+
+    "proxied": false
+}
