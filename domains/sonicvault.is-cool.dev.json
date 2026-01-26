@@ -1,0 +1,14 @@
+{
+    "description": "So I can have https for my self-hosted password manager",
+    "domain": "is-cool.dev",
+    "subdomain": "sonicvault",
+    "owner": {
+        "repo": "https://github.com/sonicrules1234/register"
+    },
+    "record": {
+        "A": [
+            "207.50.146.94"
+        ]
+    },
+    "proxied": false
+}
