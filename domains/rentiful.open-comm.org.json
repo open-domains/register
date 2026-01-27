@@ -7,8 +7,10 @@
     "email": "rahulra16809999@gmail.com"
   },
   "record": {
-    "_74dde4d836b9c1d77bc32d10941fad6a.rentiful.open-comm.org.": "_29f91cda6657bd5dc19197f0cc93b4a9.jkddzztszm.acm-validations.aws.",
-    "rentiful": "d37b1rgfp9juja.cloudfront.net",
-    "www.rentiful": "d37b1rgfp9juja.cloudfront.net"
+    "CNAME": {
+      "_74dde4d836b9c1d77bc32d10941fad6a.rentiful": "_29f91cda6657bd5dc19197f0cc93b4a9.jkddzztszm.acm-validations.aws.",
+      "rentiful": "d37b1rgfp9juja.cloudfront.net",
+      "www.rentiful": "d37b1rgfp9juja.cloudfront.net"
+    }
   }
 }
