@@ -1,0 +1,12 @@
+{
+  "description": "WWW alias for Rentiful",
+  "domain": "open-comm.org",
+  "subdomain": "www.rentiful",
+  "owner": {
+    "repo": "https://github.com/Rahul-mandal01/real-estate",
+    "email": "rahulra16809999@gmail.com"
+  },
+  "record": {
+    "CNAME": "d37b1rgfp9juja.cloudfront.net"
+  }
+}
