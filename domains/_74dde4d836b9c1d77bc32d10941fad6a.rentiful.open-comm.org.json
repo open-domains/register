@@ -1,0 +1,12 @@
+{
+  "description": "ACM SSL validation for Rentiful",
+  "domain": "open-comm.org",
+  "subdomain": "_74dde4d836b9c1d77bc32d10941fad6a.rentiful",
+  "owner": {
+    "repo": "https://github.com/Rahul-mandal01/real-estate",
+    "email": "rahulra16809999@gmail.com"
+  },
+  "record": {
+    "CNAME": "_29f91cda6657bd5dc19197f0cc93b4a9.jkddzztszm.acm-validations.aws."
+  }
+}
