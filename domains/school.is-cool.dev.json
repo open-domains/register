@@ -1,0 +1,15 @@
+{
+    "description": "Electronic School project",
+    "domain": "is-cool.dev",
+    "subdomain": "school",
+
+    "owner": {
+        "email": "ivan.neverov@gmail.com"
+    },
+
+    "record": {
+        "CNAME": "school-lb-522374637.us-east-2.elb.amazonaws.com"
+    },
+
+    "proxied": false
+}

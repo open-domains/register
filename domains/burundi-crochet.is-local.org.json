@@ -1,0 +1,16 @@
+{
+    "description": "Landing page for Burundi Crochet Fashions—premium handmade crochet brand empowering youth and women in East Africa",
+    "domain": "is-local.org",
+    "subdomain": "burundi-crochet",
+
+    "owner": {
+        "repo": "https://github.com/ornoirbruce5-debug/Burundi-crochet",
+        "email": "ornoirbruce5@gmail.com"
+    },
+
+    "record": {
+        "CNAME": "ornoirbruce5-debug.github.io"
+    },
+
+    "proxied": false
+}
