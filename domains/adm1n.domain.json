@@ -1,0 +1,18 @@
+{
+  "description": "Draft-Project Description",
+  "domain": "is-local.org",
+  "subdomain": "adm1n",
+
+  "owner": {
+    "repo": "https://github.com/joevizcara/repo",
+    "email": "adm1n.disposal129@passinbox.com"
+  },
+
+  "record": {
+    "A": ["172.67.201.99", "104.21.36.245"],
+    "AAAA": ["2606:4700:3033::6815:24f5", "2606:4700:3032::ac43:c963"],
+    "CNAME": "adm1n.qzz.io"
+  },
+
+  "proxied": false
+}
