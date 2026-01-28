@@ -1,0 +1,21 @@
+{
+    "description": "resend.com email client sending capability enabling",
+    "domain": "localplayer.dev",
+    "subdomain": "send.cognify",
+
+    "owner": {
+        "repo": "https://github.com/U9D3RTAK3R/Cognify",
+        "email": "anirbanrc@proton.me"
+    },
+
+    "record": {
+		"MX": [
+			"feedback-smtp.ap-northeast-1.amazonses.com"
+		],
+        "TXT": [
+            "v=spf1 include:amazonses.com ~al"
+        ]
+    },
+
+    "proxied": false
+}

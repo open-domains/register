@@ -1,0 +1,19 @@
+
+{
+    "description": "dmarc record for resend.com email client",
+    "domain": "localplayer.dev",
+    "subdomain": "_dmarc.cognify",
+
+    "owner": {
+        "repo": "https://github.com/U9D3RTAK3R/Cognify",
+        "email": "anirbanrc@proton.me"
+    },
+
+    "record": {
+		"TXT": [
+			"v=DMARC1; p=none;"
+		]
+    },
+
+    "proxied": false
+}

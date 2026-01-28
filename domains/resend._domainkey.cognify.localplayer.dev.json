@@ -1,0 +1,18 @@
+{
+    "description": "resend.com email client domain verification",
+    "domain": "localplayer.dev",
+    "subdomain": "resend._domainkey.cognify",
+
+    "owner": {
+        "repo": "https://github.com/U9D3RTAK3R/Cognify",
+        "email": "anirbanrc@proton.me"
+    },
+
+    "record": {
+        "TXT": [
+            "p=MIGfMA0GCSqGSIb3DQEBAQUAA4GNADCBiQKBgQDfhqC5/h4JahMTOEawiUs3S4XbL4UhWi5GPsx9z1R14DQcY2vc90utVtht2cHAWPCgKl0TuBV0E515YgD6bQSnsPw9xPIecb9y1eI6S/p85jPkxB91arTOdPedOXcHlNFXMagRURWXzrin1LeoF+TXiwyTwww+ulLfiKbGE7W4KQIDAQAB"
+        ]
+    },
+
+    "proxied": false
+}
