@@ -1,7 +1,7 @@
 {
-  "description": "Real Estate Rental Application built with Next.js, Node.js, PostgreSQL, and AWS.",
+  "description": "WWW alias for Rentiful",
   "domain": "open-comm.org",
-  "subdomain": "rentiful",
+  "subdomain": "www.rentiful",
   "owner": {
     "repo": "https://github.com/Rahul-mandal01/real-estate",
     "email": "rahulra16809999@gmail.com"
