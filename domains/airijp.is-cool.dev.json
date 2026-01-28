@@ -1,0 +1,14 @@
+{
+  "description": "Personal Portfolio",
+  "domain": "is-not-a.dev",
+  "subdomain": "airijp",
+
+  "owner": {
+    "repo": "https://github.com/airi-jp/airi-jp.github.io",
+    "email": "awijp.airi@gmail.com"
+  },
+
+  "record": {
+    "CNAME": "airi-jp.github.io"
+  }
+}
