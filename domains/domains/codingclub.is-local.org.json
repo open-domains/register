@@ -1,0 +1,19 @@
+{
+  "description": "College club website",
+  "domain": "is-local.org",
+  "subdomain": "codingclub",
+
+  "owner": {
+    "repo": "https://github.com/gdgdataset",
+    "email": "fykartik@gmail.com"
+  },
+
+  "record": {
+    "A": ["216.198.79.1"],
+    "CNAME": {
+      "www": "cname.vercel-dns.com"
+    }
+  },
+
+  "proxied": false
+}
