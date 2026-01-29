@@ -1,0 +1,16 @@
+{
+    "description": "Professional Full Stack Portfolio showcasing my web development projects and skills.",
+    "domain": "is-a-fullstack.dev",
+    "subdomain": "junaid",
+
+    "owner": {
+        "repo": "https://github.com/junaidzr/portfolio",
+        "email": "junaidgulzar556@gmail.com"
+    },
+
+    "record": {
+        "CNAME": "junaid-is-a-fullstack-dev.vercel.app"
+    },
+
+    "proxied": false
+}
