@@ -1,0 +1,16 @@
+{
+    "description": "Vercel deployment for azizulabedinazmi",
+    "domain": "is-cool.dev",
+    "subdomain": "azizulabedinazmi",
+
+    "owner": {
+        "repo": "https://github.com/azizulabedinazmi/register2",
+        "email": "azmi00121@gmail.com"
+    },
+
+    "record": {
+        "A": ["216.198.79.1"]
+    },
+
+    "proxied": false
+}
