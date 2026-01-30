@@ -1,0 +1,16 @@
+{
+  "description": "Cyber’s(Me) personal dev blog for all ",
+  "domain": "is-not-a.dev",
+  "subdomain": "cyber",
+  
+  "owner": {
+    "repo": "https://github.com/cyberbeast1/cyberbeast1.github.io",
+    "email": "cyberdart1410@gmail.com"
+  },
+  
+  "record": {
+    "CNAME": "cyberbeast1.github.io"
+  },
+  
+  "proxied": false
+}
