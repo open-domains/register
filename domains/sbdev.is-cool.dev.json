@@ -1,14 +1,13 @@
 {
-    "description": "Project Description",
-    "domain": "is-cool.dev",
-    "subdomain": "sbdev",
-
-    "owner": {
-        "repo": "https://github.com/sb-designs/sbdesigns6",
-        "email": "hello@sbdesigns.is-a.dev"
-    },
-
-    "record": {
-        "CNAME": "notes.sbdesigns.workers.dev",
+  "description": "Project Description",
+  "domain": "is-cool.dev",
+  "subdomain": "sbdev",
+  "owner": {
+    "repo": "https://github.com/sb-designs/sbdesigns6",
+    "email": "hello@sbdesigns.is-a.dev"
+  },
+  "record": {
+    "CNAME": "notes.sbdesigns.workers.dev",
     "proxied": false
+  }
 }
