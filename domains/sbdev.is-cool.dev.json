@@ -7,7 +7,6 @@
     "email": "hello@sbdesigns.is-a.dev"
   },
   "record": {
-    "CNAME": "notes.sbdesigns.workers.dev",
-    "proxied": false
+    "CNAME": "notes.sbdesigns.workers.dev"
   }
 }
