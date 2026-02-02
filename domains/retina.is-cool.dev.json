@@ -1,0 +1,14 @@
+{
+    "description": "I need a domain for my university projects so that I can deploy and run my applications using Cloudflare Workers in a serverless environment.",
+    "domain": "is-cool.dev",
+    "subdomain": "retina",
+    "owner": {
+        "email": "Nekouiematin@yandex.com"
+    },
+
+    "record": {
+        "NS": ["brianna.ns.cloudflare.com","fonzie.ns.cloudflare.com"]
+    },
+
+    "proxied": false
+}
