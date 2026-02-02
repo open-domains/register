@@ -1,15 +1,15 @@
 {
-    "description": "This is a FastAPI-based API to fetch metadata from the Shoutcast radio stream at Radio Click Romania (RCR).",
+    "description": "This is a FastAPI-based API to fetch metadata from the Shoutcast radio stream at Radio Click Romania",
     "domain": "localplayer.dev",
-    "subdomain": "*.rcr",
+    "subdomain": "rcr",
     "owner": {
         "website": "https://vercel-radio-stat.vercel.app/docs",
         "email": "kiwichat@email.com"
     },
     "record": {
         "A": ["216.198.79.1"],
-        "NS": ["ns1.vercel-dns.com"],
-        "NS": ["ns2.vercel-dns.com"]
+		"NS": ["ns1.vercel-dns.com"],
+		"NS": ["ns2.vercel-dns.com"]
     },
     "proxied": false
 }
