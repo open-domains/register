@@ -1,0 +1,13 @@
+{
+  "description": "Sitio de Abba's Global Markets",
+  "domain": "open-comm.org",
+  "subdomain": "abbasglobalmarkets",
+  "owner": {
+    "repo": "https://github.com/josuemontoya1987/abba-global-markets-site",
+    "email": "josue.montoya1987@gmail.com"
+  },
+  "record": {
+    "CNAME": "studio-4049903610-cfadf.web.app"
+  },
+  "proxied": false
+}
