@@ -1,0 +1,13 @@
+{
+  "description": "A portofolio page for Fastering18 Dev",
+  "domain": "is-cool.dev",
+  "subdomain": "fastering",
+  "owner": {
+    "repo": "https://github.com/Fastering18/fastering18.github.io",
+    "email": "fastering18@gmail.com"
+  },
+  "record": {
+    "A": ["216.198.79.1"]
+  },
+  "proxied": false
+}
