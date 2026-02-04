@@ -17,5 +17,5 @@
               { "target": "mx3.zoho.com", "priority": 50 }
             	]
    	         	},
-    "proxied": false
+    "proxied": true
 }
