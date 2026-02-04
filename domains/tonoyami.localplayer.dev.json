@@ -1,0 +1,16 @@
+{
+    "description": "Tonoyami's personal YAGPDB control panel",
+    "domain": "localplayer.dev",
+    "subdomain": "tonoyami",
+
+    "owner": {
+        "repo": "https://github.com/TLNiles/register",
+        "email": "niles.prower@gmail.com"
+    },
+
+    "record": {
+        "A": ["194.59.247.150"]
+    },
+
+    "proxied": false
+}

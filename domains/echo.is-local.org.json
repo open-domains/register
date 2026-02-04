@@ -8,8 +8,8 @@
     },
     "record": {
         "NS": [
-            "arushi.ns.cloudflare.com",
-            "duke.ns.cloudflare.com"
+            "candy.ns.cloudflare.com",
+            "thomas.ns.cloudflare.com"
         ]
     },
     "proxied": false
