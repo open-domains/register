@@ -1,0 +1,14 @@
+{
+    "description": "Binary Kalvi's Website : Knowledge in Every Byte",
+    "domain": "is-local.org",
+    "subdomain": "binarykalvi",
+  
+    "owner": {
+        "email": "binarykalvi@gmail.com"
+    },
+
+    "record": {
+	      "TXT": ["hosting-site=binary-kalvi"]
+		},
+    "proxied": false
+}
