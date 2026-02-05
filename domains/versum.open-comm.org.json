@@ -1,0 +1,16 @@
+{
+    "description": "Your online bible.",
+    "domain": "open-comm.org",
+    "subdomain": "versum",
+    "owner": {
+        "repo": "https://github.com/D3vEduardo/open-domain/",
+        "email": "eduardoaugustolimabueno@proton.me"
+    },
+    "record": {
+        "CNAME": [
+            "3015b9445b6137f1.vercel-dns-017.com."
+        ],
+        "TXT": ["vc-domain-verify=versum.open-comm.org,e44d6a68b4cc58443feb"]
+    },
+    "proxied": false
+}
