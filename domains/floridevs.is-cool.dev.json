@@ -1,0 +1,16 @@
+{
+  "description": "Personal mail domain",
+  "domain": "is-cool.dev",
+  "subdomain": "floridevs",
+  "owner": {
+    "repo": "https://github.com/cooltool-online",
+    "email": "floridevswascalledotheratonetime@outlook.com"
+  },
+  "record": {
+    "MX": [
+      "mx1.improvmx.com",
+      "mx2.improvmx.com"
+    ]
+  },
+  "proxied": false
+}
