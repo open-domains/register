@@ -1,0 +1,12 @@
+{
+  "description": "site for Debojit Santra",
+  "domain": "is-a.dev",
+  "subdomain": "debojitsantra",
+  "owner": {
+    "repo": "https://github.com/debojitsantra",
+    "email": "debojitsantra48@gmail.com"
+  },
+  "record": {
+    "CNAME": ["debojitsantra.vercel.app"]
+  }
+}
