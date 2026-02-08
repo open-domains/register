@@ -6,9 +6,8 @@
     "owner": {
         "email": "binarykalvi@gmail.com"
     },
-
-    "record": {
-	      "TXT": ["hosting-site=binary-kalvi"]
-		},
+	"record": {
+        "CNAME": "binary-kalvi.web.app"
+    },
     "proxied": false
 }
