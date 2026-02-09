@@ -1,7 +1,7 @@
 {
   "description": "Just want to connect to my minecraft server using a domain instead of those long ip adresses",
   "domain": "is-local.org",
-  "subdomain": "_minecraft._tcp.okurka",
+  "subdomain": "_minecraft._tcp.mc.okurka",
   "owner": {
     "email": "kontact@weatherscout.zone.id"
   },
@@ -10,8 +10,8 @@
       {
         "priority": 1,
         "weight": 0,
-        "port": 17640,
-        "target": "strong-responded.gl.at.ply.gg"
+        "port": 24465,
+        "target": "mc.okurka.is-local.org"
       }
     ]
   },
