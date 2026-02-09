@@ -1,0 +1,14 @@
+{
+    "description": "A web based music player with spotify like ui.",
+    "domain": "localplayer.dev",
+    "subdomain": "sanya",
+    "owner": {
+        "website": "https://sanyamusic.vercel.app/",
+        "email": "urstarkz@proton.me"
+    },
+    "record": {
+        "A": ["216.198.79.1"]
+    },
+    "proxied": false
+
+}
