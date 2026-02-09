@@ -1,5 +1,5 @@
 {
-  "description": "Just want to connect to my minecraft server using a domain instead of those long ip adresses The records are in _minecraft._tcp.okurka.is-local.org.json",
+  "description": "Domain for managing servers run under mc.okurka.is-local.org domain",
   "domain": "is-local.org",
   "subdomain": "crafty.okurka",
   "owner": {
