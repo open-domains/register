@@ -1,0 +1,16 @@
+{
+  "description": "Sitio web de recompensas de Clash Royale",
+  "domain": "is-cool.dev",
+  "subdomain": "reward",
+
+  "owner": {
+    "repo": "https://github.com/baa4ts/reward",
+    "email": "baa4ts@gmail.com"
+  },
+
+  "record": {
+    "CNAME": "reward-70c.pages.dev"
+  },
+
+  "proxied": false
+}
