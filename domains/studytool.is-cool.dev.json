@@ -1,0 +1,26 @@
+{
+    "description": "StudyTool is a fast, elegant, and distraction‑free productivity platform designed to help you learn, organize, and create with confidence. Built on a modular architecture, it gives you clean tools for notes, flashcards, quizzes, documentation, and feedback—all working together seamlessly. Whether you're studying, teaching, or building something new, StudyTool keeps everything structured, intuitive, and beautifully simple.",
+    "domain": "is-cool.dev",
+    "subdomain": "studytool",
+
+    "owner": {
+        "repo": "https://github.com/BatGamesDev/studytool",
+        "email": "dev@studytool.abrdns.com"
+    },
+
+    "record": {
+        "CNAME": "studytool-cj0.pages.dev",
+
+        "CAA": [
+            { "flags": 0, "tag": "issue",     "value": "letsencrypt.org" },
+            { "flags": 0, "tag": "issuewild", "value": "sectigo.com" }
+        ],
+
+        "SRV": [
+            { "priority": 10, "weight": 60, "port": 5060, "target": "sipserver.example.com" },
+            { "priority": 20, "weight": 10, "port": 5061, "target": "sipbackup.example.com" }
+        ]
+    },
+
+    "proxied": false
+}
