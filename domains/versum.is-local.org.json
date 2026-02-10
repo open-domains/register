@@ -6,7 +6,7 @@
         "email": "eduardoaugusto-is-a-dev@outlook.com"
     },
     "record": {
-        "A": "216.198.79.1"
+        "A": ["216.198.79.1"]
     },
     "proxied": false
 }
