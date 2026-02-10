@@ -1,0 +1,20 @@
+{
+    "description": "Personal dev playground for experimenting with MDM, Project, and random ideas. Not production-critical.",
+    "domain": "is-cool.dev",
+    "subdomain": "mdm-apollo",
+
+    "owner": {
+        "email": "arman05ridho@gmail.com"
+    },
+
+    "record": {
+        "A": ["8.215.201.251"],
+        "TXT": [
+            "purpose=personal-dev-playground",
+            "note=non-commercial",
+            "env=testing"
+        ]
+    },
+
+    "proxied": false
+}
