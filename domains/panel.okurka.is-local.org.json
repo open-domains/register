@@ -1,0 +1,12 @@
+{
+  "description": "Domain for managing mc servers run under play.okurka.is-local.org",
+  "domain": "is-local.org",
+  "subdomain": "panel.okurka",
+  "owner": {
+    "email": "kontact@weatherscout.zone.id"
+  },
+  "record": {
+    "A": ["130.162.253.35"]
+  },
+  "proxied": true
+}
