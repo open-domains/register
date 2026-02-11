@@ -1,0 +1,18 @@
+{
+    "description": "The easiest, quickest, most straight-forward study site out there. 
+                    Create flashcards, take quizzes, track progress, and more! 
+                    Built to empower learning.",
+    "domain": "is-cool.dev",
+    "subdomain": "studytool",
+
+    "owner": {
+        "repo": "https://github.com/BatGamesDev/studytool",
+        "email": "dev@studytool.abrdns.com"
+    },
+
+    "record": {
+        "A": ["216.198.79.1"]
+    },
+
+    "proxied": false
+}
