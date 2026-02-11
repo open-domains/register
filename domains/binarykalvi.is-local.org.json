@@ -7,7 +7,8 @@
         "email": "binarykalvi@gmail.com"
     },
 	"record": {
-        "CNAME": "binary-kalvi.web.app"
+        "CNAME": "binary-kalvi.web.app",
+		"TXT": "google-site-verification=BFwD69NIrEPnN8s7pacQ5aDnUxiv4ZR96WoMMmaYD9A"
     },
-    "proxied": false
+    "proxied": true
 }
