@@ -3,7 +3,7 @@
     "domain": "localplayer.dev",
     "subdomain": "rcr",
     "owner": {
-        "website": "https://vercel-radio-stat.vercel.app/docs",
+        "website": "https://vercel-radio-stat.vercel.app",
         "email": "kiwichat@email.com"
     },
     "record": {
@@ -13,4 +13,5 @@
     "proxied": false
 
 }
+
 
