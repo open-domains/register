@@ -1,0 +1,16 @@
+{
+    "description": "Fabflix - Movie Database Web Application",
+    "domain": "is-cool.dev",
+    "subdomain": "fabflix",
+
+    "owner": {
+        "repo": "https://github.com/Chaehos",
+        "email": "chaehos@uci.edu"
+    },
+
+    "record": {
+        "A": ["18.117.140.209"]
+    },
+
+    "proxied": false
+}
