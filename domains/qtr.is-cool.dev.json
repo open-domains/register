@@ -1,0 +1,12 @@
+{
+    "description": "Qatar Airways VA",
+    "domain": "is-cool.dev",
+    "subdomain": "qtr",
+    "owner": {
+        "email": "jthweb@duck.com"
+    },
+    "record": {
+        "CNAME": "qtr-geofs.netlify.app"
+    },
+    "proxied": false
+}
