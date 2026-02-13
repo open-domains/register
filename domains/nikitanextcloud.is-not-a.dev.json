@@ -1,0 +1,12 @@
+{
+  "description": "Self-hosted file sharing",
+  "domain": "is-not-a.dev",
+  "subdomain": "nikitanextcloud",
+  "owner": {
+    "email": "dmc94.cn@gmail.com"
+  },
+  "record": {
+    "A": ["194.58.47.42"]
+  },
+  "proxied": false
+}
