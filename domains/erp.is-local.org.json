@@ -1,0 +1,15 @@
+{
+    "description": "Deploy an ERP demo site for testing users remotely, use this subdomain for https cert",
+    "domain": "is-local.org",
+    "subdomain": "erp",
+    "owner": {
+        "repo": "https://github.com/steve-gmail/open-domains",
+        "email": "steveyi168@gmail.com"
+    },
+    "record": {
+        "A": [
+            "116.63.178.245"
+        ]
+    },
+    "proxied": false
+}
