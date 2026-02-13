@@ -1,7 +1,6 @@
 {
-    "description": "My Github Pages",
-    "domain": "is-cool.dev",
-    "subdomain": "david",
+    "domain": "is-local.org",
+    "subdomain": "davidarl",
     "owner": {
         "repo": "https://github.com/Davidaprilio/register",
         "email": "david1.aprilio4@gmail.com"
