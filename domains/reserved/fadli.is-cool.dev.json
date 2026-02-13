@@ -7,7 +7,7 @@
         "email": "fadli.m.m@gmail.com"
     },
     "record": {
-        "A": "168.110.221.3"
+        "A": ["168.110.221.3"]
     },
     "proxied": false
 }
