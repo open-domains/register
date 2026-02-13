@@ -1,0 +1,19 @@
+{
+  "description": "I'm in a need to use simple rememberable domain instead of the standard ip for a Minecraft server for me and my friends. This is an alt for customroles.is-local.org",
+  "domain": "is-local.org",
+  "subdomain": "_minecraft._tcp.play.customroles",
+  "owner": {
+    "email": "kontact@weatherscout.zone.id"
+  },
+  "record": {
+    "SRV": [
+      {
+        "priority": 1,
+        "weight": 0,
+        "port": 23289,
+        "target": "mc.weatherscout.qzz.io"
+      }
+    ]
+  },
+  "proxied": false
+}
