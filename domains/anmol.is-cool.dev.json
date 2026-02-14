@@ -1,0 +1,15 @@
+{
+    "description": "Personal Portfolio Site",
+    "domain": "is-cool.dev",
+    "subdomain": "anmol",
+
+    "owner": {
+        "repo": "https://github.com/tecanmol/Portfolio",
+        "email": "panmol735@gmail.com"
+    },
+
+    "record": {
+        "CNAME": "tecanmol.github.io"
+    },
+    "proxied": false
+}
