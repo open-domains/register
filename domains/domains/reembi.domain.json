@@ -1,0 +1,16 @@
+{
+    "description": "my cool website",
+    "domain": "is-not-a.dev",
+    "subdomain": "reembi",
+
+    "owner": {
+        "repo": "https://github.com/rb077858/rb077858.github.io",
+        "email": "rb077858@gmail.com"
+    },
+
+    "record": {
+        "CNAME": "rb077858.github.io"
+    },
+
+    "proxied": false
+}
