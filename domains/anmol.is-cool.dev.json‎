@@ -9,7 +9,7 @@
     },
 
     "record": {
-        "CNAME": "tecanmol.github.io",
+        "CNAME": "tecanmol.github.io"
     },
     "proxied": false
 }
