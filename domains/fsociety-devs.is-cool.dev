@@ -1,0 +1,17 @@
+{
+    "description": "Private server",
+    "domain": "is-local.org",
+    "subdomain": "fsociety-devs",
+
+    "owner": {
+        "email": "andreprojects001@gmail.com"
+    },
+
+    "record": {
+        "A": [
+          "66.45.226.166"
+        ]
+    },
+
+    "proxied": false
+}
