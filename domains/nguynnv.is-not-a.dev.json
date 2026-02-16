@@ -9,7 +9,7 @@
     },
 
     "record": {
-        "CNAME": "nguynnv.github.io"
+        "MX": ["riya.ns.cloudflare.com", "viddy.ns.cloudflare.com"]
     },
 
     "proxied": false
