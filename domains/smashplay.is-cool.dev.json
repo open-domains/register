@@ -1,0 +1,20 @@
+{
+  "subdomain": "smashplay",
+  "domain": "is-cool.dev",
+  "owner": "SmashPlay",
+  "description": "SmashPlay gaming platform",
+  "records": [
+    {
+      "type": "A",
+      "name": "@",
+      "value": "216.198.79.1",
+      "ttl": 3600
+    },
+    {
+      "type": "CNAME",
+      "name": "www",
+      "value": "@",
+      "ttl": 3600
+    }
+  ]
+}
