@@ -3,6 +3,8 @@
     "username": "koj-pik",
     "email": "nishikawa.pikurusu55@gmail.com"
   },
+  "domain": "is-a.dev",
+  "subdomain": "nishikawa-family",
   "record": {
     "A": ["128.27.54.133"]
   }
