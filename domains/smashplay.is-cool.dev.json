@@ -1,20 +1,15 @@
 {
-  "subdomain": "smashplay",
-  "domain": "is-cool.dev",
-  "owner": "SmashPlay",
-  "description": "SmashPlay gaming platform",
-  "records": [
-    {
-      "type": "CNAME",
-      "name": "smashplay",
-      "value": "smashplay.vercel.app",
-      "ttl": 3600
+    "domain": "is-cool.dev",
+    "subdomain": "smashplay",
+    "owner": {
+        "email": "smashplaygames@outlook.com"
     },
-    {
-      "type": "CNAME",
-      "name": "www.smashplay",
-      "value": "smashplay.vercel.app",
-      "ttl": 3600
-    }
-  ]
+    "description": "SmashPlay gaming platform",
+    "record": {
+        "CNAME": [
+            "smashplay.vercel.app",
+            "www.smashplay.vercel.app"
+        ]
+    },
+    "proxied": false
 }
