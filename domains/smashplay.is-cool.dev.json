@@ -5,15 +5,15 @@
   "description": "SmashPlay gaming platform",
   "records": [
     {
-      "type": "A",
-      "name": "@",
-      "value": "216.198.79.1",
+      "type": "CNAME",
+      "name": "smashplay",
+      "value": "smashplay.vercel.app",
       "ttl": 3600
     },
     {
       "type": "CNAME",
-      "name": "www",
-      "value": "@",
+      "name": "www.smashplay",
+      "value": "smashplay.vercel.app",
       "ttl": 3600
     }
   ]
