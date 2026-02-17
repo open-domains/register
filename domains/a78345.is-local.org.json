@@ -1,0 +1,13 @@
+{
+  "description": "My Personal Website containing random things",
+  "domain": "is-local.org",
+  "subdomain": "54387a-gfiles",
+  "owner": {
+    "repo":"https://github.com/a78345/a78345.github.io.git",
+    "email":"super54387a@gmail.com"
+  },
+  "record": {
+    "CNAME": "a78345.github.io"
+  },
+  "proxied":false
+}
