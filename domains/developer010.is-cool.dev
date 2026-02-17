@@ -1,0 +1,11 @@
+{
+  "domain": "is-cool.dev",
+  "subdomain": "developer010",
+  "owner": {
+    "username": "developerha0",
+    "email": "Developer010@atomicmail.io"
+  },
+  "record": {
+    "CNAME": "broad-credit-5e81.developer010.workers.dev"
+  }
+}
