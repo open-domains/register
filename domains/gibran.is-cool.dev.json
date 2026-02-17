@@ -1,0 +1,12 @@
+{
+  "description": "domains for gibran",
+  "domain": "is-cool.dev",
+  "subdomain": "gibran",
+  "owner": {
+    "repo": "https://github.com/gebrann",
+    "email": "notgibranreal@gmail.com"
+  },
+  "record": {
+    "CNAME": "macchiato.sg.rapidwhm.com"
+  }
+}
