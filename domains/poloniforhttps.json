@@ -1,0 +1,16 @@
+{
+    "description": "personal web site",
+    "domain": "is-cool.dev",
+    "subdomain": "poloni",
+
+    "owner": {
+        "repo": "https://github.com/thelifeofpsh/thelifeofpsh.github.io",
+        "email": "gcpoloni01@gmail.com"
+    },
+
+    "record": {
+        "CNAME": "thelifeofpsh.github.io"
+    },
+
+    "proxied": false
+}
