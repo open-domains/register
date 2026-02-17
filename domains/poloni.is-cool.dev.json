@@ -1,12 +1,13 @@
 {
-  "description": "for gemini protocol",
-  "domain": "is-cool.dev",
-  "subdomain": "poloni",
-  "owner": {
-    "repo": "https://github.com/thelifeofpsh",
-    "email": "gcpoloni01@gmail.com"
-  },
-  "record": {
-    "AAAA": ["2804:7f0:b2c3:102:442:30ff:fe40:1cee"]
-  }
+    "description": "update cname, for gemini protocol",
+    "domain": "is-cool.dev",
+    "subdomain": "poloni",
+    "owner": {
+        "repo": "https://github.com/thelifeofpsh",
+        "email": "gcpoloni01@gmail.com"
+    },
+    "record": {
+        "CNAME": "debiantvbox.duckdns.org"
+    },
+    "proxied": false
 }
