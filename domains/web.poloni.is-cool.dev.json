@@ -1,0 +1,18 @@
+assim funciona?
+
+{
+    "description": "personal web site",
+    "domain": "is-cool.dev",
+    "subdomain": "web.poloni",
+
+    "owner": {
+        "repo": "https://github.com/thelifeofpsh/thelifeofpsh.github.io",
+        "email": "gcpoloni01@gmail.com"
+    },
+
+    "record": {
+        "CNAME": "thelifeofpsh.github.io"
+    },
+
+    "proxied": false
+}
