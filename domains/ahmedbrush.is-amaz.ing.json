@@ -1,12 +1,1 @@
-{
-    "description": "Creative Airbrush and Grafitti Studio and Online Store",
-    "domain": "is-amaz.ing",
-    "subdomain": "ahmedbrush",
-    "owner": {
-        "repo": "https://github.com/E-Roar/ahmedbrush-studio",
-        "email": "e.roar.morocco@gmail.com"
-    },
-    "record": {
-        "CNAME": "cname.vercel-dns.com"
-    }
-}
+{"description":"Creative Airbrush and Grafitti Studio and Online Store","domain":"is-amaz.ing","subdomain":"ahmedbrush","owner":{"repo":"https://github.com/E-Roar/ahmedbrush-studio","email":"e.roar.morocco@gmail.com"},"record":{"CNAME":"cname.vercel-dns.com"}}
