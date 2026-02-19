@@ -1,0 +1,13 @@
+{
+  "description": "Portfolio Website - Farrell ID",
+  "domain": "is-cool.dev",
+  "subdomain": "farrellid",
+  "owner": {
+    "repo": "https://github.com/fidxteam/WEB.farrellid",
+    "email": "dev.farrellid@gmail.com"
+  },
+  "record": {
+    "CNAME": "farrellid-gacor.vercel.app"
+  },
+  "proxied": false
+}
