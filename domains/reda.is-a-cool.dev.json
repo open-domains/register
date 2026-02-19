@@ -1,0 +1,12 @@
+{
+    "description": "AI Dev Expert Portfolio",
+    "domain": "is-a-cool.dev",
+    "subdomain": "reda",
+    "owner": {
+        "repo": "https://github.com/your-username/your-repo-name",
+        "email": "elbakraouyreda@gmail.com"
+    },
+    "record": {
+        "CNAME": "cname.vercel-dns.com"
+    }
+}
