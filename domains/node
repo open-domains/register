@@ -1,0 +1,9 @@
+{
+  "description": "Node",
+  "domain": "is-local.org",
+  "subdomain": "node",
+  "record": {
+    "A": ["89.175.15.18"]
+  },
+  "proxied": false
+}
