@@ -1,0 +1,13 @@
+{
+  "description": "cookiejar panel",
+  "domain": "localplayer.dev",
+  "subdomain": "cookiejar",
+  "owner": {
+    "repo": "https://github.com/Deft710/register",
+    "email": "deft710.deft710@gmail.com"
+  },
+  "record": {
+    "A": ["95.214.180.203"]
+  },
+  "proxied": true
+}
