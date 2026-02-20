@@ -1,0 +1,16 @@
+{
+    "description": "landing page",
+    "domain": "is-cool.dev",
+    "subdomain": "kurayami",
+
+    "owner": {
+        "repo": "https://github.com/NathanOrvain/register2",
+        "email": "nathan@jika.gg"
+    },
+
+    "record": {
+        "A": ["216.198.79.1"]
+    },
+
+    "proxied": false
+}
