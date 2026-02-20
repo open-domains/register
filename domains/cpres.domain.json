@@ -1,0 +1,15 @@
+{
+    "description": "open source hosting of http postgres access",
+    "domain": "is-local.org",
+    "subdomain": "cpres",
+
+    "owner": {
+        "repo": "https://github.com/docteurklein/httpg",
+        "email": "florian.klein@free.fr"
+    },
+
+    "record": {
+        "CNAME": "httpg-t23nl6w2qq-ew.a.run.app"
+    },
+    "proxied": false
+}
