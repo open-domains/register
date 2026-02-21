@@ -1,0 +1,13 @@
+{
+    "description": "Versum Resend",
+    "domain": "is-local.org",
+    "subdomain": "send.versum",
+    "owner": {
+        "email": "eduardoaugusto-is-a-dev@outlook.com"
+    },
+    "record": {
+        "TXT": ["v=spf1 include:amazonses.com ~all"],
+        "MX":  ["feedback-smtp.sa-east-1.amazonses.com"]
+    },
+    "proxied": false
+}
