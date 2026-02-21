@@ -1,7 +1,7 @@
 {
     "description": "Versum Resend",
     "domain": "is-local.org",
-    "subdomain": "send.versum",
+    "subdomain": "resend._domainkey.send.versum",
     "owner": {
         "email": "eduardoaugusto-is-a-dev@outlook.com"
     },
