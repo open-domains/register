@@ -1,0 +1,13 @@
+{
+    "description": "Conductor — AI integration hub. Connect AI providers, tools, and services through natural language.",
+    "domain": "is-not-a.dev",
+    "subdomain": "conductor",
+    "owner": {
+        "repo": "https://github.com/thealxlabs/conductor",
+        "email": "thealxlabs@icloud.com"
+    },
+    "record": {
+        "CNAME": "condouctr.vercel.app"
+    },
+    "proxied": false
+}
