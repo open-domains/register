@@ -10,7 +10,7 @@
 
     "record": {
         "A": ["10.101.0.20"],
-        "MX": ["kim.ns.cloudflare.com", "renan.ns.cloudflare.com"],
+        "CNAME": ["kim.ns.cloudflare.com", "renan.ns.cloudflare.com"],
     },
 
     "proxied": false
