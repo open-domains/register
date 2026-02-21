@@ -1,0 +1,17 @@
+{
+    "description": "for my home NAS",
+    "domain": "is-cool.dev",
+    "subdomain": "fleroweb",
+
+    "owner": {
+        "repo": "https://github.com/FlavioN001/register",
+        "email": "jflaviomneto@gmail.com"
+    },
+
+    "record": {
+        "A": ["10.101.0.20"],
+        "MX": ["kim.ns.cloudflare.com", "renan.ns.cloudflare.com"],
+    },
+
+    "proxied": false
+}
