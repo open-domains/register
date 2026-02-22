@@ -1,0 +1,14 @@
+{
+  "domain": "is-local.org",
+  "subdomain": "developer010",
+  "owner": {
+    "username": "developerha0",
+    "email": "Developer010@atomicmail.io"
+  },
+  "record": {
+        "NS": [
+            "ligia.ns.cloudflare.com",
+            "valentin.ns.cloudflare.com"
+        ]
+    }
+}
