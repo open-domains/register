@@ -1,0 +1,20 @@
+{
+  "description": "Zia Bot website hosted on Netlify",
+  "domain": "is-local.org",
+  "subdomain": "zia-bot",
+
+  "owner": {
+    "repo": "https://github.com/Ayan-cyber134/zia-bot-web",
+    "email": "ayanatiq33@gmaill.com"
+  },
+
+  "record": {
+    "CNAME": "zia-bot.netlify.app",
+    "CAA": [
+      { "flags": 0, "tag": "issue", "value": "letsencrypt.org" },
+      { "flags": 0, "tag": "issuewild", "value": "sectigo.com" }
+    ]
+  },
+
+  "proxied": false
+}
