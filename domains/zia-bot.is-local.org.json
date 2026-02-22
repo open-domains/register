@@ -5,15 +5,11 @@
 
   "owner": {
     "repo": "https://github.com/Ayan-cyber134/zia-bot-web",
-    "email": "ayanatiq33@gmaill.com"
+    "email": "ayanatiq33@gmail.com"
   },
 
   "record": {
     "CNAME": "zia-bot.netlify.app",
-    "CAA": [
-      { "flags": 0, "tag": "issue", "value": "letsencrypt.org" },
-      { "flags": 0, "tag": "issuewild", "value": "sectigo.com" }
-    ]
   },
 
   "proxied": false
