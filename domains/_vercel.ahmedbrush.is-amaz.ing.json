@@ -1,12 +1,12 @@
 {
-    "description": "Vercel verification for Ahmedbrush Studio",
-    "domain": "is-amaz.ing",
-    "subdomain": "_vercel.ahmedbrush",
-    "owner": {
-        "repo": "https://github.com/E-Roar/ahmedbrush-studio",
-        "email": "e.roar.morocco@gmail.com"
-    },
-    "record": {
-        "TXT": "vc-domain-verify=ahmedbrush.is-amaz.ing,06cf9864bffc9e1e7c71"
-    }
+  "description": "Ahmedbrush Studio",
+  "domain": "is-amaz.ing",
+  "subdomain": "ahmedbrush",
+  "owner": {
+    "repo": "https://github.com/E-Roar/ahmedbrush-studio",
+    "email": "e.roar.morocco@gmail.com"
+  },
+  "record": {
+    "CNAME": "cname.vercel-dns.com"
+  }
 }
