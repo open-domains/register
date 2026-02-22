@@ -1,0 +1,16 @@
+{
+    "description": "StoryForge Shorts — Daily Reddit story videos published across YouTube, TikTok, Instagram, and Facebook",
+    "domain": "is-cool.dev",
+    "subdomain": "storyforgesshorts",
+
+    "owner": {
+        "repo": "https://github.com/kkmat/storyforgesshorts.com",
+        "email": "kkmat3@gmail.com"
+    },
+
+    "record": {
+        "CNAME": "kkmat.github.io"
+    },
+
+    "proxied": false
+}
