@@ -9,7 +9,7 @@
   },
 
   "record": {
-    "CNAME": "zia-bot.netlify.app",
+    "CNAME": "zia-bot.netlify.app"
   },
 
   "proxied": false
