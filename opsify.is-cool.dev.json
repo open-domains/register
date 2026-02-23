@@ -1,0 +1,17 @@
+{
+    "description": "a site for our new website design service.",
+    "domain": ".is-cool.dev",
+    "subdomain": "opsify",
+
+    "owner": {
+        "repo": "https://github.com/OpsifyOfficial/home",
+        "email": "mcdou006@apps.district279.org
+"
+    },
+
+    "record": {
+        "CNAME": "opsifyofficial.github.io",
+    },
+
+    "proxied": false
+}
