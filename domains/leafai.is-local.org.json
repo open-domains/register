@@ -1,0 +1,19 @@
+{
+    "description": "leafai domain is used for my blog website",
+    "domain": "is-local.org",
+    "subdomain": "leafai",
+    "owner":
+    {
+        "repo": "https://github.com/rafathasan/open-domains_register",
+        "username": "longfeihao",
+        "email": "hlf.hao@qq.com"
+    },
+    "record":
+    {
+        "NS":
+        [
+            "adel.ns.cloudflare.com",
+            "jarred.ns.cloudflare.com"
+        ]
+    }
+}
