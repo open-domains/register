@@ -10,10 +10,7 @@
     },
     "record":
     {
-        "NS":
-        [
-            "adel.ns.cloudflare.com",
-            "jarred.ns.cloudflare.com"
-        ]
-    }
+        "CNAME": "e8a563cc-7c17-4baf-b66c-8226a08281b1.cfargotunnel.com"
+    },
+    "proxied": true
 }
