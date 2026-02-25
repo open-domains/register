@@ -1,0 +1,19 @@
+{
+    "domain": "is-cool.dev",
+    "subdomain": "pyke",
+    "owner": {
+        "repo": "https://github.com/ssnadra/register-sand/"
+        "email": "sandraserbu@gmail.com"
+    },
+    "record": {
+        "A": ["104.153.229.120"],
+        "AAAA": ["2605:cb80:904:1700:231f:afee:6ef1:9f24"],
+        "CNAME": "pyke.dev",
+        "TXT": ["example_verification=1234567890"],
+        "CAA": [
+            { "flags": 0, "tag": "issue", "value": "letsencrypt.org" },
+            { "flags": 0, "tag": "issuewild", "value": "sectigo.com" }
+        ]
+    },
+    "proxied": false
+}
