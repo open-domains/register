@@ -1,7 +1,7 @@
 {
     "description": "Status page for my services using Upptime site",
     "domain": "is-a-fullstack.dev",
-    "subdomain": "*.benzenma123",
+    "subdomain": "ben",
     "owner": {
         "repo": "https://github.com/benzenma123/up-time-for-services",
         "email": "haidangchauduc@gmail.com"
