@@ -10,8 +10,21 @@
 
     "record": {
         "A": ["46.63.0.172"],
+
         "MX": [
             "term.is-local.org"
+        ],
+
+        "TXT": [
+            "v=spf1 mx -all"
+        ],
+
+	"TXT_default._domainkey": [
+	    "v=DKIM1; h=sha256; k=rsa; p=MIIBIjANBgkqhkiG9w0BAQEFAAOCAQ8AMIIBCgKCAQEAkizm0CnvUu9O/jGwWqrOQ8DzfOxDYVZA8W/FgeAvviUf84NTf0XHrksYwRuZq2WmAwNPNNM97hJhG3H8oeFHGqsCCYX+ttaieDNEIeuWemgsPzftgeA+kkJhOs7G+nzQ+7uwPs3c7EAuYgbTsnZT/n7BfBkJdx1lCJVLmTitc2yMALs9YV1lgf079bst/uljfnx12M8yheT7czjtIrq0wqVYjh5oxw3VEyQqKyE5QAf7LkRV01GkwUBdIMtTuBHlNExh82Z5qXm3OWA6iI1OrJNUhGz40gBNTa4DGdoLa1m028n8q3E3IbfD4mRux1QFxiDsI3W4nxdPADK82z/UhwIDAQAB"
+	],
+
+        "TXT__dmarc": [
+            "v=DMARC1; p=none; rua=mailto:me@term.is-local.org"
         ]
     },
 
