@@ -4,7 +4,7 @@
   "owner": {
     "email": "dimanka60ru@gmail.com"
   },
-  "records": {
+  "record": {
     "CNAME": ["dimanka60ru-png.github.io"]
   },
   "proxied": true
