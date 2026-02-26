@@ -1,0 +1,14 @@
+{
+  "description": "Personal website for Aryna",
+  "repo": "https://github.com/arby89/paduhip",
+  "subdomain": "aryna",
+  "domain": "is-local.org",
+  "owner": {
+    "username": "arby89",
+    "email": "amadedan@gmail.com"
+  },
+  "record": {
+    "A": ["135.181.189.155", "135.181.189.156"],
+    "TXT": ["zoho-sites-verification=d7ybdutqx"]
+  }
+}

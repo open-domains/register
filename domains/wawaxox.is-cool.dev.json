@@ -1,0 +1,16 @@
+{
+    "description": "Personal Use",
+
+    "domain": "is-cool.dev",
+    "subdomain": "wawaxox",
+
+    "owner": {
+        "email": "farhanahahmad90@gmail.com"
+    },
+
+    "record": {
+        "A": ["198.91.81.13"]
+    },
+
+    "proxied": false
+}
