@@ -1,0 +1,13 @@
+{
+  "description": "Personal website of Tams",
+  "domain": "is-cool.dev",
+  "subdomain": "tams",
+  "owner": {
+    "repo": "https://github.com/Tam-BobManuel/portfolio",
+    "email": "bglorytb@gmail.com"
+  },
+  "record": {
+    "CNAME": "cname.vercel-dns.com"
+  },
+  "proxied": false
+}
