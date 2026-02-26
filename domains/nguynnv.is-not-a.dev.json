@@ -1,0 +1,16 @@
+{
+    "description": "My portfolio",
+    "domain": "is-not-a.dev",
+    "subdomain": "nguynnv",
+
+    "owner": {
+        "repo": "https://github.com/nguynnv/nguynnv.github.io",
+        "email": "vuhoangnguyen1001+github@gmail.com"
+    },
+
+    "record": {
+        "CNAME": "nguynnv.github.io"
+    },
+
+    "proxied": false
+}

@@ -1,0 +1,15 @@
+{
+    "description": "A website where you can play html games and buy some. also free ai. ",
+    "domain": "is-not-a.dev",
+    "subdomain": "litcoemarketplace",
+    "owner": {
+        "repo": "https://github.com/nexus4212/nexus",
+        "email": "nexushub4201@gmail.com"
+    },
+    "record": {
+        "A": [
+            "74.208.13.100"
+        ]
+    },
+    "proxied": true
+}

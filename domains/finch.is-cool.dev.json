@@ -1,0 +1,11 @@
+{
+    "domain": "is-cool.dev",
+    "subdomain": "finch",
+    "owner": {
+        "email": "metalespesados@proton.me"
+    },
+    "record": {
+        "CNAME": "metalespesados.vercel.app"
+    },
+    "proxied": false
+}

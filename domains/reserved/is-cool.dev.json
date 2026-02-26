@@ -3,6 +3,9 @@
 
   "domain": "is-cool.dev",
   "subdomain": "@",
+  "owner": {
+    "email": "sys@open-domains.net"
+  },
 
   "record": {
     "A": [

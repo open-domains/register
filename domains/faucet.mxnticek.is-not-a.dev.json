@@ -1,0 +1,16 @@
+{
+    "description": "Faucet for DuinoCoin",
+    "domain": "is-not-a.dev",
+    "subdomain": "faucet.mxnticek",
+
+    "owner": {
+        "repo": "https://github.com/VlastikYoutubeKo/faucet-duinocoin",
+        "email": "novotny.vlastimil@odjezdy.online"
+    },
+
+    "record": {
+        "A": ["38.242.156.120"]
+    },
+
+    "proxied": false
+}

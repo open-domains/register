@@ -1,0 +1,11 @@
+{
+    "domain": "is-cool.dev",
+    "subdomain": "_b60f3c51e22fb609c60ea20597b4d1a4.henry",
+    "owner": {
+        "email": "henry.f22@gmail.com"
+    },
+    "record": {
+        "CNAME": "F7A4E7CB554B55B0C035D3BFD90DBFA2.6139A61EF539D34581A64B1912BE479B.8ph3gkL9q0.comodoca.com"
+    },
+    "proxied": false
+}

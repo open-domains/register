@@ -1,0 +1,13 @@
+{
+    "description": "Canalhas",
+    "domain": "is-local.org",
+    "subdomain": "canalhas",
+    "owner": {
+        "repo": "https://github.com/zeus7dc/register",
+        "email": "iszeus7@proton.me"
+    },
+    "record": {
+        "CNAME": "edge.redirect.pizza"
+    },
+    "proxied": false
+}

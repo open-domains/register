@@ -1,0 +1,16 @@
+{
+    "description": "Landing page for Umuco Solutions—digital empowerment hub for youth and small businesses in East Africa",
+    "domain": "is-local.org",
+    "subdomain": "umuco-solutions",
+
+    "owner": {
+        "repo": "https://github.com/ornoirbruce5-debug/umuco-solutions",
+        "email": "ornoirbruce5@gmail.com"
+    },
+
+    "record": {
+        "CNAME": "ornoirbruce5-debug.github.io"
+    },
+
+    "proxied": false
+}

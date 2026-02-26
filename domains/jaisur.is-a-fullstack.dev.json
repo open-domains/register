@@ -1,0 +1,20 @@
+{
+    "description": "Project Jaidev Suresh's Personal Mailbox",
+    "domain": "is-a-fullstack.dev",
+    "subdomain": "jaisur",
+
+    "owner": {
+        "repo": "https://github.com/jaisur684/register",
+        "email": "jaidevsuresh@jailabs.qzz.io"
+    },
+
+    "record": {
+        "NS": [
+            "hal.ns.cloudflare.com",
+            "magali.ns.cloudflare.com"
+        ]
+    },
+
+    "proxied": false
+}
+

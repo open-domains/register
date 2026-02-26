@@ -1,0 +1,13 @@
+{
+  "description": "Backend API for CodeCollab — a collaborative coding platform.",
+  "domain": "is-cool.dev",
+  "subdomain": "api-codecollab",
+  "owner": {
+    "repo": "https://github.com/rohanparmar160705/codecollab-backend",
+    "email": "rohanparmar160705@gmail.com"
+  },
+  "record": {
+    "CNAME": "codecollab.loca.lt"
+  },
+  "proxied": true
+}

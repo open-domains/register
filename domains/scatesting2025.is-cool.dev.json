@@ -1,0 +1,11 @@
+{
+    "domain": "is-cool.dev",
+    "subdomain": "scatesting2025",
+    "owner": {
+        "email": "goryo.webdev@gmail.com"
+    },
+    "record": {
+        "CNAME": "scatesting2025.is-cool.dev.hosting.netsuite.com"
+    },
+    "proxied": false
+}

@@ -1,0 +1,12 @@
+{
+    "description": "An open source discord bot for backing up discord servers",
+    "domain": "is-cool.dev",
+    "subdomain": "backupbot",
+    "owner": {
+        "email": "andres-backupbot@proton.me"
+    },
+    "record": {
+        "CNAME": "backupbotlol.github.io"
+    },
+    "proxied": false
+}

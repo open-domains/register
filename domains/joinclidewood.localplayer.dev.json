@@ -1,0 +1,13 @@
+{
+    "domain": "localplayer.dev",
+    "subdomain": "joinclidewood",
+    "owner": {
+        "email": "admin@maragi.is-cool.dev"
+    },
+    "record": {
+        "A": [
+            "147.185.221.22"
+        ]
+    },
+    "proxied": false
+}

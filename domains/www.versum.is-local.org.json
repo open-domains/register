@@ -1,0 +1,12 @@
+{
+    "description": "Public Bible Landing Page",
+    "domain": "is-local.org",
+    "subdomain": "www.versum",
+    "owner": {
+        "email": "eduardoaugusto-is-a-dev@outlook.com"
+    },
+    "record": {
+        "CNAME": "3015b9445b6137f1.vercel-dns-017.com"
+    },
+    "proxied": false
+}

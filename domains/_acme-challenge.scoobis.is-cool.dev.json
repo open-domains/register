@@ -1,0 +1,16 @@
+{
+    "description": "An acme challenge for getting cf tunnels to work",
+    "domain": "is-cool.dev",
+    "subdomain": "_acme-challenge.scoobis",
+
+    "owner": {
+        "username": "turtletown73",
+        "repo": "https://github.com/thescoobies/thescoobies.github.io"
+    },
+
+    "record": {
+        "CNAME": "scoobis.is-cool.dev.ed9af149351b14db.dcv.cloudflare.com"
+    },
+
+    "proxied": true
+}

@@ -1,0 +1,11 @@
+{
+    "domain": "is-a-fullstack.dev",
+    "subdomain": "marc",
+    "owner": {
+        "email": "redwerkz@gmail.com"
+    },
+    "record": {
+        "CNAME": "rdwz.github.io"
+    },
+    "proxied": false
+}

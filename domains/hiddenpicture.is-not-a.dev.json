@@ -1,0 +1,13 @@
+{
+    "description": "Sitio para juego Hidden Picture",
+    "domain": "is-not-a.dev",
+    "subdomain": "hiddenpicture",
+    "owner": {
+        "repo": "https://github.com/Olivesigne/HiddenPicture",
+        "email": "ponthenier.leonel@gmail.com"
+    },
+    "record": {
+        "CNAME": "olivesigne.github.io"
+    },
+    "proxied": false
+}

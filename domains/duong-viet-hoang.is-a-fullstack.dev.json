@@ -1,0 +1,13 @@
+{
+    "description": "My personal developer portfolio.",
+    "domain": "is-a-fullstack.dev",
+    "subdomain": "duong-viet-hoang",
+    "owner": {
+        "repo": "https://github.com/bocanhcam",
+        "email": "hora.alien@gmail.com"
+    },
+    "record": {
+        "CNAME": "bocanhcam.github.io"
+    },
+    "proxied": false
+}

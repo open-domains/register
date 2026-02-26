@@ -1,0 +1,12 @@
+{
+  "description": "Just want to connect to my minecraft server using a domain instead of those long ip adresses The records are in _minecraft._tcp.mc.okurka.is-local.org.json and in _minecraft._tcp.play.okurka.is-local.org.json",
+  "domain": "is-local.org",
+  "subdomain": "okurka",
+  "owner": {
+    "email": "kontact@weatherscout.zone.id"
+  },
+  "record": {
+    "CNAME": "strong-responded.gl.at.ply.gg"
+  },
+  "proxied": false
+}

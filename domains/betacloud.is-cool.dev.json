@@ -1,0 +1,16 @@
+{
+    "description": "BetaCloud",
+    "domain": "is-cool.dev",
+    "subdomain": "betacloud",
+
+    "owner": {
+        "repo": "https://github.com/Rixolino/register",
+        "email": "helpdigit2025@gmail.com"
+    },
+
+    "record": {
+        "CNAME": "cname.vercel-dns.com"
+    },
+
+    "proxied": false
+}

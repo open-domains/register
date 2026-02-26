@@ -3,6 +3,9 @@
 
   "domain": "is-cool.dev",
   "subdomain": "www",
+  "owner": {
+    "email": "sys@open-domains.net"
+  },
 
   "record": {
     "CNAME": "is-cool.dev"

@@ -1,0 +1,13 @@
+{
+    "domain": "is-cool.dev",
+    "subdomain": "nury",
+    "owner": {
+        "email": "rahimovjohn1@gmail.com"
+    },
+    "record": {
+        "A": [
+            "52.233.16.240"
+        ]
+    },
+    "proxied": false
+}

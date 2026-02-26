@@ -1,0 +1,17 @@
+{
+    "description": "Personal Project 001",
+    "domain": "is-not-a.dev",
+    "subdomain": "terrazola",
+
+    "owner": {
+        "repo": "https://github.com/terrazola/personal_project001",
+        "preview": "https://nbscal.netlify.app/",
+        "username": "terrazola"
+    },
+
+    "record": {
+        "CNAME": "apex-loadbalancer.netlify.com"
+    },
+
+    "proxied": true
+}

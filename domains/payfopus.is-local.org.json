@@ -1,0 +1,15 @@
+{
+  "description": "Main domain record for the PayFopus portfolio and services.",
+  "domain": "is-local.org",
+  "subdomain": "payfopus",
+  "owner": {
+    "email": "mahmedhleli@gmail.com"
+  },
+  "record": {
+    "A": ["193.190.127.144"],
+    "TXT": [
+      "v=spf1 a mx ip4:193.190.127.144 ~all"
+    ]
+  },
+  "proxied": false
+}

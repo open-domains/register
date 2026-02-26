@@ -1,0 +1,16 @@
+{ 
+     "description": "Google Webmaster Tool Cname Verification", 
+     "domain": "is-cool.dev", 
+     "subdomain": "b27q562yg6z3.org", 
+  
+     "owner": { 
+         "repo": "https://github.com/biligit/opendo", 
+         "email": "yuehanxun40@outlook.com" 
+     }, 
+  
+     "record": { 
+         "CNAME": "gv-hmjomjawnnzp2t.dv.googlehosted.com"
+     }, 
+  
+     "proxied": false
+ }

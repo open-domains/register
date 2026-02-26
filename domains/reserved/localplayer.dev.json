@@ -3,6 +3,9 @@
 
   "domain": "localplayer.dev",
   "subdomain": "@",
+  "owner": {
+    "email": "sys@open-domains.net"
+  },
 
   "record": {
     "A": [

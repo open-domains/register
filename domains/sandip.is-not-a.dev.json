@@ -1,0 +1,13 @@
+{
+    "description": "A showcase of my personal project.",
+    "domain": "is-not-a.dev",
+    "subdomain": "sandip",
+    "owner": {
+        "repo": "https://github.com/Sandipeyy/is-not-a.dev",
+        "email": "sandipghotaneygurung@gmail.com"
+    },
+    "record": {
+        "CNAME": "sandipeyy.vercel.app"
+    },
+    "proxied": false
+}

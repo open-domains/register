@@ -1,0 +1,11 @@
+{
+  "domain": "is-local.org",
+  "subdomain": "guitarist",
+  "owner": {
+    "repo": "https://github.com/naylormusic/guitaristwebsite"
+  },
+  "record": {
+    "CNAME": "naylormusic.github.io"
+  },
+  "proxied": false
+}

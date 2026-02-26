@@ -1,0 +1,16 @@
+{
+    "description": "Matrix server and future homelab expansion for stickeroo server",
+    "domain": "is-cool.dev",
+    "subdomain": "stickeroo",
+    "owner": {
+        "repo": "https://github.com/Storm-Trooper5555/open-domains-register",
+        "email": "157601224+Storm-Trooper5555@users.noreply.github.com"
+    },
+    "record": {
+        "NS": [
+            "jen.ns.cloudflare.com",
+            "kyree.ns.cloudflare.com"
+        ]
+    },
+    "proxied": true
+}

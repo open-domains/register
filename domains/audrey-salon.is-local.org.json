@@ -1,0 +1,16 @@
+{
+  "description": "Audrey Salon landing page",
+  "domain": "is-local.org",
+  "subdomain": "audrey-salon",
+
+  "owner": {
+    "repo": "https://github.com/ornoirbruce5-debug/Audrey-Salon",
+    "email": "ornoirbruce5@gmail.com"
+  },
+
+  "record": {
+    "CNAME": "ornoirbruce5-debug.github.io"
+  },
+
+  "proxied": false
+}

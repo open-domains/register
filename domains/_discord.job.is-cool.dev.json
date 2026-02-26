@@ -1,0 +1,16 @@
+{
+    "description": "discord verification",
+    "domain": "is-cool.dev",
+    "subdomain": "_discord.job",
+
+    "owner": {
+        "repo": "https://github.com/FWEEaaaa1/FWEEaaaa1.github.io",
+        "email": "gorgonfweman@outlook.com"
+    },
+
+    "record": {
+        "TXT": ["dh=9ac00909cc07ea38f9e8865bdf5d22e0a6d1f544"]
+    },
+
+    "proxied": false
+}

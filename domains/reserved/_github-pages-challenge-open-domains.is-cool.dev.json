@@ -4,6 +4,10 @@
   "domain": "is-cool.dev",
   "subdomain": "_github-pages-challenge-open-domains",
 
+  "owner": {
+    "email": "sys@open-domains.net"
+  },
+
   "record": {
     "TXT": ["8122cc2c3fe146701154174305fe0e"]
   },

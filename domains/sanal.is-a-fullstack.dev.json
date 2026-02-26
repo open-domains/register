@@ -1,0 +1,17 @@
+{
+    "description": "My personal profile",
+    "domain": "is-a-fullstack.dev",
+    "subdomain": "sanal",
+
+    "owner": {
+        "username": "sanalchandran",
+        "repo": "https://github.com/sanalchandran/personal-profile",
+        "email": "sanalchandran23@gmail.com"
+    },
+
+    "record": {
+        "A": ["80.225.214.49"]
+    },
+
+    "proxied": false
+}

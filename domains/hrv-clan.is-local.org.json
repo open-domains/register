@@ -1,0 +1,20 @@
+{
+  "description": "this is a personal website for the Hrv Rero Clan community on Discord.",
+  "subdomain": "hrv-clan",
+  "domain": "is-local.org",
+  "owner": {
+    "github": "hrvweb",
+    "email": "hungrero.vn@gmail.com"
+  },
+  "record": {
+    "A": ["75.2.60.5"],
+    "TXT": [
+      "v=spf1 include:spf.improvmx.com ~all"
+    ],
+    "MX": [
+      "mx1.improvmx.com",
+      "mx2.improvmx.com"
+    ]
+  },
+  "proxied": false
+}

@@ -1,0 +1,16 @@
+{
+    "description": "Portfolio Site for a full-stack dev",
+    "domain": "is-a-fullstack.dev",
+    "subdomain": "irfan",
+
+    "owner": {
+        "repo": "https://github.com/codemiz/is-a-fullstack-dev",
+        "email": "ik571572@gmail.com"
+    },
+
+    "record": {
+        "A": ["216.198.79.1"]
+    },
+
+    "proxied": false
+}

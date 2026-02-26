@@ -1,0 +1,11 @@
+{
+    "domain": "is-local.org",
+    "subdomain": "codesquad",
+    "owner": {
+        "email": "doitcodesquad@gmail.com"
+    },
+    "record": {
+        "CNAME": "codesquad-one.vercel.app"
+    },
+    "proxied": false
+}

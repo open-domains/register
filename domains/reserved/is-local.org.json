@@ -3,6 +3,9 @@
 
   "domain": "is-local.org",
   "subdomain": "@",
+  "owner": {
+    "email": "sys@open-domains.net"
+  },
 
   "record": {
     "A": [

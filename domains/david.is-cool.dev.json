@@ -1,0 +1,16 @@
+{
+    "description": "My Github Pages",
+    "domain": "is-cool.dev",
+    "subdomain": "david",
+    "owner": {
+        "repo": "https://github.com/Davidaprilio/register",
+        "email": "david1.aprilio4@gmail.com"
+    },
+    "record": {
+        "NS": [
+            "jewel.ns.cloudflare.com",
+            "kianchau.ns.cloudflare.com"
+        ]
+    },
+    "proxied": false
+}

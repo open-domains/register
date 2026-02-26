@@ -1,0 +1,16 @@
+{
+    "description": "gamified ed-tech prototype for hackathons",
+    "domain": "localplayer.dev",
+    "subdomain": "cognify",
+
+    "owner": {
+        "repo": "https://github.com/U9D3RTAK3R/Cognify",
+        "email": "anirbanrc@proton.me"
+    },
+
+    "record": {
+        "A": ["216.198.79.1"]
+    },
+
+    "proxied": false
+}

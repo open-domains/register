@@ -1,0 +1,17 @@
+{
+    "description": "my personal project for learning web dev",
+    "domain": "is-local.org",
+    "subdomain": "dclctve",
+
+    "owner": {
+        "repo": "https://github.com/dclctve",
+        "email": "aldipratama285@gmail.com"
+    },
+
+    "record": {
+        "A": ["103.30.147.120"]
+
+    },
+
+    "proxied": false
+}

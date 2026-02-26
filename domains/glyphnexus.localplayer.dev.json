@@ -1,0 +1,16 @@
+{
+    "description": "GlyphNexus Website",
+    "domain": "localplayer.dev",
+    "subdomain": "glyphnexus",
+
+    "owner": {
+        "repo": "https://github.com/open-domains/register",
+        "email": "vishwamdave69@yahoo.com"
+    },
+
+    "record": {
+        "CNAME": "server.sampath.me"
+    },
+
+    "proxied": false
+}

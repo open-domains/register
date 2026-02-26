@@ -1,0 +1,13 @@
+{
+  "description": "gmacbride's Personal Site",
+  "subdomain": "gmac",
+  "domain": "is-not-a.dev",
+  "owner": {
+    "username": "the-oblyv",
+    "email": "cheetopowder.guy@proton.me"
+  },
+  "record": {
+    "CNAME": "the-awair.github.io"
+  },
+  "proxied": false
+}

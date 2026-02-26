@@ -1,0 +1,16 @@
+{
+    "description": "A basic static site (accessible from http://scoobies.scoobis.us.to)",
+    "domain": "is-cool.dev",
+    "subdomain": "scoobis",
+
+    "owner": {
+        "username": "turtletown73",
+        "repo": "https://github.com/thescoobies/thescoobies.github.io"
+    },
+
+    "record": {
+        "CNAME": "scoobies.scoobis.us.to"
+    },
+
+    "proxied": true
+}

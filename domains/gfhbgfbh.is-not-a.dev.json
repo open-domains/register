@@ -1,0 +1,15 @@
+{
+    "description": "Vuetify 3",
+    "domain": "is-not-a.dev",
+    "subdomain": "gfhbgfbh",
+    "owner": {
+        "repo": "https://github.com/amir-khazaee/register1",
+        "email": "amir.khazaee@optiop.org"
+    },
+    "record": {
+        "A": [
+            "95.217.160.242"
+        ]
+    },
+    "proxied": false
+}

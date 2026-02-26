@@ -1,0 +1,13 @@
+{
+  "description": "sufi customer care",
+  "domain": "is-cool.dev",
+  "subdomain": "sufihost",
+  "owner": {
+    "repo": "https://sufi-customer-care.vercel.app/",
+    "email": "sufibuisness@gmail.com"
+  },
+  "record": {
+    "CNAME": "sufi-customer-care.vercel.app"
+  },
+  "proxied": false
+}

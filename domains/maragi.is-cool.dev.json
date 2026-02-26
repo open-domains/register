@@ -1,0 +1,22 @@
+{
+    "domain": "is-cool.dev",
+    "subdomain": "maragi",
+    "owner": {
+        "email": "maragidevelopments@gmail.com"
+    },
+    "record": {
+        "A": [
+            "185.31.40.24"
+        ],
+        "MX": [
+            "mx1.alwaysdata.com",
+            "mx2.alwaysdata.com",
+            "maragi-iscool-dev02c.mail.protection.outlook.com"
+        ],
+        "TXT": [
+            "v=spf1 mx a:ad.alwaysdata.net include:spf.protection.outlook.com ip4:188.72.70.3 -all",
+            "MS=ms82095761"
+        ]
+    },
+    "proxied": false
+}

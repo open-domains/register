@@ -1,0 +1,16 @@
+{
+    "description": "File Download Hosting, Youtube Videos No Ads on My Own Videos Only, Contact Details, Portfolio",
+    "domain": "is-cool.dev",
+    "subdomain": "marwan",
+
+    "owner": {
+        "repo": "https://github.com/itsmarwan",
+        "email": "marwan.skins453@gmail.com"
+    },
+
+    "record": {
+        "A": ["216.198.79.1"]
+    },
+
+    "proxied": false
+}

@@ -1,0 +1,16 @@
+{
+    "description": "Personal portfolio website showcasing full-stack development projects, blockchain solutions, and hackathon achievements",
+    "domain": "is-cool.dev",
+    "subdomain": "devargho",
+
+    "owner": {
+        "repo": "https://github.com/Boredooms/Portfolio",
+        "email": "devarghochakraborty7@gmail.com"
+    },
+
+    "record": {
+        "CNAME": "devargho-chakraborty-seven.vercel.app"
+    },
+
+    "proxied": false
+}

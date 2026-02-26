@@ -1,0 +1,12 @@
+{
+    "description": "a web service interfaces for vps",
+    "domain": "is-cool.dev",
+    "subdomain": "archxry",
+    "owner": {
+        "email": "naimmulmukin@gmail.com"
+    },
+    "record": {
+        "A": ["167.172.64.25"]
+    },
+    "proxied": false
+}

@@ -1,0 +1,14 @@
+{
+    "description": "mycodelab mail, this is for temporary so i can transfer my mails to another account",
+    "domain": "is-cool.dev",
+    "subdomain": "devil._domainkey.host.mycodelab",
+    "owner": {
+        "repo": "https://github.com/ShadowGaming100/register"
+    },
+    "record": {
+        "TXT": [
+            "v=DKIM1; k=rsa; p=MIGfMA0GCSqGSIb3DQEBAQUAA4GNADCBiQKBgQDRR//eLOhnpXyeRihLl1AnM/Ysj4cFG6873HAzsL4ubge6mmzmwGtb9xWQiY79kAfpQBv+CFnirFvMdZQldcJDMCbcrbeEBMaNxOi5udf1lmLH/6M1VMnu6Y2VCCoBSP7XhHqOVWDkThi1ROFB6mKwZQkypo+fz7tE6xwgVkJBCQIDAQAB;"
+        ]
+    },
+    "proxied": false
+}

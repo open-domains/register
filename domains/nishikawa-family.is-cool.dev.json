@@ -1,0 +1,12 @@
+{
+  "description": "Family photo sharing with Immich self-hosted server",
+  "domain": "is-cool.dev",
+  "subdomain": "nishikawa-family",
+  "owner": {
+    "email": "nishikawa.pikurusu55@gmail.com"
+  },
+  "record": {
+    "A": ["128.27.54.133"]
+  },
+  "proxied": false
+}

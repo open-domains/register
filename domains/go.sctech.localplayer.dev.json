@@ -1,0 +1,13 @@
+{
+    "description": "sctech's link shortener",
+    "domain": "localplayer.dev",
+    "subdomain": "go.sctech",
+    "owner": {
+        "repo": "https://github.com/sctech-tr/website",
+        "email": "gamerselimiko@gmail.com"
+    },
+    "record": {
+        "CNAME": "cname.short.io"
+    },
+    "proxied": false
+}
