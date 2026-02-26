@@ -1,0 +1,12 @@
+{
+  "description": "Personal website for Aryna",
+  "repo": "https://github.com/arby89/paduhip",
+  "owner": {
+    "username": "arby89",
+    "email": "amadedan@gmail.com"
+  },
+  "record": {
+    "CNAME": "zhs.zohosites.com",
+    "TXT": "zoho-sites-verification=d7ybdutqx"
+  }
+}
