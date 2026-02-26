@@ -1,0 +1,15 @@
+{
+    "description": "DKIM public key for mail signing",
+    "domain": "is-local.org",
+    "subdomain": "default._domainkey.term",
+
+    "owner": {
+        "repo": "https://github.com/termoss27/register",
+        "email": "vova.lepen@gmail.com"
+    },
+    "record": {
+	"TXT": [
+	  "v=DKIM1; h=sha256; k=rsa; p=MIIBIjANBgkqhkiG9w0BAQEFAAOCAQ8AMIIBCgKCAQEAkizm0CnvUu9O/jGwWqrOQ8DzfOxDYVZA8W/FgeAvviUf84NTf0XHrksYwRuZq2WmAwNPNNM97hJhG3H8oeFHGqsCCYX+ttaieDNEIeuWemgsPzftgeA+kkJhOs7G+nzQ+7uwPs3c7EAuYgbTsnZT/n7BfBkJdx1lCJVLmTitc2yMALs9YV1lgf079bst/uljfnx12M8yheT7czjtIrq0wqVYjh5oxw3VEyQqKyE5QAf7LkRV01GkwUBdIMtTuBHlNExh82Z5qXm3OWA6iI1OrJNUhGz40gBNTa4DGdoLa1m028n8q3E3IbfD4mRux1QFxiDsI3W4nxdPADK82z/UhwIDAQAB"
+	]
+    }
+}

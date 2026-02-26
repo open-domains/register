@@ -1,0 +1,18 @@
+{
+    "description": "An website template for Next.js with Tailwind CSS.",
+    "domain": "localplayer.dev",
+    "subdomain": "aixor",
+
+    "owner": {
+        "repo": "https://github.com/shivankpndy/website.git",
+        "email": "shivankpndy@disroot.org"
+    },
+
+    "record": {
+        "A": ["216.198.79.1"]
+      
+    },
+
+    "proxied": false
+}
+
