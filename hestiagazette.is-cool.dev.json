@@ -1,0 +1,20 @@
+{
+    "description": "hypothetical photo print service",
+    "domain": "is-cool.dev",
+    "subdomain": "hestiagazette",
+    "owner": {
+        "repo": "https://github.com/hestiagazette/open-domains-register",
+        "email": "hestiagazette@gmail.com"
+    },
+    "record": {
+        "MX": [
+            "mutant.cliffmail.com",
+            "gateway.cliffmail.com"
+        ],
+        "TXT": [
+            "mutantmail-verify=483f484f2a7c8da496dc50e923c5ec2c31eb007e",
+            "v=spf1 mx ~all"
+        ]
+    },
+    "proxied": false
+}

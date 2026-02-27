@@ -1,0 +1,12 @@
+{
+    "domain": "is-cool.dev",
+    "subdomain": "si12225663.hestiagazette",
+    "owner": {
+        "repo": "https://github.com/hestiagazette/open-domains-register",        
+        "email": "hestiagazette@gmail.com"
+    },
+    "record": {
+        "CNAME": "inbound.systeme.io"
+    },
+    "proxied": false
+}
