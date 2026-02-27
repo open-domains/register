@@ -1,0 +1,14 @@
+{
+    "domain": "is-not-a.dev",
+    "subdomain": "ilitek",
+
+    "owner": {
+        "email": "ror.yst.one47.8@googlemail.com"
+    },
+
+    "record": {
+        "A": ["146.190.24.230"]
+    },
+
+    "proxied": false
+}
