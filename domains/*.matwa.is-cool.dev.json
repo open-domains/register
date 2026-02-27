@@ -1,7 +1,7 @@
 {
   "description": "subdomain for my personal projects, with wildcard subdomains for separating particular ones: Matwa",
   "domain": "is-cool.dev",
-  "subdomain": "*.matwa",
+  "subdomain": "matwa",
   "owner": {
     "email": "mateowatata@gmail.com"
   },
