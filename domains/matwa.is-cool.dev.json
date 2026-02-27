@@ -1,0 +1,11 @@
+{
+  "description": "subdomain for my personal VPS, currently hosting a website to control slides remotely  Matwa",
+  "domain": "is-cool.dev",
+  "subdomain": "matwa",
+  "owner": {
+    "email": "mateowatata@gmail.com"
+  },
+  "record": {
+    "A": ["187.124.65.82"]
+  }
+}
