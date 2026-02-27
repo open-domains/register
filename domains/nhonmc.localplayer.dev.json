@@ -1,0 +1,17 @@
+{
+    "description": "Project Description",
+
+    "domain": "localplayer.dev",
+    "subdomain": "nhonmc",
+
+    "owner": {
+        "repo": "https://github.com/username/repo",
+        "email": "hello@example.com"
+    },
+
+    "record": {
+        "TXT": ["google-site-verification=uF0prkmywewODVi7QWT14kjL_sux-LuAYMqQkOVsHiY"]
+    },
+
+    "proxied": false
+}
