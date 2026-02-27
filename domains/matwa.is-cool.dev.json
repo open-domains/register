@@ -1,5 +1,5 @@
 {
-  "description": "subdomain for my personal projects, with wildcard subdomains for separating particular ones: Matwa",
+  "description": "subdomain for my personal VPS, currently hosting a website to control slides remotely  Matwa",
   "domain": "is-cool.dev",
   "subdomain": "matwa",
   "owner": {
