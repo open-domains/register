@@ -1,0 +1,12 @@
+{
+    "description": "Versum Resend",
+    "domain": "is-local.org",
+    "subdomain": "resend._domainkey.send.versum",
+    "owner": {
+        "email": "eduardoaugusto-is-a-dev@outlook.com"
+    },
+    "record": {
+        "TXT": ["p=MIGfMA0GCSqGSIb3DQEBAQUAA4GNADCBiQKBgQDYxAZtQMitukRYYzFLKK5LYvoyBiGUEQJ/Ir5Mrvo4fLAGV4+GgcXdXrqdvj3m8iAIxui7kDjpu91ItWzBsZ0RXpVVUqfZe3ov6wYu3bonQGDHlmPBj6lPllFgB8y1h42XNvC7XUi92y8VKFQ5IjDAeR+eq22HF5RSFFCvgLxiYQIDAQAB"]
+    },
+    "proxied": false
+}
