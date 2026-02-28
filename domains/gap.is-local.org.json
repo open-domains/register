@@ -1,0 +1,14 @@
+{
+    "description": "Gap",
+    "domain": "is-local.org",
+    "subdomain": "gap",
+    "owner": {
+        "email": "silkenpy@gmail.com"
+    },
+    "record": {
+        "AAAA": [
+            "2a09:8280:1::1:8841"
+        ]
+    },
+    "proxied": true
+}

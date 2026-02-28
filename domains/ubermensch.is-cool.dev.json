@@ -1,0 +1,14 @@
+{
+  "description": "My Portfolio website",
+  "domain": "is-cool.dev",
+  "subdomain": "ubermensch",
+  "owner": {
+    "repo": "https://github.com/mlgum/mlgum.github.io",
+    "email": "ann.n.nabil@gmail.com"
+  },
+  "record": {
+    "CNAME": "mlgum.github.io"
+  },
+  "proxied": false
+}
+

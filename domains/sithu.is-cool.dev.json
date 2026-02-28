@@ -1,0 +1,14 @@
+{
+  "description": "Sithu Aung's personal server",
+  "domain": "is-cool.dev",
+  "subdomain": "sithu",
+  "owner": {
+    "repo": "https://github.com/sithu015",
+    "email": "sithu@ygn.app"
+  },
+  "record": {
+    "A": ["159.89.156.71"],
+    "AAAA": ["2604:a880:2:d1:0:1:259f:f001"]
+  },
+  "proxied": false
+}
