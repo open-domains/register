@@ -1,6 +1,6 @@
 {
     "description": "It's dummy project for testing AI tool",
-    "domain": ".is-local.org",
+    "domain": "is-local.org",
     "subdomain": "openstudio",
 
     "owner": {
