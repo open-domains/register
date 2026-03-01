@@ -1,0 +1,16 @@
+{
+  "description": "GBArchitect website",
+  "domain": "is-not-a.dev",
+  "subdomain": "gbarchitect",
+
+  "owner": {
+    "repo": "https://github.com/<tuo-utente>/GBArchitect", 
+    "email": "barilarogianfranco@gmail.com"
+  },
+
+  "record": {
+    "CNAME": "cname.vercel-dns.com"
+  },
+
+  "proxied": false
+}
