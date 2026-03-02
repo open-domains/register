@@ -7,7 +7,10 @@
     "email": "florian.klein@free.fr"
   },
   "record": {
-    "CNAME": "httpg-t23nl6w2qq-ew.a.run.app"
+    "CNAME": "httpg-t23nl6w2qq-ew.a.run.app",
+    "TXT": [
+      "google-site-verification=pYzBLfCBK7oU1zPOC0aE82TCsry5qkiQepff6wuFEDw"
+    ]
   },
   "proxied": false
 }
