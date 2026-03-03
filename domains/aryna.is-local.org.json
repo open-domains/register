@@ -9,7 +9,6 @@
   },
   "record": {
     "CNAME": "zhs.zohosites.com",
-    "A": ["135.181.189.155", "135.181.189.156"],
     "TXT": ["zoho-sites-verification=d7ybdutqx"]
   }
 }
