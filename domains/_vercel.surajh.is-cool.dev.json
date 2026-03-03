@@ -1,6 +1,16 @@
 {
-  "surajh.is-cool.dev": {
-    "A": ["216.198.79.1"],
+  "description": "Vercel domain verification for suraj.is-cool.dev",
+  "domain": "is-cool.dev",
+  "subdomain": "_vercel.surajh",
+
+  "owner":   {
+    "repo": "https://github.com/BrownBeast-spec/personal.git",
+    "email": "brownbeast38@gmail.com"
+  },
+
+  "record": {
     "TXT": ["vc-domain-verify=surajh.is-cool.dev,5ea9e204e6c4918a74b5"]
-  }
+  },
+
+  "proxied": false
 }
