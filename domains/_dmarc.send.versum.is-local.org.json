@@ -1,0 +1,12 @@
+{
+    "description": "Versum Resend",
+    "domain": "is-local.org",
+    "subdomain": "_dmarc.send.versum",
+    "owner": {
+        "email": "eduardoaugusto-is-a-dev@outlook.com"
+    },
+    "record": {
+        "TXT": ["v=DMARC1; p=none;"]
+    },
+    "proxied": false
+}

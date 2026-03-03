@@ -1,0 +1,13 @@
+{
+  "description": "Involvex project site",
+  "domain": "is-not-a.dev",
+  "subdomain": "involvex",
+  "owner": {
+    "repo": "https://github.com/involvex/register",
+    "email": "involvex@proton.me"
+  },
+  "record": {
+    "CNAME": "dev.involvex.workers.dev"
+  },
+  "proxied": false
+}

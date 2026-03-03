@@ -1,0 +1,17 @@
+{
+  "description": "Zia Bot email forwarding via ImprovMX",
+  "domain": "is-local.org",
+  "subdomain": "mail.zia-bot",
+
+  "owner": {
+    "repo": "https://github.com/Ayan-cyber134/zia-bot-web",
+    "email": "ayanatiq33@gmail.com"
+  },
+
+  "record": {
+    "MX": ["mx1.improvmx.com", "mx2.improvmx.com"],
+    "TXT": ["v=spf1 include:spf.improvmx.com ~all"]
+  },
+
+  "proxied": false
+}

@@ -1,0 +1,16 @@
+{
+    "description": "Landing page for Sirgy Boutique—fashion and lifestyle brand empowering youth and women in East Africa",
+    "domain": "is-local.org",
+    "subdomain": "sirgy-boutique",
+
+    "owner": {
+        "repo": "https://github.com/ornoirbruce5-debug/Sirgy-Boutique",
+        "email": "ornoirbruce5@gmail.com"
+    },
+
+    "record": {
+        "CNAME": "ornoirbruce5-debug.github.io"
+    },
+
+    "proxied": false
+      }
