@@ -1,0 +1,16 @@
+{
+    "description": "It's dummy project for testing AI tool",
+    "domain": "is-local.org",
+    "subdomain": "openstudio",
+
+    "owner": {
+        "repo": "https://github.com/jainrounak6/register",
+        "email": "jainrounak@gmail.com"
+    },
+
+    "record": {
+        "A": ["98.93.122.47"]
+    },
+
+    "proxied": false
+}

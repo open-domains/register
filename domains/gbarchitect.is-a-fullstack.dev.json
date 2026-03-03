@@ -1,0 +1,16 @@
+{
+  "description": "GBArchitect — Portfolio di architettura",
+  "domain": "is-a-fullstack.dev",
+  "subdomain": "gbarchitect",
+
+  "owner": {
+    "repo": "https://github.com/barifranco-ux/GBArchitect",
+    "email": "barilarogianfranco@gmail.com"
+  },
+
+  "record": {
+    "CNAME": "cname.vercel-dns.com"
+  },
+
+  "proxied": false
+}
