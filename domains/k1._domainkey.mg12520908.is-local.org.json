@@ -1,0 +1,15 @@
+{
+    "description": "Mailgun DKIM for mg12520908.is-local.org",
+    "domain": "is-local.org",
+    "subdomain": "k1._domainkey.mg12520908",
+    "owner": {
+        "repo": "https://github.com/salmanbareesh-dws",
+        "email": "salman.bareesh@digitalwebsolutions.com"
+    },
+    "record": {
+        "TXT": [
+            "k=rsa; p=MIGfMA0GCSqGSIb3DQEBAQUAA4GNADCBiQKBgQCkX5mOnKaKplYgMCEf6l4TciHkBLb9EaT5cZ4oRmVxqUPKty8fjKPjlxnnwVftrS9Cjw+kOiESrKsWnBmhPRFQrCytKJQmFzzadc5qQJvPLoGPPDr7MsBPjSbDlEWmkwg468UjiY369kVDSMQ/ScrYX138Ax1CHXMrACXTI98/wQIDAQAB"
+        ]
+    },
+    "proxied": false
+}
