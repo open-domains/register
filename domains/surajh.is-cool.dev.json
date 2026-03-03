@@ -1,0 +1,11 @@
+{
+    "domain": "is-cool.dev",
+    "subdomain": "surajh",
+    "owner": {
+        "email": "brownbeast38@gmail.com"
+    },
+    "record": {
+        "CNAME": "surajharlekar.vercel.app"
+    },
+    "proxied": false
+}
