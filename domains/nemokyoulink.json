@@ -1,0 +1,9 @@
+{
+  "domain": "nemokyoulink.open-domains.net",
+  "owner": {
+    "email": "nemotokyousuke@outlook.jp"
+  },
+  "records": {
+    "CNAME": "nemokyou.github.io"
+  }
+}
