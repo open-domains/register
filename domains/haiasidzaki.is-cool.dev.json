@@ -1,0 +1,15 @@
+{
+  "description": "my server",
+  "domain": "haiasidzaki.is-cool.dev",
+  "subdomain": "haiasidzaki",
+  
+  "owner": {
+    "email": "hugetsome@gmail.com"
+  },
+  
+  "record": {
+    "A": ["89.110.84.152"]
+  },
+  
+  "proxied": false
+}
