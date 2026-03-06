@@ -1,0 +1,16 @@
+{
+  "description": "Personal testing domain for Dailycraft related experiments",
+  "domain": "localplayer.dev",
+  "subdomain": "charles-dailycraft",
+
+  "owner": {
+    "repo": "https://github.com/charlesguo1206",
+    "email": "charles.guo1206@gmail.com"
+  },
+
+  "record": {
+    "A": ["1.1.1.1"]
+  },
+
+  "proxied": false
+}
