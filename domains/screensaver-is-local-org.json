@@ -1,0 +1,12 @@
+{
+    "description": "A color-shifting CSS screen saver project.",
+    "domain": "is-local.org",
+    "subdomain": "screensaver",
+    "owner": {
+        "repo": "https://github.com/HiFirsty999/ScreenSaver",
+        "email": "your-email@example.com"
+    },
+    "record": {
+        "CNAME": "hifirsty999.github.io"
+    }
+}
