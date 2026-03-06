@@ -73,7 +73,11 @@ https://discord.gg/kVjkg6VBwa
 ### Manual
 1. **Star** and **[Fork](https://github.com/open-domains/register/fork)** this repository.
 2. Add a new file called `example.domain.json` in the `/domains` folder to register `example` subdomain.
-3. Edit the file (below is just an **example**, provide a **valid** JSON file with your needs, the format is very strict. These records should not show up inside your file.
+3. Edit the file name. It should be in the format that the domain comes in. Example, `testing1.is-a-local.org.json` to register `testing.is-a-local.org`.
+4. Edit the file (below is just an **example**, provide a **valid** JSON file with your needs, the format is very strict. These records should not show up inside your file.
+5. Make sure to fill out all information required in the pull request template.
+
+See below for a list of all records available:
 
 ```json
 {
@@ -107,9 +111,9 @@ https://discord.gg/kVjkg6VBwa
 
 ```
 
-4. Your pull request will be reviewed and merged. Please don't ignore the pull request checklist. If you ignore the checklist, your pull request will be ignored too. _Make sure to keep an eye on it in case we need you to make any changes!_
-5. After the pull request is merged, please allow up to 24 hours for the changes to propagate _(usually, it takes 5..15 minutes)_
-6. Enjoy your new domain!
+7. Your pull request will be reviewed and merged. Please don't ignore the pull request checklist. If you ignore the checklist, your pull request will be ignored too. _Make sure to keep an eye on it in case we need you to make any changes!_
+8. After the pull request is merged, please allow up to 24 hours for the changes to propagate _(usually, it takes 5..15 minutes, may take up to 24 hours.)_
+9. Enjoy your new domain!
 
 *Domains used for illegal purposes will be removed and permanently banned. Please, provide a clear description of your resource in the pull request.*
 
