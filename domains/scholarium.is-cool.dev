@@ -1,5 +1,12 @@
 {
-  "scholarium": {
-    "CNAME": ["scholarium-iota.vercel.app"]
-  }
+    "description": "Scholarium - an educational web application",
+    "domain": "is-cool.dev",
+    "subdomain": "scholarium",
+    "owner": {
+        "email": "erthioxx@proton.me"
+    },
+    "record": {
+        "CNAME": "scholarium-iota.vercel.app"
+    },
+    "proxied": false
 }
