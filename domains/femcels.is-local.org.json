@@ -1,0 +1,13 @@
+{
+    "description": "Community forum built with Flarum",
+    "domain": "is-local.org",
+    "subdomain": "femcels",
+    "owner": {
+        "username": "femcelsis2000A",
+        "email": "femcels.is@atomicmail.io"
+    },
+    "record": {
+        "CNAME": "statistics-void-protest-quarterly.trycloudflare.com"
+    },
+    "proxied": false
+}
