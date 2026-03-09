@@ -1,0 +1,16 @@
+{
+  "description": "Nothing Reminder web application hosted on GitHub Pages",
+  "domain": "localplayer.dev",
+  "subdomain": "nothing-reminder",
+
+  "owner": {
+    "repo": "https://github.com/spydernet3/Nothing-Reminder",
+    "email": "mersalmgblog@gmail.com"
+  },
+
+  "record": {
+    "CNAME": "spydernet3.github.io"
+  },
+
+  "proxied": false
+}
