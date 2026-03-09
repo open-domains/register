@@ -1,0 +1,14 @@
+{
+  "description": "Mobile-first browser Copilot app powered by the GitHub Copilot SDK for chat, PWA install, and notifications.",
+  "domain": "is-a-fullstack.dev",
+  "subdomain": "browser-copilot",
+  "owner": {
+    "username": "anitigravitylab-oss"
+  },
+  "record": {
+    "A": [
+      "160.251.168.124"
+    ]
+  },
+  "proxied": true
+}
