@@ -1,0 +1,39 @@
+{
+    "description": "Personal Self Hosted Apps and maybe, not sure a mail server.",
+    "domain": "is-cool.dev",
+    "subdomain": "tujo",
+
+    "owner": {
+        "discord": "its_tujo"
+        "github":"https://github.com/its-tujo/"
+        "email": "its.tujo@gmail.com"
+    },
+
+    "record": {
+        "A": [""],
+        "AAAA": [""],
+        "CNAME": "",
+        "MX": [
+            { "name": "tujo", "priority": 2, "value": "route3.mx.cloudflare.net" },
+            { "name": "tujo", "priority": 69, "value": "route2.mx.cloudflare.net" },
+            { "name": "tujo", "priority": 86, "value": "route1.mx.cloudflare.net" }
+              ]
+        "TXT": [
+            { "name": "tujo", "value": "v=spf1 include:_spf.mx.cloudflare.net ~all" },
+            { "name": "cf2024-1._domainkey.tujo", "value": "v=DKIM1; h=sha256; k=rsa; p=MIIBIjANBgkqhkiG9w0BAQEFAAOCAQ8AMIIBCgKCAQEAiweykoi+o48IOGuP7GR3X0MOExCUDY/BCRHoWBnh3rChl7WhdyCxW3jgq1daEjPPqoi7sJvdg5hEQVsgVRQP4DcnQDVjGMbASQtrY4WmB1VebF+RPJB2ECPsEDTpeiI5ZyUAwJaVX7r6bznU67g7LvFq35yIo4sdlmtZGV+i0H4cpYH9+3JJ78km4KXwaf9xUJCWF6nxeD+qG6Fyruw1Qlbds2r85U9dkNDVAS3gioCvELryh1TxKGiVTkg4wqHTyHfWsp7KD3WQHYJn0RyfJJu6YEmL77zonn7p2SRMvTMP3ZEXibnC9gz3nnhR6wcYL8Q7zXypKTMD58bTixDSJwIDAQAB" }
+               ]
+        "CAA": [
+            { "flags": 0, "tag": "issue", "value": "letsencrypt.org" },
+            { "flags": 0, "tag": "issuewild", "value": "letsencrypt.org" },
+            { "flags": 0, "tag": "issuewild", "value": "sectigo.com" },
+            { "flags": 0, "tag": "issue", "value": "comodoca.com" },
+            { "flags": 0, "tag": "issue", "value": "cloudflare.com" },
+            { "flags": 0, "tag": "issuewild", "value": "cloudflare.com" },
+        ],
+        "SRV": [
+        ]
+       "NS": ["alice.ns.cloudflare.com", "rick.ns.cloudflare.com"]
+    },
+
+    "proxied": true
+}
