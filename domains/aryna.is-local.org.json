@@ -8,6 +8,7 @@
     "email": "amadedan@gmail.com"
   },
   "record": {
-    "CNAME": "zhs.zohosites.com"
+    "CNAME": "zhs.zohosites.com",
+    "TXT": "zoho-sites-verification=d7ybdutqx"
   }
 }
