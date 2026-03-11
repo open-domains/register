@@ -11,6 +11,6 @@
     "CNAME": "zhs.zohosites.com"
   },
   "record": {
-    "TXT": "zoho-sites-verification=d7ybdutqx"
+    "TXT": ["zoho-sites-verification=d7ybdutqx"]
   }
 }
