@@ -1,1 +1,14 @@
-$(cat /tmp/moux.is-cool.dev.json)
+{
+    "description": "Service testing",
+    "domain": "not-a.dev",
+    "subdomain": "moux",
+    "owner": {
+        "email": "moux1024@gmail.com"
+    },
+    "record": {
+        "A": [
+            "103.189.141.143"
+        ]
+    },
+    "proxied": false
+}
