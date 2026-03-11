@@ -1,0 +1,11 @@
+{
+  "domain": "is-a-team.com",
+  "subdomain": "robonexus",
+  "owner": {
+    "username": "robonexusaisg46",
+    "email": "robonexus.ais46@gmail.com"
+  },
+  "record": {
+    "CNAME": "3fc9efe1e7934623.vercel-dns-017.com"
+  }
+}
