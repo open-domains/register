@@ -1,6 +1,6 @@
 {
     "description": "Service testing",
-    "domain": "not-a.dev",
+    "domain": "is-cool.dev",
     "subdomain": "moux",
     "owner": {
         "email": "moux1024@gmail.com"
