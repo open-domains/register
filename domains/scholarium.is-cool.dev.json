@@ -1,0 +1,12 @@
+{
+    "description": "Scholarium - an educational web application completely free to use",
+    "domain": "is-cool.dev",
+    "subdomain": "scholarium",
+    "owner": {
+        "email": "erthioxx@proton.me"
+    },
+    "record": {
+        "CNAME": "scholarium-iota.vercel.app"
+    },
+    "proxied": false
+}

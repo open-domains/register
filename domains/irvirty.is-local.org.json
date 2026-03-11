@@ -1,0 +1,13 @@
+{
+    "description": "Homepage and Projects",
+    "domain": "is-local.org",
+    "subdomain": "irvirty",
+    "owner": {
+        "repo": "https://github.com/irvirty/irvirty.pages.dev",
+        "email": "irvirty@gmail.com"
+    },
+    "record": {
+        "CNAME": "irvirty.pages.dev"
+    },
+    "proxied": false
+}
