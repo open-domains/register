@@ -3,7 +3,8 @@
     "domain": "is-cool.dev",
     "subdomain": "moux",
     "owner": {
-        "email": "moux1024@gmail.com"
+        "email": "moux1024@gmail.com",
+        "repo": "https://github.com/moux1024/miniprogram-server"
     },
     "record": {
         "A": [
