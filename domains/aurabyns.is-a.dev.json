@@ -1,0 +1,12 @@
+{
+  "owner": {
+    "username": "nanosmartBYPRINCEDAS",
+    "email": "nanosmart.co.in@gmail.com"
+  },
+  "records": {
+    "CNAME": "cname.vercel-dns.com",
+    "TXT": [
+      "vc-domain-verify=58f26cc197c2aaf99fe2"
+    ]
+  }
+}
