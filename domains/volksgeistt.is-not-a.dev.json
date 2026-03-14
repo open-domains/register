@@ -1,0 +1,12 @@
+{
+    "description": "domain for a simple portfolio web.",
+    "domain": "is-not-a.dev",
+    "subdomain": "volksgeistt",
+    "owner": {
+        "email": "exrmaniac@gmail.com"
+    },
+    "record": {
+        "CNAME": "volksgeistt-new.netlify.app"
+    },
+    "proxied": false
+}
