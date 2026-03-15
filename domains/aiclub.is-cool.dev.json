@@ -1,4 +1,6 @@
 {
+    "domain": "is-cool.dev",
+    "subdomain": "aiclub",
     "description": "AI Command Center — Coding Club, IIT Delhi Abu Dhabi",
     "repo": "https://github.com/lakshanmuruganandam/AI-CLUB-PLATFORM",
     "owner": {
