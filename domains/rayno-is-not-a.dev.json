@@ -1,0 +1,12 @@
+{
+    "description": "Domain for my WHM server",
+    "domain": "is-not-a.dev",
+    "subdomain": "rayno",
+    "owner": {
+        "email": "kurzmahdy10@gmail.com"
+    },
+    "record": {
+        "A": ["172.93.120.134"]
+    },
+    "proxied": false
+}
