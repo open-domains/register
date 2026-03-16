@@ -2,7 +2,7 @@
     "domain": "is-cool.dev",
     "subdomain": "whisky",
     "owner": {
-        "email": " vyrlfhapsk@cross.edu.pl"
+        "email": "vyrlfhapsk@cross.edu.pl"
     },
     "record": {
         "CNAME": "whskbioacc.github.io"
