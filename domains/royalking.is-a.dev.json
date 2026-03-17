@@ -1,8 +1,9 @@
 {
   "domain": "royalking",
+  "subdomain": "royalking",
   "owner": {
     "username": "poemlady22-lab",
-    "email": "poem.lady22@gmail.com"
+    "email": "your-email@gmail.com"
   },
   "record": {
     "CNAME": "poemlady22-lab.github.io"
