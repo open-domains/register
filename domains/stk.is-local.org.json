@@ -9,7 +9,7 @@
     },
 
     "record": {
-        "CNAME": ["stk.servegame.com"]
+        "CNAME": "stk.servegame.com"
       
     },
 
