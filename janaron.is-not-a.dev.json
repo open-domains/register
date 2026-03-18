@@ -1,15 +1,15 @@
 {
-    "description": "Personal subdomain - no website yet, will add later",
+    "description": "Personal subdomain - placeholder page for now, real site coming soon",
     "domain": "is-not-a.dev",
     "subdomain": "janaron",
 
     "owner": {
-        "repo": "https://github.com/janaronfajardo",
+        "repo": "https://github.com/janaronfajardo/coming-soon",
         "email": "janaronfajardo65@gmail.com"
     },
 
     "record": {
-        "A": ["127.0.0.1"]
+        "CNAME": ["janaronfajardo.github.io"]
     },
 
     "proxied": false
