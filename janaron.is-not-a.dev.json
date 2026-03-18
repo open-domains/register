@@ -1,0 +1,16 @@
+{
+    "description": "Personal subdomain - no website yet, will add later",
+    "domain": "is-not-a.dev",
+    "subdomain": "janaron",
+
+    "owner": {
+        "repo": "https://github.com/janaronfajardo",
+        "email": "janaronfajardo65@gmail.com"
+    },
+
+    "record": {
+        "A": ["127.0.0.1"]
+    },
+
+    "proxied": false
+}
