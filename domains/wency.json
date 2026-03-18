@@ -1,0 +1,14 @@
+{
+  "domain": "is-a.dev",
+  "subdomain": "wency",
+  "owner": {
+    "username": "wency01x",
+    "email": "wencywego21@gmail.com"
+  },
+  "record": [
+    {
+      "type": "CNAME",
+      "value": "wency01x.github.io"
+    }
+  ]
+}
