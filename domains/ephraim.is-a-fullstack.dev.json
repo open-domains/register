@@ -1,0 +1,12 @@
+{
+    "domain": "is-a-fullstack.dev",
+    "subdomain": "ephraim",
+    "records": {
+        "CNAME": "ephraimgregory41-hue.github.io"
+    },
+    "owner": {
+        "username": "ephraimgregory41-hue",
+        "email": "your-email@example.com"
+    }
+}
+
