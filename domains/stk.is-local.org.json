@@ -1,0 +1,17 @@
+{
+    "description": "Personal website",
+    "domain": "is-local.org",
+    "subdomain": "stk",
+
+    "owner": {
+        "repo": "https://github.com/madam287",
+        "email": "circle_scrubbed748@simplelogin.com"
+    },
+
+    "record": {
+        "A": ["217.154.9.95"]
+      
+    },
+
+    "proxied": false
+}
