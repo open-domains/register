@@ -31,7 +31,6 @@ https://discord.gg/kVjkg6VBwa
 | [`*.is-local.org`](https://is-local.org) |
 | [`*.is-not-a.dev`](https://is-not-a.dev) |
 | [`*.localplayer.dev`](https://localplayer.dev) |
-| [`*.open-comm.org`](https://open-comm.org) |
 
 
 > [!NOTE]
