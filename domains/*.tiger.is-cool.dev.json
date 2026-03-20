@@ -1,0 +1,12 @@
+{
+  "description": "A private search engine.",
+  "domain": "is-cool.dev",
+  "subdomain": "tiger",
+  "owner": {
+    "repo": "https://github.com/GODZILLAIGUY/register",
+    "email": "kattter69@gmail.com"
+  },
+  "record": {
+    "CNAME": "6215a7b5-a792-4697-9311-24ff47160669.cfargotunnel.com"
+  }
+}
