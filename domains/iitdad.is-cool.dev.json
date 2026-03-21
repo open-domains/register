@@ -1,0 +1,13 @@
+{
+      "description": "IIT Delhi Abu Dhabi — AI Club and student projects hub",
+      "domain": "is-cool.dev",
+      "subdomain": "iitdad",
+      "owner": {
+          "repo": "https://github.com/lakshanmuruganandam/LOGINDEMOS",
+          "email": "25a1eenb0061@iitdabudhabi.ac.ae"
+      },
+      "record": {
+          "CNAME": "cname.vercel-dns.com"
+      },
+      "proxied": false
+}
