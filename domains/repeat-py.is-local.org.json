@@ -1,0 +1,12 @@
+{
+    "description": "Python file for repeating sentence",
+    "domain": "is-local.org",
+    "subdomain": "repeat-py",
+    "owner": {
+        "repo": "https://github.com/HiFirsty999/repeat.py",
+        "email": "firsty.ph@gmail.com"
+    },
+    "record": {
+        "CNAME": "hifirsty999.github.io"
+    }
+}
