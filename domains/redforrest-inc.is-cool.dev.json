@@ -1,0 +1,20 @@
+{
+    "description": "Personal dev playground for experimenting with Streamlit Python App. Focusing to simcompanies web game, Not production-critical.",
+    "domain": "is-cool.dev",
+    "subdomain": "redforrest-inc",
+
+    "owner": {
+        "email": "arman05ridho@gmail.com"
+    },
+
+    "record": {
+        "A": ["8.215.201.251"],
+        "TXT": [
+            "purpose=personal-dev-playground",
+            "note=non-commercial",
+            "env=testing"
+        ]
+    },
+
+    "proxied": false
+}
