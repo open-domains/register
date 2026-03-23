@@ -72,7 +72,7 @@ https://discord.gg/kVjkg6VBwa
 ### Manual
 1. **Star** and **[Fork](https://github.com/open-domains/register/fork)** this repository.
 2. Add a new file called `example.domain.json` in the `/domains` folder to register `example` subdomain.
-3. Edit the file name. It should be in the format that the domain comes in. Example, `testing1.is-a-local.org.json` to register `testing.is-a-local.org`.
+3. Edit the file name. It should be in the format that the domain comes in. Example, `testing.is-a-local.org.json` to register `testing.is-a-local.org`.
 4. Edit the file (below is just an **example**, provide a **valid** JSON file with your needs, the format is very strict. These records should not show up inside your file.
 5. Make sure to fill out all information required in the pull request template.
 

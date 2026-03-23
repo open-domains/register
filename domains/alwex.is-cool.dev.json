@@ -1,0 +1,13 @@
+{
+    "description": "AlwexMessenger – E2E encrypted messenger",
+    "domain": "is-cool.dev",
+    "subdomain": "alwex",
+    "owner": {
+        "repo": "https://github.com/alwex0920",
+        "email": "alwextt@gmail.com"
+    },
+    "record": {
+        "CNAME": "alwexmessenger.vercel.app"
+    },
+    "proxied": false
+}
