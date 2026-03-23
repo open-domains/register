@@ -1,7 +1,7 @@
 {
     "description": "Subdomain for applications accessed via cloudflare tunnels",
     "domain": "is-a-fullstack.dev",
-    "subdomain": "*.bedoservers",
+    "subdomain": "bedoservers",
     "owner": {
         "email": "bedoeissa0@gmail.com"
     },
