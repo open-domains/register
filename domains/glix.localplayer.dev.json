@@ -1,0 +1,10 @@
+{
+  "domain": "localplayer.dev",
+  "subdomain": "glix",
+  "owner": {
+    "username": "melnykk-dev"
+  },
+  "record": {
+    "CNAME": "glix-psi.vercel.app"
+  }
+}

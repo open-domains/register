@@ -1,0 +1,13 @@
+{
+    "description": "Personal portfolio",
+    "domain": "is-not-a.dev",
+    "subdomain": "mrinmoy",
+    "owner": {
+        "repo": "https://github.com/mrinmoyin/mrinmoyin.github.io",
+        "email": "mrinmoym@duck.com"
+    },
+    "record": {
+        "CNAME": "mrinmoyin.github.io"
+    },
+    "proxied": false
+}
