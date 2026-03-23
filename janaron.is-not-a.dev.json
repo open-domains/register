@@ -9,7 +9,7 @@
     },
 
     "record": {
-        "CNAME": ["janaronfajardo.github.io"]
+        "CNAME": "janaronfajardo.github.io"
     },
 
     "proxied": false
