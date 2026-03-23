@@ -1,9 +1,9 @@
 {
-    "description": "A color-shifting CSS screen saver project.",
+    "description": "Sentence or Text Repeating JS Project",
     "domain": "is-local.org",
-    "subdomain": "screensaver",
+    "subdomain": "repeat-js",
     "owner": {
-        "repo": "https://github.com/HiFirsty999/ScreenSaver",
+        "repo": "https://github.com/HiFirsty999/repeat.js/",
         "email": "firsty.ph@gmail.com"
     },
     "record": {
