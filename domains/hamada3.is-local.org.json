@@ -1,0 +1,16 @@
+{
+    "description": "Personal website",
+    "domain": "is-local.org",
+    "subdomain": "hamada3",
+
+    "owner": {
+        "repo": "https://github.com/taqueci/nomoney",
+        "email": "8342349+taqueci@users.noreply.github.com"
+    },
+
+    "record": {
+        "A": ["202.172.26.12"]
+    },
+
+    "proxied": true
+}
