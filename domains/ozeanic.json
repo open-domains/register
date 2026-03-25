@@ -1,0 +1,12 @@
+{
+  "subdomain": "ozeanic",
+  "domain": "is-a.dev",
+  "owner": "ozeanic",
+  "records": [
+    {
+      "type": "A",
+      "name": "@",
+      "value": "1.2.3.4"
+    }
+  ]
+}
