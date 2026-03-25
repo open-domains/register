@@ -1,0 +1,11 @@
+{
+  "description": "My personal site",
+  "repo": "https://github.com/ozeanic/ozeanic.github.io",
+  "owner": {
+    "username": "ozeanic",
+    "email": "jokuhintti9@gmail.com"
+  },
+  "record": {
+    "CNAME": "ozeanic.github.io"
+  }
+}
