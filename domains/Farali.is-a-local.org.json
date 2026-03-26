@@ -10,6 +10,8 @@
 
     "record": {
         "CNAME": "shanrayeguzman0.github.io",
-    "proxied": false
+
+    },
+      "proxied": false  
 }
 
