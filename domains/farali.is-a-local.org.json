@@ -2,15 +2,11 @@
     "description": "school project purposes",
     "domain": "is-a-local.org",
     "subdomain": "farali",
-
     "owner": {
         "repo": "https://github.com/shanrayeguzman0/farali.github.io",
-        "email": "shanrayeguzman0@gmail.com",
+        "email": "shanrayeguzman0@gmail.com"
     },
-
-    "record": {
-        "CNAME": "shanrayeguzman0.github.io",
-
-    }, 
+    "records": {
+        "CNAME": ["shanrayeguzman0.github.io"]
+    }
 }
-
