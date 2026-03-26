@@ -8,11 +8,22 @@
     },
     "record": {
         "A": ["216.198.79.1"],
-        "MX": ["feedback-smtp.eu-west-1.amazonses.com"],
-        "TXT": [
-            "v=spf1 include:amazonses.com ~all",
-            "p=MIGfMA0GCSqGSIb3DQEBAQUAA4GNADCBiQKBgQDTfgufWo/j0npyMlI6c1UcCPNE9TB7yHGxHE6+4eQjJqskdtbperFVHSNhLxHH+c3oxqz6fi0hbB14tPAsgw+P+sUvptOGFmnSVbKAHgDmTnYyg1GL2+SypUPz1QcDJpwAg/EZBcv0PeEeX31GHR1f+N8DqcWzUxFmXcoI/r9B7QIDAQAB"
-        ]
+        "MX": ["10 inbound-smtp.eu-north-1.amazonaws.com"],
+        "sbxzw3iomhuvv65fstqjxx7hynnhn4nh._domainkey": {
+            "CNAME": "sbxzw3iomhuvv65fstqjxx7hynnhn4nh.dkim.amazonses.com"
+        },
+        "vb2mc6o56rnb7gbvysgh6iaiczbuqg7s._domainkey": {
+            "CNAME": "vb2mc6o56rnb7gbvysgh6iaiczbuqg7s.dkim.amazonses.com"
+        },
+        "kksojbbfu4eirovqyntxi6mqprcu67ym._domainkey": {
+            "CNAME": "kksojbbfu4eirovqyntxi6mqprcu67ym.dkim.amazonses.com"
+        },
+        "plunk": {
+            "record": {
+                "MX": ["10 feedback-smtp.eu-north-1.amazonses.com"],
+                "TXT": ["v=spf1 include:amazonses.com ~all"]
+            }
+        }
     },
     "proxied": false
 }
