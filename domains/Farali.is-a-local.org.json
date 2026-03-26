@@ -5,13 +5,12 @@
 
     "owner": {
         "repo": "https://github.com/shanrayeguzman0/farali.github.io",
-        "email": "shanrayeguzman0@gmail.com"
+        "email": "shanrayeguzman0@gmail.com",
     },
 
     "record": {
         "CNAME": "shanrayeguzman0.github.io",
 
-    },
-      "proxied": false  
+    }, 
 }
 
