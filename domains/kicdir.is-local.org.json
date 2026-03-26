@@ -1,0 +1,15 @@
+{
+    "description": "KI CDIR CTF platform for hands-on cybersecurity challenges and training labs.",
+    "domain": "is-local.org",
+    "subdomain": "kicdir",
+
+    "owner": {
+        "email": "yogesh.shelke555@gmail.com"
+    },
+
+    "record": {
+        "A": ["35.154.183.179"]
+    },
+
+    "proxied": false
+}
