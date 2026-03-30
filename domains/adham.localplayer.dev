@@ -1,0 +1,25 @@
+{
+  "description": "Adham personal website with email forwarding for my portfolio and educational puropses",
+  "domain": "localplayer.dev",
+  "subdomain": "adham",
+
+  "owner": {
+    "repo": "https://github.com/MYth0712/Myth0712.github.io",
+    "email": "adhamskola2007@gmail.com"
+  },
+
+  "record": {
+    "CNAME": "MYth0712.github.io",
+
+    "MX": [
+      "mx1.improvmx.com",
+      "mx2.improvmx.com"
+    ],
+
+    "TXT": [
+      "v=spf1 include:spf.improvmx.com ~all"
+    ]
+  },
+
+  "proxied": true
+}
