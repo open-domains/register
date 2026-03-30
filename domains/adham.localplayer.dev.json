@@ -1,5 +1,5 @@
 {
-  "description": "Adham personal website with email forwarding for my portfolio and educational puropses",
+  "description": "Adham GitHub Pages site",
   "domain": "localplayer.dev",
   "subdomain": "adham",
 
@@ -9,16 +9,7 @@
   },
 
   "record": {
-    "CNAME": "MYth0712.github.io",
-
-    "MX": [
-      "mx1.improvmx.com",
-      "mx2.improvmx.com"
-    ],
-
-    "TXT": [
-      "v=spf1 include:spf.improvmx.com ~all"
-    ]
+    "CNAME": "MYth0712.github.io"
   },
 
   "proxied": true
