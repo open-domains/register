@@ -1,0 +1,11 @@
+{
+    "description": "MA | Portfolio",
+    "domain": "is-not-a.dev",
+    "subdomain": "avramare",
+    "owner": {
+        "repo": "https://github.com/avramare/register-cool-domain.git",
+        "email": "4stralny@proton.me"
+    },
+    "proxied": false
+}
+
