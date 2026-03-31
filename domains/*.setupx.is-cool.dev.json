@@ -1,13 +1,13 @@
 {
-  "description": "Wildcard subdomains for setupx",
+  "description": "Wildcard subdomains for aydigi",
   "domain": "is-cool.dev",
   "subdomain": "*.setupx",
   "owner": {
-    "repo": "https://github.com/your-username/your-repo",
-    "email": "your-email@example.com"
+    "repo": "https://github.com/aydigi/setupx",
+    "email": "anshulyadavay@outlook.com"
   },
   "record": {
-    "CNAME": "your-domain.com"
+    "CNAME": "cname.vercel-dns.com"
   },
   "proxied": true
 }
