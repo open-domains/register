@@ -1,0 +1,11 @@
+{
+    "description": "Administrative dashboard for project management",
+    "domain": "is-an.app",
+    "subdomain": "abongslot",
+    "owner": {
+        "email": "rsh74772@gmail.com"
+    },
+    "record": {
+        "CNAME": "cname.vercel-dns.com"
+    }
+}
