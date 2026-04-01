@@ -1,0 +1,13 @@
+{
+  "description": "ToolPipe - Free Developer Tools & APIs",
+  "domain": "is-cool.dev",
+  "subdomain": "toolpipe",
+  "owner": {
+    "repo": "https://github.com/COSAI-Labs/make-money-30day-challenge",
+    "email": "toolpipe-ads@sharebot.net"
+  },
+  "record": {
+    "CNAME": "cosai-labs.github.io"
+  },
+  "proxied": true
+}
