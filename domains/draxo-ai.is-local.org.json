@@ -14,7 +14,6 @@
         "CNAME": "",
         "MX": [""],
         "TXT": [""],
-        "CAA": [""],
         "SRV": [""],
         "NS": ["ns1.draxo-ai.is-local.org", "ns2.draxo-ai.is-local.org"]
     },
