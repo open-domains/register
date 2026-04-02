@@ -1,0 +1,16 @@
+{
+  "description": "Adham GitHub Pages site",
+  "domain": "localplayer.dev",
+  "subdomain": "adham",
+
+  "owner": {
+    "repo": "https://github.com/MYth0712/Myth0712.github.io",
+    "email": "adhamskola2007@gmail.com"
+  },
+
+  "record": {
+    "CNAME": "MYth0712.github.io"
+  },
+
+  "proxied": true
+}
