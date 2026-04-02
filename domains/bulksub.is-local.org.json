@@ -1,0 +1,13 @@
+{
+    "description": "Website email waitlist with Google Sheets",
+    "domain": "is-local.org",
+    "subdomain": "bulksub",
+    "owner": {
+        "repo": "https://github.com/maxim-lkc198",
+        "email": "email_cua_ban@gmail.com"
+    },
+    "record": {
+        "CNAME": "bulksub.github.io"
+    },
+    "proxied": false
+}
