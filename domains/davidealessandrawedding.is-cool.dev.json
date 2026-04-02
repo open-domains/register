@@ -1,0 +1,11 @@
+{
+  "description": "Wedding website of Davide and Alessandra",
+  "repo": "https://github.com/davideddf-del/MatrimonioDavide-Alessandra",
+  "owner": {
+    "username": "davideddf-del",
+    "email": "davideddf@gmail.com"
+  },
+  "record": {
+    "CNAME": "davideddf-del.github.io"
+  }
+}
