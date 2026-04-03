@@ -1,0 +1,14 @@
+{
+  "description": "Hoabinhan Blog",
+  "domain": "is-local.org",
+  "subdomain": "hoabinhan",
+  "owner": {
+    "email": "phamhuy361995@gmail.com"
+  },
+  "record": {
+    "A": [
+      "103.130.216.82"
+    ],
+  },
+  "proxied": false
+}
