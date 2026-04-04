@@ -1,0 +1,16 @@
+{
+    "description": "Austin's personal portfolio",
+    "domain": "is-cool.dev",
+    "subdomain": "austin",
+
+    "owner": {
+        "repo": "https://github.com/abdulrahman-26",
+        "email": "austiin_griffin@proton.me"
+    },
+
+    "record": {
+        "CNAME": "cname.vercel-dns.com"
+    },
+
+    "proxied": false
+}
