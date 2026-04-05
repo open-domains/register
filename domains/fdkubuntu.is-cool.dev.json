@@ -1,0 +1,13 @@
+{
+  "description": "GitHub Pages site for fdkubuntu.",
+  "domain": "is-cool.dev",
+  "subdomain": "fdkubuntu",
+  "owner": {
+    "repo": "https://github.com/fdkubuntu/fdkubuntu.github.io",
+    "email": "fdkubuntu@gmail.com"
+  },
+  "record": {
+    "CNAME": "fdkubuntu.github.io"
+  },
+  "proxied": true
+}
