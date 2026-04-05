@@ -1,0 +1,13 @@
+{
+  "description": "Personal website redirect/domain for fdkgenie WordPress site hosted behind Cloudflare DNS.",
+  "domain": "is-cool.dev",
+  "subdomain": "fdkgenie",
+  "owner": {
+    "repo": "https://github.com/fdkgenie/register-open-domains",
+    "email": "fdkgenie@gmail.com"
+  },
+  "record": {
+    "CNAME": "cuongphd.wordpress.com"
+  },
+  "proxied": true
+}
