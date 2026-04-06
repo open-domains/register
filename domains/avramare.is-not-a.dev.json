@@ -6,6 +6,9 @@
         "repo": "https://github.com/avramare/register-cool-domain.git",
         "email": "4stralny@proton.me"
     },
+    "record": {
+        "CNAME": "cname.vercel-dns-017.com."
+    },
     "proxied": false
 }
 
