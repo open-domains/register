@@ -1,0 +1,13 @@
+{
+  "description": "Wedding website of Davide and Alessandra",
+  "domain": "is-cool.dev",
+  "subdomain": "davidealessandrawedding",
+  "owner": {
+    "repo": "https://github.com/davideddf-del/MatrimonioDavide-Alessandra",
+    "email": "davideddf@gmail.com"
+  },
+  "record": {
+    "CNAME": "davideddf-del.github.io"
+  },
+  "proxied": false
+}

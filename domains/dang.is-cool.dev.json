@@ -1,0 +1,13 @@
+{
+  "description": "ChanhDang — Developer Portfolio & Music Platform",
+  "domain": "is-cool.dev",
+  "subdomain": "dang",
+  "owner": {
+    "repo": "https://github.com/chanhdangcom/chanhdang.com",
+    "email": "chanhdang@penphy.edu.vn"
+  },
+  "record": {
+    "A": ["216.198.79.1"]
+  },
+  "proxied": false
+}
