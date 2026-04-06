@@ -1,0 +1,13 @@
+{
+  "description": "Blip - a barebones Twitter alternative",
+  "domain": "is-cool.dev",
+  "subdomain": "blip",
+  "owner": {
+    "repo": "https://github.com/pradeepmalar/blip",
+    "email": "pradeepmalarvannan1008@gmail.com"
+  },
+  "record": {
+    "CNAME": "e8b1f4bccc9e0569.vercel-dns-017.com"
+  },
+  "proxied": false
+}
