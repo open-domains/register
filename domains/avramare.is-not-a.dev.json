@@ -7,7 +7,7 @@
         "email": "4stralny@proton.me"
     },
     "record": {
-        "A": ["76.76.21.21"],
+        "A": ["76.76.21.21"]
     },
     "proxied": false
 }
