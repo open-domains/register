@@ -1,0 +1,17 @@
+{
+    "description": "Web App for Mindful Journaling. Mindful Moments - A mental wellness web application for tracking moods, journaling, setting goals, and building healthy habits — powered by AI insights.",
+    "domain": "is-cool.dev",
+    "subdomain": "send.mindful",
+
+    "owner": {
+        "repo": "https://github.com/kakkartushar1/gentle-git-tweak",
+        "email": "kakkar.tushar1@gmail.com"
+    },
+
+    "record": {
+        "MX": ["feedback-smtp.eu-west-1.amazonses.com"],
+        "TXT": ["v=spf1 include:amazonses.com ~all"]
+    },
+
+    "proxied": false
+}
