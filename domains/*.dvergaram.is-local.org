@@ -1,0 +1,12 @@
+{
+  "description": "Wildcard for some inner projects and other public projects I'll be displaying in the main site",
+  "domain": "is-local.org",
+  "subdomain": "*.dvergaram",
+  "owner": {
+    "email": "vergaramartinezdaniel@gmail.com"
+  },
+  "record": {
+    "A": ["148.230.94.112"]
+  },
+  "proxied":  false
+}
