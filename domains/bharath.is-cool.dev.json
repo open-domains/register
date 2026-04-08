@@ -1,12 +1,13 @@
 {
-  "description": "System & Network Engineer Portfolio",
-  "repo": "https://github.com/Abez-B/portfolio-monochrome",
-  "owner": {
-    "username": "Abez-B",
-    "email": "bharathjp02@gmail.com"
-  },
-  "record": {
-    "CNAME": "bharathjp02.vercel.app"
-  },
-  "proxied": false
+    "description": "System & Network Engineer Portfolio",
+    "domain": "is-cool.dev",
+    "subdomain": "bharath",
+    "owner": {
+        "repo": "https://github.com/Abez-B/portfolio-monochrome",
+        "email": "bharathjp02@gmail.com"
+    },
+    "record": {
+        "CNAME": "cname.vercel-dns.com"
+    },
+    "proxied": false
 }
