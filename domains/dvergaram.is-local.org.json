@@ -1,0 +1,11 @@
+{
+  "description": "For my VPS, main site for portfolio",
+  "domain": "is-local.org",
+  "subdomain": "dvergaram",
+  "owner": {
+    "email": "vergaramartinezdaniel@gmail.com"
+  },
+  "record": {
+    "A": ["148.230.94.112"]
+  }
+}
