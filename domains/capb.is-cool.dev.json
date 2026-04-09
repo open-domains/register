@@ -1,0 +1,11 @@
+{
+  "description": "CAPTCHA BOTH website using Google reCAPTCHA and Cloudflare Turnstile",
+  "owner": {
+    "repo": "https://github.com/Aarham-Super/register",
+    "email": "aarhamameen17@gmail.com"
+  },
+  "record": {
+    "CNAME": "capb.pages.dev"
+  },
+  "proxied": true
+}
