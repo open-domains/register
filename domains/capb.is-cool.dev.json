@@ -1,5 +1,7 @@
 {
   "description": "CAPTCHA BOTH website using Google reCAPTCHA and Cloudflare Turnstile",
+  "domain": "is-cool.dev",
+  "subdomain": "capb",
   "owner": {
     "repo": "https://github.com/Aarham-Super/register",
     "email": "aarhamameen17@gmail.com"
