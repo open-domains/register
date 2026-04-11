@@ -1,0 +1,16 @@
+{
+    "description": "LLM Dictionary — A browsable dictionary of 254 LLM and transformer terms",
+    "domain": "is-cool.dev",
+    "subdomain": "llmdict",
+
+    "owner": {
+        "repo": "https://github.com/aditya-pola/llmdict",
+        "email": "aditya.pola@example.com"
+    },
+
+    "record": {
+        "CNAME": "aditya-pola.github.io"
+    },
+
+    "proxied": false
+}
