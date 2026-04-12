@@ -1,0 +1,13 @@
+{
+  "description": "Personal portfolio website hosted on vercel",
+  "domain": "is-cool.dev",
+  "subdomain": "khushi",
+  "owner": {
+    "repo": "https://github.com/khushie09/Khushie",
+    "email": "chetulekhushi@gmail.com"
+  },
+  "record": {
+    "CNAME": "khushie.vercel.app"
+  },
+  "proxied": false
+}
