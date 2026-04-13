@@ -1,0 +1,14 @@
+{
+  "description": "Brian's personal site",
+  "domain": "is-not-a.dev",
+  "subdomain": "brian",
+  "owner": {
+    "repo": "https://github.com/Bryian1125/Bryian1125.github.io",
+    "email": "bryian1125@proton.me"
+  },
+  "record": {
+    "CNAME": "bryian1125.github.io"
+  },
+  "proxied": false
+}
+
