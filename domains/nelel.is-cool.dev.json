@@ -1,0 +1,16 @@
+{
+    "description": "My Northflank project",
+    "domain": "is-cool.dev",
+    "subdomain": "nelel",
+
+    "owner": {
+        "repo": "https://github.com/mokenye/nelel",
+        "email": "davidmokenye@gmail.com"
+    },
+
+    "record": {
+        "CNAME": "n--nelel--7vqh2vrwnq6y.code.run"
+    },
+
+    "proxied": false
+}

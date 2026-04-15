@@ -1,0 +1,16 @@
+{
+    "description": "Northflank domain verification for nelel.is-cool.dev",
+    "domain": "is-cool.dev",
+    "subdomain": "verify-cdl5dw2r1s87xk0w9eieyj73.nelel",
+
+    "owner": {
+        "repo": "https://github.com/mokenye/nelel",
+        "email": "davidmokenye@gmail.com"
+    },
+
+    "record": {
+        "TXT": ["f44df14077bd431075d3a1ec72f040e1f8e47bff521e81b0990d506790b380b7"]
+    },
+
+    "proxied": false
+}
