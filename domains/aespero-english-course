@@ -1,0 +1,16 @@
+{
+    "description": "English course website for learning English",
+    "domain": "is-local.org",
+    "subdomain": "aespero-english-course",
+
+    "owner": {
+        "repo": "https://github.com/Inope83/AESPERO-English-Course",
+        "email": "angelinorosaleslopes1234@gmail.com"
+    },
+
+    "record": {
+        "CNAME": "aespero-english-course.vercel.app"
+    },
+
+    "proxied": true
+}
