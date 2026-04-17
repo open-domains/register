@@ -1,0 +1,17 @@
+{
+  "description": "My own personal portfolio website",
+  "domain": "is-a.dev",
+  "subdomain": "_vercel.cauz",
+
+  "owner":   {
+    "repo": "https://github.com/Ur-cauz/Cauz-Freelance",
+    "email": "urcauzz@gmail.com"
+  },
+
+  "record": {
+    "TXT": ["vc-domain-verify=cauz.is-a.dev,32723470289f6f5048b8"]
+    "A": ["216.198.79.1"]
+  },
+
+  "proxied": false
+}
