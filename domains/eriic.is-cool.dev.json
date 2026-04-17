@@ -1,0 +1,13 @@
+{
+  "description": "Personal portfolio website of Eric",
+  "domain": "is-cool.dev",
+  "subdomain": "eriic",
+  "owner": {
+    "repo": "https://github.com/anu812128/eriic-portfolio",
+    "email": "anu812128@gmail.com"
+  },
+  "record": {
+    "CNAME": "anu812128.github.io"
+  },
+  "proxied": true
+}
