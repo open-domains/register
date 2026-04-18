@@ -1,11 +1,13 @@
 {
-    "description": "INTERNAL TEST",
-    "domain": "is-cool.dev",
-    "subdomain": "migration",
-    "owner": {
-      "email": "andrew@open-domains.net"
-    },
-    "record": {
-      "A": ["153.92.208.196"],
-    }
+   "description":"INTERNAL TEST",
+   "domain":"is-cool.dev",
+   "subdomain":"migration",
+   "owner":{
+      "email":"andrew@open-domains.net"
+   },
+   "record":{
+      "A":[
+         "153.92.208.196"
+      ]
+   }
 }
