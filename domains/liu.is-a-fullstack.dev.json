@@ -1,0 +1,16 @@
+{
+    "description": "Personal Portfolio",
+    "domain": "is-a-fullstack.dev",
+    "subdomain": "liu",
+
+    "owner": {
+        "email": "tony@liuzj.net"
+    },
+
+    "record": {
+        "A": ["176.9.86.61"],
+        "AAAA": ["2a01:4f8:151:2409:0:0:0:2"]
+    },
+
+    "proxied": false
+}
