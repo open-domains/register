@@ -8,8 +8,8 @@
   },
   "record": {
     "NS": [
-      "eleanor.ns.cloudflare.com.",
-      "ken.ns.cloudflare.com."
+      "eleanor.ns.cloudflare.com",
+      "ken.ns.cloudflare.com"
     ]
   }
 }
