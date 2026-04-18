@@ -1,0 +1,15 @@
+{
+    "description": "Paradox's Project",
+    "domain": "localplayer.dev",
+    "subdomain": "pilot",
+    "subdomain": "*.pilot",
+
+    "owner": {
+        "repo": "https://github.com/TheParadoxDev/open-domains",
+        "email": "alphapirates101@gmail.com"
+    },
+
+    "record": {
+        "CNAME": "eleanor.ns.cloudflare.com"
+        "CNAME": "ken.ns.cloudflare.com"
+}
