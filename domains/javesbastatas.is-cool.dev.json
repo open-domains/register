@@ -1,0 +1,16 @@
+{
+    "description": "Personal Website of Javes Agan Bastatas",
+    "domain": "is-cool.dev",
+    "subdomain": "javesbastatas",
+
+    "owner": {
+        "repo": "https://github.com/JavesBastatas/javesbastatas.is-cool.dev",
+        "email": "hello.javesbastatas@proton.me"
+    },
+
+    "record": {
+        "CNAME": "javesbastatas.infinityfree.me"
+    },
+
+    "proxied": false
+}
