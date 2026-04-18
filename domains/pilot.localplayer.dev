@@ -7,7 +7,7 @@
     "email": "alphapirates101@gmail.com"
   },
   "record": {
-    "CNAME": [
+    "NS": [
       "eleanor.ns.cloudflare.com",
       "ken.ns.cloudflare.com"
     ]
