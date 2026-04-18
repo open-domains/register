@@ -11,9 +11,14 @@
 <p align="center">Want to find services similar to this? Take a look on <a href="https://free.hrsn.dev/#/?id=domains">Free For Life</a>.</p>
 
 ## Notice
-NS records are available for donators only. You can donate at: https://donate.stripe.com/cN2eYpaDl4NR21qaEE
 
-## Donate
+THIS SERVICE HAS MIGRATED TO [https://open-domains.com/](https://open-domains.com/)
+
+
+> [!NOTE]
+>  If you already have a domain then login and click migrate from github. If you choose not to migrate then your records will stay active but you will be unable to edit them. 
+
+
 If you like this service and want us to continue running it, please consider donating!
 
 [![PayPal](https://www.paypalobjects.com/en_US/i/btn/btn_donateCC_LG.gif)](https://donate.stripe.com/cN2eYpaDl4NR21qaEE)
@@ -36,12 +41,19 @@ https://discord.gg/kVjkg6VBwa
 > [!NOTE]
 > `open-comm.org` will be shutting down on the  **2026-07-22** due to low usage. 
 
-> [!NOTE]
-> Wildcard domains (like `*.example.is-not-a.dev`) are supported too, but the reason for their registration should be very clear and described in detail.
+
 
 [badge-cf]:https://shields.io/badge/%20-cloudflare-blue?logo=cloudflare&style=plastic?cacheSeconds=3600
 [badge-dnssec]:https://shields.io/badge/%20-DNSSEC-blue?logo=moleculer&logoColor=white&style=plastic?cacheSeconds=3600
 [badge-ssl]:https://shields.io/badge/SSL-Required-blue?style=plastic?cacheSeconds=3600
+
+
+
+
+
+
+
+
 
 ### ⚙️ Settings
 
